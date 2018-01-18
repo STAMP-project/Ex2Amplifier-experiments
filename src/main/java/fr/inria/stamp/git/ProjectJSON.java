@@ -1,3 +1,5 @@
+package fr.inria.stamp.git;
+
 import java.util.List;
 
 /**

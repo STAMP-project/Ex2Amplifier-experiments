@@ -8,9 +8,12 @@ import com.martiansoftware.jsap.JSAPResult;
 import com.martiansoftware.jsap.Switch;
 import edu.emory.mathcs.backport.java.util.Collections;
 import fr.inria.diversify.dspot.DSpot;
+import fr.inria.diversify.dspot.amplifier.StatementAdd;
+import fr.inria.diversify.dspot.amplifier.TestDataMutator;
 import fr.inria.diversify.dspot.selector.ChangeDetectorSelector;
 import fr.inria.diversify.utils.DSpotUtils;
 import fr.inria.diversify.utils.sosiefier.InputConfiguration;
+import fr.inria.stamp.ex2amplifier.Ex2Amplifier;
 import fr.inria.stamp.git.Cloner;
 import fr.inria.stamp.git.ParserPullRequest;
 import fr.inria.stamp.git.ProjectJSON;
@@ -55,7 +58,7 @@ public class Main {
             }
         } else if (jsapConfig.getString("run") != null) {
             try {
-                Main.run(jsapConfig.getString("run"));
+                Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"));
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
@@ -64,18 +67,19 @@ public class Main {
         }
     }
 
-    private static void run(String pathToJsonFile) throws Exception {
+    private static void run(String pathToJsonFile, int id) throws Exception {
         Gson gson = new Gson();
         final ProjectJSON projectJSON =
                 gson.fromJson(new FileReader(pathToJsonFile), ProjectJSON.class);
         final String[] split = pathToJsonFile.split("/");
         String path = "";
-        for (int i = 0 ; i < split.length - 1 ; i ++) {
+        for (int i = 0; i < split.length - 1; i++) {
             path += split[i] + "/";
         }
         final InputConfiguration inputConfiguration = new InputConfiguration(path + projectJSON.name + ".properties");
         inputConfiguration.getProperties().setProperty("configPath", path + projectJSON.name + ".properties");
         projectJSON.pullRequests.stream()
+                .filter(pullRequestJSON -> pullRequestJSON.id == id || id == -1)
                 .forEach(pullRequestJSON -> {
                     inputConfiguration.getProperties().setProperty("project",
                             inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + "/");
@@ -111,7 +115,7 @@ public class Main {
     }
 
     private static void get(String output) {
-        try (BufferedReader buffer = new BufferedReader(new FileReader("dataset/projects"))) {
+        try (BufferedReader buffer = new BufferedReader(new FileReader(output + "/projects"))) {
             buffer.lines().forEach(project -> {
                 LOGGER.info("getting pull request for {}", project);
                 ParserPullRequest.buildPullRequestList(output, project);
@@ -177,6 +181,14 @@ public class Main {
         output.setDefault("target/ex2amplifier_out/");
         output.setHelp("[optional] Specify the output path of the selected task. (default: target/ex2amplifier_out/");
 
+        FlaggedOption idPr = new FlaggedOption("id");
+        idPr.setStringParser(JSAP.INTEGER_PARSER);
+        idPr.setAllowMultipleDeclarations(false);
+        idPr.setShortFlag('i');
+        idPr.setLongFlag("id");
+        idPr.setDefault("-1");
+        idPr.setHelp("[optional] specify a pr ID. If no value is given, it will process all the ids");
+
         try {
             jsap.registerParameter(help);
             jsap.registerParameter(verbose);
@@ -184,6 +196,7 @@ public class Main {
             jsap.registerParameter(clone);
             jsap.registerParameter(run);
             jsap.registerParameter(output);
+            jsap.registerParameter(idPr);
         } catch (JSAPException e) {
             showUsage();
         }

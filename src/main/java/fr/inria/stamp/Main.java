@@ -35,6 +35,8 @@ import java.util.List;
  */
 public class Main {
 
+    private static boolean JBSE = false;
+
     public static boolean verbose = false;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
@@ -46,6 +48,7 @@ public class Main {
     public static void main(String[] args) {
         JSAPResult jsapConfig = options.parse(args);
         Main.verbose = jsapConfig.getBoolean("verbose");
+        JBSE = jsapConfig.getBoolean("JBSE");
         if (jsapConfig.getBoolean("help")) {
             showUsage();
         } else if (jsapConfig.getBoolean("get")) {
@@ -58,7 +61,11 @@ public class Main {
             }
         } else if (jsapConfig.getString("run") != null) {
             try {
-                Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"));
+                if (jsapConfig.getString("testClass").isEmpty()) {
+                    Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"), "");
+                } else {
+                    Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"), jsapConfig.getString("testClass"));
+                }
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
@@ -67,7 +74,7 @@ public class Main {
         }
     }
 
-    private static void run(String pathToJsonFile, int id) throws Exception {
+    private static void run(String pathToJsonFile, int id, String testClassToBeAmplified) throws Exception {
         Gson gson = new Gson();
         final ProjectJSON projectJSON =
                 gson.fromJson(new FileReader(pathToJsonFile), ProjectJSON.class);
@@ -85,16 +92,21 @@ public class Main {
                             inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + "/");
                     inputConfiguration.getProperties().setProperty("folderPath",
                             inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/");
-                    final Ex2Amplifier ex2Amplifier = new Ex2Amplifier(inputConfiguration);
+                    final Ex2Amplifier ex2Amplifier = new Ex2Amplifier(inputConfiguration, JBSE ? Ex2Amplifier.Ex2Amplifier_Mode.JBSE : Ex2Amplifier.Ex2Amplifier_Mode.CATG);
                     final ChangeDetectorSelector changeDetectorSelector = new ChangeDetectorSelector();
                     try {
                         final DSpot dSpot = new DSpot(
                                 inputConfiguration,
-                                1,
-                                Collections.singletonList(ex2Amplifier),
+                                3,
+                                Arrays.asList(new StatementAdd(), ex2Amplifier),
                                 changeDetectorSelector
                         );
-                        final List<CtType> ctTypes = dSpot.amplifyAllTests();
+                        final List<CtType> ctTypes;
+                        if (testClassToBeAmplified.isEmpty()) {
+                            ctTypes = dSpot.amplifyAllTests();
+                        } else {
+                            ctTypes = dSpot.amplifyTest(testClassToBeAmplified);
+                        }
                         System.out.println(ctTypes);
                     } catch (Exception e) {
                         throw new RuntimeException(e);
@@ -158,6 +170,11 @@ public class Main {
                         + LINE_SEPARATOR + "the output is a json file contained in result/.";
         get.setHelp(helpForGet);
 
+        Switch JBSEMode = new Switch("JBSE");
+        JBSEMode.setLongFlag("jbse");
+        JBSEMode.setShortFlag('j');
+        JBSEMode.setHelp("enable de JBSE mode of the Ex2Amplifier");
+
         FlaggedOption clone = new FlaggedOption("clone");
         clone.setStringParser(JSAP.STRING_PARSER);
         clone.setAllowMultipleDeclarations(false);
@@ -189,6 +206,14 @@ public class Main {
         idPr.setDefault("-1");
         idPr.setHelp("[optional] specify a pr ID. If no value is given, it will process all the ids");
 
+        FlaggedOption testClass = new FlaggedOption("testClass");
+        testClass.setStringParser(JSAP.STRING_PARSER);
+        testClass.setAllowMultipleDeclarations(false);
+        testClass.setShortFlag('t');
+        testClass.setLongFlag("testClass");
+        testClass.setDefault("");
+        idPr.setHelp("[optional] specify the full qualified name of test class to be amplified");
+
         try {
             jsap.registerParameter(help);
             jsap.registerParameter(verbose);
@@ -197,6 +222,8 @@ public class Main {
             jsap.registerParameter(run);
             jsap.registerParameter(output);
             jsap.registerParameter(idPr);
+            jsap.registerParameter(testClass);
+            jsap.registerParameter(JBSEMode);
         } catch (JSAPException e) {
             showUsage();
         }

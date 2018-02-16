@@ -1,0 +1,15 @@
+{
+  "name": "protostuff",
+  "url": "git://github.com/protostuff/protostuff.git",
+  "pullRequests": [
+    {
+      "id": 185,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "9ff43b421d970e3b0ab8fa4ac7c9b2e7566a1aa7",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "empty-messages",
+      "headSha": "0dc22ff95ac82caac848fd8b8f427f9997c15113"
+    }
+  ]
+}

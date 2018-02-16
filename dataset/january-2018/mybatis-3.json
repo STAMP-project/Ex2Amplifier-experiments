@@ -1,0 +1,24 @@
+{
+  "name": "mybatis-3",
+  "url": "git://github.com/mybatis/mybatis-3.git",
+  "pullRequests": [
+    {
+      "id": 1167,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "e440bfaea37b312b32c522e261c895c8b287e21f",
+      "headUrl": "git://github.com/zhangweidavid/mybatis-3.git",
+      "headRef": "master",
+      "headSha": "c04409b6dbdabe45bd7ffede76914207e5af5828"
+    },
+    {
+      "id": 1187,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "f11e860c42b88a0b611839f2df91261ef1397284",
+      "headUrl": "git://github.com/linjisong/mybatis-3.git",
+      "headRef": "mapper-handler",
+      "headSha": "d218f09f11022bc0fc47e59908563e2e98c4174d"
+    }
+  ]
+}

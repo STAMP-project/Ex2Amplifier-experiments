@@ -92,13 +92,14 @@ public class Main {
                             inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + "/");
                     inputConfiguration.getProperties().setProperty("folderPath",
                             inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/");
-                    final Ex2Amplifier ex2Amplifier = new Ex2Amplifier(inputConfiguration, JBSE ? Ex2Amplifier.Ex2Amplifier_Mode.JBSE : Ex2Amplifier.Ex2Amplifier_Mode.CATG);
+                    final Ex2Amplifier ex2Amplifier = new Ex2Amplifier();
+                    ex2Amplifier.init(inputConfiguration, JBSE ? Ex2Amplifier.Ex2Amplifier_Mode.JBSE : Ex2Amplifier.Ex2Amplifier_Mode.CATG);
                     final ChangeDetectorSelector changeDetectorSelector = new ChangeDetectorSelector();
                     try {
                         final DSpot dSpot = new DSpot(
                                 inputConfiguration,
-                                3,
-                                Arrays.asList(new StatementAdd(), ex2Amplifier),
+                                1,
+                                Arrays.asList(ex2Amplifier),
                                 changeDetectorSelector
                         );
                         final List<CtType> ctTypes;

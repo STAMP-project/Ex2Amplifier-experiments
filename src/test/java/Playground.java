@@ -36,10 +36,11 @@ public class Playground {
     @Test
     public void getByID() throws Exception {
 
-        final String nameOfRepository = "square/javapoet";
+//        final String nameOfRepository = "square/javapoet";
+        final String nameOfRepository = "xwiki/xwiki-rendering";
 //        final String nameOfRepository = "protostuff/protostuff";
 //        final String nameOfRepository = "mybatis/mybatis-3";
-        final int idOfPullRequest = 443;
+        final int idOfPullRequest = 96;
 
         final GitHub gitHub = GitHub.connectAnonymously();
         final GHRepository repository = gitHub.getRepository(nameOfRepository);

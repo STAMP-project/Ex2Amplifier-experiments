@@ -26,8 +26,9 @@ public class Cloner {
             final File outputFile = new File(outputPath);
             final File outputFileModified = new File(outputPath + SUFFIX_VERSION_2);
             if (outputFile.exists()) {
-                FileUtils.forceDelete(outputFile);
-                FileUtils.forceDelete(outputFileModified);
+                return;
+                //FileUtils.forceDelete(outputFile);
+                //FileUtils.forceDelete(outputFileModified);
             }
             clone(pr.baseUrl, pr.baseRef, outputFile);
             clone(pr.headUrl, pr.headRef, outputFileModified);

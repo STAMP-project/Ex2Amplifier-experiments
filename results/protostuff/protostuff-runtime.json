@@ -1,0 +1,17 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "io.protostuff.runtime.AlwaysUseSunReflectionFactoryOptionTest",
+      "timeInMs": 2826
+    },
+    {
+      "fullQualifiedName": "io.protostuff.runtime.AnnotatedFieldsTest",
+      "timeInMs": 4611
+    },
+    {
+      "fullQualifiedName": "io.protostuff.runtime.CollectionTest",
+      "timeInMs": 8268
+    }
+  ],
+  "projectName": "protostuff-runtime"
+}

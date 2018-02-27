@@ -1,0 +1,41 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.xwiki.rendering.internal.parser.xwiki20.XWiki20ImageReferenceParserTest",
+      "timeInMs": 2119
+    },
+    {
+      "fullQualifiedName": "org.xwiki.rendering.internal.parser.xwiki20.XWiki20LinkReferenceParserTest",
+      "timeInMs": 1973
+    },
+    {
+      "fullQualifiedName": "org.xwiki.rendering.internal.renderer.xwiki20.XWikiSyntaxBlockRendererTest",
+      "timeInMs": 1573
+    },
+    {
+      "fullQualifiedName": "org.xwiki.rendering.internal.parser.xwiki20.XWiki20ImageReferenceParserTest",
+      "timeInMs": 2430
+    },
+    {
+      "fullQualifiedName": "org.xwiki.rendering.internal.parser.xwiki20.XWiki20LinkReferenceParserTest",
+      "timeInMs": 2094
+    },
+    {
+      "fullQualifiedName": "org.xwiki.rendering.internal.renderer.xwiki20.XWikiSyntaxBlockRendererTest",
+      "timeInMs": 1890
+    },
+    {
+      "fullQualifiedName": "org.xwiki.rendering.internal.parser.xwiki20.XWiki20ImageReferenceParserTest",
+      "timeInMs": 1961
+    },
+    {
+      "fullQualifiedName": "org.xwiki.rendering.internal.parser.xwiki20.XWiki20LinkReferenceParserTest",
+      "timeInMs": 1780
+    },
+    {
+      "fullQualifiedName": "org.xwiki.rendering.internal.renderer.xwiki20.XWikiSyntaxBlockRendererTest",
+      "timeInMs": 1577
+    }
+  ],
+  "projectName": "xwiki-rendering-syntax-xwiki20"
+}

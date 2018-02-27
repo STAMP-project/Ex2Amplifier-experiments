@@ -1,0 +1,24 @@
+{
+  "name": "xwiki-rendering",
+  "url": "git@github.com:xwiki/xwiki-rendering.git",
+  "pullRequests": [
+    {
+      "id": 1,
+      "baseUrl": "git@github.com:xwiki/xwiki-rendering.git",
+      "baseRef": "master",
+      "baseSha": "7a07febb32c1fb99c97fbfcda5ad6813fd5c78fa",
+      "headUrl": "git@github.com:xwiki/xwiki-rendering.git",
+      "headRef": "master",
+      "headSha": "a9aa3bfb664c672a08de589493e8667e03f67450"
+    },
+    {
+      "id": 96,
+      "baseUrl": "git://github.com/xwiki/xwiki-rendering.git",
+      "baseRef": "master",
+      "baseSha": "1b78b6cf7765b012a543b7772484026eb29e53c1",
+      "headUrl": "git://github.com/gonzaloUr/xwiki-rendering.git",
+      "headRef": "PlainTextBlockFilter",
+      "headSha": "5e4754482fb98e17290e19bcd272b8dfc7319580"
+    }
+  ]
+}

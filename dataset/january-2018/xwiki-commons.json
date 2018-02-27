@@ -1,0 +1,43 @@
+// This json file is built manually since xwiki is not base on pull request.
+{
+  "name": "xwiki-commons",
+  "url": "git@github.com:xwiki/xwiki-commons.git",
+  "pullRequests": [
+    {
+      "id": 1,
+      "baseUrl": "git@github.com:xwiki/xwiki-commons.git",
+      "baseRef": "master",
+      "baseSha": "26a5f83f6dde83e1384a1e29832f84b2dbfaa279",
+      "headUrl": "git@github.com:xwiki/xwiki-commons.git",
+      "headRef": "master",
+      "headSha": "a0e8b778741e6f6aa85c3cd0dbb6a8474641fe03"
+    },
+    {
+      "id": 2,
+      "baseUrl": "git@github.com:xwiki/xwiki-commons.git",
+      "baseRef": "master",
+      "baseSha": "9d3099fcb9f9f558d67828f9acb128fd5b60e979",
+      "headUrl": "git@github.com:xwiki/xwiki-commons.git",
+      "headRef": "master",
+      "headSha": "2969d1e2b3caa7a69d40a91b0fb52c1aeac33ba9"
+    },
+    {
+      "id": 3,
+      "baseUrl": "git@github.com:xwiki/xwiki-commons.git",
+      "baseRef": "master",
+      "baseSha": "4da53938a54d07703156443284c9a98462d8f81c",
+      "headUrl": "git@github.com:xwiki/xwiki-commons.git",
+      "headRef": "master",
+      "headSha": "ae84cd30c5c0ba3e365a61e7699c9b89631ff8e8"
+    },
+    {
+      "id": 4,
+      "baseUrl": "git@github.com:xwiki/xwiki-commons.git",
+      "baseRef": "master",
+      "baseSha": "d840365e0248d6591f8176cd19dd493351d76512",
+      "headUrl": "git@github.com:xwiki/xwiki-commons.git",
+      "headRef": "master",
+      "headSha": "09d455587818e3381554ca0ea87b80fc1487a26a"
+    }
+  ]
+}

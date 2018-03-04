@@ -2,71 +2,11 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 4592
+      "timeInMs": 9281
     },
     {
       "fullQualifiedName": "org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest",
-      "timeInMs": 3155
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 33433
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest",
-      "timeInMs": 2794
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 7142
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 43113
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest",
-      "timeInMs": 7632
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 6487
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest",
-      "timeInMs": 2597
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 6732
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest",
-      "timeInMs": 2667
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 7093
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest",
-      "timeInMs": 2630
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 6858
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest",
-      "timeInMs": 2696
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 11696
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest",
-      "timeInMs": 3077
+      "timeInMs": 3659
     }
   ],
   "projectName": "xwiki-commons-extension-api"

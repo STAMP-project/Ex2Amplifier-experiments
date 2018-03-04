@@ -2,27 +2,7 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.xwiki.diff.internal.DefaultDiffManagerTest",
-      "timeInMs": 11740
-    },
-    {
-      "fullQualifiedName": "org.xwiki.diff.internal.DefaultDiffManagerTest",
-      "timeInMs": 12424
-    },
-    {
-      "fullQualifiedName": "org.xwiki.diff.internal.DefaultDiffManagerTest",
-      "timeInMs": 14111
-    },
-    {
-      "fullQualifiedName": "org.xwiki.diff.internal.DefaultDiffManagerTest",
-      "timeInMs": 16375
-    },
-    {
-      "fullQualifiedName": "org.xwiki.diff.internal.DefaultDiffManagerTest",
-      "timeInMs": 14417
-    },
-    {
-      "fullQualifiedName": "org.xwiki.diff.internal.DefaultDiffManagerTest",
-      "timeInMs": 10982
+      "timeInMs": 11425
     }
   ],
   "projectName": "xwiki-commons-diff-api"

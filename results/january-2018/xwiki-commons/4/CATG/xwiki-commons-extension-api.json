@@ -2,19 +2,11 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 6589
+      "timeInMs": 9323
     },
     {
       "fullQualifiedName": "org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest",
-      "timeInMs": 3952
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.AbstractExtensionTest",
-      "timeInMs": 8316
-    },
-    {
-      "fullQualifiedName": "org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest",
-      "timeInMs": 5346
+      "timeInMs": 3706
     }
   ],
   "projectName": "xwiki-commons-extension-api"

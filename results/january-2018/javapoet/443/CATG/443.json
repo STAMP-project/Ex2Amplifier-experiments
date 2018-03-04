@@ -2,11 +2,7 @@
   "classTimes": [
     {
       "fullQualifiedName": "com.squareup.javapoet.JavaFileTest",
-      "timeInMs": 76445
-    },
-    {
-      "fullQualifiedName": "com.squareup.javapoet.JavaFileTest",
-      "timeInMs": 70213
+      "timeInMs": 69755
     }
   ],
   "projectName": "443"

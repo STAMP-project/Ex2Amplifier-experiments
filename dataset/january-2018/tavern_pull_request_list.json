@@ -1,0 +1,51 @@
+{
+  "name": "tavern",
+  "url": "git://github.com/danglotb/tavern.git",
+  "pullRequests": [
+    {
+      "id": 7,
+      "baseUrl": "git://github.com/danglotb/tavern.git",
+      "baseRef": "pr-2",
+      "baseSha": "9a8a2c1e22f678c4184c226c9fac807a0f90e5ed",
+      "headUrl": "git://github.com/danglotb/tavern.git",
+      "headRef": "pr-1",
+      "headSha": "69d2fc3b4dde8ca7d1a2a25cfe9960e0406c05c1"
+    },
+    {
+      "id": 6,
+      "baseUrl": "git://github.com/danglotb/tavern.git",
+      "baseRef": "pr-1",
+      "baseSha": "69d2fc3b4dde8ca7d1a2a25cfe9960e0406c05c1",
+      "headUrl": "git://github.com/danglotb/tavern.git",
+      "headRef": "pr-2",
+      "headSha": "9a8a2c1e22f678c4184c226c9fac807a0f90e5ed"
+    },
+    {
+      "id": 5,
+      "baseUrl": "git://github.com/danglotb/tavern.git",
+      "baseRef": "master",
+      "baseSha": "9a2366528acaeb0ed7ae109a02e2242c85bab142",
+      "headUrl": "git://github.com/danglotb/tavern.git",
+      "headRef": "pr-2",
+      "headSha": "9a8a2c1e22f678c4184c226c9fac807a0f90e5ed"
+    },
+    {
+      "id": 4,
+      "baseUrl": "git://github.com/danglotb/tavern.git",
+      "baseRef": "master",
+      "baseSha": "9a2366528acaeb0ed7ae109a02e2242c85bab142",
+      "headUrl": "git://github.com/danglotb/tavern.git",
+      "headRef": "pr-1",
+      "headSha": "69d2fc3b4dde8ca7d1a2a25cfe9960e0406c05c1"
+    },
+    {
+      "id": 3,
+      "baseUrl": "git://github.com/danglotb/tavern.git",
+      "baseRef": "master",
+      "baseSha": "9a2366528acaeb0ed7ae109a02e2242c85bab142",
+      "headUrl": "git://github.com/danglotb/tavern.git",
+      "headRef": "error",
+      "headSha": "c6d7228082148bf5c3d676c4ae689118011327c8"
+    }
+  ]
+}

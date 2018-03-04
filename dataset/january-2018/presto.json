@@ -1,0 +1,15 @@
+{
+  "name": "presto",
+  "url": "git://github.com/prestodb/presto.git",
+  "pullRequests": [
+    {
+      "id": 10028,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "2a7787ff11d0c5e6628b748209e507e68aa3c3c3",
+      "headUrl": "git://github.com/shixuan-fan/presto.git",
+      "headRef": "sort",
+      "headSha": "e6c0c2b2ea1da070b0a8cd66ce2add13e39da56f"
+    }
+  ]
+}

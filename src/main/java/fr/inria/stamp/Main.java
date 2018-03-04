@@ -22,9 +22,11 @@ import org.slf4j.LoggerFactory;
 import spoon.reflect.declaration.CtType;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -34,6 +36,8 @@ import java.util.List;
  * on 16/01/18
  */
 public class Main {
+
+    private static boolean onlyAampl = false;
 
     private static boolean JBSE = false;
 
@@ -48,7 +52,8 @@ public class Main {
     public static void main(String[] args) {
         JSAPResult jsapConfig = options.parse(args);
         Main.verbose = jsapConfig.getBoolean("verbose");
-        JBSE = jsapConfig.getBoolean("JBSE");
+        Main.onlyAampl = jsapConfig.getBoolean("aampl");
+        Main.JBSE = jsapConfig.getBoolean("JBSE");
         if (jsapConfig.getBoolean("help")) {
             showUsage();
         } else if (jsapConfig.getBoolean("get")) {
@@ -61,11 +66,19 @@ public class Main {
             }
         } else if (jsapConfig.getString("run") != null) {
             try {
+                final List<CtType> amplifiedTestClasses;
                 if (jsapConfig.getString("testClass").isEmpty()) {
-                    Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"), "");
+                    amplifiedTestClasses = Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"), "");
                 } else {
-                    Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"), jsapConfig.getString("testClass"));
+                    amplifiedTestClasses = Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"), jsapConfig.getString("testClass"));
                 }
+                // TODO assert fixer each test case
+                // We will keep two versions of the same amplified test case: one that pass on the new version and one that fail
+                // it aims a providing in any case, an amplified test case meargeable by developers
+                // if the behavioral change is desired, we keep the version that pass
+                // if the behavioral change is undesired, we keep the version that fail
+                // TODO WARNING, this create a failing test classe
+
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
@@ -74,7 +87,7 @@ public class Main {
         }
     }
 
-    private static void run(String pathToJsonFile, int id, String testClassToBeAmplified) throws Exception {
+    private static List<CtType> run(String pathToJsonFile, int id, String testClassToBeAmplified) throws Exception {
         Gson gson = new Gson();
         final ProjectJSON projectJSON =
                 gson.fromJson(new FileReader(pathToJsonFile), ProjectJSON.class);
@@ -83,36 +96,55 @@ public class Main {
         for (int i = 0; i < split.length - 1; i++) {
             path += split[i] + "/";
         }
-        final InputConfiguration inputConfiguration = new InputConfiguration(path + projectJSON.name + ".properties");
-        inputConfiguration.getProperties().setProperty("configPath", path + projectJSON.name + ".properties");
+
+        final List<CtType> ctTypes = new ArrayList<>();
+        String finalPath = path;
         projectJSON.pullRequests.stream()
                 .filter(pullRequestJSON -> pullRequestJSON.id == id || id == -1)
                 .forEach(pullRequestJSON -> {
-                    inputConfiguration.getProperties().setProperty("project",
-                            inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + "/");
-                    inputConfiguration.getProperties().setProperty("folderPath",
-                            inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/");
-                    final Ex2Amplifier ex2Amplifier = new Ex2Amplifier();
-                    ex2Amplifier.init(inputConfiguration, JBSE ? Ex2Amplifier.Ex2Amplifier_Mode.JBSE : Ex2Amplifier.Ex2Amplifier_Mode.CATG);
-                    final ChangeDetectorSelector changeDetectorSelector = new ChangeDetectorSelector();
                     try {
+                        final InputConfiguration inputConfiguration;
+                        if (new File(finalPath + projectJSON.name + id + ".properties").exists()) {
+                            inputConfiguration = new InputConfiguration(finalPath + projectJSON.name + id + ".properties");
+                            inputConfiguration.getProperties().setProperty("configPath", finalPath + projectJSON.name + id + ".properties");
+                        } else {
+                            inputConfiguration = new InputConfiguration(finalPath + projectJSON.name + ".properties");
+                            inputConfiguration.getProperties().setProperty("configPath", finalPath + projectJSON.name + ".properties");
+                        }
+                        inputConfiguration.getProperties().setProperty("project",
+                                inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + "/");
+                        inputConfiguration.getProperties().setProperty("folderPath",
+                                inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/");
+                        inputConfiguration.getProperties().setProperty("outputDirectory",
+                                inputConfiguration.getProperty("outputDirectory") + "/" + pullRequestJSON.id + "/" +
+                                        (onlyAampl ? "A_ampl" :
+                                                (JBSE ?
+                                                        Ex2Amplifier.Ex2Amplifier_Mode.JBSE.toString() :
+                                                        Ex2Amplifier.Ex2Amplifier_Mode.CATG.toString()
+                                                )
+                                        )
+                        );
+                        final Ex2Amplifier ex2Amplifier = Ex2Amplifier.getEx2Amplifier(JBSE ?
+                                Ex2Amplifier.Ex2Amplifier_Mode.JBSE : Ex2Amplifier.Ex2Amplifier_Mode.CATG
+                        );
+                        ex2Amplifier.init(inputConfiguration);
+                        final ChangeDetectorSelector changeDetectorSelector = new ChangeDetectorSelector();
                         final DSpot dSpot = new DSpot(
                                 inputConfiguration,
                                 1,
-                                Arrays.asList(ex2Amplifier),
+                                onlyAampl ? Collections.emptyList() : Arrays.asList(ex2Amplifier),
                                 changeDetectorSelector
                         );
-                        final List<CtType> ctTypes;
                         if (testClassToBeAmplified.isEmpty()) {
-                            ctTypes = dSpot.amplifyAllTests();
+                            ctTypes.addAll(dSpot.amplifyAllTests());
                         } else {
-                            ctTypes = dSpot.amplifyTest(testClassToBeAmplified);
+                            ctTypes.addAll(dSpot.amplifyTest(testClassToBeAmplified));
                         }
-                        System.out.println(ctTypes);
                     } catch (Exception e) {
                         throw new RuntimeException(e);
                     }
                 });
+        return ctTypes;
     }
 
     private static void clone(String pathToJsonFile, String output) throws FileNotFoundException {
@@ -215,6 +247,12 @@ public class Main {
         testClass.setDefault("");
         idPr.setHelp("[optional] specify the full qualified name of test class to be amplified");
 
+        Switch onlyAampl = new Switch("aampl");
+        onlyAampl.setHelp("[optional] will use only A-amplification.");
+        onlyAampl.setDefault("false");
+        onlyAampl.setLongFlag("aampl");
+        onlyAampl.setShortFlag('a');
+
         try {
             jsap.registerParameter(help);
             jsap.registerParameter(verbose);
@@ -225,6 +263,7 @@ public class Main {
             jsap.registerParameter(idPr);
             jsap.registerParameter(testClass);
             jsap.registerParameter(JBSEMode);
+            jsap.registerParameter(onlyAampl);
         } catch (JSAPException e) {
             showUsage();
         }

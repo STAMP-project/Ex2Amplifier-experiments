@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97687f69-f201-4078-a424-13acd93fb7d1" name="Default" comment="" />
+    <list default="true" id="97687f69-f201-4078-a424-13acd93fb7d1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset/january-2018/xwiki-commons.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/443.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/469.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/526.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/608.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/com/squareup/javapoet/AmplAnnotatedTypeNameTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/com/squareup/javapoet/AmplAnnotationSpecTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/com/squareup/javapoet/AmplClassNameTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/com/squareup/javapoet/AmplCodeBlockTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/com/squareup/javapoet/AmplFieldSpecTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/com/squareup/javapoet/AmplJavaFileTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/com/squareup/javapoet/AmplLineWrapperTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/javapoet/com/squareup/javapoet/AmplTypeSpecTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/mybatis/1187.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/mybatis/org/apache/ibatis/binding/AmplBindingTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/org/xwiki/diff/internal/AmplDefaultDiffManagerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/org/xwiki/filter/xml/AmplXMLFilterTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/org/xwiki/rendering/internal/parser/xwiki20/AmplXWiki20ImageReferenceParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/org/xwiki/rendering/internal/parser/xwiki20/AmplXWiki20LinkReferenceParserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/org/xwiki/rendering/internal/renderer/xwiki20/AmplXWikiSyntaxBlockRendererTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/org/xwiki/xml/AmplXMLUtilsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/org/xwiki/xml/html/AmplHTMLUtilsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/org/xwiki/xml/internal/html/AmplDefaultHTMLCleanerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/org/xwiki/xml/stax/AmplStAXUtilsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/protostuff/io/protostuff/runtime/AmplAlwaysUseSunReflectionFactoryOptionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/protostuff/io/protostuff/runtime/AmplAnnotatedFieldsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/protostuff/io/protostuff/runtime/AmplCollectionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/protostuff/protostuff-runtime.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/xwiki-commons-diff-api.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/xwiki-commons-filter-xml.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/xwiki-commons-xml.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/xwiki-rendering-syntax-xwiki20.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset/january-2018/javapoet.properties" afterPath="$PROJECT_DIR$/dataset/january-2018/javapoet.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/inria/stamp/Main.java" afterPath="$PROJECT_DIR$/src/main/java/fr/inria/stamp/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/fr/inria/stamp/git/Cloner.java" afterPath="$PROJECT_DIR$/src/main/java/fr/inria/stamp/git/Cloner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Playground.java" afterPath="$PROJECT_DIR$/src/test/java/Playground.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dataset/january-2018/tavern/1/target/" />
     <ignored path="$PROJECT_DIR$/dataset/january-2018/tavern/1_modified/target/" />
@@ -10,6 +49,100 @@
     <ignored path="$PROJECT_DIR$/dataset/january-2018/mybatis-3/1167/target/" />
     <ignored path="$PROJECT_DIR$/dataset/january-2018/javapoet/526/target/" />
     <ignored path="$PROJECT_DIR$/dataset/january-2018/mybatis-3/1187/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/1/xwiki-commons-core/xwiki-commons-diff/xwiki-commons-diff-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/2/xwiki-commons-core/xwiki-commons-job/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-crypto/xwiki-commons-crypto-cipher/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-crypto/xwiki-commons-crypto-signer/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-environment/xwiki-commons-environment-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-component/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-extension/xwiki-commons-extension-handlers/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-crypto/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-xar/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-spoon/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-extension-plugin/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-velocity/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-logging/xwiki-commons-logging-logback/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-environment/xwiki-commons-environment-standard/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-diff/xwiki-commons-diff-script/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-management/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-crypto/xwiki-commons-crypto-store/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-test/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-streams/xwiki-commons-filter-stream-xml/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-groovy/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-events/xwiki-commons-filter-event-extension/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-properties/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-events/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-pom/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-crypto/xwiki-commons-crypto-common/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-extension/xwiki-commons-extension-repositories/xwiki-commons-extension-repository-xwiki/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-environment/xwiki-commons-environment-servlet/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-repository/xwiki-commons-repository-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-observation/xwiki-commons-observation-local/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-crypto/xwiki-commons-crypto-password/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-component/xwiki-commons-component-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-blame/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-enforcers/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-test/xwiki-commons-tool-test-component/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-extension/xwiki-commons-extension-repositories/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-diff/xwiki-commons-diff-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-crypto/xwiki-commons-crypto-store/xwiki-commons-crypto-store-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-extension/xwiki-commons-extension-handlers/xwiki-commons-extension-handler-jar/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-enforcers/xwiki-commons-tool-enforcer-dependencies/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-xml/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-cache/xwiki-commons-cache-tests/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-job/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-script/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-configuration/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-classloader/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-cache/xwiki-commons-cache-infinispan/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-configuration/xwiki-commons-configuration-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-filter/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-classloader/xwiki-commons-classloader-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-webjar-handlers/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-component/xwiki-commons-component-default/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-extension/xwiki-commons-extension-repositories/xwiki-commons-extension-repository-maven-snapshots/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-stability/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-classloader/xwiki-commons-classloader-protocols/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-streams/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-extension/xwiki-commons-extension-repositories/xwiki-commons-extension-repository-http/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-crypto/xwiki-commons-crypto-store/xwiki-commons-crypto-store-filesystem/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-extension/xwiki-commons-extension-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-component/xwiki-commons-component-observation/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-extension/xwiki-commons-extension-repositories/xwiki-commons-extension-repository-maven/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-crypto/xwiki-commons-crypto-pkix/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-diff/xwiki-commons-diff-display/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-repository/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-cache/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-environment/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-xar/xwiki-commons-tool-xar-plugin/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-logging/xwiki-commons-logging-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-repository/xwiki-commons-repository-model/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-context/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-logging/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-test/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-blame/xwiki-commons-blame-script/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-component/xwiki-commons-component-archetype/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-test/xwiki-commons-tool-test-simple/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-xml/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-blame/xwiki-commons-blame-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-extension/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-classloader/xwiki-commons-classloader-protocols/xwiki-commons-classloader-protocol-jar/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-cache/xwiki-commons-cache-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-environment/xwiki-commons-environment-common/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-xar/xwiki-commons-tool-xar-handlers/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-verification-resources/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-observation/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-diff/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-observation/xwiki-commons-observation-api/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-tools/xwiki-commons-tool-license-resources/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-text/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-extension/xwiki-commons-extension-maven/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/2/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-xml/target/" />
+    <ignored path="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3_modified/xwiki-commons-core/xwiki-commons-xml/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +151,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/diff_finder$XWiki_Commons___run_exp_january.coverage" NAME="XWiki Commons - run exp january Coverage Results" MODIFIED="1520180799188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fr.inria.stamp.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/diff_finder$MainTest__1_.coverage" NAME="MainTest (1) Coverage Results" MODIFIED="1516181986478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>fr.inria.stamp.*</FILTER>
     </SUITE>
@@ -27,111 +163,7 @@
     <favorites_list name="diff-finder" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="compiler.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="encodings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="markdown-navigator.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/markdown-navigator.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uiDesigner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="389" column="44" lean-forward="true" selection-start-line="389" selection-start-column="44" selection-end-line="389" selection-end-column="44" />
-              <folding>
-                <element signature="e#7548#7554#0" expanded="true" />
-                <element signature="e#7557#7563#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="derby.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/derby.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diff-finder.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diff-finder.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="106" lean-forward="true" selection-start-line="30" selection-start-column="106" selection-end-line="30" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,32 +174,43 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>output</find>
-      <find>parametersPerInvocation</find>
-      <find>Ex2Ampl</find>
-      <find>Leaf state</find>
-      <find>V3</find>
-      <find>Ampliuf</find>
+      <find>DefaultXML</find>
+      <find>DefaultXMLS</find>
+      <find>DefaultXMLSe</find>
+      <find>DefaultXMLSer</find>
+      <find>DefaultXMLSeri</find>
+      <find>co</find>
+      <find>compile</find>
+      <find>mergeChar</find>
+      <find>NARR</find>
+      <find>evaluateOperands</find>
+      <find>testUnescape</find>
+      <find>getXMLStreamWriterWithSAXREsult</find>
+      <find>XMLUtils</find>
+      <find>id</find>
+      <find>&quot;targetModule&quot;</find>
+      <find>printIntermediateAmplification</find>
+      <find>intermediateAmplification</find>
+      <find>log</find>
+      <find>Object</find>
+      <find>aampl</find>
       <find>Amplification</find>
-      <find>gumtree</find>
-      <find>&quot;bar&quot;</find>
-      <find>NN</find>
-      <find>buildNewLiteralFromString</find>
-      <find>annotationA</find>
-      <find>googl</find>
-      <find>c</find>
-      <find>Outer</find>
-      <find>$</find>
-      <find>$Outer</find>
-      <find>$Ou</find>
-      <find>new tests generated</find>
-      <find>newInstance</find>
-      <find>need</find>
-      <find>shouldExecuteMultipleBoundSelectMapOfBlogsByIdInSameSessionWithoutClearingLocalCache</find>
-      <find>get</find>
-      <find>main</find>
-      <find>readbyte</find>
+      <find>dependencies</find>
+      <find>resour</find>
+      <find>need a</find>
+      <find>n</find>
+      <find>empty</find>
+      <find>Empty</find>
+      <find>Collection</find>
+      <find>testGet</find>
+      <find>Mock</find>
     </findStrings>
+    <replaceStrings>
+      <replace>property</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/dataset/january-2018/xwiki-commons/2/xwiki-commons-core/xwiki-commons-filter</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -180,57 +223,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/PullRequestJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ParserPullRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cloner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/inria/stamp/git/PullRequestJSON.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/inria/stamp/JSAPOptionsExp.java" />
-        <option value="$PROJECT_DIR$/dataset/tarvern.properties" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tarvern.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/inria/stamp/git/Cloner.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern.properties" />
-        <option value="$PROJECT_DIR$/dataset/projects" />
-        <option value="$PROJECT_DIR$/../ExPathAmplification/src/main/java/fr/inria/stamp/ArgumentsExtractor.java" />
-        <option value="$PROJECT_DIR$/../ExPathAmplification/src/main/java/fr/inria/stamp/jbse/JBSERunner.java" />
-        <option value="$PROJECT_DIR$/../ExPathAmplification/src/main/java/fr/inria/stamp/smt/SMTSolver.java" />
-        <option value="$PROJECT_DIR$/../ExPathAmplification/src/main/java/fr/inria/stamp/Ex2Amplifier.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/1_modified/src/main/java/fr/inria/stamp/tavern/Seller.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/1/src/main/java/fr/inria/stamp/tavern/Seller.java" />
-        <option value="$PROJECT_DIR$/lib/catg.conf" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/1_modified/src/main/java/fr/inria/stamp/tavern/Item.java" />
-        <option value="$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/MainGenerator.class" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/1/src/test/java/fr/inria/stamp/MainTest.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/1_modified/src/test/java/fr/inria/stamp/MainTest.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/3/src/main/java/fr/inria/stamp/tavern/Player.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/3_modified/src/main/java/fr/inria/stamp/tavern/Player.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/3_modified/src/main/java/fr/inria/stamp/tavern/Seller.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/3/src/main/java/fr/inria/stamp/tavern/Seller.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/3/src/test/java/fr/inria/stamp/MainTest.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/tavern/3_modified/src/test/java/fr/inria/stamp/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/inria/stamp/diff/GumTreeWrapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/inria/stamp/git/ParserPullRequest.java" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/mybatis.properties" />
-        <option value="$PROJECT_DIR$/dataset/january-2018/javapoet.properties" />
-        <option value="$PROJECT_DIR$/target/dspot/tmp_test_sources/com/squareup/javapoet/AnnotatedTypeNameTest.java" />
-        <option value="$PROJECT_DIR$/target/dspot/tmp_test_sources/com/squareup/javapoet/AnnotationSpecTest.java" />
-        <option value="$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/Ex2Amplifier.class" />
-        <option value="$PROJECT_DIR$/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java" />
         <option value="$PROJECT_DIR$/dataset/january-2018/javapoet/469_modified/src/test/java/com/squareup/javapoet/TypeSpecTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dataset/january-2018/protostuff.properties" />
-        <option value="$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/selector/ChangeDetectorSelector.java" />
         <option value="$PROJECT_DIR$/dataset/january-2018/protostuff/185_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AlwaysUseSunReflectionFactoryOptionTest.java" />
         <option value="$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/support/DSpotCompiler.java" />
         <option value="$PROJECT_DIR$/dataset/january-2018/mybatis-3/1187/src/main/java/org/apache/ibatis/binding/MapperProxy.java" />
         <option value="$PROJECT_DIR$/dataset/january-2018/mybatis-3.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/Playground.java" />
         <option value="$PROJECT_DIR$/target/dspot/tmp_test_sources/com/squareup/javapoet/JavaFileTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/inria/stamp/Main.java" />
-        <option value="$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/jbse/ArgumentsExtractor.class" />
-        <option value="$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/JBSEAmplifier.class" />
         <option value="$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/catg/MainGenerator.class" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons_commons-diff_commons-diff-api.properties" />
+        <option value="$PROJECT_DIR$/target/dspot/tmp_test_sources/DefaultDiffManagerTest.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/1/xwiki-commons-core/xwiki-commons-diff/xwiki-commons-diff-api/src/test/java/org/xwiki/diff/internal/DefaultDiffManagerTest.java" />
+        <option value="$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/jbse/ArgumentsExtractor.class" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/pom.xml" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-rendering.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/presto.json" />
+        <option value="$PROJECT_DIR$/src/test/java/Playground.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/presto.properties" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons.json" />
+        <option value="$PROJECT_DIR$/results/xwiki-commons-diff-api.json" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/2/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-xml/src/main/java/org/xwiki/filter/xml/internal/serializer/DefaultXMLSerializerFactory.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/2/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-xml/target/classes/org/xwiki/filter/xml/internal/serializer/DefaultXMLSerializerFactory.class" />
+        <option value="$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/jbse/JBSERunner.class" />
+        <option value="$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/smt/SMTSolver.class" />
+        <option value="$PROJECT_DIR$/results/org/xwiki/xml/stax/AmplStAXUtilsTest.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3/xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/stax/StAXUtilsTest.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3_modified/xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/stax/StAXUtilsTest.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/3_modified/xwiki-commons-core/xwiki-commons-xml/src/test/java/org/xwiki/xml/XMLUtilsTest.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons.properties" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-rendering.json" />
+        <option value="$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/selector/ChangeDetectorSelector.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons1.properties" />
+        <option value="$PROJECT_DIR$/results/january-2018/xwiki-commons/1/JBSE/org.xwiki.diff.internal.DefaultDiffManagerTest/testDiffCharList.txt" />
+        <option value="$PROJECT_DIR$/target/dspot/tmp_test_sources/org/xwiki/diff/internal/DefaultDiffManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/inria/stamp/git/Cloner.java" />
+        <option value="$PROJECT_DIR$/lib/catg.conf" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons3.properties" />
+        <option value="$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/utils/Initializer.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons2.properties" />
+        <option value="$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/utils/AmplificationHelper.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons4.properties" />
+        <option value="$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/utils/TypeUtils.java" />
+        <option value="$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/assertGenerator/AssertBuilder.java" />
+        <option value="$PROJECT_DIR$/target/dspot/tmp_test_sources/org/xwiki/extension/AbstractExtensionTest.java" />
+        <option value="$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/compare/MethodsHandler.java" />
+        <option value="$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/compare/ObjectLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/inria/stamp/Main.java" />
+        <option value="$PROJECT_DIR$/dataset/january-2018/javapoet.properties" />
+        <option value="$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/JBSEAmplifier.class" />
       </list>
     </option>
   </component>
@@ -249,12 +292,8 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Ex2Amplifier-experiments" />
+          <option name="myItemId" value="XWiki Commons - XML" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -263,15 +302,30 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Ex2Amplifier-experiments" />
+          <option name="myItemId" value="XWiki Commons - XML" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="XWiki Commons - Tools - Test Framework - Component" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="67" />
     <option name="y" value="27" />
-    <option name="width" value="1920" />
+    <option name="width" value="1853" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -292,7 +346,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,7 +368,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="january-2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xwiki-commons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,11 +394,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
+              <option name="myItemId" value="results" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dspot" />
+              <option name="myItemId" value="january-2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xwiki-commons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,7 +416,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="january-2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xwiki-commons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diff-finder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ex2amplifier-experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="january-2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xwiki-commons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CATG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diff-finder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ex2amplifier-experiments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="january-2018" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,23 +484,30 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dspot-experiments" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/4/xwiki-commons-core/xwiki-commons-extension/xwiki-commons-extension-api" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/results/january-2018" />
+      <recent name="$PROJECT_DIR$/dataset/january-2018" />
+      <recent name="$PROJECT_DIR$/dataset" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="fr.inria.stamp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset/january-2018" />
+      <recent name="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/1_modified/xwiki-commons-core/xwiki-commons-diff/xwiki-commons-diff-api/src/test/java/org/xwiki/diff/internal" />
+      <recent name="$PROJECT_DIR$/dataset/january-2018/xwiki-commons/1/xwiki-commons-core/xwiki-commons-diff/xwiki-commons-diff-api/src/test/java/org/xwiki/diff/internal" />
       <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/dataset/january-2018" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dataset/january-2018" />
-      <recent name="$PROJECT_DIR$/dataset" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -386,19 +522,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Playground.getByID">
-    <configuration default="false" name="Playground.getByID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Ex2Amplifier-experiments" />
+  <component name="RunManager" selected="Application.XWiki Commons - run exp january">
+    <configuration default="false" name="org.xwiki.diff.internal in xwiki-commons-diff-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.xwiki.diff.internal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="xwiki-commons-diff-api" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Playground" />
-      <option name="METHOD_NAME" value="getByID" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.xwiki.diff.internal" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="org.xwiki.job in xwiki-commons-job" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.xwiki.job.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="xwiki-commons-job" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.xwiki.job" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -585,6 +752,28 @@
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -857,7 +1046,28 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Javapoet - run exp january" type="Application" factoryName="Application">
+    <configuration default="false" name="Playground.getByID" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Ex2Amplifier-experiments" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Playground" />
+      <option name="METHOD_NAME" value="getByID" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="XWiki Commons - clone exp january" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="fr.inria.stamp.*" />
@@ -866,7 +1076,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="fr.inria.stamp.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="--run dataset/january-2018/javapoet.json --verbose --id 443 -t com.squareup.javapoet.JavaFileTest" />
+      <option name="PROGRAM_PARAMETERS" value="--clone dataset/january-2018/xwiki-commons.json --output dataset/january-2018/" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -877,18 +1087,147 @@
       <envs />
       <method />
     </configuration>
-    <list size="7">
+    <configuration default="false" name="XWiki Rendering - clone exp january" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fr.inria.stamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="fr.inria.stamp.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="--clone dataset/january-2018/xwiki-rendering.json --output dataset/january-2018/" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ex2Amplifier-experiments" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="XWiki Rendering - run exp january" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fr.inria.stamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="fr.inria.stamp.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="--run dataset/january-2018/xwiki-rendering.json --verbose --id 96" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ex2Amplifier-experiments" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="presto - clone exp january" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fr.inria.stamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="fr.inria.stamp.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="--clone dataset/january-2018/presto.json --output dataset/january-2018/" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ex2Amplifier-experiments" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="presto - run exp january" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fr.inria.stamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="fr.inria.stamp.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="--run dataset/january-2018/presto.json --verbose --id 10028" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ex2Amplifier-experiments" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Javapoet - run exp january 443" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fr.inria.stamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="fr.inria.stamp.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="--run dataset/january-2018/javapoet.json --verbose --id 443 -t com.squareup.javapoet.JavaFileTest --jbse" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ex2Amplifier-experiments" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="XWiki Commons - run exp january" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fr.inria.stamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="fr.inria.stamp.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="--run dataset/january-2018/xwiki-commons.json --verbose --id 1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ex2Amplifier-experiments" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="15">
       <item index="0" class="java.lang.String" itemvalue="Application.Main - get test" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main - get exp january" />
       <item index="2" class="java.lang.String" itemvalue="Application.Javapoet - clone exp january" />
       <item index="3" class="java.lang.String" itemvalue="Application.MyBatis-3 - clone exp january" />
       <item index="4" class="java.lang.String" itemvalue="Application.MyBatis-3 - run exp january" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Javapoet - run exp january" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.Playground.getByID" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.Playground.getByID" />
+      <item index="6" class="java.lang.String" itemvalue="Application.XWiki Commons - clone exp january" />
+      <item index="7" class="java.lang.String" itemvalue="Application.XWiki Rendering - clone exp january" />
+      <item index="8" class="java.lang.String" itemvalue="Application.XWiki Rendering - run exp january" />
+      <item index="9" class="java.lang.String" itemvalue="Application.presto - clone exp january" />
+      <item index="10" class="java.lang.String" itemvalue="Application.presto - run exp january" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Javapoet - run exp january 443" />
+      <item index="12" class="java.lang.String" itemvalue="Application.XWiki Commons - run exp january" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.org.xwiki.diff.internal in xwiki-commons-diff-api" />
+      <item index="14" class="java.lang.String" itemvalue="JUnit.org.xwiki.job in xwiki-commons-job" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Playground.getByID" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.org.xwiki.job in xwiki-commons-job" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.org.xwiki.diff.internal in xwiki-commons-diff-api" />
       </list>
     </recent_temporary>
   </component>
@@ -911,13 +1250,10 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Playground_getByID - 2018.02.14 at 17h 23m 09s.xml">
+    <history-entry file="Playground_getByID - 2018.02.23 at 10h 32m 48s.xml">
       <configuration name="Playground.getByID" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Playground_getByID - 2018.02.15 at 18h 18m 35s.xml">
-      <configuration name="Playground.getByID" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Playground_getByID - 2018.02.16 at 10h 31m 31s.xml">
+    <history-entry file="Playground_getByID - 2018.02.27 at 16h 54m 03s.xml">
       <configuration name="Playground.getByID" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Playground_testCompileWithInnerClassThatStartWith$ - 2018.02.15 at 17h 12m 17s.xml">
@@ -941,6 +1277,9 @@
     <history-entry file="Playground_testQ - 2018.02.15 at 16h 58m 45s.xml">
       <configuration name="Playground.testQ" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="org_xwiki_diff_internal_in_xwiki-commons-diff-api - 2018.02.19 at 17h 06m 39s.xml">
+      <configuration name="org.xwiki.diff.internal in xwiki-commons-diff-api" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -952,8 +1291,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="0" />
-    <editor active="true" />
+    <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -962,33 +1300,34 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921976" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853186" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45003933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47420418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8287596" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.94950604" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14903846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20221607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39732495" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3852909" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965234" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32494098" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3402854" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="100" y="127" width="2360" height="1213" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290859" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1010,25 +1349,45 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/support/DSpotCompiler.java</url>
-          <line>131</line>
+          <condition expression="constraint.contains(&quot;NARROW&quot;) || constraint.contains(&quot;WIDEN&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/smt/SMTSolver.class</url>
+          <line>291</line>
           <properties />
-          <option name="timeStamp" value="79" />
+          <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/Amplification.java</url>
-          <line>151</line>
+          <url>jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/Ex2Amplifier.class</url>
+          <line>111</line>
           <properties />
-          <option name="timeStamp" value="87" />
+          <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/CATGAmplifier.class</url>
-          <line>44</line>
+          <url>jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/catg/CATGExecutor.class</url>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="92" />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="key.contains(&quot;MockitoMock&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/assertGenerator/AssertBuilder.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/JBSEAmplifier.class</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/JBSEAmplifier.class</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="219" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="94" />
+      <option name="time" value="220" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1037,279 +1396,324 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Documents/jdk1.8.0_152/src.zip!/java/net/URLClassLoader.java">
+    <entry file="file://$PROJECT_DIR$/results/january-2018/xwiki-commons/3/A_ampl/org.xwiki.xml.XMLUtilsTest_change_report.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/utils/sosiefier/InputProgram.java">
+    <entry file="file://$PROJECT_DIR$/results/january-2018/xwiki-commons/3/A_ampl/org.xwiki.xml.internal.html.DefaultHTMLCleanerTest_stacktraces.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/january-2018/javapoet/608/src/test/java/com/squareup/javapoet/ClassNameTest.java">
+    <entry file="file://$PROJECT_DIR$/results/january-2018/xwiki-commons/3/A_ampl/org.xwiki.xml.html.HTMLUtilsTest_change_report.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="106" column="54" lean-forward="false" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/jdk1.8.0_152/src.zip!/java/util/logging/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2960">
-          <caret line="176" column="30" lean-forward="false" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/january-2018/javapoet/526/src/test/java/com/squareup/javapoet/ClassNameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/DSpot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/gforge/spoon/spoon-core/6.1.0/spoon-core-6.1.0.jar!/spoon/support/compiler/jdt/JDTBasedSpoonCompiler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/gforge/spoon/spoon-core/6.1.0/spoon-core-6.1.0.jar!/spoon/support/reflect/reference/CtTypeReferenceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/catg.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="80" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/stamp/dspot/1.0.6-SNAPSHOT/dspot-1.0.6-SNAPSHOT.jar!/fr/inria/diversify/dspot/assertGenerator/MethodsAssertGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="67" column="16" lean-forward="false" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/january-2018/javapoet/608/target/test-classes/com/squareup/javapoet/LineWrapperTest.class" />
-    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/assertGenerator/MethodsAssertGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/january-2018/javapoet/608/src/test/java/com/squareup/javapoet/LineWrapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/catg/CATGExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="27" column="92" lean-forward="true" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/Ex2Amplifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="156" lean-forward="false" selection-start-line="36" selection-start-column="156" selection-end-line="36" selection-end-column="156" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/utils/Initializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="54" column="65" lean-forward="false" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+        <state relative-caret-position="520">
+          <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/dspot/tmp_test_sources/com/squareup/javapoet/LineWrapperTest.java" />
-    <entry file="file://$PROJECT_DIR$/dataset/january-2018/mybatis-3/1187/src/main/java/org/apache/ibatis/binding/MapperProxy.java">
+    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/DSpot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="254">
+          <caret line="184" column="57" lean-forward="false" selection-start-line="184" selection-start-column="57" selection-end-line="184" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/january-2018/mybatis-3.json">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/stamp/test/runner/AbstractTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/Amplification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="933">
-          <caret line="239" column="57" lean-forward="false" selection-start-line="239" selection-start-column="57" selection-end-line="239" selection-end-column="57" />
+        <state relative-caret-position="300">
+          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/january-2018/mybatis-3/1187/src/test/java/org/apache/ibatis/binding/BindingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="265" column="22" lean-forward="false" selection-start-line="265" selection-start-column="22" selection-end-line="265" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/stamp/test/launcher/TestLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="913">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/january-2018/mybatis-3.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/january-2018/mybatis-3/1187/src/main/java/org/apache/ibatis/binding/MapperProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Playground.java">
+    <entry file="file://$PROJECT_DIR$/dataset/january-2018/xwiki-commons2.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/january-2018/javapoet/443_modified/src/test/java/com/squareup/javapoet/JavaFileTest.java">
+    <entry file="file://$PROJECT_DIR$/dataset/january-2018/xwiki-commons/2/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-xml/target/classes/org/xwiki/filter/xml/internal/serializer/DefaultXMLSerializer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="200" column="18" lean-forward="false" selection-start-line="200" selection-start-column="18" selection-end-line="200" selection-end-column="18" />
+        <state relative-caret-position="180">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/january-2018/xwiki-commons/2/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-xml/target/classes/org/xwiki/filter/xml/internal/serializer/DefaultXMLSerializerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/january-2018/xwiki-commons/2/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-xml/src/test/java/org/xwiki/filter/xml/XMLFilterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/january-2018/xwiki-commons/2/xwiki-commons-core/xwiki-commons-filter/xwiki-commons-filter-xml/target/generated-sources/spoon/org/xwiki/filter/xml/internal/serializer/DefaultXMLSerializerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/support/DSpotCompiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="242">
+          <caret line="150" column="18" lean-forward="false" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/gforge/spoon/spoon-core/6.1.0/spoon-core-6.1.0.jar!/spoon/Launcher.class">
+    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/utils/AmplificationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="549" column="0" lean-forward="false" selection-start-line="549" selection-start-column="0" selection-end-line="549" selection-end-column="0" />
+        <state relative-caret-position="247">
+          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/january-2018/xwiki-commons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="58" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/january-2018/xwiki-commons4.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Playground.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/utils/DSpotUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/support/TestCompiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="167">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/stamp/test/runner/DefaultTestRunner.java">
+    <entry file="jar://$USER_HOME$/Documents/jdk1.8.0_152/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1013">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="337">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/dspot/tmp_test_sources/com/squareup/javapoet/JavaFileTest.java">
+    <entry file="jar://$USER_HOME$/Documents/jdk1.8.0_152/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="428" column="43" lean-forward="false" selection-start-line="428" selection-start-column="43" selection-end-line="428" selection-end-column="43" />
+        <state relative-caret-position="177">
+          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/jbse/ArgumentsExtractor.class">
+    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/utils/TypeUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        <state relative-caret-position="187">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/jbse/JBSERunner.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2/commons-collections-3.2.jar!/org/apache/commons/collections/set/UnmodifiableSet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/JBSEAmplifier.class">
+    <entry file="file://$PROJECT_DIR$/target/dspot/tmp_test_sources/org/xwiki/extension/internal/DefaultExtensionManagerConfigurationTest.java" />
+    <entry file="file://$PROJECT_DIR$/target/dspot/tmp_test_sources/org/xwiki/extension/AbstractExtensionTest.java" />
+    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/compare/MethodsHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        <state relative-caret-position="240">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/compare/ObjectLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="60" column="60" lean-forward="false" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/assertGenerator/AssertBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#8548#8578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/assertGenerator/AssertGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="49" column="45" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="49" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Documents/jdk1.8.0_152/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="492" column="30" lean-forward="false" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/Amplification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="312" column="0" lean-forward="false" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dspot/dspot/src/main/java/fr/inria/diversify/dspot/assertGenerator/MethodsAssertGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1287">
+          <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/january-2018/javapoet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/january-2018/javapoet.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/january-2018/javapoet/443/A_ampl/443.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/january-2018/javapoet/443/A_ampl/com.squareup.javapoet.JavaFileTest_change_report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/january-2018/javapoet/443/A_ampl/com.squareup.javapoet.JavaFileTest_stacktraces.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/january-2018/javapoet/443/CATG/com.squareup.javapoet.JavaFileTest/emptyLinesInTopOfFileComment_values.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/january-2018/javapoet/443/CATG/com.squareup.javapoet.JavaFileTest/importStaticForCrazyFormatsWorks.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/january-2018/javapoet/443/CATG/com.squareup.javapoet.JavaFileTest/importStaticForCrazyFormatsWorks_values.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/january-2018/javapoet/443/CATG/com.squareup.javapoet.JavaFileTest/importStaticMixed.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/january-2018/javapoet/443/CATG/com.squareup.javapoet.JavaFileTest/importStaticMixed_values.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/january-2018/javapoet/443/CATG/com.squareup.javapoet.JavaFileTest/emptyLinesInTopOfFileComment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/inria/stamp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="140">
+          <caret line="126" column="62" lean-forward="false" selection-start-line="126" selection-start-column="62" selection-end-line="126" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/catg/MainGenerator.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/Ex2Amplifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
-          <caret line="91" column="117" lean-forward="false" selection-start-line="91" selection-start-column="117" selection-end-line="91" selection-end-column="117" />
+        <state relative-caret-position="130">
+          <caret line="73" column="38" lean-forward="false" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/CATGAmplifier.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/fr/inria/stamp/exhaustive-explorer-amplifier/1.0.0/exhaustive-explorer-amplifier-1.0.0.jar!/fr/inria/stamp/ex2amplifier/JBSEAmplifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="402">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/results/january-2018/javapoet/443/JBSE/com.squareup.javapoet.JavaFileTest_change_report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml">
+    <entry file="file://$PROJECT_DIR$/results/january-2018/xwiki-commons/1/JBSE/org.xwiki.diff.internal.DefaultDiffManagerTest_change_report.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1317,7 +1721,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
+    <entry file="file://$PROJECT_DIR$/results/january-2018/xwiki-commons/3/CATG/org.xwiki.xml.stax.StAXUtilsTest/getXMLStreamWriterWithSAXREsult.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1325,7 +1729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+    <entry file="file://$PROJECT_DIR$/results/january-2018/xwiki-commons/3/CATG/org.xwiki.xml.stax.StAXUtilsTest/getXMLStreamWriterWithSAXREsult_values.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1333,7 +1737,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+    <entry file="file://$PROJECT_DIR$/results/january-2018/xwiki-commons/3/CATG/org.xwiki.xml.XMLUtilsTest/testUnescape_values.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1341,72 +1745,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/markdown-navigator.xml">
+    <entry file="file://$PROJECT_DIR$/results/january-2018/xwiki-commons/3/CATG/org.xwiki.xml.XMLUtilsTest/testUnescape.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="22" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/derby.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diff-finder.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="106" lean-forward="true" selection-start-line="30" selection-start-column="106" selection-end-line="30" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="389" column="44" lean-forward="true" selection-start-line="389" selection-start-column="44" selection-end-line="389" selection-end-column="44" />
-          <folding>
-            <element signature="e#7548#7554#0" expanded="true" />
-            <element signature="e#7557#7563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Ex2Amplifier-experiments</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

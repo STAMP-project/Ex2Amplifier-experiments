@@ -1,0 +1,41 @@
+======= REPORT =======
+1 amplified test fails on the new versions.
+importStaticForCrazyFormatsWorks(com.squareup.javapoet.JavaFileTest): expected:<...va.lang.Runtime.*;
+
+[import java.lang.Runtime;
+
+class Taco {
+  static {
+    Runtime;
+    a();
+    X;
+    RuntimeRuntime;
+    Runtime.Runtime;
+    RuntimeRuntime;
+    Runtime?Runtime;
+    Runtime?"?"Runtime;
+    Runtime?"?"RuntimemethodRuntime;
+    Runtime?;
+    Runtime"?";
+    Runtime]method;
+  }
+}
+> but was:<...va.lang.Runtime.*;
+
+[class Taco {
+  static {
+    ;
+    a();
+    X;
+    ;
+    ;
+    ;
+    ?;
+    ?"?";
+    ?"?"method;
+    ?;
+    "?";
+    ]method;
+  }
+}
+>

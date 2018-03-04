@@ -1,0 +1,57 @@
+@org.junit.Test(timeout = 10000)
+public void getXMLStreamWriterWithSAXREsult_Ex2_CATG195() throws javax.xml.stream.XMLStreamException, javax.xml.transform.TransformerConfigurationException {
+    javax.xml.transform.TransformerFactory tf = javax.xml.transform.TransformerFactory.newInstance();
+    if (!(tf.getFeature(javax.xml.transform.sax.SAXTransformerFactory.FEATURE))) {
+        throw new java.lang.RuntimeException("Did not find a SAX-compatible T");
+    }
+    java.io.StringWriter output = new java.io.StringWriter();
+    javax.xml.transform.sax.SAXTransformerFactory stf = ((javax.xml.transform.sax.SAXTransformerFactory) (tf));
+    javax.xml.transform.sax.TransformerHandler th = stf.newTransformerHandler();
+    th.setResult(new javax.xml.transform.stream.StreamResult(output));
+    javax.xml.stream.XMLStreamWriter writer = org.xwiki.xml.stax.StAXUtils.getXMLStreamWriter(new javax.xml.transform.sax.SAXResult(th));
+    writer.writeStartElement("element");
+    writer.writeAttribute("attribute", "value");
+    writer.writeCharacters("characters");
+    writer.writeCData("cdata");
+    writer.writeEndElement();
+    java.lang.String String_0 = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + ((("<element attribute=\"value\">" + "characters") + "<![CDATA[cdata]]>") + "</element>");
+    output.getBuffer().toString();
+}
+@org.junit.Test(timeout = 10000)
+public void getXMLStreamWriterWithSAXREsult_Ex2_CATG197() throws javax.xml.stream.XMLStreamException, javax.xml.transform.TransformerConfigurationException {
+    javax.xml.transform.TransformerFactory tf = javax.xml.transform.TransformerFactory.newInstance();
+    if (!(tf.getFeature(javax.xml.transform.sax.SAXTransformerFactory.FEATURE))) {
+        throw new java.lang.RuntimeException("");
+    }
+    java.io.StringWriter output = new java.io.StringWriter();
+    javax.xml.transform.sax.SAXTransformerFactory stf = ((javax.xml.transform.sax.SAXTransformerFactory) (tf));
+    javax.xml.transform.sax.TransformerHandler th = stf.newTransformerHandler();
+    th.setResult(new javax.xml.transform.stream.StreamResult(output));
+    javax.xml.stream.XMLStreamWriter writer = org.xwiki.xml.stax.StAXUtils.getXMLStreamWriter(new javax.xml.transform.sax.SAXResult(th));
+    writer.writeStartElement("");
+    writer.writeAttribute("", "");
+    writer.writeCharacters("");
+    writer.writeCData("");
+    writer.writeEndElement();
+    java.lang.String String_0 = "<?xml version=\"1.0\" encoding=\"U" + ((("<element attribute=\"value\">" + "characters") + "<![CDATA[cdata]]>") + "</element>");
+    output.getBuffer().toString();
+}
+@org.junit.Test(timeout = 10000)
+public void getXMLStreamWriterWithSAXREsult_Ex2_CATG199() throws javax.xml.stream.XMLStreamException, javax.xml.transform.TransformerConfigurationException {
+    javax.xml.transform.TransformerFactory tf = javax.xml.transform.TransformerFactory.newInstance();
+    if (!(tf.getFeature(javax.xml.transform.sax.SAXTransformerFactory.FEATURE))) {
+        throw new java.lang.RuntimeException("");
+    }
+    java.io.StringWriter output = new java.io.StringWriter();
+    javax.xml.transform.sax.SAXTransformerFactory stf = ((javax.xml.transform.sax.SAXTransformerFactory) (tf));
+    javax.xml.transform.sax.TransformerHandler th = stf.newTransformerHandler();
+    th.setResult(new javax.xml.transform.stream.StreamResult(output));
+    javax.xml.stream.XMLStreamWriter writer = org.xwiki.xml.stax.StAXUtils.getXMLStreamWriter(new javax.xml.transform.sax.SAXResult(th));
+    writer.writeStartElement("");
+    writer.writeAttribute("", "");
+    writer.writeCharacters("");
+    writer.writeCData("");
+    writer.writeEndElement();
+    java.lang.String String_0 = "<?xml version=\"1.0\" encoding=\"U" + ((("<element attribute=\"value\">" + "characters") + "<![CDATA[cdata]]>") + "</element>");
+    output.getBuffer().toString();
+}

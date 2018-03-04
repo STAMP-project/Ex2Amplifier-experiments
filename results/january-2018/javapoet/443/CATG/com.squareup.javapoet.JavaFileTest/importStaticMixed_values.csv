@@ -1,0 +1,9 @@
+"com.squareup.tacos","","",""
+"Taco","","",""
+"assert $1T.valueOf(\"BLOCKED\") == $1T.BLOCKED","assert $1T.valueOf(\"BLOCKED\") =","",""
+"$T.gc()","$T.gc()","",""
+"$1T.out.println($1T.nanoTime())","$1T.out.println($1T.nanoTime())","$1T.out.println($1T.nanoTime())","$1T.out.println($1T.nanoTime())"
+"states","states","states","states"
+true,false,false,false
+"*","*","*","*"
+"valueOf","valueOf","valueOf","valueOf"

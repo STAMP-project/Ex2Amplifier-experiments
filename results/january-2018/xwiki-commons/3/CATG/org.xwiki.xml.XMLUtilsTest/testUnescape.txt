@@ -1,0 +1,24 @@
+@org.junit.Test(timeout = 10000)
+public void testUnescape_Ex2_CATG80() {
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("&#x26;&#x27;&#x22;&#x3c;&#x3C;&");
+    org.xwiki.xml.XMLUtils.unescape("&#x026;&#x0027;&#x00022;&#x00003c;&#x0003C;&#x003e;&#x03E;");
+}
+@org.junit.Test(timeout = 10000)
+public void testUnescape_Ex2_CATG82() {
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("&#x026;&#x0027;&#x00022;&#x0000");
+}
+@org.junit.Test(timeout = 10000)
+public void testUnescape_Ex2_CATG84() {
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("");
+    org.xwiki.xml.XMLUtils.unescape("&#x026;&#x0027;&#x00022;&#x0000");
+}

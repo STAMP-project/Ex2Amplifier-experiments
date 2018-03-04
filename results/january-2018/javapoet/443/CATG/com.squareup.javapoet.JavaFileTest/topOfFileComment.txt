@@ -1,0 +1,4 @@
+@org.junit.Test(timeout = 10000)
+public void topOfFileComment_Ex2_CATG617() throws java.lang.Exception {
+    java.lang.String source = com.squareup.javapoet.JavaFile.builder("", com.squareup.javapoet.TypeSpec.classBuilder("").build()).addFileComment("Generated $L by JavaPoet. DO NO", "2015-01-13").build().toString();
+}

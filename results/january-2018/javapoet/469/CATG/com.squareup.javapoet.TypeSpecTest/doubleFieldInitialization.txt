@@ -1,0 +1,1078 @@
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG533() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG535() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG537() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG539() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG541() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG543() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG545() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG547() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG549() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG551() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG553() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG555() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG557() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG559() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG561() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG563() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG565() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG567() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG569() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG571() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG573() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG575() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG577() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG579() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG581() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG583() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG585() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG587() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG589() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG591() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG593() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG595() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG597() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG599() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG601() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG603() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG605() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG607() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG609() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG611() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG613() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG615() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG617() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG619() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG621() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG623() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG625() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG627() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG629() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG631() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG633() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG635() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG637() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG639() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG641() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG643() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG645() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG647() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG649() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG651() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG653() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG655() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG657() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG659() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG661() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG663() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG665() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG667() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG669() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG671() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG673() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG675() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG677() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG679() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG681() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG683() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG685() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG687() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG689() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG691() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG693() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG695() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG697() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG699() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG701() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG703() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG705() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG707() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG709() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG711() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG713() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG715() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG717() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG719() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG721() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG723() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG725() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}
+@org.junit.Test(timeout = 10000)
+public void doubleFieldInitialization_Ex2_CATG727() throws java.lang.Exception {
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer("f").initializer("b").build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+    try {
+        com.squareup.javapoet.FieldSpec.builder(java.lang.String.class, "").initializer(com.squareup.javapoet.CodeBlock.builder().add("f").build()).initializer(com.squareup.javapoet.CodeBlock.builder().add("").build()).build();
+    } catch (java.lang.IllegalStateException expected) {
+    }
+}

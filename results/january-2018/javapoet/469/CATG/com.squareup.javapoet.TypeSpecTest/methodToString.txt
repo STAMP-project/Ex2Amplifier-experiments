@@ -1,0 +1,24 @@
+@org.junit.Test(timeout = 10000)
+public void methodToString_Ex2_CATG962() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec method = com.squareup.javapoet.MethodSpec.methodBuilder("t").addAnnotation(java.lang.Override.class).addModifiers(javax.lang.model.element.Modifier.PUBLIC).returns(java.lang.String.class).addStatement("r", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void methodToString_Ex2_CATG964() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec method = com.squareup.javapoet.MethodSpec.methodBuilder("t").addAnnotation(java.lang.Override.class).addModifiers(javax.lang.model.element.Modifier.PUBLIC).returns(java.lang.String.class).addStatement("return $", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void methodToString_Ex2_CATG966() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec method = com.squareup.javapoet.MethodSpec.methodBuilder("<init>").addAnnotation(java.lang.Override.class).addModifiers(javax.lang.model.element.Modifier.PUBLIC).returns(java.lang.String.class).addStatement("", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void methodToString_Ex2_CATG968() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec method = com.squareup.javapoet.MethodSpec.methodBuilder("t").addAnnotation(java.lang.Override.class).addModifiers(javax.lang.model.element.Modifier.PUBLIC).returns(java.lang.String.class).addStatement("return $", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void methodToString_Ex2_CATG970() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec method = com.squareup.javapoet.MethodSpec.methodBuilder("t").addAnnotation(java.lang.Override.class).addModifiers(javax.lang.model.element.Modifier.PUBLIC).returns(java.lang.String.class).addStatement("return $Sa", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void methodToString_Ex2_CATG972() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec method = com.squareup.javapoet.MethodSpec.methodBuilder("t").addAnnotation(java.lang.Override.class).addModifiers(javax.lang.model.element.Modifier.PUBLIC).returns(java.lang.String.class).addStatement("", "").build();
+}

@@ -1,0 +1,12 @@
+@org.junit.Test(timeout = 10000)
+public void annotationToString_Ex2_CATG301() throws java.lang.Exception {
+    com.squareup.javapoet.AnnotationSpec annotation = com.squareup.javapoet.AnnotationSpec.builder(java.lang.SuppressWarnings.class).addMember("", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void annotationToString_Ex2_CATG303() throws java.lang.Exception {
+    com.squareup.javapoet.AnnotationSpec annotation = com.squareup.javapoet.AnnotationSpec.builder(java.lang.SuppressWarnings.class).addMember("", "$", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void annotationToString_Ex2_CATG305() throws java.lang.Exception {
+    com.squareup.javapoet.AnnotationSpec annotation = com.squareup.javapoet.AnnotationSpec.builder(java.lang.SuppressWarnings.class).addMember("", "$Sa", "").build();
+}

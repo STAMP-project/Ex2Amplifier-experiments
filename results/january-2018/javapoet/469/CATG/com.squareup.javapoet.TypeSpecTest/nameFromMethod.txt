@@ -1,0 +1,4 @@
+@org.junit.Test(timeout = 10000)
+public void nameFromMethod_Ex2_CATG999() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec method = com.squareup.javapoet.MethodSpec.methodBuilder("<init>").addModifiers(javax.lang.model.element.Modifier.ABSTRACT).returns(java.lang.String.class).build();
+}

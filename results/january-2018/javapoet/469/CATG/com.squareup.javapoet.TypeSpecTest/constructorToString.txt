@@ -1,0 +1,392 @@
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG329() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG331() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG333() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG335() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG337() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG339() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG341() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG343() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG345() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG347() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG349() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG351() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG353() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG355() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG357() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG359() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG361() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG363() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG365() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG367() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG369() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG371() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG373() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG375() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG377() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG379() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG381() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG383() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG385() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG387() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG389() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG391() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG393() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG395() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG397() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG399() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG401() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG403() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG405() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG407() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG409() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG411() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG413() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG415() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG417() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG419() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG421() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG423() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG425() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG427() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG429() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG431() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG433() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG435() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG437() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG439() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG441() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG443() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG445() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG447() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG449() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG451() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG453() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG455() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG457() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG459() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG461() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG463() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG465() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG467() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG469() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG471() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG473() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG475() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG477() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG479() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG481() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG483() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG485() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG487() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG489() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG491() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG493() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG495() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG497() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG499() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG501() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG503() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG505() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG507() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG509() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG511() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG513() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG515() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG517() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG519() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG521() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}
+@org.junit.Test(timeout = 10000)
+public void constructorToString_Ex2_CATG523() throws java.lang.Exception {
+    com.squareup.javapoet.MethodSpec constructor = com.squareup.javapoet.MethodSpec.constructorBuilder().addModifiers(javax.lang.model.element.Modifier.PUBLIC).addParameter(com.squareup.javapoet.ClassName.get(this.tacosPackage, ""), "").addStatement("this.$N = $Na", "", "").build();
+}

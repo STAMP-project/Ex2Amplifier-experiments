@@ -37,15 +37,6 @@
       "headUrl": "git://github.com/ronshapiro/javapoet.git",
       "headRef": "598_dns",
       "headSha": "c2c770c9260819e14ea3154ca7e4000a24d15995"
-    },
-    {
-      "id": 443,
-      "baseUrl": "git://github.com/square/javapoet.git",
-      "baseRef": "master",
-      "baseSha": "4fd756960d5e16051e3e3506e8614ab80f21d4f8",
-      "headUrl": "git://github.com/sormuras/javapoet.git",
-      "headRef": "static_import_refactored",
-      "headSha": "e516b00ecff4668a81c20fa7e23a98f1af8b4eff"
     }
   ]
 }

@@ -1,0 +1,5 @@
+@org.junit.Test(timeout = 10000)
+public void verifyLegendTagNotStripped_Ex2_CATG213() throws java.lang.Exception {
+    java.lang.String input = "<fieldset><legend>test</legend>";
+    java.lang.String String_0 = ((org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.HEADER_FULL) + input) + (org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.FOOTER);
+}

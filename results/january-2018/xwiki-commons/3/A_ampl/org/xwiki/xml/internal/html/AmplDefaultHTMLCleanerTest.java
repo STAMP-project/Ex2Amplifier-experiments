@@ -1,6 +1,7 @@
 package org.xwiki.xml.internal.html;
 
 
+import HTMLCleanerConfiguration.NAMESPACES_AWARE;
 import java.io.StringReader;
 import java.util.Collections;
 import org.junit.Assert;
@@ -46,7 +47,7 @@ public class AmplDefaultHTMLCleanerTest {
         String input = "<html xmlns=\"http://www.w3.org/1999/xhtml\"><head></head><body>";
         Assert.assertEquals((((AmplDefaultHTMLCleanerTest.HEADER) + input) + (AmplDefaultHTMLCleanerTest.FOOTER)), HTMLUtils.toString(this.mocker.getComponentUnderTest().clean(new StringReader(input))));
         HTMLCleanerConfiguration config = this.mocker.getComponentUnderTest().getDefaultConfiguration();
-        config.setParameters(Collections.singletonMap(HTMLCleanerConfiguration.NAMESPACES_AWARE, "false"));
+        config.setParameters(Collections.singletonMap(NAMESPACES_AWARE, "false"));
         Assert.assertEquals((((AmplDefaultHTMLCleanerTest.HEADER) + "<html><head></head><body>") + (AmplDefaultHTMLCleanerTest.FOOTER)), HTMLUtils.toString(this.mocker.getComponentUnderTest().clean(new StringReader(input), config)));
     }
 

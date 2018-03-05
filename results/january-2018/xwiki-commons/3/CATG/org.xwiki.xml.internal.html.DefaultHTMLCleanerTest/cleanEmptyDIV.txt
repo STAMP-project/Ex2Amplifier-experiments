@@ -1,0 +1,5 @@
+@org.junit.Test(timeout = 10000)
+public void cleanEmptyDIV_Ex2_CATG162() throws java.lang.Exception {
+    java.lang.String input = "<div id=\"y\"></div><div id=\"z\">s";
+    java.lang.String String_0 = ((org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.HEADER_FULL) + input) + (org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.FOOTER);
+}

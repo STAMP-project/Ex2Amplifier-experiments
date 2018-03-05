@@ -1,0 +1,6 @@
+"restricted",""
+"true",""
+"<script>alert(\"foo\")</script>",""
+"<pre>alert(\"foo\")</pre>",""
+"<style>p {color:white;}</style>","<style>p {color:white;}</style>"
+"<pre>p {color:white;}</pre>","<pre>p {color:white;}</pre>"

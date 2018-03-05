@@ -1,0 +1,12 @@
+@org.junit.Test(timeout = 10000)
+public void restrictedHtml_Ex2_CATG202() throws java.lang.Exception, org.xwiki.component.manager.ComponentLookupException {
+    org.xwiki.xml.html.HTMLCleanerConfiguration configuration = this.mocker.getComponentUnderTest().getDefaultConfiguration();
+    java.util.Map<java.lang.String, java.lang.String> parameters = new java.util.HashMap<java.lang.String, java.lang.String>();
+    parameters.putAll(configuration.getParameters());
+    parameters.put("", "");
+    configuration.setParameters(parameters);
+    java.lang.String result = org.xwiki.xml.html.HTMLUtils.toString(this.mocker.getComponentUnderTest().clean(new java.io.StringReader(""), configuration));
+    java.lang.String String_0 = ((org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.HEADER_FULL) + "") + (org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.FOOTER);
+    result = org.xwiki.xml.html.HTMLUtils.toString(this.mocker.getComponentUnderTest().clean(new java.io.StringReader("<style>p {color:white;}</style>"), configuration));
+    java.lang.String String_1 = ((org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.HEADER_FULL) + "<pre>p {color:white;}</pre>") + (org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.FOOTER);
+}

@@ -1,0 +1,15 @@
+@org.junit.Test(timeout = 10000)
+public void cleanSVGTags_Ex2_CATG169() throws java.lang.Exception {
+    java.lang.String input = "" + ((("<svg xmlns=\"http://www.w3.org/2" + "<circle cx=\"100\" cy=\"50\" fill=\"red\" r=\"40\" stroke=\"black\" stroke-width=\"2\"></circle>") + "") + "</svg>");
+    java.lang.String String_0 = ((org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.HEADER_FULL) + input) + (org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.FOOTER);
+}
+@org.junit.Test(timeout = 10000)
+public void cleanSVGTags_Ex2_CATG171() throws java.lang.Exception {
+    java.lang.String input = "" + ((("" + "<circle cx=\"100\" cy=\"50\" fill=\"") + "</svg>") + "");
+    java.lang.String String_0 = ((org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.HEADER_FULL) + input) + (org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.FOOTER);
+}
+@org.junit.Test(timeout = 10000)
+public void cleanSVGTags_Ex2_CATG173() throws java.lang.Exception {
+    java.lang.String input = "" + ((("" + "<circle cx=\"100\" cy=\"50\" fill=\"") + "</svg>") + "");
+    java.lang.String String_0 = ((org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.HEADER_FULL) + input) + (org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.FOOTER);
+}

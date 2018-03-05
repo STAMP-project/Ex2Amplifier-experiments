@@ -1,0 +1,33 @@
+@org.junit.Test(timeout = 10000)
+public void duplicateIds_Ex2_CATG186() throws java.lang.Exception {
+    java.lang.String actual = "<p id=\"x\">1</p><p id=\"xy\">2</p>";
+    java.lang.String expected = "<p id=\"x\">1</p><p id=\"xy\">2</p><p id=\"x0\">3</p>";
+    org.xwiki.xml.html.HTMLCleanerConfiguration config = this.mocker.getComponentUnderTest().getDefaultConfiguration();
+    java.util.List<org.xwiki.xml.html.filter.HTMLFilter> filters = new java.util.ArrayList<org.xwiki.xml.html.filter.HTMLFilter>(config.getFilters());
+    filters.add(this.mocker.<org.xwiki.xml.html.filter.HTMLFilter>getInstance(org.xwiki.xml.html.filter.HTMLFilter.class, "uniqueId"));
+    config.setFilters(filters);
+    java.lang.String String_0 = ((org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.HEADER_FULL) + expected) + (org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.FOOTER);
+    org.xwiki.xml.html.HTMLUtils.toString(this.mocker.getComponentUnderTest().clean(new java.io.StringReader(actual), config));
+}
+@org.junit.Test(timeout = 10000)
+public void duplicateIds_Ex2_CATG188() throws java.lang.Exception {
+    java.lang.String actual = "";
+    java.lang.String expected = "<p id=\"x\">1</p><p id=\"xy\">2</p>";
+    org.xwiki.xml.html.HTMLCleanerConfiguration config = this.mocker.getComponentUnderTest().getDefaultConfiguration();
+    java.util.List<org.xwiki.xml.html.filter.HTMLFilter> filters = new java.util.ArrayList<org.xwiki.xml.html.filter.HTMLFilter>(config.getFilters());
+    filters.add(this.mocker.<org.xwiki.xml.html.filter.HTMLFilter>getInstance(org.xwiki.xml.html.filter.HTMLFilter.class, "uniqueId"));
+    config.setFilters(filters);
+    java.lang.String String_0 = ((org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.HEADER_FULL) + expected) + (org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.FOOTER);
+    org.xwiki.xml.html.HTMLUtils.toString(this.mocker.getComponentUnderTest().clean(new java.io.StringReader(actual), config));
+}
+@org.junit.Test(timeout = 10000)
+public void duplicateIds_Ex2_CATG190() throws java.lang.Exception {
+    java.lang.String actual = "";
+    java.lang.String expected = "<p id=\"x\">1</p><p id=\"xy\">2</p>";
+    org.xwiki.xml.html.HTMLCleanerConfiguration config = this.mocker.getComponentUnderTest().getDefaultConfiguration();
+    java.util.List<org.xwiki.xml.html.filter.HTMLFilter> filters = new java.util.ArrayList<org.xwiki.xml.html.filter.HTMLFilter>(config.getFilters());
+    filters.add(this.mocker.<org.xwiki.xml.html.filter.HTMLFilter>getInstance(org.xwiki.xml.html.filter.HTMLFilter.class, "uniqueId"));
+    config.setFilters(filters);
+    java.lang.String String_0 = ((org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.HEADER_FULL) + expected) + (org.xwiki.xml.internal.html.DefaultHTMLCleanerTest.FOOTER);
+    org.xwiki.xml.html.HTMLUtils.toString(this.mocker.getComponentUnderTest().clean(new java.io.StringReader(actual), config));
+}

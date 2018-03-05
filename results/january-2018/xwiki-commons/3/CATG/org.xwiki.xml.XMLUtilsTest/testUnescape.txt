@@ -1,5 +1,5 @@
 @org.junit.Test(timeout = 10000)
-public void testUnescape_Ex2_CATG80() {
+public void testUnescape_Ex2_CATG80() throws java.lang.Exception {
     org.xwiki.xml.XMLUtils.unescape("");
     org.xwiki.xml.XMLUtils.unescape("");
     org.xwiki.xml.XMLUtils.unescape("");
@@ -7,7 +7,7 @@ public void testUnescape_Ex2_CATG80() {
     org.xwiki.xml.XMLUtils.unescape("&#x026;&#x0027;&#x00022;&#x00003c;&#x0003C;&#x003e;&#x03E;");
 }
 @org.junit.Test(timeout = 10000)
-public void testUnescape_Ex2_CATG82() {
+public void testUnescape_Ex2_CATG82() throws java.lang.Exception {
     org.xwiki.xml.XMLUtils.unescape("");
     org.xwiki.xml.XMLUtils.unescape("");
     org.xwiki.xml.XMLUtils.unescape("");
@@ -15,7 +15,7 @@ public void testUnescape_Ex2_CATG82() {
     org.xwiki.xml.XMLUtils.unescape("&#x026;&#x0027;&#x00022;&#x0000");
 }
 @org.junit.Test(timeout = 10000)
-public void testUnescape_Ex2_CATG84() {
+public void testUnescape_Ex2_CATG84() throws java.lang.Exception {
     org.xwiki.xml.XMLUtils.unescape("");
     org.xwiki.xml.XMLUtils.unescape("");
     org.xwiki.xml.XMLUtils.unescape("");

@@ -17,6 +17,7 @@ import fr.inria.stamp.ex2amplifier.Ex2Amplifier;
 import fr.inria.stamp.git.Cloner;
 import fr.inria.stamp.git.ParserPullRequest;
 import fr.inria.stamp.git.ProjectJSON;
+import fr.inria.stamp.jbse.JBSERunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import spoon.reflect.declaration.CtType;
@@ -54,6 +55,10 @@ public class Main {
         Main.verbose = jsapConfig.getBoolean("verbose");
         Main.onlyAampl = jsapConfig.getBoolean("aampl");
         Main.JBSE = jsapConfig.getBoolean("JBSE");
+
+        JBSERunner.depthScope = jsapConfig.getInt("depth");
+        JBSERunner.countScope = jsapConfig.getInt("count");
+
         if (jsapConfig.getBoolean("help")) {
             showUsage();
         } else if (jsapConfig.getBoolean("get")) {
@@ -245,13 +250,25 @@ public class Main {
         testClass.setShortFlag('t');
         testClass.setLongFlag("testClass");
         testClass.setDefault("");
-        idPr.setHelp("[optional] specify the full qualified name of test class to be amplified");
+        testClass.setHelp("[optional] specify the full qualified name of test class to be amplified");
 
         Switch onlyAampl = new Switch("aampl");
         onlyAampl.setHelp("[optional] will use only A-amplification.");
         onlyAampl.setDefault("false");
         onlyAampl.setLongFlag("aampl");
         onlyAampl.setShortFlag('a');
+
+        FlaggedOption depth = new FlaggedOption("depth");
+        depth.setStringParser(JSAP.INTEGER_PARSER);
+        depth.setAllowMultipleDeclarations(false);
+        depth.setLongFlag("depth");
+        depth.setDefault("8");
+
+        FlaggedOption count = new FlaggedOption("count");
+        count.setStringParser(JSAP.INTEGER_PARSER);
+        count.setAllowMultipleDeclarations(false);
+        count.setLongFlag("count");
+        count.setDefault("1500");
 
         try {
             jsap.registerParameter(help);
@@ -264,8 +281,10 @@ public class Main {
             jsap.registerParameter(testClass);
             jsap.registerParameter(JBSEMode);
             jsap.registerParameter(onlyAampl);
+            jsap.registerParameter(depth);
+            jsap.registerParameter(count);
         } catch (JSAPException e) {
-            showUsage();
+            throw new RuntimeException(e);
         }
         return jsap;
     }

@@ -38,10 +38,10 @@ public class Playground {
 
 //        final String nameOfRepository = "square/javapoet";
 //        final String nameOfRepository = "xwiki/xwiki-rendering";
-        final String nameOfRepository = "prestodb/pcccresto";
-//        final String nameOfRepository = "protostuff/protostuff";
+//        final String nameOfRepository = "prestodb/pcccresto";
+        final String nameOfRepository = "protostuff/protostuff";
 //        final String nameOfRepository = "mybatis/mybatis-3";
-        final int idOfPullRequest = 10028;
+        final int idOfPullRequest = 189;
 
         final GitHub gitHub = GitHub.connectAnonymously();
         final GHRepository repository = gitHub.getRepository(nameOfRepository);
@@ -121,41 +121,4 @@ public class Playground {
                 Cloner.cloneBothVersionOf(pr, projectJSON.name)
         );
     }
-
-    @Test
-public void test() {
-    Tacos tacos = new Tacos();
-    Benjamin benjamin = new Benjamin();
-    tacos.fillWith(new Tomatoes(1000));
-    benjamin.eat(tacos);
-    assertFalse(benjamin.isHungry());
-}
-
-    public abstract class Food {
-    }
-
-    public class Tacos extends Food {
-        public void fillWith(Food food) {
-
-        }
-    }
-
-    public class Tomatoes extends Food {
-        public Tomatoes() {
-
-        }
-        public Tomatoes(int number) {
-
-        }
-    }
-
-    public class Benjamin {
-        public boolean isHungry() {
-            return false;
-        }
-
-        public void eat(Food food) {
-        }
-    }
-
 }

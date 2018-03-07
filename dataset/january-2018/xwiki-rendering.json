@@ -12,6 +12,7 @@
       "headSha": "a9aa3bfb664c672a08de589493e8667e03f67450"
     },
     {
+
       "id": 96,
       "baseUrl": "git://github.com/xwiki/xwiki-rendering.git",
       "baseRef": "master",

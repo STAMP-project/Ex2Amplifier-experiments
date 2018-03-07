@@ -10,6 +10,25 @@
       "headUrl": "git://github.com/dyu/protostuff.git",
       "headRef": "empty-messages",
       "headSha": "0dc22ff95ac82caac848fd8b8f427f9997c15113"
+    },
+    {
+      "id": 189,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "80ec898039457a63e179350868c6e13524ed08c4",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "issue-188",
+      "headSha": "0a73677ba0cb310cb242cac74d890ee889a739ee"
+    },
+    // manually added
+    {
+      "id": 187,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "f0e06993a3e69eba8c48704f667e4d838c97aec8",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "master",
+      "headSha": "9eca0f207dfea158aa7c12e84e37460b48f5750d"
     }
   ]
 }

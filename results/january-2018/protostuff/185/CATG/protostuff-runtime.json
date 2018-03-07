@@ -1,0 +1,9 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "io.protostuff.runtime.FilterFieldsByGroupTest",
+      "timeInMs": 1650
+    }
+  ],
+  "projectName": "protostuff-runtime"
+}

@@ -1,0 +1,9 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "io.protostuff.runtime.NullArrayElementTest",
+      "timeInMs": 7512
+    }
+  ],
+  "projectName": "protostuff-runtime"
+}

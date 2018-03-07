@@ -1,0 +1,13 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "com.squareup.javapoet.TypeSpecTest",
+      "timeInMs": 93392
+    },
+    {
+      "fullQualifiedName": "com.squareup.javapoet.ClassNameTest",
+      "timeInMs": 9293
+    }
+  ],
+  "projectName": "526"
+}

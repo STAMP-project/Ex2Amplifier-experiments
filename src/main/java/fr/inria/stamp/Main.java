@@ -8,6 +8,9 @@ import com.martiansoftware.jsap.JSAPResult;
 import com.martiansoftware.jsap.Switch;
 import edu.emory.mathcs.backport.java.util.Collections;
 import fr.inria.diversify.dspot.DSpot;
+import fr.inria.diversify.dspot.amplifier.AllLiteralAmplifiers;
+import fr.inria.diversify.dspot.amplifier.Amplifier;
+import fr.inria.diversify.dspot.amplifier.ReplacementAmplifier;
 import fr.inria.diversify.dspot.amplifier.StatementAdd;
 import fr.inria.diversify.dspot.amplifier.TestDataMutator;
 import fr.inria.diversify.dspot.selector.ChangeDetectorSelector;
@@ -17,7 +20,9 @@ import fr.inria.stamp.ex2amplifier.Ex2Amplifier;
 import fr.inria.stamp.git.Cloner;
 import fr.inria.stamp.git.ParserPullRequest;
 import fr.inria.stamp.git.ProjectJSON;
+import fr.inria.stamp.git.PullRequestJSON;
 import fr.inria.stamp.jbse.JBSERunner;
+import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import spoon.reflect.declaration.CtType;
@@ -38,6 +43,10 @@ import java.util.List;
  */
 public class Main {
 
+    private static boolean reverse = false;
+
+    private static boolean Ex2AmplifierMode = true;
+
     private static boolean onlyAampl = false;
 
     private static boolean JBSE = false;
@@ -46,21 +55,21 @@ public class Main {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
 
-    public static final JSAP options = initJSAP();
-
     public static final String LINE_SEPARATOR = System.getProperty("line.separator");
 
     public static void main(String[] args) {
-        JSAPResult jsapConfig = options.parse(args);
+        JSAPResult jsapConfig = JSAPOptions.options.parse(args);
         Main.verbose = jsapConfig.getBoolean("verbose");
         Main.onlyAampl = jsapConfig.getBoolean("aampl");
         Main.JBSE = jsapConfig.getBoolean("JBSE");
+        Main.Ex2AmplifierMode = ! jsapConfig.getBoolean("amplifiers");
+        Main.reverse = jsapConfig.getBoolean("reverse");
 
         JBSERunner.depthScope = jsapConfig.getInt("depth");
         JBSERunner.countScope = jsapConfig.getInt("count");
 
         if (jsapConfig.getBoolean("help")) {
-            showUsage();
+            JSAPOptions.showUsage();
         } else if (jsapConfig.getBoolean("get")) {
             Main.get(jsapConfig.getString("output"));
         } else if (jsapConfig.getString("clone") != null) {
@@ -88,7 +97,7 @@ public class Main {
                 throw new RuntimeException(e);
             }
         } else {
-            showUsage();
+            JSAPOptions.showUsage();
         }
     }
 
@@ -108,36 +117,22 @@ public class Main {
                 .filter(pullRequestJSON -> pullRequestJSON.id == id || id == -1)
                 .forEach(pullRequestJSON -> {
                     try {
-                        final InputConfiguration inputConfiguration;
-                        if (new File(finalPath + projectJSON.name + id + ".properties").exists()) {
-                            inputConfiguration = new InputConfiguration(finalPath + projectJSON.name + id + ".properties");
-                            inputConfiguration.getProperties().setProperty("configPath", finalPath + projectJSON.name + id + ".properties");
+                        final InputConfiguration inputConfiguration = setupConfiguration(id, projectJSON, finalPath, pullRequestJSON);
+                        final List<Amplifier> amplifiers;
+                        if (Ex2AmplifierMode) {
+                            final Ex2Amplifier ex2Amplifier = Ex2Amplifier.getEx2Amplifier(JBSE ?
+                                    Ex2Amplifier.Ex2Amplifier_Mode.JBSE : Ex2Amplifier.Ex2Amplifier_Mode.CATG
+                            );
+                            ex2Amplifier.init(inputConfiguration);
+                            amplifiers = Collections.singletonList(ex2Amplifier);
                         } else {
-                            inputConfiguration = new InputConfiguration(finalPath + projectJSON.name + ".properties");
-                            inputConfiguration.getProperties().setProperty("configPath", finalPath + projectJSON.name + ".properties");
+                            amplifiers = Arrays.asList(new StatementAdd(), new ReplacementAmplifier(), new AllLiteralAmplifiers());
                         }
-                        inputConfiguration.getProperties().setProperty("project",
-                                inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + "/");
-                        inputConfiguration.getProperties().setProperty("folderPath",
-                                inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/");
-                        inputConfiguration.getProperties().setProperty("outputDirectory",
-                                inputConfiguration.getProperty("outputDirectory") + "/" + pullRequestJSON.id + "/" +
-                                        (onlyAampl ? "A_ampl" :
-                                                (JBSE ?
-                                                        Ex2Amplifier.Ex2Amplifier_Mode.JBSE.toString() :
-                                                        Ex2Amplifier.Ex2Amplifier_Mode.CATG.toString()
-                                                )
-                                        )
-                        );
-                        final Ex2Amplifier ex2Amplifier = Ex2Amplifier.getEx2Amplifier(JBSE ?
-                                Ex2Amplifier.Ex2Amplifier_Mode.JBSE : Ex2Amplifier.Ex2Amplifier_Mode.CATG
-                        );
-                        ex2Amplifier.init(inputConfiguration);
                         final ChangeDetectorSelector changeDetectorSelector = new ChangeDetectorSelector();
                         final DSpot dSpot = new DSpot(
                                 inputConfiguration,
                                 1,
-                                onlyAampl ? Collections.emptyList() : Arrays.asList(ex2Amplifier),
+                                onlyAampl ? Collections.emptyList() : amplifiers,
                                 changeDetectorSelector
                         );
                         if (testClassToBeAmplified.isEmpty()) {
@@ -150,6 +145,52 @@ public class Main {
                     }
                 });
         return ctTypes;
+    }
+
+    @NotNull
+    private static InputConfiguration setupConfiguration(int id, ProjectJSON projectJSON, String finalPath, PullRequestJSON pullRequestJSON) throws IOException {
+        final InputConfiguration inputConfiguration;
+        if (new File(finalPath + projectJSON.name + id + ".properties").exists()) {
+            inputConfiguration = new InputConfiguration(finalPath + projectJSON.name + id + ".properties");
+            inputConfiguration.getProperties().setProperty("configPath", finalPath + projectJSON.name + id + ".properties");
+        } else {
+            inputConfiguration = new InputConfiguration(finalPath + projectJSON.name + ".properties");
+            inputConfiguration.getProperties().setProperty("configPath", finalPath + projectJSON.name + ".properties");
+        }
+
+        if (reverse) {
+            inputConfiguration.getProperties().setProperty("project",
+                    inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/");
+            inputConfiguration.getProperties().setProperty("folderPath",
+                    inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + "/");
+        } else {
+            inputConfiguration.getProperties().setProperty("project",
+                    inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + "/");
+            inputConfiguration.getProperties().setProperty("folderPath",
+                    inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/");
+        }
+
+        inputConfiguration.getProperties().setProperty("outputDirectory",
+                inputConfiguration.getProperty("outputDirectory") + "/" +
+                        getRightOutputSuffx(pullRequestJSON.id)
+        );
+        return inputConfiguration;
+    }
+
+    private static String getRightOutputSuffx(int id) {
+        String suffixExp = Main.reverse ? id + "_modified/" : id + "/" ;
+        if (Main.onlyAampl) {
+            return suffixExp + "A_ampl";
+        } else if (Main.Ex2AmplifierMode) {
+            return suffixExp + "A_ampl";
+        } else {
+            if (Main.JBSE) {
+                return suffixExp + Ex2Amplifier.Ex2Amplifier_Mode.JBSE.toString();
+
+            } else {
+                return suffixExp + Ex2Amplifier.Ex2Amplifier_Mode.CATG.toString();
+            }
+        }
     }
 
     private static void clone(String pathToJsonFile, String output) throws FileNotFoundException {
@@ -174,119 +215,4 @@ public class Main {
             throw new RuntimeException(e);
         }
     }
-
-    private static void showUsage() {
-        System.err.println();
-        System.err.println("Usage: java -jar target/dspot-1.0.0-jar-with-dependencies.jar");
-        System.err.println("                          " + options.getUsage());
-        System.err.println();
-        System.err.println(options.getHelp());
-        System.exit(1);
-    }
-
-    private static JSAP initJSAP() {
-        JSAP jsap = new JSAP();
-
-        Switch help = new Switch("help");
-        help.setLongFlag("help");
-        help.setShortFlag('h');
-        help.setHelp("shows this help");
-
-        Switch verbose = new Switch("verbose");
-        verbose.setLongFlag("verbose");
-        verbose.setShortFlag('v');
-        verbose.setHelp("enable verbose mode.");
-
-        Switch get = new Switch("get");
-        get.setLongFlag("get");
-        get.setShortFlag('g');
-        final String helpForGet =
-                "[TASK] get all metadata about openned pull request" +
-                        " of specified projects in dataset/projects."
-                        + LINE_SEPARATOR + "Each project should be on" +
-                        " one line, and in this format: <owner>/<repository-name>/."
-                        + LINE_SEPARATOR + "the output is a json file contained in result/.";
-        get.setHelp(helpForGet);
-
-        Switch JBSEMode = new Switch("JBSE");
-        JBSEMode.setLongFlag("jbse");
-        JBSEMode.setShortFlag('j');
-        JBSEMode.setHelp("enable de JBSE mode of the Ex2Amplifier");
-
-        FlaggedOption clone = new FlaggedOption("clone");
-        clone.setStringParser(JSAP.STRING_PARSER);
-        clone.setAllowMultipleDeclarations(false);
-        clone.setShortFlag('c');
-        clone.setLongFlag("clone");
-        clone.setHelp("[TASK] clone all pull request datas (base and head) of the specified json file.");
-
-        FlaggedOption run = new FlaggedOption("run");
-        run.setStringParser(JSAP.STRING_PARSER);
-        run.setAllowMultipleDeclarations(false);
-        run.setShortFlag('r');
-        run.setLongFlag("run");
-        run.setHelp("[TASK] run the Ex2Amplifier, using the ChangeDetectorSelector." + LINE_SEPARATOR
-                + "You must specify options of DSpot after the flag separated with $.");
-
-        FlaggedOption output = new FlaggedOption("output");
-        output.setStringParser(JSAP.STRING_PARSER);
-        output.setAllowMultipleDeclarations(false);
-        output.setShortFlag('o');
-        output.setLongFlag("output");
-        output.setDefault("target/ex2amplifier_out/");
-        output.setHelp("[optional] Specify the output path of the selected task. (default: target/ex2amplifier_out/");
-
-        FlaggedOption idPr = new FlaggedOption("id");
-        idPr.setStringParser(JSAP.INTEGER_PARSER);
-        idPr.setAllowMultipleDeclarations(false);
-        idPr.setShortFlag('i');
-        idPr.setLongFlag("id");
-        idPr.setDefault("-1");
-        idPr.setHelp("[optional] specify a pr ID. If no value is given, it will process all the ids");
-
-        FlaggedOption testClass = new FlaggedOption("testClass");
-        testClass.setStringParser(JSAP.STRING_PARSER);
-        testClass.setAllowMultipleDeclarations(false);
-        testClass.setShortFlag('t');
-        testClass.setLongFlag("testClass");
-        testClass.setDefault("");
-        testClass.setHelp("[optional] specify the full qualified name of test class to be amplified");
-
-        Switch onlyAampl = new Switch("aampl");
-        onlyAampl.setHelp("[optional] will use only A-amplification.");
-        onlyAampl.setDefault("false");
-        onlyAampl.setLongFlag("aampl");
-        onlyAampl.setShortFlag('a');
-
-        FlaggedOption depth = new FlaggedOption("depth");
-        depth.setStringParser(JSAP.INTEGER_PARSER);
-        depth.setAllowMultipleDeclarations(false);
-        depth.setLongFlag("depth");
-        depth.setDefault("8");
-
-        FlaggedOption count = new FlaggedOption("count");
-        count.setStringParser(JSAP.INTEGER_PARSER);
-        count.setAllowMultipleDeclarations(false);
-        count.setLongFlag("count");
-        count.setDefault("1500");
-
-        try {
-            jsap.registerParameter(help);
-            jsap.registerParameter(verbose);
-            jsap.registerParameter(get);
-            jsap.registerParameter(clone);
-            jsap.registerParameter(run);
-            jsap.registerParameter(output);
-            jsap.registerParameter(idPr);
-            jsap.registerParameter(testClass);
-            jsap.registerParameter(JBSEMode);
-            jsap.registerParameter(onlyAampl);
-            jsap.registerParameter(depth);
-            jsap.registerParameter(count);
-        } catch (JSAPException e) {
-            throw new RuntimeException(e);
-        }
-        return jsap;
-    }
-
 }

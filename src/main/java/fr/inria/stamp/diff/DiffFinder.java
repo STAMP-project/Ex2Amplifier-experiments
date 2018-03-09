@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
  */
 public class DiffFinder {
 
-    public static Set<CtType<?>> findTestClassesAccordingToADiff(Factory factory,
+    public static Set<CtType> findTestClassesAccordingToADiff(Factory factory,
                                                                  String baseSha,
                                                                  String pathToFirstVersion,
                                                                  String pathToSecondVersion) {
@@ -32,7 +32,7 @@ public class DiffFinder {
         final Set<String> modifiedJavaFiles = pathToModifiedJavaFile(baseSha, pathToSecondVersion);
 
         // keep modified test in the PR: must be present in both versions of the program
-        final Set<CtType<?>> modifiedTestClasses =
+        final Set<CtType> modifiedTestClasses =
                 getModifiedTestClasses(factory, pathToFirstVersion, pathToSecondVersion, modifiedJavaFiles);
         if (!modifiedTestClasses.isEmpty()) {
             return modifiedTestClasses;
@@ -68,7 +68,7 @@ public class DiffFinder {
                 ).collect(Collectors.toSet());
     }
 
-    private static Set<CtType<?>> getModifiedTestClasses(Factory factory,
+    private static Set<CtType> getModifiedTestClasses(Factory factory,
                                                          String pathToFirstVersion,
                                                          String pathToSecondVersion,
                                                          Set<String> modifiedJavaFiles) {

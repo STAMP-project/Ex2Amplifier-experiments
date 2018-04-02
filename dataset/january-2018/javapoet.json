@@ -37,6 +37,60 @@
       "headUrl": "git://github.com/ronshapiro/javapoet.git",
       "headRef": "598_dns",
       "headSha": "c2c770c9260819e14ea3154ca7e4000a24d15995"
+    },
+    {
+      "id": 618,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "adced314c48865463594bf58022f509090eef7af",
+      "headUrl": "git://github.com/rluble/javapoet.git",
+      "headRef": "tests/type_use_annotations",
+      "headSha": "f4bacb55dda403384c70dd1566cce585afa0e23c"
+    },
+    {
+      "id": 605,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "da2859b67f9098ac5c1c12aa64218c7e2dc1e63f",
+      "headUrl": "git://github.com/square/javapoet.git",
+      "headRef": "jwilson.0126.use_Z_in_methods",
+      "headSha": "354dd648be77e261c858567054114b1fee9f1467"
+    },
+    {
+      "id": 574,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "384395d53cccde5a93932dba78328a5888db7ee8",
+      "headUrl": "git://github.com/square/javapoet.git",
+      "headRef": "jw/2017-07-31/type-var-annotations",
+      "headSha": "9fdb0ee5008af4542d043cbbce60fc32926ffc44"
+    },
+    {
+      "id": 568,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "a5694ac69113d815dd6588775dbccf22747f556b",
+      "headUrl": "git://github.com/square/javapoet.git",
+      "headRef": "jw/2017-06-30/lockless",
+      "headSha": "574d80c5796c992533688ebc566110555476d4e0"
+    },
+    {
+      "id": 567,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "08c7148ab302a364517f993c0fda33b1dca7bfe6",
+      "headUrl": "git://github.com/ronshapiro/javapoet.git",
+      "headRef": "MethodSpec_addStatement_CodeBlock",
+      "headSha": "2c674b7e48a03d464034b9b338c990531676903a"
+    },
+    {
+      "id": 562,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "5f3b345be9bd8364268d6460424ae8cf59d087f0",
+      "headUrl": "git://github.com/PhilGlass/javapoet.git",
+      "headRef": "bugfix/generated_classname",
+      "headSha": "a59930298d4dac30b7533e53afa75b9fbb696e69"
     }
   ]
 }

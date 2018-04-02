@@ -1,8 +1,7 @@
-package fr.inria.stamp.git;
+package eu.stamp.project.git;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import fr.inria.stamp.Main;
 import org.apache.commons.io.FileUtils;
 import org.kohsuke.github.GHIssueState;
 import org.kohsuke.github.GHPullRequest;

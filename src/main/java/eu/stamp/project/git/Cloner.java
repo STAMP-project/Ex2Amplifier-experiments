@@ -1,23 +1,21 @@
-package fr.inria.stamp.git;
+package eu.stamp.project.git;
 
-import org.apache.commons.io.FileUtils;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.ResetCommand;
 import org.eclipse.jgit.api.errors.GitAPIException;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.URISyntaxException;
 
 public class Cloner {
 
     /**
      * this method clone the repository twice: the base and the head of the pr
-     * It then, reset hard using the given sha inside the fr.inria.stamp.git.PullRequestJSON object
+     * It then, reset hard using the given sha inside the eu.stamp.project.git.PullRequestJSON object
      * The base version is in out/id_pr/ and the head version is ins out/id_pr_modified
-     * id_pr is the value in the field id of the given fr.inria.stamp.git.PullRequestJSON object
+     * id_pr is the value in the field id of the given eu.stamp.project.git.PullRequestJSON object
      *
-     * @param pr  fr.inria.stamp.git.PullRequestJSON that contains all the needed information
+     * @param pr  eu.stamp.project.git.PullRequestJSON that contains all the needed information
      * @param out prefix for output
      */
     public static void cloneBothVersionOf(PullRequestJSON pr, String out) {

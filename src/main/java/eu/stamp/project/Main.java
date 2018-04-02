@@ -1,11 +1,7 @@
-package fr.inria.stamp;
+package eu.stamp.project;
 
 import com.google.gson.Gson;
-import com.martiansoftware.jsap.FlaggedOption;
-import com.martiansoftware.jsap.JSAP;
-import com.martiansoftware.jsap.JSAPException;
 import com.martiansoftware.jsap.JSAPResult;
-import com.martiansoftware.jsap.Switch;
 import edu.emory.mathcs.backport.java.util.Collections;
 import eu.stamp.project.ex2amplifier.amplifier.Ex2Amplifier;
 import eu.stamp.project.ex2amplifier.jbse.JBSERunner;
@@ -14,15 +10,14 @@ import fr.inria.diversify.dspot.amplifier.AllLiteralAmplifiers;
 import fr.inria.diversify.dspot.amplifier.Amplifier;
 import fr.inria.diversify.dspot.amplifier.ReplacementAmplifier;
 import fr.inria.diversify.dspot.amplifier.StatementAdd;
-import fr.inria.diversify.dspot.amplifier.TestDataMutator;
 import fr.inria.diversify.dspot.selector.ChangeDetectorSelector;
 import fr.inria.diversify.utils.DSpotUtils;
 import fr.inria.diversify.utils.sosiefier.InputConfiguration;
 import fr.inria.stamp.diff.SelectorOnDiff;
-import fr.inria.stamp.git.Cloner;
-import fr.inria.stamp.git.ParserPullRequest;
-import fr.inria.stamp.git.ProjectJSON;
-import fr.inria.stamp.git.PullRequestJSON;
+import eu.stamp.project.git.Cloner;
+import eu.stamp.project.git.ParserPullRequest;
+import eu.stamp.project.git.ProjectJSON;
+import eu.stamp.project.git.PullRequestJSON;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,7 +31,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
@@ -45,6 +39,8 @@ import java.util.stream.Collectors;
  * on 16/01/18
  */
 public class Main {
+
+    private static String mavenHome = null;
 
     private static boolean reverse = false;
 
@@ -67,6 +63,7 @@ public class Main {
         Main.JBSE = jsapConfig.getBoolean("JBSE");
         Main.Ex2AmplifierMode = !jsapConfig.getBoolean("amplifiers");
         Main.reverse = jsapConfig.getBoolean("reverse");
+        Main.mavenHome = jsapConfig.getString("maven-home");
 
         JBSERunner.depthScope = jsapConfig.getInt("depth");
         JBSERunner.countScope = jsapConfig.getInt("count");
@@ -83,12 +80,7 @@ public class Main {
             }
         } else if (jsapConfig.getString("run") != null) {
             try {
-                final List<CtType> amplifiedTestClasses;
-                if (jsapConfig.getString("testClass").isEmpty()) {
-                    amplifiedTestClasses = Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"), "");
-                } else {
-                    amplifiedTestClasses = Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"), jsapConfig.getString("testClass"));
-                }
+                final List<CtType> amplifiedTestClasses = Main.run(jsapConfig.getString("run"), jsapConfig.getInt("id"));
                 // TODO assert fixer each test case
                 // We will keep two versions of the same amplified test case: one that pass on the new version and one that fail
                 // it aims a providing in any case, an amplified test case meargeable by developers
@@ -104,7 +96,7 @@ public class Main {
         }
     }
 
-    private static List<CtType> run(String pathToJsonFile, int id, String testClassToBeAmplified) throws Exception {
+    private static List<CtType> run(String pathToJsonFile, int id) throws Exception {
         Gson gson = new Gson();
         final ProjectJSON projectJSON =
                 gson.fromJson(new FileReader(pathToJsonFile), ProjectJSON.class);
@@ -186,6 +178,10 @@ public class Main {
         inputConfiguration.getProperties().setProperty("baseSha",
                 reverse ? pullRequestJSON.headSha : pullRequestJSON.baseSha
         );
+
+        if (Main.mavenHome != null) {
+            inputConfiguration.getProperties().put("maven.home", Main.mavenHome);
+        }
 
         return inputConfiguration;
     }

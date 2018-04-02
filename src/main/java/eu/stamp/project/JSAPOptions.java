@@ -1,4 +1,4 @@
-package fr.inria.stamp;
+package eu.stamp.project;
 
 import com.martiansoftware.jsap.FlaggedOption;
 import com.martiansoftware.jsap.JSAP;
@@ -53,6 +53,12 @@ public class JSAPOptions {
         JBSEMode.setShortFlag('j');
         JBSEMode.setHelp("enable de JBSE mode of the Ex2Amplifier");
 
+        FlaggedOption mavenHome = new FlaggedOption("maven-home");
+        mavenHome.setStringParser(JSAP.STRING_PARSER);
+        mavenHome.setAllowMultipleDeclarations(false);
+        mavenHome.setLongFlag("maven-home");
+        mavenHome.setHelp("[Optional] specify a custom path for maven.");
+
         FlaggedOption clone = new FlaggedOption("clone");
         clone.setStringParser(JSAP.STRING_PARSER);
         clone.setAllowMultipleDeclarations(false);
@@ -83,14 +89,6 @@ public class JSAPOptions {
         idPr.setLongFlag("id");
         idPr.setDefault("-1");
         idPr.setHelp("[optional] specify a pr ID. If no value is given, it will process all the ids");
-
-        FlaggedOption testClass = new FlaggedOption("testClass");
-        testClass.setStringParser(JSAP.STRING_PARSER);
-        testClass.setAllowMultipleDeclarations(false);
-        testClass.setShortFlag('t');
-        testClass.setLongFlag("testClass");
-        testClass.setDefault("");
-        testClass.setHelp("[optional] specify the full qualified name of test class to be amplified");
 
         Switch onlyAampl = new Switch("aampl");
         onlyAampl.setHelp("[optional] will use only A-amplification.");
@@ -128,13 +126,13 @@ public class JSAPOptions {
             jsap.registerParameter(run);
             jsap.registerParameter(output);
             jsap.registerParameter(idPr);
-            jsap.registerParameter(testClass);
             jsap.registerParameter(JBSEMode);
             jsap.registerParameter(onlyAampl);
             jsap.registerParameter(amplifiers);
             jsap.registerParameter(reverse);
             jsap.registerParameter(depth);
             jsap.registerParameter(count);
+            jsap.registerParameter(mavenHome);
         } catch (JSAPException e) {
             throw new RuntimeException(e);
         }

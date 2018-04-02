@@ -1,4 +1,4 @@
-package fr.inria.stamp.git;
+package eu.stamp.project.git;
 
 /**
  * Created by Benjamin DANGLOT

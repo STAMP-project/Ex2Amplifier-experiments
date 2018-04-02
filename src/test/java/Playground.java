@@ -2,10 +2,9 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import edu.emory.mathcs.backport.java.util.Collections;
 import fr.inria.diversify.utils.DSpotUtils;
-import fr.inria.stamp.git.Cloner;
-import fr.inria.stamp.git.ParserPullRequest;
-import fr.inria.stamp.git.ProjectJSON;
-import fr.inria.stamp.git.PullRequestJSON;
+import eu.stamp.project.git.Cloner;
+import eu.stamp.project.git.ProjectJSON;
+import eu.stamp.project.git.PullRequestJSON;
 import org.junit.Test;
 import org.kohsuke.github.GHIssueState;
 import org.kohsuke.github.GHPullRequest;
@@ -13,17 +12,13 @@ import org.kohsuke.github.GHRepository;
 import org.kohsuke.github.GitHub;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import spoon.Launcher;
-import spoon.SpoonModelBuilder;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.stream.Collectors;
 
 import static org.junit.Assert.assertFalse;
@@ -36,12 +31,12 @@ public class Playground {
     @Test
     public void getByID() throws Exception {
 
-//        final String nameOfRepository = "square/javapoet";
+        final String nameOfRepository = "square/javapoet";
 //        final String nameOfRepository = "xwiki/xwiki-rendering";
 //        final String nameOfRepository = "prestodb/pcccresto";
-        final String nameOfRepository = "protostuff/protostuff";
+//        final String nameOfRepository = "protostuff/protostuff";
 //        final String nameOfRepository = "mybatis/mybatis-3";
-        final int idOfPullRequest = 189;
+        final int idOfPullRequest = 529;
 
         final GitHub gitHub = GitHub.connectAnonymously();
         final GHRepository repository = gitHub.getRepository(nameOfRepository);

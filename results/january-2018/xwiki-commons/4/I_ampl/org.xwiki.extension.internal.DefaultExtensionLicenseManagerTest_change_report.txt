@@ -1,0 +1,3 @@
+======= REPORT =======
+1 amplified test fails on the new versions.
+testGetLicenselitString19_failAssert14(org.xwiki.extension.internal.DefaultExtensionLicenseManagerTest): testGetLicenselitString19 should have thrown IllegalArgumentException

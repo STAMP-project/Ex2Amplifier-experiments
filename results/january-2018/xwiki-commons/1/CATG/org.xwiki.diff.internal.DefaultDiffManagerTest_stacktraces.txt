@@ -3,7 +3,7 @@ java.lang.AssertionError: expected:<0> but was:<1>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at org.xwiki.diff.internal.DefaultDiffManagerTest.testMergeCharList(DefaultDiffManagerTest.java:759)
+	at org.xwiki.diff.internal.DefaultDiffManagerTest.testMergeCharList(DefaultDiffManagerTest.java:78)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

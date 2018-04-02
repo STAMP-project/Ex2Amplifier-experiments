@@ -2,7 +2,7 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.xwiki.diff.internal.DefaultDiffManagerTest",
-      "timeInMs": 77994
+      "timeInMs": 34835
     }
   ],
   "projectName": "xwiki-commons-diff-api"

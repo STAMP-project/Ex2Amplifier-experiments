@@ -7,6 +7,8 @@ import com.martiansoftware.jsap.JSAPException;
 import com.martiansoftware.jsap.JSAPResult;
 import com.martiansoftware.jsap.Switch;
 import edu.emory.mathcs.backport.java.util.Collections;
+import eu.stamp.project.ex2amplifier.amplifier.Ex2Amplifier;
+import eu.stamp.project.ex2amplifier.jbse.JBSERunner;
 import fr.inria.diversify.dspot.DSpot;
 import fr.inria.diversify.dspot.amplifier.AllLiteralAmplifiers;
 import fr.inria.diversify.dspot.amplifier.Amplifier;
@@ -16,13 +18,11 @@ import fr.inria.diversify.dspot.amplifier.TestDataMutator;
 import fr.inria.diversify.dspot.selector.ChangeDetectorSelector;
 import fr.inria.diversify.utils.DSpotUtils;
 import fr.inria.diversify.utils.sosiefier.InputConfiguration;
-import fr.inria.stamp.diff.DiffFinder;
-import fr.inria.stamp.ex2amplifier.Ex2Amplifier;
+import fr.inria.stamp.diff.SelectorOnDiff;
 import fr.inria.stamp.git.Cloner;
 import fr.inria.stamp.git.ParserPullRequest;
 import fr.inria.stamp.git.ProjectJSON;
 import fr.inria.stamp.git.PullRequestJSON;
-import fr.inria.stamp.jbse.JBSERunner;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -138,10 +138,12 @@ public class Main {
                                 onlyAampl ? Collections.emptyList() : amplifiers,
                                 changeDetectorSelector
                         );
-                        ctTypes.addAll(amplify(testClassToBeAmplified,
-                                dSpot,
-                                pullRequestJSON.baseSha,
-                                inputConfiguration)
+
+                        ctTypes.addAll(
+                                SelectorOnDiff.findTestClassesAccordingToADiff(inputConfiguration)
+                                        .stream()
+                                        .map(dSpot::amplifyTest)
+                                        .collect(Collectors.toList())
                         );
                     } catch (Exception e) {
                         throw new RuntimeException(e);
@@ -149,28 +151,6 @@ public class Main {
                 });
         return ctTypes;
     }
-
-    private static List<CtType> amplify(String testClassToBeAmplified,
-                                        DSpot dSpot,
-                                        String baseSha,
-                                        InputConfiguration configuration) throws Exception {
-        if (testClassToBeAmplified.equals("diff")) {
-            final Set<CtType> testClassesAccordingToADiff = DiffFinder.findTestClassesAccordingToADiff(
-                    configuration.getInputProgram().getFactory(),
-                    baseSha,
-                    configuration.getProperties().getProperty(reverse ? "folderPath" : "project"),
-                    configuration.getProperties().getProperty(reverse ? "project" : "folderPath")
-            );
-            return testClassesAccordingToADiff.stream()
-                    .map(testClass -> dSpot.amplifyTest(testClass))
-                    .collect(Collectors.toList());
-        } else if (testClassToBeAmplified.isEmpty()) {
-            return dSpot.amplifyAllTests();
-        } else {
-            return dSpot.amplifyTest(testClassToBeAmplified);
-        }
-    }
-
 
     @NotNull
     private static InputConfiguration setupConfiguration(int id,
@@ -202,6 +182,11 @@ public class Main {
                 inputConfiguration.getProperty("outputDirectory") + "/" +
                         getRightOutputSuffx(pullRequestJSON.id)
         );
+
+        inputConfiguration.getProperties().setProperty("baseSha",
+                reverse ? pullRequestJSON.headSha : pullRequestJSON.baseSha
+        );
+
         return inputConfiguration;
     }
 
@@ -209,12 +194,11 @@ public class Main {
         String suffixExp = Main.reverse ? id + "_modified/" : id + "/";
         if (Main.onlyAampl) {
             return suffixExp + "A_ampl";
-        } else if (Main.Ex2AmplifierMode) {
-            return suffixExp + "A_ampl";
+        } else if (!Main.Ex2AmplifierMode) {
+            return suffixExp + "I_ampl";
         } else {
             if (Main.JBSE) {
                 return suffixExp + Ex2Amplifier.Ex2Amplifier_Mode.JBSE.toString();
-
             } else {
                 return suffixExp + Ex2Amplifier.Ex2Amplifier_Mode.CATG.toString();
             }

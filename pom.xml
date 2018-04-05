@@ -59,7 +59,7 @@
         <dependency>
             <groupId>eu.stamp-project</groupId>
             <artifactId>dspot</artifactId>
-            <version>1.0.7-SNAPSHOT</version>
+            <version>1.0.7</version>
         </dependency>
 
         <dependency>

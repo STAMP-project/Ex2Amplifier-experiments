@@ -11,13 +11,16 @@ def run(project, flags, onClusty=False, mustClone=True):
     suffix_json = ".json"
     path_to_json_project_file = prefix_dataset + project + suffix_json
 
+    if onClusty:
+        print "export MAVEN_HOME=~/apache-maven-3.3.9/"
+
     if mustClone:
         cmd_clone = base_cmd_jar + " --clone " + path_to_json_project_file + " --output " + prefix_dataset
         print cmd_clone, "\n"
 
     base_cmd_run = base_cmd_jar + \
                    " --verbose" + \
-                   ("--maven-home ~/apache-maven-3.3.9/" if onClusty else "") + \
+                   (" --maven-home ~/apache-maven-3.3.9/" if onClusty else "") + \
                    " --output " + prefix_dataset + \
                    " --run " + path_to_json_project_file + \
                    " --id"

@@ -20,7 +20,7 @@
       "headRef": "bb/fields-in-annotations",
       "headSha": "1efac98929856ec9e47748fd67bfce2fde704e37"
     },
-    {
+    /*{
       "id": 443,
       "baseUrl": "git://github.com/square/javapoet.git",
       "baseRef": "master",
@@ -28,7 +28,7 @@
       "headUrl": "git://github.com/sormuras/javapoet.git",
       "headRef": "static_import_refactored",
       "headSha": "e516b00ecff4668a81c20fa7e23a98f1af8b4eff"
-    },
+    },*/
     {
       "id": 608,
       "baseUrl": "git://github.com/square/javapoet.git",

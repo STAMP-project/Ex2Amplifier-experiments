@@ -1,11 +1,14 @@
 package eu.stamp.project.git;
 
 import org.eclipse.jgit.api.Git;
+import org.eclipse.jgit.api.RemoteAddCommand;
 import org.eclipse.jgit.api.ResetCommand;
 import org.eclipse.jgit.api.errors.GitAPIException;
+import org.eclipse.jgit.transport.URIish;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URISyntaxException;
 
 public class Cloner {
 
@@ -27,12 +30,26 @@ public class Cloner {
                 return;
             }
             clone(pr.baseUrl, pr.baseRef, outputFile);
+            // we add the pr remote and fetch it, in order to make the diff
+            addRemoteAndFetchIt(pr.headUrl, outputFile);
             clone(pr.headUrl, pr.headRef, outputFileModified);
             resetHard(pr.baseSha, outputFile);
             resetHard(pr.headSha, outputFileModified);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private static void addRemoteAndFetchIt(String uri, File output) throws IOException, GitAPIException, URISyntaxException {
+        final RemoteAddCommand remoteAddCommand = Git.open(output)
+                .remoteAdd();
+        remoteAddCommand.setName("pr");
+        remoteAddCommand.setUri(new URIish(uri));
+        remoteAddCommand.call();
+        Git.open(output)
+                .fetch()
+                .setRemote("pr")
+                .call();
     }
 
     private static void resetHard(String sha, File output) throws IOException, GitAPIException {

@@ -59,6 +59,7 @@ public class Main {
     public static void main(String[] args) {
         JSAPResult jsapConfig = JSAPOptions.options.parse(args);
         Main.verbose = jsapConfig.getBoolean("verbose");
+        fr.inria.stamp.Main.verbose = Main.verbose;
         Main.onlyAampl = jsapConfig.getBoolean("aampl");
         Main.JBSE = jsapConfig.getBoolean("JBSE");
         Main.Ex2AmplifierMode = !jsapConfig.getBoolean("amplifiers");

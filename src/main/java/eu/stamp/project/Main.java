@@ -2,7 +2,6 @@ package eu.stamp.project;
 
 import com.google.gson.Gson;
 import com.martiansoftware.jsap.JSAPResult;
-import edu.emory.mathcs.backport.java.util.Collections;
 import eu.stamp.project.ex2amplifier.amplifier.Ex2Amplifier;
 import eu.stamp.project.ex2amplifier.jbse.JBSERunner;
 import fr.inria.diversify.dspot.DSpot;
@@ -30,6 +29,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -87,7 +87,6 @@ public class Main {
                 // if the behavioral change is desired, we keep the version that pass
                 // if the behavioral change is undesired, we keep the version that fail
                 // TODO WARNING, this create a failing test classe
-
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }

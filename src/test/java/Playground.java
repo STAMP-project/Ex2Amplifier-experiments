@@ -1,6 +1,5 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import edu.emory.mathcs.backport.java.util.Collections;
 import fr.inria.diversify.utils.DSpotUtils;
 import eu.stamp.project.git.Cloner;
 import eu.stamp.project.git.ProjectJSON;
@@ -18,6 +17,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 

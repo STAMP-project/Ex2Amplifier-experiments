@@ -7,6 +7,8 @@ import org.junit.Rule;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
+import static Util.DEFAULT;
+
 
 @RunWith(JUnit4.class)
 public final class AmplTypeSpecTest {
@@ -22,7 +24,7 @@ public final class AmplTypeSpecTest {
     }
 
     private boolean isJava8() {
-        return (Util.DEFAULT) != null;
+        return (DEFAULT) != null;
     }
 
     private String toString(TypeSpec typeSpec) {

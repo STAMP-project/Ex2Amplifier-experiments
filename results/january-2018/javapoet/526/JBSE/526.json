@@ -3,6 +3,10 @@
     {
       "fullQualifiedName": "com.squareup.javapoet.TypeSpecTest",
       "timeInMs": 124729
+    },
+    {
+      "fullQualifiedName": "com.squareup.javapoet.ClassNameTest",
+      "timeInMs": 8338
     }
   ],
   "projectName": "526"

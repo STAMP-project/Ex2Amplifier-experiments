@@ -1,4 +1,0 @@
-@org.junit.Test(timeout = 10000)
-public void emptyLinesInTopOfFileComment_Ex2_CATG385() throws java.lang.Exception {
-    java.lang.String source = com.squareup.javapoet.JavaFile.builder("", com.squareup.javapoet.TypeSpec.classBuilder("").build()).addFileComment("").build().toString();
-}

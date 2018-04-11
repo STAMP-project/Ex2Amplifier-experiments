@@ -1,5 +1,0 @@
-@org.junit.Test(timeout = 10000)
-public void importStaticForCrazyFormatsWorks_Ex2_CATG390() {
-    com.squareup.javapoet.MethodSpec method = com.squareup.javapoet.MethodSpec.methodBuilder("<init>").build();
-    com.squareup.javapoet.JavaFile.builder("", com.squareup.javapoet.TypeSpec.classBuilder("").addStaticBlock(com.squareup.javapoet.CodeBlock.builder().addStatement("", java.lang.Runtime.class).addStatement("", java.lang.Runtime.class).addStatement("", java.lang.Runtime.class).addStatement("", java.lang.Runtime.class, java.lang.Runtime.class).addStatement("", java.lang.Runtime.class, java.lang.Runtime.class).addStatement("", java.lang.Runtime.class).addStatement("", java.lang.Runtime.class, "").addStatement("", java.lang.Runtime.class, "").addStatement("", java.lang.Runtime.class, "", method).addStatement("", java.lang.Runtime.class, "").addStatement("", java.lang.Runtime.class, "").addStatement("", java.lang.Runtime.class, method).build()).build()).addStaticImport(java.lang.Runtime.class, "").build().toString();
-}

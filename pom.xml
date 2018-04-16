@@ -59,7 +59,7 @@
         <dependency>
             <groupId>eu.stamp-project</groupId>
             <artifactId>dspot</artifactId>
-            <version>1.0.7</version>
+            <version>1.1.0</version>
         </dependency>
 
         <dependency>
@@ -93,6 +93,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.kohsuke/github-api -->
@@ -113,18 +114,6 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.8.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>jbse</groupId>
-            <artifactId>jbse</artifactId>
-            <version>0.8.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.sosy-lab</groupId>
-            <artifactId>java-smt</artifactId>
-            <version>1.0.1</version>
         </dependency>
 
         <dependency>

@@ -126,7 +126,7 @@ public class Main {
                         final ChangeDetectorSelector changeDetectorSelector = new ChangeDetectorSelector();
                         final DSpot dSpot = new DSpot(
                                 inputConfiguration,
-                                1,
+                                Ex2AmplifierMode ? 1 : 3,
                                 onlyAampl ? Collections.emptyList() : amplifiers,
                                 changeDetectorSelector
                         );

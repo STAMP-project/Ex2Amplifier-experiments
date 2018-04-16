@@ -3,7 +3,7 @@ import json
 import argparse
 
 
-def run(project, flags, onClusty=False, mustClone=True, index=-1):
+def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
     base_cmd_jar = ("~/jdk1.8.0_121/bin/" if onClusty else "") + \
                    "java -jar target/Ex2Amplifier-experiments-0.0.1-SNAPSHOT-jar-with-dependencies.jar"
     date = "january-2018"
@@ -29,7 +29,7 @@ def run(project, flags, onClusty=False, mustClone=True, index=-1):
         pull_request_data = json.load(data_file)["pullRequests"]
 
 
-    for i in ( (range(0, len(pull_request_data))) if index == -1 else [index]):
+    for i in ( (range(0, len(pull_request_data))) if index == -1 else index):
         pr_data = pull_request_data[i]
         for mode in ["", "--reverse"]:
             for flag in flags:
@@ -41,7 +41,12 @@ if __name__ == '__main__':
     flags = ["--amplifiers"] if "amplifiers" in sys.argv else ["--aampl", "", "--jbse"]
     onClusty = "onClusty" in sys.argv
     mustClone = "mustClone" in sys.argv
-    index = int(sys.argv[-1]) if sys.argv[-1].isdigit() else -1
+    if ',' in sys.argv[-1] and sys.argv[-1][0].isdigit():
+        index = [int(x) for x in sys.argv[-1].split(',')]
+    elif sys.argv[-1][0].isdigit():
+        index = [int(sys.argv[-1])]
+    else:
+        index = [-1]
 
     if len(sys.argv) < 2:
         print "usage python run-experiments <project> [onClusty] [mustClone] [amplifiers] [indexOfPR]"

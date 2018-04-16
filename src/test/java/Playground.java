@@ -4,6 +4,7 @@ import fr.inria.diversify.utils.DSpotUtils;
 import eu.stamp.project.git.Cloner;
 import eu.stamp.project.git.ProjectJSON;
 import eu.stamp.project.git.PullRequestJSON;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.kohsuke.github.GHIssueState;
 import org.kohsuke.github.GHPullRequest;
@@ -28,6 +29,7 @@ public class Playground {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Playground.class);
 
+    @Ignore
     @Test
     public void getByID() throws Exception {
 
@@ -36,7 +38,7 @@ public class Playground {
 //        final String nameOfRepository = "prestodb/pcccresto";
 //        final String nameOfRepository = "protostuff/protostuff";
 //        final String nameOfRepository = "mybatis/mybatis-3";
-        final int idOfPullRequest = 529;
+        final int idOfPullRequest = 550;
 
         final GitHub gitHub = GitHub.connectAnonymously();
         final GHRepository repository = gitHub.getRepository(nameOfRepository);
@@ -68,6 +70,7 @@ public class Playground {
         }
     }
 
+    @Ignore
     @Test
     public void get() throws Exception {
         final GitHub gitHub = GitHub.connectAnonymously();
@@ -107,6 +110,7 @@ public class Playground {
 
     }
 
+    @Ignore
     @Test
     public void cloneAllPullRequest() throws Exception {
         Gson gson = new Gson();

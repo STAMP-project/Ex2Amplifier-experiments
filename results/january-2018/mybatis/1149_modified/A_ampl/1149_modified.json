@@ -1,0 +1,13 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.apache.ibatis.reflection.factory.DefaultObjectFactoryTest",
+      "timeInMs": 6381
+    },
+    {
+      "fullQualifiedName": "org.apache.ibatis.builder.xml.dynamic.ExpressionEvaluatorTest",
+      "timeInMs": 7049
+    }
+  ],
+  "projectName": "1149_modified"
+}

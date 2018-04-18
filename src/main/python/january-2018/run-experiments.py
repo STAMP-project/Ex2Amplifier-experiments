@@ -5,7 +5,7 @@ import argparse
 
 def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
     base_cmd_jar = ("~/jdk1.8.0_121/bin/" if onClusty else "") + \
-                   "java -jar target/Ex2Amplifier-experiments-0.0.1-SNAPSHOT-jar-with-dependencies.jar"
+                   "java -Xm168G -Xmx32G -jar target/Ex2Amplifier-experiments-0.0.1-SNAPSHOT-jar-with-dependencies.jar"
     date = "january-2018"
     prefix_dataset = "dataset" + "/" + date + "/"
     suffix_json = ".json"

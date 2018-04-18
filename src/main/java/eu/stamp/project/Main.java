@@ -16,17 +16,13 @@ import fr.inria.stamp.diff.SelectorOnDiff;
 import eu.stamp.project.git.Cloner;
 import eu.stamp.project.git.ParserPullRequest;
 import eu.stamp.project.git.ProjectJSON;
-import eu.stamp.project.git.PullRequestJSON;
-import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import spoon.reflect.declaration.CtType;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -40,15 +36,15 @@ import java.util.stream.Collectors;
  */
 public class Main {
 
-    private static String mavenHome = null;
+    static String mavenHome = null;
 
-    private static boolean reverse = false;
+    static boolean reverse = false;
 
-    private static boolean Ex2AmplifierMode = true;
+    static boolean Ex2AmplifierMode = true;
 
-    private static boolean onlyAampl = false;
+    static boolean onlyAampl = false;
 
-    private static boolean JBSE = false;
+    static boolean JBSE = false;
 
     public static boolean verbose = false;
 
@@ -112,7 +108,7 @@ public class Main {
                 .filter(pullRequestJSON -> pullRequestJSON.id == id || id == -1)
                 .forEach(pullRequestJSON -> {
                     try {
-                        final InputConfiguration inputConfiguration = setupConfiguration(id, projectJSON, finalPath, pullRequestJSON);
+                        final InputConfiguration inputConfiguration = InputConfigurationManager.setupConfiguration(id, projectJSON, finalPath, pullRequestJSON);
                         final List<Amplifier> amplifiers;
                         if (Ex2AmplifierMode) {
                             final Ex2Amplifier ex2Amplifier = Ex2Amplifier.getEx2Amplifier(JBSE ?
@@ -142,63 +138,6 @@ public class Main {
                     }
                 });
         return ctTypes;
-    }
-
-    @NotNull
-    private static InputConfiguration setupConfiguration(int id,
-                                                         ProjectJSON projectJSON,
-                                                         String finalPath,
-                                                         PullRequestJSON pullRequestJSON) throws IOException {
-        final InputConfiguration inputConfiguration;
-        if (new File(finalPath + projectJSON.name + id + ".properties").exists()) {
-            inputConfiguration = new InputConfiguration(finalPath + projectJSON.name + id + ".properties");
-            inputConfiguration.getProperties().setProperty("configPath", finalPath + projectJSON.name + id + ".properties");
-        } else {
-            inputConfiguration = new InputConfiguration(finalPath + projectJSON.name + ".properties");
-            inputConfiguration.getProperties().setProperty("configPath", finalPath + projectJSON.name + ".properties");
-        }
-
-        if (reverse) {
-            inputConfiguration.getProperties().setProperty("project",
-                    inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/");
-            inputConfiguration.getProperties().setProperty("folderPath",
-                    inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + "/");
-        } else {
-            inputConfiguration.getProperties().setProperty("project",
-                    inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + "/");
-            inputConfiguration.getProperties().setProperty("folderPath",
-                    inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/");
-        }
-
-        inputConfiguration.getProperties().setProperty("outputDirectory",
-                inputConfiguration.getProperty("outputDirectory") + "/" +
-                        getRightOutputSuffx(pullRequestJSON.id)
-        );
-
-        inputConfiguration.getProperties().setProperty("baseSha",
-                reverse ? pullRequestJSON.headSha : pullRequestJSON.baseSha
-        );
-
-        if (Main.mavenHome != null) {
-            inputConfiguration.getProperties().put("maven.home", Main.mavenHome);
-        }
-
-        return inputConfiguration;
-    }
-
-    private static String getRightOutputSuffx(int id) {
-        String suffixExp = Main.reverse ? id + "_modified/" : id + "/";
-        if (Main.onlyAampl) {
-            return suffixExp + "A_ampl";
-        } else if (!Main.Ex2AmplifierMode) {
-            return suffixExp + "I_ampl";
-        } else {
-            if (Main.JBSE) {
-                return suffixExp + Ex2Amplifier.Ex2Amplifier_Mode.JBSE.toString();
-            } else {
-                return suffixExp + Ex2Amplifier.Ex2Amplifier_Mode.CATG.toString();
-            }
-        }
     }
 
     private static void clone(String pathToJsonFile, String output) throws FileNotFoundException {

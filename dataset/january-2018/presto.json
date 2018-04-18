@@ -1,4 +1,5 @@
 {
+  "date": "18/04/18",
   "name": "presto",
   "url": "git://github.com/prestodb/presto.git",
   "pullRequests": [
@@ -10,6 +11,87 @@
       "headUrl": "git://github.com/shixuan-fan/presto.git",
       "headRef": "sort",
       "headSha": "11bbf74a1c385b68bdae8d9ef3c1bb57b71cb67e"
+    },
+    {
+      "id": 10400,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "f85963cc2d7e9110db3cff8c8696ea8ad2e15a26",
+      "headUrl": "git://github.com/kokosing/presto.git",
+      "headRef": "origin/master/243_fix_information_schema",
+      "headSha": "fa422c5a3bbd721182fc6fc327ddaab47bcc9b45"
+    },
+    {
+      "id": 10341,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "d8554f7a5dc72215eeafcec2434c9a2b6ad80eb0",
+      "headUrl": "git://github.com/highker/presto.git",
+      "headRef": "factor",
+      "headSha": "29e983cecd750e9efff8a4c5f81cea5dbcb18da3"
+    },
+    {
+      "id": 10340,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "e156470145cd1eea28067c06767a0ceeeddaeab0",
+      "headUrl": "git://github.com/highker/presto.git",
+      "headRef": "bool",
+      "headSha": "d8554f7a5dc72215eeafcec2434c9a2b6ad80eb0"
+    },
+    {
+      "id": 10330,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "e511dfe865582a45a65e1417f2bc811636d07383",
+      "headUrl": "git://github.com/mbasmanova/presto.git",
+      "headRef": "line-locate-point",
+      "headSha": "69e59f8e0ff85907ce2435ab53602b11681ac42c"
+    },
+    {
+      "id": 10327,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "7125e0ceb3e11e9288bfa017b39f13c5251b7665",
+      "headUrl": "git://github.com/mbasmanova/presto.git",
+      "headRef": "opt-envelope-ops",
+      "headSha": "7199a413e9faa0a2638a420126cf4a2bb7f77eb8"
+    },
+    {
+      "id": 10312,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "9c983d6e3867e72f76b2bef3a98045fefb2c2961",
+      "headUrl": "git://github.com/haozhun/presto.git",
+      "headRef": "bucket",
+      "headSha": "683d5423e80fcd429152079568dd9aa578faca4f"
+    },
+    {
+      "id": 10311,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "024908324bab96b893e947ff0f727fce078845d0",
+      "headUrl": "git://github.com/highker/presto.git",
+      "headRef": "null",
+      "headSha": "5fb82c071e5abceb44d32c323d09ab848b274d59"
+    },
+    {
+      "id": 10299,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "f10dfb4f6f8ea73985885c95ef3e1d2906ed9122",
+      "headUrl": "git://github.com/wenleix/presto.git",
+      "headRef": "scpp2",
+      "headSha": "2ccfa9b3bc500dbcd501022c5c806badfcccf88c"
+    },
+    {
+      "id": 10283,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "830cb3d0146f03ab4726edf616a716340c220d51",
+      "headUrl": "git://github.com/mbasmanova/presto.git",
+      "headRef": "fix-overflow",
+      "headSha": "d0eafb4542d57fb1dd59d24aa250bca713c693a3"
     }
   ]
 }

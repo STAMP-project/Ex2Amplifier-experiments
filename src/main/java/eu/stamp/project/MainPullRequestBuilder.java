@@ -20,7 +20,7 @@ import java.util.Collections;
  * benjamin.danglot@inria.fr
  * on 16/04/18
  */
-public class MainCloner {
+public class MainPullRequestBuilder {
 
     public static void main(String[] args) throws Exception {
 
@@ -44,7 +44,8 @@ public class MainCloner {
         final GHRepository repository = gitHub.getRepository(nameOfRepository);
         final GHPullRequest ghPullRequest = repository.getPullRequest(idOfPullRequest);
         final String fileName = "dataset/january-2018" + "/" + repository.getName() + ".json";
-        final PullRequestJSON pullRequestJSON = new PullRequestJSON(ghPullRequest.getNumber(),
+        final PullRequestJSON pullRequestJSON = new PullRequestJSON(
+                ghPullRequest.getNumber(),
                 ghPullRequest.getBase().getRepository().getGitTransportUrl(),
                 ghPullRequest.getBase().getRef(),
                 ghPullRequest.getBase().getCommit().getSHA1(),
@@ -56,7 +57,9 @@ public class MainCloner {
         if (new File(fileName).exists()) {
             Gson gson = new Gson();
             projectJSON = gson.fromJson(new FileReader(fileName), ProjectJSON.class);
-            projectJSON.pullRequests.add(pullRequestJSON);
+            if (!projectJSON.pullRequests.contains(pullRequestJSON)) {
+                projectJSON.pullRequests.add(pullRequestJSON);
+            }
         } else {
             projectJSON = new ProjectJSON(repository.getName(),
                     repository.getGitTransportUrl(),

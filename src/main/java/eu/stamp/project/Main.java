@@ -18,6 +18,7 @@ import eu.stamp.project.git.ParserPullRequest;
 import eu.stamp.project.git.ProjectJSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import spoon.reflect.declaration.CtMethod;
 import spoon.reflect.declaration.CtType;
 
 import java.io.BufferedReader;
@@ -27,6 +28,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
@@ -127,10 +129,13 @@ public class Main {
                                 changeDetectorSelector
                         );
 
+                        final Map<CtType<?>, List<CtMethod<?>>> testMethodsAccordingToADiff =
+                                SelectorOnDiff.findTestMethodsAccordingToADiff(inputConfiguration);
                         ctTypes.addAll(
-                                SelectorOnDiff.findTestClassesAccordingToADiff(inputConfiguration)
+                                testMethodsAccordingToADiff
+                                        .keySet()
                                         .stream()
-                                        .map(dSpot::amplifyTest)
+                                        .map(ctType -> dSpot.amplifyTest(ctType, testMethodsAccordingToADiff.get(ctType)))
                                         .collect(Collectors.toList())
                         );
                     } catch (Exception e) {

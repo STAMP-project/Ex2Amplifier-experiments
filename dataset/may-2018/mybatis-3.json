@@ -1,0 +1,98 @@
+{
+  "date": "17/04/18",
+  "name": "mybatis-3",
+  "url": "git://github.com/mybatis/mybatis-3.git",
+  "pullRequests": [
+    {
+      "id": 1250,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "115d565ca947bbfbc5c13c6193d11c9637f56c25",
+      "headUrl": "git://github.com/harawata/mybatis-3.git",
+      "headRef": "resurrect-782",
+      "headSha": "19f106877bc45dc39ae28421acd85ef864b2f5e8"
+    },
+    {
+      "id": 1167,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "e440bfaea37b312b32c522e261c895c8b287e21f",
+      "headUrl": "git://github.com/zhangweidavid/mybatis-3.git",
+      "headRef": "master",
+      "headSha": "c04409b6dbdabe45bd7ffede76914207e5af5828"
+    },
+    {
+      "id": 1149,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "aec7fb515766d52ad055bdba5b1dc156977573ca",
+      "headUrl": "git://github.com/zhangweidavid/mybatis-3.git",
+      "headRef": "master",
+      "headSha": "284379d5badb0accc8e18a5e00009391833f9df8"
+    },
+    {
+      "id": 1110,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "9233556404a3b6cc122d42c8ce0c97ba9e01b7ce",
+      "headUrl": "git://github.com/diribet/mybatis-3.git",
+      "headRef": "batch-executor-fix",
+      "headSha": "9fe23dc53a889c5b1c6366fc304fc8eaa0530ff0"
+    },
+    {
+      "id": 1093,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "90fa985d2e2cc04d132d3e5499a9cda1f7c521d4",
+      "headUrl": "git://github.com/harawata/mybatis-3.git",
+      "headRef": "constructor-args-resolution-bug",
+      "headSha": "aca4eedd25fde526ab91b4679cdef0cd7fb28f45"
+    },
+    {
+      "id": 1084,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "b6c1e8025e3afed78f5798bdae4818df5e5532b5",
+      "headUrl": "git://github.com/hazendaz/mybatis-3.git",
+      "headRef": "master",
+      "headSha": "4e8be85f0a7f3dc09f3cb6e55000dcd0dbff0b54"
+    },
+    {
+      "id": 1073,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "c004b579ed69c3dcc11bb9f1288cddd33595a82b",
+      "headUrl": "git://github.com/harawata/mybatis-3.git",
+      "headRef": "revert-782",
+      "headSha": "fba7af05e10e03b8960ff12bb8d97852d11abd3a"
+    },
+    {
+      "id": 1070,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "4d7ba34b05567c6dfb32c9aa503e96dcd137512c",
+      "headUrl": "git://github.com/kmoco2am/mybatis-3.git",
+      "headRef": "master",
+      "headSha": "f0822f35e7c61ded395540df754736b62fa040a2"
+    },
+    {
+      "id": 1068,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "4d7ba34b05567c6dfb32c9aa503e96dcd137512c",
+      "headUrl": "git://github.com/jasonleaster/mybatis-3.git",
+      "headRef": "thread_safe_singleton_pattern_for_VFS",
+      "headSha": "6f9a04a7d9ce501ccb29349f9536197b9ec71b17"
+    },
+    {
+      "id": 1036,
+      "subModule": "",
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "4f0eef26f47425459260e11c931badffb3fd596a",
+      "headUrl": "git://github.com/happysearch/mybatis-3.git",
+      "headRef": "master",
+      "headSha": "1279dbff607fb82c4b80dc314ebde9e7d5837a96"
+    }
+  ]
+}

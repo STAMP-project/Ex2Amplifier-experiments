@@ -129,7 +129,7 @@ public class Main {
                                 changeDetectorSelector
                         );
 
-                        final Map<CtType<?>, List<CtMethod<?>>> testMethodsAccordingToADiff =
+                        final Map<String, List<String>> testMethodsAccordingToADiff =
                                 SelectorOnDiff.findTestMethodsAccordingToADiff(inputConfiguration);
                         ctTypes.addAll(
                                 testMethodsAccordingToADiff

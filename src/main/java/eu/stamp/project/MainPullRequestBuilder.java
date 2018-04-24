@@ -43,7 +43,7 @@ public class MainPullRequestBuilder {
         final GitHub gitHub = GitHub.connectAnonymously();
         final GHRepository repository = gitHub.getRepository(nameOfRepository);
         final GHPullRequest ghPullRequest = repository.getPullRequest(idOfPullRequest);
-        final String fileName = "dataset/january-2018" + "/" + repository.getName() + ".json";
+        final String fileName = "dataset/may-2018" + "/" + repository.getName() + ".json";
         final PullRequestJSON pullRequestJSON = new PullRequestJSON(
                 ghPullRequest.getNumber(),
                 ghPullRequest.getBase().getRepository().getGitTransportUrl(),

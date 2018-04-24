@@ -4,15 +4,6 @@
   "url": "git://github.com/prestodb/presto.git",
   "pullRequests": [
     {
-      "id": 10028,
-      "baseUrl": "git://github.com/prestodb/presto.git",
-      "baseRef": "master",
-      "baseSha": "2a7787ff11d0c5e6628b748209e507e68aa3c3c3",
-      "headUrl": "git://github.com/shixuan-fan/presto.git",
-      "headRef": "sort",
-      "headSha": "11bbf74a1c385b68bdae8d9ef3c1bb57b71cb67e"
-    },
-    {
       "id": 10400,
       "baseUrl": "git://github.com/prestodb/presto.git",
       "baseRef": "master",
@@ -92,6 +83,15 @@
       "headUrl": "git://github.com/mbasmanova/presto.git",
       "headRef": "fix-overflow",
       "headSha": "d0eafb4542d57fb1dd59d24aa250bca713c693a3"
+    },
+    {
+      "id": 10274,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "64f1b63d631405f6771b9d2bc68be8aac9b3bc19",
+      "headUrl": "git://github.com/mbasmanova/presto.git",
+      "headRef": "fix-flaky-test",
+      "headSha": "9be0edf18eb16b31ae2ff3665a28f15439c9c412"
     }
   ]
 }

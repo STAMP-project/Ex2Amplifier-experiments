@@ -1,4 +1,4 @@
-# Ex2Amplifier-experiments
+# Ex2Amplifier-experiments [![Build Status](https://travis-ci.org/STAMP-project/Ex2Amplifier-experiments.svg?branch=master)](https://travis-ci.org/STAMP-project/Ex2Amplifier-experiments)
 
 ## Experiment january-2018
 

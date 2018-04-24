@@ -14,6 +14,7 @@ import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Map;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 /**
@@ -77,29 +78,29 @@ public class InputConfigurationManager {
             p = Runtime.getRuntime().exec(
                     "git diff " + baseSha,
                     new String[0],
-                    new File(configuration.getProperty("folderPath"))
+                    new File(configuration.getProperty(Main.reverse ? "project" : "folderPath"))
             );
         } catch (IOException var6) {
             throw new RuntimeException(var6);
         }
-
-        final Map<Object, Long> numberOfModifiedFilePerModule = new BufferedReader(new InputStreamReader(p.getInputStream()))
-                .lines()
-                .filter(line -> line.startsWith("diff"))
-                .filter(line -> line.endsWith(".java"))
-                .filter(line -> !(line.contains(configuration.getRelativeTestSourceCodeDir())))
-                .collect(
-                        Collectors.groupingBy(
-                                line -> line.split(" ")[2].substring(2).split("/")[0],
-                                Collectors.counting()
-                        )
-                );
         try {
-            p.waitFor();
-            final String key = (String) Collections.max(
+            final Map<Object, Long> numberOfModifiedFilePerModule =
+                    new BufferedReader(new InputStreamReader(p.getInputStream()))
+                            .lines()
+                            .filter(line -> line.startsWith("diff"))
+                            .filter(line -> line.endsWith(".java"))
+                            .filter(line -> !(line.contains(configuration.getRelativeTestSourceCodeDir())))
+                            .collect(
+                                    Collectors.groupingBy(
+                                            line -> line.split(" ")[2].substring(2).split("/")[0],
+                                            Collectors.counting()
+                                    )
+                            );
+             final String key = (String) Collections.max(
                     numberOfModifiedFilePerModule.entrySet(),
                     Comparator.comparingLong(Map.Entry::getValue)
             ).getKey();
+            p.waitFor();
             return configuration.getRelativeSourceCodeDir().contains(key) ? "" : key;
         } catch (InterruptedException var5) {
             throw new RuntimeException(var5);

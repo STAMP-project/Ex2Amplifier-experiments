@@ -76,23 +76,22 @@
       "headSha": "f0822f35e7c61ded395540df754736b62fa040a2"
     },
     {
-      "id": 1068,
-      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
-      "baseRef": "master",
-      "baseSha": "4d7ba34b05567c6dfb32c9aa503e96dcd137512c",
-      "headUrl": "git://github.com/jasonleaster/mybatis-3.git",
-      "headRef": "thread_safe_singleton_pattern_for_VFS",
-      "headSha": "6f9a04a7d9ce501ccb29349f9536197b9ec71b17"
-    },
-    {
       "id": 1036,
-      "subModule": "",
       "baseUrl": "git://github.com/mybatis/mybatis-3.git",
       "baseRef": "master",
       "baseSha": "4f0eef26f47425459260e11c931badffb3fd596a",
       "headUrl": "git://github.com/happysearch/mybatis-3.git",
       "headRef": "master",
       "headSha": "1279dbff607fb82c4b80dc314ebde9e7d5837a96"
+    },
+    {
+      "id": 976,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "deba3169af1db220ec703ef33de3709d24fb941b",
+      "headUrl": "git://github.com/harawata/mybatis-3.git",
+      "headRef": "typehandler-for-enum-interface-take2",
+      "headSha": "40872421fec3524a83f1ed5fd9df28c25e3db46d"
     }
   ]
 }

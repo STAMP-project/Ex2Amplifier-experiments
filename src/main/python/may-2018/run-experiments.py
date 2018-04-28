@@ -31,6 +31,7 @@ def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
 
     for i in ( (range(0, len(pull_request_data))) if index[0] == -1 else index):
         pr_data = pull_request_data[i]
+        print "cd", prefix_dataset + project + "/" + str(pr_data["id"]), "&&", "mvn", "clean", "test" ,"-DskipTests"
         for mode in ["", "--reverse"]:
             for flag in flags:
                 print base_cmd_run, pr_data["id"], mode, flag

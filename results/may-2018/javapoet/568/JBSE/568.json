@@ -1,0 +1,29 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "com.squareup.javapoet.MethodSpecTest",
+      "timeInMs": 27730
+    },
+    {
+      "fullQualifiedName": "com.squareup.javapoet.AnnotationSpecTest",
+      "timeInMs": 13085
+    },
+    {
+      "fullQualifiedName": "com.squareup.javapoet.CodeBlockTest",
+      "timeInMs": 21956
+    },
+    {
+      "fullQualifiedName": "com.squareup.javapoet.TypeSpecTest",
+      "timeInMs": 204462
+    },
+    {
+      "fullQualifiedName": "com.squareup.javapoet.ParameterSpecTest",
+      "timeInMs": 4099
+    },
+    {
+      "fullQualifiedName": "com.squareup.javapoet.FieldSpecTest",
+      "timeInMs": 4007
+    }
+  ],
+  "projectName": "568"
+}

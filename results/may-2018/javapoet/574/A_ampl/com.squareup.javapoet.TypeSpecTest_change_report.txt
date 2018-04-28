@@ -1,0 +1,3 @@
+======= REPORT =======
+1 amplified test fails on the new versions.
+typeVariableWithBounds(com.squareup.javapoet.TypeSpecTest): expected:<206701370> but was:<-1817016266>

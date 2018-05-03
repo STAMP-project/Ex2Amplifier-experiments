@@ -1,0 +1,97 @@
+{
+  "date": "26/04/18",
+  "name": "protostuff",
+  "url": "git://github.com/protostuff/protostuff.git",
+  "pullRequests": [
+    {
+      "id": 220,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "5596da1a4ae7fa982e2183e05927a84728c4dd26",
+      "headUrl": "git://github.com/mbarbon/protostuff.git",
+      "headRef": "master",
+      "headSha": "eeb7390f1a62478c5ef37d485583e008c829042a"
+    },
+    {
+      "id": 201,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "5a3e6ba5c643f50c17c6ac4445c523349048d00f",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "issue-200",
+      "headSha": "843d236615dc477bc434588c3fcde5c0c2db15f2"
+    },
+    {
+      "id": 199,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "d33c6992046c6787d0768a6c9f6bf5d4d29a7348",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "speedup-repeated",
+      "headSha": "760e5d67b737150048c05d462102caa787b34baf"
+    },
+    {
+      "id": 189,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "80ec898039457a63e179350868c6e13524ed08c4",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "issue-188",
+      "headSha": "0a73677ba0cb310cb242cac74d890ee889a739ee"
+    },
+    {
+      "id": 185,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "9ff43b421d970e3b0ab8fa4ac7c9b2e7566a1aa7",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "empty-messages",
+      "headSha": "0dc22ff95ac82caac848fd8b8f427f9997c15113"
+    },
+    {
+      "id": 184,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "09422597e78e63b9f8eb18eb51429c634ba53346",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "pr-183-followup",
+      "headSha": "c5da2cb2028b1ad01f2d70cd06920f74b70945d1"
+    },
+    {
+      "id": 182,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "8bbf111d08632f1e95bf5b53a31950df05e4b135",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "runtime-flags",
+      "headSha": "8412568f9e390509e323f732ff6baba9801b1e89"
+    },
+    {
+      "id": 180,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "d1b515301007e0c5676c17af8371910048181110",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "issue-174-redo",
+      "headSha": "f2d21ef8308fa48c3093c100168941ccb53214e1"
+    },
+    {
+      "id": 178,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "62fcef1859620485781e160df4c541d7eea02598",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "issue-174",
+      "headSha": "143f3173c8cc74ae6931938e56cea775b3fe13bf"
+    },
+    {
+      "id": 177,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "62fcef1859620485781e160df4c541d7eea02598",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "issue-176",
+      "headSha": "8b09091191bf5b997a22d01309e293c51a76e784"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 package eu.stamp.project;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.martiansoftware.jsap.JSAPResult;
 import eu.stamp.project.ex2amplifier.amplifier.Ex2Amplifier;
 import eu.stamp.project.ex2amplifier.jbse.JBSERunner;
@@ -11,6 +12,7 @@ import fr.inria.diversify.dspot.amplifier.ReplacementAmplifier;
 import fr.inria.diversify.dspot.amplifier.StatementAdd;
 import fr.inria.diversify.dspot.selector.ChangeDetectorSelector;
 import fr.inria.diversify.utils.DSpotUtils;
+import fr.inria.diversify.utils.json.ProjectTimeJSON;
 import fr.inria.diversify.utils.sosiefier.InputConfiguration;
 import fr.inria.stamp.diff.SelectorOnDiff;
 import eu.stamp.project.git.Cloner;
@@ -22,8 +24,11 @@ import spoon.reflect.declaration.CtMethod;
 import spoon.reflect.declaration.CtType;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -119,7 +124,7 @@ public class Main {
                             ex2Amplifier.init(inputConfiguration);
                             amplifiers = Collections.singletonList(ex2Amplifier);
                         } else {
-                            amplifiers = Arrays.asList(new StatementAdd(), new ReplacementAmplifier(), new AllLiteralAmplifiers());
+                            amplifiers = Arrays.asList(new StatementAdd(), new AllLiteralAmplifiers());
                         }
                         final ChangeDetectorSelector changeDetectorSelector = new ChangeDetectorSelector();
                         final DSpot dSpot = new DSpot(
@@ -128,7 +133,6 @@ public class Main {
                                 onlyAampl ? Collections.emptyList() : amplifiers,
                                 changeDetectorSelector
                         );
-
                         final Map<String, List<String>> testMethodsAccordingToADiff =
                                 SelectorOnDiff.findTestMethodsAccordingToADiff(inputConfiguration);
                         ctTypes.addAll(
@@ -138,6 +142,26 @@ public class Main {
                                         .map(ctType -> dSpot.amplifyTest(ctType, testMethodsAccordingToADiff.get(ctType)))
                                         .collect(Collectors.toList())
                         );
+                        final String[] splittedPath = dSpot.getInputProgram().getProgramDir().split("/");
+                        final File projectJsonFile = new File(inputConfiguration.getOutputDirectory() +
+                                "/" + splittedPath[splittedPath.length - 1] + ".json");
+                        Gson gsonBuilder = new GsonBuilder().setPrettyPrinting().create();
+                        ProjectTimeJSON projectTimeJSON =
+                                gsonBuilder.fromJson(new FileReader(projectJsonFile), ProjectTimeJSON.class);
+                        testMethodsAccordingToADiff.keySet().stream()
+                                .forEach(testClassName -> {
+                                    projectTimeJSON.classTimes.stream()
+                                            .filter(classTimeJSON -> classTimeJSON.fullQualifiedName.equals(testClassName))
+                                            .findFirst()
+                                            .get()
+                                            .setNumberOfAmplifiedTestMethods(testMethodsAccordingToADiff.get(testClassName).size());
+                                        }
+                                );
+                        try (FileWriter writer = new FileWriter(projectJsonFile, false)) {
+                            writer.write(gson.toJson(projectTimeJSON));
+                        } catch (IOException e) {
+                            throw new RuntimeException(e);
+                        }
                     } catch (Exception e) {
                         throw new RuntimeException(e);
                     }

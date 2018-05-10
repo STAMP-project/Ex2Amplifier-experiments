@@ -12,6 +12,7 @@ import fr.inria.diversify.dspot.amplifier.ReplacementAmplifier;
 import fr.inria.diversify.dspot.amplifier.StatementAdd;
 import fr.inria.diversify.dspot.selector.ChangeDetectorSelector;
 import fr.inria.diversify.utils.DSpotUtils;
+import fr.inria.diversify.utils.json.ClassTimeJSON;
 import fr.inria.diversify.utils.json.ProjectTimeJSON;
 import fr.inria.diversify.utils.sosiefier.InputConfiguration;
 import fr.inria.stamp.diff.SelectorOnDiff;
@@ -142,31 +143,47 @@ public class Main {
                                         .map(ctType -> dSpot.amplifyTest(ctType, testMethodsAccordingToADiff.get(ctType)))
                                         .collect(Collectors.toList())
                         );
-                        final String[] splittedPath = dSpot.getInputProgram().getProgramDir().split("/");
-                        final File projectJsonFile = new File(inputConfiguration.getOutputDirectory() +
-                                "/" + splittedPath[splittedPath.length - 1] + ".json");
-                        Gson gsonBuilder = new GsonBuilder().setPrettyPrinting().create();
-                        ProjectTimeJSON projectTimeJSON =
-                                gsonBuilder.fromJson(new FileReader(projectJsonFile), ProjectTimeJSON.class);
-                        testMethodsAccordingToADiff.keySet().stream()
-                                .forEach(testClassName -> {
-                                    projectTimeJSON.classTimes.stream()
-                                            .filter(classTimeJSON -> classTimeJSON.fullQualifiedName.equals(testClassName))
-                                            .findFirst()
-                                            .get()
-                                            .setNumberOfAmplifiedTestMethods(testMethodsAccordingToADiff.get(testClassName).size());
-                                        }
-                                );
-                        try (FileWriter writer = new FileWriter(projectJsonFile, false)) {
-                            writer.write(gson.toJson(projectTimeJSON));
-                        } catch (IOException e) {
-                            throw new RuntimeException(e);
-                        }
+                        updateProjectTimeJSON(inputConfiguration,
+                                dSpot,
+                                testMethodsAccordingToADiff,
+                                changeDetectorSelector
+                        );
                     } catch (Exception e) {
                         throw new RuntimeException(e);
                     }
                 });
         return ctTypes;
+    }
+
+    private static void updateProjectTimeJSON(InputConfiguration inputConfiguration,
+                                              DSpot dSpot,
+                                              Map<String, List<String>> testMethodsAccordingToADiff,
+                                              ChangeDetectorSelector changeDetectorSelector) throws FileNotFoundException {
+        final String[] splittedPath = dSpot.getInputProgram().getProgramDir().split("/");
+        final File projectJsonFile = new File(inputConfiguration.getOutputDirectory() +
+                "/" + splittedPath[splittedPath.length - 1] + ".json");
+        Gson gsonBuilder = new GsonBuilder().setPrettyPrinting().create();
+        ProjectTimeJSON projectTimeJSON =
+                gsonBuilder.fromJson(new FileReader(projectJsonFile), ProjectTimeJSON.class);
+        testMethodsAccordingToADiff.keySet().stream()
+                .forEach(testClassName -> {
+                            final ClassTimeJSON classtimeJSONToBeUpdated = projectTimeJSON.classTimes.stream()
+                                    .filter(classTimeJSON -> classTimeJSON.fullQualifiedName.equals(testClassName))
+                                    .findFirst()
+                                    .get();
+                            classtimeJSONToBeUpdated.setNumberOfTestMethodToBeAmplified(
+                                    testMethodsAccordingToADiff.get(testClassName).size()
+                            );
+                            classtimeJSONToBeUpdated.setNumberOfAmplifiedTestMethods(
+                                    changeDetectorSelector.getNbOfAmplification(testClassName)
+                            );
+                        }
+                );
+        try (FileWriter writer = new FileWriter(projectJsonFile, false)) {
+            writer.write(gsonBuilder.toJson(projectTimeJSON));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     private static void clone(String pathToJsonFile, String output) throws FileNotFoundException {

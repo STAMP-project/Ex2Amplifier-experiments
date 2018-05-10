@@ -1,5 +1,4 @@
 {
-  "date": "17/04/18",
   "name": "mybatis-3",
   "url": "git://github.com/mybatis/mybatis-3.git",
   "pullRequests": [
@@ -76,15 +75,6 @@
       "headSha": "f0822f35e7c61ded395540df754736b62fa040a2"
     },
     {
-      "id": 1036,
-      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
-      "baseRef": "master",
-      "baseSha": "4f0eef26f47425459260e11c931badffb3fd596a",
-      "headUrl": "git://github.com/happysearch/mybatis-3.git",
-      "headRef": "master",
-      "headSha": "1279dbff607fb82c4b80dc314ebde9e7d5837a96"
-    },
-    {
       "id": 976,
       "baseUrl": "git://github.com/mybatis/mybatis-3.git",
       "baseRef": "master",
@@ -92,6 +82,15 @@
       "headUrl": "git://github.com/harawata/mybatis-3.git",
       "headRef": "typehandler-for-enum-interface-take2",
       "headSha": "40872421fec3524a83f1ed5fd9df28c25e3db46d"
+    },
+    {
+      "id": 947,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "4b465eb36f499607a490c8f784504be108a26cd3",
+      "headUrl": "git://github.com/harawata/mybatis-3.git",
+      "headRef": "typehandler-for-enum-interface",
+      "headSha": "9a5bcf4bfb6a0638cfcea12c475c91f49448bae7"
     }
   ]
 }

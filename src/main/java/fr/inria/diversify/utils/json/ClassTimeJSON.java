@@ -8,11 +8,13 @@ public class ClassTimeJSON {
     public final String fullQualifiedName;
     public final long timeInMs;
     private int numberOfAmplifiedTestMethods;
+    private int numberOfTestMethodToBeAmplified;
 
     public ClassTimeJSON(String fullQualifiedName, long timeInMs) {
         this.fullQualifiedName = fullQualifiedName;
         this.timeInMs = timeInMs;
         this.numberOfAmplifiedTestMethods = 0;
+        this.numberOfTestMethodToBeAmplified = 0;
     }
 
     public int getNumberOfAmplifiedTestMethods() {
@@ -21,6 +23,14 @@ public class ClassTimeJSON {
 
     public void setNumberOfAmplifiedTestMethods(int numberOfAmplifiedTestMethods) {
         this.numberOfAmplifiedTestMethods = numberOfAmplifiedTestMethods;
+    }
+
+    public int getNumberOfTestMethodToBeAmplified() {
+        return numberOfTestMethodToBeAmplified;
+    }
+
+    public void setNumberOfTestMethodToBeAmplified(int numberOfTestMethodToBeAmplified) {
+        this.numberOfTestMethodToBeAmplified = numberOfTestMethodToBeAmplified;
     }
 
     @Override

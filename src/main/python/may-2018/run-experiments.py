@@ -4,6 +4,9 @@ import argparse
 
 
 def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
+    print "classpath=`" + (
+        "~/apache-maven-3.3.9/bin/" if onClusty else "") + "mvn dependency:build-classpath | grep /home`"
+
     base_cmd_jar = ("~/jdk1.8.0_121/bin/" if onClusty else "") + \
                    "java -Xms16G -Xmx32G -cp target/Ex2Amplifier-experiments-0.0.1-SNAPSHOT.jar:${classpath} eu.stamp.project.Main "
     date = "may-2018"
@@ -17,9 +20,6 @@ def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
     if mustClone:
         cmd_clone = base_cmd_jar + " --clone " + path_to_json_project_file + " --output " + prefix_dataset
         print cmd_clone, "\n"
-
-    print "classpath=`" + (
-    "~/apache-maven-3.3.9/bin/" if onClusty else "") + "mvn dependency:build-classpath | grep /home`"
 
     base_cmd_run = base_cmd_jar + \
                    " --verbose" + \

@@ -1,2 +1,8 @@
 ======= REPORT =======
-0 amplified test fails on the new versions.
+6 amplified test fails on the new versions.
+getTypeVariableTypeMirror(com.squareup.javapoet.AbstractTypesTest): null
+getBasicTypeMirror(com.squareup.javapoet.AbstractTypesTest): null
+unbox(com.squareup.javapoet.AbstractTypesTest): null
+getParameterizedTypeMirror(com.squareup.javapoet.AbstractTypesTest): null
+box(com.squareup.javapoet.AbstractTypesTest): null
+getErrorType(com.squareup.javapoet.AbstractTypesTest): null

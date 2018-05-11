@@ -47,8 +47,8 @@ public final class AmplTypeSpecTest {
         Assert.assertEquals("P", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).box()).withoutAnnotations()).toString());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).box()).isAnnotated());
         Assert.assertFalse(((com.squareup.javapoet.TypeVariableName)p).isBoxedPrimitive());
-        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).withoutAnnotations()).withoutAnnotations()).isPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).withoutAnnotations()).box()).isPrimitive());
+        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).withoutAnnotations()).withoutAnnotations()).isPrimitive());
         Assert.assertEquals(80, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).box()).withoutAnnotations()).hashCode())));
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).withoutAnnotations()).isBoxedPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).box()).box()).isPrimitive());
@@ -90,8 +90,8 @@ public final class AmplTypeSpecTest {
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).isBoxedPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).box()).isBoxedPrimitive());
         Assert.assertEquals(81, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).box()).hashCode())));
-        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).withoutAnnotations()).isBoxedPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).box()).isBoxedPrimitive());
+        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).withoutAnnotations()).isBoxedPrimitive());
         Assert.assertTrue(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).box()).box()).isAnnotated());
         Assert.assertEquals(-1453388779, ((int) (((com.squareup.javapoet.TypeVariableName)q).hashCode())));
         Assert.assertEquals("Q", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).withoutAnnotations()).toString());
@@ -136,8 +136,8 @@ public final class AmplTypeSpecTest {
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).isBoxedPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).box()).isBoxedPrimitive());
         Assert.assertEquals(81, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).box()).hashCode())));
-        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).withoutAnnotations()).isBoxedPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).box()).isBoxedPrimitive());
+        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).withoutAnnotations()).isBoxedPrimitive());
         Assert.assertTrue(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).box()).box()).isAnnotated());
         Assert.assertEquals(-1453388779, ((int) (((com.squareup.javapoet.TypeVariableName)q).hashCode())));
         Assert.assertEquals("Q", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)q).withoutAnnotations()).withoutAnnotations()).toString());
@@ -164,8 +164,8 @@ public final class AmplTypeSpecTest {
         Assert.assertEquals("P", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).box()).withoutAnnotations()).toString());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).box()).isAnnotated());
         Assert.assertFalse(((com.squareup.javapoet.TypeVariableName)p).isBoxedPrimitive());
-        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).withoutAnnotations()).withoutAnnotations()).isPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).withoutAnnotations()).box()).isPrimitive());
+        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).withoutAnnotations()).withoutAnnotations()).isPrimitive());
         Assert.assertEquals(80, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).box()).withoutAnnotations()).hashCode())));
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).withoutAnnotations()).isBoxedPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeVariableName)p).box()).box()).isPrimitive());

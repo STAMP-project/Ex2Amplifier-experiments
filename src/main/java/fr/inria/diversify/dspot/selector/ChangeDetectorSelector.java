@@ -153,7 +153,7 @@ public class ChangeDetectorSelector implements TestSelector {
     }
 
     public int getNbOfAmplification(String fullQualifiedName) {
-        return this.nbOfAmplificationPerTestClass.get(fullQualifiedName);
+        return this.nbOfAmplificationPerTestClass.get(fullQualifiedName) == null ? 0 : this.nbOfAmplificationPerTestClass.get(fullQualifiedName);
     }
 
     @Override

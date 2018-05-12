@@ -4,6 +4,7 @@ import argparse
 
 
 def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
+    err_out_redirection = "2>&1 | tee -a"
     print "classpath=`" + (
         "~/apache-maven-3.3.9/bin/" if onClusty else "") + "mvn dependency:build-classpath | grep /home`"
 
@@ -37,7 +38,8 @@ def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
                                                              "id"]), "&&", "~/apache-maven-3.3.9/bin/mvn", "clean", "install", "-DskipTests", "&&", "cd", "../../../.."
         for mode in ["", "--reverse"]:
             for flag in flags:
-                print base_cmd_run, pr_data["id"], mode, flag
+                output_file_log = "_".join([str(project),str(pr_data["id"]),str("catg" if flag == "" else flag[2:])]) + ("_r" if mode == "--reverse" else "") + ".log"
+                print base_cmd_run, pr_data["id"], mode, flag, err_out_redirection, output_file_log
 
 
 if __name__ == '__main__':

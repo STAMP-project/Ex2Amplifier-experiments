@@ -24,10 +24,10 @@ chmod +x cvc4-1.4-x86_64-linux-opt
 # building experiments project
 ~/apache-maven-3.3.9/bin/mvn install -DskipTests
 
-cd lib
-git clone https://github.com/Z3Prover/z3.git
-cd z3
-python scripts/mk_make.py --prefix=./ --java
-cd build
-make
-sudo make install
+#cd lib
+#git clone https://github.com/Z3Prover/z3.git
+#cd z3
+#python scripts/mk_make.py --prefix=./ --java
+#cd build
+#make
+#sudo make install

@@ -1,9 +1,0 @@
-======= REPORT =======
-1 amplified test fails on the new versions.
-annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
->

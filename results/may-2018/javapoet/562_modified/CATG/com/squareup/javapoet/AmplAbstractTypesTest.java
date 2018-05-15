@@ -1092,8 +1092,8 @@ public abstract class AmplAbstractTypesTest {
         Assert.assertEquals(2035865972, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_getBasicTypeMirror__3).box()).withoutAnnotations()).hashCode())));
         Assert.assertEquals("com.squareup.javapoet.AbstractTypesTest", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_getBasicTypeMirror__3).withoutAnnotations()).withoutAnnotations()).toString());
         Assert.assertEquals("AbstractTypesTest", ((com.squareup.javapoet.ClassName)o_getBasicTypeMirror__3).simpleName());
-        Assert.assertFalse(((java.util.List)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_getBasicTypeMirror__3).topLevelClassName()).simpleNames()).isEmpty());
         Assert.assertNull(((com.squareup.javapoet.ClassName)o_getBasicTypeMirror__3).enclosingClassName());
+        Assert.assertFalse(((java.util.List)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_getBasicTypeMirror__3).topLevelClassName()).simpleNames()).isEmpty());
         Assert.assertEquals("com.squareup.javapoet.AbstractTypesTest", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_getBasicTypeMirror__3).box()).box()).toString());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_getBasicTypeMirror__3).box()).isBoxedPrimitive());
         Assert.assertEquals(2035865972, ((int) (((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_getBasicTypeMirror__3).topLevelClassName()).hashCode())));
@@ -1931,8 +1931,8 @@ public abstract class AmplAbstractTypesTest {
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__1).box()).unbox()).isBoxedPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__1).withoutAnnotations()).isPrimitive());
         Assert.assertEquals(1, ((int) (((java.util.List)((com.squareup.javapoet.ClassName)o_box__1).simpleNames()).size())));
-        Assert.assertEquals("java.lang.Integer", ((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__1).topLevelClassName()).topLevelClassName()).toString());
         Assert.assertNull(((com.squareup.javapoet.ClassName)o_box__1).enclosingClassName());
+        Assert.assertEquals("java.lang.Integer", ((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__1).topLevelClassName()).topLevelClassName()).toString());
         Assert.assertEquals(104431, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__1).box()).unbox()).hashCode())));
         Assert.assertTrue(((com.squareup.javapoet.ClassName)o_box__1).isBoxedPrimitive());
         Assert.assertEquals("java.lang.Integer", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__1).withoutAnnotations()).toString());
@@ -2227,8 +2227,8 @@ public abstract class AmplAbstractTypesTest {
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__4).topLevelClassName()).box()).isPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__4).box()).box()).isPrimitive());
         Assert.assertEquals(399092968, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__4).box()).withoutAnnotations()).hashCode())));
-        Assert.assertNull(((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__4).topLevelClassName()).topLevelClassName()).enclosingClassName());
         Assert.assertNull(((com.squareup.javapoet.ClassName)o_box__4).enclosingClassName());
+        Assert.assertNull(((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__4).topLevelClassName()).topLevelClassName()).enclosingClassName());
         Assert.assertEquals("void", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__4).withoutAnnotations()).unbox()).toString());
         Assert.assertFalse(((com.squareup.javapoet.ClassName)o_box__4).isAnnotated());
         Assert.assertEquals(399092968, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__4).withoutAnnotations()).withoutAnnotations()).hashCode())));
@@ -2280,8 +2280,8 @@ public abstract class AmplAbstractTypesTest {
         Assert.assertEquals(1195259493, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__5).withoutAnnotations()).box()).hashCode())));
         Assert.assertEquals("java.lang.String", ((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__5).topLevelClassName()).topLevelClassName()).toString());
         Assert.assertEquals("java.lang.String", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__5).box()).withoutAnnotations()).toString());
-        Assert.assertNull(((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__5).topLevelClassName()).topLevelClassName()).enclosingClassName());
         Assert.assertNull(((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__5).topLevelClassName()).enclosingClassName());
+        Assert.assertNull(((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__5).topLevelClassName()).topLevelClassName()).enclosingClassName());
         Assert.assertEquals(1195259493, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__5).withoutAnnotations()).hashCode())));
         Assert.assertEquals(1195259493, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__5).box()).hashCode())));
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__5).topLevelClassName()).withoutAnnotations()).isPrimitive());
@@ -2440,8 +2440,8 @@ public abstract class AmplAbstractTypesTest {
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__1).box()).unbox()).isBoxedPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__1).withoutAnnotations()).isPrimitive());
         Assert.assertEquals(1, ((int) (((java.util.List)((com.squareup.javapoet.ClassName)o_box__1).simpleNames()).size())));
-        Assert.assertEquals("java.lang.Integer", ((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__1).topLevelClassName()).topLevelClassName()).toString());
         Assert.assertNull(((com.squareup.javapoet.ClassName)o_box__1).enclosingClassName());
+        Assert.assertEquals("java.lang.Integer", ((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__1).topLevelClassName()).topLevelClassName()).toString());
         Assert.assertEquals(104431, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__1).box()).unbox()).hashCode())));
         Assert.assertTrue(((com.squareup.javapoet.ClassName)o_box__1).isBoxedPrimitive());
         Assert.assertEquals("java.lang.Integer", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__1).withoutAnnotations()).toString());
@@ -2733,8 +2733,8 @@ public abstract class AmplAbstractTypesTest {
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__4).topLevelClassName()).box()).isPrimitive());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__4).box()).box()).isPrimitive());
         Assert.assertEquals(399092968, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__4).box()).withoutAnnotations()).hashCode())));
-        Assert.assertNull(((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__4).topLevelClassName()).topLevelClassName()).enclosingClassName());
         Assert.assertNull(((com.squareup.javapoet.ClassName)o_box__4).enclosingClassName());
+        Assert.assertNull(((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)o_box__4).topLevelClassName()).topLevelClassName()).enclosingClassName());
         Assert.assertEquals("void", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__4).withoutAnnotations()).unbox()).toString());
         Assert.assertFalse(((com.squareup.javapoet.ClassName)o_box__4).isAnnotated());
         Assert.assertEquals(399092968, ((int) (((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)o_box__4).withoutAnnotations()).withoutAnnotations()).hashCode())));

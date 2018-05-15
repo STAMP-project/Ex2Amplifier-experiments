@@ -3,7 +3,7 @@ import json
 import argparse
 
 
-def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
+def run(project, flags, onClusty=False, mustClone=True, jbse=False, index=[-1]):
     err_out_redirection = "2>&1 | tee -a"
     print "classpath=`" + (
         "~/apache-maven-3.3.9/bin/" if onClusty else "") + "mvn dependency:build-classpath | grep /home`"
@@ -44,9 +44,11 @@ def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
 
 if __name__ == '__main__':
 
-    flags = ["--amplifiers"] if "amplifiers" in sys.argv else ["--aampl", "", "--jbse"]
+    flags = ["--amplifiers"] if "amplifiers" in sys.argv else ["--aampl", ""]
     onClusty = "onClusty" in sys.argv
     mustClone = "mustClone" in sys.argv
+    if "jbse" in sys.argv:
+        flags.append("jbse")
     if ',' in sys.argv[-1] and sys.argv[-1][0].isdigit():
         index = [int(x) for x in sys.argv[-1].split(',')]
     elif sys.argv[-1][0].isdigit():

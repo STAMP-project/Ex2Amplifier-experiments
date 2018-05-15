@@ -118,8 +118,8 @@ public final class AmplTypeSpecTest {
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)freeRange).box()).isBoxedPrimitive());
         Assert.assertEquals("javax.annotation.FreeRange", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)freeRange).box()).toString());
         Assert.assertEquals("javax.annotation.FreeRange", ((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)freeRange).topLevelClassName()).reflectionName());
-        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)freeRange).withoutAnnotations()).box()).isAnnotated());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)freeRange).withoutAnnotations()).withoutAnnotations()).isAnnotated());
+        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)freeRange).withoutAnnotations()).box()).isAnnotated());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)freeRange).withoutAnnotations()).withoutAnnotations()).isPrimitive());
         Assert.assertEquals("FreeRange", ((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)freeRange).topLevelClassName()).simpleName());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)freeRange).withoutAnnotations()).box()).isAnnotated());
@@ -247,8 +247,8 @@ public final class AmplTypeSpecTest {
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)freeRange).box()).isBoxedPrimitive());
         Assert.assertEquals("javax.annotation.FreeRange", ((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)freeRange).box()).toString());
         Assert.assertEquals("javax.annotation.FreeRange", ((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)freeRange).topLevelClassName()).reflectionName());
-        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)freeRange).withoutAnnotations()).box()).isAnnotated());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)freeRange).withoutAnnotations()).withoutAnnotations()).isAnnotated());
+        Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)freeRange).withoutAnnotations()).box()).isAnnotated());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)freeRange).withoutAnnotations()).withoutAnnotations()).isPrimitive());
         Assert.assertEquals("FreeRange", ((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)freeRange).topLevelClassName()).simpleName());
         Assert.assertFalse(((com.squareup.javapoet.TypeName)((com.squareup.javapoet.ClassName)((com.squareup.javapoet.ClassName)freeRange).withoutAnnotations()).box()).isAnnotated());

@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "com.squareup.javapoet.MethodSpecTest",
+      "timeInMs": 34768,
+      "numberOfAmplifiedTestMethods": 6,
+      "numberOfTestMethodToBeAmplified": 13
+    }
+  ],
+  "projectName": "550_modified"
+}

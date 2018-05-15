@@ -1,8 +1,0 @@
-======= REPORT =======
-6 amplified test fails on the new versions.
-annotatedArgumentOfParameterizedType(com.squareup.javapoet.AnnotatedTypeNameTest): expected:<1195259493> but was:<-1886091386>
-annotatedWildcardTypeNameWithExtends(com.squareup.javapoet.AnnotatedTypeNameTest): expected:<1195259493> but was:<-1886091386>
-annotatedType(com.squareup.javapoet.AnnotatedTypeNameTest): expected:<[@com.squareup.javapoet.AnnotatedTypeNameTest.NeverNull java.lang.]String> but was:<[java.lang. @com.squareup.javapoet.AnnotatedTypeNameTest.NeverNull ]String>
-annotatedTwice(com.squareup.javapoet.AnnotatedTypeNameTest): expected:<[@com.squareup.javapoet.AnnotatedTypeNameTest.NeverNull @java.lang.Override java.lang.]String> but was:<[java.lang. @com.squareup.javapoet.AnnotatedTypeNameTest.NeverNull @java.lang.Override ]String>
-annotatedParameterizedType(com.squareup.javapoet.AnnotatedTypeNameTest): expected:<[@com.squareup.javapoet.AnnotatedTypeNameTest.NeverNull java.util.]List<java.lang.Strin...> but was:<[java.util. @com.squareup.javapoet.AnnotatedTypeNameTest.NeverNull ]List<java.lang.Strin...>
-annotatedWildcardTypeNameWithSuper(com.squareup.javapoet.AnnotatedTypeNameTest): expected:<1195259493> but was:<-1886091386>

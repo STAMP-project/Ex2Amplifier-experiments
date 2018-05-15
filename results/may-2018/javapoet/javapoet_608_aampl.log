@@ -1,0 +1,139 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[13] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JavaPoet 1.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ javapoet ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ javapoet ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ javapoet ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ javapoet ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ javapoet ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ javapoet ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 19 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ javapoet ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ javapoet ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.745 s
+[INFO] Finished at: 2018-05-15T15:25:14+02:00
+[INFO] Final Memory: 38M/1136M
+[INFO] ------------------------------------------------------------------------
+[14352] ERROR JDTCommentBuilder - // @Target(ElementType.TYPE_USE) requires Java 1.8 is not added into the AST
+spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608/src/test/java/com/squareup/javapoet/AnnotatedTypeNameTest.java:118)
+	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:152)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:108)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:417)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:362)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:724)
+	at fr.inria.diversify.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
+	at fr.inria.diversify.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
+	at fr.inria.diversify.dspot.DSpot.<init>(DSpot.java:103)
+	at eu.stamp.project.Main.lambda$run$2(Main.java:134)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp.project.Main.run(Main.java:117)
+	at eu.stamp.project.Main.main(Main.java:88)
+[15197] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[15197] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[15198] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JavaPoet 1.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ javapoet ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ javapoet ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ javapoet ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608_modified/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ javapoet ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608_modified/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ javapoet ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608_modified/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ javapoet ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 19 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608_modified/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ javapoet ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ javapoet ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608_modified/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.766 s
+[INFO] Finished at: 2018-05-15T15:25:29+02:00
+[INFO] Final Memory: 37M/1114M
+[INFO] ------------------------------------------------------------------------
+[26905] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/javapoet/608/ and dataset/may-2018/javapoet/608_modified/ (b68e867d44e3a24e2d954fec83ce8a5170a4a03b)
+[26910] INFO SelectorOnDiff - Modified files:
+a/src/main/java/com/squareup/javapoet/LineWrapper.java
+a/src/test/java/com/squareup/javapoet/LineWrapperTest.java
+[44038] INFO Amplification - amplification of com.squareup.javapoet.LineWrapperTest (15 test(s))
+[44760] INFO Amplification - Try to add assertions before amplification
+[44855] INFO AssertGenerator - Run tests. (15)
+[45457] INFO AssertGenerator - 15 test pass, generating assertion...
+[45465] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[45465] INFO MethodsAssertGenerator - Instrumentation...
+  6% |=== ]/ 13% |====== ]- 20% |========== ]\ 26% |============= ]| 33% |================ ]/ 40% |==================== ]- 46% |======================= ]\ 53% |========================== ]| 60% |============================== ]/ 66% |================================= ]- 73% |==================================== ]\ 80% |======================================== ]| 86% |=========================================== ]/ 93% |============================================== ]-100% |================================================== ]\
+[45545] INFO MethodsAssertGenerator - Run instrumented tests. (45)
+[46300] INFO MethodsAssertGenerator - Generating assertions...
+[46316] INFO AssertGenerator - Could not generate any test with assertions
+[46316] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[46316] INFO DSpot - elapsedTime 2321
+======= REPORT =======
+0 amplified test fails on the new versions.
+
+[46391] INFO DSpot - Print AmplLineWrapperTest with 0?amplified test cases in results/may-2018/javapoet/608/A_ampl

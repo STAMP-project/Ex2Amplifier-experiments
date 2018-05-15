@@ -1,0 +1,3 @@
+======= REPORT =======
+1 amplified test fails on the new versions.
+annotationWithFields(com.squareup.javapoet.TypeSpecTest): ANNOTATION Anno cannot have fields

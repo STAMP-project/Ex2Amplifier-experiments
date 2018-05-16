@@ -34,35 +34,43 @@ def run(project, flags, onClusty=False, mustClone=True, jbse=False, index=[-1]):
 
     for i in ((range(0, len(pull_request_data))) if index[0] == -1 else index):
         pr_data = pull_request_data[i]
-        print "cd", prefix_dataset + project + "/" + str(pr_data[
-                                                             "id"]), "&&", "~/apache-maven-3.3.9/bin/mvn", "clean", "install", "-DskipTests", "&&", "cd", "../../../.."
+        print "cd", prefix_dataset + project + "/" + \
+                    str(pr_data["id"]), "&&", \
+            ("~/apache-maven-3.3.9/bin/" if onClusty else "") \
+            + "mvn", "clean", "install", "-DskipTests", "&&", "cd", "../../../.."
         for mode in ["", "--reverse"]:
             for flag in flags:
-                output_file_log = "_".join([str(project),str(pr_data["id"]),str("catg" if flag == "" else flag[2:])]) + ("_r" if mode == "--reverse" else "") + ".log"
+                output_file_log = "_".join(
+                    [str(project), str(pr_data["id"]), str("catg" if flag == "" else flag[2:])]) + (
+                                      "_r" if mode == "--reverse" else "") + ".log"
                 print base_cmd_run, pr_data["id"], mode, flag, err_out_redirection, output_file_log
 
 
 if __name__ == '__main__':
 
-    flags = ["--amplifiers"] if "amplifiers" in sys.argv else ["--aampl", ""]
-    onClusty = "onClusty" in sys.argv
-    mustClone = "mustClone" in sys.argv
-    if "jbse" in sys.argv:
-        flags.append("jbse")
-    if ',' in sys.argv[-1] and sys.argv[-1][0].isdigit():
-        index = [int(x) for x in sys.argv[-1].split(',')]
-    elif sys.argv[-1][0].isdigit():
-        index = [int(sys.argv[-1])]
+    if "amplifiers" in sys.argv:
+        flags = ["--amplifiers"]
     else:
-        index = [-1]
 
-    if len(sys.argv) < 2:
-        print "usage python run-experiments <project> [onClusty] [mustClone] [amplifiers] [indexOfPR]"
-    else:
-        run(
-            project=sys.argv[1],
-            flags=flags,
-            onClusty=onClusty,
-            mustClone=mustClone,
-            index=index
-        )
+        flags = ["--aampl", ""]
+onClusty = "onClusty" in sys.argv
+mustClone = "mustClone" in sys.argv
+if "jbse" in sys.argv:
+    flags.append("jbse")
+if ',' in sys.argv[-1] and sys.argv[-1][0].isdigit():
+    index = [int(x) for x in sys.argv[-1].split(',')]
+elif sys.argv[-1][0].isdigit():
+    index = [int(sys.argv[-1])]
+else:
+    index = [-1]
+
+if len(sys.argv) < 2:
+    print "usage python run-experiments <project> [onClusty] [mustClone] [amplifiers] [indexOfPR]"
+else:
+    run(
+        project=sys.argv[1],
+        flags=flags,
+        onClusty=onClusty,
+        mustClone=mustClone,
+        index=index
+    )

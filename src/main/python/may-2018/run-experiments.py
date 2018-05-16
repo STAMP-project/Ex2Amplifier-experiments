@@ -44,6 +44,7 @@ def run(project, flags, onClusty=False, mustClone=True, jbse=False, index=[-1]):
                     [str(project), str(pr_data["id"]), str("catg" if flag == "" else flag[2:])]) + (
                                       "_r" if mode == "--reverse" else "") + ".log"
                 print base_cmd_run, pr_data["id"], mode, flag, err_out_redirection, output_file_log
+                print "rm -rf target/dspot"
 
 
 if __name__ == '__main__':

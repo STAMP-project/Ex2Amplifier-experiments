@@ -1,0 +1,526 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/bdanglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/bdanglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[12] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding JavaPoet 1.10.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567_modified/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-maven)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567_modified/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.6.1:compile[m [1m(default-compile)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 17 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567_modified/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567_modified/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.6.1:testCompile[m [1m(default-testCompile)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 19 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567_modified/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:build-classpath[m [1m(default-cli)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Wrote classpath file '/home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567_modified/target/dspot/classpath'.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 8.424 s
+[[1;34mINFO[m] Finished at: 2018-05-16T15:32:35+02:00
+[[1;34mINFO[m] Final Memory: 42M/419M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[13135] ERROR JDTCommentBuilder - // @Target(ElementType.TYPE_USE) requires Java 1.8 is not added into the AST
+spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567_modified/src/test/java/com/squareup/javapoet/AnnotatedTypeNameTest.java:118)
+	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:152)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:108)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:417)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:362)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:724)
+	at fr.inria.diversify.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
+	at fr.inria.diversify.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
+	at fr.inria.diversify.dspot.DSpot.<init>(DSpot.java:103)
+	at eu.stamp.project.Main.lambda$run$2(Main.java:134)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp.project.Main.run(Main.java:117)
+	at eu.stamp.project.Main.main(Main.java:88)
+[13555] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[13555] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[13556] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding JavaPoet 1.10.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.0:enforce[m [1m(enforce-maven)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.6.1:compile[m [1m(default-compile)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 17 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.6.1:testCompile[m [1m(default-testCompile)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 19 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:build-classpath[m [1m(default-cli)[m @ [36mjavapoet[0;1m ---[m
+[[1;34mINFO[m] Wrote classpath file '/home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567/target/dspot/classpath'.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 8.154 s
+[[1;34mINFO[m] Finished at: 2018-05-16T15:32:49+02:00
+[[1;34mINFO[m] Final Memory: 42M/366M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[23663] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/javapoet/567_modified/ and dataset/may-2018/javapoet/567/ (2c674b7e48a03d464034b9b338c990531676903a)
+[23683] INFO SelectorOnDiff - Modified files:
+a/src/test/java/com/squareup/javapoet/TypeSpecTest.java
+a/src/main/java/com/squareup/javapoet/CodeBlock.java
+a/src/main/java/com/squareup/javapoet/MethodSpec.java
+[38385] INFO Amplification - amplification of com.squareup.javapoet.MethodSpecTest (13 test(s))
+[40177] INFO Amplification - Try to add assertions before amplification
+[40824] INFO AssertGenerator - Run tests. (13)
+[42757] INFO AssertGenerator - 13 test pass, generating assertion...
+[42765] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[42765] INFO MethodsAssertGenerator - Instrumentation...
+  7% |=== ]/ 15% |======= ]- 23% |=========== ]\ 30% |=============== ]| 38% |=================== ]/ 46% |======================= ]- 53% |========================== ]\ 61% |============================== ]| 69% |================================== ]/ 76% |====================================== ]- 84% |========================================== ]\ 92% |============================================== ]|100% |================================================== ]/
+[42859] INFO MethodsAssertGenerator - Run instrumented tests. (39)
+[47447] INFO MethodsAssertGenerator - Generating assertions...
+[47527] INFO AssertGenerator - 6 new tests with assertions generated
+[49611] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
+[49612] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/bdanglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/bdanglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/bdanglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:target/dspot/dependencies/:dataset/may-2018/javapoet/567_modified//target/classes:dataset/may-2018/javapoet/567_modified//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
+[49704] DEBUG Launcher - built in 93 ms
+[49704] DEBUG Launcher - building templates: []
+[49704] DEBUG Launcher - built in 0 ms
+[49707] DEBUG Launcher - model built in 96
+[49708] DEBUG Launcher - compiling sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
+[49716] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/bdanglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/bdanglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/bdanglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:target/dspot/dependencies/:dataset/may-2018/javapoet/567_modified//target/classes:dataset/may-2018/javapoet/567_modified//target/test-classes:, -d, /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
+[50443] DEBUG Launcher - compiled in 735 ms
+[51452] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[51458] INFO Amplification - amp nullTypeVariablesAddition (1/13)
+[51467] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[52412] INFO Amplification - iteration 0:
+[52412] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[52412] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[52422] INFO Amplification - 0 new tests generated
+[52424] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[52424] INFO Amplification - amp overrideInvalidModifiers (2/13)
+[52443] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[53704] INFO Amplification - iteration 0:
+[53704] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[53704] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[53778] INFO Amplification - 0 new tests generated
+[53778] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[53778] INFO Amplification - amp overrideEverything (3/13)
+[53788] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[54701] INFO Amplification - iteration 0:
+[54701] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[54701] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[54754] INFO Amplification - 0 new tests generated
+[54754] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[54754] INFO Amplification - amp addModifiersVarargsShouldNotBeNull (4/13)
+[54760] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[55596] INFO Amplification - iteration 0:
+[55596] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[55596] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[55598] INFO Amplification - 0 new tests generated
+[55598] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[55598] INFO Amplification - amp nullIsNotAValidMethodName (5/13)
+[55615] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[56481] INFO Amplification - iteration 0:
+[56481] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[56481] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[56482] INFO Amplification - 0 new tests generated
+[56482] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[56482] INFO Amplification - amp equalsAndHashCode (6/13)
+[56489] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[57328] INFO Amplification - iteration 0:
+[57329] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[57329] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[57423] INFO Amplification - 0 new tests generated
+[57423] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[57423] INFO Amplification - amp nullExceptionsAddition (7/13)
+[57433] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[58396] INFO Amplification - iteration 0:
+[58396] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[58396] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[58398] INFO Amplification - 0 new tests generated
+[58398] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[58398] INFO Amplification - amp nullAnnotationsAddition (8/13)
+[58403] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[59221] INFO Amplification - iteration 0:
+[59221] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[59221] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[59222] INFO Amplification - 0 new tests generated
+[59222] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[59223] INFO Amplification - amp overrideExtendsOthersWorksWithActualTypeParameters (9/13)
+[59229] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[60085] INFO Amplification - iteration 0:
+[60085] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[60085] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[60188] INFO Amplification - 0 new tests generated
+[60189] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[60189] INFO Amplification - amp nullParametersAddition (10/13)
+[60196] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[60992] INFO Amplification - iteration 0:
+[60992] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[60992] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[60993] INFO Amplification - 0 new tests generated
+[60994] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[60994] INFO Amplification - amp overrideDoesNotCopyOverrideAnnotation (11/13)
+[61002] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[61825] INFO Amplification - iteration 0:
+[61825] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[61825] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[61883] INFO Amplification - 0 new tests generated
+[61883] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[61883] INFO Amplification - amp overrideDoesNotCopyDefaultModifier (12/13)
+[61892] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[62767] INFO Amplification - iteration 0:
+[62767] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[62767] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[62829] INFO Amplification - 0 new tests generated
+[62830] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[62830] INFO Amplification - amp duplicateExceptionsIgnored (13/13)
+[62839] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[63728] INFO Amplification - iteration 0:
+[63728] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[63728] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[63733] INFO Amplification - 0 new tests generated
+[63733] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[63733] INFO DSpot - elapsedTime 25699
+======= REPORT =======
+0 amplified test fails on the new versions.
+
+[64125] INFO DSpot - Print AmplMethodSpecTest with 0 amplified test cases in results/may-2018/javapoet/567_modified/JBSE
+[64125] DEBUG Launcher - printing com.squareup.javapoet.AmplMethodSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/results/may-2018/javapoet/567_modified/JBSE
+[64822] INFO Amplification - amplification of com.squareup.javapoet.CodeBlockTest (30 test(s))
+[64832] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[65221] INFO Amplification - Try to add assertions before amplification
+[65560] INFO AssertGenerator - Run tests. (30)
+[65563] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[65914] INFO AssertGenerator - 30 test pass, generating assertion...
+[65917] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[65917] INFO MethodsAssertGenerator - Instrumentation...
+  3% |= ]/  6% |=== ]- 10% |===== ]\ 13% |====== ]| 16% |======== ]/ 20% |========== ]- 23% |=========== ]\ 26% |============= ]| 30% |=============== ]/ 33% |================ ]- 36% |================== ]\ 40% |==================== ]| 43% |===================== ]/ 46% |======================= ]- 50% |========================= ]\ 53% |========================== ]| 56% |============================ ]/ 60% |============================== ]- 63% |=============================== ]\ 66% |================================= ]| 70% |=================================== ]/ 73% |==================================== ]- 76% |====================================== ]\ 80% |======================================== ]| 83% |========================================= ]/ 86% |=========================================== ]- 90% |============================================= ]\ 93% |============================================== ]| 96% |================================================ ]/100% |================================================== ]-
+[65978] INFO MethodsAssertGenerator - Run instrumented tests. (90)
+[66008] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[67871] INFO MethodsAssertGenerator - Generating assertions...
+[67891] INFO AssertGenerator - 9 new tests with assertions generated
+[67905] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[68673] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[68683] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/CodeBlockTest.java]
+[68686] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/bdanglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/bdanglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/bdanglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:target/dspot/dependencies/:dataset/may-2018/javapoet/567_modified//target/classes:dataset/may-2018/javapoet/567_modified//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/CodeBlockTest.java]
+[68733] DEBUG Launcher - built in 47 ms
+[68733] DEBUG Launcher - building templates: []
+[68733] DEBUG Launcher - built in 0 ms
+[68735] DEBUG Launcher - model built in 52
+[68735] DEBUG Launcher - compiling sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/CodeBlockTest.java]
+[68737] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/bdanglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/bdanglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/bdanglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:target/dspot/dependencies/:dataset/may-2018/javapoet/567_modified//target/classes:dataset/may-2018/javapoet/567_modified//target/test-classes:, -d, /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/javapoet/567/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/CodeBlockTest.java]
+[68826] DEBUG Launcher - compiled in 91 ms
+[69061] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[69061] INFO Amplification - amp indexButNoArguments (1/30)
+[69066] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[69396] INFO Amplification - iteration 0:
+[69396] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[69396] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[69399] INFO Amplification - 0 new tests generated
+[69399] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[69399] INFO Amplification - amp indexWithoutFormatTypeNotAtStringEnd (2/30)
+[69416] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[69770] INFO Amplification - iteration 0:
+[69770] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[69770] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[69773] INFO Amplification - 0 new tests generated
+[69773] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[69773] INFO Amplification - amp simpleNamedArgument (3/30)
+[69779] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[70098] INFO Amplification - iteration 0:
+[70098] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[70098] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[70119] INFO Amplification - 0 new tests generated
+[70119] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[70119] INFO Amplification - amp indexIsNegative (4/30)
+[70124] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[70423] INFO Amplification - iteration 0:
+[70423] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[70423] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[70427] INFO Amplification - 0 new tests generated
+[70427] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[70427] INFO Amplification - amp literalFormatCanBeIndexed (5/30)
+[70434] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[70754] INFO Amplification - iteration 0:
+[70754] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[70754] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[70790] INFO Amplification - 0 new tests generated
+[70790] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[70790] INFO Amplification - amp namedAndNoArgFormat (6/30)
+[70800] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[71102] INFO Amplification - iteration 0:
+[71102] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[71102] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[71131] INFO Amplification - 0 new tests generated
+[71131] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[71131] INFO Amplification - amp statementBeginningCannotBeIndexed (7/30)
+[71139] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[71435] INFO Amplification - iteration 0:
+[71435] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[71435] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[71439] INFO Amplification - 0 new tests generated
+[71439] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[71439] INFO Amplification - amp typeFormatCanBeIndexed (8/30)
+[71445] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[71767] INFO Amplification - iteration 0:
+[71767] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[71767] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[71788] INFO Amplification - 0 new tests generated
+[71788] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[71788] INFO Amplification - amp indexIsZero (9/30)
+[71793] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[72099] INFO Amplification - iteration 0:
+[72099] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[72099] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[72102] INFO Amplification - 0 new tests generated
+[72102] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[72102] INFO Amplification - amp deindentCannotBeIndexed (10/30)
+[72107] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[72385] INFO Amplification - iteration 0:
+[72385] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[72385] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[72388] INFO Amplification - 0 new tests generated
+[72388] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[72388] INFO Amplification - amp sameIndexCanBeUsedWithDifferentFormats (11/30)
+[72392] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[72709] INFO Amplification - iteration 0:
+[72709] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[72709] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[72730] INFO Amplification - 0 new tests generated
+[72730] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[72730] INFO Amplification - amp of (12/30)
+[72735] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[73058] INFO Amplification - iteration 0:
+[73058] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[73058] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[73077] INFO Amplification - 0 new tests generated
+[73078] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[73078] INFO Amplification - amp stringFormatCanBeIndexed (13/30)
+[73083] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[73378] INFO Amplification - iteration 0:
+[73378] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[73378] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[73398] INFO Amplification - 0 new tests generated
+[73398] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[73398] INFO Amplification - amp equalsAndHashCode (14/30)
+[73403] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[73726] INFO Amplification - iteration 0:
+[73726] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[73726] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[73776] INFO Amplification - 0 new tests generated
+[73776] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[73776] INFO Amplification - amp nameFormatCanBeIndexed (15/30)
+[73780] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[74104] INFO Amplification - iteration 0:
+[74104] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[74104] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[74123] INFO Amplification - 0 new tests generated
+[74123] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[74123] INFO Amplification - amp danglingNamed (16/30)
+[74128] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[74428] INFO Amplification - iteration 0:
+[74428] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[74428] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[74431] INFO Amplification - 0 new tests generated
+[74431] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[74431] INFO Amplification - amp repeatedNamedArgument (17/30)
+[74436] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[74724] INFO Amplification - iteration 0:
+[74724] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[74724] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[74744] INFO Amplification - 0 new tests generated
+[74744] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[74744] INFO Amplification - amp statementExitWithoutStatementEnter (18/30)
+[74751] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[75068] INFO Amplification - iteration 0:
+[75068] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[75068] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[75088] INFO Amplification - 0 new tests generated
+[75088] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[75088] INFO Amplification - amp indentCannotBeIndexed (19/30)
+[75093] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[75413] INFO Amplification - iteration 0:
+[75413] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[75413] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[75416] INFO Amplification - 0 new tests generated
+[75416] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[75416] INFO Amplification - amp namedNewline (20/30)
+[75423] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[75733] INFO Amplification - iteration 0:
+[75733] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[75733] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[75755] INFO Amplification - 0 new tests generated
+[75755] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[75755] INFO Amplification - amp formatIndicatorWithoutIndexOrFormatType (21/30)
+[75759] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[76054] INFO Amplification - iteration 0:
+[76054] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[76054] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[76057] INFO Amplification - 0 new tests generated
+[76057] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[76057] INFO Amplification - amp formatIndicatorAlone (22/30)
+[76061] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[76344] INFO Amplification - iteration 0:
+[76344] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[76344] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[76346] INFO Amplification - 0 new tests generated
+[76347] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[76347] INFO Amplification - amp tooManyStatementEnters (23/30)
+[76352] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[76675] INFO Amplification - iteration 0:
+[76675] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[76675] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[76695] INFO Amplification - 0 new tests generated
+[76695] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[76695] INFO Amplification - amp indexWithoutFormatType (24/30)
+[76710] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[76997] INFO Amplification - iteration 0:
+[76997] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[76997] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[77001] INFO Amplification - 0 new tests generated
+[77001] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[77001] INFO Amplification - amp missingNamedArgument (25/30)
+[77008] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[77309] INFO Amplification - iteration 0:
+[77309] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[77309] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[77312] INFO Amplification - 0 new tests generated
+[77312] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[77312] INFO Amplification - amp lowerCaseNamed (26/30)
+[77317] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[77614] INFO Amplification - iteration 0:
+[77614] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[77614] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[77617] INFO Amplification - 0 new tests generated
+[77617] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[77617] INFO Amplification - amp multipleNamedArguments (27/30)
+[77623] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[77918] INFO Amplification - iteration 0:
+[77918] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[77918] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[77939] INFO Amplification - 0 new tests generated
+[77939] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[77939] INFO Amplification - amp indexTooHigh (28/30)
+[77944] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[78233] INFO Amplification - iteration 0:
+[78233] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[78233] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[78237] INFO Amplification - 0 new tests generated
+[78237] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[78238] INFO Amplification - amp statementEndingCannotBeIndexed (29/30)
+[78245] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[78544] INFO Amplification - iteration 0:
+[78544] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[78544] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[78548] INFO Amplification - 0 new tests generated
+[78548] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[78548] INFO Amplification - amp dollarSignEscapeCannotBeIndexed (30/30)
+[78553] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[78848] INFO Amplification - iteration 0:
+[78848] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[78848] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[78851] INFO Amplification - 0 new tests generated
+[78851] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[78851] INFO DSpot - elapsedTime 14352
+======= REPORT =======
+0 amplified test fails on the new versions.
+
+[79219] INFO DSpot - Print AmplCodeBlockTest with 0 amplified test cases in results/may-2018/javapoet/567_modified/JBSE
+[79219] DEBUG Launcher - printing com.squareup.javapoet.AmplCodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/results/may-2018/javapoet/567_modified/JBSE

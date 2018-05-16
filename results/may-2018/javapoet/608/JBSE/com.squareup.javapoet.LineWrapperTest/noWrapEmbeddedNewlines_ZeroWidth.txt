@@ -1,0 +1,132 @@
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE236() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE237() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE238() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE239() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE240() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE241() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE242() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE243() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE244() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE245() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE246() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}
+@org.junit.Test(timeout = 10000)
+public void noWrapEmbeddedNewlines_ZeroWidth_Ex2_JBSE247() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 10, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghij\nklmn");
+    lineWrapper.append("opqrstuvwxyz");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\nklmnopqrstuvwxyz");
+}

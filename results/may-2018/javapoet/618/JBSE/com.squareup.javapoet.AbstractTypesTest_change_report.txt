@@ -1,0 +1,18 @@
+======= REPORT =======
+16 amplified test fails on the new versions.
+typeVariable(com.squareup.javapoet.AbstractTypesTest): null
+wildcardSuperType(com.squareup.javapoet.AbstractTypesTest): null
+wildcardMirrorExtendsType(com.squareup.javapoet.AbstractTypesTest): null
+arrayType(com.squareup.javapoet.AbstractTypesTest): null
+wildcardMirrorSuperType(com.squareup.javapoet.AbstractTypesTest): null
+parameterizedType(com.squareup.javapoet.AbstractTypesTest): null
+box(com.squareup.javapoet.AbstractTypesTest): null
+getTypeVariableTypeMirror(com.squareup.javapoet.AbstractTypesTest): null
+getBasicTypeMirror(com.squareup.javapoet.AbstractTypesTest): null
+unbox(com.squareup.javapoet.AbstractTypesTest): null
+wildcardMirrorNoBounds(com.squareup.javapoet.AbstractTypesTest): null
+wildcardExtendsObject(com.squareup.javapoet.AbstractTypesTest): null
+getParameterizedTypeMirror(com.squareup.javapoet.AbstractTypesTest): null
+getTypeVariableTypeMirrorRecursive(com.squareup.javapoet.AbstractTypesTest): null
+wildcardExtendsType(com.squareup.javapoet.AbstractTypesTest): null
+getErrorType(com.squareup.javapoet.AbstractTypesTest): null

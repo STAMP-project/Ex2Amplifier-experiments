@@ -1,0 +1,216 @@
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE21() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE22() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE23() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE24() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE25() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE26() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 16, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE27() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE28() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE29() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE30() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE31() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE32() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 11, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE33() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE34() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE35() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE36() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE37() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}
+@org.junit.Test(timeout = 10000)
+public void fencepostZeroWidth_Ex2_JBSE38() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.append("fghij");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("k");
+    lineWrapper.append("lmnop");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcdefghij\n    klmnop");
+}

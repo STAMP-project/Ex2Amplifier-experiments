@@ -1,0 +1,97 @@
+{
+  "date": "15/05/18",
+  "name": "jsoup",
+  "url": "git://github.com/jhy/jsoup.git",
+  "pullRequests": [
+    {
+      "id": 1046,
+      "baseUrl": "git://github.com/jhy/jsoup.git",
+      "baseRef": "master",
+      "baseSha": "0f7e0cc373aced32629f5321c9521f81d8248647",
+      "headUrl": "git://github.com/yawkat/jsoup.git",
+      "headRef": "win1242-fix-0",
+      "headSha": "3c699bad0467bec4adc55666f0d02e312ab22a60"
+    },
+    {
+      "id": 1038,
+      "baseUrl": "git://github.com/jhy/jsoup.git",
+      "baseRef": "master",
+      "baseSha": "03bffef1c7f6652f28214961bac16ad837064d32",
+      "headUrl": "git://github.com/exviva/jsoup.git",
+      "headRef": "custom-ssl-socket-factory",
+      "headSha": "f1110a9021c2caa28cbe3177c0c3a0f5ae326eb4"
+    },
+    {
+      "id": 988,
+      "baseUrl": "git://github.com/jhy/jsoup.git",
+      "baseRef": "master",
+      "baseSha": "e9885f060d59dc2bd7351c5bd654a27cbe6de69a",
+      "headUrl": "git://github.com/himanshu-pro/jsoup.git",
+      "headRef": "master",
+      "headSha": "1791ef17ad6e0624a7b057b89439f7a33b3bbb82"
+    },
+    {
+      "id": 942,
+      "baseUrl": "git://github.com/jhy/jsoup.git",
+      "baseRef": "master",
+      "baseSha": "35e80a779b7908ddcd41a6a7df5f21b30bf999d2",
+      "headUrl": "git://github.com/x28/jsoup.git",
+      "headRef": "fix/parse-mixed-case-tags",
+      "headSha": "6859d1a4159224271e6c63aa4b2ccf0d0b04c2ac"
+    },
+    {
+      "id": 931,
+      "baseUrl": "git://github.com/jhy/jsoup.git",
+      "baseRef": "master",
+      "baseSha": "35e80a779b7908ddcd41a6a7df5f21b30bf999d2",
+      "headUrl": "git://github.com/kno10/jsoup.git",
+      "headRef": "patch-2",
+      "headSha": "a7749a63871a7deccc33e66a22574e98264ce807"
+    },
+    {
+      "id": 918,
+      "baseUrl": "git://github.com/jhy/jsoup.git",
+      "baseRef": "master",
+      "baseSha": "bbcf905c8228374c733e45144119582d4758ce11",
+      "headUrl": "git://github.com/damonwong93/jsoup.git",
+      "headRef": "master",
+      "headSha": "f5120f95a7f24989196492026f0a48ba8dd0404d"
+    },
+    {
+      "id": 903,
+      "baseUrl": "git://github.com/jhy/jsoup.git",
+      "baseRef": "master",
+      "baseSha": "f28c024ba127fd701f0d195a359afbabff04d7a1",
+      "headUrl": "git://github.com/cketti/jsoup.git",
+      "headRef": "GH-815_case_insensitive_attribute_setter",
+      "headSha": "0bc3e387489fe938fad12e0f71f99f05a9b58289"
+    },
+    {
+      "id": 901,
+      "baseUrl": "git://github.com/jhy/jsoup.git",
+      "baseRef": "master",
+      "baseSha": "ad4a1bee132ee7d1167ac795407345f2bc6a1db8",
+      "headUrl": "git://github.com/maximermilov/jsoup.git",
+      "headRef": "master",
+      "headSha": "0a1b1760266ed2a510c9b3486b546c08ab259db7"
+    },
+    {
+      "id": 881,
+      "baseUrl": "git://github.com/jhy/jsoup.git",
+      "baseRef": "master",
+      "baseSha": "f28c024ba127fd701f0d195a359afbabff04d7a1",
+      "headUrl": "git://github.com/Siedlerchr/jsoup.git",
+      "headRef": "fix872",
+      "headSha": "0db39c27585d52fc19084a8090face5249e2bb4c"
+    },
+    {
+      "id": 835,
+      "baseUrl": "git://github.com/jhy/jsoup.git",
+      "baseRef": "master",
+      "baseSha": "f28c024ba127fd701f0d195a359afbabff04d7a1",
+      "headUrl": "git://github.com/cketti/jsoup.git",
+      "headRef": "GH-834_multiple_meta_elements_with_content_type",
+      "headSha": "a5266b14a2b7457e076d5f6429c2197baf5412e4"
+    }
+  ]
+}

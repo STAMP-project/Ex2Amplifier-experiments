@@ -191,7 +191,7 @@ public class Main {
         LOGGER.info("Clone all data of pull request of {}", pathToJsonFile);
         LOGGER.info("{} Pull request to be cloned", projectJSON.pullRequests.size());
         projectJSON.pullRequests.forEach(pr -> {
-            Cloner.cloneBothVersionOf(pr, output + "/" + projectJSON.name);
+            Cloner.cloneBothVersionOfForReplicationOfExp(projectJSON.name, pr, output + "/" + projectJSON.name);
             DSpotUtils.printProgress(projectJSON.pullRequests.indexOf(pr), projectJSON.pullRequests.size());
         });
     }

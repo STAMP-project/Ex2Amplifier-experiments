@@ -1,0 +1,301 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building protostuff :: runtime 1.4.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ protostuff-runtime ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ protostuff-runtime ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 40 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 43 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/test/java/io/protostuff/runtime/SerializableObjects.java: Some input files use or override a deprecated API.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/test/java/io/protostuff/runtime/SerializableObjects.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ protostuff-runtime ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ protostuff-runtime ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.447 s
+[INFO] Finished at: 2018-05-16T17:51:49+02:00
+[INFO] Final Memory: 26M/309M
+[INFO] ------------------------------------------------------------------------
+[13293] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[13293] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[13293] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building protostuff :: runtime 1.4.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ protostuff-runtime ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ protostuff-runtime ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 40 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target/classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 43 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target/test-classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AnnotatedFieldsTest.java: Some input files use or override a deprecated API.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AnnotatedFieldsTest.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ protostuff-runtime ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ protostuff-runtime ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.293 s
+[INFO] Finished at: 2018-05-16T17:52:02+02:00
+[INFO] Final Memory: 27M/315M
+[INFO] ------------------------------------------------------------------------
+[21178] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/182/protostuff-runtime and dataset/may-2018/protostuff/182_modified/protostuff-runtime (8bbf111d08632f1e95bf5b53a31950df05e4b135)
+[21194] INFO SelectorOnDiff - Modified files:
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/PolymorphicSchemaFactories.java
+a/protostuff-runtime-registry/src/main/java/io/protostuff/runtime/NumericIdStrategy.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/IdStrategy.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeMapFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/DefaultIdStrategy.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/HasDelegate.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/HasSchema.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeCollectionFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/EnumIO.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/PolymorphicEnumSchema.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeReflectionFieldFactory.java
+a/protostuff-runtime-registry/src/main/java/io/protostuff/runtime/ExplicitIdStrategy.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeRepeatedFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeFieldFactory.java
+a/protostuff-runtime-md/src/main/java/io/protostuff/runtime/RuntimeFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/ArraySchemas.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/ObjectSchema.java
+a/protostuff-runtime-registry/src/main/java/io/protostuff/runtime/IncrementalIdStrategy.java
+[102677] INFO Amplification - amplification of io.protostuff.runtime.ObjectSchemaTest (1 test(s))
+[103660] INFO Amplification - Try to add assertions before amplification
+[103700] INFO AssertGenerator - Run tests. (1)
+[104511] INFO AssertGenerator - 1 test pass, generating assertion...
+[104527] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[104527] INFO MethodsAssertGenerator - Instrumentation...
+100% |================================================== ]/
+[104547] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[105329] INFO MethodsAssertGenerator - Generating assertions...
+[105333] INFO AssertGenerator - Could not generate any test with assertions
+[105333] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[105339] INFO Amplification - amp testGraph (1/1)
+[106077] INFO Amplification - iteration 0:
+[106077] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[106077] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[106094] INFO Amplification - 5 new tests generated
+[106172] INFO AssertGenerator - Run tests. (5)
+[106944] INFO AssertGenerator - 1 test pass, generating assertion...
+[106957] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[106958] INFO MethodsAssertGenerator - Instrumentation...
+100% |================================================== ]/
+[106961] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[107708] INFO MethodsAssertGenerator - Generating assertions...
+[107710] INFO AssertGenerator - 4 test fail, generating try/catch/fail blocks...
+[107721] INFO AssertGenerator - 4 new tests with assertions generated
+[108588] INFO Amplification - 4 test method(s) has been successfully generated
+[108834] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[108835] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[108927] DEBUG Launcher - built in 93 ms
+[108927] DEBUG Launcher - building templates: []
+[108927] DEBUG Launcher - built in 0 ms
+[108931] DEBUG Launcher - model built in 97
+[108935] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[108943] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[109548] DEBUG Launcher - compiled in 613 ms
+[110027] INFO Amplification - iteration 1:
+[110027] INFO Amplification - 4 tests selected to be amplified over 4 available tests
+[110027] INFO Amplification - Amplification of inputs...
+ 75% |================================================== ]\100% |================================================== ]|
+ 50% |================================================== ]- 25% |================================================== ]/[110037] INFO Amplification - 18 new tests generated
+[110118] INFO AssertGenerator - Run tests. (18)
+[110136] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[110900] INFO AssertGenerator - 12 test pass, generating assertion...
+[110916] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[110916] INFO MethodsAssertGenerator - Instrumentation...
+  8% |==== ]/ 16% |======== ]- 25% |============ ]\ 33% |================ ]| 41% |==================== ]/ 50% |========================= ]- 58% |============================= ]\ 66% |================================= ]| 75% |===================================== ]/ 83% |========================================= ]- 91% |============================================= ]\100% |================================================== ]|
+[110971] INFO MethodsAssertGenerator - Run instrumented tests. (36)
+[111006] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[111934] INFO MethodsAssertGenerator - Generating assertions...
+[111968] INFO AssertGenerator - 6 test fail, generating try/catch/fail blocks...
+[111971] INFO AssertGenerator - 17 new tests with assertions generated
+[111998] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[112673] INFO Amplification - 17 test method(s) has been successfully generated
+[112699] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[112836] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[112836] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[112949] DEBUG Launcher - built in 113 ms
+[112949] DEBUG Launcher - building templates: []
+[112949] DEBUG Launcher - built in 0 ms
+[112954] DEBUG Launcher - model built in 118
+[112954] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[112959] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[113419] DEBUG Launcher - compiled in 465 ms
+[113939] INFO Amplification - iteration 2:
+[113939] INFO Amplification - 17 tests selected to be amplified over 17 available tests
+[113939] INFO Amplification - Amplification of inputs...
+ 64% |================================ ]\ 29% |================================ ]/ 11% |================================ ]- 82% |========================================= ]-  5% |============================================ ]/ 23% |================================================== ]|100% |================================================== ]/ 35% |================================================== ]- 88% |================================================== ]\ 94% |================================================== ]|
+ 76% |================================================== ]/ 41% |================================================== ]\ 52% |========================== ]/ 58% |================================================== ]- 47% |================================================== ]| 70% |================================================== ]| 17% |================================================== ]\[113996] INFO Amplification - 73 new tests generated
+[114248] INFO AssertGenerator - Run tests. (73)
+[114282] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[116426] INFO AssertGenerator - 50 test pass, generating assertion...
+[116460] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[116460] INFO MethodsAssertGenerator - Instrumentation...
+  2% |========================== ]/  4% |========================== ]-  6% |========================== ]\  8% |========================== ]| 10% |========================== ]/ 12% |========================== ]- 14% |========================== ]\ 16% |========================== ]| 18% |========================== ]/ 20% |========================== ]- 22% |========================== ]\ 24% |========================== ]| 26% |========================== ]/ 28% |========================== ]- 30% |========================== ]\ 32% |========================== ]| 34% |========================== ]/ 36% |========================== ]- 38% |========================== ]\ 40% |========================== ]| 42% |========================== ]/ 44% |========================== ]- 46% |========================== ]\ 48% |========================== ]| 50% |========================== ]/ 52% |========================== ]- 54% |=========================== ]\ 56% |============================ ]| 58% |============================= ]/ 60% |============================== ]- 62% |=============================== ]\ 64% |================================ ]| 66% |================================= ]/ 68% |================================== ]- 70% |=================================== ]\ 72% |==================================== ]| 74% |===================================== ]/ 76% |====================================== ]- 78% |======================================= ]\ 80% |======================================== ]| 82% |========================================= ]/ 84% |========================================== ]- 86% |=========================================== ]\ 88% |============================================ ]| 90% |============================================= ]/ 92% |============================================== ]- 94% |=============================================== ]\ 96% |================================================ ]| 98% |================================================= ]/100% |================================================== ]-
+[116718] INFO MethodsAssertGenerator - Run instrumented tests. (150)
+[116867] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[118521] INFO MethodsAssertGenerator - Generating assertions...
+[118611] INFO AssertGenerator - 23 test fail, generating try/catch/fail blocks...
+[118619] INFO AssertGenerator - 64 new tests with assertions generated
+[118673] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[119604] INFO Amplification - 64 test method(s) has been successfully generated
+[119638] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[119839] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[119840] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[119970] DEBUG Launcher - built in 130 ms
+[119970] DEBUG Launcher - building templates: []
+[119970] DEBUG Launcher - built in 0 ms
+[119975] DEBUG Launcher - model built in 136
+[119975] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[119984] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[120712] DEBUG Launcher - compiled in 737 ms
+[121306] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[121306] INFO DSpot - elapsedTime 18646
+======= REPORT =======
+0 amplified test fails on the new versions.
+
+[121352] INFO DSpot - Print AmplObjectSchemaTest with 0?amplified test cases in results/may-2018/protostuff/182/I_ampl
+[121353] DEBUG Launcher - printing io.protostuff.runtime.AmplObjectSchemaTest to /tmp/Ex2Amplifier-experiments/results/may-2018/protostuff/182/I_ampl
+[121447] INFO Amplification - amplification of io.protostuff.runtime.DefaultIdStrategyTest (1 test(s))
+[121449] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[122026] INFO Amplification - Try to add assertions before amplification
+[122028] INFO AssertGenerator - Run tests. (1)
+[122029] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[122629] INFO AssertGenerator - 1 test pass, generating assertion...
+[122630] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[122630] INFO MethodsAssertGenerator - Instrumentation...
+100% |================================================== ]/
+[122631] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[122634] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[123228] INFO MethodsAssertGenerator - Generating assertions...
+[123229] INFO AssertGenerator - Could not generate any test with assertions
+[123229] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[123229] INFO Amplification - amp privateConstructors (1/1)
+[123231] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[123785] INFO Amplification - iteration 0:
+[123785] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[123785] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[123979] INFO Amplification - 1 new tests generated
+[123980] INFO AssertGenerator - Run tests. (1)
+[123982] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[124402] INFO AssertGenerator - 1 test fail, generating try/catch/fail blocks...
+[124403] INFO AssertGenerator - 1 new tests with assertions generated
+[124405] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[124835] INFO Amplification - 1 test method(s) has been successfully generated
+[124836] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[124864] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[124864] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[124903] DEBUG Launcher - built in 39 ms
+[124903] DEBUG Launcher - building templates: []
+[124903] DEBUG Launcher - built in 0 ms
+[124904] DEBUG Launcher - model built in 40
+[124904] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[124904] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[124945] DEBUG Launcher - compiled in 41 ms
+[125317] INFO Amplification - iteration 1:
+[125317] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[125317] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[125496] INFO Amplification - 1 new tests generated
+[125497] INFO AssertGenerator - Run tests. (1)
+[125499] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[126063] INFO AssertGenerator - 1 test fail, generating try/catch/fail blocks...
+[126063] INFO AssertGenerator - Could not generate any test with assertions
+[126063] INFO Amplification - iteration 2:
+[126063] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[126063] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[126243] INFO Amplification - 1 new tests generated
+[126244] INFO AssertGenerator - Run tests. (1)
+[126246] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[126651] INFO AssertGenerator - 1 test pass, generating assertion...
+[126652] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[126652] INFO MethodsAssertGenerator - Instrumentation...
+100% |================================================== ]/
+[126653] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[126655] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[127074] INFO MethodsAssertGenerator - Generating assertions...
+[127075] INFO AssertGenerator - Could not generate any test with assertions
+[127075] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[127075] INFO DSpot - elapsedTime 5628
+======= REPORT =======
+0 amplified test fails on the new versions.
+
+[127076] INFO DSpot - Print AmplDefaultIdStrategyTest with 0?amplified test cases in results/may-2018/protostuff/182/I_ampl
+[127077] DEBUG Launcher - printing io.protostuff.runtime.AmplDefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/results/may-2018/protostuff/182/I_ampl

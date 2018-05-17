@@ -62,7 +62,7 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at fr.inria.diversify.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
 	at fr.inria.diversify.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
 	at fr.inria.diversify.dspot.DSpot.<init>(DSpot.java:103)
-	at eu.stamp.project.Main.lambda$run$2(Main.java:134)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:134)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -72,8 +72,8 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp.project.Main.run(Main.java:117)
-	at eu.stamp.project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:117)
+	at eu.stamp_project.Main.main(Main.java:88)
 [13328] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [13328] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
 [13328] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
@@ -130,7 +130,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [30772] INFO AssertGenerator - 1 test pass, generating assertion...
 [30778] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [30778] INFO MethodsAssertGenerator - Instrumentation...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [30815] INFO MethodsAssertGenerator - Run instrumented tests. (3)
 [33451] INFO MethodsAssertGenerator - Generating assertions...
 [33501] INFO AssertGenerator - 1 new tests with assertions generated
@@ -149,7 +150,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [37981] INFO Amplification - iteration 0:
 [37981] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [37981] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [37991] INFO Amplification - 0 new tests generated
 [37992] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [37992] INFO DSpot - elapsedTime 9870
@@ -166,7 +168,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [39470] INFO AssertGenerator - 1 test pass, generating assertion...
 [39474] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [39474] INFO MethodsAssertGenerator - Instrumentation...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [39475] INFO MethodsAssertGenerator - Run instrumented tests. (3)
 [39481] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [40048] INFO MethodsAssertGenerator - Generating assertions...
@@ -188,7 +191,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [41689] INFO Amplification - iteration 0:
 [41689] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [41689] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [41719] INFO Amplification - 0 new tests generated
 [41719] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [41719] INFO DSpot - elapsedTime 3255
@@ -205,7 +209,16 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [45701] INFO AssertGenerator - 9 test pass, generating assertion...
 [45726] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [45726] INFO MethodsAssertGenerator - Instrumentation...
- 11% |===== ]/ 22% |=========== ]- 33% |================ ]\ 44% |====================== ]| 55% |=========================== ]/ 66% |================================= ]- 77% |====================================== ]\ 88% |============================================ ]|100% |================================================== ]/
+
+ 11% |===== ]/
+ 22% |=========== ]-
+ 33% |================ ]\
+ 44% |====================== ]|
+ 55% |=========================== ]/
+ 66% |================================= ]-
+ 77% |====================================== ]\
+ 88% |============================================ ]|
+100% |================================================== ]/
 [45761] INFO MethodsAssertGenerator - Run instrumented tests. (27)
 [45812] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [52096] INFO MethodsAssertGenerator - Generating assertions...
@@ -227,7 +240,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [62723] INFO Amplification - iteration 0:
 [62723] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [62723] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [62767] INFO Amplification - 0 new tests generated
 [62767] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [62767] INFO Amplification - amp invalidSuperClass (2/9)
@@ -235,7 +249,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [63712] INFO Amplification - iteration 0:
 [63712] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [63712] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [63715] INFO Amplification - 0 new tests generated
 [63715] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [63715] INFO Amplification - amp classImplementsExtends (3/9)
@@ -243,7 +258,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [64732] INFO Amplification - iteration 0:
 [64732] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [64732] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [64742] INFO Amplification - 0 new tests generated
 [64742] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [64742] INFO Amplification - amp annotationsAndJavaLangTypes (4/9)
@@ -251,7 +267,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [65735] INFO Amplification - iteration 0:
 [65735] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [65735] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [65742] INFO Amplification - 0 new tests generated
 [65742] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [65742] INFO Amplification - amp interestingTypes (5/9)
@@ -259,7 +276,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [66692] INFO Amplification - iteration 0:
 [66692] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [66692] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [66732] INFO Amplification - 0 new tests generated
 [66732] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [66732] INFO Amplification - amp interfaceExtends (6/9)
@@ -267,7 +285,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [67765] INFO Amplification - iteration 0:
 [67765] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [67765] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [67777] INFO Amplification - 0 new tests generated
 [67777] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [67777] INFO Amplification - amp classImplementsNestedClass (7/9)
@@ -275,7 +294,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [68845] INFO Amplification - iteration 0:
 [68845] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [68845] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [68853] INFO Amplification - 0 new tests generated
 [68854] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [68854] INFO Amplification - amp superClassOnlyValidForClasses (8/9)
@@ -283,7 +303,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [69797] INFO Amplification - iteration 0:
 [69797] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [69797] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [69800] INFO Amplification - 0 new tests generated
 [69800] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [69800] INFO Amplification - amp typeVariables (9/9)
@@ -291,7 +312,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [70776] INFO Amplification - iteration 0:
 [70776] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [70776] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [70796] INFO Amplification - 0 new tests generated
 [70796] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [70796] INFO DSpot - elapsedTime 28535
@@ -308,7 +330,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [76773] INFO AssertGenerator - 1 test pass, generating assertion...
 [76777] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [76777] INFO MethodsAssertGenerator - Instrumentation...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [76779] INFO MethodsAssertGenerator - Run instrumented tests. (3)
 [76783] DEBUG Launcher - printing com.squareup.javapoet.JavaFileTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [77297] INFO MethodsAssertGenerator - Generating assertions...
@@ -330,7 +353,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [79600] INFO Amplification - iteration 0:
 [79600] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [79600] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [79616] INFO Amplification - 0 new tests generated
 [79617] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [79617] INFO DSpot - elapsedTime 3933
@@ -347,7 +371,9 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [82069] INFO AssertGenerator - 2 test pass, generating assertion...
 [82071] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [82071] INFO MethodsAssertGenerator - Instrumentation...
- 50% |========================= ]/100% |================================================== ]-
+
+ 50% |========================= ]/
+100% |================================================== ]-
 [82088] INFO MethodsAssertGenerator - Run instrumented tests. (6)
 [82099] DEBUG Launcher - printing com.squareup.javapoet.TypeNameTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [87919] INFO MethodsAssertGenerator - Generating assertions...
@@ -369,7 +395,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [93733] INFO Amplification - iteration 0:
 [93733] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [93733] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [93734] INFO Amplification - 0 new tests generated
 [93734] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [93734] INFO Amplification - amp equalsAndHashCodeClassName (2/2)
@@ -377,7 +404,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [94202] INFO Amplification - iteration 0:
 [94202] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [94202] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [94247] INFO Amplification - 0 new tests generated
 [94247] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [94247] INFO DSpot - elapsedTime 13756
@@ -394,7 +422,12 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [97212] INFO AssertGenerator - 5 test pass, generating assertion...
 [97215] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [97215] INFO MethodsAssertGenerator - Instrumentation...
- 20% |========== ]/ 40% |==================== ]- 60% |============================== ]\ 80% |======================================== ]|100% |================================================== ]/
+
+ 20% |========== ]/
+ 40% |==================== ]-
+ 60% |============================== ]\
+ 80% |======================================== ]|
+100% |================================================== ]/
 [97220] INFO MethodsAssertGenerator - Run instrumented tests. (15)
 [97224] DEBUG Launcher - printing com.squareup.javapoet.ClassNameTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [101446] INFO MethodsAssertGenerator - Generating assertions...
@@ -416,7 +449,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [107971] INFO Amplification - iteration 0:
 [107972] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [107972] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [107999] INFO Amplification - 0 new tests generated
 [107999] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [107999] INFO Amplification - amp reflectionName (2/5)
@@ -424,7 +458,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [109472] INFO Amplification - iteration 0:
 [109472] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [109472] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [109491] INFO Amplification - 0 new tests generated
 [109492] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [109492] INFO Amplification - amp classNameFromTypeElement (3/5)
@@ -432,7 +467,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [110921] INFO Amplification - iteration 0:
 [110921] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [110921] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [110927] INFO Amplification - 0 new tests generated
 [110927] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [110927] INFO Amplification - amp peerClass (4/5)
@@ -440,7 +476,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [111897] INFO Amplification - iteration 0:
 [111898] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [111898] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [111904] INFO Amplification - 0 new tests generated
 [111904] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [111904] INFO Amplification - amp fromClassRejectionTypes (5/5)
@@ -448,7 +485,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [113656] INFO Amplification - iteration 0:
 [113656] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [113656] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [113657] INFO Amplification - 0 new tests generated
 [113657] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [113657] INFO DSpot - elapsedTime 18802
@@ -465,7 +503,13 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [128620] INFO AssertGenerator - 12 test pass, generating assertion...
 [128628] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [128628] INFO MethodsAssertGenerator - Instrumentation...
- 16% |======== ]/ 33% |================ ]- 50% |========================= ]\ 66% |================================= ]| 83% |========================================= ]/100% |================================================== ]-
+
+ 16% |======== ]/
+ 33% |================ ]-
+ 50% |========================= ]\
+ 66% |================================= ]|
+ 83% |========================================= ]/
+100% |================================================== ]-
 [128709] INFO MethodsAssertGenerator - Run instrumented tests. (18)
 [128773] DEBUG Launcher - printing com.squareup.javapoet.AbstractTypesTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [168517] INFO MethodsAssertGenerator - Generating assertions...
@@ -487,7 +531,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [182424] INFO Amplification - iteration 0:
 [182424] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [182424] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [182425] INFO Amplification - 0 new tests generated
 [182425] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [182425] INFO Amplification - amp getTypeVariableTypeMirror (2/6)
@@ -495,7 +540,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [185420] INFO Amplification - iteration 0:
 [185420] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [185420] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [185654] INFO Amplification - 0 new tests generated
 [185654] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [185654] INFO Amplification - amp getParameterizedTypeMirror (3/6)
@@ -503,7 +549,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [188615] INFO Amplification - iteration 0:
 [188615] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [188615] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [188617] INFO Amplification - 0 new tests generated
 [188617] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [188617] INFO Amplification - amp getBasicTypeMirror (4/6)
@@ -511,7 +558,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [194029] INFO Amplification - iteration 0:
 [194029] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [194029] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [194031] INFO Amplification - 0 new tests generated
 [194031] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [194031] INFO Amplification - amp unbox (5/6)
@@ -519,7 +567,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [197466] INFO Amplification - iteration 0:
 [197466] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [197466] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [197467] INFO Amplification - 0 new tests generated
 [197468] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [197468] INFO Amplification - amp getErrorType (6/6)
@@ -527,7 +576,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [199452] INFO Amplification - iteration 0:
 [199452] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [199452] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [199453] INFO Amplification - 0 new tests generated
 [199453] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [199453] INFO DSpot - elapsedTime 84915
@@ -550,7 +600,9 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [201776] INFO AssertGenerator - 2 test pass, generating assertion...
 [201777] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [201777] INFO MethodsAssertGenerator - Instrumentation...
- 50% |========================= ]/100% |================================================== ]-
+
+ 50% |========================= ]/
+100% |================================================== ]-
 [201783] INFO MethodsAssertGenerator - Run instrumented tests. (6)
 [201786] DEBUG Launcher - printing com.squareup.javapoet.AnnotatedTypeNameTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [205797] INFO MethodsAssertGenerator - Generating assertions...
@@ -572,7 +624,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [209115] INFO Amplification - iteration 0:
 [209115] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [209115] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [209152] INFO Amplification - 0 new tests generated
 [209152] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [209152] INFO Amplification - amp annotatedEquivalence (2/2)
@@ -580,7 +633,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [209875] INFO Amplification - iteration 0:
 [209875] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [209875] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [209876] INFO Amplification - 0 new tests generated
 [209876] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [209876] INFO DSpot - elapsedTime 8944

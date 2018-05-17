@@ -1,0 +1,261 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/bdanglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/bdanglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[28] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding protostuff :: runtime 1.5.2-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.3.1:enforce[m [1m(enforce-versions)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 43 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/target/classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 45 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/target/test-classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/SerializableObjects.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/SerializableObjects.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/DefaultIdStrategyTest.java: /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/DefaultIdStrategyTest.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/DefaultIdStrategyTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.18.1:test[m [1m(default-test)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:build-classpath[m [1m(default-cli)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Wrote classpath file '/home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/target/dspot/classpath'.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 13.569 s
+[[1;34mINFO[m] Finished at: 2018-05-16T17:46:07+02:00
+[[1;34mINFO[m] Final Memory: 26M/268M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[30083] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[30084] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[30084] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding protostuff :: runtime 1.5.3-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.3.1:enforce[m [1m(enforce-versions)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 43 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/target/classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 44 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/target/test-classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/test/java/io/protostuff/runtime/CollectionTest.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/test/java/io/protostuff/runtime/CollectionTest.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/test/java/io/protostuff/runtime/DefaultIdStrategyTest.java: /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/test/java/io/protostuff/runtime/DefaultIdStrategyTest.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/src/test/java/io/protostuff/runtime/DefaultIdStrategyTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.18.1:test[m [1m(default-test)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:build-classpath[m [1m(default-cli)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Wrote classpath file '/home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201/protostuff-runtime/target/dspot/classpath'.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 13.368 s
+[[1;34mINFO[m] Finished at: 2018-05-16T17:46:38+02:00
+[[1;34mINFO[m] Final Memory: 25M/212M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[48874] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/201_modified/protostuff-runtime and dataset/may-2018/protostuff/201/protostuff-runtime (843d236615dc477bc434588c3fcde5c0c2db15f2)
+[48918] INFO SelectorOnDiff - Modified files:
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeRepeatedFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeMapFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeFieldFactory.java
+a/protostuff-runtime-md/src/main/java/io/protostuff/runtime/RuntimeFieldFactory.java
+a/protostuff-runtime/src/test/java/io/protostuff/runtime/LazyRegisterTest.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/ObjectSchema.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeCollectionFieldFactory.java
+a/protostuff-runtime-registry/src/main/java/io/protostuff/runtime/IncrementalIdStrategy.java
+[138078] INFO Amplification - amplification of io.protostuff.runtime.ObjectSchemaTest (1 test(s))
+[140125] INFO Amplification - Try to add assertions before amplification
+[140261] INFO AssertGenerator - Run tests. (1)
+[141890] INFO AssertGenerator - 1 test pass, generating assertion...
+[141968] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[141968] INFO MethodsAssertGenerator - Instrumentation...
+100% |================================================== ]/
+[142041] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[143791] INFO MethodsAssertGenerator - Generating assertions...
+[143797] INFO AssertGenerator - Could not generate any test with assertions
+[143797] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[143798] INFO Amplification - amp testGraph (1/1)
+[145334] INFO Amplification - iteration 0:
+[145334] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[145335] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[145699] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[145700] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.5.3-SNAPSHOT/protostuff-core-1.5.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.5.3-SNAPSHOT/protostuff-core-1.5.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.5.3-SNAPSHOT/protostuff-api-1.5.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.5.3-SNAPSHOT/protostuff-collectionschema-1.5.3-SNAPSHOT.jar:dataset/may-2018/protostuff/201_modified/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/201_modified/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[145920] DEBUG Launcher - built in 221 ms
+[145920] DEBUG Launcher - building templates: []
+[145921] DEBUG Launcher - built in 0 ms
+[145927] DEBUG Launcher - model built in 228
+[145929] DEBUG Launcher - compiling sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[145939] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.5.3-SNAPSHOT/protostuff-core-1.5.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.5.3-SNAPSHOT/protostuff-core-1.5.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.5.3-SNAPSHOT/protostuff-api-1.5.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.5.3-SNAPSHOT/protostuff-collectionschema-1.5.3-SNAPSHOT.jar:dataset/may-2018/protostuff/201_modified/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/201_modified/protostuff-runtime//target/test-classes:, -d, /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/201_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[146748] DEBUG Launcher - compiled in 819 ms
+This is the Java Bytecode Symbolic Executor's Run Tool (JBSE v.0.8.0-SNAPSHOT).
+Connecting to Z3 at lib/z3/build/bin/z3.
+Starting symbolic execution of method io/protostuff/runtime/ObjectSchemaTest:(I)V:extract_testGraph at Wed May 16 17:48:18 CEST 2018.
+.1[36] 
+Leaf state, raised exception: Object[1]
+Path condition: 
+	{R0} == Object[0] (fresh) &&
+	pre_init(io/protostuff/runtime/ObjectSchemaTest) &&
+	!pre_init(java/lang/System) &&
+	pre_init(io/protostuff/runtime/RuntimeEnv)
+	where:
+	{R0} == {ROOT}:this
+Static store: {
+	Class[io/protostuff/runtime/RuntimeEnv]: {
+		Origin: [io/protostuff/runtime/RuntimeEnv]
+		Field[0]: Name: ID_STRATEGY, Type: Lio/protostuff/runtime/IdStrategy;, Value: {R3} (type: L)
+		Field[1]: Name: OBJECT_CONSTRUCTOR, Type: Ljava/lang/reflect/Constructor;, Value: {R2} (type: L)
+		Field[2]: Name: AUTO_LOAD_POLYMORPHIC_CLASSES, Type: Z, Value: {V4} (type: Z)
+		Field[3]: Name: newInstanceFromObjectInputStream, Type: Ljava/lang/reflect/Method;, Value: {R1} (type: L)
+		Field[4]: Name: COLLECTION_SCHEMA_ON_REPEATED_FIELDS, Type: Z, Value: {V9} (type: Z)
+		Field[5]: Name: POJO_SCHEMA_ON_MAP_FIELDS, Type: Z, Value: {V11} (type: Z)
+		Field[6]: Name: ENUMS_BY_NAME, Type: Z, Value: {V3} (type: Z)
+		Field[7]: Name: MORPH_MAP_INTERFACES, Type: Z, Value: {V8} (type: Z)
+		Field[8]: Name: MORPH_COLLECTION_INTERFACES, Type: Z, Value: {V7} (type: Z)
+		Field[9]: Name: MORPH_NON_FINAL_POJOS, Type: Z, Value: {V6} (type: Z)
+		Field[10]: Name: ALLOW_NULL_ARRAY_ELEMENT, Type: Z, Value: {V5} (type: Z)
+		Field[11]: Name: POJO_SCHEMA_ON_COLLECTION_FIELDS, Type: Z, Value: {V10} (type: Z)
+		Field[12]: Name: USE_SUN_MISC_UNSAFE, Type: Z, Value: {V12} (type: Z)
+		Field[13]: Name: ALWAYS_USE_SUN_REFLECTION_FACTORY, Type: Z, Value: {V13} (type: Z)
+	}
+	Class[java/lang/System]: {
+		Field[0]: Name: err, Type: Ljava/io/PrintStream;, Value: null (type: 0)
+		Field[1]: Name: cons, Type: Ljava/io/Console;, Value: null (type: 0)
+		Field[2]: Name: props, Type: Ljava/util/Properties;, Value: null (type: 0)
+		Field[3]: Name: out, Type: Ljava/io/PrintStream;, Value: null (type: 0)
+		Field[4]: Name: in, Type: Ljava/io/InputStream;, Value: null (type: 0)
+		Field[5]: Name: security, Type: Ljava/lang/SecurityManager;, Value: null (type: 0)
+	}
+}
+Heap: {
+	Object[0]: {
+		Origin: {ROOT}:this
+		Class: io/protostuff/runtime/ObjectSchemaTest
+	}
+	Object[1]: {
+		Class: java/lang/NullPointerException
+		Field[0]: Name: detailMessage, Type: Ljava/lang/String;, Value: null (type: 0)
+		Field[1]: Name: cause, Type: Ljava/lang/Throwable;, Value: null (type: 0)
+		Field[2]: Name: backtrace, Type: Ljava/lang/Object;, Value: Object[2] (type: L)
+		Field[3]: Name: stackTrace, Type: [Ljava/lang/StackTraceElement;, Value: null (type: 0)
+	}
+	Object[2]: {
+		Type: [Ljava/lang/StackTraceElement;
+		Length: 1
+		Items: {Object[9]}
+	}
+	Object[3]: {
+		Type: [C
+		Length: 38
+		Items: {"io.protostuff.runtime.ObjectSchemaTest"}
+	}
+	Object[4]: {
+		Class: java/lang/String
+		Field[0]: Name: hash, Type: I, Value: -45731902 (type: I)
+		Field[1]: Name: value, Type: [C, Value: Object[3] (type: L)
+		Field[2]: Name: offset, Type: I, Value: 0 (type: I)
+		Field[3]: Name: count, Type: I, Value: 38 (type: I)
+	}
+	Object[5]: {
+		Type: [C
+		Length: 21
+		Items: {"ObjectSchemaTest.java"}
+	}
+	Object[6]: {
+		Class: java/lang/String
+		Field[0]: Name: hash, Type: I, Value: 970782718 (type: I)
+		Field[1]: Name: value, Type: [C, Value: Object[5] (type: L)
+		Field[2]: Name: offset, Type: I, Value: 0 (type: I)
+		Field[3]: Name: count, Type: I, Value: 21 (type: I)
+	}
+	Object[7]: {
+		Type: [C
+		Length: 17
+		Items: {"extract_testGraph"}
+	}
+	Object[8]: {
+		Class: java/lang/String
+		Field[0]: Name: hash, Type: I, Value: 203719070 (type: I)
+		Field[1]: Name: value, Type: [C, Value: Object[7] (type: L)
+		Field[2]: Name: offset, Type: I, Value: 0 (type: I)
+		Field[3]: Name: count, Type: I, Value: 17 (type: I)
+	}
+	Object[9]: {
+		Class: java/lang/StackTraceElement
+		Field[0]: Name: fileName, Type: Ljava/lang/String;, Value: Object[6] (type: L)
+		Field[1]: Name: methodName, Type: Ljava/lang/String;, Value: Object[8] (type: L)
+		Field[2]: Name: lineNumber, Type: I, Value: 403 (type: I)
+		Field[3]: Name: declaringClass, Type: Ljava/lang/String;, Value: Object[4] (type: L)
+	}
+}
+
+.1 trace is safe.
+Symbolic execution finished at Wed May 16 17:48:18 CEST 2018.
+Analyzed states: 36, Analyzed traces: 1, Safe: 1, Unsafe: 0, Out of scope: 0, Violating assumptions: 0, Unmanageable: 0.
+Elapsed time: 200 msec, Average speed: 180 states/sec, Elapsed time in decision procedure: 5 msec (2.5% of total).
+[148071] INFO Amplification - 0 new tests generated
+[148071] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[148071] INFO DSpot - elapsedTime 10017
+======= REPORT =======
+0 amplified test fails on the new versions.
+
+[148235] INFO DSpot - Print AmplObjectSchemaTest with 0 amplified test cases in results/may-2018/protostuff/201_modified/JBSE
+[148235] DEBUG Launcher - printing io.protostuff.runtime.AmplObjectSchemaTest to /home/bdanglot/workspace/Ex2amplifier-experiments/results/may-2018/protostuff/201_modified/JBSE

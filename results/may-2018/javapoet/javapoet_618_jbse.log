@@ -111,7 +111,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [51749] INFO AssertGenerator - 1 test pass, generating assertion...
 [51754] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [51755] INFO MethodsAssertGenerator - Instrumentation...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [51789] INFO MethodsAssertGenerator - Run instrumented tests. (3)
 [55161] INFO MethodsAssertGenerator - Generating assertions...
 [55227] INFO AssertGenerator - 1 new tests with assertions generated
@@ -130,7 +131,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [60170] INFO Amplification - iteration 0:
 [60170] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [60170] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [60185] INFO Amplification - 0 new tests generated
 [60185] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [60185] INFO DSpot - elapsedTime 11020
@@ -147,7 +149,11 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [62207] INFO AssertGenerator - 4 test pass, generating assertion...
 [62210] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [62210] INFO MethodsAssertGenerator - Instrumentation...
- 25% |============ ]/ 50% |========================= ]- 75% |===================================== ]\100% |================================================== ]|
+
+ 25% |============ ]/
+ 50% |========================= ]-
+ 75% |===================================== ]\
+100% |================================================== ]|
 [62217] INFO MethodsAssertGenerator - Run instrumented tests. (12)
 [62231] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [63473] INFO MethodsAssertGenerator - Generating assertions...
@@ -169,7 +175,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [65527] INFO Amplification - iteration 0:
 [65527] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [65527] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [65551] INFO Amplification - 0 new tests generated
 [65551] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [65551] INFO Amplification - amp join (2/4)
@@ -177,7 +184,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [66023] INFO Amplification - iteration 0:
 [66023] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [66023] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [66053] INFO Amplification - 0 new tests generated
 [66053] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [66053] INFO Amplification - amp joiningWithPrefixAndSuffix (3/4)
@@ -185,7 +193,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [66479] INFO Amplification - iteration 0:
 [66479] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [66479] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [66513] INFO Amplification - 0 new tests generated
 [66513] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [66514] INFO Amplification - amp joining (4/4)
@@ -193,7 +202,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [66915] INFO Amplification - iteration 0:
 [66915] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [66915] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [66940] INFO Amplification - 0 new tests generated
 [66941] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [66941] INFO DSpot - elapsedTime 6023
@@ -210,7 +220,25 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [69564] INFO AssertGenerator - 18 test pass, generating assertion...
 [69568] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [69568] INFO MethodsAssertGenerator - Instrumentation...
-  5% |== ]/ 11% |===== ]- 16% |======== ]\ 22% |=========== ]| 27% |============= ]/ 33% |================ ]- 38% |=================== ]\ 44% |====================== ]| 50% |========================= ]/ 55% |=========================== ]- 61% |============================== ]\ 66% |================================= ]| 72% |==================================== ]/ 77% |====================================== ]- 83% |========================================= ]\ 88% |============================================ ]| 94% |=============================================== ]/100% |================================================== ]-
+
+  5% |== ]/
+ 11% |===== ]-
+ 16% |======== ]\
+ 22% |=========== ]|
+ 27% |============= ]/
+ 33% |================ ]-
+ 38% |=================== ]\
+ 44% |====================== ]|
+ 50% |========================= ]/
+ 55% |=========================== ]-
+ 61% |============================== ]\
+ 66% |================================= ]|
+ 72% |==================================== ]/
+ 77% |====================================== ]-
+ 83% |========================================= ]\
+ 88% |============================================ ]|
+ 94% |=============================================== ]/
+100% |================================================== ]-
 [69611] INFO MethodsAssertGenerator - Run instrumented tests. (54)
 [69636] DEBUG Launcher - printing com.squareup.javapoet.JavaFileTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [74320] INFO MethodsAssertGenerator - Generating assertions...
@@ -232,7 +260,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [81816] INFO Amplification - iteration 0:
 [81816] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [81816] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [81833] INFO Amplification - 0 new tests generated
 [81833] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [81833] INFO Amplification - amp conflictingImports (2/18)
@@ -240,7 +269,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [82905] INFO Amplification - iteration 0:
 [82905] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [82905] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [82938] INFO Amplification - 0 new tests generated
 [82938] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [82938] INFO Amplification - amp conflictingNameOutOfScope (3/18)
@@ -248,7 +278,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [84280] INFO Amplification - iteration 0:
 [84280] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [84280] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [84352] INFO Amplification - 0 new tests generated
 [84354] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [84355] INFO Amplification - amp conflictingTypeVariableBound (4/18)
@@ -256,7 +287,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [85101] INFO Amplification - iteration 0:
 [85101] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [85101] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [85124] INFO Amplification - 0 new tests generated
 [85124] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [85124] INFO Amplification - amp annotatedTypeParam (5/18)
@@ -264,7 +296,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [85635] INFO Amplification - iteration 0:
 [85635] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [85636] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [85665] INFO Amplification - 0 new tests generated
 [85665] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [85665] INFO Amplification - amp conflictingParentName (6/18)
@@ -272,7 +305,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [86151] INFO Amplification - iteration 0:
 [86151] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [86151] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [86178] INFO Amplification - 0 new tests generated
 [86178] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [86178] INFO Amplification - amp conflictingAnnotation (7/18)
@@ -280,7 +314,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [86649] INFO Amplification - iteration 0:
 [86649] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [86649] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [86668] INFO Amplification - 0 new tests generated
 [86668] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [86668] INFO Amplification - amp skipJavaLangImportsWithConflictingClassFirst (8/18)
@@ -288,7 +323,8 @@ a/src/main/java/com/squareup/javapoet/JavaFile.java
 [87139] INFO Amplification - iteration 0:
 [87139] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [87139] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [87169] DEBUG Launcher - printing com.squareup.javapoet.JavaFileTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [87187] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/JavaFileTest.java]
 [87187] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/com/google/truth/truth/0.39/truth-0.39.jar:/home/bdanglot/.m2/repository/com/google/guava/guava/23.4-android/guava-23.4-android.jar:/home/bdanglot/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/bdanglot/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/bdanglot/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/bdanglot/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/bdanglot/.m2/repository/com/google/testing/compile/compile-testing/0.15/compile-testing-0.15.jar:/home/bdanglot/.m2/repository/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar:/home/bdanglot/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/home/bdanglot/.m2/repository/com/google/auto/auto-common/0.9/auto-common-0.9.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/bdanglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/bdanglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar:dataset/may-2018/javapoet/618//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/618//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/JavaFileTest.java]
@@ -1056,7 +1092,8 @@ Elapsed time: 905 msec, Average speed: 1657 states/sec, Elapsed time in decision
 [89548] INFO Amplification - iteration 0:
 [89548] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [89548] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [89571] INFO Amplification - 0 new tests generated
 [89571] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [89572] INFO Amplification - amp defaultPackageTypesAreNotImported (10/18)
@@ -1064,7 +1101,8 @@ Elapsed time: 905 msec, Average speed: 1657 states/sec, Elapsed time in decision
 [90120] INFO Amplification - iteration 0:
 [90120] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [90120] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [90149] INFO Amplification - 0 new tests generated
 [90149] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [90149] INFO Amplification - amp conflictingChildName (11/18)
@@ -1072,7 +1110,8 @@ Elapsed time: 905 msec, Average speed: 1657 states/sec, Elapsed time in decision
 [90609] INFO Amplification - iteration 0:
 [90609] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [90609] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [90644] INFO Amplification - 0 new tests generated
 [90644] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [90644] INFO Amplification - amp conflictingAnnotationReferencedClass (12/18)
@@ -1080,7 +1119,8 @@ Elapsed time: 905 msec, Average speed: 1657 states/sec, Elapsed time in decision
 [91022] INFO Amplification - iteration 0:
 [91022] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [91022] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [91039] INFO Amplification - 0 new tests generated
 [91039] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [91039] INFO Amplification - amp importStaticReadmeExample (13/18)
@@ -1088,7 +1128,8 @@ Elapsed time: 905 msec, Average speed: 1657 states/sec, Elapsed time in decision
 [91620] INFO Amplification - iteration 0:
 [91620] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [91620] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [91670] INFO Amplification - 0 new tests generated
 [91670] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [91670] INFO Amplification - amp packageClassConflictsWithSuperlass (14/18)
@@ -1096,7 +1137,8 @@ Elapsed time: 905 msec, Average speed: 1657 states/sec, Elapsed time in decision
 [92037] INFO Amplification - iteration 0:
 [92037] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [92037] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [92057] INFO Amplification - 0 new tests generated
 [92057] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [92057] INFO Amplification - amp packageClassConflictsWithNestedClass (15/18)
@@ -1104,7 +1146,8 @@ Elapsed time: 905 msec, Average speed: 1657 states/sec, Elapsed time in decision
 [92478] INFO Amplification - iteration 0:
 [92478] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [92478] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [92507] INFO Amplification - 0 new tests generated
 [92507] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [92509] INFO Amplification - amp skipJavaLangImportsWithConflictingClassLast (16/18)
@@ -1112,7 +1155,8 @@ Elapsed time: 905 msec, Average speed: 1657 states/sec, Elapsed time in decision
 [92900] INFO Amplification - iteration 0:
 [92900] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [92900] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [92922] DEBUG Launcher - printing com.squareup.javapoet.JavaFileTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [92948] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/JavaFileTest.java]
 [92948] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/com/google/truth/truth/0.39/truth-0.39.jar:/home/bdanglot/.m2/repository/com/google/guava/guava/23.4-android/guava-23.4-android.jar:/home/bdanglot/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/bdanglot/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/bdanglot/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/bdanglot/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/bdanglot/.m2/repository/com/google/testing/compile/compile-testing/0.15/compile-testing-0.15.jar:/home/bdanglot/.m2/repository/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar:/home/bdanglot/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/home/bdanglot/.m2/repository/com/google/auto/auto-common/0.9/auto-common-0.9.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/bdanglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/bdanglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar:dataset/may-2018/javapoet/618//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/618//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/JavaFileTest.java]
@@ -1880,7 +1924,8 @@ Elapsed time: 172 msec, Average speed: 8720 states/sec, Elapsed time in decision
 [93722] INFO Amplification - iteration 0:
 [93722] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [93722] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [93740] INFO Amplification - 0 new tests generated
 [93740] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [93740] INFO Amplification - amp nestedClassAndSuperclassShareName (18/18)
@@ -1888,7 +1933,8 @@ Elapsed time: 172 msec, Average speed: 8720 states/sec, Elapsed time in decision
 [94160] INFO Amplification - iteration 0:
 [94160] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [94160] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [94182] INFO Amplification - 0 new tests generated
 [94182] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [94182] INFO DSpot - elapsedTime 26372
@@ -1905,7 +1951,15 @@ Elapsed time: 172 msec, Average speed: 8720 states/sec, Elapsed time in decision
 [96942] INFO AssertGenerator - 8 test pass, generating assertion...
 [96944] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [96944] INFO MethodsAssertGenerator - Instrumentation...
- 12% |====== ]/ 25% |============ ]- 37% |================== ]\ 50% |========================= ]| 62% |=============================== ]/ 75% |===================================== ]- 87% |=========================================== ]\100% |================================================== ]|
+
+ 12% |====== ]/
+ 25% |============ ]-
+ 37% |================== ]\
+ 50% |========================= ]|
+ 62% |=============================== ]/
+ 75% |===================================== ]-
+ 87% |=========================================== ]\
+100% |================================================== ]|
 [96961] INFO MethodsAssertGenerator - Run instrumented tests. (24)
 [96967] DEBUG Launcher - printing com.squareup.javapoet.TypeNameTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [108115] INFO MethodsAssertGenerator - Generating assertions...
@@ -1927,7 +1981,8 @@ Elapsed time: 172 msec, Average speed: 8720 states/sec, Elapsed time in decision
 [124328] INFO Amplification - iteration 0:
 [124328] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [124328] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [124354] INFO Amplification - 0 new tests generated
 [124354] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [124355] INFO Amplification - amp innerClassInGenericType (2/8)
@@ -1935,7 +1990,8 @@ Elapsed time: 172 msec, Average speed: 8720 states/sec, Elapsed time in decision
 [124750] INFO Amplification - iteration 0:
 [124750] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [124750] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [124796] INFO Amplification - 0 new tests generated
 [124796] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [124796] INFO Amplification - amp genericType (3/8)
@@ -1943,7 +1999,8 @@ Elapsed time: 172 msec, Average speed: 8720 states/sec, Elapsed time in decision
 [125206] INFO Amplification - iteration 0:
 [125206] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [125206] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [125253] DEBUG Launcher - printing com.squareup.javapoet.TypeNameTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [125267] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeNameTest.java]
 [125268] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/com/google/truth/truth/0.39/truth-0.39.jar:/home/bdanglot/.m2/repository/com/google/guava/guava/23.4-android/guava-23.4-android.jar:/home/bdanglot/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/bdanglot/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/bdanglot/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/bdanglot/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/bdanglot/.m2/repository/com/google/testing/compile/compile-testing/0.15/compile-testing-0.15.jar:/home/bdanglot/.m2/repository/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar:/home/bdanglot/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/home/bdanglot/.m2/repository/com/google/auto/auto-common/0.9/auto-common-0.9.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/bdanglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/bdanglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar:dataset/may-2018/javapoet/618//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/618//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeNameTest.java]
@@ -2000,7 +2057,7 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: co
 	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:103)
 	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:183)
 	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:170)
-	at eu.stamp.project.Main.lambda$null$1(Main.java:143)
+	at eu.stamp_project.Main.lambda$null$1(Main.java:143)
 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
 	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
@@ -2008,7 +2065,7 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: co
 	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at eu.stamp.project.Main.lambda$run$2(Main.java:144)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:144)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -2018,8 +2075,8 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: co
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp.project.Main.run(Main.java:117)
-	at eu.stamp.project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:117)
+	at eu.stamp_project.Main.main(Main.java:88)
 Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNameTest
 	at jbse.bc.ClassFileJavassist.<init>(ClassFileJavassist.java:39)
 	at jbse.bc.ClassFileFactoryJavassist.newClassFileClass(ClassFileFactoryJavassist.java:26)
@@ -2036,7 +2093,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNam
 [125783] INFO Amplification - iteration 0:
 [125783] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [125783] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [125784] INFO Amplification - 0 new tests generated
 [125784] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [125784] INFO Amplification - amp isPrimitive (5/8)
@@ -2044,7 +2102,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNam
 [126212] INFO Amplification - iteration 0:
 [126213] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [126213] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [126215] INFO Amplification - 0 new tests generated
 [126215] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [126215] INFO Amplification - amp equalsAndHashCodeClassName (6/8)
@@ -2052,7 +2111,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNam
 [126625] INFO Amplification - iteration 0:
 [126625] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [126625] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [126653] INFO Amplification - 0 new tests generated
 [126653] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [126653] INFO Amplification - amp innerStaticInGenericType (7/8)
@@ -2060,7 +2120,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNam
 [127002] INFO Amplification - iteration 0:
 [127002] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [127002] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [127027] INFO Amplification - 0 new tests generated
 [127027] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [127027] INFO Amplification - amp innerGenericInGenericType (8/8)
@@ -2068,7 +2129,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNam
 [127362] INFO Amplification - iteration 0:
 [127362] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [127362] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [127413] INFO Amplification - 0 new tests generated
 [127413] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [127413] INFO DSpot - elapsedTime 32090
@@ -2085,7 +2147,30 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNam
 [133385] INFO AssertGenerator - 23 test pass, generating assertion...
 [133403] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [133403] INFO MethodsAssertGenerator - Instrumentation...
-  4% |== ]/  8% |==== ]- 13% |====== ]\ 17% |======== ]| 21% |========== ]/ 26% |============= ]- 30% |=============== ]\ 34% |================= ]| 39% |=================== ]/ 43% |===================== ]- 47% |======================= ]\ 52% |========================== ]| 56% |============================ ]/ 60% |============================== ]- 65% |================================ ]\ 69% |================================== ]| 73% |==================================== ]/ 78% |======================================= ]- 82% |========================================= ]\ 86% |=========================================== ]| 91% |============================================= ]/ 95% |=============================================== ]-100% |================================================== ]\
+
+  4% |== ]/
+  8% |==== ]-
+ 13% |====== ]\
+ 17% |======== ]|
+ 21% |========== ]/
+ 26% |============= ]-
+ 30% |=============== ]\
+ 34% |================= ]|
+ 39% |=================== ]/
+ 43% |===================== ]-
+ 47% |======================= ]\
+ 52% |========================== ]|
+ 56% |============================ ]/
+ 60% |============================== ]-
+ 65% |================================ ]\
+ 69% |================================== ]|
+ 73% |==================================== ]/
+ 78% |======================================= ]-
+ 82% |========================================= ]\
+ 86% |=========================================== ]|
+ 91% |============================================= ]/
+ 95% |=============================================== ]-
+100% |================================================== ]\
 [133491] INFO MethodsAssertGenerator - Run instrumented tests. (69)
 [133556] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [156412] INFO MethodsAssertGenerator - Generating assertions...
@@ -2107,7 +2192,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNam
 [215039] INFO Amplification - iteration 0:
 [215039] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [215039] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [215045] INFO Amplification - 0 new tests generated
 [215045] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [215045] INFO Amplification - amp annotationsAndJavaLangTypes (2/23)
@@ -2115,7 +2201,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNam
 [216290] INFO Amplification - iteration 0:
 [216290] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [216290] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [216297] INFO Amplification - 0 new tests generated
 [216297] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [216297] INFO Amplification - amp tryCatch (3/23)
@@ -2123,7 +2210,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNam
 [217505] INFO Amplification - iteration 0:
 [217505] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [217505] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [217518] INFO Amplification - 0 new tests generated
 [217518] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [217518] INFO Amplification - amp annotatedClass (4/23)
@@ -2131,7 +2219,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: com/squareup/javapoet/TypeNam
 [218582] INFO Amplification - iteration 0:
 [218582] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [218582] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [218664] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [218791] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [218791] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/com/google/truth/truth/0.39/truth-0.39.jar:/home/bdanglot/.m2/repository/com/google/guava/guava/23.4-android/guava-23.4-android.jar:/home/bdanglot/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/bdanglot/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/bdanglot/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/bdanglot/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/bdanglot/.m2/repository/com/google/testing/compile/compile-testing/0.15/compile-testing-0.15.jar:/home/bdanglot/.m2/repository/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar:/home/bdanglot/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/home/bdanglot/.m2/repository/com/google/auto/auto-common/0.9/auto-common-0.9.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/bdanglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/bdanglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar:dataset/may-2018/javapoet/618//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/618//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -3506,7 +3595,8 @@ Elapsed time: 149 msec, Average speed: 10067 states/sec, Elapsed time in decisio
 [220456] INFO Amplification - iteration 0:
 [220456] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [220456] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [220468] INFO Amplification - 0 new tests generated
 [220468] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [220468] INFO Amplification - amp classNameFactories (6/23)
@@ -3514,7 +3604,8 @@ Elapsed time: 149 msec, Average speed: 10067 states/sec, Elapsed time in decisio
 [221450] INFO Amplification - iteration 0:
 [221450] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [221450] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [221456] INFO Amplification - 0 new tests generated
 [221456] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [221456] INFO Amplification - amp classImplementsNestedClass (7/23)
@@ -3522,7 +3613,8 @@ Elapsed time: 149 msec, Average speed: 10067 states/sec, Elapsed time in decisio
 [222452] INFO Amplification - iteration 0:
 [222452] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [222452] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [222459] INFO Amplification - 0 new tests generated
 [222459] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [222459] INFO Amplification - amp superClassOnlyValidForClasses (8/23)
@@ -3530,7 +3622,8 @@ Elapsed time: 149 msec, Average speed: 10067 states/sec, Elapsed time in decisio
 [223498] INFO Amplification - iteration 0:
 [223498] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [223498] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [223501] INFO Amplification - 0 new tests generated
 [223501] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [223501] INFO Amplification - amp typeVariableWithBounds (9/23)
@@ -3538,7 +3631,8 @@ Elapsed time: 149 msec, Average speed: 10067 states/sec, Elapsed time in decisio
 [224588] INFO Amplification - iteration 0:
 [224588] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [224588] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [224602] INFO Amplification - 0 new tests generated
 [224602] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [224602] INFO Amplification - amp annotationsInAnnotations (10/23)
@@ -3546,7 +3640,8 @@ Elapsed time: 149 msec, Average speed: 10067 states/sec, Elapsed time in decisio
 [225608] INFO Amplification - iteration 0:
 [225608] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [225608] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [225644] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [225744] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [225744] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/com/google/truth/truth/0.39/truth-0.39.jar:/home/bdanglot/.m2/repository/com/google/guava/guava/23.4-android/guava-23.4-android.jar:/home/bdanglot/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/bdanglot/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/bdanglot/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/bdanglot/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/bdanglot/.m2/repository/com/google/testing/compile/compile-testing/0.15/compile-testing-0.15.jar:/home/bdanglot/.m2/repository/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar:/home/bdanglot/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/home/bdanglot/.m2/repository/com/google/auto/auto-common/0.9/auto-common-0.9.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/bdanglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/bdanglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar:dataset/may-2018/javapoet/618//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/618//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -4924,7 +5019,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [227320] INFO Amplification - iteration 0:
 [227320] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [227320] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [227357] INFO Amplification - 0 new tests generated
 [227357] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [227357] INFO Amplification - amp simpleNamesConflictInThisAndOtherPackage (12/23)
@@ -4932,7 +5028,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [228406] INFO Amplification - iteration 0:
 [228406] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [228406] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [228412] INFO Amplification - 0 new tests generated
 [228412] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [228412] INFO Amplification - amp methodThrows (13/23)
@@ -4940,7 +5037,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [229505] INFO Amplification - iteration 0:
 [229505] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [229505] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [229527] INFO Amplification - 0 new tests generated
 [229527] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [229527] INFO Amplification - amp nestedClasses (14/23)
@@ -4948,7 +5046,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [230534] INFO Amplification - iteration 0:
 [230534] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [230534] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [230574] INFO Amplification - 0 new tests generated
 [230574] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [230574] INFO Amplification - amp annotatedParameters (15/23)
@@ -4956,7 +5055,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [231669] INFO Amplification - iteration 0:
 [231669] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [231669] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [231703] INFO Amplification - 0 new tests generated
 [231703] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [231703] INFO Amplification - amp invalidSuperClass (16/23)
@@ -4964,7 +5064,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [232814] INFO Amplification - iteration 0:
 [232814] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [232814] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [232817] INFO Amplification - 0 new tests generated
 [232817] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [232817] INFO Amplification - amp constructorToString (17/23)
@@ -4972,7 +5073,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [233897] INFO Amplification - iteration 0:
 [233897] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [233897] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [233946] INFO Amplification - 0 new tests generated
 [233946] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [233946] INFO Amplification - amp referencedAndDeclaredSimpleNamesConflict (18/23)
@@ -4980,7 +5082,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [235385] INFO Amplification - iteration 0:
 [235385] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [235385] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [235406] INFO Amplification - 0 new tests generated
 [235406] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [235406] INFO Amplification - amp annotatedField (19/23)
@@ -4988,7 +5091,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [236456] INFO Amplification - iteration 0:
 [236456] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [236456] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [236466] INFO Amplification - 0 new tests generated
 [236466] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [236466] INFO Amplification - amp anonymousInnerClass (20/23)
@@ -4996,7 +5100,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [237590] INFO Amplification - iteration 0:
 [237590] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [237590] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [237624] INFO Amplification - 0 new tests generated
 [237624] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [237624] INFO Amplification - amp classImplementsExtends (21/23)
@@ -5004,7 +5109,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [238728] INFO Amplification - iteration 0:
 [238728] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [238728] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [238740] INFO Amplification - 0 new tests generated
 [238740] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [238740] INFO Amplification - amp interestingTypes (22/23)
@@ -5012,7 +5118,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [239847] INFO Amplification - iteration 0:
 [239847] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [239847] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [239890] INFO Amplification - 0 new tests generated
 [239890] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [239890] INFO Amplification - amp retrofitStyleInterface (23/23)
@@ -5020,7 +5127,8 @@ Elapsed time: 130 msec, Average speed: 11538 states/sec, Elapsed time in decisio
 [241208] INFO Amplification - iteration 0:
 [241208] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [241208] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [241229] INFO Amplification - 0 new tests generated
 [241229] INFO Amplification - 0 amplified test(s) has been selected, global: 1
 [241229] INFO DSpot - elapsedTime 113119
@@ -5056,7 +5164,17 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [246690] INFO AssertGenerator - 10 test pass, generating assertion...
 [246691] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [246691] INFO MethodsAssertGenerator - Instrumentation...
- 10% |===== ]/ 20% |========== ]- 30% |=============== ]\ 40% |==================== ]| 50% |========================= ]/ 60% |============================== ]- 70% |=================================== ]\ 80% |======================================== ]| 90% |============================================= ]/100% |================================================== ]-
+
+ 10% |===== ]/
+ 20% |========== ]-
+ 30% |=============== ]\
+ 40% |==================== ]|
+ 50% |========================= ]/
+ 60% |============================== ]-
+ 70% |=================================== ]\
+ 80% |======================================== ]|
+ 90% |============================================= ]/
+100% |================================================== ]-
 [246701] INFO MethodsAssertGenerator - Run instrumented tests. (30)
 [246707] DEBUG Launcher - printing com.squareup.javapoet.ClassNameTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [246709] WARN Launcher - cannot load class: com.squareup.javapoet.ClassNameTest with class loader sun.misc.Launcher$AppClassLoader@74a14482
@@ -5110,7 +5228,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [276460] INFO Amplification - iteration 0:
 [276460] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [276460] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [276462] INFO Amplification - 0 new tests generated
 [276462] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [276462] INFO Amplification - amp createNestedClass (2/10)
@@ -5126,7 +5245,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [277311] INFO Amplification - iteration 0:
 [277311] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [277311] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [277317] INFO Amplification - 0 new tests generated
 [277317] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [277317] INFO Amplification - amp classNameFromTypeElement (3/10)
@@ -5142,7 +5262,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [278255] INFO Amplification - iteration 0:
 [278255] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [278255] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [278278] INFO Amplification - 0 new tests generated
 [278278] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [278278] INFO Amplification - amp peerClass (4/10)
@@ -5158,7 +5279,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [279186] INFO Amplification - iteration 0:
 [279186] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [279186] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [279191] INFO Amplification - 0 new tests generated
 [279191] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [279191] INFO Amplification - amp fromClassRejectionTypes (5/10)
@@ -5174,7 +5296,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [280059] INFO Amplification - iteration 0:
 [280059] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [280059] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [280059] INFO Amplification - 0 new tests generated
 [280059] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [280060] INFO Amplification - amp bestGuessForString_simpleClass (6/10)
@@ -5190,7 +5313,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [280936] INFO Amplification - iteration 0:
 [280937] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [280937] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [280941] INFO Amplification - 0 new tests generated
 [280941] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [280941] INFO Amplification - amp bestGuessForString_nestedClass (7/10)
@@ -5206,7 +5330,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [281847] INFO Amplification - iteration 0:
 [281847] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [281847] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [281849] INFO Amplification - 0 new tests generated
 [281849] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [281849] INFO Amplification - amp classNameFromClass (8/10)
@@ -5222,7 +5347,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [282984] INFO Amplification - iteration 0:
 [282985] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [282985] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [283060] INFO Amplification - 0 new tests generated
 [283061] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [283061] INFO Amplification - amp reflectionName (9/10)
@@ -5238,7 +5364,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [284014] INFO Amplification - iteration 0:
 [284014] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [284014] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [284019] INFO Amplification - 0 new tests generated
 [284019] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [284019] INFO Amplification - amp bestGuessNonAscii (10/10)
@@ -5254,7 +5381,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [285205] INFO Amplification - iteration 0:
 [285205] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [285205] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [285207] INFO Amplification - 0 new tests generated
 [285207] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [285207] INFO DSpot - elapsedTime 41239
@@ -5271,7 +5399,23 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [297793] INFO AssertGenerator - 32 test pass, generating assertion...
 [297795] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [297795] INFO MethodsAssertGenerator - Instrumentation...
-  6% |=== ]/ 12% |====== ]- 18% |========= ]\ 25% |============ ]| 31% |=============== ]/ 37% |================== ]- 43% |===================== ]\ 50% |========================= ]| 56% |============================ ]/ 62% |=============================== ]- 68% |================================== ]\ 75% |===================================== ]| 81% |======================================== ]/ 87% |=========================================== ]- 93% |============================================== ]\100% |================================================== ]|
+
+  6% |=== ]/
+ 12% |====== ]-
+ 18% |========= ]\
+ 25% |============ ]|
+ 31% |=============== ]/
+ 37% |================== ]-
+ 43% |===================== ]\
+ 50% |========================= ]|
+ 56% |============================ ]/
+ 62% |=============================== ]-
+ 68% |================================== ]\
+ 75% |===================================== ]|
+ 81% |======================================== ]/
+ 87% |=========================================== ]-
+ 93% |============================================== ]\
+100% |================================================== ]|
 [297815] INFO MethodsAssertGenerator - Run instrumented tests. (48)
 [297832] DEBUG Launcher - printing com.squareup.javapoet.AbstractTypesTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [332818] INFO MethodsAssertGenerator - Generating assertions...
@@ -5293,7 +5437,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [354923] INFO Amplification - iteration 0:
 [354923] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [354923] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [354946] INFO Amplification - 0 new tests generated
 [354946] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [354947] INFO Amplification - amp getTypeVariableTypeMirror (2/16)
@@ -5301,7 +5446,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [358033] INFO Amplification - iteration 0:
 [358033] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [358033] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [358215] INFO Amplification - 0 new tests generated
 [358215] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [358215] INFO Amplification - amp getTypeVariableTypeMirrorRecursive (3/16)
@@ -5309,7 +5455,8 @@ annotationsAndJavaLangTypes(com.squareup.javapoet.TypeSpecTest): expected:<...as
 [360175] INFO Amplification - iteration 0:
 [360175] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [360175] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [360229] DEBUG Launcher - printing com.squareup.javapoet.AbstractTypesTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [360253] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/AbstractTypesTest.java]
 [360253] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/com/google/truth/truth/0.39/truth-0.39.jar:/home/bdanglot/.m2/repository/com/google/guava/guava/23.4-android/guava-23.4-android.jar:/home/bdanglot/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/bdanglot/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/bdanglot/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/bdanglot/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/bdanglot/.m2/repository/com/google/testing/compile/compile-testing/0.15/compile-testing-0.15.jar:/home/bdanglot/.m2/repository/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar:/home/bdanglot/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/home/bdanglot/.m2/repository/com/google/auto/auto-common/0.9/auto-common-0.9.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/../lib/tools.jar:/home/bdanglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/bdanglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/bdanglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar:dataset/may-2018/javapoet/618//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/618//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/AbstractTypesTest.java]
@@ -5496,7 +5643,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [362233] INFO Amplification - iteration 0:
 [362233] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [362233] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [362293] INFO Amplification - 0 new tests generated
 [362293] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [362293] INFO Amplification - amp arrayType (5/16)
@@ -5504,7 +5652,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [364437] INFO Amplification - iteration 0:
 [364437] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [364437] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [364470] INFO Amplification - 0 new tests generated
 [364470] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [364470] INFO Amplification - amp unbox (6/16)
@@ -5512,7 +5661,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [366613] INFO Amplification - iteration 0:
 [366613] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [366613] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [366613] INFO Amplification - 0 new tests generated
 [366613] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [366613] INFO Amplification - amp getErrorType (7/16)
@@ -5520,7 +5670,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [368391] INFO Amplification - iteration 0:
 [368391] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [368391] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [368391] INFO Amplification - 0 new tests generated
 [368391] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [368391] INFO Amplification - amp typeVariable (8/16)
@@ -5528,7 +5679,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [370254] INFO Amplification - iteration 0:
 [370254] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [370254] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [370264] INFO Amplification - 0 new tests generated
 [370264] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [370264] INFO Amplification - amp wildcardMirrorSuperType (9/16)
@@ -5536,7 +5688,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [371968] INFO Amplification - iteration 0:
 [371968] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [371968] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [372024] INFO Amplification - 0 new tests generated
 [372024] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [372024] INFO Amplification - amp parameterizedType (10/16)
@@ -5544,7 +5697,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [373670] INFO Amplification - iteration 0:
 [373670] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [373670] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [373677] INFO Amplification - 0 new tests generated
 [373677] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [373677] INFO Amplification - amp box (11/16)
@@ -5552,7 +5706,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [375180] INFO Amplification - iteration 0:
 [375180] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [375180] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [375181] INFO Amplification - 0 new tests generated
 [375181] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [375181] INFO Amplification - amp getParameterizedTypeMirror (12/16)
@@ -5560,7 +5715,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [376639] INFO Amplification - iteration 0:
 [376639] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [376639] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [376640] INFO Amplification - 0 new tests generated
 [376640] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [376640] INFO Amplification - amp getBasicTypeMirror (13/16)
@@ -5568,7 +5724,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [378249] INFO Amplification - iteration 0:
 [378249] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [378249] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [378249] INFO Amplification - 0 new tests generated
 [378249] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [378249] INFO Amplification - amp wildcardMirrorNoBounds (14/16)
@@ -5576,7 +5733,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [379708] INFO Amplification - iteration 0:
 [379708] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [379708] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [379750] INFO Amplification - 0 new tests generated
 [379750] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [379750] INFO Amplification - amp wildcardExtendsObject (15/16)
@@ -5584,7 +5742,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [381139] INFO Amplification - iteration 0:
 [381139] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [381139] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [381147] INFO Amplification - 0 new tests generated
 [381147] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [381147] INFO Amplification - amp wildcardExtendsType (16/16)
@@ -5592,7 +5751,8 @@ Elapsed time: 7 msec, Average speed: 5142 states/sec, Elapsed time in decision p
 [382558] INFO Amplification - iteration 0:
 [382558] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [382558] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [382567] INFO Amplification - 0 new tests generated
 [382567] INFO Amplification - 0 amplified test(s) has been selected, global: 16
 [382567] INFO DSpot - elapsedTime 96784
@@ -5625,7 +5785,14 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [384601] INFO AssertGenerator - 7 test pass, generating assertion...
 [384602] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [384602] INFO MethodsAssertGenerator - Instrumentation...
- 14% |======= ]/ 28% |============== ]- 42% |===================== ]\ 57% |============================ ]| 71% |=================================== ]/ 85% |========================================== ]-100% |================================================== ]\
+
+ 14% |======= ]/
+ 28% |============== ]-
+ 42% |===================== ]\
+ 57% |============================ ]|
+ 71% |=================================== ]/
+ 85% |========================================== ]-
+100% |================================================== ]\
 [384607] INFO MethodsAssertGenerator - Run instrumented tests. (21)
 [384610] DEBUG Launcher - printing com.squareup.javapoet.AnnotatedTypeNameTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [388951] INFO MethodsAssertGenerator - Generating assertions...
@@ -5647,7 +5814,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [393829] INFO Amplification - iteration 0:
 [393829] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [393829] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [393842] INFO Amplification - 0 new tests generated
 [393842] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [393842] INFO Amplification - amp annotatedTwice (2/7)
@@ -5655,7 +5823,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [394144] INFO Amplification - iteration 0:
 [394145] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [394145] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [394158] INFO Amplification - 0 new tests generated
 [394158] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [394158] INFO Amplification - amp annotatedType (3/7)
@@ -5663,7 +5832,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [394531] INFO Amplification - iteration 0:
 [394531] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [394531] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [394554] INFO Amplification - 0 new tests generated
 [394554] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [394554] INFO Amplification - amp annotatedArgumentOfParameterizedType (4/7)
@@ -5671,7 +5841,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [395027] INFO Amplification - iteration 0:
 [395027] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [395027] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [395051] INFO Amplification - 0 new tests generated
 [395051] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [395051] INFO Amplification - amp annotatedParameterizedType (5/7)
@@ -5679,7 +5850,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [395621] INFO Amplification - iteration 0:
 [395621] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [395621] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [395628] INFO Amplification - 0 new tests generated
 [395628] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [395628] INFO Amplification - amp annotatedEquivalence (6/7)
@@ -5687,7 +5859,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [396796] INFO Amplification - iteration 0:
 [396796] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [396796] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [396797] INFO Amplification - 0 new tests generated
 [396797] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [396797] INFO Amplification - amp annotatedWildcardTypeNameWithSuper (7/7)
@@ -5695,7 +5868,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [397353] INFO Amplification - iteration 0:
 [397353] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [397353] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [397371] INFO Amplification - 0 new tests generated
 [397371] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [397371] INFO DSpot - elapsedTime 13481

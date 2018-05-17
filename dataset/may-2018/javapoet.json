@@ -1,5 +1,4 @@
 {
-  "date": "02/04/18",
   "name": "javapoet",
   "url": "git://github.com/square/javapoet.git",
   "pullRequests": [
@@ -83,6 +82,15 @@
       "headUrl": "git://github.com/cconroy/javapoet.git",
       "headRef": "named-faster",
       "headSha": "01f7076cabdeb4444bf0606b4c88daf93a436af4"
+    },
+    {
+      "id": 524,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "89179ea493f852ed6b6b36ccde978e9ddc176ce0",
+      "headUrl": "git://github.com/benjamin-bader/javapoet.git",
+      "headRef": "null-in-superinterface-list",
+      "headSha": "16cd72b20ba9f36a184b170f01c4a4a1db80bdbd"
     }
   ]
 }

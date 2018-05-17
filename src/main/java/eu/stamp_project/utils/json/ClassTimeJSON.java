@@ -1,7 +1,7 @@
-package fr.inria.diversify.utils.json;
+package eu.stamp_project.utils.json;
 
 /**
- * Override version of fr.inria.diversify.utils.json.ProjectTimeJSON of DSpot
+ * Override version of eu.stamp_project.utils.json.ProjectTimeJSON of DSpot
  */
 public class ClassTimeJSON {
 

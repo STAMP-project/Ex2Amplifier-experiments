@@ -1,4 +1,4 @@
-package eu.stamp.project.git;
+package eu.stamp_project.git;
 
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.RemoteAddCommand;
@@ -14,11 +14,11 @@ public class Cloner {
 
     /**
      * this method clone the repository twice: the base and the head of the pr
-     * It then, reset hard using the given sha inside the eu.stamp.project.git.PullRequestJSON object
+     * It then, reset hard using the given sha inside the eu.stamp_project.git.PullRequestJSON object
      * The base version is in out/id_pr/ and the head version is ins out/id_pr_modified
-     * id_pr is the value in the field id of the given eu.stamp.project.git.PullRequestJSON object
+     * id_pr is the value in the field id of the given eu.stamp_project.git.PullRequestJSON object
      *
-     * @param pr  eu.stamp.project.git.PullRequestJSON that contains all the needed information
+     * @param pr  eu.stamp_project.git.PullRequestJSON that contains all the needed information
      * @param out prefix for output
      */
     public static void cloneBothVersionOf(PullRequestJSON pr, String out) {

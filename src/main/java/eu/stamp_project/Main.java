@@ -1,27 +1,25 @@
-package eu.stamp.project;
+package eu.stamp_project;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.martiansoftware.jsap.JSAPResult;
-import eu.stamp.project.ex2amplifier.amplifier.Ex2Amplifier;
-import eu.stamp.project.ex2amplifier.jbse.JBSERunner;
-import fr.inria.diversify.dspot.DSpot;
-import fr.inria.diversify.dspot.amplifier.AllLiteralAmplifiers;
-import fr.inria.diversify.dspot.amplifier.Amplifier;
-import fr.inria.diversify.dspot.amplifier.ReplacementAmplifier;
-import fr.inria.diversify.dspot.amplifier.StatementAdd;
-import fr.inria.diversify.dspot.selector.ChangeDetectorSelector;
-import fr.inria.diversify.utils.DSpotUtils;
-import fr.inria.diversify.utils.json.ClassTimeJSON;
-import fr.inria.diversify.utils.json.ProjectTimeJSON;
-import fr.inria.diversify.utils.sosiefier.InputConfiguration;
-import fr.inria.stamp.diff.SelectorOnDiff;
-import eu.stamp.project.git.Cloner;
-import eu.stamp.project.git.ParserPullRequest;
-import eu.stamp.project.git.ProjectJSON;
+import eu.stamp_project.ex2amplifier.amplifier.Ex2Amplifier;
+import eu.stamp_project.ex2amplifier.jbse.JBSERunner;
+import eu.stamp_project.dspot.DSpot;
+import eu.stamp_project.dspot.amplifier.AllLiteralAmplifiers;
+import eu.stamp_project.dspot.amplifier.Amplifier;
+import eu.stamp_project.dspot.amplifier.StatementAdd;
+import eu.stamp_project.dspot.selector.ChangeDetectorSelector;
+import eu.stamp_project.utils.DSpotUtils;
+import eu.stamp_project.utils.json.ClassTimeJSON;
+import eu.stamp_project.utils.json.ProjectTimeJSON;
+import eu.stamp_project.utils.sosiefier.InputConfiguration;
+import eu.stamp_project.diff.SelectorOnDiff;
+import eu.stamp_project.git.Cloner;
+import eu.stamp_project.git.ParserPullRequest;
+import eu.stamp_project.git.ProjectJSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import spoon.reflect.declaration.CtMethod;
 import spoon.reflect.declaration.CtType;
 
 import java.io.BufferedReader;
@@ -63,7 +61,7 @@ public class Main {
     public static void main(String[] args) {
         JSAPResult jsapConfig = JSAPOptions.options.parse(args);
         Main.verbose = jsapConfig.getBoolean("verbose");
-        fr.inria.stamp.Main.verbose = Main.verbose;
+        verbose = Main.verbose;
         Main.onlyAampl = jsapConfig.getBoolean("aampl");
         Main.JBSE = jsapConfig.getBoolean("JBSE");
         Main.Ex2AmplifierMode = !jsapConfig.getBoolean("amplifiers");

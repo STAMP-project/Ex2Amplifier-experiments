@@ -121,7 +121,11 @@ a/protostuff-runtime/src/test/java/io/protostuff/runtime/ExcludeFieldTest.java
 [142461] INFO AssertGenerator - 4 test pass, generating assertion...
 [142469] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [142469] INFO MethodsAssertGenerator - Instrumentation...
- 25% |============ ]/ 50% |========================= ]- 75% |===================================== ]\100% |================================================== ]|
+
+ 25% |============ ]/
+ 50% |========================= ]-
+ 75% |===================================== ]\
+100% |================================================== ]|
 [142584] INFO MethodsAssertGenerator - Run instrumented tests. (12)
 [144643] INFO MethodsAssertGenerator - Generating assertions...
 [144759] INFO AssertGenerator - 4 new tests with assertions generated
@@ -140,7 +144,8 @@ a/protostuff-runtime/src/test/java/io/protostuff/runtime/ExcludeFieldTest.java
 [150269] INFO Amplification - iteration 0:
 [150269] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [150270] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [150405] DEBUG Launcher - printing io.protostuff.runtime.ExcludeFieldTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [150568] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
 [150569] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/184_modified/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/184_modified/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
@@ -201,7 +206,7 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io
 	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:103)
 	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:183)
 	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:170)
-	at eu.stamp.project.Main.lambda$null$1(Main.java:143)
+	at eu.stamp_project.Main.lambda$null$1(Main.java:143)
 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
 	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
@@ -209,7 +214,7 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io
 	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at eu.stamp.project.Main.lambda$run$2(Main.java:144)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:144)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -219,8 +224,8 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp.project.Main.run(Main.java:117)
-	at eu.stamp.project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:117)
+	at eu.stamp_project.Main.main(Main.java:88)
 Caused by: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/ExcludeFieldTest
 	at jbse.bc.ClassFileJavassist.<init>(ClassFileJavassist.java:39)
 	at jbse.bc.ClassFileFactoryJavassist.newClassFileClass(ClassFileFactoryJavassist.java:26)
@@ -237,7 +242,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/Exclude
 [152689] INFO Amplification - iteration 0:
 [152689] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [152689] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [152718] DEBUG Launcher - printing io.protostuff.runtime.ExcludeFieldTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [152817] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
 [152817] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/184_modified/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/184_modified/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
@@ -294,7 +300,7 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io
 	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:103)
 	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:183)
 	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:170)
-	at eu.stamp.project.Main.lambda$null$1(Main.java:143)
+	at eu.stamp_project.Main.lambda$null$1(Main.java:143)
 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
 	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
@@ -302,7 +308,7 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io
 	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at eu.stamp.project.Main.lambda$run$2(Main.java:144)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:144)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -312,8 +318,8 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp.project.Main.run(Main.java:117)
-	at eu.stamp.project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:117)
+	at eu.stamp_project.Main.main(Main.java:88)
 Caused by: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/ExcludeFieldTest
 	at jbse.bc.ClassFileJavassist.<init>(ClassFileJavassist.java:39)
 	at jbse.bc.ClassFileFactoryJavassist.newClassFileClass(ClassFileFactoryJavassist.java:26)
@@ -330,7 +336,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/Exclude
 [153898] INFO Amplification - iteration 0:
 [153898] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [153898] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [153898] INFO Amplification - 0 new tests generated
 [153898] INFO Amplification - 0 amplified test(s) has been selected, global: 4
 [153898] INFO Amplification - amp testTaggedAndExcludedEntity (4/4)
@@ -338,7 +345,8 @@ Caused by: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/Exclude
 [155263] INFO Amplification - iteration 0:
 [155263] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [155263] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [155308] DEBUG Launcher - printing io.protostuff.runtime.ExcludeFieldTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [155483] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
 [155484] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/184_modified/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/184_modified/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
@@ -393,7 +401,7 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io
 	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:103)
 	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:183)
 	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:170)
-	at eu.stamp.project.Main.lambda$null$1(Main.java:143)
+	at eu.stamp_project.Main.lambda$null$1(Main.java:143)
 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
 	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
@@ -401,7 +409,7 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io
 	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at eu.stamp.project.Main.lambda$run$2(Main.java:144)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:144)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -411,8 +419,8 @@ jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp.project.Main.run(Main.java:117)
-	at eu.stamp.project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:117)
+	at eu.stamp_project.Main.main(Main.java:88)
 Caused by: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/ExcludeFieldTest
 	at jbse.bc.ClassFileJavassist.<init>(ClassFileJavassist.java:39)
 	at jbse.bc.ClassFileFactoryJavassist.newClassFileClass(ClassFileFactoryJavassist.java:26)

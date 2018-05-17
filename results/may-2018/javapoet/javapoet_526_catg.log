@@ -62,7 +62,7 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at fr.inria.diversify.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
 	at fr.inria.diversify.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
 	at fr.inria.diversify.dspot.DSpot.<init>(DSpot.java:103)
-	at eu.stamp.project.Main.lambda$run$2(Main.java:134)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:134)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -72,8 +72,8 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp.project.Main.run(Main.java:117)
-	at eu.stamp.project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:117)
+	at eu.stamp_project.Main.main(Main.java:88)
 [9382] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [9382] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
 [9383] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
@@ -130,7 +130,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [24753] INFO AssertGenerator - 1 test pass, generating assertion...
 [24761] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [24761] INFO MethodsAssertGenerator - Instrumentation...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [24798] INFO MethodsAssertGenerator - Run instrumented tests. (3)
 [27397] INFO MethodsAssertGenerator - Generating assertions...
 [27438] INFO AssertGenerator - 1 new tests with assertions generated
@@ -149,7 +150,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [32577] INFO Amplification - iteration 0:
 [32577] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [32577] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [32605] DEBUG Launcher - printing com.squareup.javapoet.MethodSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [32627] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
 [32627] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
@@ -177,7 +179,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [34689] INFO AssertGenerator - 1 test pass, generating assertion...
 [34694] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [34694] INFO MethodsAssertGenerator - Instrumentation...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [34697] INFO MethodsAssertGenerator - Run instrumented tests. (3)
 [34704] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [35377] INFO MethodsAssertGenerator - Generating assertions...
@@ -199,7 +202,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [37487] INFO Amplification - iteration 0:
 [37487] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [37487] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [37526] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [37538] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/CodeBlockTest.java]
 [37538] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/CodeBlockTest.java]
@@ -227,7 +231,16 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [41883] INFO AssertGenerator - 9 test pass, generating assertion...
 [41915] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [41915] INFO MethodsAssertGenerator - Instrumentation...
- 11% |===== ]/ 22% |=========== ]- 33% |================ ]\ 44% |====================== ]| 55% |=========================== ]/ 66% |================================= ]- 77% |====================================== ]\ 88% |============================================ ]|100% |================================================== ]/
+
+ 11% |===== ]/
+ 22% |=========== ]-
+ 33% |================ ]\
+ 44% |====================== ]|
+ 55% |=========================== ]/
+ 66% |================================= ]-
+ 77% |====================================== ]\
+ 88% |============================================ ]|
+100% |================================================== ]/
 [41956] INFO MethodsAssertGenerator - Run instrumented tests. (27)
 [42008] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [50930] INFO MethodsAssertGenerator - Generating assertions...
@@ -249,7 +262,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [66221] INFO Amplification - iteration 0:
 [66221] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [66221] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [66285] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [66405] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [66406] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -268,7 +282,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [68244] INFO Amplification - iteration 0:
 [68244] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [68244] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [68337] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [68478] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [68479] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -287,7 +302,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [70277] INFO Amplification - iteration 0:
 [70277] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [70277] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [70324] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [70440] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [70441] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -306,7 +322,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [72242] INFO Amplification - iteration 0:
 [72242] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [72242] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [72293] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [72405] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [72406] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -325,7 +342,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [74292] INFO Amplification - iteration 0:
 [74292] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [74292] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [74344] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [74457] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [74458] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -344,7 +362,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [76245] INFO Amplification - iteration 0:
 [76245] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [76245] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [76323] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [76458] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [76458] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -363,7 +382,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [78304] INFO Amplification - iteration 0:
 [78304] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [78304] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [78351] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [78464] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [78464] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -382,7 +402,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [80180] INFO Amplification - iteration 0:
 [80180] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [80180] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [80217] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [80328] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [80329] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -401,7 +422,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [82116] INFO Amplification - iteration 0:
 [82116] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [82116] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [82184] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [82298] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
 [82299] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeSpecTest.java]
@@ -429,7 +451,9 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [88155] INFO AssertGenerator - 2 test pass, generating assertion...
 [88157] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [88157] INFO MethodsAssertGenerator - Instrumentation...
- 50% |========================= ]/100% |================================================== ]-
+
+ 50% |========================= ]/
+100% |================================================== ]-
 [88161] INFO MethodsAssertGenerator - Run instrumented tests. (6)
 [88166] DEBUG Launcher - printing com.squareup.javapoet.TypeNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [93083] INFO MethodsAssertGenerator - Generating assertions...
@@ -451,7 +475,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [100854] INFO Amplification - iteration 0:
 [100854] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [100854] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [100855] INFO Amplification - 0 new tests generated
 [100855] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [100855] INFO Amplification - amp equalsAndHashCodeClassName (2/2)
@@ -459,7 +484,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [101407] INFO Amplification - iteration 0:
 [101408] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [101408] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [101457] DEBUG Launcher - printing com.squareup.javapoet.TypeNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [101475] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeNameTest.java]
 [101476] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/TypeNameTest.java]
@@ -487,7 +513,11 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [104765] INFO AssertGenerator - 4 test pass, generating assertion...
 [104766] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [104766] INFO MethodsAssertGenerator - Instrumentation...
- 25% |============ ]/ 50% |========================= ]- 75% |===================================== ]\100% |================================================== ]|
+
+ 25% |============ ]/
+ 50% |========================= ]-
+ 75% |===================================== ]\
+100% |================================================== ]|
 [104772] INFO MethodsAssertGenerator - Run instrumented tests. (12)
 [104777] DEBUG Launcher - printing com.squareup.javapoet.ClassNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [107923] INFO MethodsAssertGenerator - Generating assertions...
@@ -509,7 +539,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [112789] INFO Amplification - iteration 0:
 [112789] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [112789] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [112811] DEBUG Launcher - printing com.squareup.javapoet.ClassNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [112826] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/ClassNameTest.java]
 [112827] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/ClassNameTest.java]
@@ -528,7 +559,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [114103] INFO Amplification - iteration 0:
 [114103] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [114103] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [114112] DEBUG Launcher - printing com.squareup.javapoet.ClassNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [114124] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/ClassNameTest.java]
 [114125] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/ClassNameTest.java]
@@ -547,7 +579,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [115430] INFO Amplification - iteration 0:
 [115430] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [115430] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [115437] DEBUG Launcher - printing com.squareup.javapoet.ClassNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [115448] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/ClassNameTest.java]
 [115448] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/ClassNameTest.java]
@@ -566,7 +599,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [116697] INFO Amplification - iteration 0:
 [116698] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [116698] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [116698] INFO Amplification - 0 new tests generated
 [116698] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [116698] INFO DSpot - elapsedTime 14555
@@ -583,7 +617,13 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [125539] INFO AssertGenerator - 12 test pass, generating assertion...
 [125544] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [125544] INFO MethodsAssertGenerator - Instrumentation...
- 16% |======== ]/ 33% |================ ]- 50% |========================= ]\ 66% |================================= ]| 83% |========================================= ]/100% |================================================== ]-
+
+ 16% |======== ]/
+ 33% |================ ]-
+ 50% |========================= ]\
+ 66% |================================= ]|
+ 83% |========================================= ]/
+100% |================================================== ]-
 [125561] INFO MethodsAssertGenerator - Run instrumented tests. (18)
 [125574] DEBUG Launcher - printing com.squareup.javapoet.AbstractTypesTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [150172] INFO MethodsAssertGenerator - Generating assertions...
@@ -605,7 +645,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [168951] INFO Amplification - iteration 0:
 [168951] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [168951] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [168952] INFO Amplification - 0 new tests generated
 [168952] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [168952] INFO Amplification - amp getTypeVariableTypeMirror (2/6)
@@ -613,7 +654,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [171371] INFO Amplification - iteration 0:
 [171371] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [171371] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [171594] DEBUG Launcher - printing com.squareup.javapoet.AbstractTypesTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [171613] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/AbstractTypesTest.java]
 [171613] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/AbstractTypesTest.java]
@@ -634,7 +676,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [174050] INFO Amplification - iteration 0:
 [174050] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [174050] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [174051] INFO Amplification - 0 new tests generated
 [174051] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [174051] INFO Amplification - amp getBasicTypeMirror (4/6)
@@ -642,7 +685,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [176293] INFO Amplification - iteration 0:
 [176293] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [176293] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [176293] INFO Amplification - 0 new tests generated
 [176293] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [176293] INFO Amplification - amp unbox (5/6)
@@ -650,7 +694,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [178591] INFO Amplification - iteration 0:
 [178591] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [178591] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [178592] INFO Amplification - 0 new tests generated
 [178592] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [178592] INFO Amplification - amp getErrorType (6/6)
@@ -658,7 +703,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [180966] INFO Amplification - iteration 0:
 [180966] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [180966] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [180967] INFO Amplification - 0 new tests generated
 [180967] INFO Amplification - 0 amplified test(s) has been selected, global: 6
 [180967] INFO DSpot - elapsedTime 63812
@@ -681,7 +727,9 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [184026] INFO AssertGenerator - 2 test pass, generating assertion...
 [184028] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [184028] INFO MethodsAssertGenerator - Instrumentation...
- 50% |========================= ]/100% |================================================== ]-
+
+ 50% |========================= ]/
+100% |================================================== ]-
 [184033] INFO MethodsAssertGenerator - Run instrumented tests. (6)
 [184038] DEBUG Launcher - printing com.squareup.javapoet.AnnotatedTypeNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [187106] INFO MethodsAssertGenerator - Generating assertions...
@@ -703,7 +751,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [190941] INFO Amplification - iteration 0:
 [190941] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [190941] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [190963] DEBUG Launcher - printing com.squareup.javapoet.AnnotatedTypeNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [190976] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/AnnotatedTypeNameTest.java]
 [190977] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.28/truth-0.28.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.9/compile-testing-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.0/jimfs-1.0.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.16/mockito-core-1.10.16.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar:dataset/may-2018/javapoet/526//target/classes:target/dspot/dependencies/:dataset/may-2018/javapoet/526//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/AnnotatedTypeNameTest.java]
@@ -722,7 +771,8 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [191563] INFO Amplification - iteration 0:
 [191563] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [191563] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [191564] INFO Amplification - 0 new tests generated
 [191564] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [191564] INFO DSpot - elapsedTime 8727

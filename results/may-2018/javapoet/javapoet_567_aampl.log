@@ -62,7 +62,7 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at fr.inria.diversify.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
 	at fr.inria.diversify.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
 	at fr.inria.diversify.dspot.DSpot.<init>(DSpot.java:103)
-	at eu.stamp.project.Main.lambda$run$2(Main.java:134)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:134)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -72,8 +72,8 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp.project.Main.run(Main.java:117)
-	at eu.stamp.project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:117)
+	at eu.stamp_project.Main.main(Main.java:88)
 [13039] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [13040] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
 [13040] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
@@ -128,7 +128,20 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [48231] INFO AssertGenerator - 13 test pass, generating assertion...
 [48240] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [48240] INFO MethodsAssertGenerator - Instrumentation...
-  7% |=== ]/ 15% |======= ]- 23% |=========== ]\ 30% |=============== ]| 38% |=================== ]/ 46% |======================= ]- 53% |========================== ]\ 61% |============================== ]| 69% |================================== ]/ 76% |====================================== ]- 84% |========================================== ]\ 92% |============================================== ]|100% |================================================== ]/
+
+  7% |=== ]/
+ 15% |======= ]-
+ 23% |=========== ]\
+ 30% |=============== ]|
+ 38% |=================== ]/
+ 46% |======================= ]-
+ 53% |========================== ]\
+ 61% |============================== ]|
+ 69% |================================== ]/
+ 76% |====================================== ]-
+ 84% |========================================== ]\
+ 92% |============================================== ]|
+100% |================================================== ]/
 [48338] INFO MethodsAssertGenerator - Run instrumented tests. (39)
 [53067] INFO MethodsAssertGenerator - Generating assertions...
 [53139] INFO AssertGenerator - 6 new tests with assertions generated
@@ -156,7 +169,37 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [61300] INFO AssertGenerator - 30 test pass, generating assertion...
 [61307] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [61307] INFO MethodsAssertGenerator - Instrumentation...
-  3% |= ]/  6% |=== ]- 10% |===== ]\ 13% |====== ]| 16% |======== ]/ 20% |========== ]- 23% |=========== ]\ 26% |============= ]| 30% |=============== ]/ 33% |================ ]- 36% |================== ]\ 40% |==================== ]| 43% |===================== ]/ 46% |======================= ]- 50% |========================= ]\ 53% |========================== ]| 56% |============================ ]/ 60% |============================== ]- 63% |=============================== ]\ 66% |================================= ]| 70% |=================================== ]/ 73% |==================================== ]- 76% |====================================== ]\ 80% |======================================== ]| 83% |========================================= ]/ 86% |=========================================== ]- 90% |============================================= ]\ 93% |============================================== ]| 96% |================================================ ]/100% |================================================== ]-
+
+  3% |= ]/
+  6% |=== ]-
+ 10% |===== ]\
+ 13% |====== ]|
+ 16% |======== ]/
+ 20% |========== ]-
+ 23% |=========== ]\
+ 26% |============= ]|
+ 30% |=============== ]/
+ 33% |================ ]-
+ 36% |================== ]\
+ 40% |==================== ]|
+ 43% |===================== ]/
+ 46% |======================= ]-
+ 50% |========================= ]\
+ 53% |========================== ]|
+ 56% |============================ ]/
+ 60% |============================== ]-
+ 63% |=============================== ]\
+ 66% |================================= ]|
+ 70% |=================================== ]/
+ 73% |==================================== ]-
+ 76% |====================================== ]\
+ 80% |======================================== ]|
+ 83% |========================================= ]/
+ 86% |=========================================== ]-
+ 90% |============================================= ]\
+ 93% |============================================== ]|
+ 96% |================================================ ]/
+100% |================================================== ]-
 [61398] INFO MethodsAssertGenerator - Run instrumented tests. (90)
 [61438] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [63558] INFO MethodsAssertGenerator - Generating assertions...

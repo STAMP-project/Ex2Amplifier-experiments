@@ -10,7 +10,7 @@ def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
 
     base_cmd_jar = ("~/jdk1.8.0_121/bin/" if onClusty else "") + \
                    "java "+ ("-Xms16G -Xmx32G" if onClusty else "")\
-                   +" -cp target/Ex2Amplifier-experiments-0.0.1-SNAPSHOT.jar:${classpath} eu.stamp.project.Main "
+                   +" -cp target/Ex2Amplifier-experiments-0.0.1-SNAPSHOT.jar:${classpath} eu.stamp_project.Main "
     date = "may-2018"
     prefix_dataset = "dataset" + "/" + date + "/"
     suffix_json = ".json"

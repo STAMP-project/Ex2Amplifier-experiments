@@ -1,20 +1,19 @@
-package fr.inria.diversify.dspot.selector;
+package eu.stamp_project.dspot.selector;
 
 import eu.stamp.project.testrunner.EntryPoint;
 import eu.stamp.project.testrunner.runner.test.Failure;
 import eu.stamp.project.testrunner.runner.test.TestListener;
-import fr.inria.diversify.automaticbuilder.AutomaticBuilderFactory;
-import fr.inria.diversify.utils.AmplificationChecker;
-import fr.inria.diversify.utils.AmplificationHelper;
-import fr.inria.diversify.utils.DSpotUtils;
-import fr.inria.diversify.utils.Initializer;
-import fr.inria.diversify.utils.compilation.DSpotCompiler;
-import fr.inria.diversify.utils.sosiefier.InputConfiguration;
-import fr.inria.diversify.utils.sosiefier.InputProgram;
-import fr.inria.stamp.minimization.ChangeMinimizer;
-import fr.inria.stamp.minimization.Minimizer;
+import eu.stamp_project.automaticbuilder.AutomaticBuilderFactory;
+import eu.stamp_project.utils.AmplificationChecker;
+import eu.stamp_project.utils.AmplificationHelper;
+import eu.stamp_project.utils.DSpotUtils;
+import eu.stamp_project.utils.Initializer;
+import eu.stamp_project.utils.compilation.DSpotCompiler;
+import eu.stamp_project.utils.sosiefier.InputConfiguration;
+import eu.stamp_project.utils.sosiefier.InputProgram;
+import eu.stamp_project.minimization.ChangeMinimizer;
+import eu.stamp_project.minimization.Minimizer;
 import org.codehaus.plexus.util.FileUtils;
-import spoon.reflect.declaration.CtClass;
 import spoon.reflect.declaration.CtMethod;
 import spoon.reflect.declaration.CtType;
 
@@ -28,7 +27,7 @@ import java.util.Map;
 import java.util.concurrent.TimeoutException;
 
 /**
- * Override version of fr.inria.diversify.dspot.selector.ChangeDetectorSelector of DSpot
+ * Override version of eu.stamp_project.dspot.selector.ChangeDetectorSelector of DSpot
  */
 public class ChangeDetectorSelector implements TestSelector {
 

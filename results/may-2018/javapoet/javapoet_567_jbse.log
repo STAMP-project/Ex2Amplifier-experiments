@@ -62,7 +62,7 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at fr.inria.diversify.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
 	at fr.inria.diversify.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
 	at fr.inria.diversify.dspot.DSpot.<init>(DSpot.java:103)
-	at eu.stamp.project.Main.lambda$run$2(Main.java:134)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:134)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -72,8 +72,8 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp.project.Main.run(Main.java:117)
-	at eu.stamp.project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:117)
+	at eu.stamp_project.Main.main(Main.java:88)
 [21355] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [21355] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
 [21356] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
@@ -129,7 +129,20 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [66169] INFO AssertGenerator - 13 test pass, generating assertion...
 [66184] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [66184] INFO MethodsAssertGenerator - Instrumentation...
-  7% |=== ]/ 15% |======= ]- 23% |=========== ]\ 30% |=============== ]| 38% |=================== ]/ 46% |======================= ]- 53% |========================== ]\ 61% |============================== ]| 69% |================================== ]/ 76% |====================================== ]- 84% |========================================== ]\ 92% |============================================== ]|100% |================================================== ]/
+
+  7% |=== ]/
+ 15% |======= ]-
+ 23% |=========== ]\
+ 30% |=============== ]|
+ 38% |=================== ]/
+ 46% |======================= ]-
+ 53% |========================== ]\
+ 61% |============================== ]|
+ 69% |================================== ]/
+ 76% |====================================== ]-
+ 84% |========================================== ]\
+ 92% |============================================== ]|
+100% |================================================== ]/
 [66401] INFO MethodsAssertGenerator - Run instrumented tests. (39)
 [77885] INFO MethodsAssertGenerator - Generating assertions...
 [78040] INFO AssertGenerator - 6 new tests with assertions generated
@@ -148,7 +161,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [86886] INFO Amplification - iteration 0:
 [86886] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [86886] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [86896] INFO Amplification - 0 new tests generated
 [86896] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [86897] INFO Amplification - amp overrideInvalidModifiers (2/13)
@@ -156,7 +170,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [88643] INFO Amplification - iteration 0:
 [88643] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [88643] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [88765] INFO Amplification - 0 new tests generated
 [88765] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [88765] INFO Amplification - amp overrideEverything (3/13)
@@ -164,7 +179,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [90088] INFO Amplification - iteration 0:
 [90089] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [90089] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [90176] INFO Amplification - 0 new tests generated
 [90176] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [90176] INFO Amplification - amp addModifiersVarargsShouldNotBeNull (4/13)
@@ -172,7 +188,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [91619] INFO Amplification - iteration 0:
 [91619] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [91619] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [91620] INFO Amplification - 0 new tests generated
 [91620] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [91620] INFO Amplification - amp nullIsNotAValidMethodName (5/13)
@@ -180,7 +197,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [92978] INFO Amplification - iteration 0:
 [92978] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [92978] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [92981] INFO Amplification - 0 new tests generated
 [92981] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [92981] INFO Amplification - amp equalsAndHashCode (6/13)
@@ -188,7 +206,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [94264] INFO Amplification - iteration 0:
 [94264] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [94264] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [94401] INFO Amplification - 0 new tests generated
 [94401] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [94401] INFO Amplification - amp nullExceptionsAddition (7/13)
@@ -196,7 +215,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [95572] INFO Amplification - iteration 0:
 [95573] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [95573] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [95574] INFO Amplification - 0 new tests generated
 [95574] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [95574] INFO Amplification - amp nullAnnotationsAddition (8/13)
@@ -204,7 +224,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [96424] INFO Amplification - iteration 0:
 [96424] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [96424] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [96425] INFO Amplification - 0 new tests generated
 [96425] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [96425] INFO Amplification - amp overrideExtendsOthersWorksWithActualTypeParameters (9/13)
@@ -212,7 +233,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [97298] INFO Amplification - iteration 0:
 [97298] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [97298] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [97416] INFO Amplification - 0 new tests generated
 [97416] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [97416] INFO Amplification - amp nullParametersAddition (10/13)
@@ -220,7 +242,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [98230] INFO Amplification - iteration 0:
 [98230] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [98230] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [98231] INFO Amplification - 0 new tests generated
 [98231] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [98231] INFO Amplification - amp overrideDoesNotCopyOverrideAnnotation (11/13)
@@ -228,7 +251,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [99107] INFO Amplification - iteration 0:
 [99107] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [99107] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [99158] INFO Amplification - 0 new tests generated
 [99158] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [99158] INFO Amplification - amp overrideDoesNotCopyDefaultModifier (12/13)
@@ -236,7 +260,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [100002] INFO Amplification - iteration 0:
 [100002] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [100002] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [100059] INFO Amplification - 0 new tests generated
 [100060] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [100060] INFO Amplification - amp duplicateExceptionsIgnored (13/13)
@@ -244,7 +269,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [101018] INFO Amplification - iteration 0:
 [101018] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [101018] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [101022] INFO Amplification - 0 new tests generated
 [101022] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [101022] INFO DSpot - elapsedTime 41721
@@ -261,7 +287,37 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [103297] INFO AssertGenerator - 30 test pass, generating assertion...
 [103300] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [103300] INFO MethodsAssertGenerator - Instrumentation...
-  3% |= ]/  6% |=== ]- 10% |===== ]\ 13% |====== ]| 16% |======== ]/ 20% |========== ]- 23% |=========== ]\ 26% |============= ]| 30% |=============== ]/ 33% |================ ]- 36% |================== ]\ 40% |==================== ]| 43% |===================== ]/ 46% |======================= ]- 50% |========================= ]\ 53% |========================== ]| 56% |============================ ]/ 60% |============================== ]- 63% |=============================== ]\ 66% |================================= ]| 70% |=================================== ]/ 73% |==================================== ]- 76% |====================================== ]\ 80% |======================================== ]| 83% |========================================= ]/ 86% |=========================================== ]- 90% |============================================= ]\ 93% |============================================== ]| 96% |================================================ ]/100% |================================================== ]-
+
+  3% |= ]/
+  6% |=== ]-
+ 10% |===== ]\
+ 13% |====== ]|
+ 16% |======== ]/
+ 20% |========== ]-
+ 23% |=========== ]\
+ 26% |============= ]|
+ 30% |=============== ]/
+ 33% |================ ]-
+ 36% |================== ]\
+ 40% |==================== ]|
+ 43% |===================== ]/
+ 46% |======================= ]-
+ 50% |========================= ]\
+ 53% |========================== ]|
+ 56% |============================ ]/
+ 60% |============================== ]-
+ 63% |=============================== ]\
+ 66% |================================= ]|
+ 70% |=================================== ]/
+ 73% |==================================== ]-
+ 76% |====================================== ]\
+ 80% |======================================== ]|
+ 83% |========================================= ]/
+ 86% |=========================================== ]-
+ 90% |============================================= ]\
+ 93% |============================================== ]|
+ 96% |================================================ ]/
+100% |================================================== ]-
 [103376] INFO MethodsAssertGenerator - Run instrumented tests. (90)
 [103423] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
 [105371] INFO MethodsAssertGenerator - Generating assertions...
@@ -283,7 +339,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [107053] INFO Amplification - iteration 0:
 [107053] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [107053] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [107058] INFO Amplification - 0 new tests generated
 [107058] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [107058] INFO Amplification - amp indexWithoutFormatTypeNotAtStringEnd (2/30)
@@ -291,7 +348,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [107463] INFO Amplification - iteration 0:
 [107463] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [107463] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [107466] INFO Amplification - 0 new tests generated
 [107466] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [107466] INFO Amplification - amp simpleNamedArgument (3/30)
@@ -299,7 +357,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [107865] INFO Amplification - iteration 0:
 [107865] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [107865] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [107885] INFO Amplification - 0 new tests generated
 [107886] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [107886] INFO Amplification - amp indexIsNegative (4/30)
@@ -307,7 +366,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [108235] INFO Amplification - iteration 0:
 [108235] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [108235] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [108239] INFO Amplification - 0 new tests generated
 [108239] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [108239] INFO Amplification - amp literalFormatCanBeIndexed (5/30)
@@ -315,7 +375,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [108545] INFO Amplification - iteration 0:
 [108545] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [108545] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [108565] INFO Amplification - 0 new tests generated
 [108565] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [108565] INFO Amplification - amp namedAndNoArgFormat (6/30)
@@ -323,7 +384,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [108869] INFO Amplification - iteration 0:
 [108869] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [108869] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [108892] INFO Amplification - 0 new tests generated
 [108892] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [108892] INFO Amplification - amp statementBeginningCannotBeIndexed (7/30)
@@ -331,7 +393,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [109219] INFO Amplification - iteration 0:
 [109219] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [109219] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [109222] INFO Amplification - 0 new tests generated
 [109222] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [109222] INFO Amplification - amp typeFormatCanBeIndexed (8/30)
@@ -339,7 +402,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [109549] INFO Amplification - iteration 0:
 [109549] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [109549] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [109570] INFO Amplification - 0 new tests generated
 [109570] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [109570] INFO Amplification - amp indexIsZero (9/30)
@@ -347,7 +411,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [109865] INFO Amplification - iteration 0:
 [109865] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [109865] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [109870] INFO Amplification - 0 new tests generated
 [109870] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [109870] INFO Amplification - amp deindentCannotBeIndexed (10/30)
@@ -355,7 +420,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [110184] INFO Amplification - iteration 0:
 [110184] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [110184] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [110187] INFO Amplification - 0 new tests generated
 [110187] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [110187] INFO Amplification - amp sameIndexCanBeUsedWithDifferentFormats (11/30)
@@ -363,7 +429,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [110493] INFO Amplification - iteration 0:
 [110493] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [110493] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [110513] INFO Amplification - 0 new tests generated
 [110514] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [110514] INFO Amplification - amp of (12/30)
@@ -371,7 +438,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [110803] INFO Amplification - iteration 0:
 [110803] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [110803] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [110822] INFO Amplification - 0 new tests generated
 [110823] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [110823] INFO Amplification - amp stringFormatCanBeIndexed (13/30)
@@ -379,7 +447,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [111103] INFO Amplification - iteration 0:
 [111103] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [111103] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [111133] INFO Amplification - 0 new tests generated
 [111133] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [111133] INFO Amplification - amp equalsAndHashCode (14/30)
@@ -387,7 +456,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [111454] INFO Amplification - iteration 0:
 [111454] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [111454] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [111500] INFO Amplification - 0 new tests generated
 [111500] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [111500] INFO Amplification - amp nameFormatCanBeIndexed (15/30)
@@ -395,7 +465,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [111824] INFO Amplification - iteration 0:
 [111824] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [111824] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [111854] INFO Amplification - 0 new tests generated
 [111855] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [111855] INFO Amplification - amp danglingNamed (16/30)
@@ -403,7 +474,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [112160] INFO Amplification - iteration 0:
 [112160] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [112160] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [112163] INFO Amplification - 0 new tests generated
 [112163] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [112163] INFO Amplification - amp repeatedNamedArgument (17/30)
@@ -411,7 +483,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [112488] INFO Amplification - iteration 0:
 [112488] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [112488] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [112508] INFO Amplification - 0 new tests generated
 [112508] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [112508] INFO Amplification - amp statementExitWithoutStatementEnter (18/30)
@@ -419,7 +492,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [112843] INFO Amplification - iteration 0:
 [112843] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [112843] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [112863] INFO Amplification - 0 new tests generated
 [112863] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [112863] INFO Amplification - amp indentCannotBeIndexed (19/30)
@@ -427,7 +501,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [113181] INFO Amplification - iteration 0:
 [113181] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [113181] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [113184] INFO Amplification - 0 new tests generated
 [113184] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [113184] INFO Amplification - amp namedNewline (20/30)
@@ -435,7 +510,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [113463] INFO Amplification - iteration 0:
 [113463] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [113463] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [113492] INFO Amplification - 0 new tests generated
 [113492] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [113492] INFO Amplification - amp formatIndicatorWithoutIndexOrFormatType (21/30)
@@ -443,7 +519,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [113771] INFO Amplification - iteration 0:
 [113771] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [113771] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [113775] INFO Amplification - 0 new tests generated
 [113776] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [113776] INFO Amplification - amp formatIndicatorAlone (22/30)
@@ -451,7 +528,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [114093] INFO Amplification - iteration 0:
 [114093] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [114093] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [114097] INFO Amplification - 0 new tests generated
 [114097] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [114097] INFO Amplification - amp tooManyStatementEnters (23/30)
@@ -459,7 +537,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [114409] INFO Amplification - iteration 0:
 [114409] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [114409] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [114429] INFO Amplification - 0 new tests generated
 [114429] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [114429] INFO Amplification - amp indexWithoutFormatType (24/30)
@@ -467,7 +546,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [114717] INFO Amplification - iteration 0:
 [114717] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [114717] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [114723] INFO Amplification - 0 new tests generated
 [114723] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [114724] INFO Amplification - amp missingNamedArgument (25/30)
@@ -475,7 +555,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [115084] INFO Amplification - iteration 0:
 [115084] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [115084] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [115087] INFO Amplification - 0 new tests generated
 [115087] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [115088] INFO Amplification - amp lowerCaseNamed (26/30)
@@ -483,7 +564,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [115380] INFO Amplification - iteration 0:
 [115380] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [115380] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [115383] INFO Amplification - 0 new tests generated
 [115383] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [115383] INFO Amplification - amp multipleNamedArguments (27/30)
@@ -491,7 +573,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [115670] INFO Amplification - iteration 0:
 [115670] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [115670] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [115693] INFO Amplification - 0 new tests generated
 [115693] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [115693] INFO Amplification - amp indexTooHigh (28/30)
@@ -499,7 +582,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [115985] INFO Amplification - iteration 0:
 [115985] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [115985] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [115989] INFO Amplification - 0 new tests generated
 [115989] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [115990] INFO Amplification - amp statementEndingCannotBeIndexed (29/30)
@@ -507,7 +591,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [116304] INFO Amplification - iteration 0:
 [116304] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [116304] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [116308] INFO Amplification - 0 new tests generated
 [116308] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [116308] INFO Amplification - amp dollarSignEscapeCannotBeIndexed (30/30)
@@ -515,7 +600,8 @@ a/src/main/java/com/squareup/javapoet/MethodSpec.java
 [116615] INFO Amplification - iteration 0:
 [116615] INFO Amplification - 1 tests selected to be amplified over 1 available tests
 [116615] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [116619] INFO Amplification - 0 new tests generated
 [116619] INFO Amplification - 0 amplified test(s) has been selected, global: 0
 [116619] INFO DSpot - elapsedTime 14838

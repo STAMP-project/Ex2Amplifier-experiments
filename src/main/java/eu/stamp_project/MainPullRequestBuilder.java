@@ -1,10 +1,9 @@
-package eu.stamp.project;
+package eu.stamp_project;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import eu.stamp.project.git.ProjectJSON;
-import eu.stamp.project.git.PullRequestJSON;
-import org.junit.Test;
+import eu.stamp_project.git.ProjectJSON;
+import eu.stamp_project.git.PullRequestJSON;
 import org.kohsuke.github.GHPullRequest;
 import org.kohsuke.github.GHRepository;
 import org.kohsuke.github.GitHub;

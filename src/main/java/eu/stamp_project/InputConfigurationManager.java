@@ -1,10 +1,10 @@
-package eu.stamp.project;
+package eu.stamp_project;
 
-import eu.stamp.project.ex2amplifier.amplifier.Ex2Amplifier;
-import eu.stamp.project.git.Cloner;
-import eu.stamp.project.git.ProjectJSON;
-import eu.stamp.project.git.PullRequestJSON;
-import fr.inria.diversify.utils.sosiefier.InputConfiguration;
+import eu.stamp_project.ex2amplifier.amplifier.Ex2Amplifier;
+import eu.stamp_project.git.Cloner;
+import eu.stamp_project.git.ProjectJSON;
+import eu.stamp_project.git.PullRequestJSON;
+import eu.stamp_project.utils.sosiefier.InputConfiguration;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.BufferedReader;
@@ -14,7 +14,6 @@ import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Map;
-import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 /**

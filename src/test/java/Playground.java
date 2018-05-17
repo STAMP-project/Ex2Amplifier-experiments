@@ -1,9 +1,9 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import fr.inria.diversify.utils.DSpotUtils;
-import eu.stamp.project.git.Cloner;
-import eu.stamp.project.git.ProjectJSON;
-import eu.stamp.project.git.PullRequestJSON;
+import eu.stamp_project.utils.DSpotUtils;
+import eu.stamp_project.git.Cloner;
+import eu.stamp_project.git.ProjectJSON;
+import eu.stamp_project.git.PullRequestJSON;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.kohsuke.github.GHIssueState;

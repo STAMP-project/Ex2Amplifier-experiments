@@ -1,10 +1,10 @@
-package eu.stamp.project;
+package eu.stamp_project;
 
 import com.martiansoftware.jsap.FlaggedOption;
 import com.martiansoftware.jsap.JSAP;
 import com.martiansoftware.jsap.JSAPException;
 import com.martiansoftware.jsap.Switch;
-import fr.inria.diversify.utils.AmplificationHelper;
+import eu.stamp_project.utils.AmplificationHelper;
 
 /**
  * Created by Benjamin DANGLOT

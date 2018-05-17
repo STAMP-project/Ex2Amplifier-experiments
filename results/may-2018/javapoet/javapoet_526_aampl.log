@@ -62,7 +62,7 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at fr.inria.diversify.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
 	at fr.inria.diversify.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
 	at fr.inria.diversify.dspot.DSpot.<init>(DSpot.java:103)
-	at eu.stamp.project.Main.lambda$run$2(Main.java:134)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:134)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -72,8 +72,8 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp.project.Main.run(Main.java:117)
-	at eu.stamp.project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:117)
+	at eu.stamp_project.Main.main(Main.java:88)
 [9402] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [9402] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
 [9403] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
@@ -130,7 +130,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [24762] INFO AssertGenerator - 1 test pass, generating assertion...
 [24770] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [24770] INFO MethodsAssertGenerator - Instrumentation...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [24806] INFO MethodsAssertGenerator - Run instrumented tests. (3)
 [27298] INFO MethodsAssertGenerator - Generating assertions...
 [27345] INFO AssertGenerator - 1 new tests with assertions generated
@@ -158,7 +159,8 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [33033] INFO AssertGenerator - 1 test pass, generating assertion...
 [33038] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [33038] INFO MethodsAssertGenerator - Instrumentation...
-100% |================================================== ]/
+
+100% |================================================== ]/
 [33040] INFO MethodsAssertGenerator - Run instrumented tests. (3)
 [33048] DEBUG Launcher - printing com.squareup.javapoet.CodeBlockTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [33794] INFO MethodsAssertGenerator - Generating assertions...
@@ -189,7 +191,16 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [39630] INFO AssertGenerator - 9 test pass, generating assertion...
 [39674] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [39675] INFO MethodsAssertGenerator - Instrumentation...
- 11% |===== ]/ 22% |=========== ]- 33% |================ ]\ 44% |====================== ]| 55% |=========================== ]/ 66% |================================= ]- 77% |====================================== ]\ 88% |============================================ ]|100% |================================================== ]/
+
+ 11% |===== ]/
+ 22% |=========== ]-
+ 33% |================ ]\
+ 44% |====================== ]|
+ 55% |=========================== ]/
+ 66% |================================= ]-
+ 77% |====================================== ]\
+ 88% |============================================ ]|
+100% |================================================== ]/
 [39718] INFO MethodsAssertGenerator - Run instrumented tests. (27)
 [39772] DEBUG Launcher - printing com.squareup.javapoet.TypeSpecTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [48567] INFO MethodsAssertGenerator - Generating assertions...
@@ -220,7 +231,9 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [67499] INFO AssertGenerator - 2 test pass, generating assertion...
 [67503] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [67503] INFO MethodsAssertGenerator - Instrumentation...
- 50% |========================= ]/100% |================================================== ]-
+
+ 50% |========================= ]/
+100% |================================================== ]-
 [67510] INFO MethodsAssertGenerator - Run instrumented tests. (6)
 [67518] DEBUG Launcher - printing com.squareup.javapoet.TypeNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [72240] INFO MethodsAssertGenerator - Generating assertions...
@@ -251,7 +264,11 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [83475] INFO AssertGenerator - 4 test pass, generating assertion...
 [83479] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [83479] INFO MethodsAssertGenerator - Instrumentation...
- 25% |============ ]/ 50% |========================= ]- 75% |===================================== ]\100% |================================================== ]|
+
+ 25% |============ ]/
+ 50% |========================= ]-
+ 75% |===================================== ]\
+100% |================================================== ]|
 [83491] INFO MethodsAssertGenerator - Run instrumented tests. (12)
 [83501] DEBUG Launcher - printing com.squareup.javapoet.ClassNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [86793] INFO MethodsAssertGenerator - Generating assertions...
@@ -282,7 +299,13 @@ a/src/main/java/com/squareup/javapoet/ClassName.java
 [99547] INFO AssertGenerator - 12 test pass, generating assertion...
 [99551] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [99551] INFO MethodsAssertGenerator - Instrumentation...
- 16% |======== ]/ 33% |================ ]- 50% |========================= ]\ 66% |================================= ]| 83% |========================================= ]/100% |================================================== ]-
+
+ 16% |======== ]/
+ 33% |================ ]-
+ 50% |========================= ]\
+ 66% |================================= ]|
+ 83% |========================================= ]/
+100% |================================================== ]-
 [99563] INFO MethodsAssertGenerator - Run instrumented tests. (18)
 [99574] DEBUG Launcher - printing com.squareup.javapoet.AbstractTypesTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [124664] INFO MethodsAssertGenerator - Generating assertions...
@@ -319,7 +342,9 @@ getErrorType(com.squareup.javapoet.AbstractTypesTest): null
 [144722] INFO AssertGenerator - 2 test pass, generating assertion...
 [144725] INFO MethodsAssertGenerator - Add observations points in passing tests.
 [144725] INFO MethodsAssertGenerator - Instrumentation...
- 50% |========================= ]/100% |================================================== ]-
+
+ 50% |========================= ]/
+100% |================================================== ]-
 [144730] INFO MethodsAssertGenerator - Run instrumented tests. (6)
 [144737] DEBUG Launcher - printing com.squareup.javapoet.AnnotatedTypeNameTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
 [147925] INFO MethodsAssertGenerator - Generating assertions...

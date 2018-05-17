@@ -1,4 +1,4 @@
-package eu.stamp.project.git;
+package eu.stamp_project.git;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

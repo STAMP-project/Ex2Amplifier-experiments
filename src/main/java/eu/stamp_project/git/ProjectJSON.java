@@ -1,4 +1,4 @@
-package eu.stamp.project.git;
+package eu.stamp_project.git;
 
 import java.util.List;
 

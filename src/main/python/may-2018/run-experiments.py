@@ -3,13 +3,14 @@ import json
 import argparse
 
 
-def run(project, flags, onClusty=False, mustClone=True, jbse=False, index=[-1]):
+def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
     err_out_redirection = "2>&1 | tee -a"
     print "classpath=`" + (
         "~/apache-maven-3.3.9/bin/" if onClusty else "") + "mvn dependency:build-classpath | grep /home`"
 
     base_cmd_jar = ("~/jdk1.8.0_121/bin/" if onClusty else "") + \
-                   "java -Xms16G -Xmx32G -cp target/Ex2Amplifier-experiments-0.0.1-SNAPSHOT.jar:${classpath} eu.stamp.project.Main "
+                   "java "+ ("-Xms16G -Xmx32G" if onClusty else "")\
+                   +" -cp target/Ex2Amplifier-experiments-0.0.1-SNAPSHOT.jar:${classpath} eu.stamp.project.Main "
     date = "may-2018"
     prefix_dataset = "dataset" + "/" + date + "/"
     suffix_json = ".json"
@@ -51,27 +52,27 @@ if __name__ == '__main__':
 
     if "amplifiers" in sys.argv:
         flags = ["--amplifiers"]
+    elif "jbse" in sys.argv:
+        flags = ["--jbse"]
     else:
-
         flags = ["--aampl", ""]
-onClusty = "onClusty" in sys.argv
-mustClone = "mustClone" in sys.argv
-if "jbse" in sys.argv:
-    flags.append("jbse")
-if ',' in sys.argv[-1] and sys.argv[-1][0].isdigit():
-    index = [int(x) for x in sys.argv[-1].split(',')]
-elif sys.argv[-1][0].isdigit():
-    index = [int(sys.argv[-1])]
-else:
-    index = [-1]
+    onClusty = "onClusty" in sys.argv
+    mustClone = "mustClone" in sys.argv
 
-if len(sys.argv) < 2:
-    print "usage python run-experiments <project> [onClusty] [mustClone] [amplifiers] [indexOfPR]"
-else:
-    run(
-        project=sys.argv[1],
-        flags=flags,
-        onClusty=onClusty,
-        mustClone=mustClone,
-        index=index
-    )
+    if ',' in sys.argv[-1] and sys.argv[-1][0].isdigit():
+        index = [int(x) for x in sys.argv[-1].split(',')]
+    elif sys.argv[-1][0].isdigit():
+        index = [int(sys.argv[-1])]
+    else:
+        index = [-1]
+
+    if len(sys.argv) < 2:
+        print "usage python run-experiments <project> [onClusty] [mustClone] [amplifiers] [indexOfPR]"
+    else:
+        run(
+            project=sys.argv[1],
+            flags=flags,
+            onClusty=onClusty,
+            mustClone=mustClone,
+            index=index
+        )

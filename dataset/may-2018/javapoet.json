@@ -49,24 +49,6 @@
       "headSha": "354dd648be77e261c858567054114b1fee9f1467"
     },
     {
-      "id": 574,
-      "baseUrl": "git://github.com/square/javapoet.git",
-      "baseRef": "master",
-      "baseSha": "384395d53cccde5a93932dba78328a5888db7ee8",
-      "headUrl": "git://github.com/square/javapoet.git",
-      "headRef": "jw/2017-07-31/type-var-annotations",
-      "headSha": "9fdb0ee5008af4542d043cbbce60fc32926ffc44"
-    },
-    {
-      "id": 568,
-      "baseUrl": "git://github.com/square/javapoet.git",
-      "baseRef": "master",
-      "baseSha": "a5694ac69113d815dd6588775dbccf22747f556b",
-      "headUrl": "git://github.com/square/javapoet.git",
-      "headRef": "jw/2017-06-30/lockless",
-      "headSha": "574d80c5796c992533688ebc566110555476d4e0"
-    },
-    {
       "id": 567,
       "baseUrl": "git://github.com/square/javapoet.git",
       "baseRef": "master",
@@ -92,6 +74,15 @@
       "headUrl": "git://github.com/baz8080/javapoet.git",
       "headRef": "baz8080/npe-messaging-in-methodspec",
       "headSha": "9ef7448a5040626cdd9ddbc69cb82a0e53183b62"
+    },
+    {
+      "id": 529,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "8ec1afab2fbe54daf9ea0e5b3d2f327192484c14",
+      "headUrl": "git://github.com/cconroy/javapoet.git",
+      "headRef": "named-faster",
+      "headSha": "01f7076cabdeb4444bf0606b4c88daf93a436af4"
     }
   ]
 }

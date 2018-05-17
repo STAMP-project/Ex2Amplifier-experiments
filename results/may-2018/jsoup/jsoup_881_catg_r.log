@@ -1,0 +1,810 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jsoup Java HTML Parser 1.10.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsoup ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 57 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ jsoup >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 57 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ jsoup <<<
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ jsoup ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 21 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 30 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/src/test/java/org/jsoup/nodes/BuildEntities.java: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/src/test/java/org/jsoup/nodes/BuildEntities.java uses unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/src/test/java/org/jsoup/nodes/BuildEntities.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jsoup ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ jsoup ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.647 s
+[INFO] Finished at: 2018-05-17T11:45:08+02:00
+[INFO] Final Memory: 32M/398M
+[INFO] ------------------------------------------------------------------------
+[15829] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[15829] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[15830] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jsoup Java HTML Parser 1.10.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsoup ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 57 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881/target/classes
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ jsoup >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 57 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881/target/classes
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ jsoup <<<
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ jsoup ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 21 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 30 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881/target/test-classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881/src/test/java/org/jsoup/nodes/BuildEntities.java: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881/src/test/java/org/jsoup/nodes/BuildEntities.java uses unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881/src/test/java/org/jsoup/nodes/BuildEntities.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jsoup ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ jsoup ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.410 s
+[INFO] Finished at: 2018-05-17T11:45:23+02:00
+[INFO] Final Memory: 31M/423M
+[INFO] ------------------------------------------------------------------------
+[27017] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/881_modified/ and dataset/may-2018/jsoup/881/ (0db39c27585d52fc19084a8090face5249e2bb4c)
+[27022] INFO SelectorOnDiff - Modified files:
+a/src/main/java/org/jsoup/helper/HttpConnection.java
+[72217] INFO Amplification - amplification of org.jsoup.helper.HttpConnectionTest (19 test(s))
+[72915] INFO Amplification - Try to add assertions before amplification
+[73021] INFO AssertGenerator - Run tests. (19)
+[73587] INFO AssertGenerator - 19 test pass, generating assertion...
+[73591] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[73591] INFO MethodsAssertGenerator - Instrumentation...
+  5% |== ]/ 10% |===== ]- 15% |======= ]\ 21% |========== ]| 26% |============= ]/ 31% |=============== ]- 36% |================== ]\ 42% |===================== ]| 47% |======================= ]/ 52% |========================== ]- 57% |============================ ]\ 63% |=============================== ]| 68% |================================== ]/ 73% |==================================== ]- 78% |======================================= ]\ 84% |========================================== ]| 89% |============================================ ]/ 94% |=============================================== ]-100% |================================================== ]\
+[73705] INFO MethodsAssertGenerator - Run instrumented tests. (57)
+[645022] WARN EntryPoint - Timeout when running java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:dataset/may-2018/jsoup/881_modified//target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar eu.stamp.project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest headers_withlog0:throwsExceptionOnParseWithoutExecute_withlog0:throwsOnMalformedUrl_withlog0:connectWithUrl_withlog0:cookie_withlog0:data_withlog0:ignoresEmptySetCookies_withlog0:method_withlog0:caseInsensitiveHeaders_withlog0:inputStream_withlog0:throwsExceptionOnBodyWithoutExecute_withlog0:ignoresEmptyCookieNameAndVals_withlog0:throwsOnOddData_withlog0:userAgent_withlog0:timeout_withlog0:referrer_withlog0:sameHeadersCombineWithComma_withlog0:requestBody_withlog0:throwsExceptionOnBodyAsBytesWithoutExecute_withlog0:headers_withlog1:throwsExceptionOnParseWithoutExecute_withlog1:throwsOnMalformedUrl_withlog1:connectWithUrl_withlog1:cookie_withlog1:data_withlog1:ignoresEmptySetCookies_withlog1:method_withlog1:caseInsensitiveHeaders_withlog1:inputStream_withlog1:throwsExceptionOnBodyWithoutExecute_withlog1:ignoresEmptyCookieNameAndVals_withlog1:throwsOnOddData_withlog1:userAgent_withlog1:timeout_withlog1:referrer_withlog1:sameHeadersCombineWithComma_withlog1:requestBody_withlog1:throwsExceptionOnBodyAsBytesWithoutExecute_withlog1:headers_withlog2:throwsExceptionOnParseWithoutExecute_withlog2:throwsOnMalformedUrl_withlog2:connectWithUrl_withlog2:cookie_withlog2:data_withlog2:ignoresEmptySetCookies_withlog2:method_withlog2:caseInsensitiveHeaders_withlog2:inputStream_withlog2:throwsExceptionOnBodyWithoutExecute_withlog2:ignoresEmptyCookieNameAndVals_withlog2:throwsOnOddData_withlog2:userAgent_withlog2:timeout_withlog2:referrer_withlog2:sameHeadersCombineWithComma_withlog2:requestBody_withlog2:throwsExceptionOnBodyAsBytesWithoutExecute_withlog2
+[645023] WARN TestCompiler - Timeout during execution of org.jsoup.helper.HttpConnectionTest: headers_withlog0,throwsExceptionOnParseWithoutExecute_withlog0,throwsOnMalformedUrl_withlog0,connectWithUrl_withlog0,cookie_withlog0,data_withlog0,ignoresEmptySetCookies_withlog0,method_withlog0,caseInsensitiveHeaders_withlog0,inputStream_withlog0,throwsExceptionOnBodyWithoutExecute_withlog0,ignoresEmptyCookieNameAndVals_withlog0,throwsOnOddData_withlog0,userAgent_withlog0,timeout_withlog0,referrer_withlog0,sameHeadersCombineWithComma_withlog0,requestBody_withlog0,throwsExceptionOnBodyAsBytesWithoutExecute_withlog0,headers_withlog1,throwsExceptionOnParseWithoutExecute_withlog1,throwsOnMalformedUrl_withlog1,connectWithUrl_withlog1,cookie_withlog1,data_withlog1,ignoresEmptySetCookies_withlog1,method_withlog1,caseInsensitiveHeaders_withlog1,inputStream_withlog1,throwsExceptionOnBodyWithoutExecute_withlog1,ignoresEmptyCookieNameAndVals_withlog1,throwsOnOddData_withlog1,userAgent_withlog1,timeout_withlog1,referrer_withlog1,sameHeadersCombineWithComma_withlog1,requestBody_withlog1,throwsExceptionOnBodyAsBytesWithoutExecute_withlog1,headers_withlog2,throwsExceptionOnParseWithoutExecute_withlog2,throwsOnMalformedUrl_withlog2,connectWithUrl_withlog2,cookie_withlog2,data_withlog2,ignoresEmptySetCookies_withlog2,method_withlog2,caseInsensitiveHeaders_withlog2,inputStream_withlog2,throwsExceptionOnBodyWithoutExecute_withlog2,ignoresEmptyCookieNameAndVals_withlog2,throwsOnOddData_withlog2,userAgent_withlog2,timeout_withlog2,referrer_withlog2,sameHeadersCombineWithComma_withlog2,requestBody_withlog2,throwsExceptionOnBodyAsBytesWithoutExecute_withlog2
+fr.inria.diversify.dspot.AmplificationException: java.util.concurrent.TimeoutException
+	at fr.inria.diversify.utils.compilation.TestCompiler.compileAndRun(TestCompiler.java:117)
+	at fr.inria.diversify.dspot.assertGenerator.MethodsAssertGenerator.addAssertions(MethodsAssertGenerator.java:99)
+	at fr.inria.diversify.dspot.assertGenerator.AssertGenerator.innerAssertionAmplification(AssertGenerator.java:117)
+	at fr.inria.diversify.dspot.assertGenerator.AssertGenerator.assertionAmplification(AssertGenerator.java:66)
+	at fr.inria.diversify.dspot.Amplification.preAmplification(Amplification.java:202)
+	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:91)
+	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:183)
+	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:170)
+	at eu.stamp.project.Main.lambda$null$1(Main.java:143)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at eu.stamp.project.Main.lambda$run$2(Main.java:144)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp.project.Main.run(Main.java:117)
+	at eu.stamp.project.Main.main(Main.java:88)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at eu.stamp.project.testrunner.EntryPoint.runGivenCommandLine(EntryPoint.java:280)
+	at eu.stamp.project.testrunner.EntryPoint.runTests(EntryPoint.java:124)
+	at eu.stamp.project.testrunner.EntryPoint.runTests(EntryPoint.java:111)
+	at fr.inria.diversify.utils.compilation.TestCompiler.compileAndRun(TestCompiler.java:102)
+	... 27 more
+[645024] INFO AssertGenerator - Could not generate any test with assertions
+[645025] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[645025] INFO Amplification - amp headers (1/19)
+[645532] INFO Amplification - iteration 0:
+[645532] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[645532] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[645619] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[645619] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[645670] DEBUG Launcher - built in 51 ms
+[645670] DEBUG Launcher - building templates: []
+[645670] DEBUG Launcher - built in 0 ms
+[645671] DEBUG Launcher - model built in 53
+[645672] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[645675] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[645778] DEBUG Launcher - compiled in 106 ms
+[645783] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[645905] INFO Amplification - 0 new tests generated
+[645905] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[645905] INFO Amplification - amp throwsExceptionOnParseWithoutExecute (2/19)
+[645914] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[646413] INFO Amplification - iteration 0:
+[646413] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[646413] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[646421] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[646479] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[646480] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[646527] DEBUG Launcher - built in 48 ms
+[646527] DEBUG Launcher - building templates: []
+[646527] DEBUG Launcher - built in 0 ms
+[646528] DEBUG Launcher - model built in 49
+[646528] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[646529] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[646623] DEBUG Launcher - compiled in 95 ms
+[646623] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[646739] INFO Amplification - 0 new tests generated
+[646740] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[646740] INFO Amplification - amp throwsOnMalformedUrl (3/19)
+[646749] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[647236] INFO Amplification - iteration 0:
+[647236] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[647236] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[647242] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[647306] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[647307] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[647354] DEBUG Launcher - built in 48 ms
+[647354] DEBUG Launcher - building templates: []
+[647354] DEBUG Launcher - built in 0 ms
+[647355] DEBUG Launcher - model built in 49
+[647355] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[647356] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[647431] DEBUG Launcher - compiled in 76 ms
+[647432] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[647550] INFO Amplification - 0 new tests generated
+[647550] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[647550] INFO Amplification - amp connectWithUrl (4/19)
+[647557] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[648046] INFO Amplification - iteration 0:
+[648046] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[648046] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[648052] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[648105] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[648105] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[648151] DEBUG Launcher - built in 46 ms
+[648151] DEBUG Launcher - building templates: []
+[648151] DEBUG Launcher - built in 0 ms
+[648151] DEBUG Launcher - model built in 46
+[648151] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[648152] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[648227] DEBUG Launcher - compiled in 75 ms
+[648228] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[648347] INFO Amplification - 0 new tests generated
+[648347] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[648347] INFO Amplification - amp cookie (5/19)
+[648358] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[648852] INFO Amplification - iteration 0:
+[648853] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[648853] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[648858] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[648909] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[648909] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[648956] DEBUG Launcher - built in 47 ms
+[648956] DEBUG Launcher - building templates: []
+[648956] DEBUG Launcher - built in 0 ms
+[648957] DEBUG Launcher - model built in 48
+[648957] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[648958] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[649033] DEBUG Launcher - compiled in 76 ms
+[649034] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[649148] INFO Amplification - 0 new tests generated
+[649148] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[649148] INFO Amplification - amp data (6/19)
+[649156] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[649623] INFO Amplification - iteration 0:
+[649623] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[649623] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[649633] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[649685] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[649685] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[649734] WARN Launcher - warning: The method readObject(Object) is undefined for the type CATG at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:211
+[649734] WARN Launcher - warning: The method readObject(Object) is undefined for the type CATG at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:212
+[649734] WARN Launcher - warning: Type mismatch: cannot convert from Object to int at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:217
+[649734] WARN Launcher - warning: Type mismatch: cannot convert from Object to int at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:218
+[649734] DEBUG Launcher - built in 49 ms
+[649734] DEBUG Launcher - building templates: []
+[649734] DEBUG Launcher - built in 0 ms
+[649735] DEBUG Launcher - model built in 50
+[649735] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[649736] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[649818] WARN Launcher - warning: The method readObject(Object) is undefined for the type CATG at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:192
+[649818] WARN Launcher - warning: The method readObject(Object) is undefined for the type CATG at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:193
+[649818] WARN Launcher - warning: Type mismatch: cannot convert from Object to int at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:198
+[649818] WARN Launcher - warning: Type mismatch: cannot convert from Object to int at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:199
+[649818] DEBUG Launcher - compiled in 83 ms
+[649819] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[649936] INFO Amplification - 0 new tests generated
+[649936] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[649936] INFO Amplification - amp ignoresEmptySetCookies (7/19)
+[649944] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[650443] INFO Amplification - iteration 0:
+[650443] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[650443] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[650453] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[650507] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[650508] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[650555] DEBUG Launcher - built in 48 ms
+[650555] DEBUG Launcher - building templates: []
+[650555] DEBUG Launcher - built in 0 ms
+[650555] DEBUG Launcher - model built in 48
+[650555] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[650556] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[650628] DEBUG Launcher - compiled in 73 ms
+[650629] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[650748] INFO Amplification - 0 new tests generated
+[650748] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[650748] INFO Amplification - amp method (8/19)
+[650755] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[651221] INFO Amplification - iteration 0:
+[651221] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[651221] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[651226] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[651278] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[651278] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[651327] DEBUG Launcher - built in 49 ms
+[651327] DEBUG Launcher - building templates: []
+[651327] DEBUG Launcher - built in 0 ms
+[651327] DEBUG Launcher - model built in 49
+[651328] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[651328] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[651405] DEBUG Launcher - compiled in 77 ms
+[651405] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[651526] INFO Amplification - 0 new tests generated
+[651526] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[651526] INFO Amplification - amp caseInsensitiveHeaders (9/19)
+[651534] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[651997] INFO Amplification - iteration 0:
+[651997] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[651997] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[652012] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[652066] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[652066] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[652112] DEBUG Launcher - built in 46 ms
+[652112] DEBUG Launcher - building templates: []
+[652112] DEBUG Launcher - built in 0 ms
+[652113] DEBUG Launcher - model built in 47
+[652113] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[652114] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[652212] DEBUG Launcher - compiled in 99 ms
+[652213] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[652321] INFO Amplification - 0 new tests generated
+[652322] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[652322] INFO Amplification - amp inputStream (10/19)
+[652328] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[652776] INFO Amplification - iteration 0:
+[652776] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[652776] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[652808] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[652862] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[652862] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[652907] DEBUG Launcher - built in 45 ms
+[652907] DEBUG Launcher - building templates: []
+[652907] DEBUG Launcher - built in 0 ms
+[652908] DEBUG Launcher - model built in 46
+[652908] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[652909] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[652982] DEBUG Launcher - compiled in 74 ms
+[652983] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[653108] INFO Amplification - 0 new tests generated
+[653108] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[653108] INFO Amplification - amp throwsExceptionOnBodyWithoutExecute (11/19)
+[653114] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[653583] INFO Amplification - iteration 0:
+[653583] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[653583] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[653588] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[653636] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[653636] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[653683] WARN Launcher - warning: Unreachable catch block for IOException. This exception is never thrown from the try statement body at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:210
+[653683] DEBUG Launcher - built in 47 ms
+[653683] DEBUG Launcher - building templates: []
+[653683] DEBUG Launcher - built in 0 ms
+[653683] DEBUG Launcher - model built in 47
+[653683] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[653684] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[653756] WARN Launcher - warning: Unreachable catch block for IOException. This exception is never thrown from the try statement body at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:191
+[653756] DEBUG Launcher - compiled in 73 ms
+[653757] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[653869] INFO Amplification - 0 new tests generated
+[653869] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[653869] INFO Amplification - amp ignoresEmptyCookieNameAndVals (12/19)
+[653875] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[654337] INFO Amplification - iteration 0:
+[654337] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[654337] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[654351] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[654403] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[654403] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[654453] DEBUG Launcher - built in 50 ms
+[654453] DEBUG Launcher - building templates: []
+[654453] DEBUG Launcher - built in 0 ms
+[654454] DEBUG Launcher - model built in 51
+[654454] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[654454] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[654530] DEBUG Launcher - compiled in 76 ms
+[654531] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[654652] INFO Amplification - 0 new tests generated
+[654652] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[654652] INFO Amplification - amp throwsOnOddData (13/19)
+[654659] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[655166] INFO Amplification - iteration 0:
+[655166] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[655166] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[655170] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[655217] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[655218] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[655268] DEBUG Launcher - built in 50 ms
+[655268] DEBUG Launcher - building templates: []
+[655268] DEBUG Launcher - built in 0 ms
+[655268] DEBUG Launcher - model built in 51
+[655268] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[655270] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[655337] DEBUG Launcher - compiled in 68 ms
+[655338] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[655452] INFO Amplification - 0 new tests generated
+[655452] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[655452] INFO Amplification - amp userAgent (14/19)
+[655459] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[655912] INFO Amplification - iteration 0:
+[655912] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[655912] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[655917] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[655964] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[655965] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[656009] DEBUG Launcher - built in 45 ms
+[656009] DEBUG Launcher - building templates: []
+[656009] DEBUG Launcher - built in 0 ms
+[656010] DEBUG Launcher - model built in 46
+[656010] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[656011] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[656079] DEBUG Launcher - compiled in 69 ms
+[656079] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[656192] INFO Amplification - 0 new tests generated
+[656192] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[656192] INFO Amplification - amp timeout (15/19)
+[656197] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[656661] INFO Amplification - iteration 0:
+[656661] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[656661] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[656669] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[656717] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[656717] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[656761] DEBUG Launcher - built in 43 ms
+[656761] DEBUG Launcher - building templates: []
+[656761] DEBUG Launcher - built in 0 ms
+[656761] DEBUG Launcher - model built in 44
+[656761] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[656762] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[656830] DEBUG Launcher - compiled in 69 ms
+[656831] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[656957] INFO Amplification - 0 new tests generated
+[656957] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[656957] INFO Amplification - amp referrer (16/19)
+[656963] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[657435] INFO Amplification - iteration 0:
+[657435] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[657435] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[657440] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[657486] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[657486] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[657530] DEBUG Launcher - built in 44 ms
+[657530] DEBUG Launcher - building templates: []
+[657530] DEBUG Launcher - built in 0 ms
+[657531] DEBUG Launcher - model built in 45
+[657531] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[657531] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[657600] DEBUG Launcher - compiled in 69 ms
+[657601] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[657714] INFO Amplification - 0 new tests generated
+[657714] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[657714] INFO Amplification - amp sameHeadersCombineWithComma (17/19)
+[657720] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[658161] INFO Amplification - iteration 0:
+[658161] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[658161] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[658171] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[658223] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[658224] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[658268] DEBUG Launcher - built in 45 ms
+[658268] DEBUG Launcher - building templates: []
+[658268] DEBUG Launcher - built in 0 ms
+[658268] DEBUG Launcher - model built in 45
+[658268] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[658269] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[658338] DEBUG Launcher - compiled in 70 ms
+[658338] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[658449] INFO Amplification - 0 new tests generated
+[658449] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[658449] INFO Amplification - amp requestBody (18/19)
+[658456] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[658932] INFO Amplification - iteration 0:
+[658932] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[658932] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[658937] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[658984] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[658984] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[659027] DEBUG Launcher - built in 43 ms
+[659027] DEBUG Launcher - building templates: []
+[659027] DEBUG Launcher - built in 0 ms
+[659028] DEBUG Launcher - model built in 44
+[659028] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[659029] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[659094] DEBUG Launcher - compiled in 66 ms
+[659095] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[659209] INFO Amplification - 0 new tests generated
+[659209] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[659209] INFO Amplification - amp throwsExceptionOnBodyAsBytesWithoutExecute (19/19)
+[659215] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[659662] INFO Amplification - iteration 0:
+[659662] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[659662] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[659666] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[659712] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[659712] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[659756] WARN Launcher - warning: Unreachable catch block for IOException. This exception is never thrown from the try statement body at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:210
+[659756] DEBUG Launcher - built in 44 ms
+[659756] DEBUG Launcher - building templates: []
+[659756] DEBUG Launcher - built in 0 ms
+[659757] DEBUG Launcher - model built in 45
+[659757] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[659758] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
+[659823] WARN Launcher - warning: Unreachable catch block for IOException. This exception is never thrown from the try statement body at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:191
+[659823] DEBUG Launcher - compiled in 66 ms
+[659823] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/881_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/881_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[659937] INFO Amplification - 0 new tests generated
+[659937] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[659937] INFO DSpot - elapsedTime 587759
+======= REPORT =======
+0 amplified test fails on the new versions.
+
+[659999] INFO DSpot - Print AmplHttpConnectionTest with 0?amplified test cases in results/may-2018/jsoup/881_modified/CATG
+[660000] DEBUG Launcher - printing org.jsoup.helper.AmplHttpConnectionTest to /tmp/Ex2Amplifier-experiments/results/may-2018/jsoup/881_modified/CATG

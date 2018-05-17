@@ -5,14 +5,14 @@ SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[13] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[11] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.102 s
-[INFO] Finished at: 2018-05-15T15:57:07+02:00
+[INFO] Total time: 0.113 s
+[INFO] Finished at: 2018-05-16T18:28:30+02:00
 [INFO] Final Memory: 16M/966M
 [INFO] ------------------------------------------------------------------------
 [ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/574_modified). Please verify you invoked Maven from the correct directory. -> [Help 1]

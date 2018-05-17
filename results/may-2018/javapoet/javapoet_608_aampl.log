@@ -5,7 +5,7 @@ SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[13] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -43,11 +43,11 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.745 s
-[INFO] Finished at: 2018-05-15T15:25:14+02:00
-[INFO] Final Memory: 38M/1136M
+[INFO] Total time: 9.587 s
+[INFO] Finished at: 2018-05-16T17:56:44+02:00
+[INFO] Final Memory: 38M/1137M
 [INFO] ------------------------------------------------------------------------
-[14352] ERROR JDTCommentBuilder - // @Target(ElementType.TYPE_USE) requires Java 1.8 is not added into the AST
+[13625] ERROR JDTCommentBuilder - // @Target(ElementType.TYPE_USE) requires Java 1.8 is not added into the AST
 spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608/src/test/java/com/squareup/javapoet/AnnotatedTypeNameTest.java:118)
 	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
 	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
@@ -74,9 +74,9 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
 	at eu.stamp.project.Main.run(Main.java:117)
 	at eu.stamp.project.Main.main(Main.java:88)
-[15197] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[15197] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[15198] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[14393] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[14393] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[14394] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -85,6 +85,7 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ javapoet ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608_modified/target
 [INFO] 
 [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ javapoet ---
 [INFO] Skipping Rule Enforcement.
@@ -113,27 +114,27 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.766 s
-[INFO] Finished at: 2018-05-15T15:25:29+02:00
-[INFO] Final Memory: 37M/1114M
+[INFO] Total time: 9.352 s
+[INFO] Finished at: 2018-05-16T17:56:58+02:00
+[INFO] Final Memory: 50M/1212M
 [INFO] ------------------------------------------------------------------------
-[26905] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/javapoet/608/ and dataset/may-2018/javapoet/608_modified/ (b68e867d44e3a24e2d954fec83ce8a5170a4a03b)
-[26910] INFO SelectorOnDiff - Modified files:
+[25716] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/javapoet/608/ and dataset/may-2018/javapoet/608_modified/ (b68e867d44e3a24e2d954fec83ce8a5170a4a03b)
+[25722] INFO SelectorOnDiff - Modified files:
 a/src/main/java/com/squareup/javapoet/LineWrapper.java
 a/src/test/java/com/squareup/javapoet/LineWrapperTest.java
-[44038] INFO Amplification - amplification of com.squareup.javapoet.LineWrapperTest (15 test(s))
-[44760] INFO Amplification - Try to add assertions before amplification
-[44855] INFO AssertGenerator - Run tests. (15)
-[45457] INFO AssertGenerator - 15 test pass, generating assertion...
-[45465] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[45465] INFO MethodsAssertGenerator - Instrumentation...
+[42452] INFO Amplification - amplification of com.squareup.javapoet.LineWrapperTest (15 test(s))
+[43152] INFO Amplification - Try to add assertions before amplification
+[43232] INFO AssertGenerator - Run tests. (15)
+[43830] INFO AssertGenerator - 15 test pass, generating assertion...
+[43837] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[43837] INFO MethodsAssertGenerator - Instrumentation...
   6% |=== ]/ 13% |====== ]- 20% |========== ]\ 26% |============= ]| 33% |================ ]/ 40% |==================== ]- 46% |======================= ]\ 53% |========================== ]| 60% |============================== ]/ 66% |================================= ]- 73% |==================================== ]\ 80% |======================================== ]| 86% |=========================================== ]/ 93% |============================================== ]-100% |================================================== ]\
-[45545] INFO MethodsAssertGenerator - Run instrumented tests. (45)
-[46300] INFO MethodsAssertGenerator - Generating assertions...
-[46316] INFO AssertGenerator - Could not generate any test with assertions
-[46316] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[46316] INFO DSpot - elapsedTime 2321
+[43913] INFO MethodsAssertGenerator - Run instrumented tests. (45)
+[44681] INFO MethodsAssertGenerator - Generating assertions...
+[44694] INFO AssertGenerator - Could not generate any test with assertions
+[44695] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[44695] INFO DSpot - elapsedTime 2283
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[46391] INFO DSpot - Print AmplLineWrapperTest with 0?amplified test cases in results/may-2018/javapoet/608/A_ampl
+[44770] INFO DSpot - Print AmplLineWrapperTest with 0?amplified test cases in results/may-2018/javapoet/608/A_ampl

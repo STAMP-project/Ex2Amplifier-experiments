@@ -5,7 +5,7 @@ SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[13] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -43,11 +43,11 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.629 s
-[INFO] Finished at: 2018-05-15T15:26:59+02:00
-[INFO] Final Memory: 51M/1216M
+[INFO] Total time: 9.699 s
+[INFO] Finished at: 2018-05-16T17:58:28+02:00
+[INFO] Final Memory: 38M/1118M
 [INFO] ------------------------------------------------------------------------
-[13975] ERROR JDTCommentBuilder - // @Target(ElementType.TYPE_USE) requires Java 1.8 is not added into the AST
+[14030] ERROR JDTCommentBuilder - // @Target(ElementType.TYPE_USE) requires Java 1.8 is not added into the AST
 spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/608_modified/src/test/java/com/squareup/javapoet/AnnotatedTypeNameTest.java:118)
 	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
 	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
@@ -74,9 +74,9 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
 	at eu.stamp.project.Main.run(Main.java:117)
 	at eu.stamp.project.Main.main(Main.java:88)
-[14780] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[14780] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[14781] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[14836] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[14836] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[14837] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -114,29 +114,29 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.952 s
-[INFO] Finished at: 2018-05-15T15:27:14+02:00
-[INFO] Final Memory: 38M/1149M
+[INFO] Total time: 9.768 s
+[INFO] Finished at: 2018-05-16T17:58:43+02:00
+[INFO] Final Memory: 38M/1131M
 [INFO] ------------------------------------------------------------------------
-[26759] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/javapoet/608_modified/ and dataset/may-2018/javapoet/608/ (c2c770c9260819e14ea3154ca7e4000a24d15995)
-[26773] INFO SelectorOnDiff - Modified files:
+[26725] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/javapoet/608_modified/ and dataset/may-2018/javapoet/608/ (c2c770c9260819e14ea3154ca7e4000a24d15995)
+[26731] INFO SelectorOnDiff - Modified files:
 a/src/main/java/com/squareup/javapoet/LineWrapper.java
 a/src/test/java/com/squareup/javapoet/LineWrapperTest.java
-[27808] INFO SelectorOnDiff - Select 1 modified test methods
-[28500] INFO SelectorOnDiff - Select 1 test methods that execute directly modified methods
-[28560] INFO Amplification - amplification of com.squareup.javapoet.LineWrapperTest (6 test(s))
-[29412] INFO Amplification - Try to add assertions before amplification
-[29465] INFO AssertGenerator - Run tests. (6)
-[30052] INFO AssertGenerator - 6 test pass, generating assertion...
-[30059] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[30059] INFO MethodsAssertGenerator - Instrumentation...
+[27885] INFO SelectorOnDiff - Select 1 modified test methods
+[28532] INFO SelectorOnDiff - Select 1 test methods that execute directly modified methods
+[28611] INFO Amplification - amplification of com.squareup.javapoet.LineWrapperTest (6 test(s))
+[29309] INFO Amplification - Try to add assertions before amplification
+[29375] INFO AssertGenerator - Run tests. (6)
+[29947] INFO AssertGenerator - 6 test pass, generating assertion...
+[29955] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[29955] INFO MethodsAssertGenerator - Instrumentation...
  16% |======== ]/ 33% |================ ]- 50% |========================= ]\ 66% |================================= ]| 83% |========================================= ]/100% |================================================== ]-
-[30112] INFO MethodsAssertGenerator - Run instrumented tests. (18)
-[30827] INFO MethodsAssertGenerator - Generating assertions...
-[30836] INFO AssertGenerator - Could not generate any test with assertions
-[30836] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[30837] INFO DSpot - elapsedTime 2301
+[30013] INFO MethodsAssertGenerator - Run instrumented tests. (18)
+[30668] INFO MethodsAssertGenerator - Generating assertions...
+[30677] INFO AssertGenerator - Could not generate any test with assertions
+[30677] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[30677] INFO DSpot - elapsedTime 2099
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[30970] INFO DSpot - Print AmplLineWrapperTest with 0?amplified test cases in results/may-2018/javapoet/608_modified/A_ampl
+[30808] INFO DSpot - Print AmplLineWrapperTest with 0?amplified test cases in results/may-2018/javapoet/608_modified/A_ampl

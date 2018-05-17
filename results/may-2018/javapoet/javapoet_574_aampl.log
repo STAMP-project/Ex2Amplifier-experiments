@@ -4,8 +4,8 @@ SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[11] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[12] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -43,11 +43,11 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 7.924 s
-[INFO] Finished at: 2018-05-15T15:56:44+02:00
-[INFO] Final Memory: 36M/908M
+[INFO] Total time: 8.161 s
+[INFO] Finished at: 2018-05-16T18:28:07+02:00
+[INFO] Final Memory: 38M/1231M
 [INFO] ------------------------------------------------------------------------
-[12775] ERROR JDTCommentBuilder - // @Target(ElementType.TYPE_USE) requires Java 1.8 is not added into the AST
+[12929] ERROR JDTCommentBuilder - // @Target(ElementType.TYPE_USE) requires Java 1.8 is not added into the AST
 spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/574/src/test/java/com/squareup/javapoet/AnnotatedTypeNameTest.java:118)
 	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
 	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
@@ -74,16 +74,16 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
 	at eu.stamp.project.Main.run(Main.java:117)
 	at eu.stamp.project.Main.main(Main.java:88)
-[12847] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[12847] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[12848] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[12998] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[12998] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[12998] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.110 s
-[INFO] Finished at: 2018-05-15T15:56:49+02:00
+[INFO] Total time: 0.100 s
+[INFO] Finished at: 2018-05-16T18:28:12+02:00
 [INFO] Final Memory: 16M/966M
 [INFO] ------------------------------------------------------------------------
 [ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/574_modified). Please verify you invoked Maven from the correct directory. -> [Help 1]

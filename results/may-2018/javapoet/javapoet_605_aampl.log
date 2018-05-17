@@ -4,8 +4,8 @@ SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[14] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[13] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -43,11 +43,11 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.870 s
-[INFO] Finished at: 2018-05-15T15:53:43+02:00
-[INFO] Final Memory: 51M/1199M
+[INFO] Total time: 9.880 s
+[INFO] Finished at: 2018-05-16T18:25:06+02:00
+[INFO] Final Memory: 38M/1113M
 [INFO] ------------------------------------------------------------------------
-[14106] ERROR JDTCommentBuilder - // @Target(ElementType.TYPE_USE) requires Java 1.8 is not added into the AST
+[14081] ERROR JDTCommentBuilder - // @Target(ElementType.TYPE_USE) requires Java 1.8 is not added into the AST
 spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/605/src/test/java/com/squareup/javapoet/AnnotatedTypeNameTest.java:118)
 	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
 	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
@@ -74,9 +74,9 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
 	at eu.stamp.project.Main.run(Main.java:117)
 	at eu.stamp.project.Main.main(Main.java:88)
-[14947] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[14947] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[14948] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[14927] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[14928] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[14929] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -85,6 +85,7 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ javapoet ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/605_modified/target
 [INFO] 
 [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ javapoet ---
 [INFO] Skipping Rule Enforcement.
@@ -113,38 +114,38 @@ spoon.reflect.declaration.ParentNotInitializedException: parent not initialized 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.531 s
-[INFO] Finished at: 2018-05-15T15:53:58+02:00
-[INFO] Final Memory: 50M/1211M
+[INFO] Total time: 9.798 s
+[INFO] Finished at: 2018-05-16T18:25:21+02:00
+[INFO] Final Memory: 51M/1206M
 [INFO] ------------------------------------------------------------------------
-[26604] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/javapoet/605/ and dataset/may-2018/javapoet/605_modified/ (da2859b67f9098ac5c1c12aa64218c7e2dc1e63f)
-[26610] INFO SelectorOnDiff - Modified files:
+[26764] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/javapoet/605/ and dataset/may-2018/javapoet/605_modified/ (da2859b67f9098ac5c1c12aa64218c7e2dc1e63f)
+[26769] INFO SelectorOnDiff - Modified files:
 a/src/main/java/com/squareup/javapoet/LineWrapper.java
 a/src/test/java/com/squareup/javapoet/MethodSpecTest.java
 a/src/main/java/com/squareup/javapoet/MethodSpec.java
-[29191] INFO SelectorOnDiff - Select 1 modified test methods
-[30603] INFO SelectorOnDiff - Select 1 test methods that execute directly modified methods
-[30995] INFO Amplification - amplification of com.squareup.javapoet.MethodSpecTest (1 test(s))
-[32450] INFO Amplification - Try to add assertions before amplification
-[32656] INFO AssertGenerator - Run tests. (1)
-[33964] INFO AssertGenerator - 1 test pass, generating assertion...
-[33973] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[33973] INFO MethodsAssertGenerator - Instrumentation...
+[29163] INFO SelectorOnDiff - Select 1 modified test methods
+[30517] INFO SelectorOnDiff - Select 1 test methods that execute directly modified methods
+[30898] INFO Amplification - amplification of com.squareup.javapoet.MethodSpecTest (1 test(s))
+[32321] INFO Amplification - Try to add assertions before amplification
+[32523] INFO AssertGenerator - Run tests. (1)
+[33867] INFO AssertGenerator - 1 test pass, generating assertion...
+[33877] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[33877] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[34001] INFO MethodsAssertGenerator - Run instrumented tests. (3)
-[35672] INFO MethodsAssertGenerator - Generating assertions...
-[35686] INFO AssertGenerator - 1 new tests with assertions generated
-[38465] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
-[38465] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.39/truth-0.39.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/23.4-android/guava-23.4-android.jar:/home/spirals/danglot/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/spirals/danglot/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/spirals/danglot/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/spirals/danglot/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.15/compile-testing-0.15.jar:/home/spirals/danglot/.m2/repository/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar:/home/spirals/danglot/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/home/spirals/danglot/.m2/repository/com/google/auto/auto-common/0.9/auto-common-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar:target/dspot/dependencies/:dataset/may-2018/javapoet/605//target/classes:dataset/may-2018/javapoet/605//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
-[38572] DEBUG Launcher - built in 107 ms
-[38572] DEBUG Launcher - building templates: []
-[38572] DEBUG Launcher - built in 0 ms
-[38573] DEBUG Launcher - model built in 108
-[38573] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
-[38576] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.39/truth-0.39.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/23.4-android/guava-23.4-android.jar:/home/spirals/danglot/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/spirals/danglot/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/spirals/danglot/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/spirals/danglot/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.15/compile-testing-0.15.jar:/home/spirals/danglot/.m2/repository/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar:/home/spirals/danglot/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/home/spirals/danglot/.m2/repository/com/google/auto/auto-common/0.9/auto-common-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar:target/dspot/dependencies/:dataset/may-2018/javapoet/605//target/classes:dataset/may-2018/javapoet/605//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/605_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
-[38697] DEBUG Launcher - compiled in 124 ms
-[39813] INFO Amplification - 1 amplified test(s) has been selected, global: 1
-[39813] INFO DSpot - elapsedTime 9006
+[33903] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[35575] INFO MethodsAssertGenerator - Generating assertions...
+[35594] INFO AssertGenerator - 1 new tests with assertions generated
+[38410] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
+[38410] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.39/truth-0.39.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/23.4-android/guava-23.4-android.jar:/home/spirals/danglot/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/spirals/danglot/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/spirals/danglot/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/spirals/danglot/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.15/compile-testing-0.15.jar:/home/spirals/danglot/.m2/repository/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar:/home/spirals/danglot/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/home/spirals/danglot/.m2/repository/com/google/auto/auto-common/0.9/auto-common-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar:target/dspot/dependencies/:dataset/may-2018/javapoet/605//target/classes:dataset/may-2018/javapoet/605//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
+[38511] DEBUG Launcher - built in 101 ms
+[38511] DEBUG Launcher - building templates: []
+[38511] DEBUG Launcher - built in 0 ms
+[38512] DEBUG Launcher - model built in 102
+[38512] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
+[38515] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/com/google/truth/truth/0.39/truth-0.39.jar:/home/spirals/danglot/.m2/repository/com/google/guava/guava/23.4-android/guava-23.4-android.jar:/home/spirals/danglot/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/spirals/danglot/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/spirals/danglot/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/spirals/danglot/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/spirals/danglot/.m2/repository/com/google/testing/compile/compile-testing/0.15/compile-testing-0.15.jar:/home/spirals/danglot/.m2/repository/com/google/truth/extensions/truth-java8-extension/0.37/truth-java8-extension-0.37.jar:/home/spirals/danglot/.m2/repository/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar:/home/spirals/danglot/.m2/repository/com/google/auto/auto-common/0.9/auto-common-0.9.jar:/home/spirals/danglot/jdk1.8.0_121/jre/../lib/tools.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar:target/dspot/dependencies/:dataset/may-2018/javapoet/605//target/classes:dataset/may-2018/javapoet/605//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/javapoet/605_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/com/squareup/javapoet/MethodSpecTest.java]
+[38630] DEBUG Launcher - compiled in 117 ms
+[39709] INFO Amplification - 1 amplified test(s) has been selected, global: 1
+[39709] INFO DSpot - elapsedTime 8991
 ======= REPORT =======
 1 amplified test fails on the new versions.
 overrideEverything(com.squareup.javapoet.MethodSpecTest): expected:<...Runnable everything([java.lang.String arg0,
@@ -152,5 +153,5 @@ overrideEverything(com.squareup.javapoet.MethodSpecTest): expected:<...Runnable 
     java.lang.String arg0, java.util.List<? extends T> arg1) throws java.io.IOException,
    ] java.lang.SecurityE...>
 
-[40638] INFO DSpot - Print AmplMethodSpecTest with 1?amplified test cases in results/may-2018/javapoet/605/A_ampl
-[40639] DEBUG Launcher - printing com.squareup.javapoet.AmplMethodSpecTest to /tmp/Ex2Amplifier-experiments/results/may-2018/javapoet/605/A_ampl
+[40488] INFO DSpot - Print AmplMethodSpecTest with 1?amplified test cases in results/may-2018/javapoet/605/A_ampl
+[40489] DEBUG Launcher - printing com.squareup.javapoet.AmplMethodSpecTest to /tmp/Ex2Amplifier-experiments/results/may-2018/javapoet/605/A_ampl

@@ -2,43 +2,43 @@
   "classTimes": [
     {
       "fullQualifiedName": "com.squareup.javapoet.MethodSpecTest",
-      "timeInMs": 10762,
+      "timeInMs": 10590,
       "numberOfAmplifiedTestMethods": 1,
       "numberOfTestMethodToBeAmplified": 1
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.CodeBlockTest",
-      "timeInMs": 4150,
+      "timeInMs": 4197,
       "numberOfAmplifiedTestMethods": 1,
       "numberOfTestMethodToBeAmplified": 1
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.TypeSpecTest",
-      "timeInMs": 44929,
+      "timeInMs": 44613,
       "numberOfAmplifiedTestMethods": 7,
       "numberOfTestMethodToBeAmplified": 9
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.TypeNameTest",
-      "timeInMs": 14435,
+      "timeInMs": 14692,
       "numberOfAmplifiedTestMethods": 2,
       "numberOfTestMethodToBeAmplified": 2
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.ClassNameTest",
-      "timeInMs": 14702,
+      "timeInMs": 14665,
       "numberOfAmplifiedTestMethods": 2,
       "numberOfTestMethodToBeAmplified": 4
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.AbstractTypesTest",
-      "timeInMs": 63676,
+      "timeInMs": 64107,
       "numberOfAmplifiedTestMethods": 6,
       "numberOfTestMethodToBeAmplified": 6
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.AnnotatedTypeNameTest",
-      "timeInMs": 8709,
+      "timeInMs": 8740,
       "numberOfAmplifiedTestMethods": 2,
       "numberOfTestMethodToBeAmplified": 2
     }

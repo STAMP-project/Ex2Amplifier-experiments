@@ -1,0 +1,167 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/bdanglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/bdanglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[25] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding protostuff :: runtime 1.4.5-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.3.1:enforce[m [1m(enforce-versions)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 40 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/target/classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 44 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/target/test-classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/CollectionTest.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/CollectionTest.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Some input files use unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.18.1:test[m [1m(default-test)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:build-classpath[m [1m(default-cli)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Wrote classpath file '/home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189_modified/protostuff-runtime/target/dspot/classpath'.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 16.576 s
+[[1;34mINFO[m] Finished at: 2018-05-16T17:53:23+02:00
+[[1;34mINFO[m] Final Memory: 26M/256M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[34857] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[34858] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[34858] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding protostuff :: runtime 1.4.5-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.3.1:enforce[m [1m(enforce-versions)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 40 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/target/classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 44 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/target/test-classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/test/java/io/protostuff/runtime/SerializableObjects.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/test/java/io/protostuff/runtime/SerializableObjects.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Some input files use unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.18.1:test[m [1m(default-test)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:build-classpath[m [1m(default-cli)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Wrote classpath file '/home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/189/protostuff-runtime/target/dspot/classpath'.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 15.757 s
+[[1;34mINFO[m] Finished at: 2018-05-16T17:53:57+02:00
+[[1;34mINFO[m] Final Memory: 26M/266M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[55782] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/189_modified/protostuff-runtime and dataset/may-2018/protostuff/189/protostuff-runtime (0a73677ba0cb310cb242cac74d890ee889a739ee)
+[55975] INFO SelectorOnDiff - Modified files:
+a/protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/IdStrategy.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/ArraySchemas.java
+[172831] INFO Amplification - amplification of io.protostuff.runtime.NullArrayElementTest (10 test(s))
+[178184] INFO Amplification - Try to add assertions before amplification
+[178326] INFO AssertGenerator - Run tests. (10)
+[182270] INFO AssertGenerator - 20 test pass, generating assertion...
+[182404] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[182405] INFO MethodsAssertGenerator - Instrumentation...
+ 10% |===== ]/ 20% |========== ]- 30% |=============== ]\ 40% |==================== ]| 50% |========================= ]/ 60% |============================== ]- 70% |=================================== ]\ 80% |======================================== ]| 90% |============================================= ]/100% |================================================== ]-
+[182644] INFO MethodsAssertGenerator - Run instrumented tests. (30)
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: target/dspot/observations.ser (No such file or directory)
+	at eu.stamp.project.Main.main(Main.java:96)
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: target/dspot/observations.ser (No such file or directory)
+	at eu.stamp.project.Main.lambda$run$2(Main.java:152)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp.project.Main.run(Main.java:117)
+	at eu.stamp.project.Main.main(Main.java:88)
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: target/dspot/observations.ser (No such file or directory)
+	at fr.inria.diversify.compare.ObjectLog.load(ObjectLog.java:221)
+	at fr.inria.diversify.compare.ObjectLog.getObservations(ObjectLog.java:193)
+	at fr.inria.diversify.dspot.assertGenerator.MethodsAssertGenerator.addAssertions(MethodsAssertGenerator.java:108)
+	at fr.inria.diversify.dspot.assertGenerator.AssertGenerator.innerAssertionAmplification(AssertGenerator.java:117)
+	at fr.inria.diversify.dspot.assertGenerator.AssertGenerator.assertionAmplification(AssertGenerator.java:66)
+	at fr.inria.diversify.dspot.Amplification.preAmplification(Amplification.java:202)
+	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:91)
+	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:183)
+	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:170)
+	at eu.stamp.project.Main.lambda$null$1(Main.java:143)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at eu.stamp.project.Main.lambda$run$2(Main.java:144)
+	... 11 more
+Caused by: java.io.FileNotFoundException: target/dspot/observations.ser (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at fr.inria.diversify.compare.ObjectLog.load(ObjectLog.java:214)
+	... 28 more

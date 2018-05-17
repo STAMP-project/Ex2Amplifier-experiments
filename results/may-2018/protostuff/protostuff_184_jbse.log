@@ -1,0 +1,427 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/bdanglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/bdanglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[26] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding protostuff :: runtime 1.4.3-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.3.1:enforce[m [1m(enforce-versions)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 40 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 44 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/test/java/io/protostuff/runtime/AnnotatedFieldsTest.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/test/java/io/protostuff/runtime/AnnotatedFieldsTest.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/test/java/io/protostuff/runtime/DefaultIdStrategyTest.java: Some input files use unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/test/java/io/protostuff/runtime/DefaultIdStrategyTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.18.1:test[m [1m(default-test)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:build-classpath[m [1m(default-cli)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Wrote classpath file '/home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/classpath'.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 13.427 s
+[[1;34mINFO[m] Finished at: 2018-05-16T18:06:06+02:00
+[[1;34mINFO[m] Final Memory: 26M/266M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[29917] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[29917] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[29918] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mBuilding protostuff :: runtime 1.4.3-SNAPSHOT[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.3.1:enforce[m [1m(enforce-versions)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Skipping Rule Enforcement.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 40 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 44 source files to /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/test-classes
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/CollectionTest.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/CollectionTest.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Some input files use unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.18.1:test[m [1m(default-test)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:build-classpath[m [1m(default-cli)[m @ [36mprotostuff-runtime[0;1m ---[m
+[[1;34mINFO[m] Wrote classpath file '/home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/dspot/classpath'.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time: 13.761 s
+[[1;34mINFO[m] Finished at: 2018-05-16T18:06:36+02:00
+[[1;34mINFO[m] Final Memory: 25M/261M
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[47844] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/184/protostuff-runtime and dataset/may-2018/protostuff/184_modified/protostuff-runtime (09422597e78e63b9f8eb18eb51429c634ba53346)
+[47851] INFO SelectorOnDiff - Modified files:
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/IdStrategy.java
+a/protostuff-runtime/src/test/java/io/protostuff/runtime/ExcludeFieldTest.java
+[146921] INFO Amplification - amplification of io.protostuff.runtime.ExcludeFieldTest (3 test(s))
+[148043] INFO Amplification - Try to add assertions before amplification
+[148128] INFO AssertGenerator - Run tests. (3)
+[149191] INFO AssertGenerator - 3 test pass, generating assertion...
+[149196] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[149196] INFO MethodsAssertGenerator - Instrumentation...
+ 33% |================ ]/ 66% |================================= ]-100% |================================================== ]\
+[149252] INFO MethodsAssertGenerator - Run instrumented tests. (9)
+[150750] INFO MethodsAssertGenerator - Generating assertions...
+[150815] INFO AssertGenerator - 3 new tests with assertions generated
+[152071] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[152073] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[152244] DEBUG Launcher - built in 172 ms
+[152248] DEBUG Launcher - building templates: []
+[152248] DEBUG Launcher - built in 0 ms
+[152250] DEBUG Launcher - model built in 179
+[152251] DEBUG Launcher - compiling sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[152261] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -d, /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[152590] DEBUG Launcher - compiled in 338 ms
+[153363] INFO Amplification - 3 amplified test(s) has been selected, global: 3
+[153368] INFO Amplification - amp testMuchExcludedEntity (1/3)
+[153406] DEBUG Launcher - printing io.protostuff.runtime.ExcludeFieldTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[154485] INFO Amplification - iteration 0:
+[154485] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[154485] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[154561] DEBUG Launcher - printing io.protostuff.runtime.ExcludeFieldTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[154664] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[154665] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[154841] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java:79
+[154841] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java:80
+[154841] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java:82
+[154842] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java:84
+[154842] DEBUG Launcher - built in 177 ms
+[154842] DEBUG Launcher - building templates: []
+[154842] DEBUG Launcher - built in 0 ms
+[154847] DEBUG Launcher - model built in 182
+[154847] DEBUG Launcher - compiling sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[154847] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -d, /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[155015] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/ExcludeFieldTest.java:73
+[155015] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/ExcludeFieldTest.java:74
+[155015] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/ExcludeFieldTest.java:76
+[155015] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/ExcludeFieldTest.java:78
+[155015] DEBUG Launcher - compiled in 168 ms
+This is the Java Bytecode Symbolic Executor's Run Tool (JBSE v.0.8.0-SNAPSHOT).
+Connecting to Z3 at lib/z3/build/bin/z3.
+Failed initialization of the symbolic execution.
+jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/ExcludeFieldTest
+	at jbse.algo.Algo_INIT.createInitialState(Algo_INIT.java:56)
+	at jbse.algo.Algo_INIT.exec(Algo_INIT.java:33)
+	at jbse.jvm.Engine.init(Engine.java:153)
+	at jbse.jvm.EngineBuilder.build(EngineBuilder.java:63)
+	at jbse.jvm.RunnerBuilder.build(RunnerBuilder.java:48)
+	at jbse.apps.run.Run.build(Run.java:715)
+	at jbse.apps.run.Run.run(Run.java:591)
+	at eu.stamp.project.ex2amplifier.jbse.JBSERunner.runJBSE(JBSERunner.java:82)
+	at eu.stamp.project.ex2amplifier.amplifier.JBSEAmplifier.internalApply(JBSEAmplifier.java:44)
+	at eu.stamp.project.ex2amplifier.amplifier.Ex2Amplifier.apply(Ex2Amplifier.java:68)
+	at fr.inria.diversify.dspot.Amplification.lambda$inputAmplifyTest$7(Amplification.java:245)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:267)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceTask.doLeaf(ReduceOps.java:747)
+	at java.util.stream.ReduceOps$ReduceTask.doLeaf(ReduceOps.java:721)
+	at java.util.stream.AbstractTask.compute(AbstractTask.java:316)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateParallel(ReduceOps.java:714)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at fr.inria.diversify.dspot.Amplification.inputAmplifyTests(Amplification.java:226)
+	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:139)
+	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:103)
+	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:183)
+	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:170)
+	at eu.stamp.project.Main.lambda$null$1(Main.java:143)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at eu.stamp.project.Main.lambda$run$2(Main.java:144)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp.project.Main.run(Main.java:117)
+	at eu.stamp.project.Main.main(Main.java:88)
+Caused by: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/ExcludeFieldTest
+	at jbse.bc.ClassFileJavassist.<init>(ClassFileJavassist.java:39)
+	at jbse.bc.ClassFileFactoryJavassist.newClassFileClass(ClassFileFactoryJavassist.java:26)
+	at jbse.bc.ClassFileFactory.newClassFile(ClassFileFactory.java:60)
+	at jbse.bc.ClassFileStore.getClassFile(ClassFileStore.java:65)
+	at jbse.bc.ClassHierarchy.getClassFile(ClassHierarchy.java:87)
+	at jbse.mem.State.pushFrameSymbolic(State.java:1095)
+	at jbse.algo.Algo_INIT.createInitialState(Algo_INIT.java:49)
+	... 57 more
+[155502] INFO Amplification - 0 new tests generated
+[155502] INFO Amplification - 0 amplified test(s) has been selected, global: 3
+[155505] INFO Amplification - amp testIt (2/3)
+[155523] DEBUG Launcher - printing io.protostuff.runtime.ExcludeFieldTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[156488] INFO Amplification - iteration 0:
+[156488] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[156488] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[156508] DEBUG Launcher - printing io.protostuff.runtime.ExcludeFieldTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[156629] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[156630] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[156769] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java:79
+[156771] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java:80
+[156771] DEBUG Launcher - built in 142 ms
+[156772] DEBUG Launcher - building templates: []
+[156772] DEBUG Launcher - built in 0 ms
+[156773] DEBUG Launcher - model built in 144
+[156773] DEBUG Launcher - compiling sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[156774] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -d, /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[156891] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/ExcludeFieldTest.java:73
+[156891] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/ExcludeFieldTest.java:74
+[156891] DEBUG Launcher - compiled in 118 ms
+This is the Java Bytecode Symbolic Executor's Run Tool (JBSE v.0.8.0-SNAPSHOT).
+Connecting to Z3 at lib/z3/build/bin/z3.
+Failed initialization of the symbolic execution.
+jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/ExcludeFieldTest
+	at jbse.algo.Algo_INIT.createInitialState(Algo_INIT.java:56)
+	at jbse.algo.Algo_INIT.exec(Algo_INIT.java:33)
+	at jbse.jvm.Engine.init(Engine.java:153)
+	at jbse.jvm.EngineBuilder.build(EngineBuilder.java:63)
+	at jbse.jvm.RunnerBuilder.build(RunnerBuilder.java:48)
+	at jbse.apps.run.Run.build(Run.java:715)
+	at jbse.apps.run.Run.run(Run.java:591)
+	at eu.stamp.project.ex2amplifier.jbse.JBSERunner.runJBSE(JBSERunner.java:82)
+	at eu.stamp.project.ex2amplifier.amplifier.JBSEAmplifier.internalApply(JBSEAmplifier.java:44)
+	at eu.stamp.project.ex2amplifier.amplifier.Ex2Amplifier.apply(Ex2Amplifier.java:68)
+	at fr.inria.diversify.dspot.Amplification.lambda$inputAmplifyTest$7(Amplification.java:245)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:267)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceTask.doLeaf(ReduceOps.java:747)
+	at java.util.stream.ReduceOps$ReduceTask.doLeaf(ReduceOps.java:721)
+	at java.util.stream.AbstractTask.compute(AbstractTask.java:316)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateParallel(ReduceOps.java:714)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at fr.inria.diversify.dspot.Amplification.inputAmplifyTests(Amplification.java:226)
+	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:139)
+	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:103)
+	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:183)
+	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:170)
+	at eu.stamp.project.Main.lambda$null$1(Main.java:143)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at eu.stamp.project.Main.lambda$run$2(Main.java:144)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp.project.Main.run(Main.java:117)
+	at eu.stamp.project.Main.main(Main.java:88)
+Caused by: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/ExcludeFieldTest
+	at jbse.bc.ClassFileJavassist.<init>(ClassFileJavassist.java:39)
+	at jbse.bc.ClassFileFactoryJavassist.newClassFileClass(ClassFileFactoryJavassist.java:26)
+	at jbse.bc.ClassFileFactory.newClassFile(ClassFileFactory.java:60)
+	at jbse.bc.ClassFileStore.getClassFile(ClassFileStore.java:65)
+	at jbse.bc.ClassHierarchy.getClassFile(ClassHierarchy.java:87)
+	at jbse.mem.State.pushFrameSymbolic(State.java:1095)
+	at jbse.algo.Algo_INIT.createInitialState(Algo_INIT.java:49)
+	... 57 more
+[156908] INFO Amplification - 0 new tests generated
+[156908] INFO Amplification - 0 amplified test(s) has been selected, global: 3
+[156908] INFO Amplification - amp testTaggedAndExcludedEntity (3/3)
+[156919] DEBUG Launcher - printing io.protostuff.runtime.ExcludeFieldTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[157821] INFO Amplification - iteration 0:
+[157821] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[157821] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[157856] DEBUG Launcher - printing io.protostuff.runtime.ExcludeFieldTest to /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources
+[157941] DEBUG Launcher - building sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[157941] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[158019] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java:82
+[158019] DEBUG Launcher - built in 78 ms
+[158019] DEBUG Launcher - building templates: []
+[158019] DEBUG Launcher - built in 0 ms
+[158020] DEBUG Launcher - model built in 79
+[158021] DEBUG Launcher - compiling sources: [/home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[158021] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/bdanglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/bdanglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/bdanglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/bdanglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/bdanglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -d, /home/bdanglot/workspace/Ex2amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /home/bdanglot/workspace/Ex2amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[158123] WARN Launcher - warning: The operator == is undefined for the argument type(s) int, boolean at /home/bdanglot/workspace/Ex2amplifier-experiments/ExcludeFieldTest.java:76
+[158123] DEBUG Launcher - compiled in 102 ms
+This is the Java Bytecode Symbolic Executor's Run Tool (JBSE v.0.8.0-SNAPSHOT).
+Connecting to Z3 at lib/z3/build/bin/z3.
+Failed initialization of the symbolic execution.
+jbse.jvm.exc.InitializationException: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/ExcludeFieldTest
+	at jbse.algo.Algo_INIT.createInitialState(Algo_INIT.java:56)
+	at jbse.algo.Algo_INIT.exec(Algo_INIT.java:33)
+	at jbse.jvm.Engine.init(Engine.java:153)
+	at jbse.jvm.EngineBuilder.build(EngineBuilder.java:63)
+	at jbse.jvm.RunnerBuilder.build(RunnerBuilder.java:48)
+	at jbse.apps.run.Run.build(Run.java:715)
+	at jbse.apps.run.Run.run(Run.java:591)
+	at eu.stamp.project.ex2amplifier.jbse.JBSERunner.runJBSE(JBSERunner.java:82)
+	at eu.stamp.project.ex2amplifier.amplifier.JBSEAmplifier.internalApply(JBSEAmplifier.java:44)
+	at eu.stamp.project.ex2amplifier.amplifier.Ex2Amplifier.apply(Ex2Amplifier.java:68)
+	at fr.inria.diversify.dspot.Amplification.lambda$inputAmplifyTest$7(Amplification.java:245)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:267)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceTask.doLeaf(ReduceOps.java:747)
+	at java.util.stream.ReduceOps$ReduceTask.doLeaf(ReduceOps.java:721)
+	at java.util.stream.AbstractTask.compute(AbstractTask.java:316)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:401)
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:734)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateParallel(ReduceOps.java:714)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at fr.inria.diversify.dspot.Amplification.inputAmplifyTests(Amplification.java:226)
+	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:139)
+	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:103)
+	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:183)
+	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:170)
+	at eu.stamp.project.Main.lambda$null$1(Main.java:143)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at eu.stamp.project.Main.lambda$run$2(Main.java:144)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp.project.Main.run(Main.java:117)
+	at eu.stamp.project.Main.main(Main.java:88)
+Caused by: jbse.bc.exc.ClassFileNotFoundException: io/protostuff/runtime/ExcludeFieldTest
+	at jbse.bc.ClassFileJavassist.<init>(ClassFileJavassist.java:39)
+	at jbse.bc.ClassFileFactoryJavassist.newClassFileClass(ClassFileFactoryJavassist.java:26)
+	at jbse.bc.ClassFileFactory.newClassFile(ClassFileFactory.java:60)
+	at jbse.bc.ClassFileStore.getClassFile(ClassFileStore.java:65)
+	at jbse.bc.ClassHierarchy.getClassFile(ClassHierarchy.java:87)
+	at jbse.mem.State.pushFrameSymbolic(State.java:1095)
+	at jbse.algo.Algo_INIT.createInitialState(Algo_INIT.java:49)
+	... 57 more
+[158149] INFO Amplification - 0 new tests generated
+[158150] INFO Amplification - 0 amplified test(s) has been selected, global: 3
+[158150] INFO DSpot - elapsedTime 11238
+======= REPORT =======
+3 amplified test fails on the new versions.
+testMuchExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<333726343> but was:<443883637>
+testIt(io.protostuff.runtime.ExcludeFieldTest): expected:<95631473> but was:<29151877>
+testTaggedAndExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<-797320798> but was:<-1754333261>
+
+[158200] INFO DSpot - Print AmplExcludeFieldTest with 3 amplified test cases in results/may-2018/protostuff/184/JBSE
+[158201] DEBUG Launcher - printing io.protostuff.runtime.AmplExcludeFieldTest to /home/bdanglot/workspace/Ex2amplifier-experiments/results/may-2018/protostuff/184/JBSE

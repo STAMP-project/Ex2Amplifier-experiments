@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.jsoup.helper.HttpConnectionTest",
+      "timeInMs": 633054,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 21
+    }
+  ],
+  "projectName": "1038"
+}

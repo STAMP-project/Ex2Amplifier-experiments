@@ -1,0 +1,495 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jsoup Java HTML Parser 1.11.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsoup ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/src/main/java/org/jsoup/nodes/Attributes.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to net.sf.androidscents.signature:android-api-level-8:2.2_r3
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ jsoup >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/src/main/java/org/jsoup/nodes/Attributes.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to net.sf.androidscents.signature:android-api-level-8:2.2_r3
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ jsoup <<<
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ jsoup ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 25 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 45 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/src/test/java/org/jsoup/parser/AttributeParseTest.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/src/test/java/org/jsoup/parser/AttributeParseTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jsoup ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ jsoup ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.523 s
+[INFO] Finished at: 2018-05-17T09:48:55+02:00
+[INFO] Final Memory: 33M/430M
+[INFO] ------------------------------------------------------------------------
+[16058] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[16058] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[16059] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jsoup Java HTML Parser 1.11.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsoup ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/src/main/java/org/jsoup/nodes/Attributes.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to net.sf.androidscents.signature:android-api-level-8:2.2_r3
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ jsoup >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/src/main/java/org/jsoup/nodes/Attributes.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to net.sf.androidscents.signature:android-api-level-8:2.2_r3
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ jsoup <<<
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ jsoup ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 25 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 45 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/target/test-classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/src/test/java/org/jsoup/parser/AttributeParseTest.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/src/test/java/org/jsoup/parser/AttributeParseTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jsoup ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ jsoup ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.868 s
+[INFO] Finished at: 2018-05-17T09:49:11+02:00
+[INFO] Final Memory: 33M/440M
+[INFO] ------------------------------------------------------------------------
+[26813] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/1046_modified/ and dataset/may-2018/jsoup/1046/ (3c699bad0467bec4adc55666f0d02e312ab22a60)
+[26818] INFO SelectorOnDiff - Modified files:
+a/src/main/java/org/jsoup/parser/Tokeniser.java
+a/src/test/java/org/jsoup/parser/TokeniserTest.java
+[71942] INFO Amplification - amplification of org.jsoup.parser.TokeniserTest (10 test(s))
+[72670] INFO Amplification - Try to add assertions before amplification
+[72790] INFO AssertGenerator - Run tests. (10)
+[73456] INFO AssertGenerator - 10 test pass, generating assertion...
+[73460] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[73460] INFO MethodsAssertGenerator - Instrumentation...
+ 10% |===== ]/ 20% |========== ]- 30% |=============== ]\ 40% |==================== ]| 50% |========================= ]/ 60% |============================== ]- 70% |=================================== ]\ 80% |======================================== ]| 90% |============================================= ]/100% |================================================== ]-
+[73543] INFO MethodsAssertGenerator - Run instrumented tests. (30)
+[74550] INFO MethodsAssertGenerator - Generating assertions...
+[74757] INFO AssertGenerator - 8 new tests with assertions generated
+[75787] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[75795] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/classes:dataset/may-2018/jsoup/1046_modified//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[75878] DEBUG Launcher - built in 91 ms
+[75878] DEBUG Launcher - building templates: []
+[75878] DEBUG Launcher - built in 0 ms
+[75880] DEBUG Launcher - model built in 93
+[75880] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[75884] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/classes:dataset/may-2018/jsoup/1046_modified//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[76157] DEBUG Launcher - compiled in 276 ms
+[76719] INFO Amplification - 2 amplified test(s) has been selected, global: 2
+[76719] INFO Amplification - amp handleLargeComment (1/10)
+[76726] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[77220] INFO Amplification - iteration 0:
+[77221] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[77221] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[77249] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[77276] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[77277] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[77325] DEBUG Launcher - built in 49 ms
+[77325] DEBUG Launcher - building templates: []
+[77325] DEBUG Launcher - built in 0 ms
+[77326] DEBUG Launcher - model built in 50
+[77326] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[77327] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[77412] DEBUG Launcher - compiled in 86 ms
+[77415] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.parser.TokeniserTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[77536] INFO Amplification - 0 new tests generated
+[77536] INFO Amplification - 0 amplified test(s) has been selected, global: 2
+[77536] INFO Amplification - amp bufferUpInAttributeVal (2/10)
+[77543] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[78025] INFO Amplification - iteration 0:
+[78025] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[78025] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[78040] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[78065] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[78065] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[78117] DEBUG Launcher - built in 52 ms
+[78117] DEBUG Launcher - building templates: []
+[78118] DEBUG Launcher - built in 0 ms
+[78118] DEBUG Launcher - model built in 53
+[78119] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[78119] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[78198] DEBUG Launcher - compiled in 79 ms
+[78198] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.parser.TokeniserTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[78321] INFO Amplification - 0 new tests generated
+[78321] INFO Amplification - 0 amplified test(s) has been selected, global: 2
+[78321] INFO Amplification - amp cp1252EntitiesProduceError (3/10)
+[78329] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[78805] INFO Amplification - iteration 0:
+[78805] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[78805] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[78814] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[78846] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[78846] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[78893] DEBUG Launcher - built in 47 ms
+[78893] DEBUG Launcher - building templates: []
+[78893] DEBUG Launcher - built in 0 ms
+[78894] DEBUG Launcher - model built in 48
+[78894] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[78894] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[78966] DEBUG Launcher - compiled in 72 ms
+[78967] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.parser.TokeniserTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[79087] INFO Amplification - 0 new tests generated
+[79088] INFO Amplification - 0 amplified test(s) has been selected, global: 2
+[79088] INFO Amplification - amp cp1252SubstitutionTable (4/10)
+[79094] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[79496] INFO Amplification - iteration 0:
+[79496] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[79496] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[79504] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[79538] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[79538] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[79585] DEBUG Launcher - built in 47 ms
+[79585] DEBUG Launcher - building templates: []
+[79585] DEBUG Launcher - built in 0 ms
+[79585] DEBUG Launcher - model built in 47
+[79585] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[79586] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[79662] DEBUG Launcher - compiled in 77 ms
+[79663] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.parser.TokeniserTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[79782] INFO Amplification - 0 new tests generated
+[79782] INFO Amplification - 0 amplified test(s) has been selected, global: 2
+[79782] INFO Amplification - amp handleLargeCdata (5/10)
+[79788] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[80325] INFO Amplification - iteration 0:
+[80325] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[80325] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[80338] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[80360] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[80361] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[80405] DEBUG Launcher - built in 45 ms
+[80405] DEBUG Launcher - building templates: []
+[80405] DEBUG Launcher - built in 0 ms
+[80406] DEBUG Launcher - model built in 46
+[80406] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[80407] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[80475] DEBUG Launcher - compiled in 69 ms
+[80476] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.parser.TokeniserTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[80591] INFO Amplification - 0 new tests generated
+[80591] INFO Amplification - 0 amplified test(s) has been selected, global: 2
+[80591] INFO Amplification - amp handleLargeText (6/10)
+[80597] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[81106] INFO Amplification - iteration 0:
+[81106] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[81106] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[81117] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[81153] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[81153] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[81198] DEBUG Launcher - built in 45 ms
+[81199] DEBUG Launcher - building templates: []
+[81199] DEBUG Launcher - built in 0 ms
+[81199] DEBUG Launcher - model built in 46
+[81199] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[81200] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[81267] DEBUG Launcher - compiled in 68 ms
+[81268] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.parser.TokeniserTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[81383] INFO Amplification - 0 new tests generated
+[81383] INFO Amplification - 0 amplified test(s) has been selected, global: 2
+[81383] INFO Amplification - amp cp1252Entities (7/10)
+[81389] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[81852] INFO Amplification - iteration 0:
+[81852] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[81852] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[81865] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[81886] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[81886] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[81931] DEBUG Launcher - built in 45 ms
+[81931] DEBUG Launcher - building templates: []
+[81931] DEBUG Launcher - built in 0 ms
+[81932] DEBUG Launcher - model built in 46
+[81932] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[81933] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[81997] DEBUG Launcher - compiled in 65 ms
+[81998] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.parser.TokeniserTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[82114] INFO Amplification - 0 new tests generated
+[82115] INFO Amplification - 0 amplified test(s) has been selected, global: 2
+[82115] INFO Amplification - amp handleLargeTitle (8/10)
+[82121] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[82596] INFO Amplification - iteration 0:
+[82596] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[82596] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[82613] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[82636] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[82636] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[82693] DEBUG Launcher - built in 57 ms
+[82694] DEBUG Launcher - building templates: []
+[82694] DEBUG Launcher - built in 0 ms
+[82694] DEBUG Launcher - model built in 59
+[82694] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[82695] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[82766] DEBUG Launcher - compiled in 72 ms
+[82767] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.parser.TokeniserTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[82882] INFO Amplification - 0 new tests generated
+[82882] INFO Amplification - 0 amplified test(s) has been selected, global: 2
+[82882] INFO Amplification - amp handleSuperLargeTagNames (9/10)
+[82887] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[83429] INFO Amplification - iteration 0:
+[83429] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[83429] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[83442] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[83471] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[83472] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[83516] DEBUG Launcher - built in 45 ms
+[83516] DEBUG Launcher - building templates: []
+[83516] DEBUG Launcher - built in 0 ms
+[83517] DEBUG Launcher - model built in 46
+[83517] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[83517] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[83584] DEBUG Launcher - compiled in 67 ms
+[83585] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.parser.TokeniserTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[83698] INFO Amplification - 0 new tests generated
+[83698] INFO Amplification - 0 amplified test(s) has been selected, global: 2
+[83698] INFO Amplification - amp handleSuperLargeAttributeName (10/10)
+[83703] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[84214] INFO Amplification - iteration 0:
+[84214] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[84214] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[84226] DEBUG Launcher - printing org.jsoup.parser.TokeniserTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[84247] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[84248] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[84292] DEBUG Launcher - built in 45 ms
+[84292] DEBUG Launcher - building templates: []
+[84292] DEBUG Launcher - built in 0 ms
+[84292] DEBUG Launcher - model built in 45
+[84292] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[84293] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/1046_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokeniserTest.java]
+[84361] DEBUG Launcher - compiled in 69 ms
+[84362] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:dataset/may-2018/jsoup/1046_modified//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/1046_modified//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.parser.TokeniserTest
+FATAL ERROR in native method: processing of -javaagent failed
+Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethod(Class.java:2128)
+	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
+	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+[84518] INFO Amplification - 0 new tests generated
+[84519] INFO Amplification - 0 amplified test(s) has been selected, global: 2
+[84519] INFO DSpot - elapsedTime 12629
+======= REPORT =======
+2 amplified test fails on the new versions.
+cp1252EntitiesProduceError(org.jsoup.parser.TokeniserTest): expected:<[?]> but was:<[?]>
+cp1252Entities(org.jsoup.parser.TokeniserTest): expected:<[?]> but was:<[?]>
+
+[84588] INFO DSpot - Print AmplTokeniserTest with 2?amplified test cases in results/may-2018/jsoup/1046_modified/CATG
+[84588] DEBUG Launcher - printing org.jsoup.parser.AmplTokeniserTest to /tmp/Ex2Amplifier-experiments/results/may-2018/jsoup/1046_modified/CATG

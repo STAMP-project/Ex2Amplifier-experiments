@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.jsoup.nodes.AttributeTest",
+      "timeInMs": 4115,
+      "numberOfAmplifiedTestMethods": 2,
+      "numberOfTestMethodToBeAmplified": 2
+    }
+  ],
+  "projectName": "931_modified"
+}

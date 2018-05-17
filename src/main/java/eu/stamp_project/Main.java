@@ -3,6 +3,7 @@ package eu.stamp_project;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.martiansoftware.jsap.JSAPResult;
+import eu.stamp.project.testrunner.EntryPoint;
 import eu.stamp_project.ex2amplifier.amplifier.Ex2Amplifier;
 import eu.stamp_project.ex2amplifier.jbse.JBSERunner;
 import eu.stamp_project.dspot.DSpot;
@@ -61,7 +62,7 @@ public class Main {
     public static void main(String[] args) {
         JSAPResult jsapConfig = JSAPOptions.options.parse(args);
         Main.verbose = jsapConfig.getBoolean("verbose");
-        verbose = Main.verbose;
+        EntryPoint.verbose = Main.verbose;
         Main.onlyAampl = jsapConfig.getBoolean("aampl");
         Main.JBSE = jsapConfig.getBoolean("JBSE");
         Main.Ex2AmplifierMode = !jsapConfig.getBoolean("amplifiers");
@@ -70,7 +71,6 @@ public class Main {
 
         JBSERunner.depthScope = jsapConfig.getInt("depth");
         JBSERunner.countScope = jsapConfig.getInt("count");
-
         if (jsapConfig.getBoolean("help")) {
             JSAPOptions.showUsage();
         } else if (jsapConfig.getBoolean("get")) {

@@ -112,9 +112,9 @@ public class ChangeDetectorSelector implements TestSelector {
         final TestListener results;
         try {
             results = EntryPoint.runTests(classpath + AmplificationHelper.PATH_SEPARATOR +
-                            this.pathToChangedVersionOfProgram + "/" + this.program.getClassesDir()
+                            new File(this.pathToChangedVersionOfProgram + "/" + this.program.getClassesDir()).getAbsolutePath()
                             + AmplificationHelper.PATH_SEPARATOR +
-                            this.pathToChangedVersionOfProgram + "/" + this.program.getTestClassesDir(),
+                            new File(this.pathToChangedVersionOfProgram + "/" + this.program.getTestClassesDir()).getAbsolutePath(),
                     clone.getQualifiedName(),
                     amplifiedTestToBeKept.stream()
                             .map(CtMethod::getSimpleName)

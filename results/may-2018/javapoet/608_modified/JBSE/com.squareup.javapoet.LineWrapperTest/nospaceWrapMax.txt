@@ -1,0 +1,120 @@
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE58() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE59() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE60() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE61() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE62() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE63() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 11, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE64() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE65() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE66() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE67() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE68() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}
+@org.junit.Test(timeout = 10000)
+public void nospaceWrapMax_Ex2_JBSE69() throws java.lang.Exception {
+    java.lang.StringBuffer out = new java.lang.StringBuffer();
+    com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
+    lineWrapper.append("abcde");
+    lineWrapper.zeroWidthSpace(2);
+    lineWrapper.append("fghijk");
+    lineWrapper.close();
+    com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde\n    fghijk");
+}

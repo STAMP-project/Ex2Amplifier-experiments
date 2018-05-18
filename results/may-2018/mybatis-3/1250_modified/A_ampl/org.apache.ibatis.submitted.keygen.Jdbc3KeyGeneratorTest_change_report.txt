@@ -1,0 +1,3 @@
+======= REPORT =======
+1 amplified test fails on the new versions.
+shouldErrorUndefineProperty(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>

@@ -184,7 +184,7 @@ public class Main {
         }
     }
 
-    private static void clone(String pathToJsonFile, String output) throws FileNotFoundException {
+    private static void cloneFromFork(String pathToJsonFile, String output) throws FileNotFoundException {
         Gson gson = new Gson();
         final ProjectJSON projectJSON =
                 gson.fromJson(new FileReader(pathToJsonFile), ProjectJSON.class);
@@ -192,6 +192,18 @@ public class Main {
         LOGGER.info("{} Pull request to be cloned", projectJSON.pullRequests.size());
         projectJSON.pullRequests.forEach(pr -> {
             Cloner.cloneBothVersionOfForReplicationOfExp(projectJSON.name, pr, output + "/" + projectJSON.name);
+            DSpotUtils.printProgress(projectJSON.pullRequests.indexOf(pr), projectJSON.pullRequests.size());
+        });
+    }
+
+    private static void clone(String pathToJsonFile, String output) throws FileNotFoundException {
+        Gson gson = new Gson();
+        final ProjectJSON projectJSON =
+                gson.fromJson(new FileReader(pathToJsonFile), ProjectJSON.class);
+        LOGGER.info("Clone all data of pull request of {}", pathToJsonFile);
+        LOGGER.info("{} Pull request to be cloned", projectJSON.pullRequests.size());
+        projectJSON.pullRequests.forEach(pr -> {
+            Cloner.cloneBothVersionOf(pr, output + "/" + projectJSON.name);
             DSpotUtils.printProgress(projectJSON.pullRequests.indexOf(pr), projectJSON.pullRequests.size());
         });
     }

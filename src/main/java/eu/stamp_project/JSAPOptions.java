@@ -64,7 +64,14 @@ public class JSAPOptions {
         clone.setAllowMultipleDeclarations(false);
         clone.setShortFlag('c');
         clone.setLongFlag("clone");
-        clone.setHelp("[TASK] clone all pull request datas (base and head) of the specified json file.");
+        clone.setHelp("[TASK] clone all pull request datas (base and head) of the specified json file from the author's fork.");
+
+        FlaggedOption cloneOriginal = new FlaggedOption("cloneOriginal");
+        cloneOriginal.setStringParser(JSAP.STRING_PARSER);
+        cloneOriginal.setAllowMultipleDeclarations(false);
+        cloneOriginal.setShortFlag('z');
+        cloneOriginal.setLongFlag("cloneOriginal");
+        cloneOriginal.setHelp("[TASK] clone all pull request datas (base and head) of the specified json file from the original.");
 
         FlaggedOption run = new FlaggedOption("run");
         run.setStringParser(JSAP.STRING_PARSER);
@@ -123,6 +130,7 @@ public class JSAPOptions {
             jsap.registerParameter(verbose);
             jsap.registerParameter(get);
             jsap.registerParameter(clone);
+            jsap.registerParameter(cloneOriginal);
             jsap.registerParameter(run);
             jsap.registerParameter(output);
             jsap.registerParameter(idPr);

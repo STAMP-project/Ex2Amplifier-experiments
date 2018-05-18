@@ -3,7 +3,7 @@ package eu.stamp_project;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.martiansoftware.jsap.JSAPResult;
-import eu.stamp.project.testrunner.EntryPoint;
+import eu.stamp_project.testrunner.EntryPoint;
 import eu.stamp_project.ex2amplifier.amplifier.Ex2Amplifier;
 import eu.stamp_project.ex2amplifier.jbse.JBSERunner;
 import eu.stamp_project.dspot.DSpot;

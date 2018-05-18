@@ -37,6 +37,8 @@ def build(projects):
                             lines = fd.read().split('\n')
                             nb += int(lines[1].split(" ")[0])
                     path_json_file = path_result_for_mode + "/" + pr_id + ".json"
+                    if not os.path.exists(path_json_file):
+                        path_json_file = path_result_for_mode + "/protostuff-runtime.json"
                     with open(path_json_file) as f:
                         data = json.load(f)
                     time_amplification = 0
@@ -46,6 +48,9 @@ def build(projects):
                         time_amplification += int(classTime["timeInMs"])
                         numberOfTestMethodToBeAmplified += int(classTime["numberOfTestMethodToBeAmplified"])
                         numberOfAmplifiedTestMethods += int(classTime["numberOfAmplifiedTestMethods"])
+                    time_amplification = time_amplification / 1000
+                    if time_amplification > 60:
+                        time_amplification = time_amplification // 60
                     # pr & id mod & nb amplification & nb amplified & nb successful amplified & time
                     if mode == "A_ampl":
                         sucessfull_aampl[pr_id_key] = nb
@@ -73,9 +78,10 @@ def build(projects):
                     first = False;
                 else:
                     print row_to_print + "&" + pr_row
-            print "\\hline"
+            if len(rows[pr_id]) > 0:
+                print "\\hline"
             #gray = not gray
 
 
 if __name__ == '__main__':
-    build(projects=["javapoet"])
+    build(projects=["javapoet", "mybatis-3", "protostuff", "jsoup"])

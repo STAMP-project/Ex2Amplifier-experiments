@@ -55,6 +55,8 @@ public class Main {
 
     public static boolean verbose = false;
 
+    public static boolean useWorkingDirectory = true;
+
     private static final Logger LOGGER = LoggerFactory.getLogger(Main.class);
 
     public static final String LINE_SEPARATOR = System.getProperty("line.separator");

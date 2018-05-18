@@ -1,0 +1,12 @@
+@org.junit.Test(timeout = 10000)
+public void annotationWithFields_Ex2_JBSE312() throws java.lang.Exception {
+    com.squareup.javapoet.FieldSpec field = com.squareup.javapoet.FieldSpec.builder(int.class, "FOO").addModifiers(javax.lang.model.element.Modifier.PUBLIC, javax.lang.model.element.Modifier.STATIC, javax.lang.model.element.Modifier.FINAL).initializer("$L", 101).build();
+    com.squareup.javapoet.TypeSpec anno = com.squareup.javapoet.TypeSpec.annotationBuilder("Anno").addField(field).build();
+    com.google.common.truth.Truth.assertThat(toString(anno)).isEqualTo(("" + (((("package com.squareup.tacos;\n" + "\n") + "@interface Anno {\n") + "  int FOO = 101;\n") + "}\n")));
+}
+@org.junit.Test(timeout = 10000)
+public void annotationWithFields_Ex2_JBSE313() throws java.lang.Exception {
+    com.squareup.javapoet.FieldSpec field = com.squareup.javapoet.FieldSpec.builder(int.class, "FOO").addModifiers(javax.lang.model.element.Modifier.PUBLIC, javax.lang.model.element.Modifier.STATIC, javax.lang.model.element.Modifier.FINAL).initializer("$L", 101).build();
+    com.squareup.javapoet.TypeSpec anno = com.squareup.javapoet.TypeSpec.annotationBuilder("Anno").addField(field).build();
+    com.google.common.truth.Truth.assertThat(toString(anno)).isEqualTo(("" + (((("package com.squareup.tacos;\n" + "\n") + "@interface Anno {\n") + "  int FOO = 101;\n") + "}\n")));
+}

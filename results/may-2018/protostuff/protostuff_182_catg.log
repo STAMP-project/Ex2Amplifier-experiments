@@ -1,11 +1,11 @@
 SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[11] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[9] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -53,13 +53,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.836 s
-[INFO] Finished at: 2018-05-16T14:54:58+02:00
-[INFO] Final Memory: 26M/320M
+[INFO] Total time: 6.440 s
+[INFO] Finished at: 2018-05-21T17:43:13+02:00
+[INFO] Final Memory: 27M/315M
 [INFO] ------------------------------------------------------------------------
-[13810] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[13810] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[13810] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[13222] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[13222] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[13223] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -107,12 +107,12 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.359 s
-[INFO] Finished at: 2018-05-16T14:55:12+02:00
-[INFO] Final Memory: 26M/307M
+[INFO] Total time: 6.248 s
+[INFO] Finished at: 2018-05-21T17:43:26+02:00
+[INFO] Final Memory: 26M/306M
 [INFO] ------------------------------------------------------------------------
-[21730] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/182/protostuff-runtime and dataset/may-2018/protostuff/182_modified/protostuff-runtime (8bbf111d08632f1e95bf5b53a31950df05e4b135)
-[21747] INFO SelectorOnDiff - Modified files:
+[21044] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/182/protostuff-runtime and dataset/may-2018/protostuff/182_modified/protostuff-runtime (8bbf111d08632f1e95bf5b53a31950df05e4b135)
+[21059] INFO SelectorOnDiff - Modified files:
 a/protostuff-runtime/src/main/java/io/protostuff/runtime/PolymorphicSchemaFactories.java
 a/protostuff-runtime-registry/src/main/java/io/protostuff/runtime/NumericIdStrategy.java
 a/protostuff-runtime/src/main/java/io/protostuff/runtime/IdStrategy.java
@@ -132,102 +132,799 @@ a/protostuff-runtime-md/src/main/java/io/protostuff/runtime/RuntimeFieldFactory.
 a/protostuff-runtime/src/main/java/io/protostuff/runtime/ArraySchemas.java
 a/protostuff-runtime/src/main/java/io/protostuff/runtime/ObjectSchema.java
 a/protostuff-runtime-registry/src/main/java/io/protostuff/runtime/IncrementalIdStrategy.java
-[98472] INFO Amplification - amplification of io.protostuff.runtime.ObjectSchemaTest (1 test(s))
-[99411] INFO Amplification - Try to add assertions before amplification
-[99458] INFO AssertGenerator - Run tests. (1)
-[100333] INFO AssertGenerator - 1 test pass, generating assertion...
-[100347] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[100347] INFO MethodsAssertGenerator - Instrumentation...
+[97505] INFO Amplification - amplification of io.protostuff.runtime.ObjectSchemaTest (1 test(s))
+[97973] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+false
+[98483] INFO EntryPoint - Test has been run: testGraph
+[98483] INFO Amplification - Try to add assertions before amplification
+[98518] INFO AssertGenerator - Run tests. (1)
+[98759] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+false
+[99236] INFO EntryPoint - Test has been run: testGraph
+[99236] INFO AssertGenerator - 1 test pass, generating assertion...
+[99250] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[99250] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[100369] INFO MethodsAssertGenerator - Run instrumented tests. (3)
-[101158] INFO MethodsAssertGenerator - Generating assertions...
-[101161] INFO AssertGenerator - Could not generate any test with assertions
-[101161] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[101162] INFO Amplification - amp testGraph (1/1)
-[101940] INFO Amplification - iteration 0:
-[101940] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[101940] INFO Amplification - Amplification of inputs...
+[99271] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[99524] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph_withlog0:testGraph_withlog1:testGraph_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+[100016] INFO EntryPoint - Test has been run: testGraph_withlog0,testGraph_withlog1,testGraph_withlog2
+[100017] INFO MethodsAssertGenerator - Generating assertions...
+[100020] INFO AssertGenerator - Could not generate any test with assertions
+[100021] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[100021] INFO Amplification - amp testGraph (1/1)
+[100255] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+false
+[100754] INFO EntryPoint - Test has been run: testGraph
+[100755] INFO Amplification - iteration 0:
+[100755] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[100755] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[102137] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[102138] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[102226] DEBUG Launcher - built in 89 ms
-[102226] DEBUG Launcher - building templates: []
-[102226] DEBUG Launcher - built in 0 ms
-[102230] DEBUG Launcher - model built in 93
-[102231] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[102238] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[102696] DEBUG Launcher - compiled in 465 ms
-[102699] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea io.protostuff.runtime.ObjectSchemaTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[102838] INFO Amplification - 0 new tests generated
-[102838] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[102838] INFO DSpot - elapsedTime 4381
+[100949] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[100949] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[101043] DEBUG Launcher - built in 94 ms
+[101043] DEBUG Launcher - building templates: []
+[101043] DEBUG Launcher - built in 0 ms
+[101046] DEBUG Launcher - model built in 97
+[101047] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[101052] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[101501] DEBUG Launcher - compiled in 454 ms
+[101504] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea io.protostuff.runtime.ObjectSchemaTest
+WARNING: 
+Error: inputs (No such file or directory)
+false
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.setArgumentsAndNewFrame(ConcolicInterpreter.java:1056)
+	at janala.interpreters.ConcolicInterpreter.visitINVOKEVIRTUAL(ConcolicInterpreter.java:1097)
+	at janala.logger.inst.INVOKEVIRTUAL.visit(INVOKEVIRTUAL.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.ASTORE(AbstractLogger.java:217)
+	at janala.logger.DJVM.ASTORE(DJVM.java:224)
+	at io.protostuff.runtime.ObjectSchemaTest.main(ObjectSchemaTest.java:424)
+Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.setArgumentsAndNewFrame(ConcolicInterpreter.java:1056)
+	at janala.interpreters.ConcolicInterpreter.visitINVOKEVIRTUAL(ConcolicInterpreter.java:1097)
+	at janala.logger.inst.INVOKEVIRTUAL.visit(INVOKEVIRTUAL.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[102178] INFO Amplification - 0 new tests generated
+[102178] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[102178] INFO DSpot - elapsedTime 4690
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[102893] INFO DSpot - Print AmplObjectSchemaTest with 0?amplified test cases in results/may-2018/protostuff/182/CATG
-[102893] DEBUG Launcher - printing io.protostuff.runtime.AmplObjectSchemaTest to /tmp/Ex2Amplifier-experiments/results/may-2018/protostuff/182/CATG
-[102998] INFO Amplification - amplification of io.protostuff.runtime.DefaultIdStrategyTest (1 test(s))
-[103001] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[103554] INFO Amplification - Try to add assertions before amplification
-[103556] INFO AssertGenerator - Run tests. (1)
-[103558] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[104104] INFO AssertGenerator - 1 test pass, generating assertion...
-[104105] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[104105] INFO MethodsAssertGenerator - Instrumentation...
+[102232] INFO DSpot - Print AmplObjectSchemaTest with 0?amplified test cases in results/may-2018/protostuff/182/CATG
+[102549] INFO Amplification - amplification of io.protostuff.runtime.DefaultIdStrategyTest (1 test(s))
+[102611] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+[103297] INFO EntryPoint - Test has been run: privateConstructors
+[103297] INFO Amplification - Try to add assertions before amplification
+[103299] INFO AssertGenerator - Run tests. (1)
+[103346] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+[103882] INFO EntryPoint - Test has been run: privateConstructors
+[103882] INFO AssertGenerator - 1 test pass, generating assertion...
+[103882] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[103882] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[104107] INFO MethodsAssertGenerator - Run instrumented tests. (3)
-[104111] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[104735] INFO MethodsAssertGenerator - Generating assertions...
-[104736] INFO AssertGenerator - Could not generate any test with assertions
-[104736] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[104736] INFO Amplification - amp privateConstructors (1/1)
-[104738] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[105301] INFO Amplification - iteration 0:
-[105301] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[105301] INFO Amplification - Amplification of inputs...
+[103884] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[103936] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors_withlog0:privateConstructors_withlog1:privateConstructors_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+[104472] INFO EntryPoint - Test has been run: privateConstructors_withlog0,privateConstructors_withlog1,privateConstructors_withlog2
+[104473] INFO MethodsAssertGenerator - Generating assertions...
+[104474] INFO AssertGenerator - Could not generate any test with assertions
+[104474] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[104474] INFO Amplification - amp privateConstructors (1/1)
+[104520] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+[105037] INFO EntryPoint - Test has been run: privateConstructors
+[105037] INFO Amplification - iteration 0:
+[105038] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[105038] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[105304] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[105327] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[105327] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[105366] DEBUG Launcher - built in 39 ms
-[105366] DEBUG Launcher - building templates: []
-[105366] DEBUG Launcher - built in 0 ms
-[105366] DEBUG Launcher - model built in 39
-[105366] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[105367] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[105414] DEBUG Launcher - compiled in 48 ms
-[105416] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:dataset/may-2018/protostuff/182/protostuff-runtime//target/classes:target/dspot/dependencies/:dataset/may-2018/protostuff/182/protostuff-runtime//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea io.protostuff.runtime.DefaultIdStrategyTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[105531] INFO Amplification - 0 new tests generated
-[105531] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[105531] INFO DSpot - elapsedTime 2533
+[105066] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[105066] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[105107] DEBUG Launcher - built in 41 ms
+[105107] DEBUG Launcher - building templates: []
+[105107] DEBUG Launcher - built in 0 ms
+[105107] DEBUG Launcher - model built in 41
+[105107] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[105107] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[105167] DEBUG Launcher - compiled in 60 ms
+[105168] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea io.protostuff.runtime.DefaultIdStrategyTest
+WARNING: 
+Error: inputs (No such file or directory)
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:43)
+	at org.mockito.Mockito.<clinit>(Mockito.java:947)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:44)
+	at org.mockito.Mockito.<clinit>(Mockito.java:947)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:45)
+	at org.mockito.Mockito.<clinit>(Mockito.java:947)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues.<init>(ReturnsEmptyValues.java:57)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues.<init>(ReturnsMoreEmptyValues.java:51)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls.<init>(ReturnsSmartNulls.java:40)
+	at org.mockito.Answers.<clinit>(Answers.java:43)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues.<init>(ReturnsEmptyValues.java:58)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues.<init>(ReturnsMoreEmptyValues.java:51)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls.<init>(ReturnsSmartNulls.java:40)
+	at org.mockito.Answers.<clinit>(Answers.java:43)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:43)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMocks.<init>(ReturnsMocks.java:17)
+	at org.mockito.Answers.<clinit>(Answers.java:52)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:44)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMocks.<init>(ReturnsMocks.java:17)
+	at org.mockito.Answers.<clinit>(Answers.java:52)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:45)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMocks.<init>(ReturnsMocks.java:17)
+	at org.mockito.Answers.<clinit>(Answers.java:52)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues.<init>(ReturnsEmptyValues.java:57)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues.<init>(ReturnsMoreEmptyValues.java:51)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMocks.<init>(ReturnsMocks.java:18)
+	at org.mockito.Answers.<clinit>(Answers.java:52)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues.<init>(ReturnsEmptyValues.java:58)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues.<init>(ReturnsMoreEmptyValues.java:51)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMocks.<init>(ReturnsMocks.java:18)
+	at org.mockito.Answers.<clinit>(Answers.java:52)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[105896] INFO Amplification - 0 new tests generated
+[105896] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[105897] INFO DSpot - elapsedTime 3348
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[105533] INFO DSpot - Print AmplDefaultIdStrategyTest with 0?amplified test cases in results/may-2018/protostuff/182/CATG
-[105533] DEBUG Launcher - printing io.protostuff.runtime.AmplDefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/results/may-2018/protostuff/182/CATG
+[105899] INFO DSpot - Print AmplDefaultIdStrategyTest with 0?amplified test cases in results/may-2018/protostuff/182/CATG
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[8] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building protostuff :: runtime 1.4.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ protostuff-runtime ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ protostuff-runtime ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 40 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 43 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/test/java/io/protostuff/runtime/SerializableObjects.java: Some input files use or override a deprecated API.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/test/java/io/protostuff/runtime/SerializableObjects.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ protostuff-runtime ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ protostuff-runtime ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.433 s
+[INFO] Finished at: 2018-05-21T20:28:59+02:00
+[INFO] Final Memory: 26M/308M
+[INFO] ------------------------------------------------------------------------
+[13201] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[13201] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[13202] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building protostuff :: runtime 1.4.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ protostuff-runtime ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ protostuff-runtime ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 40 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target/classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 43 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target/test-classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AnnotatedFieldsTest.java: Some input files use or override a deprecated API.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AnnotatedFieldsTest.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ protostuff-runtime ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ protostuff-runtime ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182_modified/protostuff-runtime/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.349 s
+[INFO] Finished at: 2018-05-21T20:29:12+02:00
+[INFO] Final Memory: 26M/315M
+[INFO] ------------------------------------------------------------------------
+[21209] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/182/protostuff-runtime and dataset/may-2018/protostuff/182_modified/protostuff-runtime (8bbf111d08632f1e95bf5b53a31950df05e4b135)
+[21224] INFO SelectorOnDiff - Modified files:
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/PolymorphicSchemaFactories.java
+a/protostuff-runtime-registry/src/main/java/io/protostuff/runtime/NumericIdStrategy.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/IdStrategy.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeMapFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/DefaultIdStrategy.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/HasDelegate.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/HasSchema.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeCollectionFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/EnumIO.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/PolymorphicEnumSchema.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeReflectionFieldFactory.java
+a/protostuff-runtime-registry/src/main/java/io/protostuff/runtime/ExplicitIdStrategy.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeRepeatedFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeFieldFactory.java
+a/protostuff-runtime-md/src/main/java/io/protostuff/runtime/RuntimeFieldFactory.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/ArraySchemas.java
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/ObjectSchema.java
+a/protostuff-runtime-registry/src/main/java/io/protostuff/runtime/IncrementalIdStrategy.java
+[90940] INFO Amplification - amplification of io.protostuff.runtime.ObjectSchemaTest (1 test(s))
+[91374] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+false
+[91891] INFO EntryPoint - Test has been run: testGraph
+[91892] INFO Amplification - Try to add assertions before amplification
+[91929] INFO AssertGenerator - Run tests. (1)
+[92186] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+false
+[92680] INFO EntryPoint - Test has been run: testGraph
+[92681] INFO AssertGenerator - 1 test pass, generating assertion...
+[92695] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[92695] INFO MethodsAssertGenerator - Instrumentation...
+100% |================================================== ]/
+[92716] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[92973] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph_withlog0:testGraph_withlog1:testGraph_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+[93478] INFO EntryPoint - Test has been run: testGraph_withlog0,testGraph_withlog1,testGraph_withlog2
+[93480] INFO MethodsAssertGenerator - Generating assertions...
+[93486] INFO AssertGenerator - Could not generate any test with assertions
+[93486] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[93486] INFO Amplification - amp testGraph (1/1)
+[93723] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+false
+[94209] INFO EntryPoint - Test has been run: testGraph
+[94209] INFO Amplification - iteration 0:
+[94209] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[94209] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[94394] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[94395] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[94480] DEBUG Launcher - built in 86 ms
+[94480] DEBUG Launcher - building templates: []
+[94480] DEBUG Launcher - built in 0 ms
+[94483] DEBUG Launcher - model built in 89
+[94484] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[94491] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[94937] DEBUG Launcher - compiled in 453 ms
+[94941] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea io.protostuff.runtime.ObjectSchemaTest
+WARNING: 
+Error: inputs (No such file or directory)
+false
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.setArgumentsAndNewFrame(ConcolicInterpreter.java:1056)
+	at janala.interpreters.ConcolicInterpreter.visitINVOKEVIRTUAL(ConcolicInterpreter.java:1097)
+	at janala.logger.inst.INVOKEVIRTUAL.visit(INVOKEVIRTUAL.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.ASTORE(AbstractLogger.java:217)
+	at janala.logger.DJVM.ASTORE(DJVM.java:224)
+	at io.protostuff.runtime.ObjectSchemaTest.main(ObjectSchemaTest.java:424)
+Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.setArgumentsAndNewFrame(ConcolicInterpreter.java:1056)
+	at janala.interpreters.ConcolicInterpreter.visitINVOKEVIRTUAL(ConcolicInterpreter.java:1097)
+	at janala.logger.inst.INVOKEVIRTUAL.visit(INVOKEVIRTUAL.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[95689] INFO Amplification - 0 new tests generated
+[95689] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[95689] INFO DSpot - elapsedTime 4768
+======= REPORT =======
+0 amplified test fails on the new versions.
+
+[95743] INFO DSpot - Print AmplObjectSchemaTest with 0?amplified test cases in results/may-2018/protostuff/182/CATG
+[96019] INFO Amplification - amplification of io.protostuff.runtime.DefaultIdStrategyTest (1 test(s))
+[96070] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+[96725] INFO EntryPoint - Test has been run: privateConstructors
+[96725] INFO Amplification - Try to add assertions before amplification
+[96727] INFO AssertGenerator - Run tests. (1)
+[96793] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+[97308] INFO EntryPoint - Test has been run: privateConstructors
+[97308] INFO AssertGenerator - 1 test pass, generating assertion...
+[97309] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[97309] INFO MethodsAssertGenerator - Instrumentation...
+100% |================================================== ]/
+[97310] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[97362] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors_withlog0:privateConstructors_withlog1:privateConstructors_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+[97883] INFO EntryPoint - Test has been run: privateConstructors_withlog0,privateConstructors_withlog1,privateConstructors_withlog2
+[97884] INFO MethodsAssertGenerator - Generating assertions...
+[97884] INFO AssertGenerator - Could not generate any test with assertions
+[97884] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[97885] INFO Amplification - amp privateConstructors (1/1)
+[97928] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/dspot/TestListener.ser
+[98439] INFO EntryPoint - Test has been run: privateConstructors
+[98439] INFO Amplification - iteration 0:
+[98439] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[98439] INFO Amplification - Amplification of inputs...
+100% |================================================== ]/
+[98468] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[98468] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[98511] DEBUG Launcher - built in 43 ms
+[98511] DEBUG Launcher - building templates: []
+[98511] DEBUG Launcher - built in 0 ms
+[98511] DEBUG Launcher - model built in 43
+[98511] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[98512] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[98561] DEBUG Launcher - compiled in 50 ms
+[98562] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/182/protostuff-runtime/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea io.protostuff.runtime.DefaultIdStrategyTest
+WARNING: 
+Error: inputs (No such file or directory)
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:43)
+	at org.mockito.Mockito.<clinit>(Mockito.java:947)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:44)
+	at org.mockito.Mockito.<clinit>(Mockito.java:947)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:45)
+	at org.mockito.Mockito.<clinit>(Mockito.java:947)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues.<init>(ReturnsEmptyValues.java:57)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues.<init>(ReturnsMoreEmptyValues.java:51)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls.<init>(ReturnsSmartNulls.java:40)
+	at org.mockito.Answers.<clinit>(Answers.java:43)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues.<init>(ReturnsEmptyValues.java:58)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues.<init>(ReturnsMoreEmptyValues.java:51)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls.<init>(ReturnsSmartNulls.java:40)
+	at org.mockito.Answers.<clinit>(Answers.java:43)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:43)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMocks.<init>(ReturnsMocks.java:17)
+	at org.mockito.Answers.<clinit>(Answers.java:52)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:44)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMocks.<init>(ReturnsMocks.java:17)
+	at org.mockito.Answers.<clinit>(Answers.java:52)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.MockitoCore.<init>(MockitoCore.java:45)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMocks.<init>(ReturnsMocks.java:17)
+	at org.mockito.Answers.<clinit>(Answers.java:52)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues.<init>(ReturnsEmptyValues.java:57)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues.<init>(ReturnsMoreEmptyValues.java:51)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMocks.<init>(ReturnsMocks.java:18)
+	at org.mockito.Answers.<clinit>(Answers.java:52)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues.<init>(ReturnsEmptyValues.java:58)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues.<init>(ReturnsMoreEmptyValues.java:51)
+	at org.mockito.internal.stubbing.defaultanswers.ReturnsMocks.<init>(ReturnsMocks.java:18)
+	at org.mockito.Answers.<clinit>(Answers.java:52)
+	at org.mockito.Mockito.<clinit>(Mockito.java:958)
+	at io.protostuff.runtime.DefaultIdStrategyTest$TestMessage.<clinit>(DefaultIdStrategyTest.java:6)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at io.protostuff.runtime.IdStrategy.createMessageInstance(IdStrategy.java:1303)
+	at io.protostuff.runtime.DefaultIdStrategy$Lazy.getSchema(DefaultIdStrategy.java:698)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at io.protostuff.runtime.DefaultIdStrategyTest.main(DefaultIdStrategyTest.java:29)
+Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[99256] INFO Amplification - 0 new tests generated
+[99256] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[99256] INFO DSpot - elapsedTime 3237
+======= REPORT =======
+0 amplified test fails on the new versions.
+
+[99258] INFO DSpot - Print AmplDefaultIdStrategyTest with 0?amplified test cases in results/may-2018/protostuff/182/CATG

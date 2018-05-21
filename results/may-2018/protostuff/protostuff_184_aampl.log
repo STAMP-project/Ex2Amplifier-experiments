@@ -1,11 +1,11 @@
 SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[9] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -53,13 +53,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.358 s
-[INFO] Finished at: 2018-05-16T14:45:10+02:00
-[INFO] Final Memory: 26M/314M
+[INFO] Total time: 6.718 s
+[INFO] Finished at: 2018-05-21T17:33:45+02:00
+[INFO] Final Memory: 27M/312M
 [INFO] ------------------------------------------------------------------------
-[13096] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[13097] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[13097] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[13826] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[13826] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[13826] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -68,6 +68,7 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ protostuff-runtime ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target
 [INFO] 
 [INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ protostuff-runtime ---
 [INFO] Skipping Rule Enforcement.
@@ -106,40 +107,216 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.556 s
-[INFO] Finished at: 2018-05-16T14:45:23+02:00
-[INFO] Final Memory: 26M/315M
+[INFO] Total time: 6.413 s
+[INFO] Finished at: 2018-05-21T17:33:58+02:00
+[INFO] Final Memory: 27M/313M
 [INFO] ------------------------------------------------------------------------
-[21327] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/184/protostuff-runtime and dataset/may-2018/protostuff/184_modified/protostuff-runtime (09422597e78e63b9f8eb18eb51429c634ba53346)
-[21334] INFO SelectorOnDiff - Modified files:
+[21878] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/184/protostuff-runtime and dataset/may-2018/protostuff/184_modified/protostuff-runtime (09422597e78e63b9f8eb18eb51429c634ba53346)
+[21885] INFO SelectorOnDiff - Modified files:
 a/protostuff-runtime/src/main/java/io/protostuff/runtime/IdStrategy.java
 a/protostuff-runtime/src/test/java/io/protostuff/runtime/ExcludeFieldTest.java
-[92743] INFO Amplification - amplification of io.protostuff.runtime.ExcludeFieldTest (3 test(s))
-[93567] INFO Amplification - Try to add assertions before amplification
-[93607] INFO AssertGenerator - Run tests. (3)
-[94156] INFO AssertGenerator - 3 test pass, generating assertion...
-[94159] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[94159] INFO MethodsAssertGenerator - Instrumentation...
+[95702] INFO Amplification - amplification of io.protostuff.runtime.ExcludeFieldTest (3 test(s))
+[95891] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ExcludeFieldTest testMuchExcludedEntity:testIt:testTaggedAndExcludedEntity
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/TestListener.ser
+[96369] INFO EntryPoint - Test has been run: testIt,testMuchExcludedEntity,testTaggedAndExcludedEntity
+[96369] INFO Amplification - Try to add assertions before amplification
+[96399] INFO AssertGenerator - Run tests. (3)
+[96465] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ExcludeFieldTest testMuchExcludedEntity:testIt:testTaggedAndExcludedEntity
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/TestListener.ser
+[96868] INFO EntryPoint - Test has been run: testIt,testMuchExcludedEntity,testTaggedAndExcludedEntity
+[96869] INFO AssertGenerator - 3 test pass, generating assertion...
+[96872] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[96872] INFO MethodsAssertGenerator - Instrumentation...
  33% |================ ]/ 66% |================================= ]-100% |================================================== ]\
-[94195] INFO MethodsAssertGenerator - Run instrumented tests. (9)
-[94904] INFO MethodsAssertGenerator - Generating assertions...
-[94918] INFO AssertGenerator - 3 new tests with assertions generated
-[95448] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
-[95448] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
-[95499] DEBUG Launcher - built in 51 ms
-[95499] DEBUG Launcher - building templates: []
-[95499] DEBUG Launcher - built in 0 ms
-[95500] DEBUG Launcher - model built in 52
-[95501] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
-[95504] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
-[95593] DEBUG Launcher - compiled in 92 ms
-[96026] INFO Amplification - 3 amplified test(s) has been selected, global: 3
-[96026] INFO DSpot - elapsedTime 3287
+[96905] INFO MethodsAssertGenerator - Run instrumented tests. (9)
+[97031] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ExcludeFieldTest testMuchExcludedEntity_withlog0:testIt_withlog0:testTaggedAndExcludedEntity_withlog0:testMuchExcludedEntity_withlog1:testIt_withlog1:testTaggedAndExcludedEntity_withlog1:testMuchExcludedEntity_withlog2:testIt_withlog2:testTaggedAndExcludedEntity_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/TestListener.ser
+[97605] INFO EntryPoint - Test has been run: testMuchExcludedEntity_withlog0(io.protostuff.runtime.ExcludeFieldTest): null,testMuchExcludedEntity_withlog1(io.protostuff.runtime.ExcludeFieldTest): null,testMuchExcludedEntity_withlog2(io.protostuff.runtime.ExcludeFieldTest): null,testTaggedAndExcludedEntity_withlog0(io.protostuff.runtime.ExcludeFieldTest): null,testTaggedAndExcludedEntity_withlog1(io.protostuff.runtime.ExcludeFieldTest): null,testTaggedAndExcludedEntity_withlog2(io.protostuff.runtime.ExcludeFieldTest): null,testIt_withlog0(io.protostuff.runtime.ExcludeFieldTest): null,testIt_withlog1(io.protostuff.runtime.ExcludeFieldTest): null,testIt_withlog2(io.protostuff.runtime.ExcludeFieldTest): null
+[97613] INFO MethodsAssertGenerator - Generating assertions...
+[97629] INFO AssertGenerator - 3 new tests with assertions generated
+[97721] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ExcludeFieldTest testMuchExcludedEntity:testIt:testTaggedAndExcludedEntity
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/TestListener.ser
+[98177] INFO EntryPoint - Test has been run: testIt(io.protostuff.runtime.ExcludeFieldTest): expected:<-1175519463> but was:<-764318646>,testMuchExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<590647329> but was:<1286109424>,testTaggedAndExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<-607010996> but was:<-788558358>
+[98221] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[98221] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[98275] DEBUG Launcher - built in 54 ms
+[98275] DEBUG Launcher - building templates: []
+[98275] DEBUG Launcher - built in 0 ms
+[98276] DEBUG Launcher - model built in 55
+[98277] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[98280] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[98369] DEBUG Launcher - compiled in 92 ms
+[98370] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ExcludeFieldTest testMuchExcludedEntity:testIt:testTaggedAndExcludedEntity
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/TestListener.ser
+[98808] INFO EntryPoint - Test has been run: testIt(io.protostuff.runtime.ExcludeFieldTest): expected:<-1175519463> but was:<-1937443177>,testMuchExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<590647329> but was:<706994299>,testTaggedAndExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<-607010996> but was:<-292625283>
+[98810] INFO Amplification - 3 amplified test(s) has been selected, global: 3
+[98810] INFO DSpot - elapsedTime 3112
 ======= REPORT =======
 3 amplified test fails on the new versions.
-testMuchExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<1414100589> but was:<167321833>
-testIt(io.protostuff.runtime.ExcludeFieldTest): expected:<1667685104> but was:<-764318646>
-testTaggedAndExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<-1291015485> but was:<2131834548>
+testMuchExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<590647329> but was:<706994299>
+testIt(io.protostuff.runtime.ExcludeFieldTest): expected:<-1175519463> but was:<-1937443177>
+testTaggedAndExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<-607010996> but was:<-292625283>
 
-[96060] INFO DSpot - Print AmplExcludeFieldTest with 3?amplified test cases in results/may-2018/protostuff/184/A_ampl
-[96060] DEBUG Launcher - printing io.protostuff.runtime.AmplExcludeFieldTest to /tmp/Ex2Amplifier-experiments/results/may-2018/protostuff/184/A_ampl
+[98841] INFO DSpot - Print AmplExcludeFieldTest with 3?amplified test cases in results/may-2018/protostuff/184/A_ampl
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[8] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building protostuff :: runtime 1.4.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ protostuff-runtime ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ protostuff-runtime ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 40 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 44 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/test/java/io/protostuff/runtime/SerializableObjects.java: Some input files use or override a deprecated API.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/test/java/io/protostuff/runtime/SerializableObjects.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/test/java/io/protostuff/runtime/ObjectSchemaTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/src/test/java/io/protostuff/runtime/ObjectSchemaTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ protostuff-runtime ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ protostuff-runtime ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.343 s
+[INFO] Finished at: 2018-05-21T20:19:12+02:00
+[INFO] Final Memory: 26M/306M
+[INFO] ------------------------------------------------------------------------
+[13485] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[13485] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[13486] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building protostuff :: runtime 1.4.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ protostuff-runtime ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ protostuff-runtime ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 40 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[60,34] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[62,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[66,49] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[71,29] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/RuntimeUnsafeFieldFactory.java:[86,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/main/java/io/protostuff/runtime/OnDemandSunReflectionFactory.java:[40,44] sun.reflect.ReflectionFactory is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ protostuff-runtime ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ protostuff-runtime ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 44 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/test-classes
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/CollectionTest.java: Some input files use or override a deprecated API.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/CollectionTest.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeObjectSchemaTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ protostuff-runtime ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ protostuff-runtime ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.505 s
+[INFO] Finished at: 2018-05-21T20:19:26+02:00
+[INFO] Final Memory: 26M/314M
+[INFO] ------------------------------------------------------------------------
+[21648] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/184/protostuff-runtime and dataset/may-2018/protostuff/184_modified/protostuff-runtime (09422597e78e63b9f8eb18eb51429c634ba53346)
+[21655] INFO SelectorOnDiff - Modified files:
+a/protostuff-runtime/src/main/java/io/protostuff/runtime/IdStrategy.java
+a/protostuff-runtime/src/test/java/io/protostuff/runtime/ExcludeFieldTest.java
+[92812] INFO Amplification - amplification of io.protostuff.runtime.ExcludeFieldTest (3 test(s))
+[93036] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ExcludeFieldTest testMuchExcludedEntity:testIt:testTaggedAndExcludedEntity
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/TestListener.ser
+[93521] INFO EntryPoint - Test has been run: testIt,testMuchExcludedEntity,testTaggedAndExcludedEntity
+[93522] INFO Amplification - Try to add assertions before amplification
+[93554] INFO AssertGenerator - Run tests. (3)
+[93625] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ExcludeFieldTest testMuchExcludedEntity:testIt:testTaggedAndExcludedEntity
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/TestListener.ser
+[94044] INFO EntryPoint - Test has been run: testIt,testMuchExcludedEntity,testTaggedAndExcludedEntity
+[94045] INFO AssertGenerator - 3 test pass, generating assertion...
+[94049] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[94049] INFO MethodsAssertGenerator - Instrumentation...
+ 33% |================ ]/ 66% |================================= ]-100% |================================================== ]\
+[94084] INFO MethodsAssertGenerator - Run instrumented tests. (9)
+[94219] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ExcludeFieldTest testMuchExcludedEntity_withlog0:testIt_withlog0:testTaggedAndExcludedEntity_withlog0:testMuchExcludedEntity_withlog1:testIt_withlog1:testTaggedAndExcludedEntity_withlog1:testMuchExcludedEntity_withlog2:testIt_withlog2:testTaggedAndExcludedEntity_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/TestListener.ser
+[94830] INFO EntryPoint - Test has been run: testMuchExcludedEntity_withlog0(io.protostuff.runtime.ExcludeFieldTest): null,testMuchExcludedEntity_withlog1(io.protostuff.runtime.ExcludeFieldTest): null,testMuchExcludedEntity_withlog2(io.protostuff.runtime.ExcludeFieldTest): null,testTaggedAndExcludedEntity_withlog0(io.protostuff.runtime.ExcludeFieldTest): null,testTaggedAndExcludedEntity_withlog1(io.protostuff.runtime.ExcludeFieldTest): null,testTaggedAndExcludedEntity_withlog2(io.protostuff.runtime.ExcludeFieldTest): null,testIt_withlog0(io.protostuff.runtime.ExcludeFieldTest): null,testIt_withlog1(io.protostuff.runtime.ExcludeFieldTest): null,testIt_withlog2(io.protostuff.runtime.ExcludeFieldTest): null
+[94836] INFO MethodsAssertGenerator - Generating assertions...
+[94852] INFO AssertGenerator - 3 new tests with assertions generated
+[94944] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ExcludeFieldTest testMuchExcludedEntity:testIt:testTaggedAndExcludedEntity
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/TestListener.ser
+[95400] INFO EntryPoint - Test has been run: testIt(io.protostuff.runtime.ExcludeFieldTest): expected:<688823122> but was:<-259388244>,testMuchExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<1414100589> but was:<1286109424>,testTaggedAndExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<-887613253> but was:<-788558358>
+[95451] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[95451] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[95551] DEBUG Launcher - built in 100 ms
+[95551] DEBUG Launcher - building templates: []
+[95551] DEBUG Launcher - built in 0 ms
+[95552] DEBUG Launcher - model built in 101
+[95553] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[95555] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/184/protostuff-runtime//target/classes:dataset/may-2018/protostuff/184/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ExcludeFieldTest.java]
+[95643] DEBUG Launcher - compiled in 90 ms
+[95644] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184_modified/protostuff-runtime/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ExcludeFieldTest testMuchExcludedEntity:testIt:testTaggedAndExcludedEntity
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/184/protostuff-runtime/target/dspot/TestListener.ser
+[96089] INFO EntryPoint - Test has been run: testIt(io.protostuff.runtime.ExcludeFieldTest): expected:<688823122> but was:<-1937443177>,testMuchExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<1414100589> but was:<706994299>,testTaggedAndExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<-887613253> but was:<-292625283>
+[96091] INFO Amplification - 3 amplified test(s) has been selected, global: 3
+[96091] INFO DSpot - elapsedTime 3282
+======= REPORT =======
+3 amplified test fails on the new versions.
+testMuchExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<1414100589> but was:<706994299>
+testIt(io.protostuff.runtime.ExcludeFieldTest): expected:<688823122> but was:<-1937443177>
+testTaggedAndExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<-887613253> but was:<-292625283>
+
+[96122] INFO DSpot - Print AmplExcludeFieldTest with 3?amplified test cases in results/may-2018/protostuff/184/A_ampl

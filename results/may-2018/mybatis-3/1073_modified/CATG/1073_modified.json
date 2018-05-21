@@ -1,0 +1,23 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.apache.ibatis.logging.jdbc.BaseJdbcLoggerTest",
+      "timeInMs": 12645,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
+    },
+    {
+      "fullQualifiedName": "org.apache.ibatis.parsing.PropertyParserTest",
+      "timeInMs": 10779,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
+    },
+    {
+      "fullQualifiedName": "org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest",
+      "timeInMs": 17861,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
+    }
+  ],
+  "projectName": "1073_modified"
+}

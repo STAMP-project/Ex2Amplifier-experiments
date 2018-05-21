@@ -125,7 +125,7 @@ public class Main {
                             ex2Amplifier.init(inputConfiguration);
                             amplifiers = Collections.singletonList(ex2Amplifier);
                         } else {
-                            amplifiers = Arrays.asList(new StatementAdd(), new AllLiteralAmplifiers());
+                            amplifiers = Collections.singletonList(new AllLiteralAmplifiers());
                         }
                         final ChangeDetectorSelector changeDetectorSelector = new ChangeDetectorSelector();
                         final DSpot dSpot = new DSpot(

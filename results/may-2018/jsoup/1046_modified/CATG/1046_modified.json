@@ -2,7 +2,7 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.jsoup.parser.TokeniserTest",
-      "timeInMs": 12629,
+      "timeInMs": 33343,
       "numberOfAmplifiedTestMethods": 8,
       "numberOfTestMethodToBeAmplified": 10
     }

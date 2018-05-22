@@ -1,11 +1,11 @@
 SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[18] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -64,13 +64,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.932 s
-[INFO] Finished at: 2018-05-17T11:57:42+02:00
-[INFO] Final Memory: 32M/447M
+[INFO] Total time: 14.358 s
+[INFO] Finished at: 2018-05-22T01:53:38+02:00
+[INFO] Final Memory: 36M/1542M
 [INFO] ------------------------------------------------------------------------
-[15883] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[15883] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[15883] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[24337] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[24337] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[24339] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -129,337 +129,457 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.111 s
-[INFO] Finished at: 2018-05-17T11:57:57+02:00
-[INFO] Final Memory: 32M/391M
+[INFO] Total time: 13.732 s
+[INFO] Finished at: 2018-05-22T01:54:02+02:00
+[INFO] Final Memory: 33M/1483M
 [INFO] ------------------------------------------------------------------------
-[26632] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/835/ and dataset/may-2018/jsoup/835_modified/ (f28c024ba127fd701f0d195a359afbabff04d7a1)
-[26637] INFO SelectorOnDiff - Modified files:
+[40976] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/835/ and dataset/may-2018/jsoup/835_modified/ (f28c024ba127fd701f0d195a359afbabff04d7a1)
+[40986] INFO SelectorOnDiff - Modified files:
 a/src/test/java/org/jsoup/helper/DataUtilTest.java
 a/src/main/java/org/jsoup/helper/DataUtil.java
-[71415] INFO Amplification - amplification of org.jsoup.helper.DataUtilTest (11 test(s))
-[72169] WARN Amplification - 1 tests failed before the amplifications
-[72170] WARN Amplification - supportsBOMinFiles(org.jsoup.helper.DataUtilTest): null
-[72170] WARN Amplification - Discarding following test cases for the amplification
-[72173] WARN Amplification - supportsBOMinFiles
-[72776] INFO Amplification - Try to add assertions before amplification
-[72845] INFO AssertGenerator - Run tests. (10)
-[73407] INFO AssertGenerator - 10 test pass, generating assertion...
-[73410] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[73410] INFO MethodsAssertGenerator - Instrumentation...
+[107335] INFO Amplification - amplification of org.jsoup.helper.DataUtilTest (11 test(s))
+[107637] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries:shouldReturnNullForIllegalCharsetNames:testQuotedCharset:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags:supportsBOMinFiles:discardsSpuriousByteOrderMarkWhenNoCharsetSet:discardsSpuriousByteOrderMark:wrongMetaCharsetFallback:shouldNotThrowExceptionOnEmptyCharset:testCharset:shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[108591] INFO EntryPoint - Test has been run: generatesMimeBoundaries,discardsSpuriousByteOrderMarkWhenNoCharsetSet,discardsSpuriousByteOrderMark,shouldCorrectCharsetForDuplicateCharsetString,shouldNotThrowExceptionOnEmptyCharset,testCharset,testQuotedCharset,wrongMetaCharsetFallback,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags,shouldReturnNullForIllegalCharsetNames,supportsBOMinFiles(org.jsoup.helper.DataUtilTest): null
+[108591] WARN Amplification - 1 tests failed before the amplifications
+[108593] WARN Amplification - supportsBOMinFiles(org.jsoup.helper.DataUtilTest): null
+[108593] WARN Amplification - Discarding following test cases for the amplification
+[108599] WARN Amplification - supportsBOMinFiles
+[108747] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries:shouldReturnNullForIllegalCharsetNames:testQuotedCharset:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags:discardsSpuriousByteOrderMarkWhenNoCharsetSet:discardsSpuriousByteOrderMark:wrongMetaCharsetFallback:shouldNotThrowExceptionOnEmptyCharset:testCharset:shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[109428] INFO EntryPoint - Test has been run: generatesMimeBoundaries,discardsSpuriousByteOrderMarkWhenNoCharsetSet,discardsSpuriousByteOrderMark,shouldCorrectCharsetForDuplicateCharsetString,shouldNotThrowExceptionOnEmptyCharset,testCharset,testQuotedCharset,wrongMetaCharsetFallback,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags,shouldReturnNullForIllegalCharsetNames
+[109428] INFO Amplification - Try to add assertions before amplification
+[109575] INFO AssertGenerator - Run tests. (10)
+[109700] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries:shouldReturnNullForIllegalCharsetNames:testQuotedCharset:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags:discardsSpuriousByteOrderMarkWhenNoCharsetSet:discardsSpuriousByteOrderMark:wrongMetaCharsetFallback:shouldNotThrowExceptionOnEmptyCharset:testCharset:shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[110648] INFO EntryPoint - Test has been run: generatesMimeBoundaries,discardsSpuriousByteOrderMarkWhenNoCharsetSet,discardsSpuriousByteOrderMark,shouldCorrectCharsetForDuplicateCharsetString,shouldNotThrowExceptionOnEmptyCharset,testCharset,testQuotedCharset,wrongMetaCharsetFallback,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags,shouldReturnNullForIllegalCharsetNames
+[110650] INFO AssertGenerator - 10 test pass, generating assertion...
+[110656] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[110656] INFO MethodsAssertGenerator - Instrumentation...
  10% |===== ]/ 20% |========== ]- 30% |=============== ]\ 40% |==================== ]| 50% |========================= ]/ 60% |============================== ]- 70% |=================================== ]\ 80% |======================================== ]| 90% |============================================= ]/100% |================================================== ]-
-[73463] INFO MethodsAssertGenerator - Run instrumented tests. (30)
-[74182] INFO MethodsAssertGenerator - Generating assertions...
-[74207] INFO AssertGenerator - 8 new tests with assertions generated
-[74882] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[74883] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/classes:dataset/may-2018/jsoup/835//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[74927] DEBUG Launcher - built in 45 ms
-[74927] DEBUG Launcher - building templates: []
-[74927] DEBUG Launcher - built in 0 ms
-[74928] DEBUG Launcher - model built in 46
-[74929] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[74932] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/classes:dataset/may-2018/jsoup/835//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[74993] DEBUG Launcher - compiled in 64 ms
-[75464] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[75465] INFO Amplification - amp generatesMimeBoundaries (1/10)
-[75471] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[75894] INFO Amplification - iteration 0:
-[75894] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[75894] INFO Amplification - Amplification of inputs...
+[110761] INFO MethodsAssertGenerator - Run instrumented tests. (30)
+[110982] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries_withlog0:shouldReturnNullForIllegalCharsetNames_withlog0:testQuotedCharset_withlog0:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog0:discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog0:discardsSpuriousByteOrderMark_withlog0:wrongMetaCharsetFallback_withlog0:shouldNotThrowExceptionOnEmptyCharset_withlog0:testCharset_withlog0:shouldCorrectCharsetForDuplicateCharsetString_withlog0:generatesMimeBoundaries_withlog1:shouldReturnNullForIllegalCharsetNames_withlog1:testQuotedCharset_withlog1:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog1:discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog1:discardsSpuriousByteOrderMark_withlog1:wrongMetaCharsetFallback_withlog1:shouldNotThrowExceptionOnEmptyCharset_withlog1:testCharset_withlog1:shouldCorrectCharsetForDuplicateCharsetString_withlog1:generatesMimeBoundaries_withlog2:shouldReturnNullForIllegalCharsetNames_withlog2:testQuotedCharset_withlog2:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog2:discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog2:discardsSpuriousByteOrderMark_withlog2:wrongMetaCharsetFallback_withlog2:shouldNotThrowExceptionOnEmptyCharset_withlog2:testCharset_withlog2:shouldCorrectCharsetForDuplicateCharsetString_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[112114] INFO EntryPoint - Test has been run: discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog0,discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog1,discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog2,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog0,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog1,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog2,discardsSpuriousByteOrderMark_withlog0,discardsSpuriousByteOrderMark_withlog1,discardsSpuriousByteOrderMark_withlog2,shouldCorrectCharsetForDuplicateCharsetString_withlog0,shouldCorrectCharsetForDuplicateCharsetString_withlog1,shouldCorrectCharsetForDuplicateCharsetString_withlog2,generatesMimeBoundaries_withlog0,generatesMimeBoundaries_withlog1,generatesMimeBoundaries_withlog2,wrongMetaCharsetFallback_withlog0,wrongMetaCharsetFallback_withlog1,wrongMetaCharsetFallback_withlog2,testQuotedCharset_withlog0(org.jsoup.helper.DataUtilTest): null,testQuotedCharset_withlog1(org.jsoup.helper.DataUtilTest): null,testQuotedCharset_withlog2(org.jsoup.helper.DataUtilTest): null,testCharset_withlog0(org.jsoup.helper.DataUtilTest): null,testCharset_withlog1(org.jsoup.helper.DataUtilTest): null,testCharset_withlog2(org.jsoup.helper.DataUtilTest): null,shouldReturnNullForIllegalCharsetNames_withlog0(org.jsoup.helper.DataUtilTest): null,shouldReturnNullForIllegalCharsetNames_withlog1(org.jsoup.helper.DataUtilTest): null,shouldReturnNullForIllegalCharsetNames_withlog2(org.jsoup.helper.DataUtilTest): null,shouldNotThrowExceptionOnEmptyCharset_withlog0(org.jsoup.helper.DataUtilTest): null,shouldNotThrowExceptionOnEmptyCharset_withlog1(org.jsoup.helper.DataUtilTest): null,shouldNotThrowExceptionOnEmptyCharset_withlog2(org.jsoup.helper.DataUtilTest): null
+[112126] INFO MethodsAssertGenerator - Generating assertions...
+[112164] INFO AssertGenerator - 8 new tests with assertions generated
+[112294] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries:testQuotedCharset:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags:discardsSpuriousByteOrderMarkWhenNoCharsetSet:discardsSpuriousByteOrderMark:wrongMetaCharsetFallback:testCharset:shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[113175] INFO EntryPoint - Test has been run: generatesMimeBoundaries,discardsSpuriousByteOrderMarkWhenNoCharsetSet,discardsSpuriousByteOrderMark,shouldCorrectCharsetForDuplicateCharsetString,testCharset,testQuotedCharset,wrongMetaCharsetFallback,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+[113336] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[113337] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/classes:dataset/may-2018/jsoup/835//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[113427] DEBUG Launcher - built in 90 ms
+[113428] DEBUG Launcher - building templates: []
+[113428] DEBUG Launcher - built in 0 ms
+[113429] DEBUG Launcher - model built in 93
+[113430] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[113434] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/classes:dataset/may-2018/jsoup/835//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[113554] DEBUG Launcher - compiled in 124 ms
+[113556] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835_modified/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835_modified/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries:testQuotedCharset:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags:discardsSpuriousByteOrderMarkWhenNoCharsetSet:discardsSpuriousByteOrderMark:wrongMetaCharsetFallback:testCharset:shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[114474] INFO EntryPoint - Test has been run: generatesMimeBoundaries,discardsSpuriousByteOrderMarkWhenNoCharsetSet,discardsSpuriousByteOrderMark,shouldCorrectCharsetForDuplicateCharsetString,testCharset,testQuotedCharset,wrongMetaCharsetFallback,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+[114475] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[114476] INFO Amplification - amp generatesMimeBoundaries (1/10)
+[114484] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[114578] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[115276] INFO EntryPoint - Test has been run: generatesMimeBoundaries
+[115276] INFO Amplification - iteration 0:
+[115276] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[115276] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[75900] INFO Amplification - 0 new tests generated
-[75900] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[75900] INFO Amplification - amp shouldReturnNullForIllegalCharsetNames (2/10)
-[75908] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[76338] INFO Amplification - iteration 0:
-[76338] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[76338] INFO Amplification - Amplification of inputs...
+[115291] INFO Amplification - 0 new tests generated
+[115292] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[115292] INFO Amplification - amp shouldReturnNullForIllegalCharsetNames (2/10)
+[115309] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[115416] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest shouldReturnNullForIllegalCharsetNames
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[116156] INFO EntryPoint - Test has been run: shouldReturnNullForIllegalCharsetNames
+[116156] INFO Amplification - iteration 0:
+[116156] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[116156] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[76353] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[76377] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[76377] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[76419] DEBUG Launcher - built in 42 ms
-[76419] DEBUG Launcher - building templates: []
-[76419] DEBUG Launcher - built in 0 ms
-[76419] DEBUG Launcher - model built in 42
-[76419] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[76420] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[76488] DEBUG Launcher - compiled in 69 ms
-[76492] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[76624] INFO Amplification - 0 new tests generated
-[76624] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[76624] INFO Amplification - amp testQuotedCharset (3/10)
-[76630] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[77083] INFO Amplification - iteration 0:
-[77083] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[77083] INFO Amplification - Amplification of inputs...
+[116185] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[116235] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[116236] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[116332] DEBUG Launcher - built in 97 ms
+[116333] DEBUG Launcher - building templates: []
+[116333] DEBUG Launcher - built in 0 ms
+[116333] DEBUG Launcher - model built in 98
+[116334] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[116335] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[116491] DEBUG Launcher - compiled in 157 ms
+[116498] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
+WARNING: 
+Error: inputs (No such file or directory)
+Exception in thread "main" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:107)
+Exception in thread "Thread-1" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[117249] INFO Amplification - 0 new tests generated
+[117249] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[117249] INFO Amplification - amp testQuotedCharset (3/10)
+[117260] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[117358] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest testQuotedCharset
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[118079] INFO EntryPoint - Test has been run: testQuotedCharset
+[118080] INFO Amplification - iteration 0:
+[118080] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[118080] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[77090] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[77115] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[77116] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[77157] DEBUG Launcher - built in 41 ms
-[77157] DEBUG Launcher - building templates: []
-[77157] DEBUG Launcher - built in 0 ms
-[77158] DEBUG Launcher - model built in 43
-[77158] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[77159] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[77253] DEBUG Launcher - compiled in 95 ms
-[77254] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[77384] INFO Amplification - 0 new tests generated
-[77384] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[77384] INFO Amplification - amp shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags (4/10)
-[77390] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[77856] INFO Amplification - iteration 0:
-[77856] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[77856] INFO Amplification - Amplification of inputs...
+[118096] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[118143] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[118143] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[118234] DEBUG Launcher - built in 91 ms
+[118234] DEBUG Launcher - building templates: []
+[118234] DEBUG Launcher - built in 0 ms
+[118235] DEBUG Launcher - model built in 92
+[118235] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[118237] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[118376] DEBUG Launcher - compiled in 140 ms
+[118378] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
+WARNING: 
+Error: inputs (No such file or directory)
+Exception in thread "main" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:111)
+Exception in thread "Thread-1" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[119162] INFO Amplification - 0 new tests generated
+[119162] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[119162] INFO Amplification - amp shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags (4/10)
+[119170] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[119230] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[119949] INFO EntryPoint - Test has been run: shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+[119949] INFO Amplification - iteration 0:
+[119950] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[119950] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[77860] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[77884] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[77884] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[77925] DEBUG Launcher - built in 41 ms
-[77925] DEBUG Launcher - building templates: []
-[77925] DEBUG Launcher - built in 0 ms
-[77926] DEBUG Launcher - model built in 42
-[77926] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[77927] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[77993] DEBUG Launcher - compiled in 67 ms
-[77995] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[78135] INFO Amplification - 0 new tests generated
-[78136] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[78136] INFO Amplification - amp discardsSpuriousByteOrderMarkWhenNoCharsetSet (5/10)
-[78141] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[78647] INFO Amplification - iteration 0:
-[78647] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[78647] INFO Amplification - Amplification of inputs...
+[119958] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[120001] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[120002] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[120091] DEBUG Launcher - built in 90 ms
+[120091] DEBUG Launcher - building templates: []
+[120092] DEBUG Launcher - built in 0 ms
+[120092] DEBUG Launcher - model built in 91
+[120092] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[120093] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[120220] DEBUG Launcher - compiled in 128 ms
+[120222] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
+WARNING: 
+Error: inputs (No such file or directory)
+Exception in thread "main" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:107)
+Exception in thread "Thread-1" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[120957] INFO Amplification - 0 new tests generated
+[120958] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[120958] INFO Amplification - amp discardsSpuriousByteOrderMarkWhenNoCharsetSet (5/10)
+[120968] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[121062] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest discardsSpuriousByteOrderMarkWhenNoCharsetSet
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[121930] INFO EntryPoint - Test has been run: discardsSpuriousByteOrderMarkWhenNoCharsetSet
+[121931] INFO Amplification - iteration 0:
+[121931] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[121931] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[78666] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[78687] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[78687] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[78755] DEBUG Launcher - built in 68 ms
-[78755] DEBUG Launcher - building templates: []
-[78755] DEBUG Launcher - built in 0 ms
-[78756] DEBUG Launcher - model built in 69
-[78756] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[78757] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[78820] DEBUG Launcher - compiled in 64 ms
-[78821] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[78940] INFO Amplification - 0 new tests generated
-[78940] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[78940] INFO Amplification - amp discardsSpuriousByteOrderMark (6/10)
-[78946] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[79448] INFO Amplification - iteration 0:
-[79448] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[79448] INFO Amplification - Amplification of inputs...
+[121973] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[122015] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[122016] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[122105] DEBUG Launcher - built in 90 ms
+[122105] DEBUG Launcher - building templates: []
+[122106] DEBUG Launcher - built in 1 ms
+[122106] DEBUG Launcher - model built in 91
+[122106] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[122107] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[122232] DEBUG Launcher - compiled in 126 ms
+[122241] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
+WARNING: 
+Error: inputs (No such file or directory)
+java.lang.ArrayIndexOutOfBoundsException: 9
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.jsoup.parser.Token$StartTag.<init>(Token.java:219)
+	at org.jsoup.parser.TreeBuilder.<init>(TreeBuilder.java:23)
+	at org.jsoup.parser.HtmlTreeBuilder.<init>(HtmlTreeBuilder.java:46)
+	at org.jsoup.parser.Parser.htmlParser(Parser.java:198)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:111)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:111)
+Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[123217] INFO Amplification - 0 new tests generated
+[123217] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[123217] INFO Amplification - amp discardsSpuriousByteOrderMark (6/10)
+[123233] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[123340] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest discardsSpuriousByteOrderMark
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[124200] INFO EntryPoint - Test has been run: discardsSpuriousByteOrderMark
+[124200] INFO Amplification - iteration 0:
+[124200] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[124200] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[79465] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[79483] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[79483] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[79524] DEBUG Launcher - built in 41 ms
-[79525] DEBUG Launcher - building templates: []
-[79525] DEBUG Launcher - built in 0 ms
-[79525] DEBUG Launcher - model built in 42
-[79525] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[79526] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[79587] DEBUG Launcher - compiled in 62 ms
-[79588] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[79714] INFO Amplification - 0 new tests generated
-[79715] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[79715] INFO Amplification - amp wrongMetaCharsetFallback (7/10)
-[79720] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[80240] INFO Amplification - iteration 0:
-[80240] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[80240] INFO Amplification - Amplification of inputs...
+[124238] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[124279] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[124280] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[124370] DEBUG Launcher - built in 91 ms
+[124370] DEBUG Launcher - building templates: []
+[124370] DEBUG Launcher - built in 0 ms
+[124371] DEBUG Launcher - model built in 92
+[124371] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[124372] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[124499] DEBUG Launcher - compiled in 128 ms
+[124501] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
+WARNING: 
+Error: inputs (No such file or directory)
+java.lang.ArrayIndexOutOfBoundsException: 9
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.jsoup.parser.Token$StartTag.<init>(Token.java:219)
+	at org.jsoup.parser.TreeBuilder.<init>(TreeBuilder.java:23)
+	at org.jsoup.parser.HtmlTreeBuilder.<init>(HtmlTreeBuilder.java:46)
+	at org.jsoup.parser.Parser.htmlParser(Parser.java:198)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:112)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:112)
+Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[125371] INFO Amplification - 0 new tests generated
+[125371] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[125371] INFO Amplification - amp wrongMetaCharsetFallback (7/10)
+[125381] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[125478] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest wrongMetaCharsetFallback
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[126359] INFO EntryPoint - Test has been run: wrongMetaCharsetFallback
+[126359] INFO Amplification - iteration 0:
+[126359] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[126359] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[80258] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[80279] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[80279] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[80320] DEBUG Launcher - built in 41 ms
-[80320] DEBUG Launcher - building templates: []
-[80320] DEBUG Launcher - built in 0 ms
-[80321] DEBUG Launcher - model built in 42
-[80321] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[80322] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[80385] DEBUG Launcher - compiled in 64 ms
-[80386] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[80507] INFO Amplification - 0 new tests generated
-[80507] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[80507] INFO Amplification - amp shouldNotThrowExceptionOnEmptyCharset (8/10)
-[80512] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[80913] INFO Amplification - iteration 0:
-[80913] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[80913] INFO Amplification - Amplification of inputs...
+[126397] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[126438] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[126439] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[126530] DEBUG Launcher - built in 92 ms
+[126530] DEBUG Launcher - building templates: []
+[126530] DEBUG Launcher - built in 0 ms
+[126531] DEBUG Launcher - model built in 93
+[126531] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[126533] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[126670] DEBUG Launcher - compiled in 139 ms
+[126671] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
+WARNING: 
+Error: inputs (No such file or directory)
+java.lang.ArrayIndexOutOfBoundsException: 9
+	at janala.interpreters.ObjectValue.setField(ObjectValue.java:104)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1395)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.SPECIAL(AbstractLogger.java:706)
+	at janala.logger.DJVM.SPECIAL(DJVM.java:708)
+	at org.jsoup.parser.Token$StartTag.<init>(Token.java:219)
+	at org.jsoup.parser.TreeBuilder.<init>(TreeBuilder.java:23)
+	at org.jsoup.parser.HtmlTreeBuilder.<init>(HtmlTreeBuilder.java:46)
+	at org.jsoup.parser.Parser.htmlParser(Parser.java:198)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:118)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:118)
+Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.remove(ArrayList.java:495)
+	at janala.interpreters.Frame.pop(Frame.java:77)
+	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
+	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[127700] INFO Amplification - 0 new tests generated
+[127700] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[127701] INFO Amplification - amp shouldNotThrowExceptionOnEmptyCharset (8/10)
+[127711] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[127803] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest shouldNotThrowExceptionOnEmptyCharset
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[128532] INFO EntryPoint - Test has been run: shouldNotThrowExceptionOnEmptyCharset
+[128532] INFO Amplification - iteration 0:
+[128533] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[128533] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[80917] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[80935] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[80935] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[80974] DEBUG Launcher - built in 39 ms
-[80974] DEBUG Launcher - building templates: []
-[80974] DEBUG Launcher - built in 0 ms
-[80974] DEBUG Launcher - model built in 39
-[80974] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[80975] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[81031] DEBUG Launcher - compiled in 57 ms
-[81032] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[81147] INFO Amplification - 0 new tests generated
-[81147] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[81147] INFO Amplification - amp testCharset (9/10)
-[81151] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[81584] INFO Amplification - iteration 0:
-[81584] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[81584] INFO Amplification - Amplification of inputs...
+[128542] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[128580] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[128581] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[128667] DEBUG Launcher - built in 87 ms
+[128667] DEBUG Launcher - building templates: []
+[128667] DEBUG Launcher - built in 0 ms
+[128668] DEBUG Launcher - model built in 88
+[128668] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[128669] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[128792] DEBUG Launcher - compiled in 124 ms
+[128793] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
+WARNING: 
+Error: inputs (No such file or directory)
+Exception in thread "main" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:108)
+Exception in thread "Thread-1" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[129514] INFO Amplification - 0 new tests generated
+[129514] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[129514] INFO Amplification - amp testCharset (9/10)
+[129525] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[129617] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest testCharset
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[130340] INFO EntryPoint - Test has been run: testCharset
+[130340] INFO Amplification - iteration 0:
+[130340] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[130340] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[81591] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[81610] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[81610] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[81651] DEBUG Launcher - built in 41 ms
-[81651] DEBUG Launcher - building templates: []
-[81651] DEBUG Launcher - built in 0 ms
-[81651] DEBUG Launcher - model built in 41
-[81651] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[81652] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[81712] DEBUG Launcher - compiled in 61 ms
-[81713] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[81832] INFO Amplification - 0 new tests generated
-[81832] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[81832] INFO Amplification - amp shouldCorrectCharsetForDuplicateCharsetString (10/10)
-[81837] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[82264] INFO Amplification - iteration 0:
-[82264] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[82264] INFO Amplification - Amplification of inputs...
+[130355] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[130393] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[130394] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[130482] DEBUG Launcher - built in 89 ms
+[130482] DEBUG Launcher - building templates: []
+[130482] DEBUG Launcher - built in 0 ms
+[130483] DEBUG Launcher - model built in 89
+[130483] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[130484] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[130609] DEBUG Launcher - compiled in 126 ms
+[130610] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
+WARNING: 
+Error: inputs (No such file or directory)
+Exception in thread "main" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:111)
+Exception in thread "Thread-1" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[131350] INFO Amplification - 0 new tests generated
+[131350] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[131350] INFO Amplification - amp shouldCorrectCharsetForDuplicateCharsetString (10/10)
+[131360] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[131452] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[132141] INFO EntryPoint - Test has been run: shouldCorrectCharsetForDuplicateCharsetString
+[132141] INFO Amplification - iteration 0:
+[132141] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[132141] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[82268] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[82285] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[82286] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[82324] DEBUG Launcher - built in 39 ms
-[82324] DEBUG Launcher - building templates: []
-[82324] DEBUG Launcher - built in 0 ms
-[82324] DEBUG Launcher - model built in 39
-[82324] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[82325] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[82379] DEBUG Launcher - compiled in 55 ms
-[82379] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=lib/catg.conf  -javaagent:lib/catg-dev.jar -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:dataset/may-2018/jsoup/835//target/classes:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/test-classes:lib/catg-dev.jar:lib/catg-dev.jar:lib/asm-all-5.0.4.jar:lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
-FATAL ERROR in native method: processing of -javaagent failed
-Exception in thread "main" java.lang.NoClassDefFoundError: org/objectweb/asm/ClassVisitor
-	at java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
-	at java.lang.Class.getDeclaredMethod(Class.java:2128)
-	at sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:327)
-	at sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:401)
-Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.ClassVisitor
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 5 more
-[82497] INFO Amplification - 0 new tests generated
-[82497] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[82497] INFO DSpot - elapsedTime 11158
+[132149] DEBUG Launcher - printing org.jsoup.helper.DataUtilTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[132187] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[132188] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[132274] DEBUG Launcher - built in 87 ms
+[132274] DEBUG Launcher - building templates: []
+[132274] DEBUG Launcher - built in 0 ms
+[132274] DEBUG Launcher - model built in 87
+[132275] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[132276] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[132408] DEBUG Launcher - compiled in 133 ms
+[132416] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.DataUtilTest
+WARNING: 
+Error: inputs (No such file or directory)
+Exception in thread "main" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
+	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
+	at org.jsoup.helper.DataUtilTest.main(DataUtilTest.java:107)
+Exception in thread "Thread-1" java.lang.NullPointerException
+	at janala.interpreters.ConcolicInterpreter.visitGETVALUE_Object(ConcolicInterpreter.java:656)
+	at janala.logger.inst.GETVALUE_Object.visit(GETVALUE_Object.java:16)
+	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
+	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
+	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
+[133170] INFO Amplification - 0 new tests generated
+[133170] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[133170] INFO DSpot - elapsedTime 26006
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[82590] INFO DSpot - Print AmplDataUtilTest with 0?amplified test cases in results/may-2018/jsoup/835/CATG
-[82590] DEBUG Launcher - printing org.jsoup.helper.AmplDataUtilTest to /tmp/Ex2Amplifier-experiments/results/may-2018/jsoup/835/CATG
+[133373] INFO DSpot - Print AmplDataUtilTest with 0?amplified test cases in results/may-2018/jsoup/835/CATG

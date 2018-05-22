@@ -9,20 +9,20 @@ public class AmplTokenQueueTest {
     @Test(timeout = 10000)
     public void chompBalanced() throws Exception {
         TokenQueue tq = new TokenQueue(":contains(one (two) three) four");
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesWord());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesWhitespace());
-        Assert.assertEquals("", ((org.jsoup.parser.TokenQueue)tq).consumeAttributeKey());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).consumeWhitespace());
-        Assert.assertEquals("", ((org.jsoup.parser.TokenQueue)tq).consumeElementSelector());
-        Assert.assertEquals("", ((org.jsoup.parser.TokenQueue)tq).consumeWord());
-        Assert.assertEquals('(', ((char) (((org.jsoup.parser.TokenQueue)tq).peek())));
-        Assert.assertEquals("(one (two) three) four", ((org.jsoup.parser.TokenQueue)tq).toString());
-        Assert.assertEquals("contains", ((org.jsoup.parser.TokenQueue)tq).consumeTagName());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).isEmpty());
-        Assert.assertEquals("(one (two) three) four", ((org.jsoup.parser.TokenQueue)tq).remainder());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesStartTag());
-        Assert.assertEquals("", ((org.jsoup.parser.TokenQueue)tq).consumeCssIdentifier());
-        Assert.assertEquals(':', ((char) (((org.jsoup.parser.TokenQueue)tq).consume())));
+        Assert.assertFalse(matchesWord());
+        Assert.assertFalse(matchesWhitespace());
+        Assert.assertEquals("", consumeAttributeKey());
+        Assert.assertFalse(consumeWhitespace());
+        Assert.assertEquals("", consumeElementSelector());
+        Assert.assertEquals("", consumeWord());
+        Assert.assertEquals('(', ((char) (peek())));
+        Assert.assertEquals("(one (two) three) four", ((org.jsoup.parser.TokenQueue) (tq)).toString());
+        Assert.assertEquals("contains", consumeTagName());
+        Assert.assertFalse(isEmpty());
+        Assert.assertEquals("(one (two) three) four", remainder());
+        Assert.assertFalse(matchesStartTag());
+        Assert.assertEquals("", consumeCssIdentifier());
+        Assert.assertEquals(':', ((char) (consume())));
         String pre = tq.consumeTo("(");
         Assert.assertEquals("", pre);
         String guts = tq.chompBalanced('(', ')');
@@ -31,37 +31,37 @@ public class AmplTokenQueueTest {
         Assert.assertEquals("", remainder);
         Assert.assertEquals("", guts);
         Assert.assertEquals("", pre);
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesWord());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesWhitespace());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).isEmpty());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesStartTag());
+        Assert.assertFalse(matchesWord());
+        Assert.assertFalse(matchesWhitespace());
+        Assert.assertFalse(isEmpty());
+        Assert.assertFalse(matchesStartTag());
     }
 
     @Test(timeout = 10000)
     public void chompBalancedMatchesAsMuchAsPossible() throws Exception {
         TokenQueue tq = new TokenQueue("unbalanced(something(or another)) else");
-        Assert.assertTrue(((org.jsoup.parser.TokenQueue)tq).matchesWord());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesWhitespace());
-        Assert.assertEquals("", ((org.jsoup.parser.TokenQueue)tq).consumeAttributeKey());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).consumeWhitespace());
-        Assert.assertEquals("", ((org.jsoup.parser.TokenQueue)tq).consumeElementSelector());
-        Assert.assertEquals("", ((org.jsoup.parser.TokenQueue)tq).consumeWord());
-        Assert.assertEquals('(', ((char) (((org.jsoup.parser.TokenQueue)tq).peek())));
-        Assert.assertEquals("(something(or another)) else", ((org.jsoup.parser.TokenQueue)tq).toString());
-        Assert.assertEquals("nbalanced", ((org.jsoup.parser.TokenQueue)tq).consumeTagName());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).isEmpty());
-        Assert.assertEquals("(something(or another)) else", ((org.jsoup.parser.TokenQueue)tq).remainder());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesStartTag());
-        Assert.assertEquals("", ((org.jsoup.parser.TokenQueue)tq).consumeCssIdentifier());
-        Assert.assertEquals('u', ((char) (((org.jsoup.parser.TokenQueue)tq).consume())));
+        Assert.assertTrue(matchesWord());
+        Assert.assertFalse(matchesWhitespace());
+        Assert.assertEquals("", consumeAttributeKey());
+        Assert.assertFalse(consumeWhitespace());
+        Assert.assertEquals("", consumeElementSelector());
+        Assert.assertEquals("", consumeWord());
+        Assert.assertEquals('(', ((char) (peek())));
+        Assert.assertEquals("(something(or another)) else", ((org.jsoup.parser.TokenQueue) (tq)).toString());
+        Assert.assertEquals("nbalanced", consumeTagName());
+        Assert.assertFalse(isEmpty());
+        Assert.assertEquals("(something(or another)) else", remainder());
+        Assert.assertFalse(matchesStartTag());
+        Assert.assertEquals("", consumeCssIdentifier());
+        Assert.assertEquals('u', ((char) (consume())));
         String o_chompBalancedMatchesAsMuchAsPossible__3 = tq.consumeTo("(");
         Assert.assertEquals("", o_chompBalancedMatchesAsMuchAsPossible__3);
         String match = tq.chompBalanced('(', ')');
         Assert.assertEquals("", match);
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesWord());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesWhitespace());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).isEmpty());
-        Assert.assertFalse(((org.jsoup.parser.TokenQueue)tq).matchesStartTag());
+        Assert.assertFalse(matchesWord());
+        Assert.assertFalse(matchesWhitespace());
+        Assert.assertFalse(isEmpty());
+        Assert.assertFalse(matchesStartTag());
         Assert.assertEquals("", o_chompBalancedMatchesAsMuchAsPossible__3);
     }
 }

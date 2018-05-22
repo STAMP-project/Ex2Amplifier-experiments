@@ -1,11 +1,11 @@
 SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[19] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -68,13 +68,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.914 s
-[INFO] Finished at: 2018-05-17T10:41:29+02:00
-[INFO] Final Memory: 33M/389M
+[INFO] Total time: 14.058 s
+[INFO] Finished at: 2018-05-21T22:55:34+02:00
+[INFO] Final Memory: 38M/1533M
 [INFO] ------------------------------------------------------------------------
-[16893] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[16893] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[16894] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[25026] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[25026] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[25027] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -137,37 +137,52 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.515 s
-[INFO] Finished at: 2018-05-17T10:41:46+02:00
-[INFO] Final Memory: 32M/415M
+[INFO] Total time: 13.927 s
+[INFO] Finished at: 2018-05-21T22:55:59+02:00
+[INFO] Final Memory: 38M/1557M
 [INFO] ------------------------------------------------------------------------
-[28133] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/988_modified/ and dataset/may-2018/jsoup/988/ (1791ef17ad6e0624a7b057b89439f7a33b3bbb82)
-[28159] INFO SelectorOnDiff - Modified files:
+[42258] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/988_modified/ and dataset/may-2018/jsoup/988/ (1791ef17ad6e0624a7b057b89439f7a33b3bbb82)
+[42319] INFO SelectorOnDiff - Modified files:
 a/src/main/java/org/jsoup/parser/TokenQueue.java
 a/src/test/java/org/jsoup/parser/TokenQueueTest.java
-[73763] INFO Amplification - amplification of org.jsoup.parser.TokenQueueTest (2 test(s))
-[74322] INFO Amplification - Try to add assertions before amplification
-[74334] INFO AssertGenerator - Run tests. (2)
-[74839] INFO AssertGenerator - 2 test pass, generating assertion...
-[74842] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[74842] INFO MethodsAssertGenerator - Instrumentation...
+[111659] INFO Amplification - amplification of org.jsoup.parser.TokenQueueTest (2 test(s))
+[111926] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/pl/pragmatists/JUnitParams/1.0.5/JUnitParams-1.0.5.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.parser.TokenQueueTest chompBalanced:chompBalancedMatchesAsMuchAsPossible
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/dspot/TestListener.ser
+[112763] INFO EntryPoint - Test has been run: chompBalanced,chompBalancedMatchesAsMuchAsPossible
+[112763] INFO Amplification - Try to add assertions before amplification
+[112788] INFO AssertGenerator - Run tests. (2)
+[112947] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/pl/pragmatists/JUnitParams/1.0.5/JUnitParams-1.0.5.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.parser.TokenQueueTest chompBalanced:chompBalancedMatchesAsMuchAsPossible
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/dspot/TestListener.ser
+[113774] INFO EntryPoint - Test has been run: chompBalanced,chompBalancedMatchesAsMuchAsPossible
+[113776] INFO AssertGenerator - 2 test pass, generating assertion...
+[113782] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[113782] INFO MethodsAssertGenerator - Instrumentation...
  50% |========================= ]/100% |================================================== ]-
-[74875] INFO MethodsAssertGenerator - Run instrumented tests. (6)
-[75508] INFO MethodsAssertGenerator - Generating assertions...
-[75533] INFO AssertGenerator - 2 new tests with assertions generated
-[76119] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokenQueueTest.java]
-[76119] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/988_modified//target/classes:dataset/may-2018/jsoup/988_modified//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokenQueueTest.java]
-[76164] DEBUG Launcher - built in 45 ms
-[76164] DEBUG Launcher - building templates: []
-[76164] DEBUG Launcher - built in 0 ms
-[76165] DEBUG Launcher - model built in 46
-[76165] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokenQueueTest.java]
-[76167] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/988_modified//target/classes:dataset/may-2018/jsoup/988_modified//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokenQueueTest.java]
-[76239] DEBUG Launcher - compiled in 74 ms
-[76623] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[76623] INFO DSpot - elapsedTime 2861
+[113843] INFO MethodsAssertGenerator - Run instrumented tests. (6)
+[114025] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/pl/pragmatists/JUnitParams/1.0.5/JUnitParams-1.0.5.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.parser.TokenQueueTest chompBalanced_withlog0:chompBalancedMatchesAsMuchAsPossible_withlog0:chompBalanced_withlog1:chompBalancedMatchesAsMuchAsPossible_withlog1:chompBalanced_withlog2:chompBalancedMatchesAsMuchAsPossible_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/dspot/TestListener.ser
+[115037] INFO EntryPoint - Test has been run: chompBalancedMatchesAsMuchAsPossible_withlog0,chompBalancedMatchesAsMuchAsPossible_withlog1,chompBalancedMatchesAsMuchAsPossible_withlog2,chompBalanced_withlog0,chompBalanced_withlog1,chompBalanced_withlog2
+[115056] INFO MethodsAssertGenerator - Generating assertions...
+[115096] INFO AssertGenerator - 2 new tests with assertions generated
+[115223] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/pl/pragmatists/JUnitParams/1.0.5/JUnitParams-1.0.5.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.parser.TokenQueueTest chompBalanced:chompBalancedMatchesAsMuchAsPossible
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/dspot/TestListener.ser
+[116045] INFO EntryPoint - Test has been run: chompBalanced(org.jsoup.parser.TokenQueueTest): expected:<[]> but was:<[:contains]>,chompBalancedMatchesAsMuchAsPossible(org.jsoup.parser.TokenQueueTest): expected:<[]> but was:<[unbalanced]>
+[116129] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokenQueueTest.java]
+[116130] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/988_modified//target/classes:dataset/may-2018/jsoup/988_modified//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokenQueueTest.java]
+[116231] DEBUG Launcher - built in 102 ms
+[116231] DEBUG Launcher - building templates: []
+[116232] DEBUG Launcher - built in 1 ms
+[116233] DEBUG Launcher - model built in 103
+[116234] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokenQueueTest.java]
+[116237] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/988_modified//target/classes:dataset/may-2018/jsoup/988_modified//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/parser/TokenQueueTest.java]
+[116385] DEBUG Launcher - compiled in 151 ms
+[116387] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-server/9.2.22.v20170606/jetty-server-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-http/9.2.22.v20170606/jetty-http-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-util/9.2.22.v20170606/jetty-util-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-io/9.2.22.v20170606/jetty-io-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-servlet/9.2.22.v20170606/jetty-servlet-9.2.22.v20170606.jar:/home/spirals/danglot/.m2/repository/org/eclipse/jetty/jetty-security/9.2.22.v20170606/jetty-security-9.2.22.v20170606.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.parser.TokenQueueTest chompBalanced:chompBalancedMatchesAsMuchAsPossible
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/988_modified/target/dspot/TestListener.ser
+[117093] INFO EntryPoint - Test has been run: chompBalanced,chompBalancedMatchesAsMuchAsPossible
+[117094] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[117094] INFO DSpot - elapsedTime 5439
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[76644] INFO DSpot - Print AmplTokenQueueTest with 0?amplified test cases in results/may-2018/jsoup/988_modified/A_ampl
-[76644] DEBUG Launcher - printing org.jsoup.parser.AmplTokenQueueTest to /tmp/Ex2Amplifier-experiments/results/may-2018/jsoup/988_modified/A_ampl
+[117134] INFO DSpot - Print AmplTokenQueueTest with 0?amplified test cases in results/may-2018/jsoup/988_modified/A_ampl

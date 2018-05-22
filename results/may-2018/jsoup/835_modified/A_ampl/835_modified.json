@@ -2,7 +2,7 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.jsoup.helper.DataUtilTest",
-      "timeInMs": 4439,
+      "timeInMs": 7973,
       "numberOfAmplifiedTestMethods": 10,
       "numberOfTestMethodToBeAmplified": 13
     }

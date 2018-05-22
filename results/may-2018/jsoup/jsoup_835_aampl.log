@@ -1,11 +1,11 @@
 SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[11] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[18] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -64,13 +64,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.710 s
-[INFO] Finished at: 2018-05-17T11:56:27+02:00
-[INFO] Final Memory: 31M/441M
+[INFO] Total time: 13.508 s
+[INFO] Finished at: 2018-05-22T01:51:42+02:00
+[INFO] Final Memory: 43M/1587M
 [INFO] ------------------------------------------------------------------------
-[15807] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[15807] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[15807] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[23755] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[23755] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[23756] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -128,41 +128,59 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 8.810 s
-[INFO] Finished at: 2018-05-17T11:56:42+02:00
-[INFO] Final Memory: 32M/386M
+[INFO] Total time: 13.207 s
+[INFO] Finished at: 2018-05-22T01:52:05+02:00
+[INFO] Final Memory: 35M/1541M
 [INFO] ------------------------------------------------------------------------
-[26285] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/835/ and dataset/may-2018/jsoup/835_modified/ (f28c024ba127fd701f0d195a359afbabff04d7a1)
-[26291] INFO SelectorOnDiff - Modified files:
+[39989] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/835/ and dataset/may-2018/jsoup/835_modified/ (f28c024ba127fd701f0d195a359afbabff04d7a1)
+[40001] INFO SelectorOnDiff - Modified files:
 a/src/test/java/org/jsoup/helper/DataUtilTest.java
 a/src/main/java/org/jsoup/helper/DataUtil.java
-[70163] INFO Amplification - amplification of org.jsoup.helper.DataUtilTest (11 test(s))
-[70917] WARN Amplification - 1 tests failed before the amplifications
-[70918] WARN Amplification - supportsBOMinFiles(org.jsoup.helper.DataUtilTest): null
-[70918] WARN Amplification - Discarding following test cases for the amplification
-[70921] WARN Amplification - supportsBOMinFiles
-[71486] INFO Amplification - Try to add assertions before amplification
-[71556] INFO AssertGenerator - Run tests. (10)
-[72111] INFO AssertGenerator - 10 test pass, generating assertion...
-[72113] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[72114] INFO MethodsAssertGenerator - Instrumentation...
+[105828] INFO Amplification - amplification of org.jsoup.helper.DataUtilTest (11 test(s))
+[106061] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries:shouldReturnNullForIllegalCharsetNames:testQuotedCharset:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags:supportsBOMinFiles:discardsSpuriousByteOrderMarkWhenNoCharsetSet:discardsSpuriousByteOrderMark:wrongMetaCharsetFallback:shouldNotThrowExceptionOnEmptyCharset:testCharset:shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[106963] INFO EntryPoint - Test has been run: generatesMimeBoundaries,discardsSpuriousByteOrderMarkWhenNoCharsetSet,discardsSpuriousByteOrderMark,shouldCorrectCharsetForDuplicateCharsetString,shouldNotThrowExceptionOnEmptyCharset,testCharset,testQuotedCharset,wrongMetaCharsetFallback,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags,shouldReturnNullForIllegalCharsetNames,supportsBOMinFiles(org.jsoup.helper.DataUtilTest): null
+[106963] WARN Amplification - 1 tests failed before the amplifications
+[106964] WARN Amplification - supportsBOMinFiles(org.jsoup.helper.DataUtilTest): null
+[106965] WARN Amplification - Discarding following test cases for the amplification
+[106973] WARN Amplification - supportsBOMinFiles
+[107095] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries:shouldReturnNullForIllegalCharsetNames:testQuotedCharset:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags:discardsSpuriousByteOrderMarkWhenNoCharsetSet:discardsSpuriousByteOrderMark:wrongMetaCharsetFallback:shouldNotThrowExceptionOnEmptyCharset:testCharset:shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[107824] INFO EntryPoint - Test has been run: generatesMimeBoundaries,discardsSpuriousByteOrderMarkWhenNoCharsetSet,discardsSpuriousByteOrderMark,shouldCorrectCharsetForDuplicateCharsetString,shouldNotThrowExceptionOnEmptyCharset,testCharset,testQuotedCharset,wrongMetaCharsetFallback,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags,shouldReturnNullForIllegalCharsetNames
+[107824] INFO Amplification - Try to add assertions before amplification
+[107978] INFO AssertGenerator - Run tests. (10)
+[108107] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries:shouldReturnNullForIllegalCharsetNames:testQuotedCharset:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags:discardsSpuriousByteOrderMarkWhenNoCharsetSet:discardsSpuriousByteOrderMark:wrongMetaCharsetFallback:shouldNotThrowExceptionOnEmptyCharset:testCharset:shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[109073] INFO EntryPoint - Test has been run: generatesMimeBoundaries,discardsSpuriousByteOrderMarkWhenNoCharsetSet,discardsSpuriousByteOrderMark,shouldCorrectCharsetForDuplicateCharsetString,shouldNotThrowExceptionOnEmptyCharset,testCharset,testQuotedCharset,wrongMetaCharsetFallback,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags,shouldReturnNullForIllegalCharsetNames
+[109074] INFO AssertGenerator - 10 test pass, generating assertion...
+[109080] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[109080] INFO MethodsAssertGenerator - Instrumentation...
  10% |===== ]/ 20% |========== ]- 30% |=============== ]\ 40% |==================== ]| 50% |========================= ]/ 60% |============================== ]- 70% |=================================== ]\ 80% |======================================== ]| 90% |============================================= ]/100% |================================================== ]-
-[72164] INFO MethodsAssertGenerator - Run instrumented tests. (30)
-[72851] INFO MethodsAssertGenerator - Generating assertions...
-[72874] INFO AssertGenerator - 8 new tests with assertions generated
-[73594] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[73594] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/classes:dataset/may-2018/jsoup/835//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[73637] DEBUG Launcher - built in 43 ms
-[73637] DEBUG Launcher - building templates: []
-[73637] DEBUG Launcher - built in 0 ms
-[73637] DEBUG Launcher - model built in 44
-[73638] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[73641] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/classes:dataset/may-2018/jsoup/835//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
-[73697] DEBUG Launcher - compiled in 59 ms
-[74150] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[74150] INFO DSpot - elapsedTime 4068
+[109202] INFO MethodsAssertGenerator - Run instrumented tests. (30)
+[109425] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries_withlog0:shouldReturnNullForIllegalCharsetNames_withlog0:testQuotedCharset_withlog0:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog0:discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog0:discardsSpuriousByteOrderMark_withlog0:wrongMetaCharsetFallback_withlog0:shouldNotThrowExceptionOnEmptyCharset_withlog0:testCharset_withlog0:shouldCorrectCharsetForDuplicateCharsetString_withlog0:generatesMimeBoundaries_withlog1:shouldReturnNullForIllegalCharsetNames_withlog1:testQuotedCharset_withlog1:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog1:discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog1:discardsSpuriousByteOrderMark_withlog1:wrongMetaCharsetFallback_withlog1:shouldNotThrowExceptionOnEmptyCharset_withlog1:testCharset_withlog1:shouldCorrectCharsetForDuplicateCharsetString_withlog1:generatesMimeBoundaries_withlog2:shouldReturnNullForIllegalCharsetNames_withlog2:testQuotedCharset_withlog2:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog2:discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog2:discardsSpuriousByteOrderMark_withlog2:wrongMetaCharsetFallback_withlog2:shouldNotThrowExceptionOnEmptyCharset_withlog2:testCharset_withlog2:shouldCorrectCharsetForDuplicateCharsetString_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[110545] INFO EntryPoint - Test has been run: discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog0,discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog1,discardsSpuriousByteOrderMarkWhenNoCharsetSet_withlog2,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog0,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog1,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags_withlog2,discardsSpuriousByteOrderMark_withlog0,discardsSpuriousByteOrderMark_withlog1,discardsSpuriousByteOrderMark_withlog2,shouldCorrectCharsetForDuplicateCharsetString_withlog0,shouldCorrectCharsetForDuplicateCharsetString_withlog1,shouldCorrectCharsetForDuplicateCharsetString_withlog2,generatesMimeBoundaries_withlog0,generatesMimeBoundaries_withlog1,generatesMimeBoundaries_withlog2,wrongMetaCharsetFallback_withlog0,wrongMetaCharsetFallback_withlog1,wrongMetaCharsetFallback_withlog2,testQuotedCharset_withlog0(org.jsoup.helper.DataUtilTest): null,testQuotedCharset_withlog1(org.jsoup.helper.DataUtilTest): null,testQuotedCharset_withlog2(org.jsoup.helper.DataUtilTest): null,testCharset_withlog0(org.jsoup.helper.DataUtilTest): null,testCharset_withlog1(org.jsoup.helper.DataUtilTest): null,testCharset_withlog2(org.jsoup.helper.DataUtilTest): null,shouldReturnNullForIllegalCharsetNames_withlog0(org.jsoup.helper.DataUtilTest): null,shouldReturnNullForIllegalCharsetNames_withlog1(org.jsoup.helper.DataUtilTest): null,shouldReturnNullForIllegalCharsetNames_withlog2(org.jsoup.helper.DataUtilTest): null,shouldNotThrowExceptionOnEmptyCharset_withlog0(org.jsoup.helper.DataUtilTest): null,shouldNotThrowExceptionOnEmptyCharset_withlog1(org.jsoup.helper.DataUtilTest): null,shouldNotThrowExceptionOnEmptyCharset_withlog2(org.jsoup.helper.DataUtilTest): null
+[110557] INFO MethodsAssertGenerator - Generating assertions...
+[110589] INFO AssertGenerator - 8 new tests with assertions generated
+[110699] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries:testQuotedCharset:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags:discardsSpuriousByteOrderMarkWhenNoCharsetSet:discardsSpuriousByteOrderMark:wrongMetaCharsetFallback:testCharset:shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[111654] INFO EntryPoint - Test has been run: generatesMimeBoundaries,discardsSpuriousByteOrderMarkWhenNoCharsetSet,discardsSpuriousByteOrderMark,shouldCorrectCharsetForDuplicateCharsetString,testCharset,testQuotedCharset,wrongMetaCharsetFallback,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+[111918] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[111919] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/classes:dataset/may-2018/jsoup/835//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[112008] DEBUG Launcher - built in 90 ms
+[112008] DEBUG Launcher - building templates: []
+[112008] DEBUG Launcher - built in 0 ms
+[112009] DEBUG Launcher - model built in 91
+[112010] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[112014] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/835//target/classes:dataset/may-2018/jsoup/835//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/DataUtilTest.java]
+[112135] DEBUG Launcher - compiled in 124 ms
+[112137] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835_modified/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835_modified/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.DataUtilTest generatesMimeBoundaries:testQuotedCharset:shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags:discardsSpuriousByteOrderMarkWhenNoCharsetSet:discardsSpuriousByteOrderMark:wrongMetaCharsetFallback:testCharset:shouldCorrectCharsetForDuplicateCharsetString
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/835/target/dspot/TestListener.ser
+[113058] INFO EntryPoint - Test has been run: generatesMimeBoundaries,discardsSpuriousByteOrderMarkWhenNoCharsetSet,discardsSpuriousByteOrderMark,shouldCorrectCharsetForDuplicateCharsetString,testCharset,testQuotedCharset,wrongMetaCharsetFallback,shouldSelectFirstCharsetOnWeirdMultileCharsetsInMetaTags
+[113058] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[113058] INFO DSpot - elapsedTime 7338
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[74248] INFO DSpot - Print AmplDataUtilTest with 0?amplified test cases in results/may-2018/jsoup/835/A_ampl
-[74249] DEBUG Launcher - printing org.jsoup.helper.AmplDataUtilTest to /tmp/Ex2Amplifier-experiments/results/may-2018/jsoup/835/A_ampl
+[113270] INFO DSpot - Print AmplDataUtilTest with 0?amplified test cases in results/may-2018/jsoup/835/A_ampl

@@ -4,7 +4,7 @@
 # this is why we have ~/apache-maven-3.3.9/bin/mvn to reach maven
 
 # cloning DSpot
-git clone https://github.com/STAMP-project/dspot.git
+git clone https://github.com/danglotb/dspot.git -b speed-up-input-amplification
 cd dspot
 ~/apache-maven-3.3.9/bin/mvn install -DskipTests
 cd ..

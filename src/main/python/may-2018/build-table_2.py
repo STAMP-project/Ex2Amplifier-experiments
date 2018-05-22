@@ -74,6 +74,11 @@ def getDatas(path_to_project_result, pr_id, mode):
     returnValue = [element for tupl in datas for element in tupl]
     return [element for tupl in datas for element in tupl]
 
+def findJsonFilePathIn(directory):
+    for file in os.listdir(directory):
+        if file.endswith(".json"):
+            return file
+    return ""
 
 def getData(path_to_project_result, pr_id, mode):
     path_result_for_mode = path_to_project_result + "/" + pr_id + "/" + mode
@@ -87,7 +92,9 @@ def getData(path_to_project_result, pr_id, mode):
             nb += int(lines[1].split(" ")[0])
     path_json_file = path_result_for_mode + "/" + pr_id + ".json"
     if not os.path.exists(path_json_file):
-        path_json_file = path_result_for_mode + "/protostuff-runtime.json"
+        path_json_file = path_result_for_mode + "/" + findJsonFilePathIn(path_result_for_mode + "/")
+    if not os.path.exists(path_json_file):
+        return -1, -1, -1, -1
     with open(path_json_file) as f:
         data = json.load(f)
     time_amplification = 0

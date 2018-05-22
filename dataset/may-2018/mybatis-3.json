@@ -13,15 +13,6 @@
       "headSha": "19f106877bc45dc39ae28421acd85ef864b2f5e8"
     },
     {
-      "id": 1167,
-      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
-      "baseRef": "master",
-      "baseSha": "e440bfaea37b312b32c522e261c895c8b287e21f",
-      "headUrl": "git://github.com/zhangweidavid/mybatis-3.git",
-      "headRef": "master",
-      "headSha": "c04409b6dbdabe45bd7ffede76914207e5af5828"
-    },
-    {
       "id": 1149,
       "baseUrl": "git://github.com/mybatis/mybatis-3.git",
       "baseRef": "master",
@@ -38,15 +29,6 @@
       "headUrl": "git://github.com/diribet/mybatis-3.git",
       "headRef": "batch-executor-fix",
       "headSha": "9fe23dc53a889c5b1c6366fc304fc8eaa0530ff0"
-    },
-    {
-      "id": 1093,
-      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
-      "baseRef": "master",
-      "baseSha": "90fa985d2e2cc04d132d3e5499a9cda1f7c521d4",
-      "headUrl": "git://github.com/harawata/mybatis-3.git",
-      "headRef": "constructor-args-resolution-bug",
-      "headSha": "aca4eedd25fde526ab91b4679cdef0cd7fb28f45"
     },
     {
       "id": 1084,
@@ -92,6 +74,24 @@
       "headUrl": "git://github.com/harawata/mybatis-3.git",
       "headRef": "typehandler-for-enum-interface",
       "headSha": "9a5bcf4bfb6a0638cfcea12c475c91f49448bae7"
+    },
+    {
+      "id": 926,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "586b0d2dae17727f65139e7016661e3c39554133",
+      "headUrl": "git://github.com/h3adache/mybatis-3.git",
+      "headRef": "master",
+      "headSha": "06bee566483f2ef208be86a2fc1d23b6a92ab776"
+    },
+    {
+      "id": 895,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "8fc78a7451ea7a46e83927b1b8db194947d68b3a",
+      "headUrl": "git://github.com/dulong/mybatis-3.git",
+      "headRef": "avoid-unexpected-automapping",
+      "headSha": "35683932c8fe33d0806bac1203bf7cb06c85c2ba"
     }
   ]
 }

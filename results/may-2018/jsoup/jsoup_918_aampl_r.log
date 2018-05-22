@@ -1,11 +1,11 @@
 SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[11] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[18] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -70,13 +70,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.623 s
-[INFO] Finished at: 2018-05-17T10:59:04+02:00
-[INFO] Final Memory: 32M/461M
+[INFO] Total time: 15.262 s
+[INFO] Finished at: 2018-05-21T23:25:37+02:00
+[INFO] Final Memory: 37M/1564M
 [INFO] ------------------------------------------------------------------------
-[15978] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[15978] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[15978] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[25375] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[25375] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[25376] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -141,26 +141,36 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.428 s
-[INFO] Finished at: 2018-05-17T10:59:20+02:00
-[INFO] Final Memory: 34M/397M
+[INFO] Total time: 14.446 s
+[INFO] Finished at: 2018-05-21T23:26:01+02:00
+[INFO] Final Memory: 37M/1542M
 [INFO] ------------------------------------------------------------------------
-[26991] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/918_modified/ and dataset/may-2018/jsoup/918/ (f5120f95a7f24989196492026f0a48ba8dd0404d)
-[27015] INFO SelectorOnDiff - Modified files:
+[42924] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/918_modified/ and dataset/may-2018/jsoup/918/ (f5120f95a7f24989196492026f0a48ba8dd0404d)
+[42982] INFO SelectorOnDiff - Modified files:
 a/src/main/java/org/jsoup/select/Evaluator.java
 a/src/test/java/org/jsoup/nodes/ElementTest.java
-[69823] INFO Amplification - amplification of org.jsoup.select.SelectorTest (1 test(s))
-[70608] INFO Amplification - Try to add assertions before amplification
-[70638] INFO AssertGenerator - Run tests. (1)
-[71279] INFO AssertGenerator - 1 test pass, generating assertion...
-[71300] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[71300] INFO MethodsAssertGenerator - Instrumentation...
+[111295] INFO Amplification - amplification of org.jsoup.select.SelectorTest (1 test(s))
+[111855] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.select.SelectorTest matchesOwn
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918_modified/target/dspot/TestListener.ser
+[112869] INFO EntryPoint - Test has been run: matchesOwn
+[112870] INFO Amplification - Try to add assertions before amplification
+[112934] INFO AssertGenerator - Run tests. (1)
+[113203] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.select.SelectorTest matchesOwn
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918_modified/target/dspot/TestListener.ser
+[114121] INFO EntryPoint - Test has been run: matchesOwn
+[114123] INFO AssertGenerator - 1 test pass, generating assertion...
+[114150] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[114150] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[71330] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[114198] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[114419] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.select.SelectorTest matchesOwn_withlog0:matchesOwn_withlog1:matchesOwn_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918_modified/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918_modified/target/dspot/TestListener.ser
+[134501] INFO EntryPoint - Test has been run: matchesOwn_withlog0,matchesOwn_withlog1,matchesOwn_withlog2
 Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
-	at eu.stamp.project.Main.main(Main.java:96)
+	at eu.stamp_project.Main.main(Main.java:96)
 Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
-	at eu.stamp.project.Main.lambda$run$2(Main.java:152)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:152)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -170,19 +180,19 @@ Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.Run
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp.project.Main.run(Main.java:117)
-	at eu.stamp.project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:117)
+	at eu.stamp_project.Main.main(Main.java:88)
 Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
-	at fr.inria.diversify.compare.ObjectLog.load(ObjectLog.java:221)
-	at fr.inria.diversify.compare.ObjectLog.getObservations(ObjectLog.java:193)
-	at fr.inria.diversify.dspot.assertGenerator.MethodsAssertGenerator.addAssertions(MethodsAssertGenerator.java:108)
-	at fr.inria.diversify.dspot.assertGenerator.AssertGenerator.innerAssertionAmplification(AssertGenerator.java:117)
-	at fr.inria.diversify.dspot.assertGenerator.AssertGenerator.assertionAmplification(AssertGenerator.java:66)
-	at fr.inria.diversify.dspot.Amplification.preAmplification(Amplification.java:202)
-	at fr.inria.diversify.dspot.Amplification.amplification(Amplification.java:91)
-	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:183)
-	at fr.inria.diversify.dspot.DSpot.amplifyTest(DSpot.java:170)
-	at eu.stamp.project.Main.lambda$null$1(Main.java:143)
+	at eu.stamp_project.compare.ObjectLog.load(ObjectLog.java:235)
+	at eu.stamp_project.compare.ObjectLog.getObservations(ObjectLog.java:197)
+	at eu.stamp_project.dspot.assertGenerator.MethodsAssertGenerator.addAssertions(MethodsAssertGenerator.java:108)
+	at eu.stamp_project.dspot.assertGenerator.AssertGenerator.innerAssertionAmplification(AssertGenerator.java:117)
+	at eu.stamp_project.dspot.assertGenerator.AssertGenerator.assertionAmplification(AssertGenerator.java:66)
+	at eu.stamp_project.dspot.Amplification.preAmplification(Amplification.java:202)
+	at eu.stamp_project.dspot.Amplification.amplification(Amplification.java:91)
+	at eu.stamp_project.dspot.DSpot.amplifyTest(DSpot.java:191)
+	at eu.stamp_project.dspot.DSpot.amplifyTest(DSpot.java:178)
+	at eu.stamp_project.Main.lambda$null$1(Main.java:143)
 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
 	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
@@ -190,10 +200,10 @@ Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.Cla
 	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at eu.stamp.project.Main.lambda$run$2(Main.java:144)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:144)
 	... 11 more
 Caused by: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
-	at fr.inria.diversify.compare.ObjectLog.load(ObjectLog.java:218)
+	at eu.stamp_project.compare.ObjectLog.load(ObjectLog.java:232)
 	... 28 more
 Caused by: java.lang.ClassNotFoundException: org.jsoup.select.Elements
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
@@ -232,5 +242,5 @@ Caused by: java.lang.ClassNotFoundException: org.jsoup.select.Elements
 	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2013)
 	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1535)
 	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
-	at fr.inria.diversify.compare.ObjectLog.load(ObjectLog.java:216)
+	at eu.stamp_project.compare.ObjectLog.load(ObjectLog.java:230)
 	... 28 more

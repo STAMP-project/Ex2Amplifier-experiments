@@ -12,6 +12,7 @@ import eu.stamp_project.dspot.amplifier.AllLiteralAmplifiers;
 import eu.stamp_project.dspot.amplifier.Amplifier;
 import eu.stamp_project.dspot.amplifier.StatementAdd;
 import eu.stamp_project.dspot.selector.ChangeDetectorSelector;
+import eu.stamp_project.utils.AmplificationHelper;
 import eu.stamp_project.utils.DSpotUtils;
 import eu.stamp_project.utils.json.ClassTimeJSON;
 import eu.stamp_project.utils.json.ProjectTimeJSON;
@@ -65,6 +66,7 @@ public class Main {
     public static void main(String[] args) {
         JSAPResult jsapConfig = JSAPOptions.options.parse(args);
         Main.verbose = jsapConfig.getBoolean("verbose");
+        AmplificationHelper.setTimeOutInMs(120000);
         EntryPoint.verbose = Main.verbose;
         Main.onlyAampl = jsapConfig.getBoolean("aampl");
         Main.JBSE = jsapConfig.getBoolean("JBSE");

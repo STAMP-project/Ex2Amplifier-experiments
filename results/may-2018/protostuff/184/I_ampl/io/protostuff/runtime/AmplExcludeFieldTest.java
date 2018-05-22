@@ -2,7 +2,6 @@ package io.protostuff.runtime;
 
 
 import io.protostuff.Exclude;
-import io.protostuff.Pipe.Schema;
 import io.protostuff.Tag;
 import java.util.List;
 import org.junit.Assert;

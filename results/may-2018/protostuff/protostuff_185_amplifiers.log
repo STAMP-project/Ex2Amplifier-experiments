@@ -1,11 +1,11 @@
 SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[8] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -53,13 +53,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.535 s
-[INFO] Finished at: 2018-05-16T17:36:15+02:00
+[INFO] Total time: 6.665 s
+[INFO] Finished at: 2018-05-21T21:04:19+02:00
 [INFO] Final Memory: 26M/320M
 [INFO] ------------------------------------------------------------------------
-[13746] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[13746] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[13746] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[13431] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[13431] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[13431] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -107,72 +107,103 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.381 s
-[INFO] Finished at: 2018-05-16T17:36:29+02:00
-[INFO] Final Memory: 27M/314M
+[INFO] Total time: 6.685 s
+[INFO] Finished at: 2018-05-21T21:04:32+02:00
+[INFO] Final Memory: 26M/308M
 [INFO] ------------------------------------------------------------------------
-[21708] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/185/protostuff-runtime and dataset/may-2018/protostuff/185_modified/protostuff-runtime (9ff43b421d970e3b0ab8fa4ac7c9b2e7566a1aa7)
-[21715] INFO SelectorOnDiff - Modified files:
+[21704] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/185/protostuff-runtime and dataset/may-2018/protostuff/185_modified/protostuff-runtime (9ff43b421d970e3b0ab8fa4ac7c9b2e7566a1aa7)
+[21711] INFO SelectorOnDiff - Modified files:
 a/protostuff-runtime/src/main/java/io/protostuff/runtime/IdStrategy.java
 a/protostuff-runtime/src/main/java/io/protostuff/runtime/DefaultIdStrategy.java
-[101777] INFO Amplification - amplification of io.protostuff.runtime.DefaultIdStrategyTest (1 test(s))
-[102513] INFO Amplification - Try to add assertions before amplification
-[102524] INFO AssertGenerator - Run tests. (1)
-[103144] INFO AssertGenerator - 1 test pass, generating assertion...
-[103145] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[103145] INFO MethodsAssertGenerator - Instrumentation...
+[104586] INFO Amplification - amplification of io.protostuff.runtime.DefaultIdStrategyTest (1 test(s))
+[104725] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/TestListener.ser
+[105278] INFO EntryPoint - Test has been run: privateConstructors
+[105278] INFO Amplification - Try to add assertions before amplification
+[105288] INFO AssertGenerator - Run tests. (1)
+[105354] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/TestListener.ser
+[105896] INFO EntryPoint - Test has been run: privateConstructors
+[105897] INFO AssertGenerator - 1 test pass, generating assertion...
+[105898] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[105898] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[103163] INFO MethodsAssertGenerator - Run instrumented tests. (3)
-[103824] INFO MethodsAssertGenerator - Generating assertions...
-[103827] INFO AssertGenerator - Could not generate any test with assertions
-[103827] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[103830] INFO Amplification - amp privateConstructors (1/1)
-[104470] INFO Amplification - iteration 0:
-[104470] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[104470] INFO Amplification - Amplification of inputs...
+[105916] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[106006] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors_withlog0:privateConstructors_withlog1:privateConstructors_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/TestListener.ser
+[106613] INFO EntryPoint - Test has been run: privateConstructors_withlog0,privateConstructors_withlog1,privateConstructors_withlog2
+[106615] INFO MethodsAssertGenerator - Generating assertions...
+[106618] INFO AssertGenerator - Could not generate any test with assertions
+[106618] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[106621] INFO Amplification - amp privateConstructors (1/1)
+[106685] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/TestListener.ser
+[107248] INFO EntryPoint - Test has been run: privateConstructors
+[107248] INFO Amplification - iteration 0:
+[107249] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[107249] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[104689] INFO Amplification - 1 new tests generated
-[104691] INFO AssertGenerator - Run tests. (1)
-[105147] INFO AssertGenerator - 1 test fail, generating try/catch/fail blocks...
-[105157] INFO AssertGenerator - 1 new tests with assertions generated
-[105666] INFO Amplification - 1 test method(s) has been successfully generated
-[105702] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[105702] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/185/protostuff-runtime//target/classes:dataset/may-2018/protostuff/185/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[105746] DEBUG Launcher - built in 44 ms
-[105746] DEBUG Launcher - building templates: []
-[105746] DEBUG Launcher - built in 0 ms
-[105747] DEBUG Launcher - model built in 45
-[105747] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[105750] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/185/protostuff-runtime//target/classes:dataset/may-2018/protostuff/185/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[105800] DEBUG Launcher - compiled in 53 ms
-[106166] INFO Amplification - iteration 1:
-[106166] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[106166] INFO Amplification - Amplification of inputs...
+[107257] INFO Amplification - 1 new tests generated
+[107259] INFO AssertGenerator - Run tests. (1)
+[107322] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/TestListener.ser
+[107735] INFO EntryPoint - Test has been run: privateConstructorslitBool1(io.protostuff.runtime.DefaultIdStrategyTest): null
+[107735] INFO AssertGenerator - 1 test fail, generating try/catch/fail blocks...
+[107746] INFO AssertGenerator - 1 new tests with assertions generated
+[107816] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1_failAssert0
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/TestListener.ser
+[108221] INFO EntryPoint - Test has been run: privateConstructorslitBool1_failAssert0
+[108223] INFO Amplification - 1 test method(s) has been successfully generated
+[108256] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[108256] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/185/protostuff-runtime//target/classes:dataset/may-2018/protostuff/185/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[108305] DEBUG Launcher - built in 49 ms
+[108305] DEBUG Launcher - building templates: []
+[108305] DEBUG Launcher - built in 0 ms
+[108306] DEBUG Launcher - model built in 50
+[108306] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[108309] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/185/protostuff-runtime//target/classes:dataset/may-2018/protostuff/185/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[108364] DEBUG Launcher - compiled in 58 ms
+[108365] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185_modified/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185_modified/protostuff-runtime/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1_failAssert0
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/TestListener.ser
+[108760] INFO EntryPoint - Test has been run: privateConstructorslitBool1_failAssert0
+[108760] INFO Amplification - iteration 1:
+[108760] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[108760] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[106333] INFO Amplification - 1 new tests generated
-[106334] INFO AssertGenerator - Run tests. (1)
-[106337] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[106909] INFO AssertGenerator - 1 test fail, generating try/catch/fail blocks...
-[106910] INFO AssertGenerator - Could not generate any test with assertions
-[106910] INFO Amplification - iteration 2:
-[106910] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[106910] INFO Amplification - Amplification of inputs...
+[108762] INFO Amplification - 1 new tests generated
+[108764] INFO AssertGenerator - Run tests. (1)
+[108766] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[108816] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1_failAssert0litBool4
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/TestListener.ser
+[109332] INFO EntryPoint - Test has been run: privateConstructorslitBool1_failAssert0litBool4(io.protostuff.runtime.DefaultIdStrategyTest): privateConstructorslitBool1 should have thrown NullPointerException
+[109332] INFO AssertGenerator - 1 test fail, generating try/catch/fail blocks...
+[109333] INFO AssertGenerator - Could not generate any test with assertions
+[109333] INFO Amplification - iteration 2:
+[109333] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[109333] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[107107] INFO Amplification - 1 new tests generated
-[107109] INFO AssertGenerator - Run tests. (1)
-[107111] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[107528] INFO AssertGenerator - 1 test pass, generating assertion...
-[107529] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[107529] INFO MethodsAssertGenerator - Instrumentation...
+[109334] INFO Amplification - 1 new tests generated
+[109336] INFO AssertGenerator - Run tests. (1)
+[109339] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[109387] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1_failAssert0litBool4litBool7
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/TestListener.ser
+[109813] INFO EntryPoint - Test has been run: privateConstructorslitBool1_failAssert0litBool4litBool7
+[109813] INFO AssertGenerator - 1 test pass, generating assertion...
+[109814] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[109814] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[107541] INFO MethodsAssertGenerator - Run instrumented tests. (3)
-[107545] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[107997] INFO MethodsAssertGenerator - Generating assertions...
-[107998] INFO AssertGenerator - Could not generate any test with assertions
-[107998] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[107998] INFO DSpot - elapsedTime 6222
+[109828] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[109831] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[109889] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1_failAssert0litBool4litBool7_withlog0:privateConstructorslitBool1_failAssert0litBool4litBool7_withlog1:privateConstructorslitBool1_failAssert0litBool4litBool7_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/185/protostuff-runtime/target/dspot/TestListener.ser
+[110277] INFO EntryPoint - Test has been run: privateConstructorslitBool1_failAssert0litBool4litBool7_withlog0(io.protostuff.runtime.DefaultIdStrategyTest): null,privateConstructorslitBool1_failAssert0litBool4litBool7_withlog1(io.protostuff.runtime.DefaultIdStrategyTest): null,privateConstructorslitBool1_failAssert0litBool4litBool7_withlog2(io.protostuff.runtime.DefaultIdStrategyTest): null
+[110277] INFO MethodsAssertGenerator - Generating assertions...
+[110279] INFO AssertGenerator - Could not generate any test with assertions
+[110279] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[110279] INFO DSpot - elapsedTime 5693
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[108007] INFO DSpot - Print AmplDefaultIdStrategyTest with 0?amplified test cases in results/may-2018/protostuff/185/I_ampl
-[108007] DEBUG Launcher - printing io.protostuff.runtime.AmplDefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/results/may-2018/protostuff/185/I_ampl
+[110287] INFO DSpot - Print AmplDefaultIdStrategyTest with 0?amplified test cases in results/may-2018/protostuff/185/I_ampl

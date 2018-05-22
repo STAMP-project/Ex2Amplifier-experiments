@@ -2,8 +2,8 @@
   "classTimes": [
     {
       "fullQualifiedName": "io.protostuff.runtime.ExcludeFieldTest",
-      "timeInMs": 243515,
-      "numberOfAmplifiedTestMethods": 7,
+      "timeInMs": 20145,
+      "numberOfAmplifiedTestMethods": 4,
       "numberOfTestMethodToBeAmplified": 4
     }
   ],

@@ -1,11 +1,11 @@
 SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.5/test-runner-1.0.5-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[8] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -53,13 +53,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.373 s
-[INFO] Finished at: 2018-05-16T17:57:15+02:00
-[INFO] Final Memory: 26M/315M
+[INFO] Total time: 6.429 s
+[INFO] Finished at: 2018-05-21T21:19:42+02:00
+[INFO] Final Memory: 26M/319M
 [INFO] ------------------------------------------------------------------------
-[13246] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[13246] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[13246] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[13244] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[13244] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[13245] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -107,12 +107,12 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.215 s
-[INFO] Finished at: 2018-05-16T17:57:28+02:00
-[INFO] Final Memory: 26M/313M
+[INFO] Total time: 6.256 s
+[INFO] Finished at: 2018-05-21T21:19:55+02:00
+[INFO] Final Memory: 26M/319M
 [INFO] ------------------------------------------------------------------------
-[21047] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/180/protostuff-runtime and dataset/may-2018/protostuff/180_modified/protostuff-runtime (d1b515301007e0c5676c17af8371910048181110)
-[21063] INFO SelectorOnDiff - Modified files:
+[21137] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/180/protostuff-runtime and dataset/may-2018/protostuff/180_modified/protostuff-runtime (d1b515301007e0c5676c17af8371910048181110)
+[21155] INFO SelectorOnDiff - Modified files:
 a/protostuff-runtime-md/src/main/java/io/protostuff/runtime/RuntimeEnv.java
 a/protostuff-runtime/src/test/java/io/protostuff/runtime/AbstractRuntimeCollectionSchemaTest.java
 a/protostuff-runtime/src/main/java/io/protostuff/runtime/PolymorphicPojoMapSchema.java
@@ -135,170 +135,706 @@ a/protostuff-runtime/src/main/java/io/protostuff/runtime/PolymorphicPojoSchema.j
 a/protostuff-runtime-md/src/main/java/io/protostuff/runtime/RuntimeFieldFactory.java
 a/protostuff-runtime/src/main/java/io/protostuff/runtime/ObjectSchema.java
 a/protostuff-runtime-registry/src/main/java/io/protostuff/runtime/IncrementalIdStrategy.java
-[93161] INFO Amplification - amplification of io.protostuff.runtime.ObjectSchemaTest (1 test(s))
-[94119] INFO Amplification - Try to add assertions before amplification
-[94153] INFO AssertGenerator - Run tests. (1)
-[94902] INFO AssertGenerator - 1 test pass, generating assertion...
-[94916] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[94916] INFO MethodsAssertGenerator - Instrumentation...
+[92152] INFO Amplification - amplification of io.protostuff.runtime.ObjectSchemaTest (1 test(s))
+[92605] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+[93124] INFO EntryPoint - Test has been run: testGraph
+[93124] INFO Amplification - Try to add assertions before amplification
+[93155] INFO AssertGenerator - Run tests. (1)
+[93381] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+[93895] INFO EntryPoint - Test has been run: testGraph
+[93895] INFO AssertGenerator - 1 test pass, generating assertion...
+[93912] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[93912] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[94940] INFO MethodsAssertGenerator - Run instrumented tests. (3)
-[95781] INFO MethodsAssertGenerator - Generating assertions...
-[95784] INFO AssertGenerator - Could not generate any test with assertions
-[95784] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[95790] INFO Amplification - amp testGraph (1/1)
-[96504] INFO Amplification - iteration 0:
-[96504] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[96504] INFO Amplification - Amplification of inputs...
+[93935] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[94207] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph_withlog0:testGraph_withlog1:testGraph_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+[94789] INFO EntryPoint - Test has been run: testGraph_withlog0,testGraph_withlog1,testGraph_withlog2
+[94790] INFO MethodsAssertGenerator - Generating assertions...
+[94793] INFO AssertGenerator - Could not generate any test with assertions
+[94793] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[94799] INFO Amplification - amp testGraph (1/1)
+[95023] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraph
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+[95546] INFO EntryPoint - Test has been run: testGraph
+[95547] INFO Amplification - iteration 0:
+[95547] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[95547] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[96522] INFO Amplification - 5 new tests generated
-[96605] INFO AssertGenerator - Run tests. (5)
-[97303] INFO AssertGenerator - 1 test pass, generating assertion...
-[97316] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[97316] INFO MethodsAssertGenerator - Instrumentation...
+[95558] INFO Amplification - 5 new tests generated
+[95637] INFO AssertGenerator - Run tests. (5)
+[95843] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1:testGraphlitNum2:testGraphlitNum3:testGraphlitNum4:testGraphlitNum5
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+false
+[96358] INFO EntryPoint - Test has been run: testGraphlitNum4,testGraphlitNum1(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum2(io.protostuff.runtime.ObjectSchemaTest): 256 is the minimum buffer size.,testGraphlitNum3(io.protostuff.runtime.ObjectSchemaTest): 256 is the minimum buffer size.,testGraphlitNum5(io.protostuff.runtime.ObjectSchemaTest): 256 is the minimum buffer size.
+[96358] INFO AssertGenerator - 1 test pass, generating assertion...
+[96370] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[96370] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[97319] INFO MethodsAssertGenerator - Run instrumented tests. (3)
-[98090] INFO MethodsAssertGenerator - Generating assertions...
-[98092] INFO AssertGenerator - 4 test fail, generating try/catch/fail blocks...
-[98103] INFO AssertGenerator - 4 new tests with assertions generated
-[98925] INFO Amplification - 4 test method(s) has been successfully generated
-[99182] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[99182] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[99301] DEBUG Launcher - built in 119 ms
-[99301] DEBUG Launcher - building templates: []
-[99302] DEBUG Launcher - built in 0 ms
-[99307] DEBUG Launcher - model built in 125
-[99312] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[99317] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[99731] DEBUG Launcher - compiled in 419 ms
-[100179] INFO Amplification - iteration 1:
-[100179] INFO Amplification - 4 tests selected to be amplified over 4 available tests
-[100179] INFO Amplification - Amplification of inputs...
- 75% |===================================== ]\100% |================================================== ]|
- 50% |========================= ]- 25% |========================= ]/[100187] INFO Amplification - 18 new tests generated
-[100257] INFO AssertGenerator - Run tests. (18)
-[100274] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[100984] INFO AssertGenerator - 12 test pass, generating assertion...
-[101000] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[101000] INFO MethodsAssertGenerator - Instrumentation...
+[96373] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[96587] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum4_withlog0:testGraphlitNum4_withlog1:testGraphlitNum4_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+[97119] INFO EntryPoint - Test has been run: testGraphlitNum4_withlog0,testGraphlitNum4_withlog1,testGraphlitNum4_withlog2
+[97119] INFO MethodsAssertGenerator - Generating assertions...
+[97120] INFO AssertGenerator - 4 test fail, generating try/catch/fail blocks...
+[97131] INFO AssertGenerator - 4 new tests with assertions generated
+[97417] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1_failAssert0:testGraphlitNum2_failAssert1:testGraphlitNum3_failAssert2:testGraphlitNum5_failAssert3
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+[97984] INFO EntryPoint - Test has been run: testGraphlitNum5_failAssert3,testGraphlitNum3_failAssert2,testGraphlitNum2_failAssert1,testGraphlitNum1_failAssert0
+[97985] INFO Amplification - 4 test method(s) has been successfully generated
+[98204] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[98205] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[98287] DEBUG Launcher - built in 83 ms
+[98287] DEBUG Launcher - building templates: []
+[98287] DEBUG Launcher - built in 0 ms
+[98290] DEBUG Launcher - model built in 86
+[98291] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[98296] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[98698] DEBUG Launcher - compiled in 407 ms
+[98699] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1_failAssert0:testGraphlitNum2_failAssert1:testGraphlitNum3_failAssert2:testGraphlitNum5_failAssert3
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+[99167] INFO EntryPoint - Test has been run: testGraphlitNum5_failAssert3,testGraphlitNum3_failAssert2,testGraphlitNum2_failAssert1,testGraphlitNum1_failAssert0
+[99167] INFO Amplification - iteration 1:
+[99168] INFO Amplification - 4 tests selected to be amplified over 4 available tests
+[99168] INFO Amplification - Amplification of inputs...
+ 75% |================================================== ]\100% |================================================== ]|
+ 25% |========================= ]/ 50% |========================= ]-[99175] INFO Amplification - 18 new tests generated
+[99237] INFO AssertGenerator - Run tests. (18)
+[99255] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[99444] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1_failAssert0litNum19:testGraphlitNum1_failAssert0litNum22:testGraphlitNum1_failAssert0litNum26:testGraphlitNum1_failAssert0litNum30:testGraphlitNum2_failAssert1litNum20:testGraphlitNum2_failAssert1litNum23:testGraphlitNum2_failAssert1litNum28:testGraphlitNum2_failAssert1litNum32:testGraphlitNum3_failAssert2litNum17:testGraphlitNum3_failAssert2litNum21:testGraphlitNum3_failAssert2litNum25:testGraphlitNum3_failAssert2litNum29:testGraphlitNum3_failAssert2litNum33:testGraphlitNum5_failAssert3litNum17:testGraphlitNum5_failAssert3litNum24:testGraphlitNum5_failAssert3litNum27:testGraphlitNum5_failAssert3litNum31:testGraphlitNum5_failAssert3litNum34
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[99981] INFO EntryPoint - Test has been run: testGraphlitNum3_failAssert2litNum17,testGraphlitNum3_failAssert2litNum25,testGraphlitNum3_failAssert2litNum29,testGraphlitNum3_failAssert2litNum33,testGraphlitNum2_failAssert1litNum23,testGraphlitNum2_failAssert1litNum28,testGraphlitNum2_failAssert1litNum32,testGraphlitNum5_failAssert3litNum27,testGraphlitNum5_failAssert3litNum31,testGraphlitNum5_failAssert3litNum34,testGraphlitNum1_failAssert0litNum22,testGraphlitNum1_failAssert0litNum30,testGraphlitNum3_failAssert2litNum21(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum2_failAssert1litNum20(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum5_failAssert3litNum17(io.protostuff.runtime.ObjectSchemaTest): testGraphlitNum5 should have thrown IllegalArgumentException,testGraphlitNum5_failAssert3litNum24(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum1_failAssert0litNum19(io.protostuff.runtime.ObjectSchemaTest): 256 is the minimum buffer size.,testGraphlitNum1_failAssert0litNum26(io.protostuff.runtime.ObjectSchemaTest): 256 is the minimum buffer size.
+[99981] INFO AssertGenerator - 12 test pass, generating assertion...
+[100001] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[100002] INFO MethodsAssertGenerator - Instrumentation...
   8% |========================= ]/ 16% |========================= ]- 25% |========================= ]\ 33% |========================= ]| 41% |========================= ]/ 50% |========================= ]- 58% |============================= ]\ 66% |================================= ]| 75% |===================================== ]/ 83% |========================================= ]- 91% |============================================= ]\100% |================================================== ]|
-[101070] INFO MethodsAssertGenerator - Run instrumented tests. (36)
-[101112] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[101965] INFO MethodsAssertGenerator - Generating assertions...
-[101999] INFO AssertGenerator - 6 test fail, generating try/catch/fail blocks...
-[102002] INFO AssertGenerator - 17 new tests with assertions generated
-[102035] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[102720] INFO Amplification - 17 test method(s) has been successfully generated
-[102740] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[102888] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[102889] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[102978] DEBUG Launcher - built in 90 ms
-[102978] DEBUG Launcher - building templates: []
-[102978] DEBUG Launcher - built in 0 ms
-[102981] DEBUG Launcher - model built in 93
-[102981] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[102984] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[103427] DEBUG Launcher - compiled in 446 ms
-[103928] INFO Amplification - iteration 2:
-[103928] INFO Amplification - 17 tests selected to be amplified over 17 available tests
-[103928] INFO Amplification - Amplification of inputs...
- 64% |================================ ]\ 47% |================================ ]| 29% |================================ ]/  5% |================================ ]/ 58% |================================ ]- 52% |================================ ]/ 41% |=================================== ]\ 70% |=================================== ]|100% |================================================== ]/ 17% |================================================== ]\ 94% |================================================== ]| 88% |================================================== ]\ 82% |================================================== ]- 11% |================================================== ]- 23% |================================================== ]|
- 35% |================================================== ]- 76% |================================================== ]/[103948] INFO Amplification - 73 new tests generated
-[104163] INFO AssertGenerator - Run tests. (73)
-[104198] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[106113] INFO AssertGenerator - 50 test pass, generating assertion...
-[106149] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[106149] INFO MethodsAssertGenerator - Instrumentation...
+[100060] INFO MethodsAssertGenerator - Run instrumented tests. (36)
+[100093] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[100376] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1_failAssert0litNum22_withlog0:testGraphlitNum1_failAssert0litNum30_withlog0:testGraphlitNum2_failAssert1litNum23_withlog0:testGraphlitNum2_failAssert1litNum28_withlog0:testGraphlitNum2_failAssert1litNum32_withlog0:testGraphlitNum3_failAssert2litNum17_withlog0:testGraphlitNum3_failAssert2litNum25_withlog0:testGraphlitNum3_failAssert2litNum29_withlog0:testGraphlitNum3_failAssert2litNum33_withlog0:testGraphlitNum5_failAssert3litNum27_withlog0:testGraphlitNum5_failAssert3litNum31_withlog0:testGraphlitNum5_failAssert3litNum34_withlog0:testGraphlitNum1_failAssert0litNum22_withlog1:testGraphlitNum1_failAssert0litNum30_withlog1:testGraphlitNum2_failAssert1litNum23_withlog1:testGraphlitNum2_failAssert1litNum28_withlog1:testGraphlitNum2_failAssert1litNum32_withlog1:testGraphlitNum3_failAssert2litNum17_withlog1:testGraphlitNum3_failAssert2litNum25_withlog1:testGraphlitNum3_failAssert2litNum29_withlog1:testGraphlitNum3_failAssert2litNum33_withlog1:testGraphlitNum5_failAssert3litNum27_withlog1:testGraphlitNum5_failAssert3litNum31_withlog1:testGraphlitNum5_failAssert3litNum34_withlog1:testGraphlitNum1_failAssert0litNum22_withlog2:testGraphlitNum1_failAssert0litNum30_withlog2:testGraphlitNum2_failAssert1litNum23_withlog2:testGraphlitNum2_failAssert1litNum28_withlog2:testGraphlitNum2_failAssert1litNum32_withlog2:testGraphlitNum3_failAssert2litNum17_withlog2:testGraphlitNum3_failAssert2litNum25_withlog2:testGraphlitNum3_failAssert2litNum29_withlog2:testGraphlitNum3_failAssert2litNum33_withlog2:testGraphlitNum5_failAssert3litNum27_withlog2:testGraphlitNum5_failAssert3litNum31_withlog2:testGraphlitNum5_failAssert3litNum34_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[100954] INFO EntryPoint - Test has been run: testGraphlitNum5_failAssert3litNum34_withlog0,testGraphlitNum5_failAssert3litNum34_withlog1,testGraphlitNum5_failAssert3litNum34_withlog2,testGraphlitNum5_failAssert3litNum31_withlog0,testGraphlitNum5_failAssert3litNum31_withlog1,testGraphlitNum5_failAssert3litNum31_withlog2,testGraphlitNum1_failAssert0litNum22_withlog0,testGraphlitNum1_failAssert0litNum22_withlog1,testGraphlitNum1_failAssert0litNum22_withlog2,testGraphlitNum3_failAssert2litNum33_withlog0,testGraphlitNum3_failAssert2litNum33_withlog1,testGraphlitNum3_failAssert2litNum33_withlog2,testGraphlitNum5_failAssert3litNum27_withlog0,testGraphlitNum5_failAssert3litNum27_withlog1,testGraphlitNum5_failAssert3litNum27_withlog2,testGraphlitNum3_failAssert2litNum29_withlog0,testGraphlitNum3_failAssert2litNum29_withlog1,testGraphlitNum3_failAssert2litNum29_withlog2,testGraphlitNum2_failAssert1litNum32_withlog0,testGraphlitNum2_failAssert1litNum32_withlog1,testGraphlitNum2_failAssert1litNum32_withlog2,testGraphlitNum3_failAssert2litNum25_withlog0,testGraphlitNum3_failAssert2litNum25_withlog1,testGraphlitNum3_failAssert2litNum25_withlog2,testGraphlitNum2_failAssert1litNum28_withlog0,testGraphlitNum2_failAssert1litNum28_withlog1,testGraphlitNum2_failAssert1litNum28_withlog2,testGraphlitNum1_failAssert0litNum30_withlog0,testGraphlitNum1_failAssert0litNum30_withlog1,testGraphlitNum1_failAssert0litNum30_withlog2,testGraphlitNum2_failAssert1litNum23_withlog0,testGraphlitNum2_failAssert1litNum23_withlog1,testGraphlitNum2_failAssert1litNum23_withlog2,testGraphlitNum3_failAssert2litNum17_withlog0,testGraphlitNum3_failAssert2litNum17_withlog1,testGraphlitNum3_failAssert2litNum17_withlog2
+[100957] INFO MethodsAssertGenerator - Generating assertions...
+[100995] INFO AssertGenerator - 6 test fail, generating try/catch/fail blocks...
+[100998] INFO AssertGenerator - 17 new tests with assertions generated
+[101025] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[101220] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1_failAssert0litNum22:testGraphlitNum1_failAssert0litNum30:testGraphlitNum2_failAssert1litNum23:testGraphlitNum2_failAssert1litNum28:testGraphlitNum2_failAssert1litNum32:testGraphlitNum3_failAssert2litNum17:testGraphlitNum3_failAssert2litNum25:testGraphlitNum3_failAssert2litNum29:testGraphlitNum3_failAssert2litNum33:testGraphlitNum5_failAssert3litNum27:testGraphlitNum5_failAssert3litNum31:testGraphlitNum5_failAssert3litNum34:testGraphlitNum1_failAssert0litNum19_failAssert4:testGraphlitNum1_failAssert0litNum26_failAssert5:testGraphlitNum2_failAssert1litNum20_failAssert6:testGraphlitNum3_failAssert2litNum21_failAssert7:testGraphlitNum5_failAssert3litNum24_failAssert8
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[101752] INFO EntryPoint - Test has been run: testGraphlitNum5_failAssert3litNum24_failAssert8,testGraphlitNum3_failAssert2litNum17,testGraphlitNum3_failAssert2litNum25,testGraphlitNum3_failAssert2litNum29,testGraphlitNum3_failAssert2litNum33,testGraphlitNum3_failAssert2litNum21_failAssert7,testGraphlitNum2_failAssert1litNum23,testGraphlitNum2_failAssert1litNum28,testGraphlitNum2_failAssert1litNum32,testGraphlitNum1_failAssert0litNum19_failAssert4,testGraphlitNum2_failAssert1litNum20_failAssert6,testGraphlitNum1_failAssert0litNum26_failAssert5,testGraphlitNum5_failAssert3litNum27,testGraphlitNum5_failAssert3litNum31,testGraphlitNum5_failAssert3litNum34,testGraphlitNum1_failAssert0litNum22,testGraphlitNum1_failAssert0litNum30
+[101752] INFO Amplification - 17 test method(s) has been successfully generated
+[101774] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[101921] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[101922] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[102016] DEBUG Launcher - built in 95 ms
+[102016] DEBUG Launcher - building templates: []
+[102016] DEBUG Launcher - built in 0 ms
+[102019] DEBUG Launcher - model built in 98
+[102019] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[102023] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[102483] DEBUG Launcher - compiled in 464 ms
+[102484] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1_failAssert0litNum22:testGraphlitNum1_failAssert0litNum30:testGraphlitNum2_failAssert1litNum23:testGraphlitNum2_failAssert1litNum28:testGraphlitNum2_failAssert1litNum32:testGraphlitNum3_failAssert2litNum17:testGraphlitNum3_failAssert2litNum25:testGraphlitNum3_failAssert2litNum29:testGraphlitNum3_failAssert2litNum33:testGraphlitNum5_failAssert3litNum27:testGraphlitNum5_failAssert3litNum31:testGraphlitNum5_failAssert3litNum34:testGraphlitNum1_failAssert0litNum19_failAssert4:testGraphlitNum1_failAssert0litNum26_failAssert5:testGraphlitNum2_failAssert1litNum20_failAssert6:testGraphlitNum3_failAssert2litNum21_failAssert7:testGraphlitNum5_failAssert3litNum24_failAssert8
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[102971] INFO EntryPoint - Test has been run: testGraphlitNum5_failAssert3litNum24_failAssert8,testGraphlitNum3_failAssert2litNum17,testGraphlitNum3_failAssert2litNum25,testGraphlitNum3_failAssert2litNum29,testGraphlitNum3_failAssert2litNum33,testGraphlitNum3_failAssert2litNum21_failAssert7,testGraphlitNum2_failAssert1litNum23,testGraphlitNum2_failAssert1litNum28,testGraphlitNum2_failAssert1litNum32,testGraphlitNum1_failAssert0litNum19_failAssert4,testGraphlitNum2_failAssert1litNum20_failAssert6,testGraphlitNum1_failAssert0litNum26_failAssert5,testGraphlitNum5_failAssert3litNum27,testGraphlitNum5_failAssert3litNum31,testGraphlitNum5_failAssert3litNum34,testGraphlitNum1_failAssert0litNum22,testGraphlitNum1_failAssert0litNum30
+[102971] INFO Amplification - iteration 2:
+[102971] INFO Amplification - 17 tests selected to be amplified over 17 available tests
+[102971] INFO Amplification - Amplification of inputs...
+ 64% |================================ ]\ 29% |================================ ]/ 47% |================================ ]| 35% |================================ ]- 41% |================================ ]\ 88% |============================================ ]\ 76% |============================================ ]/  5% |============================================ ]/ 11% |============================================ ]- 70% |============================================ ]| 58% |============================================ ]- 94% |================================================== ]| 23% |================================================== ]| 52% |================================================== ]/ 82% |================================================== ]- 17% |================================================== ]\100% |================================================== ]/
+[103062] INFO Amplification - 73 new tests generated
+[103287] INFO AssertGenerator - Run tests. (73)
+[103327] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[103622] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1_failAssert0litNum22litNum106:testGraphlitNum1_failAssert0litNum22litNum110:testGraphlitNum1_failAssert0litNum22litNum121:testGraphlitNum1_failAssert0litNum22litNum124:testGraphlitNum1_failAssert0litNum30litNum109:testGraphlitNum1_failAssert0litNum30litNum114:testGraphlitNum1_failAssert0litNum30litNum119:testGraphlitNum1_failAssert0litNum30litNum123:testGraphlitNum2_failAssert1litNum23litNum137:testGraphlitNum2_failAssert1litNum23litNum143:testGraphlitNum2_failAssert1litNum23litNum146:testGraphlitNum2_failAssert1litNum23litNum149:testGraphlitNum2_failAssert1litNum28litNum129:testGraphlitNum2_failAssert1litNum28litNum130:testGraphlitNum2_failAssert1litNum28litNum132:testGraphlitNum2_failAssert1litNum28litNum138:testGraphlitNum2_failAssert1litNum28litNum142:testGraphlitNum2_failAssert1litNum32litNum83:testGraphlitNum2_failAssert1litNum32litNum87:testGraphlitNum2_failAssert1litNum32litNum91:testGraphlitNum2_failAssert1litNum32litNum96:testGraphlitNum3_failAssert2litNum17litNum86:testGraphlitNum3_failAssert2litNum17litNum90:testGraphlitNum3_failAssert2litNum17litNum93:testGraphlitNum3_failAssert2litNum17litNum98:testGraphlitNum3_failAssert2litNum25litNum112:testGraphlitNum3_failAssert2litNum25litNum117:testGraphlitNum3_failAssert2litNum25litNum123:testGraphlitNum3_failAssert2litNum25litNum126:testGraphlitNum3_failAssert2litNum29litNum84:testGraphlitNum3_failAssert2litNum29litNum88:testGraphlitNum3_failAssert2litNum29litNum92:testGraphlitNum3_failAssert2litNum29litNum97:testGraphlitNum3_failAssert2litNum29litNum100:testGraphlitNum3_failAssert2litNum33litNum134:testGraphlitNum3_failAssert2litNum33litNum139:testGraphlitNum3_failAssert2litNum33litNum144:testGraphlitNum3_failAssert2litNum33litNum147:testGraphlitNum5_failAssert3litNum27litNum111:testGraphlitNum5_failAssert3litNum27litNum115:testGraphlitNum5_failAssert3litNum27litNum116:testGraphlitNum5_failAssert3litNum27litNum122:testGraphlitNum5_failAssert3litNum31litNum85:testGraphlitNum5_failAssert3litNum31litNum89:testGraphlitNum5_failAssert3litNum31litNum95:testGraphlitNum5_failAssert3litNum31litNum99:testGraphlitNum5_failAssert3litNum31litNum102:testGraphlitNum5_failAssert3litNum34litNum108:testGraphlitNum5_failAssert3litNum34litNum113:testGraphlitNum5_failAssert3litNum34litNum118:testGraphlitNum5_failAssert3litNum34litNum125:testGraphlitNum5_failAssert3litNum34litNum127:testGraphlitNum1_failAssert0litNum19_failAssert4litNum105:testGraphlitNum1_failAssert0litNum19_failAssert4litNum107:testGraphlitNum1_failAssert0litNum19_failAssert4litNum120:testGraphlitNum1_failAssert0litNum19_failAssert4litNum124:testGraphlitNum1_failAssert0litNum26_failAssert5litNum132:testGraphlitNum1_failAssert0litNum26_failAssert5litNum136:testGraphlitNum1_failAssert0litNum26_failAssert5litNum141:testGraphlitNum1_failAssert0litNum26_failAssert5litNum145:testGraphlitNum1_failAssert0litNum26_failAssert5litNum150:testGraphlitNum2_failAssert1litNum20_failAssert6litNum94:testGraphlitNum2_failAssert1litNum20_failAssert6litNum101:testGraphlitNum2_failAssert1litNum20_failAssert6litNum103:testGraphlitNum2_failAssert1litNum20_failAssert6litNum104:testGraphlitNum3_failAssert2litNum21_failAssert7litNum128:testGraphlitNum3_failAssert2litNum21_failAssert7litNum131:testGraphlitNum3_failAssert2litNum21_failAssert7litNum135:testGraphlitNum3_failAssert2litNum21_failAssert7litNum140:testGraphlitNum5_failAssert3litNum24_failAssert8litNum148:testGraphlitNum5_failAssert3litNum24_failAssert8litNum151:testGraphlitNum5_failAssert3litNum24_failAssert8litNum152:testGraphlitNum5_failAssert3litNum24_failAssert8litNum153
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[105477] INFO EntryPoint - Test has been run: testGraphlitNum5_failAssert3litNum31litNum102,testGraphlitNum1_failAssert0litNum22litNum110,testGraphlitNum1_failAssert0litNum22litNum124,testGraphlitNum3_failAssert2litNum33litNum134,testGraphlitNum3_failAssert2litNum33litNum144,testGraphlitNum3_failAssert2litNum33litNum147,testGraphlitNum5_failAssert3litNum27litNum115,testGraphlitNum5_failAssert3litNum27litNum116,testGraphlitNum5_failAssert3litNum27litNum122,testGraphlitNum2_failAssert1litNum32litNum83,testGraphlitNum2_failAssert1litNum32litNum91,testGraphlitNum2_failAssert1litNum32litNum96,testGraphlitNum2_failAssert1litNum20_failAssert6litNum101,testGraphlitNum2_failAssert1litNum20_failAssert6litNum104,testGraphlitNum3_failAssert2litNum29litNum100,testGraphlitNum5_failAssert3litNum24_failAssert8litNum151,testGraphlitNum5_failAssert3litNum24_failAssert8litNum153,testGraphlitNum1_failAssert0litNum26_failAssert5litNum132,testGraphlitNum1_failAssert0litNum26_failAssert5litNum141,testGraphlitNum1_failAssert0litNum26_failAssert5litNum145,testGraphlitNum1_failAssert0litNum26_failAssert5litNum150,testGraphlitNum3_failAssert2litNum25litNum117,testGraphlitNum3_failAssert2litNum25litNum123,testGraphlitNum3_failAssert2litNum25litNum126,testGraphlitNum2_failAssert1litNum28litNum129,testGraphlitNum2_failAssert1litNum28litNum132,testGraphlitNum2_failAssert1litNum28litNum138,testGraphlitNum2_failAssert1litNum28litNum142,testGraphlitNum3_failAssert2litNum17litNum86,testGraphlitNum3_failAssert2litNum17litNum93,testGraphlitNum3_failAssert2litNum17litNum98,testGraphlitNum1_failAssert0litNum30litNum109,testGraphlitNum1_failAssert0litNum19_failAssert4litNum107,testGraphlitNum1_failAssert0litNum19_failAssert4litNum120,testGraphlitNum1_failAssert0litNum19_failAssert4litNum124,testGraphlitNum5_failAssert3litNum31litNum85,testGraphlitNum5_failAssert3litNum31litNum95,testGraphlitNum5_failAssert3litNum31litNum99,testGraphlitNum3_failAssert2litNum21_failAssert7litNum131,testGraphlitNum3_failAssert2litNum21_failAssert7litNum140,testGraphlitNum2_failAssert1litNum23litNum143,testGraphlitNum2_failAssert1litNum23litNum146,testGraphlitNum2_failAssert1litNum23litNum149,testGraphlitNum3_failAssert2litNum29litNum84,testGraphlitNum3_failAssert2litNum29litNum92,testGraphlitNum3_failAssert2litNum29litNum97,testGraphlitNum5_failAssert3litNum34litNum113,testGraphlitNum5_failAssert3litNum34litNum118,testGraphlitNum5_failAssert3litNum34litNum125,testGraphlitNum5_failAssert3litNum34litNum127,testGraphlitNum1_failAssert0litNum22litNum106(io.protostuff.runtime.ObjectSchemaTest): 256 is the minimum buffer size.,testGraphlitNum1_failAssert0litNum22litNum121(io.protostuff.runtime.ObjectSchemaTest): 256 is the minimum buffer size.,testGraphlitNum3_failAssert2litNum33litNum139(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum5_failAssert3litNum27litNum111(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum2_failAssert1litNum20_failAssert6litNum94(io.protostuff.runtime.ObjectSchemaTest): testGraphlitNum2_failAssert1litNum20 should have thrown OutOfMemoryError,testGraphlitNum2_failAssert1litNum32litNum87(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum2_failAssert1litNum20_failAssert6litNum103(io.protostuff.runtime.ObjectSchemaTest): testGraphlitNum2_failAssert1litNum20 should have thrown OutOfMemoryError,testGraphlitNum5_failAssert3litNum24_failAssert8litNum148(io.protostuff.runtime.ObjectSchemaTest): testGraphlitNum5_failAssert3litNum24 should have thrown OutOfMemoryError,testGraphlitNum5_failAssert3litNum24_failAssert8litNum152(io.protostuff.runtime.ObjectSchemaTest): testGraphlitNum5_failAssert3litNum24 should have thrown OutOfMemoryError,testGraphlitNum1_failAssert0litNum26_failAssert5litNum136(io.protostuff.runtime.ObjectSchemaTest): testGraphlitNum1_failAssert0litNum26 should have thrown IllegalArgumentException,testGraphlitNum3_failAssert2litNum25litNum112(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum2_failAssert1litNum28litNum130(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum3_failAssert2litNum17litNum90(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum1_failAssert0litNum30litNum114(io.protostuff.runtime.ObjectSchemaTest): 256 is the minimum buffer size.,testGraphlitNum1_failAssert0litNum30litNum119(io.protostuff.runtime.ObjectSchemaTest): 256 is the minimum buffer size.,testGraphlitNum1_failAssert0litNum30litNum123(io.protostuff.runtime.ObjectSchemaTest): testGraphlitNum1 should have thrown OutOfMemoryError,testGraphlitNum1_failAssert0litNum19_failAssert4litNum105(io.protostuff.runtime.ObjectSchemaTest): testGraphlitNum1_failAssert0litNum19 should have thrown IllegalArgumentException,testGraphlitNum5_failAssert3litNum31litNum89(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum3_failAssert2litNum21_failAssert7litNum128(io.protostuff.runtime.ObjectSchemaTest): testGraphlitNum3_failAssert2litNum21 should have thrown OutOfMemoryError,testGraphlitNum3_failAssert2litNum21_failAssert7litNum135(io.protostuff.runtime.ObjectSchemaTest): testGraphlitNum3_failAssert2litNum21 should have thrown OutOfMemoryError,testGraphlitNum2_failAssert1litNum23litNum137(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum3_failAssert2litNum29litNum88(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit,testGraphlitNum5_failAssert3litNum34litNum108(io.protostuff.runtime.ObjectSchemaTest): Requested array size exceeds VM limit
+[105477] INFO AssertGenerator - 50 test pass, generating assertion...
+[105520] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[105520] INFO MethodsAssertGenerator - Instrumentation...
   2% |= ]/  4% |== ]-  6% |=== ]\  8% |==== ]| 10% |===== ]/ 12% |====== ]- 14% |======= ]\ 16% |======== ]| 18% |========= ]/ 20% |========== ]- 22% |=========== ]\ 24% |============ ]| 26% |============= ]/ 28% |============== ]- 30% |=============== ]\ 32% |================ ]| 34% |================= ]/ 36% |================== ]- 38% |=================== ]\ 40% |==================== ]| 42% |===================== ]/ 44% |====================== ]- 46% |======================= ]\ 48% |======================== ]| 50% |========================= ]/ 52% |========================== ]- 54% |=========================== ]\ 56% |============================ ]| 58% |============================= ]/ 60% |============================== ]- 62% |=============================== ]\ 64% |================================ ]| 66% |================================= ]/ 68% |================================== ]- 70% |=================================== ]\ 72% |==================================== ]| 74% |===================================== ]/ 76% |====================================== ]- 78% |======================================= ]\ 80% |======================================== ]| 82% |========================================= ]/ 84% |========================================== ]- 86% |=========================================== ]\ 88% |============================================ ]| 90% |============================================= ]/ 92% |============================================== ]- 94% |=============================================== ]\ 96% |================================================ ]| 98% |================================================= ]/100% |================================================== ]-
-[106407] INFO MethodsAssertGenerator - Run instrumented tests. (150)
-[106560] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[108268] INFO MethodsAssertGenerator - Generating assertions...
-[108355] INFO AssertGenerator - 23 test fail, generating try/catch/fail blocks...
-[108362] INFO AssertGenerator - 64 new tests with assertions generated
-[108417] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[109289] INFO Amplification - 64 test method(s) has been successfully generated
-[109324] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[109533] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[109534] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[109660] DEBUG Launcher - built in 127 ms
-[109660] DEBUG Launcher - building templates: []
-[109660] DEBUG Launcher - built in 0 ms
-[109665] DEBUG Launcher - model built in 132
-[109665] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[109672] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
-[110398] DEBUG Launcher - compiled in 733 ms
-[111016] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[111016] INFO DSpot - elapsedTime 17871
+[105777] INFO MethodsAssertGenerator - Run instrumented tests. (150)
+[105918] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[106587] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1_failAssert0litNum22litNum110_withlog0:testGraphlitNum1_failAssert0litNum22litNum124_withlog0:testGraphlitNum1_failAssert0litNum30litNum109_withlog0:testGraphlitNum2_failAssert1litNum23litNum143_withlog0:testGraphlitNum2_failAssert1litNum23litNum146_withlog0:testGraphlitNum2_failAssert1litNum23litNum149_withlog0:testGraphlitNum2_failAssert1litNum28litNum129_withlog0:testGraphlitNum2_failAssert1litNum28litNum132_withlog0:testGraphlitNum2_failAssert1litNum28litNum138_withlog0:testGraphlitNum2_failAssert1litNum28litNum142_withlog0:testGraphlitNum2_failAssert1litNum32litNum83_withlog0:testGraphlitNum2_failAssert1litNum32litNum91_withlog0:testGraphlitNum2_failAssert1litNum32litNum96_withlog0:testGraphlitNum3_failAssert2litNum17litNum86_withlog0:testGraphlitNum3_failAssert2litNum17litNum93_withlog0:testGraphlitNum3_failAssert2litNum17litNum98_withlog0:testGraphlitNum3_failAssert2litNum25litNum117_withlog0:testGraphlitNum3_failAssert2litNum25litNum123_withlog0:testGraphlitNum3_failAssert2litNum25litNum126_withlog0:testGraphlitNum3_failAssert2litNum29litNum84_withlog0:testGraphlitNum3_failAssert2litNum29litNum92_withlog0:testGraphlitNum3_failAssert2litNum29litNum97_withlog0:testGraphlitNum3_failAssert2litNum29litNum100_withlog0:testGraphlitNum3_failAssert2litNum33litNum134_withlog0:testGraphlitNum3_failAssert2litNum33litNum144_withlog0:testGraphlitNum3_failAssert2litNum33litNum147_withlog0:testGraphlitNum5_failAssert3litNum27litNum115_withlog0:testGraphlitNum5_failAssert3litNum27litNum116_withlog0:testGraphlitNum5_failAssert3litNum27litNum122_withlog0:testGraphlitNum5_failAssert3litNum31litNum85_withlog0:testGraphlitNum5_failAssert3litNum31litNum95_withlog0:testGraphlitNum5_failAssert3litNum31litNum99_withlog0:testGraphlitNum5_failAssert3litNum31litNum102_withlog0:testGraphlitNum5_failAssert3litNum34litNum113_withlog0:testGraphlitNum5_failAssert3litNum34litNum118_withlog0:testGraphlitNum5_failAssert3litNum34litNum125_withlog0:testGraphlitNum5_failAssert3litNum34litNum127_withlog0:testGraphlitNum1_failAssert0litNum19_failAssert4litNum107_withlog0:testGraphlitNum1_failAssert0litNum19_failAssert4litNum120_withlog0:testGraphlitNum1_failAssert0litNum19_failAssert4litNum124_withlog0:testGraphlitNum1_failAssert0litNum26_failAssert5litNum132_withlog0:testGraphlitNum1_failAssert0litNum26_failAssert5litNum141_withlog0:testGraphlitNum1_failAssert0litNum26_failAssert5litNum145_withlog0:testGraphlitNum1_failAssert0litNum26_failAssert5litNum150_withlog0:testGraphlitNum2_failAssert1litNum20_failAssert6litNum101_withlog0:testGraphlitNum2_failAssert1litNum20_failAssert6litNum104_withlog0:testGraphlitNum3_failAssert2litNum21_failAssert7litNum131_withlog0:testGraphlitNum3_failAssert2litNum21_failAssert7litNum140_withlog0:testGraphlitNum5_failAssert3litNum24_failAssert8litNum151_withlog0:testGraphlitNum5_failAssert3litNum24_failAssert8litNum153_withlog0:testGraphlitNum1_failAssert0litNum22litNum110_withlog1:testGraphlitNum1_failAssert0litNum22litNum124_withlog1:testGraphlitNum1_failAssert0litNum30litNum109_withlog1:testGraphlitNum2_failAssert1litNum23litNum143_withlog1:testGraphlitNum2_failAssert1litNum23litNum146_withlog1:testGraphlitNum2_failAssert1litNum23litNum149_withlog1:testGraphlitNum2_failAssert1litNum28litNum129_withlog1:testGraphlitNum2_failAssert1litNum28litNum132_withlog1:testGraphlitNum2_failAssert1litNum28litNum138_withlog1:testGraphlitNum2_failAssert1litNum28litNum142_withlog1:testGraphlitNum2_failAssert1litNum32litNum83_withlog1:testGraphlitNum2_failAssert1litNum32litNum91_withlog1:testGraphlitNum2_failAssert1litNum32litNum96_withlog1:testGraphlitNum3_failAssert2litNum17litNum86_withlog1:testGraphlitNum3_failAssert2litNum17litNum93_withlog1:testGraphlitNum3_failAssert2litNum17litNum98_withlog1:testGraphlitNum3_failAssert2litNum25litNum117_withlog1:testGraphlitNum3_failAssert2litNum25litNum123_withlog1:testGraphlitNum3_failAssert2litNum25litNum126_withlog1:testGraphlitNum3_failAssert2litNum29litNum84_withlog1:testGraphlitNum3_failAssert2litNum29litNum92_withlog1:testGraphlitNum3_failAssert2litNum29litNum97_withlog1:testGraphlitNum3_failAssert2litNum29litNum100_withlog1:testGraphlitNum3_failAssert2litNum33litNum134_withlog1:testGraphlitNum3_failAssert2litNum33litNum144_withlog1:testGraphlitNum3_failAssert2litNum33litNum147_withlog1:testGraphlitNum5_failAssert3litNum27litNum115_withlog1:testGraphlitNum5_failAssert3litNum27litNum116_withlog1:testGraphlitNum5_failAssert3litNum27litNum122_withlog1:testGraphlitNum5_failAssert3litNum31litNum85_withlog1:testGraphlitNum5_failAssert3litNum31litNum95_withlog1:testGraphlitNum5_failAssert3litNum31litNum99_withlog1:testGraphlitNum5_failAssert3litNum31litNum102_withlog1:testGraphlitNum5_failAssert3litNum34litNum113_withlog1:testGraphlitNum5_failAssert3litNum34litNum118_withlog1:testGraphlitNum5_failAssert3litNum34litNum125_withlog1:testGraphlitNum5_failAssert3litNum34litNum127_withlog1:testGraphlitNum1_failAssert0litNum19_failAssert4litNum107_withlog1:testGraphlitNum1_failAssert0litNum19_failAssert4litNum120_withlog1:testGraphlitNum1_failAssert0litNum19_failAssert4litNum124_withlog1:testGraphlitNum1_failAssert0litNum26_failAssert5litNum132_withlog1:testGraphlitNum1_failAssert0litNum26_failAssert5litNum141_withlog1:testGraphlitNum1_failAssert0litNum26_failAssert5litNum145_withlog1:testGraphlitNum1_failAssert0litNum26_failAssert5litNum150_withlog1:testGraphlitNum2_failAssert1litNum20_failAssert6litNum101_withlog1:testGraphlitNum2_failAssert1litNum20_failAssert6litNum104_withlog1:testGraphlitNum3_failAssert2litNum21_failAssert7litNum131_withlog1:testGraphlitNum3_failAssert2litNum21_failAssert7litNum140_withlog1:testGraphlitNum5_failAssert3litNum24_failAssert8litNum151_withlog1:testGraphlitNum5_failAssert3litNum24_failAssert8litNum153_withlog1:testGraphlitNum1_failAssert0litNum22litNum110_withlog2:testGraphlitNum1_failAssert0litNum22litNum124_withlog2:testGraphlitNum1_failAssert0litNum30litNum109_withlog2:testGraphlitNum2_failAssert1litNum23litNum143_withlog2:testGraphlitNum2_failAssert1litNum23litNum146_withlog2:testGraphlitNum2_failAssert1litNum23litNum149_withlog2:testGraphlitNum2_failAssert1litNum28litNum129_withlog2:testGraphlitNum2_failAssert1litNum28litNum132_withlog2:testGraphlitNum2_failAssert1litNum28litNum138_withlog2:testGraphlitNum2_failAssert1litNum28litNum142_withlog2:testGraphlitNum2_failAssert1litNum32litNum83_withlog2:testGraphlitNum2_failAssert1litNum32litNum91_withlog2:testGraphlitNum2_failAssert1litNum32litNum96_withlog2:testGraphlitNum3_failAssert2litNum17litNum86_withlog2:testGraphlitNum3_failAssert2litNum17litNum93_withlog2:testGraphlitNum3_failAssert2litNum17litNum98_withlog2:testGraphlitNum3_failAssert2litNum25litNum117_withlog2:testGraphlitNum3_failAssert2litNum25litNum123_withlog2:testGraphlitNum3_failAssert2litNum25litNum126_withlog2:testGraphlitNum3_failAssert2litNum29litNum84_withlog2:testGraphlitNum3_failAssert2litNum29litNum92_withlog2:testGraphlitNum3_failAssert2litNum29litNum97_withlog2:testGraphlitNum3_failAssert2litNum29litNum100_withlog2:testGraphlitNum3_failAssert2litNum33litNum134_withlog2:testGraphlitNum3_failAssert2litNum33litNum144_withlog2:testGraphlitNum3_failAssert2litNum33litNum147_withlog2:testGraphlitNum5_failAssert3litNum27litNum115_withlog2:testGraphlitNum5_failAssert3litNum27litNum116_withlog2:testGraphlitNum5_failAssert3litNum27litNum122_withlog2:testGraphlitNum5_failAssert3litNum31litNum85_withlog2:testGraphlitNum5_failAssert3litNum31litNum95_withlog2:testGraphlitNum5_failAssert3litNum31litNum99_withlog2:testGraphlitNum5_failAssert3litNum31litNum102_withlog2:testGraphlitNum5_failAssert3litNum34litNum113_withlog2:testGraphlitNum5_failAssert3litNum34litNum118_withlog2:testGraphlitNum5_failAssert3litNum34litNum125_withlog2:testGraphlitNum5_failAssert3litNum34litNum127_withlog2:testGraphlitNum1_failAssert0litNum19_failAssert4litNum107_withlog2:testGraphlitNum1_failAssert0litNum19_failAssert4litNum120_withlog2:testGraphlitNum1_failAssert0litNum19_failAssert4litNum124_withlog2:testGraphlitNum1_failAssert0litNum26_failAssert5litNum132_withlog2:testGraphlitNum1_failAssert0litNum26_failAssert5litNum141_withlog2:testGraphlitNum1_failAssert0litNum26_failAssert5litNum145_withlog2:testGraphlitNum1_failAssert0litNum26_failAssert5litNum150_withlog2:testGraphlitNum2_failAssert1litNum20_failAssert6litNum101_withlog2:testGraphlitNum2_failAssert1litNum20_failAssert6litNum104_withlog2:testGraphlitNum3_failAssert2litNum21_failAssert7litNum131_withlog2:testGraphlitNum3_failAssert2litNum21_failAssert7litNum140_withlog2:testGraphlitNum5_failAssert3litNum24_failAssert8litNum151_withlog2:testGraphlitNum5_failAssert3litNum24_failAssert8litNum153_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[107528] INFO EntryPoint - Test has been run: testGraphlitNum3_failAssert2litNum21_failAssert7litNum140_withlog0,testGraphlitNum3_failAssert2litNum21_failAssert7litNum140_withlog1,testGraphlitNum3_failAssert2litNum21_failAssert7litNum140_withlog2,testGraphlitNum5_failAssert3litNum31litNum95_withlog0,testGraphlitNum5_failAssert3litNum31litNum95_withlog1,testGraphlitNum5_failAssert3litNum31litNum95_withlog2,testGraphlitNum1_failAssert0litNum26_failAssert5litNum132_withlog0,testGraphlitNum1_failAssert0litNum26_failAssert5litNum132_withlog1,testGraphlitNum1_failAssert0litNum26_failAssert5litNum132_withlog2,testGraphlitNum2_failAssert1litNum23litNum149_withlog0,testGraphlitNum2_failAssert1litNum23litNum149_withlog1,testGraphlitNum2_failAssert1litNum23litNum149_withlog2,testGraphlitNum3_failAssert2litNum33litNum147_withlog0,testGraphlitNum3_failAssert2litNum33litNum147_withlog1,testGraphlitNum3_failAssert2litNum33litNum147_withlog2,testGraphlitNum3_failAssert2litNum29litNum84_withlog0,testGraphlitNum3_failAssert2litNum29litNum84_withlog1,testGraphlitNum3_failAssert2litNum29litNum84_withlog2,testGraphlitNum5_failAssert3litNum34litNum113_withlog0,testGraphlitNum5_failAssert3litNum34litNum113_withlog1,testGraphlitNum5_failAssert3litNum34litNum113_withlog2,testGraphlitNum3_failAssert2litNum17litNum98_withlog0,testGraphlitNum3_failAssert2litNum17litNum98_withlog1,testGraphlitNum3_failAssert2litNum17litNum98_withlog2,testGraphlitNum5_failAssert3litNum31litNum102_withlog0,testGraphlitNum5_failAssert3litNum31litNum102_withlog1,testGraphlitNum5_failAssert3litNum31litNum102_withlog2,testGraphlitNum2_failAssert1litNum32litNum83_withlog0,testGraphlitNum2_failAssert1litNum32litNum83_withlog1,testGraphlitNum2_failAssert1litNum32litNum83_withlog2,testGraphlitNum2_failAssert1litNum23litNum146_withlog0,testGraphlitNum2_failAssert1litNum23litNum146_withlog1,testGraphlitNum2_failAssert1litNum23litNum146_withlog2,testGraphlitNum3_failAssert2litNum33litNum144_withlog0,testGraphlitNum3_failAssert2litNum33litNum144_withlog1,testGraphlitNum3_failAssert2litNum33litNum144_withlog2,testGraphlitNum1_failAssert0litNum30litNum109_withlog0,testGraphlitNum1_failAssert0litNum30litNum109_withlog1,testGraphlitNum1_failAssert0litNum30litNum109_withlog2,testGraphlitNum5_failAssert3litNum27litNum122_withlog0,testGraphlitNum5_failAssert3litNum27litNum122_withlog1,testGraphlitNum5_failAssert3litNum27litNum122_withlog2,testGraphlitNum1_failAssert0litNum19_failAssert4litNum124_withlog0,testGraphlitNum1_failAssert0litNum19_failAssert4litNum124_withlog1,testGraphlitNum1_failAssert0litNum19_failAssert4litNum124_withlog2,testGraphlitNum1_failAssert0litNum26_failAssert5litNum150_withlog0,testGraphlitNum1_failAssert0litNum26_failAssert5litNum150_withlog1,testGraphlitNum1_failAssert0litNum26_failAssert5litNum150_withlog2,testGraphlitNum1_failAssert0litNum22litNum124_withlog0,testGraphlitNum1_failAssert0litNum22litNum124_withlog1,testGraphlitNum1_failAssert0litNum22litNum124_withlog2,testGraphlitNum2_failAssert1litNum23litNum143_withlog0,testGraphlitNum2_failAssert1litNum23litNum143_withlog1,testGraphlitNum2_failAssert1litNum23litNum143_withlog2,testGraphlitNum3_failAssert2litNum17litNum93_withlog0,testGraphlitNum3_failAssert2litNum17litNum93_withlog1,testGraphlitNum3_failAssert2litNum17litNum93_withlog2,testGraphlitNum2_failAssert1litNum28litNum142_withlog0,testGraphlitNum2_failAssert1litNum28litNum142_withlog1,testGraphlitNum2_failAssert1litNum28litNum142_withlog2,testGraphlitNum3_failAssert2litNum21_failAssert7litNum131_withlog0,testGraphlitNum3_failAssert2litNum21_failAssert7litNum131_withlog1,testGraphlitNum3_failAssert2litNum21_failAssert7litNum131_withlog2,testGraphlitNum5_failAssert3litNum31litNum85_withlog0,testGraphlitNum5_failAssert3litNum31litNum85_withlog1,testGraphlitNum5_failAssert3litNum31litNum85_withlog2,testGraphlitNum5_failAssert3litNum27litNum116_withlog0,testGraphlitNum5_failAssert3litNum27litNum116_withlog1,testGraphlitNum5_failAssert3litNum27litNum116_withlog2,testGraphlitNum1_failAssert0litNum19_failAssert4litNum120_withlog0,testGraphlitNum1_failAssert0litNum19_failAssert4litNum120_withlog1,testGraphlitNum1_failAssert0litNum19_failAssert4litNum120_withlog2,testGraphlitNum5_failAssert3litNum34litNum127_withlog0,testGraphlitNum5_failAssert3litNum34litNum127_withlog1,testGraphlitNum5_failAssert3litNum34litNum127_withlog2,testGraphlitNum1_failAssert0litNum26_failAssert5litNum145_withlog0,testGraphlitNum1_failAssert0litNum26_failAssert5litNum145_withlog1,testGraphlitNum1_failAssert0litNum26_failAssert5litNum145_withlog2,testGraphlitNum5_failAssert3litNum27litNum115_withlog0,testGraphlitNum5_failAssert3litNum27litNum115_withlog1,testGraphlitNum5_failAssert3litNum27litNum115_withlog2,testGraphlitNum3_failAssert2litNum29litNum97_withlog0,testGraphlitNum3_failAssert2litNum29litNum97_withlog1,testGraphlitNum3_failAssert2litNum29litNum97_withlog2,testGraphlitNum2_failAssert1litNum28litNum138_withlog0,testGraphlitNum2_failAssert1litNum28litNum138_withlog1,testGraphlitNum2_failAssert1litNum28litNum138_withlog2,testGraphlitNum2_failAssert1litNum20_failAssert6litNum104_withlog0,testGraphlitNum2_failAssert1litNum20_failAssert6litNum104_withlog1,testGraphlitNum2_failAssert1litNum20_failAssert6litNum104_withlog2,testGraphlitNum5_failAssert3litNum34litNum125_withlog0,testGraphlitNum5_failAssert3litNum34litNum125_withlog1,testGraphlitNum5_failAssert3litNum34litNum125_withlog2,testGraphlitNum2_failAssert1litNum32litNum96_withlog0,testGraphlitNum2_failAssert1litNum32litNum96_withlog1,testGraphlitNum2_failAssert1litNum32litNum96_withlog2,testGraphlitNum3_failAssert2litNum33litNum134_withlog0,testGraphlitNum3_failAssert2litNum33litNum134_withlog1,testGraphlitNum3_failAssert2litNum33litNum134_withlog2,testGraphlitNum3_failAssert2litNum25litNum126_withlog0,testGraphlitNum3_failAssert2litNum25litNum126_withlog1,testGraphlitNum3_failAssert2litNum25litNum126_withlog2,testGraphlitNum3_failAssert2litNum17litNum86_withlog0,testGraphlitNum3_failAssert2litNum17litNum86_withlog1,testGraphlitNum3_failAssert2litNum17litNum86_withlog2,testGraphlitNum1_failAssert0litNum26_failAssert5litNum141_withlog0,testGraphlitNum1_failAssert0litNum26_failAssert5litNum141_withlog1,testGraphlitNum1_failAssert0litNum26_failAssert5litNum141_withlog2,testGraphlitNum2_failAssert1litNum20_failAssert6litNum101_withlog0,testGraphlitNum2_failAssert1litNum20_failAssert6litNum101_withlog1,testGraphlitNum2_failAssert1litNum20_failAssert6litNum101_withlog2,testGraphlitNum3_failAssert2litNum29litNum92_withlog0,testGraphlitNum3_failAssert2litNum29litNum92_withlog1,testGraphlitNum3_failAssert2litNum29litNum92_withlog2,testGraphlitNum3_failAssert2litNum25litNum123_withlog0,testGraphlitNum3_failAssert2litNum25litNum123_withlog1,testGraphlitNum3_failAssert2litNum25litNum123_withlog2,testGraphlitNum2_failAssert1litNum28litNum132_withlog0,testGraphlitNum2_failAssert1litNum28litNum132_withlog1,testGraphlitNum2_failAssert1litNum28litNum132_withlog2,testGraphlitNum5_failAssert3litNum24_failAssert8litNum153_withlog0,testGraphlitNum5_failAssert3litNum24_failAssert8litNum153_withlog1,testGraphlitNum5_failAssert3litNum24_failAssert8litNum153_withlog2,testGraphlitNum2_failAssert1litNum32litNum91_withlog0,testGraphlitNum2_failAssert1litNum32litNum91_withlog1,testGraphlitNum2_failAssert1litNum32litNum91_withlog2,testGraphlitNum5_failAssert3litNum31litNum99_withlog0,testGraphlitNum5_failAssert3litNum31litNum99_withlog1,testGraphlitNum5_failAssert3litNum31litNum99_withlog2,testGraphlitNum5_failAssert3litNum34litNum118_withlog0,testGraphlitNum5_failAssert3litNum34litNum118_withlog1,testGraphlitNum5_failAssert3litNum34litNum118_withlog2,testGraphlitNum2_failAssert1litNum28litNum129_withlog0,testGraphlitNum2_failAssert1litNum28litNum129_withlog1,testGraphlitNum2_failAssert1litNum28litNum129_withlog2,testGraphlitNum1_failAssert0litNum22litNum110_withlog0,testGraphlitNum1_failAssert0litNum22litNum110_withlog1,testGraphlitNum1_failAssert0litNum22litNum110_withlog2,testGraphlitNum5_failAssert3litNum24_failAssert8litNum151_withlog0,testGraphlitNum5_failAssert3litNum24_failAssert8litNum151_withlog1,testGraphlitNum5_failAssert3litNum24_failAssert8litNum151_withlog2,testGraphlitNum3_failAssert2litNum29litNum100_withlog0,testGraphlitNum3_failAssert2litNum29litNum100_withlog1,testGraphlitNum3_failAssert2litNum29litNum100_withlog2,testGraphlitNum1_failAssert0litNum19_failAssert4litNum107_withlog0,testGraphlitNum1_failAssert0litNum19_failAssert4litNum107_withlog1,testGraphlitNum1_failAssert0litNum19_failAssert4litNum107_withlog2,testGraphlitNum3_failAssert2litNum25litNum117_withlog0,testGraphlitNum3_failAssert2litNum25litNum117_withlog1,testGraphlitNum3_failAssert2litNum25litNum117_withlog2
+[107535] INFO MethodsAssertGenerator - Generating assertions...
+[107622] INFO AssertGenerator - 23 test fail, generating try/catch/fail blocks...
+[107630] INFO AssertGenerator - 64 new tests with assertions generated
+[107683] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[107949] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1_failAssert0litNum22litNum110:testGraphlitNum1_failAssert0litNum22litNum124:testGraphlitNum1_failAssert0litNum30litNum109:testGraphlitNum2_failAssert1litNum23litNum143:testGraphlitNum2_failAssert1litNum23litNum146:testGraphlitNum2_failAssert1litNum23litNum149:testGraphlitNum2_failAssert1litNum28litNum129:testGraphlitNum2_failAssert1litNum28litNum132:testGraphlitNum2_failAssert1litNum28litNum138:testGraphlitNum2_failAssert1litNum28litNum142:testGraphlitNum2_failAssert1litNum32litNum83:testGraphlitNum2_failAssert1litNum32litNum91:testGraphlitNum2_failAssert1litNum32litNum96:testGraphlitNum3_failAssert2litNum17litNum86:testGraphlitNum3_failAssert2litNum17litNum93:testGraphlitNum3_failAssert2litNum17litNum98:testGraphlitNum3_failAssert2litNum25litNum117:testGraphlitNum3_failAssert2litNum25litNum123:testGraphlitNum3_failAssert2litNum25litNum126:testGraphlitNum3_failAssert2litNum29litNum84:testGraphlitNum3_failAssert2litNum29litNum92:testGraphlitNum3_failAssert2litNum29litNum97:testGraphlitNum3_failAssert2litNum29litNum100:testGraphlitNum3_failAssert2litNum33litNum134:testGraphlitNum3_failAssert2litNum33litNum144:testGraphlitNum3_failAssert2litNum33litNum147:testGraphlitNum5_failAssert3litNum27litNum115:testGraphlitNum5_failAssert3litNum27litNum116:testGraphlitNum5_failAssert3litNum27litNum122:testGraphlitNum5_failAssert3litNum31litNum85:testGraphlitNum5_failAssert3litNum31litNum95:testGraphlitNum5_failAssert3litNum31litNum99:testGraphlitNum5_failAssert3litNum31litNum102:testGraphlitNum5_failAssert3litNum34litNum113:testGraphlitNum5_failAssert3litNum34litNum118:testGraphlitNum5_failAssert3litNum34litNum125:testGraphlitNum5_failAssert3litNum34litNum127:testGraphlitNum1_failAssert0litNum19_failAssert4litNum107:testGraphlitNum1_failAssert0litNum19_failAssert4litNum120:testGraphlitNum1_failAssert0litNum19_failAssert4litNum124:testGraphlitNum1_failAssert0litNum26_failAssert5litNum132:testGraphlitNum1_failAssert0litNum26_failAssert5litNum141:testGraphlitNum1_failAssert0litNum26_failAssert5litNum145:testGraphlitNum1_failAssert0litNum26_failAssert5litNum150:testGraphlitNum2_failAssert1litNum20_failAssert6litNum101:testGraphlitNum2_failAssert1litNum20_failAssert6litNum104:testGraphlitNum3_failAssert2litNum21_failAssert7litNum131:testGraphlitNum3_failAssert2litNum21_failAssert7litNum140:testGraphlitNum5_failAssert3litNum24_failAssert8litNum151:testGraphlitNum5_failAssert3litNum24_failAssert8litNum153:testGraphlitNum1_failAssert0litNum22litNum106_failAssert9:testGraphlitNum1_failAssert0litNum22litNum121_failAssert10:testGraphlitNum1_failAssert0litNum30litNum114_failAssert11:testGraphlitNum1_failAssert0litNum30litNum119_failAssert12:testGraphlitNum2_failAssert1litNum23litNum137_failAssert13:testGraphlitNum2_failAssert1litNum28litNum130_failAssert14:testGraphlitNum2_failAssert1litNum32litNum87_failAssert15:testGraphlitNum3_failAssert2litNum17litNum90_failAssert16:testGraphlitNum3_failAssert2litNum25litNum112_failAssert17:testGraphlitNum3_failAssert2litNum29litNum88_failAssert18:testGraphlitNum3_failAssert2litNum33litNum139_failAssert19:testGraphlitNum5_failAssert3litNum27litNum111_failAssert20:testGraphlitNum5_failAssert3litNum31litNum89_failAssert21:testGraphlitNum5_failAssert3litNum34litNum108_failAssert22
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[108548] INFO EntryPoint - Test has been run: testGraphlitNum1_failAssert0litNum30litNum119_failAssert12,testGraphlitNum5_failAssert3litNum31litNum102,testGraphlitNum1_failAssert0litNum22litNum110,testGraphlitNum1_failAssert0litNum22litNum124,testGraphlitNum2_failAssert1litNum28litNum130_failAssert14,testGraphlitNum3_failAssert2litNum33litNum134,testGraphlitNum3_failAssert2litNum33litNum144,testGraphlitNum3_failAssert2litNum33litNum147,testGraphlitNum5_failAssert3litNum27litNum115,testGraphlitNum5_failAssert3litNum27litNum116,testGraphlitNum5_failAssert3litNum27litNum122,testGraphlitNum3_failAssert2litNum17litNum90_failAssert16,testGraphlitNum1_failAssert0litNum22litNum106_failAssert9,testGraphlitNum3_failAssert2litNum29litNum88_failAssert18,testGraphlitNum2_failAssert1litNum32litNum83,testGraphlitNum2_failAssert1litNum32litNum91,testGraphlitNum2_failAssert1litNum32litNum96,testGraphlitNum3_failAssert2litNum25litNum112_failAssert17,testGraphlitNum5_failAssert3litNum31litNum89_failAssert21,testGraphlitNum2_failAssert1litNum20_failAssert6litNum101,testGraphlitNum2_failAssert1litNum20_failAssert6litNum104,testGraphlitNum3_failAssert2litNum29litNum100,testGraphlitNum5_failAssert3litNum24_failAssert8litNum151,testGraphlitNum5_failAssert3litNum24_failAssert8litNum153,testGraphlitNum1_failAssert0litNum26_failAssert5litNum132,testGraphlitNum1_failAssert0litNum26_failAssert5litNum141,testGraphlitNum1_failAssert0litNum26_failAssert5litNum145,testGraphlitNum1_failAssert0litNum26_failAssert5litNum150,testGraphlitNum3_failAssert2litNum25litNum117,testGraphlitNum3_failAssert2litNum25litNum123,testGraphlitNum3_failAssert2litNum25litNum126,testGraphlitNum3_failAssert2litNum33litNum139_failAssert19,testGraphlitNum2_failAssert1litNum28litNum129,testGraphlitNum2_failAssert1litNum28litNum132,testGraphlitNum2_failAssert1litNum28litNum138,testGraphlitNum2_failAssert1litNum28litNum142,testGraphlitNum1_failAssert0litNum30litNum114_failAssert11,testGraphlitNum3_failAssert2litNum17litNum86,testGraphlitNum3_failAssert2litNum17litNum93,testGraphlitNum3_failAssert2litNum17litNum98,testGraphlitNum1_failAssert0litNum30litNum109,testGraphlitNum5_failAssert3litNum34litNum108_failAssert22,testGraphlitNum1_failAssert0litNum19_failAssert4litNum107,testGraphlitNum1_failAssert0litNum19_failAssert4litNum120,testGraphlitNum1_failAssert0litNum19_failAssert4litNum124,testGraphlitNum5_failAssert3litNum31litNum85,testGraphlitNum5_failAssert3litNum31litNum95,testGraphlitNum5_failAssert3litNum31litNum99,testGraphlitNum3_failAssert2litNum21_failAssert7litNum131,testGraphlitNum3_failAssert2litNum21_failAssert7litNum140,testGraphlitNum2_failAssert1litNum23litNum143,testGraphlitNum2_failAssert1litNum23litNum146,testGraphlitNum2_failAssert1litNum23litNum149,testGraphlitNum2_failAssert1litNum23litNum137_failAssert13,testGraphlitNum3_failAssert2litNum29litNum84,testGraphlitNum3_failAssert2litNum29litNum92,testGraphlitNum3_failAssert2litNum29litNum97,testGraphlitNum5_failAssert3litNum27litNum111_failAssert20,testGraphlitNum5_failAssert3litNum34litNum113,testGraphlitNum5_failAssert3litNum34litNum118,testGraphlitNum5_failAssert3litNum34litNum125,testGraphlitNum5_failAssert3litNum34litNum127,testGraphlitNum1_failAssert0litNum22litNum121_failAssert10,testGraphlitNum2_failAssert1litNum32litNum87_failAssert15
+[108548] INFO Amplification - 64 test method(s) has been successfully generated
+[108581] DEBUG Launcher - printing io.protostuff.runtime.ObjectSchemaTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[108774] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[108774] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[108892] DEBUG Launcher - built in 118 ms
+[108892] DEBUG Launcher - building templates: []
+[108892] DEBUG Launcher - built in 0 ms
+[108897] DEBUG Launcher - model built in 124
+[108897] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[108903] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/ObjectSchemaTest.java]
+[109603] DEBUG Launcher - compiled in 706 ms
+[109603] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.ObjectSchemaTest testGraphlitNum1_failAssert0litNum22litNum110:testGraphlitNum1_failAssert0litNum22litNum124:testGraphlitNum1_failAssert0litNum30litNum109:testGraphlitNum2_failAssert1litNum23litNum143:testGraphlitNum2_failAssert1litNum23litNum146:testGraphlitNum2_failAssert1litNum23litNum149:testGraphlitNum2_failAssert1litNum28litNum129:testGraphlitNum2_failAssert1litNum28litNum132:testGraphlitNum2_failAssert1litNum28litNum138:testGraphlitNum2_failAssert1litNum28litNum142:testGraphlitNum2_failAssert1litNum32litNum83:testGraphlitNum2_failAssert1litNum32litNum91:testGraphlitNum2_failAssert1litNum32litNum96:testGraphlitNum3_failAssert2litNum17litNum86:testGraphlitNum3_failAssert2litNum17litNum93:testGraphlitNum3_failAssert2litNum17litNum98:testGraphlitNum3_failAssert2litNum25litNum117:testGraphlitNum3_failAssert2litNum25litNum123:testGraphlitNum3_failAssert2litNum25litNum126:testGraphlitNum3_failAssert2litNum29litNum84:testGraphlitNum3_failAssert2litNum29litNum92:testGraphlitNum3_failAssert2litNum29litNum97:testGraphlitNum3_failAssert2litNum29litNum100:testGraphlitNum3_failAssert2litNum33litNum134:testGraphlitNum3_failAssert2litNum33litNum144:testGraphlitNum3_failAssert2litNum33litNum147:testGraphlitNum5_failAssert3litNum27litNum115:testGraphlitNum5_failAssert3litNum27litNum116:testGraphlitNum5_failAssert3litNum27litNum122:testGraphlitNum5_failAssert3litNum31litNum85:testGraphlitNum5_failAssert3litNum31litNum95:testGraphlitNum5_failAssert3litNum31litNum99:testGraphlitNum5_failAssert3litNum31litNum102:testGraphlitNum5_failAssert3litNum34litNum113:testGraphlitNum5_failAssert3litNum34litNum118:testGraphlitNum5_failAssert3litNum34litNum125:testGraphlitNum5_failAssert3litNum34litNum127:testGraphlitNum1_failAssert0litNum19_failAssert4litNum107:testGraphlitNum1_failAssert0litNum19_failAssert4litNum120:testGraphlitNum1_failAssert0litNum19_failAssert4litNum124:testGraphlitNum1_failAssert0litNum26_failAssert5litNum132:testGraphlitNum1_failAssert0litNum26_failAssert5litNum141:testGraphlitNum1_failAssert0litNum26_failAssert5litNum145:testGraphlitNum1_failAssert0litNum26_failAssert5litNum150:testGraphlitNum2_failAssert1litNum20_failAssert6litNum101:testGraphlitNum2_failAssert1litNum20_failAssert6litNum104:testGraphlitNum3_failAssert2litNum21_failAssert7litNum131:testGraphlitNum3_failAssert2litNum21_failAssert7litNum140:testGraphlitNum5_failAssert3litNum24_failAssert8litNum151:testGraphlitNum5_failAssert3litNum24_failAssert8litNum153:testGraphlitNum1_failAssert0litNum22litNum106_failAssert9:testGraphlitNum1_failAssert0litNum22litNum121_failAssert10:testGraphlitNum1_failAssert0litNum30litNum114_failAssert11:testGraphlitNum1_failAssert0litNum30litNum119_failAssert12:testGraphlitNum2_failAssert1litNum23litNum137_failAssert13:testGraphlitNum2_failAssert1litNum28litNum130_failAssert14:testGraphlitNum2_failAssert1litNum32litNum87_failAssert15:testGraphlitNum3_failAssert2litNum17litNum90_failAssert16:testGraphlitNum3_failAssert2litNum25litNum112_failAssert17:testGraphlitNum3_failAssert2litNum29litNum88_failAssert18:testGraphlitNum3_failAssert2litNum33litNum139_failAssert19:testGraphlitNum5_failAssert3litNum27litNum111_failAssert20:testGraphlitNum5_failAssert3litNum31litNum89_failAssert21:testGraphlitNum5_failAssert3litNum34litNum108_failAssert22
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[110221] INFO EntryPoint - Test has been run: testGraphlitNum1_failAssert0litNum30litNum119_failAssert12,testGraphlitNum5_failAssert3litNum31litNum102,testGraphlitNum1_failAssert0litNum22litNum110,testGraphlitNum1_failAssert0litNum22litNum124,testGraphlitNum2_failAssert1litNum28litNum130_failAssert14,testGraphlitNum3_failAssert2litNum33litNum134,testGraphlitNum3_failAssert2litNum33litNum144,testGraphlitNum3_failAssert2litNum33litNum147,testGraphlitNum5_failAssert3litNum27litNum115,testGraphlitNum5_failAssert3litNum27litNum116,testGraphlitNum5_failAssert3litNum27litNum122,testGraphlitNum3_failAssert2litNum17litNum90_failAssert16,testGraphlitNum1_failAssert0litNum22litNum106_failAssert9,testGraphlitNum3_failAssert2litNum29litNum88_failAssert18,testGraphlitNum2_failAssert1litNum32litNum83,testGraphlitNum2_failAssert1litNum32litNum91,testGraphlitNum2_failAssert1litNum32litNum96,testGraphlitNum3_failAssert2litNum25litNum112_failAssert17,testGraphlitNum5_failAssert3litNum31litNum89_failAssert21,testGraphlitNum2_failAssert1litNum20_failAssert6litNum101,testGraphlitNum2_failAssert1litNum20_failAssert6litNum104,testGraphlitNum3_failAssert2litNum29litNum100,testGraphlitNum5_failAssert3litNum24_failAssert8litNum151,testGraphlitNum5_failAssert3litNum24_failAssert8litNum153,testGraphlitNum1_failAssert0litNum26_failAssert5litNum132,testGraphlitNum1_failAssert0litNum26_failAssert5litNum141,testGraphlitNum1_failAssert0litNum26_failAssert5litNum145,testGraphlitNum1_failAssert0litNum26_failAssert5litNum150,testGraphlitNum3_failAssert2litNum25litNum117,testGraphlitNum3_failAssert2litNum25litNum123,testGraphlitNum3_failAssert2litNum25litNum126,testGraphlitNum3_failAssert2litNum33litNum139_failAssert19,testGraphlitNum2_failAssert1litNum28litNum129,testGraphlitNum2_failAssert1litNum28litNum132,testGraphlitNum2_failAssert1litNum28litNum138,testGraphlitNum2_failAssert1litNum28litNum142,testGraphlitNum1_failAssert0litNum30litNum114_failAssert11,testGraphlitNum3_failAssert2litNum17litNum86,testGraphlitNum3_failAssert2litNum17litNum93,testGraphlitNum3_failAssert2litNum17litNum98,testGraphlitNum1_failAssert0litNum30litNum109,testGraphlitNum5_failAssert3litNum34litNum108_failAssert22,testGraphlitNum1_failAssert0litNum19_failAssert4litNum107,testGraphlitNum1_failAssert0litNum19_failAssert4litNum120,testGraphlitNum1_failAssert0litNum19_failAssert4litNum124,testGraphlitNum5_failAssert3litNum31litNum85,testGraphlitNum5_failAssert3litNum31litNum95,testGraphlitNum5_failAssert3litNum31litNum99,testGraphlitNum3_failAssert2litNum21_failAssert7litNum131,testGraphlitNum3_failAssert2litNum21_failAssert7litNum140,testGraphlitNum2_failAssert1litNum23litNum143,testGraphlitNum2_failAssert1litNum23litNum146,testGraphlitNum2_failAssert1litNum23litNum149,testGraphlitNum2_failAssert1litNum23litNum137_failAssert13,testGraphlitNum3_failAssert2litNum29litNum84,testGraphlitNum3_failAssert2litNum29litNum92,testGraphlitNum3_failAssert2litNum29litNum97,testGraphlitNum5_failAssert3litNum27litNum111_failAssert20,testGraphlitNum5_failAssert3litNum34litNum113,testGraphlitNum5_failAssert3litNum34litNum118,testGraphlitNum5_failAssert3litNum34litNum125,testGraphlitNum5_failAssert3litNum34litNum127,testGraphlitNum1_failAssert0litNum22litNum121_failAssert10,testGraphlitNum2_failAssert1litNum32litNum87_failAssert15
+[110221] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[110221] INFO DSpot - elapsedTime 18085
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[111061] INFO DSpot - Print AmplObjectSchemaTest with 0?amplified test cases in results/may-2018/protostuff/180/I_ampl
-[111062] DEBUG Launcher - printing io.protostuff.runtime.AmplObjectSchemaTest to /tmp/Ex2Amplifier-experiments/results/may-2018/protostuff/180/I_ampl
-[111156] INFO Amplification - amplification of io.protostuff.runtime.DefaultIdStrategyTest (1 test(s))
-[111159] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[111700] INFO Amplification - Try to add assertions before amplification
-[111701] INFO AssertGenerator - Run tests. (1)
-[111703] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[112251] INFO AssertGenerator - 1 test pass, generating assertion...
-[112252] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[112252] INFO MethodsAssertGenerator - Instrumentation...
+[110265] INFO DSpot - Print AmplObjectSchemaTest with 0?amplified test cases in results/may-2018/protostuff/180/I_ampl
+[110501] INFO Amplification - amplification of io.protostuff.runtime.DefaultIdStrategyTest (1 test(s))
+[110545] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+[111063] INFO EntryPoint - Test has been run: privateConstructors
+[111063] INFO Amplification - Try to add assertions before amplification
+[111064] INFO AssertGenerator - Run tests. (1)
+[111106] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+[111628] INFO EntryPoint - Test has been run: privateConstructors
+[111628] INFO AssertGenerator - 1 test pass, generating assertion...
+[111629] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[111629] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[112253] INFO MethodsAssertGenerator - Run instrumented tests. (3)
-[112255] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[112849] INFO MethodsAssertGenerator - Generating assertions...
-[112849] INFO AssertGenerator - Could not generate any test with assertions
-[112849] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[112850] INFO Amplification - amp privateConstructors (1/1)
-[112852] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[113381] INFO Amplification - iteration 0:
-[113381] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[113381] INFO Amplification - Amplification of inputs...
+[111630] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[111675] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors_withlog0:privateConstructors_withlog1:privateConstructors_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+[112259] INFO EntryPoint - Test has been run: privateConstructors_withlog0,privateConstructors_withlog1,privateConstructors_withlog2
+[112260] INFO MethodsAssertGenerator - Generating assertions...
+[112260] INFO AssertGenerator - Could not generate any test with assertions
+[112260] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[112261] INFO Amplification - amp privateConstructors (1/1)
+[112303] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructors
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+[112842] INFO EntryPoint - Test has been run: privateConstructors
+[112842] INFO Amplification - iteration 0:
+[112842] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[112842] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[113539] INFO Amplification - 1 new tests generated
-[113540] INFO AssertGenerator - Run tests. (1)
-[113542] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[113969] INFO AssertGenerator - 1 test fail, generating try/catch/fail blocks...
-[113970] INFO AssertGenerator - 1 new tests with assertions generated
-[113972] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[114378] INFO Amplification - 1 test method(s) has been successfully generated
-[114379] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[114411] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[114411] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[114454] DEBUG Launcher - built in 43 ms
-[114454] DEBUG Launcher - building templates: []
-[114454] DEBUG Launcher - built in 0 ms
-[114454] DEBUG Launcher - model built in 43
-[114454] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[114454] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
-[114499] DEBUG Launcher - compiled in 45 ms
-[114860] INFO Amplification - iteration 1:
-[114860] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[114860] INFO Amplification - Amplification of inputs...
+[112843] INFO Amplification - 1 new tests generated
+[112844] INFO AssertGenerator - Run tests. (1)
+[112887] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+[113307] INFO EntryPoint - Test has been run: privateConstructorslitBool1(io.protostuff.runtime.DefaultIdStrategyTest): null
+[113307] INFO AssertGenerator - 1 test fail, generating try/catch/fail blocks...
+[113307] INFO AssertGenerator - 1 new tests with assertions generated
+[113352] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1_failAssert0
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+[113742] INFO EntryPoint - Test has been run: privateConstructorslitBool1_failAssert0
+[113742] INFO Amplification - 1 test method(s) has been successfully generated
+[113763] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[113764] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[113803] DEBUG Launcher - built in 40 ms
+[113803] DEBUG Launcher - building templates: []
+[113803] DEBUG Launcher - built in 0 ms
+[113803] DEBUG Launcher - model built in 40
+[113803] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[113804] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/180/protostuff-runtime//target/classes:dataset/may-2018/protostuff/180/protostuff-runtime//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/runtime/DefaultIdStrategyTest.java]
+[113845] DEBUG Launcher - compiled in 42 ms
+[113845] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180_modified/protostuff-runtime/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1_failAssert0
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+[114221] INFO EntryPoint - Test has been run: privateConstructorslitBool1_failAssert0
+[114221] INFO Amplification - iteration 1:
+[114222] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[114222] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[115091] INFO Amplification - 1 new tests generated
-[115092] INFO AssertGenerator - Run tests. (1)
-[115094] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[115640] INFO AssertGenerator - 1 test fail, generating try/catch/fail blocks...
-[115641] INFO AssertGenerator - Could not generate any test with assertions
-[115641] INFO Amplification - iteration 2:
-[115641] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[115641] INFO Amplification - Amplification of inputs...
+[114223] INFO Amplification - 1 new tests generated
+[114223] INFO AssertGenerator - Run tests. (1)
+[114225] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[114267] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1_failAssert0litBool4
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+[114807] INFO EntryPoint - Test has been run: privateConstructorslitBool1_failAssert0litBool4(io.protostuff.runtime.DefaultIdStrategyTest): privateConstructorslitBool1 should have thrown NullPointerException
+[114807] INFO AssertGenerator - 1 test fail, generating try/catch/fail blocks...
+[114807] INFO AssertGenerator - Could not generate any test with assertions
+[114808] INFO Amplification - iteration 2:
+[114808] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[114808] INFO Amplification - Amplification of inputs...
 100% |================================================== ]/
-[115800] INFO Amplification - 1 new tests generated
-[115801] INFO AssertGenerator - Run tests. (1)
-[115803] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[116222] INFO AssertGenerator - 1 test pass, generating assertion...
-[116222] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[116222] INFO MethodsAssertGenerator - Instrumentation...
+[114808] INFO Amplification - 1 new tests generated
+[114809] INFO AssertGenerator - Run tests. (1)
+[114811] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[114853] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1_failAssert0litBool4litBool7
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+[115249] INFO EntryPoint - Test has been run: privateConstructorslitBool1_failAssert0litBool4litBool7
+[115249] INFO AssertGenerator - 1 test pass, generating assertion...
+[115249] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[115249] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[116224] INFO MethodsAssertGenerator - Run instrumented tests. (3)
-[116226] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[116638] INFO MethodsAssertGenerator - Generating assertions...
-[116639] INFO AssertGenerator - Could not generate any test with assertions
-[116639] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[116639] INFO DSpot - elapsedTime 5483
+[115251] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[115253] DEBUG Launcher - printing io.protostuff.runtime.DefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
+[115299] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/1.10.8/mockito-core-1.10.8.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-core/1.4.3-SNAPSHOT/protostuff-core-1.4.3-SNAPSHOT-tests.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-api/1.4.3-SNAPSHOT/protostuff-api-1.4.3-SNAPSHOT.jar:/home/spirals/danglot/.m2/repository/io/protostuff/protostuff-collectionschema/1.4.3-SNAPSHOT/protostuff-collectionschema-1.4.3-SNAPSHOT.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.runtime.DefaultIdStrategyTest privateConstructorslitBool1_failAssert0litBool4litBool7_withlog0:privateConstructorslitBool1_failAssert0litBool4litBool7_withlog1:privateConstructorslitBool1_failAssert0litBool4litBool7_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/180/protostuff-runtime/target/dspot/TestListener.ser
+[115721] INFO EntryPoint - Test has been run: privateConstructorslitBool1_failAssert0litBool4litBool7_withlog0(io.protostuff.runtime.DefaultIdStrategyTest): null,privateConstructorslitBool1_failAssert0litBool4litBool7_withlog1(io.protostuff.runtime.DefaultIdStrategyTest): null,privateConstructorslitBool1_failAssert0litBool4litBool7_withlog2(io.protostuff.runtime.DefaultIdStrategyTest): null
+[115722] INFO MethodsAssertGenerator - Generating assertions...
+[115722] INFO AssertGenerator - Could not generate any test with assertions
+[115722] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[115723] INFO DSpot - elapsedTime 5222
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[116641] INFO DSpot - Print AmplDefaultIdStrategyTest with 0?amplified test cases in results/may-2018/protostuff/180/I_ampl
-[116641] DEBUG Launcher - printing io.protostuff.runtime.AmplDefaultIdStrategyTest to /tmp/Ex2Amplifier-experiments/results/may-2018/protostuff/180/I_ampl
+[115724] INFO DSpot - Print AmplDefaultIdStrategyTest with 0?amplified test cases in results/may-2018/protostuff/180/I_ampl

@@ -1,4 +1,4 @@
-java.lang.AssertionError: expected:<1414100589> but was:<167321833>
+java.lang.AssertionError: expected:<1414100589> but was:<706994299>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -14,7 +14,7 @@ java.lang.AssertionError: expected:<1414100589> but was:<167321833>
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
 	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
-java.lang.AssertionError: expected:<1667685104> but was:<-764318646>
+java.lang.AssertionError: expected:<688823122> but was:<-1937443177>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -30,7 +30,7 @@ java.lang.AssertionError: expected:<1667685104> but was:<-764318646>
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
 	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
-java.lang.AssertionError: expected:<-1291015485> but was:<2131834548>
+java.lang.AssertionError: expected:<-887613253> but was:<-292625283>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
 	at org.junit.Assert.assertEquals(Assert.java:118)

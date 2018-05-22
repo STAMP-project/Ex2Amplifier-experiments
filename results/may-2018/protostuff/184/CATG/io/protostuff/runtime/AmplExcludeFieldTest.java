@@ -3,6 +3,7 @@ package io.protostuff.runtime;
 
 import io.protostuff.Exclude;
 import io.protostuff.Tag;
+import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -49,14 +50,14 @@ public class AmplExcludeFieldTest {
     @Test(timeout = 10000)
     public void testMuchExcludedEntity() throws Exception {
         RuntimeSchema<AmplExcludeFieldTest.MuchExcludedEntity> schema = ((RuntimeSchema<AmplExcludeFieldTest.MuchExcludedEntity>) (RuntimeSchema.getSchema(AmplExcludeFieldTest.MuchExcludedEntity.class)));
-        Assert.assertEquals("MuchExcludedEntity", ((io.protostuff.Pipe.Schema)((io.protostuff.runtime.RuntimeSchema)schema).getPipeSchema()).messageName());
-        Assert.assertEquals(1, ((int) (((io.protostuff.runtime.RuntimeSchema)schema).getFieldCount())));
-        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$MuchExcludedEntity", ((io.protostuff.Pipe.Schema)((io.protostuff.runtime.RuntimeSchema)schema).getPipeSchema()).messageFullName());
-        Assert.assertEquals(357436546, ((int) (((java.util.List)((io.protostuff.runtime.RuntimeSchema)schema).getFields()).hashCode())));
-        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$MuchExcludedEntity", ((io.protostuff.runtime.RuntimeSchema)schema).messageFullName());
-        Assert.assertEquals("MuchExcludedEntity", ((io.protostuff.runtime.RuntimeSchema)schema).messageName());
-        Assert.assertEquals(1, ((int) (((java.util.List)((io.protostuff.runtime.RuntimeSchema)schema).getFields()).size())));
-        Assert.assertFalse(((java.util.List)((io.protostuff.runtime.RuntimeSchema)schema).getFields()).isEmpty());
+        Assert.assertEquals("MuchExcludedEntity", messageName());
+        Assert.assertEquals(1, ((int) (getFieldCount())));
+        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$MuchExcludedEntity", messageFullName());
+        Assert.assertEquals(357436546, ((int) (((List) (getFields())).hashCode())));
+        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$MuchExcludedEntity", messageFullName());
+        Assert.assertEquals("MuchExcludedEntity", messageName());
+        Assert.assertEquals(1, ((int) (((List) (getFields())).size())));
+        Assert.assertFalse(((List) (getFields())).isEmpty());
         boolean boolean_0 = (schema.getFieldCount()) == 1;
         boolean boolean_1 = (schema.getFieldNumber("id")) == 0;
         schema.getFieldByName("id");
@@ -69,14 +70,14 @@ public class AmplExcludeFieldTest {
     @Test(timeout = 10000)
     public void testIt() throws Exception {
         RuntimeSchema<AmplExcludeFieldTest.Entity> schema = ((RuntimeSchema<AmplExcludeFieldTest.Entity>) (RuntimeSchema.getSchema(AmplExcludeFieldTest.Entity.class)));
-        Assert.assertEquals("Entity", ((io.protostuff.Pipe.Schema)((io.protostuff.runtime.RuntimeSchema)schema).getPipeSchema()).messageName());
-        Assert.assertEquals(3, ((int) (((io.protostuff.runtime.RuntimeSchema)schema).getFieldCount())));
-        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$Entity", ((io.protostuff.Pipe.Schema)((io.protostuff.runtime.RuntimeSchema)schema).getPipeSchema()).messageFullName());
-        Assert.assertEquals(688823122, ((int) (((java.util.List)((io.protostuff.runtime.RuntimeSchema)schema).getFields()).hashCode())));
-        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$Entity", ((io.protostuff.runtime.RuntimeSchema)schema).messageFullName());
-        Assert.assertEquals("Entity", ((io.protostuff.runtime.RuntimeSchema)schema).messageName());
-        Assert.assertEquals(3, ((int) (((java.util.List)((io.protostuff.runtime.RuntimeSchema)schema).getFields()).size())));
-        Assert.assertFalse(((java.util.List)((io.protostuff.runtime.RuntimeSchema)schema).getFields()).isEmpty());
+        Assert.assertEquals("Entity", messageName());
+        Assert.assertEquals(3, ((int) (getFieldCount())));
+        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$Entity", messageFullName());
+        Assert.assertEquals(688823122, ((int) (((List) (getFields())).hashCode())));
+        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$Entity", messageFullName());
+        Assert.assertEquals("Entity", messageName());
+        Assert.assertEquals(3, ((int) (((List) (getFields())).size())));
+        Assert.assertFalse(((List) (getFields())).isEmpty());
         boolean boolean_4 = (schema.getFieldCount()) == 3;
         boolean boolean_5 = (schema.getFieldNumber("alias")) == 0;
         schema.getFieldByName("alias");
@@ -85,14 +86,14 @@ public class AmplExcludeFieldTest {
     @Test(timeout = 10000)
     public void testTaggedAndExcludedEntity() throws Exception {
         RuntimeSchema<AmplExcludeFieldTest.TaggedAndExcludedEntity> schema = ((RuntimeSchema<AmplExcludeFieldTest.TaggedAndExcludedEntity>) (RuntimeSchema.getSchema(AmplExcludeFieldTest.TaggedAndExcludedEntity.class)));
-        Assert.assertEquals("TaggedAndExcludedEntity", ((io.protostuff.Pipe.Schema)((io.protostuff.runtime.RuntimeSchema)schema).getPipeSchema()).messageName());
-        Assert.assertEquals(2, ((int) (((io.protostuff.runtime.RuntimeSchema)schema).getFieldCount())));
-        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$TaggedAndExcludedEntity", ((io.protostuff.Pipe.Schema)((io.protostuff.runtime.RuntimeSchema)schema).getPipeSchema()).messageFullName());
-        Assert.assertEquals(583299232, ((int) (((java.util.List)((io.protostuff.runtime.RuntimeSchema)schema).getFields()).hashCode())));
-        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$TaggedAndExcludedEntity", ((io.protostuff.runtime.RuntimeSchema)schema).messageFullName());
-        Assert.assertEquals("TaggedAndExcludedEntity", ((io.protostuff.runtime.RuntimeSchema)schema).messageName());
-        Assert.assertEquals(2, ((int) (((java.util.List)((io.protostuff.runtime.RuntimeSchema)schema).getFields()).size())));
-        Assert.assertFalse(((java.util.List)((io.protostuff.runtime.RuntimeSchema)schema).getFields()).isEmpty());
+        Assert.assertEquals("TaggedAndExcludedEntity", messageName());
+        Assert.assertEquals(2, ((int) (getFieldCount())));
+        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$TaggedAndExcludedEntity", messageFullName());
+        Assert.assertEquals(583299232, ((int) (((List) (getFields())).hashCode())));
+        Assert.assertEquals("io.protostuff.runtime.ExcludeFieldTest$TaggedAndExcludedEntity", messageFullName());
+        Assert.assertEquals("TaggedAndExcludedEntity", messageName());
+        Assert.assertEquals(2, ((int) (((List) (getFields())).size())));
+        Assert.assertFalse(((List) (getFields())).isEmpty());
         schema.getFieldCount();
         int o_testTaggedAndExcludedEntity__4 = schema.getFieldNumber("id");
         Assert.assertEquals(0, ((int) (o_testTaggedAndExcludedEntity__4)));

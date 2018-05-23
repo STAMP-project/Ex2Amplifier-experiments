@@ -2,16 +2,18 @@
 
 project=${1}
 pr_id=${2}
+module=${3}
 
 pwd=`pwd`
 echo ${pwd}
 
 prefix_data="dataset/may-2018/"
 prefix_res="results/may-2018/"
-prefix_pr_id="${prefix_data}${project}/${pr_id}"
-prefix_pr_id_modified="${prefix_data}${project}/${pr_id}_modified"
+prefix_pr_id="${prefix_data}${project}/${pr_id}/${module}/"
+prefix_pr_id_modified="${prefix_data}${project}/${pr_id}_modified/${module}/"
 
 cd ${prefix_pr_id}
+git checkout -- src/test/
 mvn clean test
 base_on_base=${?}
 cp -r ${pwd}/${prefix_pr_id_modified}"/src/test/" ${pwd}/${prefix_pr_id}"/src/"
@@ -23,6 +25,7 @@ cd ${pwd}
 
 
 cd ${prefix_pr_id_modified}
+git checkout -- src/test/
 mvn clean test
 head_on_head=${?}
 cp -r ${pwd}/${prefix_pr_id}"/src/test/" ${pwd}/${prefix_pr_id_modified}"/src/"

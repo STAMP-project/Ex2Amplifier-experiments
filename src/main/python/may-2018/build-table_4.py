@@ -66,7 +66,7 @@ def build(projects):
                         str(time_amplification),
                     )
 
-            row += buildSanityTable(prefix_results + "/" + project +  "/"+ pr_id)
+            row += buildSanityTable(prefix_results + "/" + project +  "/"+ pr_id, color == "009901")
 
             rows.append(row + "\\\\")
 
@@ -74,17 +74,19 @@ def build(projects):
         gray = False
         for row in rows:
             print row
+            print "\\hline"
 
     print nb_green, nb_yellow
 
-def buildSanityTable(path):
-    table = "&\n\\begin{tabular}{c|c}"
+def buildSanityTable(path, isSuccess):
+    table = "&\n$\\begin{pmatrix}"
     with open(path + "/sanity.csv", 'rb') as csvfile:
         sanity = csv.reader(csvfile, delimiter=';', quotechar='|')
         sanityAsArray = [value for value in sanity]
-        table += toCorrectMark(sanityAsArray[0][0]) + "&" + toCorrectMark(sanityAsArray[0][1]) + "\\\\\n"
-        table += toCorrectMark(sanityAsArray[1][1]) + "&" + toCorrectMark(sanityAsArray[1][1]) + "\n"
-    table += "\\end{tabular}"
+        table += "$" + toCorrectMark(sanityAsArray[0][0]) + "$&$" + toCorrectMark(sanityAsArray[0][1]) + "$\\\\\n"
+        table += "$" + toCorrectMark(sanityAsArray[1][1]) + "$&$" + toCorrectMark(sanityAsArray[1][1]) + "$\n"
+        #table += "\\cmark" + "&" + ("\\xmark" if isSuccess else "\\cmark") + "\n"
+    table += "\\end{pmatrix}$"
     return table
 
 def toCorrectMark(value):
@@ -161,4 +163,4 @@ def getData(path_to_project_result, pr_id, mode):
 
 
 if __name__ == '__main__':
-    build(projects=["javapoet"])
+    build(projects=["javapoet", "jsoup"])

@@ -2,13 +2,13 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.apache.ibatis.reflection.factory.DefaultObjectFactoryTest",
-      "timeInMs": 5379,
+      "timeInMs": 3257,
       "numberOfAmplifiedTestMethods": 1,
       "numberOfTestMethodToBeAmplified": 2
     },
     {
       "fullQualifiedName": "org.apache.ibatis.builder.xml.dynamic.ExpressionEvaluatorTest",
-      "timeInMs": 6257,
+      "timeInMs": 3559,
       "numberOfAmplifiedTestMethods": 1,
       "numberOfTestMethodToBeAmplified": 7
     }

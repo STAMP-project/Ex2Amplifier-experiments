@@ -1,4 +1,4 @@
-java.lang.AssertionError: expected:<981875886> but was:<779738524>
+java.lang.AssertionError: expected:<1777513102> but was:<664994615>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -14,7 +14,7 @@ java.lang.AssertionError: expected:<981875886> but was:<779738524>
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
 	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
-java.lang.AssertionError: expected:<1755007903> but was:<1841208232>
+java.lang.AssertionError: expected:<-1742496722> but was:<-154038477>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -46,7 +46,7 @@ java.lang.RuntimeException: All fields were excluded for io.protostuff.runtime.E
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
 	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
-java.lang.AssertionError: expected:<1741222397> but was:<-1844994704>
+java.lang.AssertionError: expected:<-306693262> but was:<1786135243>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
 	at org.junit.Assert.assertEquals(Assert.java:118)

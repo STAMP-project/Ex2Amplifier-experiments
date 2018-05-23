@@ -105,7 +105,7 @@ public class AmplObjectSchemaTest {
         public abstract String getName();
     }
 
-    public static abstract class Named {
+    public abstract static class Named {
         public abstract String getName();
     }
 

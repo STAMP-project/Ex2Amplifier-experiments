@@ -5,7 +5,7 @@ SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[18] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[20] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -70,13 +70,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 14.453 s
-[INFO] Finished at: 2018-05-21T23:23:19+02:00
-[INFO] Final Memory: 37M/1535M
+[INFO] Total time: 14.641 s
+[INFO] Finished at: 2018-05-22T23:18:19+02:00
+[INFO] Final Memory: 37M/1545M
 [INFO] ------------------------------------------------------------------------
-[24990] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[24990] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[24991] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[24788] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[24788] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[24789] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -141,36 +141,36 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 14.847 s
-[INFO] Finished at: 2018-05-21T23:23:44+02:00
-[INFO] Final Memory: 34M/1512M
+[INFO] Total time: 13.770 s
+[INFO] Finished at: 2018-05-22T23:18:42+02:00
+[INFO] Final Memory: 34M/1505M
 [INFO] ------------------------------------------------------------------------
-[42943] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/918/ and dataset/may-2018/jsoup/918_modified/ (bbcf905c8228374c733e45144119582d4758ce11)
-[42955] INFO SelectorOnDiff - Modified files:
+[41573] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/918/ and dataset/may-2018/jsoup/918_modified/ (bbcf905c8228374c733e45144119582d4758ce11)
+[41585] INFO SelectorOnDiff - Modified files:
 a/src/main/java/org/jsoup/select/Evaluator.java
 a/src/test/java/org/jsoup/nodes/ElementTest.java
-[112944] INFO Amplification - amplification of org.jsoup.select.SelectorTest (1 test(s))
-[113378] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.select.SelectorTest matchesOwn
+[109058] INFO Amplification - amplification of org.jsoup.select.SelectorTest (1 test(s))
+[109570] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.select.SelectorTest matchesOwn
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/dspot/TestListener.ser
-[114249] INFO EntryPoint - Test has been run: matchesOwn
-[114250] INFO Amplification - Try to add assertions before amplification
-[114312] INFO AssertGenerator - Run tests. (1)
-[114605] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.select.SelectorTest matchesOwn
+[110536] INFO EntryPoint - Test has been run: matchesOwn
+[110536] INFO Amplification - Try to add assertions before amplification
+[110580] INFO AssertGenerator - Run tests. (1)
+[110823] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.select.SelectorTest matchesOwn
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/dspot/TestListener.ser
-[115573] INFO EntryPoint - Test has been run: matchesOwn
-[115575] INFO AssertGenerator - 1 test pass, generating assertion...
-[115614] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[115614] INFO MethodsAssertGenerator - Instrumentation...
+[111641] INFO EntryPoint - Test has been run: matchesOwn
+[111643] INFO AssertGenerator - 1 test pass, generating assertion...
+[111691] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[111691] INFO MethodsAssertGenerator - Instrumentation...
 100% |================================================== ]/
-[115679] INFO MethodsAssertGenerator - Run instrumented tests. (3)
-[115940] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.select.SelectorTest matchesOwn_withlog0:matchesOwn_withlog1:matchesOwn_withlog2
+[111768] INFO MethodsAssertGenerator - Run instrumented tests. (3)
+[112104] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.select.SelectorTest matchesOwn_withlog0:matchesOwn_withlog1:matchesOwn_withlog2
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/dspot/observations.ser
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/918/target/dspot/TestListener.ser
-[134549] INFO EntryPoint - Test has been run: matchesOwn_withlog0,matchesOwn_withlog1,matchesOwn_withlog2
+[131658] INFO EntryPoint - Test has been run: matchesOwn_withlog0,matchesOwn_withlog1,matchesOwn_withlog2
 Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
-	at eu.stamp_project.Main.main(Main.java:96)
+	at eu.stamp_project.Main.main(Main.java:99)
 Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
-	at eu.stamp_project.Main.lambda$run$2(Main.java:152)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:156)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -180,8 +180,8 @@ Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.Run
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp_project.Main.run(Main.java:117)
-	at eu.stamp_project.Main.main(Main.java:88)
+	at eu.stamp_project.Main.run(Main.java:120)
+	at eu.stamp_project.Main.main(Main.java:91)
 Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
 	at eu.stamp_project.compare.ObjectLog.load(ObjectLog.java:235)
 	at eu.stamp_project.compare.ObjectLog.getObservations(ObjectLog.java:197)
@@ -192,7 +192,7 @@ Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.Cla
 	at eu.stamp_project.dspot.Amplification.amplification(Amplification.java:91)
 	at eu.stamp_project.dspot.DSpot.amplifyTest(DSpot.java:191)
 	at eu.stamp_project.dspot.DSpot.amplifyTest(DSpot.java:178)
-	at eu.stamp_project.Main.lambda$null$1(Main.java:143)
+	at eu.stamp_project.Main.lambda$null$1(Main.java:147)
 	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
 	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
 	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
@@ -200,7 +200,7 @@ Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.Cla
 	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at eu.stamp_project.Main.lambda$run$2(Main.java:144)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:148)
 	... 11 more
 Caused by: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
 	at eu.stamp_project.compare.ObjectLog.load(ObjectLog.java:232)

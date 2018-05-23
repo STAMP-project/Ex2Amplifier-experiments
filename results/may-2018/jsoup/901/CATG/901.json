@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.jsoup.parser.HtmlParserTest",
+      "timeInMs": 166727,
+      "numberOfAmplifiedTestMethods": 105,
+      "numberOfTestMethodToBeAmplified": 108
+    }
+  ],
+  "projectName": "901"
+}

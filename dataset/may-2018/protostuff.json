@@ -13,15 +13,6 @@
       "headSha": "843d236615dc477bc434588c3fcde5c0c2db15f2"
     },
     {
-      "id": 189,
-      "baseUrl": "git://github.com/protostuff/protostuff.git",
-      "baseRef": "master",
-      "baseSha": "80ec898039457a63e179350868c6e13524ed08c4",
-      "headUrl": "git://github.com/dyu/protostuff.git",
-      "headRef": "issue-188",
-      "headSha": "0a73677ba0cb310cb242cac74d890ee889a739ee"
-    },
-    {
       "id": 185,
       "baseUrl": "git://github.com/protostuff/protostuff.git",
       "baseRef": "master",

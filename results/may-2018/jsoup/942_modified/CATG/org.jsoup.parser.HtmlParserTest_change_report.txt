@@ -1,0 +1,20 @@
+======= REPORT =======
+3 amplified test fails on the new versions.
+selfClosingOnNonvoidIsError(org.jsoup.parser.HtmlParserTest): expected:<[]> but was:<[<html>
+ <head></head>
+ <body>
+  <p>test</p>
+  <div></div>
+  <div>
+   Two
+  </div>
+ </body>
+</html>]>
+selfClosingVoidIsNotAnError(org.jsoup.parser.HtmlParserTest): expected:<...head></head>
+ <body>[]</body>
+</html>> but was:<...head></head>
+ <body>[
+  <p>test<br>test<br></p>
+ ]</body>
+</html>>
+caseInsensitiveParseTree(org.jsoup.parser.HtmlParserTest): expected:<<r> <x> A <[/x> <y> B </y]> </r>> but was:<<r> <x> A <[y> B </y> </x]> </r>>

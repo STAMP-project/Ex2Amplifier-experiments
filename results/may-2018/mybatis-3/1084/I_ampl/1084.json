@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.apache.ibatis.cache.CacheKeyTest",
+      "timeInMs": 6767864,
+      "numberOfAmplifiedTestMethods": 1361,
+      "numberOfTestMethodToBeAmplified": 5
+    }
+  ],
+  "projectName": "1084"
+}

@@ -1,0 +1,11 @@
+======= REPORT =======
+9 amplified test fails on the new versions.
+testEmptyStringlitNum31247litString31485litNum32620_failAssert1673(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-1> but was:<null>
+testNestedIncludelitNum32litNum642litNum2445_failAssert218(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<null> but was:<-1>
+testNestedIncludelitNum31_failAssert22(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-2147483648> but was:<null>
+testNestedIncludelitNum32litString537litNum2222_failAssert246(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<null> but was:<-2147483648>
+testEmptyStringlitNum31247litNum31503litNum32698_failAssert1684(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<null> but was:<-2147483648>
+testEmptyStringlitString31235litString31613litNum32834_failAssert1701(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<null> but was:<-1>
+testNestedIncludelitNum32litNum642litNum2448_failAssert240(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<null> but was:<-2147483648>
+testConfigVarlitNum6065_failAssert288(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-1> but was:<null>
+testEmptyStringlitNum31247litString31485litNum32626_failAssert1685(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-2147483648> but was:<null>

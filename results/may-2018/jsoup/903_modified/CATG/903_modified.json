@@ -1,0 +1,17 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.jsoup.select.ElementsTest",
+      "timeInMs": 6494,
+      "numberOfAmplifiedTestMethods": 2,
+      "numberOfTestMethodToBeAmplified": 2
+    },
+    {
+      "fullQualifiedName": "org.jsoup.select.SelectorTest",
+      "timeInMs": 4662,
+      "numberOfAmplifiedTestMethods": 1,
+      "numberOfTestMethodToBeAmplified": 1
+    }
+  ],
+  "projectName": "903_modified"
+}

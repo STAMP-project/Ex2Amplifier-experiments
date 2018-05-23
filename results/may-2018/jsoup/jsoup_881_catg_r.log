@@ -4,8 +4,8 @@ SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[18] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[19] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -64,13 +64,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 14.198 s
-[INFO] Finished at: 2018-05-22T01:20:30+02:00
-[INFO] Final Memory: 36M/1544M
+[INFO] Total time: 13.909 s
+[INFO] Finished at: 2018-05-23T02:56:27+02:00
+[INFO] Final Memory: 33M/1456M
 [INFO] ------------------------------------------------------------------------
-[24107] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[24107] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[24108] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[23715] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[23715] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[23716] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -129,50 +129,35 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 12.952 s
-[INFO] Finished at: 2018-05-22T01:20:53+02:00
-[INFO] Final Memory: 42M/1588M
+[INFO] Total time: 13.996 s
+[INFO] Finished at: 2018-05-23T02:56:51+02:00
+[INFO] Final Memory: 36M/1536M
 [INFO] ------------------------------------------------------------------------
-[40096] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/881_modified/ and dataset/may-2018/jsoup/881/ (0db39c27585d52fc19084a8090face5249e2bb4c)
-[40105] INFO SelectorOnDiff - Modified files:
+[40609] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/881_modified/ and dataset/may-2018/jsoup/881/ (0db39c27585d52fc19084a8090face5249e2bb4c)
+[40619] INFO SelectorOnDiff - Modified files:
 a/src/main/java/org/jsoup/helper/HttpConnection.java
-[104430] INFO Amplification - amplification of org.jsoup.helper.HttpConnectionTest (19 test(s))
-[104898] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest headers:throwsExceptionOnParseWithoutExecute:throwsOnMalformedUrl:connectWithUrl:cookie:data:ignoresEmptySetCookies:method:caseInsensitiveHeaders:inputStream:throwsExceptionOnBodyWithoutExecute:ignoresEmptyCookieNameAndVals:throwsOnOddData:userAgent:timeout:referrer:sameHeadersCombineWithComma:requestBody:throwsExceptionOnBodyAsBytesWithoutExecute
+[105913] INFO Amplification - amplification of org.jsoup.helper.HttpConnectionTest (19 test(s))
+[106402] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest headers:throwsExceptionOnParseWithoutExecute:throwsOnMalformedUrl:connectWithUrl:cookie:data:ignoresEmptySetCookies:method:caseInsensitiveHeaders:inputStream:throwsExceptionOnBodyWithoutExecute:ignoresEmptyCookieNameAndVals:throwsOnOddData:userAgent:timeout:referrer:sameHeadersCombineWithComma:requestBody:throwsExceptionOnBodyAsBytesWithoutExecute
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[105874] INFO EntryPoint - Test has been run: throwsExceptionOnParseWithoutExecute,connectWithUrl,ignoresEmptySetCookies,throwsOnMalformedUrl,cookie,timeout,method,referrer,sameHeadersCombineWithComma,inputStream,throwsExceptionOnBodyAsBytesWithoutExecute,data,userAgent,throwsExceptionOnBodyWithoutExecute,headers,requestBody,ignoresEmptyCookieNameAndVals,throwsOnOddData,caseInsensitiveHeaders
-[105874] INFO Amplification - Try to add assertions before amplification
-[106025] INFO AssertGenerator - Run tests. (19)
-[106224] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest headers:throwsExceptionOnParseWithoutExecute:throwsOnMalformedUrl:connectWithUrl:cookie:data:ignoresEmptySetCookies:method:caseInsensitiveHeaders:inputStream:throwsExceptionOnBodyWithoutExecute:ignoresEmptyCookieNameAndVals:throwsOnOddData:userAgent:timeout:referrer:sameHeadersCombineWithComma:requestBody:throwsExceptionOnBodyAsBytesWithoutExecute
+[107255] INFO EntryPoint - Test has been run: throwsExceptionOnParseWithoutExecute,connectWithUrl,ignoresEmptySetCookies,throwsOnMalformedUrl,cookie,timeout,method,referrer,sameHeadersCombineWithComma,inputStream,throwsExceptionOnBodyAsBytesWithoutExecute,data,userAgent,throwsExceptionOnBodyWithoutExecute,headers,requestBody,ignoresEmptyCookieNameAndVals,throwsOnOddData,caseInsensitiveHeaders
+[107255] INFO Amplification - Try to add assertions before amplification
+[107459] INFO AssertGenerator - Run tests. (19)
+[107707] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest headers:throwsExceptionOnParseWithoutExecute:throwsOnMalformedUrl:connectWithUrl:cookie:data:ignoresEmptySetCookies:method:caseInsensitiveHeaders:inputStream:throwsExceptionOnBodyWithoutExecute:ignoresEmptyCookieNameAndVals:throwsOnOddData:userAgent:timeout:referrer:sameHeadersCombineWithComma:requestBody:throwsExceptionOnBodyAsBytesWithoutExecute
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[107058] INFO EntryPoint - Test has been run: throwsExceptionOnParseWithoutExecute,connectWithUrl,ignoresEmptySetCookies,throwsOnMalformedUrl,cookie,timeout,method,referrer,sameHeadersCombineWithComma,inputStream,throwsExceptionOnBodyAsBytesWithoutExecute,data,userAgent,throwsExceptionOnBodyWithoutExecute,headers,requestBody,ignoresEmptyCookieNameAndVals,throwsOnOddData,caseInsensitiveHeaders
-[107061] INFO AssertGenerator - 19 test pass, generating assertion...
-[107072] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[107072] INFO MethodsAssertGenerator - Instrumentation...
+[108521] INFO EntryPoint - Test has been run: throwsExceptionOnParseWithoutExecute,connectWithUrl,ignoresEmptySetCookies,throwsOnMalformedUrl,cookie,timeout,method,referrer,sameHeadersCombineWithComma,inputStream,throwsExceptionOnBodyAsBytesWithoutExecute,data,userAgent,throwsExceptionOnBodyWithoutExecute,headers,requestBody,ignoresEmptyCookieNameAndVals,throwsOnOddData,caseInsensitiveHeaders
+[108524] INFO AssertGenerator - 19 test pass, generating assertion...
+[108534] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[108534] INFO MethodsAssertGenerator - Instrumentation...
   5% |== ]/ 10% |===== ]- 15% |======= ]\ 21% |========== ]| 26% |============= ]/ 31% |=============== ]- 36% |================== ]\ 42% |===================== ]| 47% |======================= ]/ 52% |========================== ]- 57% |============================ ]\ 63% |=============================== ]| 68% |================================== ]/ 73% |==================================== ]- 78% |======================================= ]\ 84% |========================================== ]| 89% |============================================ ]/ 94% |=============================================== ]-100% |================================================== ]\
-[107293] INFO MethodsAssertGenerator - Run instrumented tests. (57)
-[107920] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest headers_withlog0:throwsExceptionOnParseWithoutExecute_withlog0:throwsOnMalformedUrl_withlog0:connectWithUrl_withlog0:cookie_withlog0:data_withlog0:ignoresEmptySetCookies_withlog0:method_withlog0:caseInsensitiveHeaders_withlog0:inputStream_withlog0:throwsExceptionOnBodyWithoutExecute_withlog0:ignoresEmptyCookieNameAndVals_withlog0:throwsOnOddData_withlog0:userAgent_withlog0:timeout_withlog0:referrer_withlog0:sameHeadersCombineWithComma_withlog0:requestBody_withlog0:throwsExceptionOnBodyAsBytesWithoutExecute_withlog0:headers_withlog1:throwsExceptionOnParseWithoutExecute_withlog1:throwsOnMalformedUrl_withlog1:connectWithUrl_withlog1:cookie_withlog1:data_withlog1:ignoresEmptySetCookies_withlog1:method_withlog1:caseInsensitiveHeaders_withlog1:inputStream_withlog1:throwsExceptionOnBodyWithoutExecute_withlog1:ignoresEmptyCookieNameAndVals_withlog1:throwsOnOddData_withlog1:userAgent_withlog1:timeout_withlog1:referrer_withlog1:sameHeadersCombineWithComma_withlog1:requestBody_withlog1:throwsExceptionOnBodyAsBytesWithoutExecute_withlog1:headers_withlog2:throwsExceptionOnParseWithoutExecute_withlog2:throwsOnMalformedUrl_withlog2:connectWithUrl_withlog2:cookie_withlog2:data_withlog2:ignoresEmptySetCookies_withlog2:method_withlog2:caseInsensitiveHeaders_withlog2:inputStream_withlog2:throwsExceptionOnBodyWithoutExecute_withlog2:ignoresEmptyCookieNameAndVals_withlog2:throwsOnOddData_withlog2:userAgent_withlog2:timeout_withlog2:referrer_withlog2:sameHeadersCombineWithComma_withlog2:requestBody_withlog2:throwsExceptionOnBodyAsBytesWithoutExecute_withlog2
+[108756] INFO MethodsAssertGenerator - Run instrumented tests. (57)
+[109327] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest headers_withlog0:throwsExceptionOnParseWithoutExecute_withlog0:throwsOnMalformedUrl_withlog0:connectWithUrl_withlog0:cookie_withlog0:data_withlog0:ignoresEmptySetCookies_withlog0:method_withlog0:caseInsensitiveHeaders_withlog0:inputStream_withlog0:throwsExceptionOnBodyWithoutExecute_withlog0:ignoresEmptyCookieNameAndVals_withlog0:throwsOnOddData_withlog0:userAgent_withlog0:timeout_withlog0:referrer_withlog0:sameHeadersCombineWithComma_withlog0:requestBody_withlog0:throwsExceptionOnBodyAsBytesWithoutExecute_withlog0:headers_withlog1:throwsExceptionOnParseWithoutExecute_withlog1:throwsOnMalformedUrl_withlog1:connectWithUrl_withlog1:cookie_withlog1:data_withlog1:ignoresEmptySetCookies_withlog1:method_withlog1:caseInsensitiveHeaders_withlog1:inputStream_withlog1:throwsExceptionOnBodyWithoutExecute_withlog1:ignoresEmptyCookieNameAndVals_withlog1:throwsOnOddData_withlog1:userAgent_withlog1:timeout_withlog1:referrer_withlog1:sameHeadersCombineWithComma_withlog1:requestBody_withlog1:throwsExceptionOnBodyAsBytesWithoutExecute_withlog1:headers_withlog2:throwsExceptionOnParseWithoutExecute_withlog2:throwsOnMalformedUrl_withlog2:connectWithUrl_withlog2:cookie_withlog2:data_withlog2:ignoresEmptySetCookies_withlog2:method_withlog2:caseInsensitiveHeaders_withlog2:inputStream_withlog2:throwsExceptionOnBodyWithoutExecute_withlog2:ignoresEmptyCookieNameAndVals_withlog2:throwsOnOddData_withlog2:userAgent_withlog2:timeout_withlog2:referrer_withlog2:sameHeadersCombineWithComma_withlog2:requestBody_withlog2:throwsExceptionOnBodyAsBytesWithoutExecute_withlog2
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/observations.ser
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[678921] WARN EntryPoint - Timeout when running java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest headers_withlog0:throwsExceptionOnParseWithoutExecute_withlog0:throwsOnMalformedUrl_withlog0:connectWithUrl_withlog0:cookie_withlog0:data_withlog0:ignoresEmptySetCookies_withlog0:method_withlog0:caseInsensitiveHeaders_withlog0:inputStream_withlog0:throwsExceptionOnBodyWithoutExecute_withlog0:ignoresEmptyCookieNameAndVals_withlog0:throwsOnOddData_withlog0:userAgent_withlog0:timeout_withlog0:referrer_withlog0:sameHeadersCombineWithComma_withlog0:requestBody_withlog0:throwsExceptionOnBodyAsBytesWithoutExecute_withlog0:headers_withlog1:throwsExceptionOnParseWithoutExecute_withlog1:throwsOnMalformedUrl_withlog1:connectWithUrl_withlog1:cookie_withlog1:data_withlog1:ignoresEmptySetCookies_withlog1:method_withlog1:caseInsensitiveHeaders_withlog1:inputStream_withlog1:throwsExceptionOnBodyWithoutExecute_withlog1:ignoresEmptyCookieNameAndVals_withlog1:throwsOnOddData_withlog1:userAgent_withlog1:timeout_withlog1:referrer_withlog1:sameHeadersCombineWithComma_withlog1:requestBody_withlog1:throwsExceptionOnBodyAsBytesWithoutExecute_withlog1:headers_withlog2:throwsExceptionOnParseWithoutExecute_withlog2:throwsOnMalformedUrl_withlog2:connectWithUrl_withlog2:cookie_withlog2:data_withlog2:ignoresEmptySetCookies_withlog2:method_withlog2:caseInsensitiveHeaders_withlog2:inputStream_withlog2:throwsExceptionOnBodyWithoutExecute_withlog2:ignoresEmptyCookieNameAndVals_withlog2:throwsOnOddData_withlog2:userAgent_withlog2:timeout_withlog2:referrer_withlog2:sameHeadersCombineWithComma_withlog2:requestBody_withlog2:throwsExceptionOnBodyAsBytesWithoutExecute_withlog2
-[678923] WARN TestCompiler - Timeout during execution of org.jsoup.helper.HttpConnectionTest: headers_withlog0,throwsExceptionOnParseWithoutExecute_withlog0,throwsOnMalformedUrl_withlog0,connectWithUrl_withlog0,cookie_withlog0,data_withlog0,ignoresEmptySetCookies_withlog0,method_withlog0,caseInsensitiveHeaders_withlog0,inputStream_withlog0,throwsExceptionOnBodyWithoutExecute_withlog0,ignoresEmptyCookieNameAndVals_withlog0,throwsOnOddData_withlog0,userAgent_withlog0,timeout_withlog0,referrer_withlog0,sameHeadersCombineWithComma_withlog0,requestBody_withlog0,throwsExceptionOnBodyAsBytesWithoutExecute_withlog0,headers_withlog1,throwsExceptionOnParseWithoutExecute_withlog1,throwsOnMalformedUrl_withlog1,connectWithUrl_withlog1,cookie_withlog1,data_withlog1,ignoresEmptySetCookies_withlog1,method_withlog1,caseInsensitiveHeaders_withlog1,inputStream_withlog1,throwsExceptionOnBodyWithoutExecute_withlog1,ignoresEmptyCookieNameAndVals_withlog1,throwsOnOddData_withlog1,userAgent_withlog1,timeout_withlog1,referrer_withlog1,sameHeadersCombineWithComma_withlog1,requestBody_withlog1,throwsExceptionOnBodyAsBytesWithoutExecute_withlog1,headers_withlog2,throwsExceptionOnParseWithoutExecute_withlog2,throwsOnMalformedUrl_withlog2,connectWithUrl_withlog2,cookie_withlog2,data_withlog2,ignoresEmptySetCookies_withlog2,method_withlog2,caseInsensitiveHeaders_withlog2,inputStream_withlog2,throwsExceptionOnBodyWithoutExecute_withlog2,ignoresEmptyCookieNameAndVals_withlog2,throwsOnOddData_withlog2,userAgent_withlog2,timeout_withlog2,referrer_withlog2,sameHeadersCombineWithComma_withlog2,requestBody_withlog2,throwsExceptionOnBodyAsBytesWithoutExecute_withlog2
-eu.stamp_project.dspot.AmplificationException: java.util.concurrent.TimeoutException
-	at eu.stamp_project.utils.compilation.TestCompiler.compileAndRun(TestCompiler.java:117)
-	at eu.stamp_project.dspot.assertGenerator.MethodsAssertGenerator.addAssertions(MethodsAssertGenerator.java:99)
-	at eu.stamp_project.dspot.assertGenerator.AssertGenerator.innerAssertionAmplification(AssertGenerator.java:117)
-	at eu.stamp_project.dspot.assertGenerator.AssertGenerator.assertionAmplification(AssertGenerator.java:66)
-	at eu.stamp_project.dspot.Amplification.preAmplification(Amplification.java:202)
-	at eu.stamp_project.dspot.Amplification.amplification(Amplification.java:91)
-	at eu.stamp_project.dspot.DSpot.amplifyTest(DSpot.java:191)
-	at eu.stamp_project.dspot.DSpot.amplifyTest(DSpot.java:178)
-	at eu.stamp_project.Main.lambda$null$1(Main.java:143)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
-	at eu.stamp_project.Main.lambda$run$2(Main.java:144)
+[3959310] INFO EntryPoint - Test has been run: throwsOnMalformedUrl_withlog0,throwsOnMalformedUrl_withlog1,throwsOnMalformedUrl_withlog2,throwsExceptionOnBodyAsBytesWithoutExecute_withlog0,throwsExceptionOnBodyAsBytesWithoutExecute_withlog1,throwsExceptionOnBodyAsBytesWithoutExecute_withlog2,throwsOnOddData_withlog0,throwsOnOddData_withlog1,throwsOnOddData_withlog2,connectWithUrl_withlog0,connectWithUrl_withlog1,connectWithUrl_withlog2,throwsExceptionOnBodyWithoutExecute_withlog0,throwsExceptionOnBodyWithoutExecute_withlog1,throwsExceptionOnBodyWithoutExecute_withlog2,inputStream_withlog0,inputStream_withlog1,inputStream_withlog2,throwsExceptionOnParseWithoutExecute_withlog0,throwsExceptionOnParseWithoutExecute_withlog1,throwsExceptionOnParseWithoutExecute_withlog2,cookie_withlog0(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,cookie_withlog1(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,cookie_withlog2(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,caseInsensitiveHeaders_withlog0(org.jsoup.helper.HttpConnectionTest): null,caseInsensitiveHeaders_withlog1(org.jsoup.helper.HttpConnectionTest): null,caseInsensitiveHeaders_withlog2(org.jsoup.helper.HttpConnectionTest): null,headers_withlog0(org.jsoup.helper.HttpConnectionTest): null,headers_withlog1(org.jsoup.helper.HttpConnectionTest): null,headers_withlog2(org.jsoup.helper.HttpConnectionTest): null,referrer_withlog0(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,referrer_withlog1(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,referrer_withlog2(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,requestBody_withlog0(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,requestBody_withlog1(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,requestBody_withlog2(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,userAgent_withlog0(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,userAgent_withlog1(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,userAgent_withlog2(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,data_withlog0(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,data_withlog1(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,data_withlog2(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,ignoresEmptySetCookies_withlog0(org.jsoup.helper.HttpConnectionTest): null,ignoresEmptySetCookies_withlog1(org.jsoup.helper.HttpConnectionTest): null,ignoresEmptySetCookies_withlog2(org.jsoup.helper.HttpConnectionTest): null,sameHeadersCombineWithComma_withlog0(org.jsoup.helper.HttpConnectionTest): null,sameHeadersCombineWithComma_withlog1(org.jsoup.helper.HttpConnectionTest): null,sameHeadersCombineWithComma_withlog2(org.jsoup.helper.HttpConnectionTest): null,timeout_withlog0(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,timeout_withlog1(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,timeout_withlog2(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,method_withlog0(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,method_withlog1(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,method_withlog2(org.jsoup.helper.HttpConnectionTest): test timed out after 120000 milliseconds,ignoresEmptyCookieNameAndVals_withlog0(org.jsoup.helper.HttpConnectionTest): null,ignoresEmptyCookieNameAndVals_withlog1(org.jsoup.helper.HttpConnectionTest): null,ignoresEmptyCookieNameAndVals_withlog2(org.jsoup.helper.HttpConnectionTest): null
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
+	at eu.stamp_project.Main.main(Main.java:99)
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
+	at eu.stamp_project.Main.lambda$run$2(Main.java:156)
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
@@ -182,691 +167,67 @@ eu.stamp_project.dspot.AmplificationException: java.util.concurrent.TimeoutExcep
 	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
 	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
-	at eu.stamp_project.Main.run(Main.java:117)
-	at eu.stamp_project.Main.main(Main.java:88)
-Caused by: java.util.concurrent.TimeoutException
-	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
-	at eu.stamp_project.testrunner.EntryPoint.runGivenCommandLine(EntryPoint.java:297)
-	at eu.stamp_project.testrunner.EntryPoint.runTests(EntryPoint.java:132)
-	at eu.stamp_project.testrunner.EntryPoint.runTests(EntryPoint.java:119)
-	at eu.stamp_project.utils.compilation.TestCompiler.compileAndRun(TestCompiler.java:102)
-	... 27 more
-[678927] INFO AssertGenerator - Could not generate any test with assertions
-[678927] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[678929] INFO Amplification - amp headers (1/19)
-[679161] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest headers
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[679944] INFO EntryPoint - Test has been run: headers
-[679944] INFO Amplification - iteration 0:
-[679945] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[679945] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[680134] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[680135] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[680252] DEBUG Launcher - built in 118 ms
-[680252] DEBUG Launcher - building templates: []
-[680252] DEBUG Launcher - built in 0 ms
-[680254] DEBUG Launcher - model built in 120
-[680255] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[680260] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[680478] DEBUG Launcher - compiled in 223 ms
-[680485] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:197)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[681377] INFO Amplification - 0 new tests generated
-[681378] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[681378] INFO Amplification - amp throwsExceptionOnParseWithoutExecute (2/19)
-[681396] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[681584] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest throwsExceptionOnParseWithoutExecute
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[682369] INFO EntryPoint - Test has been run: throwsExceptionOnParseWithoutExecute
-[682370] INFO Amplification - iteration 0:
-[682370] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[682370] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[682386] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[682512] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[682513] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[682621] DEBUG Launcher - built in 109 ms
-[682621] DEBUG Launcher - building templates: []
-[682621] DEBUG Launcher - built in 0 ms
-[682622] DEBUG Launcher - model built in 110
-[682623] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[682624] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[682829] DEBUG Launcher - compiled in 206 ms
-[682831] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:189)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[683672] INFO Amplification - 0 new tests generated
-[683672] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[683673] INFO Amplification - amp throwsOnMalformedUrl (3/19)
-[683690] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[683870] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest throwsOnMalformedUrl
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[684657] INFO EntryPoint - Test has been run: throwsOnMalformedUrl
-[684657] INFO Amplification - iteration 0:
-[684657] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[684657] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[684668] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[684799] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[684800] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[684907] DEBUG Launcher - built in 108 ms
-[684907] DEBUG Launcher - building templates: []
-[684907] DEBUG Launcher - built in 0 ms
-[684908] DEBUG Launcher - model built in 109
-[684908] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[684910] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[685079] DEBUG Launcher - compiled in 171 ms
-[685080] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:188)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[685815] INFO Amplification - 0 new tests generated
-[685815] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[685815] INFO Amplification - amp connectWithUrl (4/19)
-[685833] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[685980] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest connectWithUrl
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[686698] INFO EntryPoint - Test has been run: connectWithUrl
-[686698] INFO Amplification - iteration 0:
-[686698] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[686698] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[686712] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[686859] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[686860] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[686965] DEBUG Launcher - built in 106 ms
-[686965] DEBUG Launcher - building templates: []
-[686965] DEBUG Launcher - built in 0 ms
-[686966] DEBUG Launcher - model built in 107
-[686966] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[686968] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[687139] DEBUG Launcher - compiled in 173 ms
-[687141] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:189)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[687968] INFO Amplification - 0 new tests generated
-[687968] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[687968] INFO Amplification - amp cookie (5/19)
-[687984] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[688139] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest cookie
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[688733] INFO EntryPoint - Test has been run: cookie
-[688733] INFO Amplification - iteration 0:
-[688733] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[688733] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[688745] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[688856] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[688857] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[688963] DEBUG Launcher - built in 107 ms
-[688963] DEBUG Launcher - building templates: []
-[688963] DEBUG Launcher - built in 0 ms
-[688964] DEBUG Launcher - model built in 108
-[688964] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[688966] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[689133] DEBUG Launcher - compiled in 169 ms
-[689135] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:191)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[689977] INFO Amplification - 0 new tests generated
-[689977] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[689977] INFO Amplification - amp data (6/19)
-[689994] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[690191] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest data
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[691000] INFO EntryPoint - Test has been run: data
-[691000] INFO Amplification - iteration 0:
-[691000] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[691001] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[691023] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[691135] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[691135] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[691244] WARN Launcher - warning: The method readObject(Object) is undefined for the type CATG at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:211
-[691245] WARN Launcher - warning: The method readObject(Object) is undefined for the type CATG at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:212
-[691245] WARN Launcher - warning: Type mismatch: cannot convert from Object to int at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:217
-[691245] WARN Launcher - warning: Type mismatch: cannot convert from Object to int at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:218
-[691245] DEBUG Launcher - built in 110 ms
-[691245] DEBUG Launcher - building templates: []
-[691245] DEBUG Launcher - built in 0 ms
-[691246] DEBUG Launcher - model built in 111
-[691246] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[691248] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[691427] WARN Launcher - warning: The method readObject(Object) is undefined for the type CATG at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:192
-[691427] WARN Launcher - warning: The method readObject(Object) is undefined for the type CATG at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:193
-[691427] WARN Launcher - warning: Type mismatch: cannot convert from Object to int at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:198
-[691427] WARN Launcher - warning: Type mismatch: cannot convert from Object to int at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:199
-[691427] DEBUG Launcher - compiled in 181 ms
-[691429] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-Error: Could not find or load main class org.jsoup.helper.HttpConnectionTest
-[691765] INFO Amplification - 0 new tests generated
-[691766] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[691766] INFO Amplification - amp ignoresEmptySetCookies (7/19)
-[691776] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[691927] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest ignoresEmptySetCookies
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[692654] INFO EntryPoint - Test has been run: ignoresEmptySetCookies
-[692654] INFO Amplification - iteration 0:
-[692654] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[692654] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[692674] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[692795] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[692795] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[692902] DEBUG Launcher - built in 107 ms
-[692902] DEBUG Launcher - building templates: []
-[692902] DEBUG Launcher - built in 0 ms
-[692903] DEBUG Launcher - model built in 108
-[692903] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[692905] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[693067] DEBUG Launcher - compiled in 164 ms
-[693069] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-[693916] INFO Amplification - 0 new tests generated
-[693916] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[693916] INFO Amplification - amp method (8/19)
-[693931] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[694101] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest method
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[694863] INFO EntryPoint - Test has been run: method
-[694863] INFO Amplification - iteration 0:
-[694863] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[694864] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[694877] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[694980] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[694981] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[695086] DEBUG Launcher - built in 106 ms
-[695086] DEBUG Launcher - building templates: []
-[695086] DEBUG Launcher - built in 0 ms
-[695087] DEBUG Launcher - model built in 107
-[695087] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[695089] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[695248] DEBUG Launcher - compiled in 161 ms
-[695250] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:188)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[696092] INFO Amplification - 0 new tests generated
-[696092] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[696093] INFO Amplification - amp caseInsensitiveHeaders (9/19)
-[696108] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[696276] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest caseInsensitiveHeaders
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[697026] INFO EntryPoint - Test has been run: caseInsensitiveHeaders
-[697026] INFO Amplification - iteration 0:
-[697026] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[697026] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[697059] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[697169] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[697170] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[697274] DEBUG Launcher - built in 105 ms
-[697274] DEBUG Launcher - building templates: []
-[697275] DEBUG Launcher - built in 0 ms
-[697276] DEBUG Launcher - model built in 107
-[697276] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[697278] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[697456] DEBUG Launcher - compiled in 180 ms
-[697458] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-[698208] INFO Amplification - 0 new tests generated
-[698208] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[698208] INFO Amplification - amp inputStream (10/19)
-[698223] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[698391] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest inputStream
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[699140] INFO EntryPoint - Test has been run: inputStream
-[699140] INFO Amplification - iteration 0:
-[699140] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[699140] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[699197] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[699310] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[699310] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[699413] DEBUG Launcher - built in 103 ms
-[699413] DEBUG Launcher - building templates: []
-[699414] DEBUG Launcher - built in 0 ms
-[699415] DEBUG Launcher - model built in 105
-[699415] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[699416] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[699580] DEBUG Launcher - compiled in 165 ms
-[699581] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-[700394] INFO Amplification - 0 new tests generated
-[700394] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[700395] INFO Amplification - amp throwsExceptionOnBodyWithoutExecute (11/19)
-[700409] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[700573] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest throwsExceptionOnBodyWithoutExecute
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[701350] INFO EntryPoint - Test has been run: throwsExceptionOnBodyWithoutExecute
-[701350] INFO Amplification - iteration 0:
-[701350] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[701350] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[701361] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[701463] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[701464] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[701565] WARN Launcher - warning: Unreachable catch block for IOException. This exception is never thrown from the try statement body at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:210
-[701565] DEBUG Launcher - built in 102 ms
-[701566] DEBUG Launcher - building templates: []
-[701566] DEBUG Launcher - built in 0 ms
-[701567] DEBUG Launcher - model built in 104
-[701567] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[701568] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[701722] WARN Launcher - warning: Unreachable catch block for IOException. This exception is never thrown from the try statement body at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:191
-[701722] DEBUG Launcher - compiled in 155 ms
-[701724] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-Error: Could not find or load main class org.jsoup.helper.HttpConnectionTest
-[702060] INFO Amplification - 0 new tests generated
-[702060] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[702061] INFO Amplification - amp ignoresEmptyCookieNameAndVals (12/19)
-[702075] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[702250] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest ignoresEmptyCookieNameAndVals
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[702977] INFO EntryPoint - Test has been run: ignoresEmptyCookieNameAndVals
-[702977] INFO Amplification - iteration 0:
-[702977] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[702977] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[703010] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[703133] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[703134] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[703235] DEBUG Launcher - built in 102 ms
-[703235] DEBUG Launcher - building templates: []
-[703235] DEBUG Launcher - built in 0 ms
-[703236] DEBUG Launcher - model built in 103
-[703236] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[703238] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[703403] DEBUG Launcher - compiled in 167 ms
-[703404] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-[704374] INFO Amplification - 0 new tests generated
-[704374] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[704374] INFO Amplification - amp throwsOnOddData (13/19)
-[704388] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[704551] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest throwsOnOddData
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[705338] INFO EntryPoint - Test has been run: throwsOnOddData
-[705338] INFO Amplification - iteration 0:
-[705338] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[705338] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[705348] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[705454] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[705455] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[705556] DEBUG Launcher - built in 102 ms
-[705557] DEBUG Launcher - building templates: []
-[705557] DEBUG Launcher - built in 0 ms
-[705558] DEBUG Launcher - model built in 104
-[705558] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[705559] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[705713] DEBUG Launcher - compiled in 155 ms
-[705714] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:191)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[706551] INFO Amplification - 0 new tests generated
-[706551] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[706551] INFO Amplification - amp userAgent (14/19)
-[706565] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[706728] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest userAgent
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[707481] INFO EntryPoint - Test has been run: userAgent
-[707482] INFO Amplification - iteration 0:
-[707482] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[707482] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[707493] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[707594] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[707595] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[707698] DEBUG Launcher - built in 104 ms
-[707698] DEBUG Launcher - building templates: []
-[707698] DEBUG Launcher - built in 0 ms
-[707699] DEBUG Launcher - model built in 105
-[707699] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[707701] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[707856] DEBUG Launcher - compiled in 157 ms
-[707857] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:191)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[708702] INFO Amplification - 0 new tests generated
-[708702] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[708702] INFO Amplification - amp timeout (15/19)
-[708716] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[708883] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest timeout
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[709663] INFO EntryPoint - Test has been run: timeout
-[709663] INFO Amplification - iteration 0:
-[709664] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[709664] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[709678] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[709782] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[709783] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[709882] DEBUG Launcher - built in 100 ms
-[709882] DEBUG Launcher - building templates: []
-[709882] DEBUG Launcher - built in 0 ms
-[709883] DEBUG Launcher - model built in 101
-[709883] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[709885] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[710034] DEBUG Launcher - compiled in 151 ms
-[710036] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:191)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[710862] INFO Amplification - 0 new tests generated
-[710862] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[710862] INFO Amplification - amp referrer (16/19)
-[710876] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[711040] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest referrer
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[711821] INFO EntryPoint - Test has been run: referrer
-[711821] INFO Amplification - iteration 0:
-[711821] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[711821] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[711831] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[711930] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[711931] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[712031] DEBUG Launcher - built in 101 ms
-[712031] DEBUG Launcher - building templates: []
-[712031] DEBUG Launcher - built in 0 ms
-[712032] DEBUG Launcher - model built in 102
-[712032] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[712034] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[712186] DEBUG Launcher - compiled in 154 ms
-[712188] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:190)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[713019] INFO Amplification - 0 new tests generated
-[713020] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[713020] INFO Amplification - amp sameHeadersCombineWithComma (17/19)
-[713034] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[713200] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest sameHeadersCombineWithComma
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[713931] INFO EntryPoint - Test has been run: sameHeadersCombineWithComma
-[713931] INFO Amplification - iteration 0:
-[713931] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[713931] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[713953] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[714070] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[714071] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[714172] DEBUG Launcher - built in 102 ms
-[714173] DEBUG Launcher - building templates: []
-[714173] DEBUG Launcher - built in 0 ms
-[714174] DEBUG Launcher - model built in 104
-[714174] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[714176] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[714332] DEBUG Launcher - compiled in 158 ms
-[714334] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-[715209] INFO Amplification - 0 new tests generated
-[715209] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[715209] INFO Amplification - amp requestBody (18/19)
-[715224] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[715388] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest requestBody
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[716152] INFO EntryPoint - Test has been run: requestBody
-[716152] INFO Amplification - iteration 0:
-[716152] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[716152] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[716163] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[716267] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[716267] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[716368] DEBUG Launcher - built in 101 ms
-[716368] DEBUG Launcher - building templates: []
-[716368] DEBUG Launcher - built in 0 ms
-[716369] DEBUG Launcher - model built in 102
-[716369] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[716371] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[716519] DEBUG Launcher - compiled in 150 ms
-[716521] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-WARNING: 
-Error: inputs (No such file or directory)
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.AbstractLogger.INVOKEMETHOD_EXCEPTION(AbstractLogger.java:694)
-	at janala.logger.DJVM.INVOKEMETHOD_EXCEPTION(DJVM.java:700)
-	at org.jsoup.helper.HttpConnectionTest.main(HttpConnectionTest.java:189)
-Exception in thread "Thread-1" java.lang.ArrayIndexOutOfBoundsException: -1
-	at java.util.ArrayList.elementData(ArrayList.java:418)
-	at java.util.ArrayList.remove(ArrayList.java:495)
-	at janala.interpreters.Frame.pop(Frame.java:77)
-	at janala.interpreters.ConcolicInterpreter.visitPUTFIELD(ConcolicInterpreter.java:1380)
-	at janala.logger.inst.PUTFIELD.visit(PUTFIELD.java:16)
-	at janala.logger.DirectConcolicExecution.log(DirectConcolicExecution.java:58)
-	at janala.logger.DirectConcolicExecution.finish(DirectConcolicExecution.java:46)
-	at janala.logger.DirectConcolicExecution$Finisher.run(DirectConcolicExecution.java:41)
-[717359] INFO Amplification - 0 new tests generated
-[717359] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[717359] INFO Amplification - amp throwsExceptionOnBodyAsBytesWithoutExecute (19/19)
-[717373] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[717536] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.helper.HttpConnectionTest throwsExceptionOnBodyAsBytesWithoutExecute
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/dspot/TestListener.ser
-[718317] INFO EntryPoint - Test has been run: throwsExceptionOnBodyAsBytesWithoutExecute
-[718317] INFO Amplification - iteration 0:
-[718317] INFO Amplification - 1 tests selected to be amplified over 1 available tests
-[718317] INFO Amplification - Amplification of inputs...
-100% |================================================== ]/
-[718327] DEBUG Launcher - printing org.jsoup.helper.HttpConnectionTest to /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources
-[718425] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[718426] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[718527] WARN Launcher - warning: Unreachable catch block for IOException. This exception is never thrown from the try statement body at /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java:210
-[718527] DEBUG Launcher - built in 102 ms
-[718527] DEBUG Launcher - building templates: []
-[718527] DEBUG Launcher - built in 0 ms
-[718528] DEBUG Launcher - model built in 103
-[718528] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[718530] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/helper/HttpConnectionTest.java]
-[718679] WARN Launcher - warning: Unreachable catch block for IOException. This exception is never thrown from the try statement body at /tmp/Ex2Amplifier-experiments/HttpConnectionTest.java:191
-[718679] DEBUG Launcher - compiled in 151 ms
-[718680] INFO CATGExecutor - Running CATG: java -Xmx4096M -Xms2048M -Djanala.loggerClass=janala.logger.DirectConcolicExecution -Djanala.conf=/tmp/Ex2Amplifier-experiments/lib/catg.conf  -javaagent:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar  -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/classes:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/881_modified/target/test-classes:lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/catg-dev.jar:/tmp/Ex2Amplifier-experiments/lib/asm-all-5.0.4.jar:/tmp/Ex2Amplifier-experiments/lib/automaton-1.11-8.jar -ea org.jsoup.helper.HttpConnectionTest
-Error: Could not find or load main class org.jsoup.helper.HttpConnectionTest
-[719011] INFO Amplification - 0 new tests generated
-[719011] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[719011] INFO DSpot - elapsedTime 614636
-======= REPORT =======
-0 amplified test fails on the new versions.
-
-[719146] INFO DSpot - Print AmplHttpConnectionTest with 0?amplified test cases in results/may-2018/jsoup/881_modified/CATG
+	at eu.stamp_project.Main.run(Main.java:120)
+	at eu.stamp_project.Main.main(Main.java:91)
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
+	at eu.stamp_project.compare.ObjectLog.load(ObjectLog.java:235)
+	at eu.stamp_project.compare.ObjectLog.getObservations(ObjectLog.java:197)
+	at eu.stamp_project.dspot.assertGenerator.MethodsAssertGenerator.addAssertions(MethodsAssertGenerator.java:108)
+	at eu.stamp_project.dspot.assertGenerator.AssertGenerator.innerAssertionAmplification(AssertGenerator.java:117)
+	at eu.stamp_project.dspot.assertGenerator.AssertGenerator.assertionAmplification(AssertGenerator.java:66)
+	at eu.stamp_project.dspot.Amplification.preAmplification(Amplification.java:202)
+	at eu.stamp_project.dspot.Amplification.amplification(Amplification.java:91)
+	at eu.stamp_project.dspot.DSpot.amplifyTest(DSpot.java:191)
+	at eu.stamp_project.dspot.DSpot.amplifyTest(DSpot.java:178)
+	at eu.stamp_project.Main.lambda$null$1(Main.java:147)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:148)
+	... 11 more
+Caused by: java.lang.RuntimeException: java.lang.ClassNotFoundException: org.jsoup.select.Elements
+	at eu.stamp_project.compare.ObjectLog.load(ObjectLog.java:232)
+	... 28 more
+Caused by: java.lang.ClassNotFoundException: org.jsoup.select.Elements
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at java.io.ObjectInputStream.resolveClass(ObjectInputStream.java:677)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1819)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1713)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1986)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1535)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+	at java.util.HashMap.readObject(HashMap.java:1404)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1058)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2122)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2013)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1535)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2231)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2155)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2013)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1535)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+	at java.util.HashMap.readObject(HashMap.java:1404)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1058)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2122)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2013)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1535)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+	at eu.stamp_project.compare.ObjectLog.load(ObjectLog.java:230)
+	... 28 more

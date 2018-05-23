@@ -2,14 +2,10 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.apache.ibatis.executor.BaseExecutorTest",
-<<<<<<< Updated upstream
-      "timeInMs": 31821,
-=======
-      "timeInMs": 59864,
->>>>>>> Stashed changes
+      "timeInMs": 59443,
       "numberOfAmplifiedTestMethods": 16,
       "numberOfTestMethodToBeAmplified": 18
     }
   ],
-  "projectName": "1110"
+  "projectName": "1110_modified"
 }

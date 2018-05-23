@@ -1,7 +1,2 @@
 ======= REPORT =======
-<<<<<<< Updated upstream
-1 amplified test fails on the new versions.
-shouldClearDeferredLoads(org.apache.ibatis.executor.BaseExecutorTest): expected:<-1615893528> but was:<-1460075857>
-=======
 0 amplified test fails on the new versions.
->>>>>>> Stashed changes

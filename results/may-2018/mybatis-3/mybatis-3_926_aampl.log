@@ -1,0 +1,427 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[11] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building mybatis 3.4.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ mybatis ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ mybatis ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ mybatis ---
+[INFO] argLine set to -javaagent:/home/spirals/danglot/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/jacoco.exec,excludes=org.apache.ibatis.ognl.*:org.apache.ibatis.javassist.*
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ mybatis ---
+[INFO] Compiling 366 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/src/main/java/org/apache/ibatis/reflection/MetaObject.java: Some input files use unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/src/main/java/org/apache/ibatis/reflection/MetaObject.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ mybatis ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (check-java-1.6-compat) @ mybatis ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ mybatis >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ mybatis ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ mybatis ---
+[INFO] argLine set to -javaagent:/home/spirals/danglot/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/jacoco.exec,excludes=org.apache.ibatis.ognl.*:org.apache.ibatis.javassist.*
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ mybatis ---
+[INFO] Compiling 53 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/classes
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ mybatis ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (check-java-1.6-compat) @ mybatis ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ mybatis <<<
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ mybatis ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 461 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ mybatis ---
+[INFO] Compiling 718 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/test-classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/src/test/java/org/apache/ibatis/jdbc/SelectBuilderTest.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/src/test/java/org/apache/ibatis/jdbc/SelectBuilderTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/src/test/java/org/apache/ibatis/reflection/MetaObjectTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/src/test/java/org/apache/ibatis/reflection/MetaObjectTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ mybatis ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:build-classpath (default-cli) @ mybatis ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.489 s
+[INFO] Finished at: 2018-05-23T15:00:51+02:00
+[INFO] Final Memory: 42M/637M
+[INFO] ------------------------------------------------------------------------
+[22872] ERROR JDTCommentBuilder - // Interface Mapper is not added into the AST
+spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/src/main/java/org/apache/ibatis/annotations/Mapper.java:39)
+	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:152)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:108)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:417)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:362)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:724)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
+	at eu.stamp_project.dspot.DSpot.<init>(DSpot.java:108)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:137)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp_project.Main.run(Main.java:120)
+	at eu.stamp_project.Main.main(Main.java:91)
+[22939] ERROR JDTCommentBuilder - // target for test (ordinal number -> Enum constant) is not added into the AST
+spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:46)
+	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:152)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:108)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:417)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:362)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:724)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
+	at eu.stamp_project.dspot.DSpot.<init>(DSpot.java:108)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:137)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp_project.Main.run(Main.java:120)
+	at eu.stamp_project.Main.main(Main.java:91)
+[22940] ERROR JDTCommentBuilder - // Switch using enum constant name(PERSON or EMPLOYEE) at cases attribute is not added into the AST
+spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:48)
+	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:152)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:108)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:417)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:362)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:724)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
+	at eu.stamp_project.dspot.DSpot.<init>(DSpot.java:108)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:137)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp_project.Main.run(Main.java:120)
+	at eu.stamp_project.Main.main(Main.java:91)
+[28321] ERROR JDTCommentBuilder - /* because ResultHandler<?> is always ResultHandler<Object> */ is not added into the AST
+spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java:360)
+	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:152)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:108)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:417)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:362)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:724)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:106)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
+	at eu.stamp_project.dspot.DSpot.<init>(DSpot.java:108)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:137)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp_project.Main.run(Main.java:120)
+	at eu.stamp_project.Main.main(Main.java:91)
+[29191] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[29191] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[29192] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building mybatis 3.4.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ mybatis ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ mybatis ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ mybatis ---
+[INFO] argLine set to -javaagent:/home/spirals/danglot/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/target/jacoco.exec,excludes=org.apache.ibatis.ognl.*:org.apache.ibatis.javassist.*
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ mybatis ---
+[INFO] Compiling 366 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/src/main/java/org/apache/ibatis/executor/keygen/Jdbc3KeyGenerator.java: Some input files use unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/src/main/java/org/apache/ibatis/executor/keygen/Jdbc3KeyGenerator.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ mybatis ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (check-java-1.6-compat) @ mybatis ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ mybatis >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ mybatis ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ mybatis ---
+[INFO] argLine set to -javaagent:/home/spirals/danglot/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/target/jacoco.exec,excludes=org.apache.ibatis.ognl.*:org.apache.ibatis.javassist.*
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ mybatis ---
+[INFO] Compiling 53 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/target/classes
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ mybatis ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (check-java-1.6-compat) @ mybatis ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ mybatis <<<
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ mybatis ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 461 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ mybatis ---
+[INFO] Compiling 718 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/target/test-classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/src/test/java/org/apache/ibatis/jdbc/SqlBuilderTest.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/src/test/java/org/apache/ibatis/jdbc/SqlBuilderTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/src/test/java/org/apache/ibatis/domain/misc/RichType.java: Some input files use unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/src/test/java/org/apache/ibatis/domain/misc/RichType.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ mybatis ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:build-classpath (default-cli) @ mybatis ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.329 s
+[INFO] Finished at: 2018-05-23T15:01:20+02:00
+[INFO] Final Memory: 42M/602M
+[INFO] ------------------------------------------------------------------------
+[46240] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/mybatis-3/926/ and dataset/may-2018/mybatis-3/926_modified/ (586b0d2dae17727f65139e7016661e3c39554133)
+[46257] INFO SelectorOnDiff - Modified files:
+a/src/main/java/org/apache/ibatis/jdbc/AbstractSQL.java
+a/src/test/java/org/apache/ibatis/jdbc/SQLTest.java
+[48538] INFO SelectorOnDiff - Select 17 modified test methods
+[52215] INFO SelectorOnDiff - Select 17 test methods that execute directly modified methods
+[53312] INFO Amplification - amplification of org.apache.ibatis.jdbc.SQLTest (21 test(s))
+[53508] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/classes:/home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.apache.ibatis.jdbc.SQLTest variableLengthArgumentOnSelect:shouldProduceExpectedSimpleSelectStatement:shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams:variableLengthArgumentOnHaving:shouldDemonstrateMixedStyle:variableLengthArgumentOnRightOuterJoin:variableLengthArgumentOnSelectDistinct:variableLengthArgumentOnOuterJoin:variableLengthArgumentOnSet:variableLengthArgumentOnJoin:variableLengthArgumentOnGroupBy:variableLengthArgumentOnOrderBy:variableLengthArgumentOnFrom:variableLengthArgumentOnWhere:shouldProduceExpectedSimpleSelectStatementMissingFirstParam:variableLengthArgumentOnLeftOuterJoin:variableLengthArgumentOnIntoColumnsAndValues:shouldDemonstrateProvidedStringBuilder:shouldProduceExpectedSimpleSelectStatementMissingAllParams:variableLengthArgumentOnInnerJoin:shouldProduceExpectedComplexSelectStatement
+INSERT INTO TABLE_A
+ (a, b)
+VALUES (#{a}, #{b})
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/dspot/TestListener.ser
+[54027] INFO EntryPoint - Test has been run: variableLengthArgumentOnOrderBy,variableLengthArgumentOnWhere,shouldDemonstrateProvidedStringBuilder,shouldDemonstrateMixedStyle,variableLengthArgumentOnSelectDistinct,variableLengthArgumentOnGroupBy,shouldProduceExpectedComplexSelectStatement,variableLengthArgumentOnOuterJoin,shouldProduceExpectedSimpleSelectStatement,variableLengthArgumentOnLeftOuterJoin,variableLengthArgumentOnRightOuterJoin,shouldProduceExpectedSimpleSelectStatementMissingFirstParam,variableLengthArgumentOnHaving,variableLengthArgumentOnFrom,variableLengthArgumentOnJoin,shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams,variableLengthArgumentOnSelect,variableLengthArgumentOnInnerJoin,variableLengthArgumentOnSet,variableLengthArgumentOnIntoColumnsAndValues,shouldProduceExpectedSimpleSelectStatementMissingAllParams
+[54027] INFO Amplification - Try to add assertions before amplification
+[54624] INFO AssertGenerator - Run tests. (21)
+[54739] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/classes:/home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.apache.ibatis.jdbc.SQLTest variableLengthArgumentOnSelect:shouldProduceExpectedSimpleSelectStatement:shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams:variableLengthArgumentOnHaving:shouldDemonstrateMixedStyle:variableLengthArgumentOnRightOuterJoin:variableLengthArgumentOnSelectDistinct:variableLengthArgumentOnOuterJoin:variableLengthArgumentOnSet:variableLengthArgumentOnJoin:variableLengthArgumentOnGroupBy:variableLengthArgumentOnOrderBy:variableLengthArgumentOnFrom:variableLengthArgumentOnWhere:shouldProduceExpectedSimpleSelectStatementMissingFirstParam:variableLengthArgumentOnLeftOuterJoin:variableLengthArgumentOnIntoColumnsAndValues:shouldDemonstrateProvidedStringBuilder:shouldProduceExpectedSimpleSelectStatementMissingAllParams:variableLengthArgumentOnInnerJoin:shouldProduceExpectedComplexSelectStatement
+INSERT INTO TABLE_A
+ (a, b)
+VALUES (#{a}, #{b})
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/dspot/TestListener.ser
+[55198] INFO EntryPoint - Test has been run: variableLengthArgumentOnOrderBy,variableLengthArgumentOnWhere,shouldDemonstrateProvidedStringBuilder,shouldDemonstrateMixedStyle,variableLengthArgumentOnSelectDistinct,variableLengthArgumentOnGroupBy,shouldProduceExpectedComplexSelectStatement,variableLengthArgumentOnOuterJoin,shouldProduceExpectedSimpleSelectStatement,variableLengthArgumentOnLeftOuterJoin,variableLengthArgumentOnRightOuterJoin,shouldProduceExpectedSimpleSelectStatementMissingFirstParam,variableLengthArgumentOnHaving,variableLengthArgumentOnFrom,variableLengthArgumentOnJoin,shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams,variableLengthArgumentOnSelect,variableLengthArgumentOnInnerJoin,variableLengthArgumentOnSet,variableLengthArgumentOnIntoColumnsAndValues,shouldProduceExpectedSimpleSelectStatementMissingAllParams
+[55198] INFO AssertGenerator - 21 test pass, generating assertion...
+[55206] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[55206] INFO MethodsAssertGenerator - Instrumentation...
+  4% |== ]/  9% |==== ]- 14% |======= ]\ 19% |========= ]| 23% |=========== ]/ 28% |============== ]- 33% |================ ]\ 38% |=================== ]| 42% |===================== ]/ 47% |======================= ]- 52% |========================== ]\ 57% |============================ ]| 61% |============================== ]/ 66% |================================= ]- 71% |=================================== ]\ 76% |====================================== ]| 80% |======================================== ]/ 85% |========================================== ]- 90% |============================================= ]\ 95% |=============================================== ]|100% |================================================== ]/
+[55339] INFO MethodsAssertGenerator - Run instrumented tests. (63)
+[55869] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/classes:/home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.apache.ibatis.jdbc.SQLTest variableLengthArgumentOnSelect_withlog0:shouldProduceExpectedSimpleSelectStatement_withlog0:shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams_withlog0:variableLengthArgumentOnHaving_withlog0:shouldDemonstrateMixedStyle_withlog0:variableLengthArgumentOnRightOuterJoin_withlog0:variableLengthArgumentOnSelectDistinct_withlog0:variableLengthArgumentOnOuterJoin_withlog0:variableLengthArgumentOnSet_withlog0:variableLengthArgumentOnJoin_withlog0:variableLengthArgumentOnGroupBy_withlog0:variableLengthArgumentOnOrderBy_withlog0:variableLengthArgumentOnFrom_withlog0:variableLengthArgumentOnWhere_withlog0:shouldProduceExpectedSimpleSelectStatementMissingFirstParam_withlog0:variableLengthArgumentOnLeftOuterJoin_withlog0:variableLengthArgumentOnIntoColumnsAndValues_withlog0:shouldDemonstrateProvidedStringBuilder_withlog0:shouldProduceExpectedSimpleSelectStatementMissingAllParams_withlog0:variableLengthArgumentOnInnerJoin_withlog0:shouldProduceExpectedComplexSelectStatement_withlog0:variableLengthArgumentOnSelect_withlog1:shouldProduceExpectedSimpleSelectStatement_withlog1:shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams_withlog1:variableLengthArgumentOnHaving_withlog1:shouldDemonstrateMixedStyle_withlog1:variableLengthArgumentOnRightOuterJoin_withlog1:variableLengthArgumentOnSelectDistinct_withlog1:variableLengthArgumentOnOuterJoin_withlog1:variableLengthArgumentOnSet_withlog1:variableLengthArgumentOnJoin_withlog1:variableLengthArgumentOnGroupBy_withlog1:variableLengthArgumentOnOrderBy_withlog1:variableLengthArgumentOnFrom_withlog1:variableLengthArgumentOnWhere_withlog1:shouldProduceExpectedSimpleSelectStatementMissingFirstParam_withlog1:variableLengthArgumentOnLeftOuterJoin_withlog1:variableLengthArgumentOnIntoColumnsAndValues_withlog1:shouldDemonstrateProvidedStringBuilder_withlog1:shouldProduceExpectedSimpleSelectStatementMissingAllParams_withlog1:variableLengthArgumentOnInnerJoin_withlog1:shouldProduceExpectedComplexSelectStatement_withlog1:variableLengthArgumentOnSelect_withlog2:shouldProduceExpectedSimpleSelectStatement_withlog2:shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams_withlog2:variableLengthArgumentOnHaving_withlog2:shouldDemonstrateMixedStyle_withlog2:variableLengthArgumentOnRightOuterJoin_withlog2:variableLengthArgumentOnSelectDistinct_withlog2:variableLengthArgumentOnOuterJoin_withlog2:variableLengthArgumentOnSet_withlog2:variableLengthArgumentOnJoin_withlog2:variableLengthArgumentOnGroupBy_withlog2:variableLengthArgumentOnOrderBy_withlog2:variableLengthArgumentOnFrom_withlog2:variableLengthArgumentOnWhere_withlog2:shouldProduceExpectedSimpleSelectStatementMissingFirstParam_withlog2:variableLengthArgumentOnLeftOuterJoin_withlog2:variableLengthArgumentOnIntoColumnsAndValues_withlog2:shouldDemonstrateProvidedStringBuilder_withlog2:shouldProduceExpectedSimpleSelectStatementMissingAllParams_withlog2:variableLengthArgumentOnInnerJoin_withlog2:shouldProduceExpectedComplexSelectStatement_withlog2
+INSERT INTO TABLE_A
+ (a, b)
+VALUES (#{a}, #{b})
+INSERT INTO TABLE_A
+ (a, b)
+VALUES (#{a}, #{b})
+INSERT INTO TABLE_A
+ (a, b)
+VALUES (#{a}, #{b})
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/dspot/TestListener.ser
+[57633] INFO EntryPoint - Test has been run: variableLengthArgumentOnOrderBy_withlog0,variableLengthArgumentOnOrderBy_withlog1,variableLengthArgumentOnOrderBy_withlog2,shouldProduceExpectedSimpleSelectStatement_withlog0,shouldProduceExpectedSimpleSelectStatement_withlog1,shouldProduceExpectedSimpleSelectStatement_withlog2,shouldProduceExpectedSimpleSelectStatementMissingAllParams_withlog0,shouldProduceExpectedSimpleSelectStatementMissingAllParams_withlog1,shouldProduceExpectedSimpleSelectStatementMissingAllParams_withlog2,variableLengthArgumentOnWhere_withlog0,variableLengthArgumentOnWhere_withlog1,variableLengthArgumentOnWhere_withlog2,variableLengthArgumentOnRightOuterJoin_withlog0,variableLengthArgumentOnRightOuterJoin_withlog1,variableLengthArgumentOnRightOuterJoin_withlog2,variableLengthArgumentOnGroupBy_withlog0,variableLengthArgumentOnGroupBy_withlog1,variableLengthArgumentOnGroupBy_withlog2,variableLengthArgumentOnSet_withlog0,variableLengthArgumentOnSet_withlog1,variableLengthArgumentOnSet_withlog2,variableLengthArgumentOnSelect_withlog0,variableLengthArgumentOnSelect_withlog1,variableLengthArgumentOnSelect_withlog2,variableLengthArgumentOnSelectDistinct_withlog0,variableLengthArgumentOnSelectDistinct_withlog1,variableLengthArgumentOnSelectDistinct_withlog2,variableLengthArgumentOnHaving_withlog0,variableLengthArgumentOnHaving_withlog1,variableLengthArgumentOnHaving_withlog2,shouldProduceExpectedComplexSelectStatement_withlog0,shouldProduceExpectedComplexSelectStatement_withlog1,shouldProduceExpectedComplexSelectStatement_withlog2,variableLengthArgumentOnLeftOuterJoin_withlog0,variableLengthArgumentOnLeftOuterJoin_withlog1,variableLengthArgumentOnLeftOuterJoin_withlog2,variableLengthArgumentOnFrom_withlog0,variableLengthArgumentOnFrom_withlog1,variableLengthArgumentOnFrom_withlog2,shouldDemonstrateProvidedStringBuilder_withlog0,shouldDemonstrateProvidedStringBuilder_withlog1,shouldDemonstrateProvidedStringBuilder_withlog2,shouldDemonstrateMixedStyle_withlog0,shouldDemonstrateMixedStyle_withlog1,shouldDemonstrateMixedStyle_withlog2,variableLengthArgumentOnInnerJoin_withlog0,variableLengthArgumentOnInnerJoin_withlog1,variableLengthArgumentOnInnerJoin_withlog2,shouldProduceExpectedSimpleSelectStatementMissingFirstParam_withlog0,shouldProduceExpectedSimpleSelectStatementMissingFirstParam_withlog1,shouldProduceExpectedSimpleSelectStatementMissingFirstParam_withlog2,variableLengthArgumentOnJoin_withlog0,variableLengthArgumentOnJoin_withlog1,variableLengthArgumentOnJoin_withlog2,shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams_withlog0,shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams_withlog1,shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams_withlog2,variableLengthArgumentOnOuterJoin_withlog0,variableLengthArgumentOnOuterJoin_withlog1,variableLengthArgumentOnOuterJoin_withlog2,variableLengthArgumentOnIntoColumnsAndValues_withlog0,variableLengthArgumentOnIntoColumnsAndValues_withlog1,variableLengthArgumentOnIntoColumnsAndValues_withlog2
+[57653] INFO MethodsAssertGenerator - Generating assertions...
+[57730] INFO AssertGenerator - 21 new tests with assertions generated
+[57948] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/classes:/home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.apache.ibatis.jdbc.SQLTest variableLengthArgumentOnSelect:shouldProduceExpectedSimpleSelectStatement:shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams:variableLengthArgumentOnHaving:shouldDemonstrateMixedStyle:variableLengthArgumentOnRightOuterJoin:variableLengthArgumentOnSelectDistinct:variableLengthArgumentOnOuterJoin:variableLengthArgumentOnSet:variableLengthArgumentOnJoin:variableLengthArgumentOnGroupBy:variableLengthArgumentOnOrderBy:variableLengthArgumentOnFrom:variableLengthArgumentOnWhere:shouldProduceExpectedSimpleSelectStatementMissingFirstParam:variableLengthArgumentOnLeftOuterJoin:variableLengthArgumentOnIntoColumnsAndValues:shouldDemonstrateProvidedStringBuilder:shouldProduceExpectedSimpleSelectStatementMissingAllParams:variableLengthArgumentOnInnerJoin:shouldProduceExpectedComplexSelectStatement
+INSERT INTO TABLE_A
+ (a, b)
+VALUES (#{a}, #{b})
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/dspot/TestListener.ser
+[58880] INFO EntryPoint - Test has been run: variableLengthArgumentOnOrderBy,variableLengthArgumentOnSelectDistinct,variableLengthArgumentOnGroupBy,shouldProduceExpectedComplexSelectStatement,variableLengthArgumentOnOuterJoin,shouldProduceExpectedSimpleSelectStatement,variableLengthArgumentOnLeftOuterJoin,variableLengthArgumentOnRightOuterJoin,shouldProduceExpectedSimpleSelectStatementMissingFirstParam,variableLengthArgumentOnFrom,variableLengthArgumentOnJoin,shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams,variableLengthArgumentOnSelect,variableLengthArgumentOnInnerJoin,variableLengthArgumentOnSet,variableLengthArgumentOnIntoColumnsAndValues,shouldProduceExpectedSimpleSelectStatementMissingAllParams,variableLengthArgumentOnWhere(org.apache.ibatis.jdbc.SQLTest): expected:<...= #{a} AND b = #{b})[ 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...= #{a} AND b = #{b})[]>,shouldDemonstrateProvidedStringBuilder(org.apache.ibatis.jdbc.SQLTest): expected:<...
+WHERE (P.ID = A.ID)[ 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...
+WHERE (P.ID = A.ID)[]>,shouldDemonstrateMixedStyle(org.apache.ibatis.jdbc.SQLTest): expected:<...e like ? AND id = ?)[ 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...e like ? AND id = ?)[]>,variableLengthArgumentOnHaving(org.apache.ibatis.jdbc.SQLTest): expected:<...= #{a} AND b = #{b})[ 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...= #{a} AND b = #{b})[]>
+[59681] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/apache/ibatis/jdbc/SQLTest.java]
+[59682] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:target/dspot/dependencies/:dataset/may-2018/mybatis-3/926//target/classes:dataset/may-2018/mybatis-3/926//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/apache/ibatis/jdbc/SQLTest.java]
+[59774] DEBUG Launcher - built in 93 ms
+[59774] DEBUG Launcher - building templates: []
+[59774] DEBUG Launcher - built in 0 ms
+[59777] DEBUG Launcher - model built in 96
+[59778] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/apache/ibatis/jdbc/SQLTest.java]
+[59782] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:target/dspot/dependencies/:dataset/may-2018/mybatis-3/926//target/classes:dataset/may-2018/mybatis-3/926//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/apache/ibatis/jdbc/SQLTest.java]
+[59943] DEBUG Launcher - compiled in 165 ms
+[59945] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926_modified/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.apache.ibatis.jdbc.SQLTest variableLengthArgumentOnSelect:shouldProduceExpectedSimpleSelectStatement:shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams:variableLengthArgumentOnHaving:shouldDemonstrateMixedStyle:variableLengthArgumentOnRightOuterJoin:variableLengthArgumentOnSelectDistinct:variableLengthArgumentOnOuterJoin:variableLengthArgumentOnSet:variableLengthArgumentOnJoin:variableLengthArgumentOnGroupBy:variableLengthArgumentOnOrderBy:variableLengthArgumentOnFrom:variableLengthArgumentOnWhere:shouldProduceExpectedSimpleSelectStatementMissingFirstParam:variableLengthArgumentOnLeftOuterJoin:variableLengthArgumentOnIntoColumnsAndValues:shouldDemonstrateProvidedStringBuilder:shouldProduceExpectedSimpleSelectStatementMissingAllParams:variableLengthArgumentOnInnerJoin:shouldProduceExpectedComplexSelectStatement
+INSERT INTO TABLE_A
+ (a, b)
+VALUES (#{a}, #{b})
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/926/target/dspot/TestListener.ser
+[60402] INFO EntryPoint - Test has been run: variableLengthArgumentOnOrderBy,variableLengthArgumentOnSelectDistinct,variableLengthArgumentOnGroupBy,shouldProduceExpectedComplexSelectStatement,variableLengthArgumentOnOuterJoin,shouldProduceExpectedSimpleSelectStatement,variableLengthArgumentOnLeftOuterJoin,variableLengthArgumentOnRightOuterJoin,shouldProduceExpectedSimpleSelectStatementMissingFirstParam,variableLengthArgumentOnFrom,variableLengthArgumentOnJoin,shouldProduceExpectedSimpleSelectStatementMissingFirstTwoParams,variableLengthArgumentOnSelect,variableLengthArgumentOnInnerJoin,variableLengthArgumentOnSet,variableLengthArgumentOnIntoColumnsAndValues,shouldProduceExpectedSimpleSelectStatementMissingAllParams,variableLengthArgumentOnWhere(org.apache.ibatis.jdbc.SQLTest): expected:<...= #{a} AND b = #{b})[ 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...= #{a} AND b = #{b})[]>,shouldDemonstrateProvidedStringBuilder(org.apache.ibatis.jdbc.SQLTest): expected:<...
+WHERE (P.ID = A.ID)[ 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...
+WHERE (P.ID = A.ID)[]>,shouldDemonstrateMixedStyle(org.apache.ibatis.jdbc.SQLTest): expected:<...e like ? AND id = ?)[ 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...e like ? AND id = ?)[]>,variableLengthArgumentOnHaving(org.apache.ibatis.jdbc.SQLTest): expected:<...= #{a} AND b = #{b})[ 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...= #{a} AND b = #{b})[]>
+[60404] INFO Amplification - 4 amplified test(s) has been selected, global: 4
+[60404] INFO DSpot - elapsedTime 7630
+======= REPORT =======
+4 amplified test fails on the new versions.
+variableLengthArgumentOnHaving(org.apache.ibatis.jdbc.SQLTest): expected:<...= #{a} AND b = #{b})[ 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...= #{a} AND b = #{b})[]>
+shouldDemonstrateMixedStyle(org.apache.ibatis.jdbc.SQLTest): expected:<...e like ? AND id = ?)[ 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...e like ? AND id = ?)[]>
+shouldDemonstrateProvidedStringBuilder(org.apache.ibatis.jdbc.SQLTest): expected:<...
+WHERE (P.ID = A.ID)[ 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...
+WHERE (P.ID = A.ID)[]>
+variableLengthArgumentOnWhere(org.apache.ibatis.jdbc.SQLTest): expected:<...= #{a} AND b = #{b})[ 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR ()]> but was:<...= #{a} AND b = #{b})[]>
+
+[61004] INFO DSpot - Print AmplSQLTest with 4?amplified test cases in results/may-2018/mybatis-3/926/A_ampl
+[61005] DEBUG Launcher - printing org.apache.ibatis.jdbc.AmplSQLTest to /tmp/Ex2Amplifier-experiments/results/may-2018/mybatis-3/926/A_ampl

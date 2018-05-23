@@ -1,0 +1,27 @@
+======= REPORT =======
+4 amplified test fails on the new versions.
+variableLengthArgumentOnHaving(org.apache.ibatis.jdbc.SQLTest): expected:<...= #{a} AND b = #{b})[ 
+OR () 
+AND () 
+OR () 
+AND ()]> but was:<...= #{a} AND b = #{b})[]>
+fixFor903UpdateJoins(org.apache.ibatis.jdbc.SQLTest): expected:<UPDATE table1 a
+[INNER JOIN table2 b USING (ID)
+]SET a.value = b.valu...> but was:<UPDATE table1 a
+[]SET a.value = b.valu...>
+shouldDemonstrateMixedStyle(org.apache.ibatis.jdbc.SQLTest): expected:<...e like ? AND id = ?)[ 
+OR () 
+AND () 
+OR () 
+AND () 
+OR () 
+AND ()]> but was:<...e like ? AND id = ?)[]>
+variableLengthArgumentOnWhere(org.apache.ibatis.jdbc.SQLTest): expected:<...= #{a} AND b = #{b})[ 
+OR () 
+AND () 
+OR () 
+AND () 
+OR () 
+AND () 
+OR () 
+AND ()]> but was:<...= #{a} AND b = #{b})[]>

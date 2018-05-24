@@ -1,6 +1,6 @@
 import json
 
-def check(projects=["protostuff"]):
+def check(projects=["mybatis-3"]):
     date = "may-2018"
     prefix_dataset = "dataset" + "/" + date + "/"
     suffix_json = ".json"

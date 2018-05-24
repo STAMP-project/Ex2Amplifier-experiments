@@ -2,6 +2,9 @@ import sys
 import json
 import argparse
 
+'''
+Same as the first version, but without the --reverse mode
+'''
 
 def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
     err_out_redirection = "2>&1 | tee -a"

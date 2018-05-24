@@ -28,6 +28,8 @@ def build(projects):
         modes = ["A_ampl", "CATG", "JBSE", "I_ampl"]
         display_modes = [mode.replace("_", "\\_") for mode in modes]
 
+        first = True
+
         for pr_data in project_dataset_json["pullRequests"]:
             row = ""
             for mode in ["A_ampl", "CATG", "JBSE", "I_ampl"]:
@@ -35,14 +37,12 @@ def build(projects):
                 pr_id_key = mode + pr_id
                 display_mode = mode.replace("_", "\\_")
                 datas = getDatas(path_to_project_result, pr_id, mode)
-                if datas == "" or len(datas) < 8:
+                if datas == "" or len(datas) < 4:
                     row += ("&"+str(pr_id)+"&" if mode == "A_ampl" else "" ) + "&&&"
                     continue
-                nb, time_amplification, numberOfTestMethodToBeAmplifieds, numberOfAmplifiedTestMethods, \
-                nb_modified, time_amplification_modified, numberOfTestMethodToBeAmplifieds_modified, numberOfAmplifiedTestMethods_modified = datas
+                nb, time_amplification, numberOfTestMethodToBeAmplifieds, numberOfAmplifiedTestMethods = datas
                 if mode == "A_ampl":
-                    sucessfull_aampl[pr_id] = [nb, numberOfAmplifiedTestMethods,
-                                               nb_modified, numberOfAmplifiedTestMethods_modified]
+                    sucessfull_aampl[pr_id] = [nb, numberOfAmplifiedTestMethods]
                     row += "&" + str(pr_id) + "&" + str(numberOfTestMethodToBeAmplifieds)
 
                 isColored, color = getColors(nb, numberOfAmplifiedTestMethods, mode, pr_id, sucessfull_aampl, 0, 1)
@@ -67,26 +67,27 @@ def build(projects):
                     )
 
             row += buildSanityTable(prefix_results + "/" + project +  "/"+ pr_id, color == "009901")
+            if not first:
+                row += "\\\\"
+            first = not first
+            rows.append(row)
 
-            rows.append(row + "\\\\")
-
-        print "\\hline\n\\multirow{" + str(2*len(rows)) + "}{*}{\\rotvertical{" + project + "}}"
+        print "\\hline\n\\multirow{" + str(len(rows)) + "}{*}{\\rotvertical{" + project + "}}"
         gray = False
         for row in rows:
             print row
-            print "\\hline"
 
     print nb_green, nb_yellow
 
 def buildSanityTable(path, isSuccess):
-    table = "&\n$\\begin{pmatrix}"
+    table = "&\n$\\begin{pmatrix}\n"
     with open(path + "/sanity.csv", 'rb') as csvfile:
         sanity = csv.reader(csvfile, delimiter=';', quotechar='|')
         sanityAsArray = [value for value in sanity]
         table += "$" + toCorrectMark(sanityAsArray[0][0]) + "$&$" + toCorrectMark(sanityAsArray[0][1]) + "$\\\\\n"
         table += "$" + toCorrectMark(sanityAsArray[1][1]) + "$&$" + toCorrectMark(sanityAsArray[1][1]) + "$\n"
         #table += "\\cmark" + "&" + ("\\xmark" if isSuccess else "\\cmark") + "\n"
-    table += "\\end{pmatrix}$"
+    table += "\\end{pmatrix}$\n"
     return table
 
 def toCorrectMark(value):
@@ -116,12 +117,7 @@ def getColors(nb, numberOfAmplifiedTestMethods, mode, pr_id, sucessfull_aampl, i
 
 
 def getDatas(path_to_project_result, pr_id, mode):
-    datas = getData(path_to_project_result, pr_id, mode), getData(path_to_project_result, pr_id + "_modified", mode)
-    if datas == "":
-        return ""
-    returnValue = [element for tupl in datas for element in tupl]
-    return [element for tupl in datas for element in tupl]
-
+    return getData(path_to_project_result, pr_id, mode)
 
 def findJsonFilePathIn(directory):
     for file in os.listdir(directory):
@@ -163,4 +159,4 @@ def getData(path_to_project_result, pr_id, mode):
 
 
 if __name__ == '__main__':
-    build(projects=["javapoet", "jsoup"])
+    build(projects=["javapoet", "jsoup", "protostuff"])

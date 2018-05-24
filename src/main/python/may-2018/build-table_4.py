@@ -8,7 +8,6 @@ import csv
 
 
 def build(projects):
-
     global nb_green
     global nb_yellow
 
@@ -38,7 +37,7 @@ def build(projects):
                 display_mode = mode.replace("_", "\\_")
                 datas = getDatas(path_to_project_result, pr_id, mode)
                 if datas == "" or len(datas) < 4:
-                    row += ("&"+str(pr_id)+"&" if mode == "A_ampl" else "" ) + "&&&"
+                    row += ("&" + str(pr_id) + "&" if mode == "A_ampl" else "") + "&&&"
                     continue
                 nb, time_amplification, numberOfTestMethodToBeAmplifieds, numberOfAmplifiedTestMethods = datas
                 if mode == "A_ampl":
@@ -66,7 +65,7 @@ def build(projects):
                         str(time_amplification),
                     )
 
-            row += buildSanityTable(prefix_results + "/" + project +  "/"+ pr_id, color == "009901")
+            row += buildSanityTable(prefix_results + "/" + project + "/" + pr_id, color == "009901")
             if not first:
                 row += "\\\\"
             first = not first
@@ -79,6 +78,7 @@ def build(projects):
 
     print nb_green, nb_yellow
 
+
 def buildSanityTable(path, isSuccess):
     table = "&\n$\\begin{pmatrix}\n"
     with open(path + "/sanity.csv", 'rb') as csvfile:
@@ -86,15 +86,18 @@ def buildSanityTable(path, isSuccess):
         sanityAsArray = [value for value in sanity]
         table += "$" + toCorrectMark(sanityAsArray[0][0]) + "$&$" + toCorrectMark(sanityAsArray[0][1]) + "$\\\\\n"
         table += "$" + toCorrectMark(sanityAsArray[1][1]) + "$&$" + toCorrectMark(sanityAsArray[1][1]) + "$\n"
-        #table += "\\cmark" + "&" + ("\\xmark" if isSuccess else "\\cmark") + "\n"
+        # table += "\\cmark" + "&" + ("\\xmark" if isSuccess else "\\cmark") + "\n"
     table += "\\end{pmatrix}$\n"
     return table
+
 
 def toCorrectMark(value):
     return "\\cmark" if value == "0" else "\\xmark"
 
+
 nb_green = 0
 nb_yellow = 0
+
 
 def getColors(nb, numberOfAmplifiedTestMethods, mode, pr_id, sucessfull_aampl, indexGreen, indexYellow):
     green_color = "009901"
@@ -107,7 +110,8 @@ def getColors(nb, numberOfAmplifiedTestMethods, mode, pr_id, sucessfull_aampl, i
             nb_green += 1
             return True, green_color
         elif ((numberOfAmplifiedTestMethods > 0 and (mode == "A_ampl" or
-                               not pr_id in sucessfull_aampl)) or numberOfAmplifiedTestMethods - sucessfull_aampl[pr_id][indexYellow] > 0):
+                                                         not pr_id in sucessfull_aampl)) or numberOfAmplifiedTestMethods -
+            sucessfull_aampl[pr_id][indexYellow] > 0):
             nb_yellow += 1
             return True, yellow_color
         else:
@@ -118,6 +122,7 @@ def getColors(nb, numberOfAmplifiedTestMethods, mode, pr_id, sucessfull_aampl, i
 
 def getDatas(path_to_project_result, pr_id, mode):
     return getData(path_to_project_result, pr_id, mode)
+
 
 def findJsonFilePathIn(directory):
     for file in os.listdir(directory):
@@ -139,7 +144,7 @@ def getData(path_to_project_result, pr_id, mode):
     path_json_file = path_result_for_mode + "/" + pr_id + ".json"
     if not os.path.exists(path_json_file):
         path_json_file = path_result_for_mode + "/" + findJsonFilePathIn(path_result_for_mode + "/")
-    if not os.path.exists(path_json_file):
+    if not os.path.exists(path_json_file) or not isfile(path_json_file):
         return -1, -1, -1, -1
     with open(path_json_file) as f:
         data = json.load(f)
@@ -159,4 +164,4 @@ def getData(path_to_project_result, pr_id, mode):
 
 
 if __name__ == '__main__':
-    build(projects=["javapoet", "jsoup", "protostuff"])
+    build(projects=["javapoet", "jsoup", "mybatis-3", "protostuff"])

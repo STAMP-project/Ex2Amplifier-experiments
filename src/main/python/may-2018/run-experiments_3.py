@@ -22,7 +22,7 @@ def run(project, flags, pr_id_to_run, onClusty=False, mustClone=True):
         print "export MAVEN_HOME=~/apache-maven-3.3.9/"
 
     if mustClone:
-        cmd_clone = base_cmd_jar + " --clone " + path_to_json_project_file + " --output " + prefix_dataset
+        cmd_clone = base_cmd_jar + " --clone " + path_to_json_project_file + " --output " + prefix_dataset + " --id " + str(pr_id_to_run)
         print cmd_clone, "\n"
 
     base_cmd_run = base_cmd_jar + \

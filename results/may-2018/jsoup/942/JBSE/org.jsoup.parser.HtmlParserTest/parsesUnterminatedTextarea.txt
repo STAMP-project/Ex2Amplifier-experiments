@@ -1,0 +1,14 @@
+@org.junit.Test(timeout = 120000)
+public void parsesUnterminatedTextarea_Ex2_JBSE372() throws java.lang.Exception {
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse("<body><p><textarea>one<p>two");
+    org.jsoup.nodes.Element t = doc.select("textarea").first();
+    org.junit.Assert.assertEquals("one", t.text());
+    org.junit.Assert.assertEquals("two", doc.select("p").get(1).text());
+}
+@org.junit.Test(timeout = 120000)
+public void parsesUnterminatedTextarea_Ex2_JBSE373() throws java.lang.Exception {
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse("<body><p><textarea>one<p>two");
+    org.jsoup.nodes.Element t = doc.select("textarea").first();
+    org.junit.Assert.assertEquals("one", t.text());
+    org.junit.Assert.assertEquals("two", doc.select("p").get(1).text());
+}

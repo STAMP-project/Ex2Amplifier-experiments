@@ -2,7 +2,7 @@
   "classTimes": [
     {
       "fullQualifiedName": "com.squareup.javapoet.LineWrapperTest",
-      "timeInMs": 23224,
+      "timeInMs": 13875,
       "numberOfAmplifiedTestMethods": 0,
       "numberOfTestMethodToBeAmplified": 15
     }

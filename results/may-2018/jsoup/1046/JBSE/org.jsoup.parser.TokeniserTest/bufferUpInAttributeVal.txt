@@ -1,0 +1,40 @@
+@org.junit.Test(timeout = 120000)
+public void bufferUpInAttributeVal_Ex2_JBSE24() throws java.lang.Exception {
+    java.lang.String[] quotes = new java.lang.String[]{ 32759, "'", "" };
+    for (java.lang.String quote : quotes) {
+        java.lang.String preamble = "<img src=" + quote;
+        java.lang.String tail = "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb";
+        java.lang.StringBuilder sb = new java.lang.StringBuilder(preamble);
+        final int charsToFillBuffer = (org.jsoup.parser.CharacterReader.maxBufferLen) - (preamble.length());
+        for (int i = 0; i < charsToFillBuffer; i++) {
+            sb.append('a');
+        }
+        sb.append('X');
+        sb.append(((tail + quote) + ">\n"));
+        java.lang.String html = sb.toString();
+        org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(html);
+        java.lang.String src = doc.select("img").attr("src");
+        org.junit.Assert.assertTrue(("Handles for quote " + quote), src.contains("X"));
+        org.junit.Assert.assertTrue(src.contains(tail));
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void bufferUpInAttributeVal_Ex2_JBSE25() throws java.lang.Exception {
+    java.lang.String[] quotes = new java.lang.String[]{ 0, "'", "" };
+    for (java.lang.String quote : quotes) {
+        java.lang.String preamble = "<img src=" + quote;
+        java.lang.String tail = "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb";
+        java.lang.StringBuilder sb = new java.lang.StringBuilder(preamble);
+        final int charsToFillBuffer = (org.jsoup.parser.CharacterReader.maxBufferLen) - (preamble.length());
+        for (int i = 0; i < charsToFillBuffer; i++) {
+            sb.append('a');
+        }
+        sb.append('X');
+        sb.append(((tail + quote) + ">\n"));
+        java.lang.String html = sb.toString();
+        org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(html);
+        java.lang.String src = doc.select("img").attr("src");
+        org.junit.Assert.assertTrue(("Handles for quote " + quote), src.contains("X"));
+        org.junit.Assert.assertTrue(src.contains(tail));
+    }
+}

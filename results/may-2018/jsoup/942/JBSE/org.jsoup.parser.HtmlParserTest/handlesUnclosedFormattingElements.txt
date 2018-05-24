@@ -1,0 +1,16 @@
+@org.junit.Test(timeout = 120000)
+public void handlesUnclosedFormattingElements_Ex2_JBSE550() throws java.lang.Exception {
+    java.lang.String h = "<!DOCTYPE html>\n" + ((("<p><b class=x><b class=x><b><b class=x><b class=x><b>X\n" + "<p>X\n") + "<p><b><b class=x><b>X\n") + "<p></b></b></b></b></b></b>X");
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(h);
+    doc.outputSettings().indentAmount(0);
+    java.lang.String want = "<!doctype html>\n" + (((((((("<html>\n" + "<head></head>\n") + "<body>\n") + "<p><b class=\"x\"><b class=\"x\"><b><b class=\"x\"><b class=\"x\"><b>X </b></b></b></b></b></b></p>\n") + "<p><b class=\"x\"><b><b class=\"x\"><b class=\"x\"><b>X </b></b></b></b></b></p>\n") + "<p><b class=\"x\"><b><b class=\"x\"><b class=\"x\"><b><b><b class=\"x\"><b>X </b></b></b></b></b></b></b></b></p>\n") + "<p>X</p>\n") + "</body>\n") + "</html>");
+    org.junit.Assert.assertEquals(want, doc.html());
+}
+@org.junit.Test(timeout = 120000)
+public void handlesUnclosedFormattingElements_Ex2_JBSE551() throws java.lang.Exception {
+    java.lang.String h = "<!DOCTYPE html>\n" + ((("<p><b class=x><b class=x><b><b class=x><b class=x><b>X\n" + "<p>X\n") + "<p><b><b class=x><b>X\n") + "<p></b></b></b></b></b></b>X");
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(h);
+    doc.outputSettings().indentAmount(0);
+    java.lang.String want = "<!doctype html>\n" + (((((((("<html>\n" + "<head></head>\n") + "<body>\n") + "<p><b class=\"x\"><b class=\"x\"><b><b class=\"x\"><b class=\"x\"><b>X </b></b></b></b></b></b></p>\n") + "<p><b class=\"x\"><b><b class=\"x\"><b class=\"x\"><b>X </b></b></b></b></b></p>\n") + "<p><b class=\"x\"><b><b class=\"x\"><b class=\"x\"><b><b><b class=\"x\"><b>X </b></b></b></b></b></b></b></b></p>\n") + "<p>X</p>\n") + "</body>\n") + "</html>");
+    org.junit.Assert.assertEquals(want, doc.html());
+}

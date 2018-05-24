@@ -1,0 +1,12 @@
+@org.junit.Test(timeout = 120000)
+public void handlesWhitespaceInoDocType_Ex2_JBSE432() throws java.lang.Exception {
+    java.lang.String html = "<!DOCTYPE html\r\n" + ("      PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\r\n" + "      \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">");
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(html);
+    org.junit.Assert.assertEquals("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">", doc.childNode(0).outerHtml());
+}
+@org.junit.Test(timeout = 120000)
+public void handlesWhitespaceInoDocType_Ex2_JBSE433() throws java.lang.Exception {
+    java.lang.String html = "<!DOCTYPE html\r\n" + ("      PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\r\n" + "      \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">");
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(html);
+    org.junit.Assert.assertEquals("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">", doc.childNode(0).outerHtml());
+}

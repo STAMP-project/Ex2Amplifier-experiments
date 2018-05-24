@@ -1,4 +1,4 @@
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE266() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -9,7 +9,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE266() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE267() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -20,7 +20,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE267() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE268() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -31,7 +31,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE268() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE269() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -42,7 +42,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE269() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE270() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -53,7 +53,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE270() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE271() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -64,7 +64,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE271() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE272() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -75,7 +75,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE272() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE273() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -86,7 +86,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE273() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE274() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -97,7 +97,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE274() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE275() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -108,7 +108,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE275() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE276() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -119,7 +119,7 @@ public void noWrapEmbeddedNewlines_Ex2_JBSE276() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("abcde fghi\njklmnopqrstuvwxy");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void noWrapEmbeddedNewlines_Ex2_JBSE277() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 10, 10);

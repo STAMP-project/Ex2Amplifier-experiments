@@ -1,0 +1,8 @@
+======= REPORT =======
+6 amplified test fails on the new versions.
+cookie(org.jsoup.helper.HttpConnectionTest): expected:<[POS]T> but was:<[GE]T>
+data(org.jsoup.helper.HttpConnectionTest): expected:<http://example.com/[]> but was:<http://example.com/[?Name=Val&Foo=bar]>
+method(org.jsoup.helper.HttpConnectionTest): null
+userAgent(org.jsoup.helper.HttpConnectionTest): expected:<[POS]T> but was:<[GE]T>
+timeout(org.jsoup.helper.HttpConnectionTest): Request must be executed (with .execute(), .get(), or .post() before parsing response
+referrer(org.jsoup.helper.HttpConnectionTest): Request must be executed (with .execute(), .get(), or .post() before parsing response

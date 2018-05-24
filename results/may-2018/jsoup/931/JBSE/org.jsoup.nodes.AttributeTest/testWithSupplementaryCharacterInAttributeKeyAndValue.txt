@@ -1,0 +1,98 @@
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE8() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(1114111));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE9() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(1));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE10() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(1));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE11() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(32));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE12() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(32));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE13() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(65537));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE14() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(65537));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE15() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(65537));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE16() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(65537));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE17() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(65537));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE18() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(65537));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE19() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(65537));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE20() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(65537));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}
+@org.junit.Test(timeout = 120000)
+public void testWithSupplementaryCharacterInAttributeKeyAndValue_Ex2_JBSE21() throws java.lang.Exception {
+    java.lang.String s = new java.lang.String(java.lang.Character.toChars(0));
+    org.jsoup.nodes.Attribute attr = new org.jsoup.nodes.Attribute(s, (("A" + s) + "B"));
+    org.junit.Assert.assertEquals((((s + "=\"A") + s) + "B\""), attr.html());
+    org.junit.Assert.assertEquals(attr.html(), attr.toString());
+}

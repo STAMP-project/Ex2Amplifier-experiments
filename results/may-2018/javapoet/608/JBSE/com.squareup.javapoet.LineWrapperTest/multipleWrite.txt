@@ -1,4 +1,4 @@
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE186() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -22,7 +22,7 @@ public void multipleWrite_Ex2_JBSE186() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE187() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -46,7 +46,7 @@ public void multipleWrite_Ex2_JBSE187() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE188() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -70,7 +70,7 @@ public void multipleWrite_Ex2_JBSE188() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE189() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -94,7 +94,7 @@ public void multipleWrite_Ex2_JBSE189() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE190() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -118,7 +118,7 @@ public void multipleWrite_Ex2_JBSE190() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE191() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -142,7 +142,7 @@ public void multipleWrite_Ex2_JBSE191() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE192() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -166,7 +166,7 @@ public void multipleWrite_Ex2_JBSE192() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE193() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -190,7 +190,7 @@ public void multipleWrite_Ex2_JBSE193() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE194() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -214,7 +214,7 @@ public void multipleWrite_Ex2_JBSE194() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE195() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -238,7 +238,7 @@ public void multipleWrite_Ex2_JBSE195() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE196() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 5, 10);
@@ -262,7 +262,7 @@ public void multipleWrite_Ex2_JBSE196() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE197() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -286,7 +286,7 @@ public void multipleWrite_Ex2_JBSE197() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE198() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -310,7 +310,7 @@ public void multipleWrite_Ex2_JBSE198() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE199() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -334,7 +334,7 @@ public void multipleWrite_Ex2_JBSE199() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE200() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -358,7 +358,7 @@ public void multipleWrite_Ex2_JBSE200() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE201() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);
@@ -382,7 +382,7 @@ public void multipleWrite_Ex2_JBSE201() throws java.lang.Exception {
     lineWrapper.close();
     com.google.common.truth.Truth.assertThat(out.toString()).isEqualTo("ab cd ef\n  gh ij kl\n  mn op qr");
 }
-@org.junit.Test(timeout = 10000)
+@org.junit.Test(timeout = 120000)
 public void multipleWrite_Ex2_JBSE202() throws java.lang.Exception {
     java.lang.StringBuffer out = new java.lang.StringBuffer();
     com.squareup.javapoet.LineWrapper lineWrapper = new com.squareup.javapoet.LineWrapper(out, 0, 10);

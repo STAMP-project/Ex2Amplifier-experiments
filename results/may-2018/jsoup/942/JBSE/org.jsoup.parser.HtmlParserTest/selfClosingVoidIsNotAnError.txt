@@ -1,0 +1,80 @@
+@org.junit.Test(timeout = 120000)
+public void selfClosingVoidIsNotAnError_Ex2_JBSE487() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(5);
+    parser.parseInput(html, "");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+    org.junit.Assert.assertTrue(org.jsoup.Jsoup.isValid(html, org.jsoup.safety.Whitelist.basic()));
+    java.lang.String clean = org.jsoup.Jsoup.clean(html, org.jsoup.safety.Whitelist.basic());
+    org.junit.Assert.assertEquals("<p>test<br>test<br></p>", clean);
+}
+@org.junit.Test(timeout = 120000)
+public void selfClosingVoidIsNotAnError_Ex2_JBSE488() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(5);
+    parser.parseInput(html, "");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+    org.junit.Assert.assertTrue(org.jsoup.Jsoup.isValid(html, org.jsoup.safety.Whitelist.basic()));
+    java.lang.String clean = org.jsoup.Jsoup.clean(html, org.jsoup.safety.Whitelist.basic());
+    org.junit.Assert.assertEquals("<p>test<br>test<br></p>", clean);
+}
+@org.junit.Test(timeout = 120000)
+public void selfClosingVoidIsNotAnError_Ex2_JBSE489() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(5);
+    parser.parseInput(html, "");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+    org.junit.Assert.assertTrue(org.jsoup.Jsoup.isValid(html, org.jsoup.safety.Whitelist.basic()));
+    java.lang.String clean = org.jsoup.Jsoup.clean(html, org.jsoup.safety.Whitelist.basic());
+    org.junit.Assert.assertEquals("<p>test<br>test<br></p>", clean);
+}
+@org.junit.Test(timeout = 120000)
+public void selfClosingVoidIsNotAnError_Ex2_JBSE490() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(5);
+    parser.parseInput(html, "");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+    org.junit.Assert.assertTrue(org.jsoup.Jsoup.isValid(html, org.jsoup.safety.Whitelist.basic()));
+    java.lang.String clean = org.jsoup.Jsoup.clean(html, org.jsoup.safety.Whitelist.basic());
+    org.junit.Assert.assertEquals("<p>test<br>test<br></p>", clean);
+}
+@org.junit.Test(timeout = 120000)
+public void selfClosingVoidIsNotAnError_Ex2_JBSE491() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(5);
+    parser.parseInput(html, "");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+    org.junit.Assert.assertTrue(org.jsoup.Jsoup.isValid(html, org.jsoup.safety.Whitelist.basic()));
+    java.lang.String clean = org.jsoup.Jsoup.clean(html, org.jsoup.safety.Whitelist.basic());
+    org.junit.Assert.assertEquals("<p>test<br>test<br></p>", clean);
+}
+@org.junit.Test(timeout = 120000)
+public void selfClosingVoidIsNotAnError_Ex2_JBSE492() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(5);
+    parser.parseInput(html, "");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+    org.junit.Assert.assertTrue(org.jsoup.Jsoup.isValid(html, org.jsoup.safety.Whitelist.basic()));
+    java.lang.String clean = org.jsoup.Jsoup.clean(html, org.jsoup.safety.Whitelist.basic());
+    org.junit.Assert.assertEquals("<p>test<br>test<br></p>", clean);
+}
+@org.junit.Test(timeout = 120000)
+public void selfClosingVoidIsNotAnError_Ex2_JBSE493() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(5);
+    parser.parseInput(html, "");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+    org.junit.Assert.assertTrue(org.jsoup.Jsoup.isValid(html, org.jsoup.safety.Whitelist.basic()));
+    java.lang.String clean = org.jsoup.Jsoup.clean(html, org.jsoup.safety.Whitelist.basic());
+    org.junit.Assert.assertEquals("<p>test<br>test<br></p>", clean);
+}
+@org.junit.Test(timeout = 120000)
+public void selfClosingVoidIsNotAnError_Ex2_JBSE494() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(5);
+    parser.parseInput(html, "");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+    org.junit.Assert.assertTrue(org.jsoup.Jsoup.isValid(html, org.jsoup.safety.Whitelist.basic()));
+    java.lang.String clean = org.jsoup.Jsoup.clean(html, org.jsoup.safety.Whitelist.basic());
+    org.junit.Assert.assertEquals("<p>test<br>test<br></p>", clean);
+}

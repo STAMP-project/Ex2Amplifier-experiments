@@ -1,0 +1,22 @@
+@org.junit.Test(timeout = 120000)
+public void parsesComments_Ex2_JBSE349() throws java.lang.Exception {
+    java.lang.String html = "<html><head></head><body><img src=foo><!-- <table><tr><td></table> --><p>Hello</p></body></html>";
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(html);
+    org.jsoup.nodes.Element body = doc.body();
+    org.jsoup.nodes.Comment comment = ((org.jsoup.nodes.Comment) (body.childNode(1)));
+    org.junit.Assert.assertEquals(" <table><tr><td></table> ", comment.getData());
+    org.jsoup.nodes.Element p = body.child(1);
+    org.jsoup.nodes.TextNode text = ((org.jsoup.nodes.TextNode) (p.childNode(0)));
+    org.junit.Assert.assertEquals("Hello", text.getWholeText());
+}
+@org.junit.Test(timeout = 120000)
+public void parsesComments_Ex2_JBSE350() throws java.lang.Exception {
+    java.lang.String html = "<html><head></head><body><img src=foo><!-- <table><tr><td></table> --><p>Hello</p></body></html>";
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(html);
+    org.jsoup.nodes.Element body = doc.body();
+    org.jsoup.nodes.Comment comment = ((org.jsoup.nodes.Comment) (body.childNode(1)));
+    org.junit.Assert.assertEquals(" <table><tr><td></table> ", comment.getData());
+    org.jsoup.nodes.Element p = body.child(1);
+    org.jsoup.nodes.TextNode text = ((org.jsoup.nodes.TextNode) (p.childNode(0)));
+    org.junit.Assert.assertEquals("Hello", text.getWholeText());
+}

@@ -7,7 +7,7 @@ org.junit.ComparisonFailure: expected:<...ass EthicalTaco {
 >
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at com.squareup.javapoet.TypeSpecTest.annotationsAndJavaLangTypes(TypeSpecTest.java:156)
+	at com.squareup.javapoet.TypeSpecTest.annotationsAndJavaLangTypes(TypeSpecTest.java:154)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -1,0 +1,56 @@
+@org.junit.Test(timeout = 120000)
+public void testSelectWithOption_Ex2_JBSE563() throws java.lang.Exception {
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser();
+    parser.setTrackErrors(0);
+    org.jsoup.nodes.Document document = parser.parseInput("<select><option>Option 1</option></select>", "http://jsoup.org");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+}
+@org.junit.Test(timeout = 120000)
+public void testSelectWithOption_Ex2_JBSE564() throws java.lang.Exception {
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser();
+    parser.setTrackErrors(0);
+    org.jsoup.nodes.Document document = parser.parseInput("<select><option>Option 1</option></select>", "http://jsoup.org");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+}
+@org.junit.Test(timeout = 120000)
+public void testSelectWithOption_Ex2_JBSE565() throws java.lang.Exception {
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser();
+    parser.setTrackErrors(0);
+    org.jsoup.nodes.Document document = parser.parseInput("<select><option>Option 1</option></select>", "http://jsoup.org");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+}
+@org.junit.Test(timeout = 120000)
+public void testSelectWithOption_Ex2_JBSE566() throws java.lang.Exception {
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser();
+    parser.setTrackErrors(0);
+    org.jsoup.nodes.Document document = parser.parseInput("<select><option>Option 1</option></select>", "http://jsoup.org");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+}
+@org.junit.Test(timeout = 120000)
+public void testSelectWithOption_Ex2_JBSE567() throws java.lang.Exception {
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser();
+    parser.setTrackErrors(0);
+    org.jsoup.nodes.Document document = parser.parseInput("<select><option>Option 1</option></select>", "http://jsoup.org");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+}
+@org.junit.Test(timeout = 120000)
+public void testSelectWithOption_Ex2_JBSE568() throws java.lang.Exception {
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser();
+    parser.setTrackErrors(0);
+    org.jsoup.nodes.Document document = parser.parseInput("<select><option>Option 1</option></select>", "http://jsoup.org");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+}
+@org.junit.Test(timeout = 120000)
+public void testSelectWithOption_Ex2_JBSE569() throws java.lang.Exception {
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser();
+    parser.setTrackErrors(0);
+    org.jsoup.nodes.Document document = parser.parseInput("<select><option>Option 1</option></select>", "http://jsoup.org");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+}
+@org.junit.Test(timeout = 120000)
+public void testSelectWithOption_Ex2_JBSE570() throws java.lang.Exception {
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser();
+    parser.setTrackErrors(0);
+    org.jsoup.nodes.Document document = parser.parseInput("<select><option>Option 1</option></select>", "http://jsoup.org");
+    org.junit.Assert.assertEquals(0, parser.getErrors().size());
+}

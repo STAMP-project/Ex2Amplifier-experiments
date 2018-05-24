@@ -1,0 +1,14 @@
+@org.junit.Test(timeout = 120000)
+public void canPreserveBothCase_Ex2_JBSE577() throws java.lang.Exception {
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser();
+    parser.settings(new org.jsoup.parser.ParseSettings(true, true));
+    org.jsoup.nodes.Document doc = parser.parseInput("<div id=1><SPAN ID=2>", "");
+    org.junit.Assert.assertEquals("<html> <head></head> <body> <div id=\"1\"> <SPAN ID=\"2\"></SPAN> </div> </body> </html>", org.jsoup.helper.StringUtil.normaliseWhitespace(doc.outerHtml()));
+}
+@org.junit.Test(timeout = 120000)
+public void canPreserveBothCase_Ex2_JBSE578() throws java.lang.Exception {
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser();
+    parser.settings(new org.jsoup.parser.ParseSettings(true, true));
+    org.jsoup.nodes.Document doc = parser.parseInput("<div id=1><SPAN ID=2>", "");
+    org.junit.Assert.assertEquals("<html> <head></head> <body> <div id=\"1\"> <SPAN ID=\"2\"></SPAN> </div> </body> </html>", org.jsoup.helper.StringUtil.normaliseWhitespace(doc.outerHtml()));
+}

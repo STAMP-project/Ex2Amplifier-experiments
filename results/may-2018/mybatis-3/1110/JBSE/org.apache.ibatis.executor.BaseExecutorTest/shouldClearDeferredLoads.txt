@@ -1,0 +1,168 @@
+@org.junit.Test(timeout = 120000)
+public void shouldClearDeferredLoads_Ex2_JBSE57() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        org.apache.ibatis.mapping.MappedStatement selectAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectOneAuthorMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement insertAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareInsertAuthorMappedStatement(this.config);
+        executor.query(selectPosts, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.apache.ibatis.domain.blog.Author author = new org.apache.ibatis.domain.blog.Author((-1), "someone", 1, 1, null, org.apache.ibatis.domain.blog.Section.NEWS);
+        executor.update(insertAuthor, author);
+        executor.query(selectAuthor, (-1), org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldClearDeferredLoads_Ex2_JBSE58() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        org.apache.ibatis.mapping.MappedStatement selectAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectOneAuthorMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement insertAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareInsertAuthorMappedStatement(this.config);
+        executor.query(selectPosts, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.apache.ibatis.domain.blog.Author author = new org.apache.ibatis.domain.blog.Author((-1), "someone", 1, 0, null, org.apache.ibatis.domain.blog.Section.NEWS);
+        executor.update(insertAuthor, author);
+        executor.query(selectAuthor, (-1), org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldClearDeferredLoads_Ex2_JBSE59() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        org.apache.ibatis.mapping.MappedStatement selectAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectOneAuthorMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement insertAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareInsertAuthorMappedStatement(this.config);
+        executor.query(selectPosts, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.apache.ibatis.domain.blog.Author author = new org.apache.ibatis.domain.blog.Author((-1), "someone", 0, 1, null, org.apache.ibatis.domain.blog.Section.NEWS);
+        executor.update(insertAuthor, author);
+        executor.query(selectAuthor, (-1), org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldClearDeferredLoads_Ex2_JBSE60() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        org.apache.ibatis.mapping.MappedStatement selectAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectOneAuthorMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement insertAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareInsertAuthorMappedStatement(this.config);
+        executor.query(selectPosts, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.apache.ibatis.domain.blog.Author author = new org.apache.ibatis.domain.blog.Author((-1), "someone", 0, 0, null, org.apache.ibatis.domain.blog.Section.NEWS);
+        executor.update(insertAuthor, author);
+        executor.query(selectAuthor, (-1), org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldClearDeferredLoads_Ex2_JBSE61() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        org.apache.ibatis.mapping.MappedStatement selectAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectOneAuthorMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement insertAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareInsertAuthorMappedStatement(this.config);
+        executor.query(selectPosts, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.apache.ibatis.domain.blog.Author author = new org.apache.ibatis.domain.blog.Author((-1), "someone", 1, 1, null, org.apache.ibatis.domain.blog.Section.NEWS);
+        executor.update(insertAuthor, author);
+        executor.query(selectAuthor, (-1), org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldClearDeferredLoads_Ex2_JBSE62() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        org.apache.ibatis.mapping.MappedStatement selectAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectOneAuthorMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement insertAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareInsertAuthorMappedStatement(this.config);
+        executor.query(selectPosts, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.apache.ibatis.domain.blog.Author author = new org.apache.ibatis.domain.blog.Author((-1), "someone", 1, 0, null, org.apache.ibatis.domain.blog.Section.NEWS);
+        executor.update(insertAuthor, author);
+        executor.query(selectAuthor, (-1), org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldClearDeferredLoads_Ex2_JBSE63() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        org.apache.ibatis.mapping.MappedStatement selectAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectOneAuthorMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement insertAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareInsertAuthorMappedStatement(this.config);
+        executor.query(selectPosts, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.apache.ibatis.domain.blog.Author author = new org.apache.ibatis.domain.blog.Author((-1), "someone", 0, 1, null, org.apache.ibatis.domain.blog.Section.NEWS);
+        executor.update(insertAuthor, author);
+        executor.query(selectAuthor, (-1), org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldClearDeferredLoads_Ex2_JBSE64() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        org.apache.ibatis.mapping.MappedStatement selectAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectOneAuthorMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement insertAuthor = org.apache.ibatis.executor.ExecutorTestHelper.prepareInsertAuthorMappedStatement(this.config);
+        executor.query(selectPosts, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.apache.ibatis.domain.blog.Author author = new org.apache.ibatis.domain.blog.Author((-1), "someone", 0, 0, null, org.apache.ibatis.domain.blog.Section.NEWS);
+        executor.update(insertAuthor, author);
+        executor.query(selectAuthor, (-1), org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}

@@ -1,0 +1,20 @@
+@org.junit.Test(timeout = 120000)
+public void handlesUnclosedDefinitionLists_Ex2_JBSE480() throws java.lang.Exception {
+    java.lang.String h = "<dt>Foo<dd>Bar<dt>Qux<dd>Zug";
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(h);
+    org.junit.Assert.assertEquals(0, doc.select("dl").size());
+    org.junit.Assert.assertEquals(4, doc.select("dt, dd").size());
+    org.jsoup.select.Elements dts = doc.select("dt");
+    org.junit.Assert.assertEquals(2, dts.size());
+    org.junit.Assert.assertEquals("Zug", dts.get(1).nextElementSibling().text());
+}
+@org.junit.Test(timeout = 120000)
+public void handlesUnclosedDefinitionLists_Ex2_JBSE481() throws java.lang.Exception {
+    java.lang.String h = "<dt>Foo<dd>Bar<dt>Qux<dd>Zug";
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(h);
+    org.junit.Assert.assertEquals(0, doc.select("dl").size());
+    org.junit.Assert.assertEquals(4, doc.select("dt, dd").size());
+    org.jsoup.select.Elements dts = doc.select("dt");
+    org.junit.Assert.assertEquals(2, dts.size());
+    org.junit.Assert.assertEquals("Zug", dts.get(1).nextElementSibling().text());
+}

@@ -1,0 +1,44 @@
+@org.junit.Test(timeout = 120000)
+public void tracksLimitedErrorsWhenRequested_Ex2_JBSE414() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(3);
+    org.jsoup.nodes.Document doc = parser.parseInput(html, "http://example.com");
+    java.util.List<org.jsoup.parser.ParseError> errors = parser.getErrors();
+    org.junit.Assert.assertEquals(3, errors.size());
+    org.junit.Assert.assertEquals("20: Attributes incorrectly present on end tag", errors.get(0).toString());
+    org.junit.Assert.assertEquals("35: Unexpected token [Doctype] when in state [InBody]", errors.get(1).toString());
+    org.junit.Assert.assertEquals("36: Invalid character reference: invalid named referenece 'arrgh'", errors.get(2).toString());
+}
+@org.junit.Test(timeout = 120000)
+public void tracksLimitedErrorsWhenRequested_Ex2_JBSE415() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(3);
+    org.jsoup.nodes.Document doc = parser.parseInput(html, "http://example.com");
+    java.util.List<org.jsoup.parser.ParseError> errors = parser.getErrors();
+    org.junit.Assert.assertEquals(3, errors.size());
+    org.junit.Assert.assertEquals("20: Attributes incorrectly present on end tag", errors.get(0).toString());
+    org.junit.Assert.assertEquals("35: Unexpected token [Doctype] when in state [InBody]", errors.get(1).toString());
+    org.junit.Assert.assertEquals("36: Invalid character reference: invalid named referenece 'arrgh'", errors.get(2).toString());
+}
+@org.junit.Test(timeout = 120000)
+public void tracksLimitedErrorsWhenRequested_Ex2_JBSE416() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(3);
+    org.jsoup.nodes.Document doc = parser.parseInput(html, "http://example.com");
+    java.util.List<org.jsoup.parser.ParseError> errors = parser.getErrors();
+    org.junit.Assert.assertEquals(3, errors.size());
+    org.junit.Assert.assertEquals("20: Attributes incorrectly present on end tag", errors.get(0).toString());
+    org.junit.Assert.assertEquals("35: Unexpected token [Doctype] when in state [InBody]", errors.get(1).toString());
+    org.junit.Assert.assertEquals("36: Invalid character reference: invalid named referenece 'arrgh'", errors.get(2).toString());
+}
+@org.junit.Test(timeout = 120000)
+public void tracksLimitedErrorsWhenRequested_Ex2_JBSE417() throws java.lang.Exception {
+    java.lang.String html = 0;
+    org.jsoup.parser.Parser parser = org.jsoup.parser.Parser.htmlParser().setTrackErrors(3);
+    org.jsoup.nodes.Document doc = parser.parseInput(html, "http://example.com");
+    java.util.List<org.jsoup.parser.ParseError> errors = parser.getErrors();
+    org.junit.Assert.assertEquals(3, errors.size());
+    org.junit.Assert.assertEquals("20: Attributes incorrectly present on end tag", errors.get(0).toString());
+    org.junit.Assert.assertEquals("35: Unexpected token [Doctype] when in state [InBody]", errors.get(1).toString());
+    org.junit.Assert.assertEquals("36: Invalid character reference: invalid named referenece 'arrgh'", errors.get(2).toString());
+}

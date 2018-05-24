@@ -1,0 +1,22 @@
+@org.junit.Test(timeout = 120000)
+public void handlesDataOnlyTags_Ex2_JBSE448() throws java.lang.Exception {
+    java.lang.String t = "<style>font-family: bold</style>";
+    java.util.List<org.jsoup.nodes.Element> tels = org.jsoup.Jsoup.parse(t).getElementsByTag("style");
+    org.junit.Assert.assertEquals("font-family: bold", tels.get(0).data());
+    org.junit.Assert.assertEquals("", tels.get(0).text());
+    java.lang.String s = "<p>Hello</p><script>obj.insert(\'<a rel=\"none\" />\');\ni++;</script><p>There</p>";
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(s);
+    org.junit.Assert.assertEquals("Hello There", doc.text());
+    org.junit.Assert.assertEquals("obj.insert(\'<a rel=\"none\" />\');\ni++;", doc.data());
+}
+@org.junit.Test(timeout = 120000)
+public void handlesDataOnlyTags_Ex2_JBSE449() throws java.lang.Exception {
+    java.lang.String t = "<style>font-family: bold</style>";
+    java.util.List<org.jsoup.nodes.Element> tels = org.jsoup.Jsoup.parse(t).getElementsByTag("style");
+    org.junit.Assert.assertEquals("font-family: bold", tels.get(0).data());
+    org.junit.Assert.assertEquals("", tels.get(0).text());
+    java.lang.String s = "<p>Hello</p><script>obj.insert(\'<a rel=\"none\" />\');\ni++;</script><p>There</p>";
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(s);
+    org.junit.Assert.assertEquals("Hello There", doc.text());
+    org.junit.Assert.assertEquals("obj.insert(\'<a rel=\"none\" />\');\ni++;", doc.data());
+}

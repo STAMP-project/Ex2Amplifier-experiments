@@ -1,0 +1,28 @@
+@org.junit.Test(timeout = 120000)
+public void handlesBaseTags_Ex2_JBSE519() throws java.lang.Exception {
+    java.lang.String h = "<a href=1>#</a><base href='/2/'><a href='3'>#</a><base href='http://bar'><a href=/4>#</a>";
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(h, "http://foo/");
+    org.junit.Assert.assertEquals("http://foo/2/", doc.baseUri());
+    org.jsoup.select.Elements anchors = doc.getElementsByTag("a");
+    org.junit.Assert.assertEquals(3, anchors.size());
+    org.junit.Assert.assertEquals("http://foo/2/", anchors.get(0).baseUri());
+    org.junit.Assert.assertEquals("http://foo/2/", anchors.get(1).baseUri());
+    org.junit.Assert.assertEquals("http://foo/2/", anchors.get(2).baseUri());
+    org.junit.Assert.assertEquals("http://foo/2/1", anchors.get(0).absUrl("href"));
+    org.junit.Assert.assertEquals("http://foo/2/3", anchors.get(1).absUrl("href"));
+    org.junit.Assert.assertEquals("http://foo/4", anchors.get(2).absUrl("href"));
+}
+@org.junit.Test(timeout = 120000)
+public void handlesBaseTags_Ex2_JBSE520() throws java.lang.Exception {
+    java.lang.String h = "<a href=1>#</a><base href='/2/'><a href='3'>#</a><base href='http://bar'><a href=/4>#</a>";
+    org.jsoup.nodes.Document doc = org.jsoup.Jsoup.parse(h, "http://foo/");
+    org.junit.Assert.assertEquals("http://foo/2/", doc.baseUri());
+    org.jsoup.select.Elements anchors = doc.getElementsByTag("a");
+    org.junit.Assert.assertEquals(3, anchors.size());
+    org.junit.Assert.assertEquals("http://foo/2/", anchors.get(0).baseUri());
+    org.junit.Assert.assertEquals("http://foo/2/", anchors.get(1).baseUri());
+    org.junit.Assert.assertEquals("http://foo/2/", anchors.get(2).baseUri());
+    org.junit.Assert.assertEquals("http://foo/2/1", anchors.get(0).absUrl("href"));
+    org.junit.Assert.assertEquals("http://foo/2/3", anchors.get(1).absUrl("href"));
+    org.junit.Assert.assertEquals("http://foo/4", anchors.get(2).absUrl("href"));
+}

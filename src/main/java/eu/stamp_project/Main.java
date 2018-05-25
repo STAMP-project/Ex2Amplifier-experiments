@@ -3,6 +3,7 @@ package eu.stamp_project;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.martiansoftware.jsap.JSAPResult;
+import eu.stamp_project.dspot.Amplification;
 import eu.stamp_project.ex2amplifier.catg.CATGExecutor;
 import eu.stamp_project.testrunner.EntryPoint;
 import eu.stamp_project.ex2amplifier.amplifier.Ex2Amplifier;
@@ -69,6 +70,7 @@ public class Main {
         AmplificationHelper.setTimeOutInMs(120000);
         EntryPoint.verbose = Main.verbose;
         Main.onlyAampl = jsapConfig.getBoolean("aampl");
+        Amplification.preAmplify = Main.onlyAampl;
         Main.JBSE = jsapConfig.getBoolean("JBSE");
         Main.Ex2AmplifierMode = !jsapConfig.getBoolean("amplifiers");
         Main.reverse = jsapConfig.getBoolean("reverse");

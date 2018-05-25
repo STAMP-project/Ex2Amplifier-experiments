@@ -9,29 +9,31 @@ echo ${pwd}
 
 prefix_data="dataset/may-2018/"
 prefix_res="results/may-2018/"
-prefix_pr_id="${prefix_data}${project}/${pr_id}/${module}/"
-prefix_pr_id_modified="${prefix_data}${project}/${pr_id}_modified/${module}/"
+prefix_pr_id="${prefix_data}${project}/${pr_id}/"
+prefix_pr_id_modified="${prefix_data}${project}/${pr_id}_modified/"
+
+echo ${prefix_pr_id}
+echo ${prefix_pr_id_modified}
 
 cd ${prefix_pr_id}
-git checkout -- src/test/
+git checkout -- "${module}/src/test/"
 mvn clean test
 base_on_base=${?}
-cp -r ${pwd}/${prefix_pr_id_modified}"/src/test/" ${pwd}/${prefix_pr_id}"/src/"
+cp -r "${pwd}/${prefix_pr_id_modified}${module}/src/test/" "${pwd}/${prefix_pr_id}/${module}/src/"
 mvn clean test
 base_on_head=${?}
-git checkout -- src/test/
+git checkout -- "${module}/src/test/"
 
 cd ${pwd}
 
-
 cd ${prefix_pr_id_modified}
-git checkout -- src/test/
+git checkout -- "${module}/src/test/"
 mvn clean test
 head_on_head=${?}
-cp -r ${pwd}/${prefix_pr_id}"/src/test/" ${pwd}/${prefix_pr_id_modified}"/src/"
+cp -r "${pwd}/${prefix_pr_id}/${module}/src/" "${pwd}/${prefix_pr_id_modified}${module}/src/"
 mvn clean test
 head_on_base=${?}
-git checkout -- src/test/
+git checkout -- "${module}/src/test/"
 
 cd ${pwd}
 

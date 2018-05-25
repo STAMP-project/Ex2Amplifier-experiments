@@ -1,0 +1,160 @@
+@org.junit.Test(timeout = 120000)
+public void shouldFetchComplexBlogs_Ex2_JBSE696() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, 1, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        java.util.List<org.apache.ibatis.domain.blog.Blog> blogs = executor.query(selectBlog, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        org.junit.Assert.assertEquals(1, blogs.size());
+        org.junit.Assert.assertNotNull(blogs.get(0).getPosts());
+        org.junit.Assert.assertEquals(2, blogs.get(0).getPosts().size());
+        org.junit.Assert.assertEquals(1, blogs.get(1).getPosts().get(1).getBlog().getPosts().get(1).getBlog().getId());
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchComplexBlogs_Ex2_JBSE697() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, 0, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        java.util.List<org.apache.ibatis.domain.blog.Blog> blogs = executor.query(selectBlog, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        org.junit.Assert.assertEquals(1, blogs.size());
+        org.junit.Assert.assertNotNull(blogs.get(0).getPosts());
+        org.junit.Assert.assertEquals(2, blogs.get(0).getPosts().size());
+        org.junit.Assert.assertEquals(1, blogs.get(1).getPosts().get(1).getBlog().getPosts().get(1).getBlog().getId());
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchComplexBlogs_Ex2_JBSE698() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, 1, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        java.util.List<org.apache.ibatis.domain.blog.Blog> blogs = executor.query(selectBlog, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        org.junit.Assert.assertEquals(1, blogs.size());
+        org.junit.Assert.assertNotNull(blogs.get(0).getPosts());
+        org.junit.Assert.assertEquals(2, blogs.get(0).getPosts().size());
+        org.junit.Assert.assertEquals(1, blogs.get(0).getPosts().get(1).getBlog().getPosts().get(1).getBlog().getId());
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchComplexBlogs_Ex2_JBSE699() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, 0, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        java.util.List<org.apache.ibatis.domain.blog.Blog> blogs = executor.query(selectBlog, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        org.junit.Assert.assertEquals(1, blogs.size());
+        org.junit.Assert.assertNotNull(blogs.get(0).getPosts());
+        org.junit.Assert.assertEquals(2, blogs.get(0).getPosts().size());
+        org.junit.Assert.assertEquals(1, blogs.get(0).getPosts().get(1).getBlog().getPosts().get(1).getBlog().getId());
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchComplexBlogs_Ex2_JBSE700() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, 1, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        java.util.List<org.apache.ibatis.domain.blog.Blog> blogs = executor.query(selectBlog, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        org.junit.Assert.assertEquals(1, blogs.size());
+        org.junit.Assert.assertNotNull(blogs.get(0).getPosts());
+        org.junit.Assert.assertEquals(2, blogs.get(0).getPosts().size());
+        org.junit.Assert.assertEquals(1, blogs.get(1).getPosts().get(1).getBlog().getPosts().get(1).getBlog().getId());
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchComplexBlogs_Ex2_JBSE701() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, 0, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        java.util.List<org.apache.ibatis.domain.blog.Blog> blogs = executor.query(selectBlog, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        org.junit.Assert.assertEquals(1, blogs.size());
+        org.junit.Assert.assertNotNull(blogs.get(0).getPosts());
+        org.junit.Assert.assertEquals(2, blogs.get(0).getPosts().size());
+        org.junit.Assert.assertEquals(1, blogs.get(1).getPosts().get(1).getBlog().getPosts().get(1).getBlog().getId());
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchComplexBlogs_Ex2_JBSE702() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, 1, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        java.util.List<org.apache.ibatis.domain.blog.Blog> blogs = executor.query(selectBlog, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        org.junit.Assert.assertEquals(1, blogs.size());
+        org.junit.Assert.assertNotNull(blogs.get(0).getPosts());
+        org.junit.Assert.assertEquals(2, blogs.get(0).getPosts().size());
+        org.junit.Assert.assertEquals(1, blogs.get(0).getPosts().get(1).getBlog().getPosts().get(1).getBlog().getId());
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchComplexBlogs_Ex2_JBSE703() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, 0, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPosts = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostsForBlogMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPosts);
+        java.util.List<org.apache.ibatis.domain.blog.Blog> blogs = executor.query(selectBlog, 1, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        org.junit.Assert.assertEquals(1, blogs.size());
+        org.junit.Assert.assertNotNull(blogs.get(0).getPosts());
+        org.junit.Assert.assertEquals(2, blogs.get(0).getPosts().size());
+        org.junit.Assert.assertEquals(1, blogs.get(0).getPosts().get(1).getBlog().getPosts().get(1).getBlog().getId());
+        executor.rollback(true);
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}

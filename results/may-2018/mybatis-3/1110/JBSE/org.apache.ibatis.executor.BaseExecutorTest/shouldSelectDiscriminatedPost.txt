@@ -1,0 +1,108 @@
+@org.junit.Test(timeout = 120000)
+public void shouldSelectDiscriminatedPost_Ex2_JBSE381() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, 1));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectStatement = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectDiscriminatedPost(this.config);
+        java.util.List<java.util.Map<java.lang.String, java.lang.String>> products = executor.query(selectStatement, null, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.junit.Assert.assertEquals(5, products.size());
+        for (java.util.Map<java.lang.String, java.lang.String> m : products) {
+            if ("IMAGES".equals(m.get("SECTION"))) {
+                org.junit.Assert.assertNull(m.get("subject"));
+            }else {
+                org.junit.Assert.assertNotNull(m.get("subject"));
+            }
+        }
+    } finally {
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldSelectDiscriminatedPost_Ex2_JBSE382() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, 0));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectStatement = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectDiscriminatedPost(this.config);
+        java.util.List<java.util.Map<java.lang.String, java.lang.String>> products = executor.query(selectStatement, null, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.junit.Assert.assertEquals(5, products.size());
+        for (java.util.Map<java.lang.String, java.lang.String> m : products) {
+            if ("IMAGES".equals(m.get("SECTION"))) {
+                org.junit.Assert.assertNull(m.get("subject"));
+            }else {
+                org.junit.Assert.assertNotNull(m.get("subject"));
+            }
+        }
+    } finally {
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldSelectDiscriminatedPost_Ex2_JBSE383() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, 1));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectStatement = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectDiscriminatedPost(this.config);
+        java.util.List<java.util.Map<java.lang.String, java.lang.String>> products = executor.query(selectStatement, null, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.junit.Assert.assertEquals(5, products.size());
+        for (java.util.Map<java.lang.String, java.lang.String> m : products) {
+            if ("IMAGES".equals(m.get("SECTION"))) {
+                org.junit.Assert.assertNull(m.get("subject"));
+            }else {
+                org.junit.Assert.assertNotNull(m.get("subject"));
+            }
+        }
+    } finally {
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldSelectDiscriminatedPost_Ex2_JBSE384() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, 0));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectStatement = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectDiscriminatedPost(this.config);
+        java.util.List<java.util.Map<java.lang.String, java.lang.String>> products = executor.query(selectStatement, null, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.junit.Assert.assertEquals(5, products.size());
+        for (java.util.Map<java.lang.String, java.lang.String> m : products) {
+            if ("IMAGES".equals(m.get("SECTION"))) {
+                org.junit.Assert.assertNull(m.get("subject"));
+            }else {
+                org.junit.Assert.assertNotNull(m.get("subject"));
+            }
+        }
+    } finally {
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldSelectDiscriminatedPost_Ex2_JBSE385() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, 1));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectStatement = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectDiscriminatedPost(this.config);
+        java.util.List<java.util.Map<java.lang.String, java.lang.String>> products = executor.query(selectStatement, null, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.junit.Assert.assertEquals(5, products.size());
+        for (java.util.Map<java.lang.String, java.lang.String> m : products) {
+            if ("IMAGES".equals(m.get("SECTION"))) {
+                org.junit.Assert.assertNull(m.get("subject"));
+            }else {
+                org.junit.Assert.assertNotNull(m.get("subject"));
+            }
+        }
+    } finally {
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldSelectDiscriminatedPost_Ex2_JBSE386() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, 0));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectStatement = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectDiscriminatedPost(this.config);
+        java.util.List<java.util.Map<java.lang.String, java.lang.String>> products = executor.query(selectStatement, null, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        org.junit.Assert.assertEquals(5, products.size());
+        for (java.util.Map<java.lang.String, java.lang.String> m : products) {
+            if ("IMAGES".equals(m.get("SECTION"))) {
+                org.junit.Assert.assertNull(m.get("subject"));
+            }else {
+                org.junit.Assert.assertNotNull(m.get("subject"));
+            }
+        }
+    } finally {
+        executor.close(false);
+    }
+}

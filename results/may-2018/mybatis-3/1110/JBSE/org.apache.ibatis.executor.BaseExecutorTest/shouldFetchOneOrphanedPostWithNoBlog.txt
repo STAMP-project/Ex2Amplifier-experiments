@@ -1,0 +1,152 @@
+@org.junit.Test(timeout = 120000)
+public void shouldFetchOneOrphanedPostWithNoBlog_Ex2_JBSE667() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPost = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPost);
+        java.util.List<org.apache.ibatis.domain.blog.Post> posts = executor.query(selectPost, 5, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+        org.junit.Assert.assertEquals(1, posts.size());
+        org.apache.ibatis.domain.blog.Post post = posts.get(1);
+        org.junit.Assert.assertNull(post.getBlog());
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchOneOrphanedPostWithNoBlog_Ex2_JBSE668() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPost = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPost);
+        java.util.List<org.apache.ibatis.domain.blog.Post> posts = executor.query(selectPost, 5, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+        org.junit.Assert.assertEquals(1, posts.size());
+        org.apache.ibatis.domain.blog.Post post = posts.get(0);
+        org.junit.Assert.assertNull(post.getBlog());
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchOneOrphanedPostWithNoBlog_Ex2_JBSE669() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPost = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPost);
+        java.util.List<org.apache.ibatis.domain.blog.Post> posts = executor.query(selectPost, 5, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+        org.junit.Assert.assertEquals(0, posts.size());
+        org.apache.ibatis.domain.blog.Post post = posts.get(1);
+        org.junit.Assert.assertNull(post.getBlog());
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchOneOrphanedPostWithNoBlog_Ex2_JBSE670() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPost = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPost);
+        java.util.List<org.apache.ibatis.domain.blog.Post> posts = executor.query(selectPost, 5, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+        org.junit.Assert.assertEquals(0, posts.size());
+        org.apache.ibatis.domain.blog.Post post = posts.get(0);
+        org.junit.Assert.assertNull(post.getBlog());
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchOneOrphanedPostWithNoBlog_Ex2_JBSE671() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPost = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPost);
+        java.util.List<org.apache.ibatis.domain.blog.Post> posts = executor.query(selectPost, 5, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+        org.junit.Assert.assertEquals(1, posts.size());
+        org.apache.ibatis.domain.blog.Post post = posts.get(1);
+        org.junit.Assert.assertNull(post.getBlog());
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchOneOrphanedPostWithNoBlog_Ex2_JBSE672() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPost = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPost);
+        java.util.List<org.apache.ibatis.domain.blog.Post> posts = executor.query(selectPost, 5, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+        org.junit.Assert.assertEquals(1, posts.size());
+        org.apache.ibatis.domain.blog.Post post = posts.get(0);
+        org.junit.Assert.assertNull(post.getBlog());
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchOneOrphanedPostWithNoBlog_Ex2_JBSE673() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPost = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPost);
+        java.util.List<org.apache.ibatis.domain.blog.Post> posts = executor.query(selectPost, 5, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+        org.junit.Assert.assertEquals(0, posts.size());
+        org.apache.ibatis.domain.blog.Post post = posts.get(1);
+        org.junit.Assert.assertNull(post.getBlog());
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}
+@org.junit.Test(timeout = 120000)
+public void shouldFetchOneOrphanedPostWithNoBlog_Ex2_JBSE674() throws java.lang.Exception {
+    org.apache.ibatis.executor.Executor executor = createExecutor(new org.apache.ibatis.transaction.jdbc.JdbcTransaction(org.apache.ibatis.executor.BaseExecutorTest.ds, null, false));
+    try {
+        org.apache.ibatis.mapping.MappedStatement selectBlog = org.apache.ibatis.executor.ExecutorTestHelper.prepareComplexSelectBlogMappedStatement(this.config);
+        org.apache.ibatis.mapping.MappedStatement selectPost = org.apache.ibatis.executor.ExecutorTestHelper.prepareSelectPostMappedStatement(this.config);
+        this.config.addMappedStatement(selectBlog);
+        this.config.addMappedStatement(selectPost);
+        java.util.List<org.apache.ibatis.domain.blog.Post> posts = executor.query(selectPost, 5, org.apache.ibatis.session.RowBounds.DEFAULT, org.apache.ibatis.executor.Executor.NO_RESULT_HANDLER);
+        executor.flushStatements();
+        executor.rollback(true);
+        org.junit.Assert.assertEquals(0, posts.size());
+        org.apache.ibatis.domain.blog.Post post = posts.get(0);
+        org.junit.Assert.assertNull(post.getBlog());
+    } finally {
+        executor.rollback(true);
+        executor.close(false);
+    }
+}

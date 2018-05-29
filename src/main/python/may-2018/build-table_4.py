@@ -35,14 +35,22 @@ def build(projects):
                 pr_id = str(pr_data["id"])
                 pr_id_key = mode + pr_id
                 display_mode = mode.replace("_", "\\_")
-                datas = getDatas(path_to_project_result, pr_id, mode)
+                datas = getData(path_to_project_result, pr_id, mode)
                 if datas == "" or len(datas) < 4:
                     row += ("&" + str(pr_id) + "&" if mode == "A_ampl" else "") + "&&&"
                     continue
                 nb, time_amplification, numberOfTestMethodToBeAmplifieds, numberOfAmplifiedTestMethods = datas
                 if mode == "A_ampl":
-                    sucessfull_aampl[pr_id] = [nb, numberOfAmplifiedTestMethods]
+                    sucessfull_aampl[pr_id] = [nb, numberOfAmplifiedTestMethods, time_amplification]
                     row += "&" + str(pr_id) + "&" + str(numberOfTestMethodToBeAmplifieds)
+                #else:
+                    #time_amplification = time_amplification - sucessfull_aampl[pr_id][2]
+
+                time_amplification = time_amplification / 1000
+                if time_amplification > 60:
+                    time_amplification = str(time_amplification // 60) + "m"
+                else:
+                    time_amplification = str(time_amplification) + "s"
 
                 isColored, color = getColors(nb, numberOfAmplifiedTestMethods, mode, pr_id, sucessfull_aampl, 0, 1)
                 isAmplValue = mode == "A_ampl" or not pr_id in sucessfull_aampl
@@ -119,11 +127,6 @@ def getColors(nb, numberOfAmplifiedTestMethods, mode, pr_id, sucessfull_aampl, i
     else:
         return False, ""
 
-
-def getDatas(path_to_project_result, pr_id, mode):
-    return getData(path_to_project_result, pr_id, mode)
-
-
 def findJsonFilePathIn(directory):
     for file in os.listdir(directory):
         if file.endswith(".json"):
@@ -155,11 +158,6 @@ def getData(path_to_project_result, pr_id, mode):
         time_amplification += int(classTime["timeInMs"])
         numberOfTestMethodToBeAmplified += int(classTime["numberOfTestMethodToBeAmplified"])
         numberOfAmplifiedTestMethods += int(classTime["numberOfAmplifiedTestMethods"])
-    time_amplification = time_amplification / 1000
-    if time_amplification > 60:
-        time_amplification = str(time_amplification // 60) + "m"
-    else:
-        time_amplification = str(time_amplification) + "s"
     return nb, time_amplification, numberOfTestMethodToBeAmplified, numberOfAmplifiedTestMethods
 
 

@@ -35,6 +35,7 @@ def run(project, flags, pr_id_to_run, onClusty=False, mustClone=True):
     with open(path_to_json_project_file) as data_file:
         pull_request_data = json.load(data_file)["pullRequests"]
 
+    pr_data = ""
     for i in range(0, len(pull_request_data)):
         if pull_request_data[i]["id"] == pr_id_to_run:
             pr_data = pull_request_data[i]

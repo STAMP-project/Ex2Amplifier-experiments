@@ -1,6 +1,2 @@
 ======= REPORT =======
-1 amplified test fails on the new versions.
-overrideEverything(com.squareup.javapoet.MethodSpecTest): expected:<...Runnable everything([java.lang.String arg0,
-    java.util.List<? extends T> arg1) throws java.io.IOException,] java.lang.SecurityE...> but was:<...Runnable everything([
-    java.lang.String arg0, java.util.List<? extends T> arg1) throws java.io.IOException,
-   ] java.lang.SecurityE...>
+0 amplified test fails on the new versions.

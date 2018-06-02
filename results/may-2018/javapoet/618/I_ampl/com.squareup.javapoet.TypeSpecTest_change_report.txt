@@ -1,6 +1,48 @@
 ======= REPORT =======
-123 amplified test fails on the new versions.
-annotationsAndJavaLangTypes_literalMutationString4546(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+130 amplified test fails on the new versions.
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5031(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4570(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4690(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.agnnotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.agnnotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5278(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5026(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5422(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4621(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
   [@
   .build()$<$<.FreeRange java.lang.]String meat;
 }
@@ -9,210 +51,520 @@ annotationsAndJavaLangTypes_literalMutationString4546(com.squareup.javapoet.Type
   .build()$<$<.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4547(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javaV.annotation.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4861(com.squareup.javapoet.TypeSpecTest): expected:<...lass EhicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
-> but was:<...ass EthicalTaco {
-  [java.lang. @javaV.annotation.FreeRange ]String meat;
+> but was:<...lass EhicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4567_literalMutationString5050(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4852(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthyicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ss EthyicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5303(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5437(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4903(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String Aeat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String Aeat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString4891(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meCat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javrx.annotation.FreeRange ]String meCat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString5067(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5096(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5263(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5012(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5494(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5258(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5378(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5144(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5425(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5138(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5307(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4968(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String met;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String met;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4737(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRage java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRage ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString5453(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4488(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRange java.lang.]String q3X7;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRange ]String q3X7;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5058(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5049(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5445(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4597(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@
+  .build()$<$<.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @
+  .build()$<$<.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5168(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5288(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5216(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5336(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4921(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String met;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String met;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4757(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.Freelange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.Freelange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString5009(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4916(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString5367(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4491(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
   [@javax.annotation.FreeRange java.lang.]String met;
 }
 > but was:<...ass EthicalTaco {
   [java.lang. @javax.annotation.FreeRange ]String met;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4548(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@jaax.annotation.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString5486(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @jaax.annotation.FreeRange ]String meat;
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5272(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5382(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5190(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString5120(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4545(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5395(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5152(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5322(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5433(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5036(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5044(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4875(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String mPeat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String mPeat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4866(com.squareup.javapoet.TypeSpecTest): expected:<...lass EthiclTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...lass EthiclTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4994(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4985(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5202(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString4826(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalTaaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
+}
+> but was:<...ss EthicalTaaco {
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4628(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@jrvax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @jrvax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5449(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5319(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4469(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
   [@FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
   [java.lang. @FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString5047(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mQeat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5063(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mQeat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5230(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5184(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5079(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5470(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5116(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4820(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicarlTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicarlTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5534(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4566_literalMutationString5360(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mnat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5467(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mnat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5239(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5232(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4550(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@V9HiOmsJHJ)YoS.;.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5352(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @V9HiOmsJHJ)YoS.;.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4946(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4932(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String mveat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annotation.FreeRlange ]String mveat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4560_literalMutationString5208(com.squareup.javapoet.TypeSpecTest): expected:<...lass EthicaTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...lass EthicaTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4559(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicaHTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicaHTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5095(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5370(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5492(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5181(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5228(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4554(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.Freeange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5115(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.Freeange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString5176(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mQeat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5348(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mQeat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString4760(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.ann7otation.FreeRange java.lang.]String mQeat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5502(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.ann7otation.FreeRange ]String mQeat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString5332(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mQeat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4784(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRa$nge java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mQeat;
+  [java.lang. @javax.annot2ation.FreeRa$nge ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString5454(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mQeat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5508(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mQeat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5068(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4944(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4654(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString4616(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annot^ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javrx.annot^ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4472(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.nnotation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.nnotation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4473(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@rVoiu E2>. lKH$N.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @rVoiu E2>. lKH$N.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString4732(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.Free_Range java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javrx.annotation.Free_Range ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4470(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
   [@
   .build()$<$<.FreeRange java.lang.]String meat;
 }
@@ -221,647 +573,346 @@ annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4654(
   .build()$<$<.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString4954(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalKTao {
+annotationsAndJavaLangTypes_literalMutationString4471(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5461(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4478(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRane java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRane ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4479(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.ycV9zzIkb java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.ycV9zzIkb ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5214(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4771(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRa6ge java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRa6ge ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5101(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5334(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5455(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5188(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4652(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@java x.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @java x.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4931(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4483(com.squareup.javapoet.TypeSpecTest): expected:<...ss EtUhicalTaco {
   [@javax.annotation.FreeRange java.lang.]String meat;
 }
-> but was:<...ass EthicalKTao {
+> but was:<...ss EtUhicalTaco {
   [java.lang. @javax.annotation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5106(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5529(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
+annotationsAndJavaLangTypes_literalMutationString4485(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthihalTaco {
   [@javax.annotation.FreeRange java.lang.]String meat;
 }
-> but was:<...ss EthicalKTaco {
+> but was:<...ass EthihalTaco {
   [java.lang. @javax.annotation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4774(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FFeeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FFeeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString4837(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5526(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
+annotationsAndJavaLangTypes_literalMutationString4480(com.squareup.javapoet.TypeSpecTest): expected:<...lass Ethicalaco {
   [@javax.annotation.FreeRange java.lang.]String meat;
 }
-> but was:<...ss EthicalKTaco {
+> but was:<...lass Ethicalaco {
   [java.lang. @javax.annotation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4560(com.squareup.javapoet.TypeSpecTest): expected:<...lass EthicaTaco {
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5485(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5130(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5000(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5242(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5363(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5124(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
+}
+> but was:<...ass EthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4567(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
   [@javax.annotation.FreeRange java.lang.]String meat;
 }
-> but was:<...lass EthicaTaco {
+> but was:<...ass EthicalTaco {
   [java.lang. @javax.annotation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5486(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4938(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5018(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5521(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5005(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String mat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString5061(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mQeat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4687(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.=nnot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mQeat;
+  [java.lang. @javax.=nnot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5097(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5010(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5413(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5134(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4962(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4961(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5439(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString4743(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotaYion.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotaYion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4840(com.squareup.javapoet.TypeSpecTest): expected:<...ass E5hicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass E5hicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5258(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4677(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@jaax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @jaax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4722(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@Jxc,}F@+=zQTi7vZG.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @Jxc,}F@+=zQTi7vZG.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5157(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4566_literalMutationString5467(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mnat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5409(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mnat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5397(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4836(com.squareup.javapoet.TypeSpecTest): expected:<...ass mthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5085(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+> but was:<...ass mthicalTaco {
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString5515(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mQeat;
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString5205(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mQeat;
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5001(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4831(com.squareup.javapoet.TypeSpecTest): expected:<...lass EthicalTco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...lass EthicalTco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5249(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString4995(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5125(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString5320(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4675(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@j}vax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4660(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@{.Jn/xFt!x/sNX&D.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @j}vax.annotatGion.FreeRange ]String meat;
+  [java.lang. @{.Jn/xFt!x/sNX&D.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4955(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5199(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5424(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5305(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString5481(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mQeat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5110(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mQeat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4560_literalMutationString5418(com.squareup.javapoet.TypeSpecTest): expected:<...lass EthicaTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...lass EthicaTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5031(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5481(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString4926(com.squareup.javapoet.TypeSpecTest): expected:<...s EthicaglKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...s EthicaglKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5277(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4471_literalMutationString5280(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javrx.annotation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javrx.annotation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5154(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4673(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@:MkixG&iN}r/>YG]g.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @:MkixG&iN}r/>YG]g.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4984(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5477(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5038(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4830(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthocalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
+}
+> but was:<...ass EthocalTaco {
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
+}
+>
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5248(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4566_literalMutationString5042(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mnat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString4700(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeR7ange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mnat;
+  [java.lang. @javax.annotation.FreeR7ange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4566_literalMutationString5169(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mnat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString4950(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mnat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4559_literalMutationString5100(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicaHTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicaHTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4907(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5005(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5171(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5290(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString5376(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mQeat;
+annotationsAndJavaLangTypes_literalMutationString4468_literalMutationString5368(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annot2ation.FreeRange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mQeat;
+  [java.lang. @javax.annot2ation.FreeRange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5021(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5513(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5267(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5518(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5144(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
+annotationsAndJavaLangTypes_literalMutationString4477_literalMutationString5081(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
+  [@javax.annotation.FreeRlange java.lang.]String meat;
 }
 > but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4698(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGi6on.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGi6on.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4973(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4730(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGin.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGin.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString4849(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRbange java.lang.]String mQeat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRbange ]String mQeat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString4758(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annDotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annDotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4739(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRaRnge java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRaRnge ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5321(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5049(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meeat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meeat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4559_literalMutationString5448(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicaHTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicaHTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4565(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mQeat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mQeat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4566(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mnat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mnat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4567(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String met;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String met;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5081(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4565_literalMutationString5146(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotation.FreeRange java.lang.]String mQeat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotation.FreeRange ]String mQeat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5172(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5297(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4765(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRage java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRage ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5059(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5219(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5479(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4559_literalMutationString5281(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicaHTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicaHTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5514(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4559_literalMutationString4991(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicaHTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicaHTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4928(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5231(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5163(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString4819(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FrJeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FrJeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5288(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4871(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String mat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String mat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4560_literalMutationString5071(com.squareup.javapoet.TypeSpecTest): expected:<...lass EthicaTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...lass EthicaTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4993(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5048(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5202(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString4776(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@jvax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @jvax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4631(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString5209(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4549_literalMutationString4916(com.squareup.javapoet.TypeSpecTest): expected:<...ass EthicalTaco {
-  [@javax.annotatGion.FreeRange java.lang.]String meat;
-}
-> but was:<...ass EthicalTaco {
-  [java.lang. @javax.annotatGion.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5067(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
-}
->
-annotationsAndJavaLangTypes_literalMutationString4561_literalMutationString5188(com.squareup.javapoet.TypeSpecTest): expected:<...ss EthicalKTaco {
-  [@javax.annotation.FreeRange java.lang.]String meat;
-}
-> but was:<...ss EthicalKTaco {
-  [java.lang. @javax.annotation.FreeRange ]String meat;
+  [java.lang. @javax.annotation.FreeRlange ]String meat;
 }
 >

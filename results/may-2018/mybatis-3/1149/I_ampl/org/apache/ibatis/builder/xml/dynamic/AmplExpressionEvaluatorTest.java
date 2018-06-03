@@ -28,5 +28,25 @@ public class AmplExpressionEvaluatorTest {
         boolean o_shouldReturnFalseIfZeroWithScale__4 = this.evaluator.evaluateBoolean("d", new Bean());
         Assert.assertFalse(o_shouldReturnFalseIfZeroWithScale__4);
     }
+
+    @Test(timeout = 120000)
+    public void shouldReturnFalseIfZeroWithScalelitNum50830() throws Exception {
+        class Bean {
+            @SuppressWarnings("unused")
+            public double d = 0.0;
+        }
+        boolean o_shouldReturnFalseIfZeroWithScalelitNum50830__4 = this.evaluator.evaluateBoolean("d", new Bean());
+        Assert.assertFalse(o_shouldReturnFalseIfZeroWithScalelitNum50830__4);
+    }
+
+    @Test(timeout = 120000)
+    public void shouldReturnFalseIfZeroWithScalelitString50818() throws Exception {
+        class Bean {
+            @SuppressWarnings("unused")
+            public double d = 0.0;
+        }
+        boolean o_shouldReturnFalseIfZeroWithScalelitString50818__4 = this.evaluator.evaluateBoolean("d", new Bean());
+        Assert.assertFalse(o_shouldReturnFalseIfZeroWithScalelitString50818__4);
+    }
 }
 

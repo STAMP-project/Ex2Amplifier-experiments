@@ -2,8 +2,8 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.apache.ibatis.submitted.include_property.IncludePropertyTest",
-      "timeInMs": 260526,
-      "numberOfAmplifiedTestMethods": 3013,
+      "timeInMs": 239247,
+      "numberOfAmplifiedTestMethods": 1077,
       "numberOfTestMethodToBeAmplified": 8
     }
   ],

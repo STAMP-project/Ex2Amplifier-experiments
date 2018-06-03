@@ -2,8 +2,8 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest",
-      "timeInMs": 80680,
-      "numberOfAmplifiedTestMethods": 503,
+      "timeInMs": 50766,
+      "numberOfAmplifiedTestMethods": 291,
       "numberOfTestMethodToBeAmplified": 1
     }
   ],

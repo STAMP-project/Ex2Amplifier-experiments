@@ -39,11 +39,11 @@ public class AmplIncludePropertyTest {
             final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
             try {
                 List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectSimpleA");
-                String o_testEmptyStringlitNum31247__7 = results.get(-1);
+                String o_testEmptyStringlitNum31247__7 = results.get((-1));
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testEmptyStringlitNum31247litString31485litNum32620 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testEmptyStringlitNum31247litString31485litNum32620 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             Assert.assertEquals("-1", expected.getMessage());
         }
@@ -55,11 +55,11 @@ public class AmplIncludePropertyTest {
             final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
             try {
                 List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectNestedInclude");
-                String o_testNestedIncludelitNum32__7 = results.get(-1);
+                String o_testNestedIncludelitNum32__7 = results.get((-1));
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testNestedIncludelitNum32litNum642litNum2445 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testNestedIncludelitNum32litNum642litNum2445 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             Assert.assertEquals(null, expected.getMessage());
         }
@@ -75,7 +75,7 @@ public class AmplIncludePropertyTest {
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testNestedIncludelitNum31 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testNestedIncludelitNum31 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             Assert.assertEquals("-2147483648", expected.getMessage());
         }
@@ -91,7 +91,7 @@ public class AmplIncludePropertyTest {
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testNestedIncludelitNum32litString537litNum2222 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testNestedIncludelitNum32litString537litNum2222 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             Assert.assertEquals(null, expected.getMessage());
         }
@@ -107,7 +107,7 @@ public class AmplIncludePropertyTest {
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testEmptyStringlitNum31247litNum31503litNum32698 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testEmptyStringlitNum31247litNum31503litNum32698 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             Assert.assertEquals(null, expected.getMessage());
         }
@@ -119,11 +119,11 @@ public class AmplIncludePropertyTest {
             final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
             try {
                 List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectSimpleA");
-                String o_testEmptyStringlitString31235__7 = results.get(-1);
+                String o_testEmptyStringlitString31235__7 = results.get((-1));
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testEmptyStringlitString31235litString31613litNum32834 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testEmptyStringlitString31235litString31613litNum32834 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             Assert.assertEquals(null, expected.getMessage());
         }
@@ -139,7 +139,7 @@ public class AmplIncludePropertyTest {
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testNestedIncludelitNum32litNum642litNum2448 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testNestedIncludelitNum32litNum642litNum2448 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             Assert.assertEquals(null, expected.getMessage());
         }
@@ -151,11 +151,11 @@ public class AmplIncludePropertyTest {
             final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
             try {
                 List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectConfigVar");
-                results.get(-1);
+                results.get((-1));
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testConfigVarlitNum6065 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testConfigVarlitNum6065 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             Assert.assertEquals("-1", expected.getMessage());
         }
@@ -171,9 +171,94 @@ public class AmplIncludePropertyTest {
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testEmptyStringlitNum31247litString31485litNum32626 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testEmptyStringlitNum31247litString31485litNum32626 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             Assert.assertEquals("-2147483648", expected.getMessage());
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testEmptyStringlitNum19474_failAssert40litString19629() throws Exception {
+        try {
+            final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
+            try {
+                List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectEmptyProperty");
+                results.get(-1);
+            } finally {
+                sqlSession.close();
+            }
+            org.junit.Assert.fail("testEmptyStringlitNum19474 should have thrown ArrayIndexOutOfBoundsException");
+        } catch (ArrayIndexOutOfBoundsException expected) {
+            String o_testEmptyStringlitNum19474_failAssert40litString19629__14 = expected.getMessage();
+            Assert.assertEquals("-1", o_testEmptyStringlitNum19474_failAssert40litString19629__14);
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testEmptyStringlitNum19474_failAssert40litString19674() throws Exception {
+        try {
+            final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
+            try {
+                List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectConfigVar");
+                results.get(-1);
+            } finally {
+                sqlSession.close();
+            }
+            org.junit.Assert.fail("testEmptyStringlitNum19474 should have thrown ArrayIndexOutOfBoundsException");
+        } catch (ArrayIndexOutOfBoundsException expected) {
+            String o_testEmptyStringlitNum19474_failAssert40litString19674__14 = expected.getMessage();
+            Assert.assertEquals("-1", o_testEmptyStringlitNum19474_failAssert40litString19674__14);
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testEmptyStringlitNum19474_failAssert40litString19705() throws Exception {
+        try {
+            final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
+            try {
+                List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectNestedDynamicValue");
+                results.get(-1);
+            } finally {
+                sqlSession.close();
+            }
+            org.junit.Assert.fail("testEmptyStringlitNum19474 should have thrown ArrayIndexOutOfBoundsException");
+        } catch (ArrayIndexOutOfBoundsException expected) {
+            String o_testEmptyStringlitNum19474_failAssert40litString19705__14 = expected.getMessage();
+            Assert.assertEquals("-1", o_testEmptyStringlitNum19474_failAssert40litString19705__14);
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testPropertyInRefidlitNum7780_failAssert24litNum8073() throws Exception {
+        try {
+            final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
+            try {
+                List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectPropertyInRefid");
+                results.get(-2147483648);
+            } finally {
+                sqlSession.close();
+            }
+            org.junit.Assert.fail("testPropertyInRefidlitNum7780 should have thrown ArrayIndexOutOfBoundsException");
+        } catch (ArrayIndexOutOfBoundsException expected) {
+            String o_testPropertyInRefidlitNum7780_failAssert24litNum8073__14 = expected.getMessage();
+            Assert.assertEquals("-2147483648", o_testPropertyInRefidlitNum7780_failAssert24litNum8073__14);
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testPropertyInRefidlitNum7780_failAssert24litNum8078() throws Exception {
+        try {
+            final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
+            try {
+                List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectPropertyInRefid");
+                results.get(-2);
+            } finally {
+                sqlSession.close();
+            }
+            org.junit.Assert.fail("testPropertyInRefidlitNum7780 should have thrown ArrayIndexOutOfBoundsException");
+        } catch (ArrayIndexOutOfBoundsException expected) {
+            String o_testPropertyInRefidlitNum7780_failAssert24litNum8078__14 = expected.getMessage();
+            Assert.assertEquals("-2", o_testPropertyInRefidlitNum7780_failAssert24litNum8078__14);
         }
     }
 }

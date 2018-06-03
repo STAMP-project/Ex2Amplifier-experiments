@@ -1,19 +1,2 @@
 ======= REPORT =======
-17 amplified test fails on the new versions.
-shouldSelectAllAuthorsAutoMappedlitBool66847litBool66920litNum67098_failAssert574(org.apache.ibatis.executor.BaseExecutorTest): expected:<null> but was:<-2147483648>
-shouldInsertNewAuthorlitNum119905_failAssert1362litNum120227(org.apache.ibatis.executor.BaseExecutorTest): expected:<1> but was:<0>
-shouldFetchComplexBlogslitBool71394litBool72030litNum76306_failAssert980(org.apache.ibatis.executor.BaseExecutorTest): expected:<null> but was:<-2147483648>
-shouldClearDeferredLoads(org.apache.ibatis.executor.BaseExecutorTest): expected:<-1603122762> but was:<1408109875>
-shouldFetchComplexBlogslitBool71391litNum71966_failAssert707(org.apache.ibatis.executor.BaseExecutorTest): expected:<null> but was:<-2147483648>
-shouldInsertNewAuthorlitNum119905_failAssert1362litNum120237(org.apache.ibatis.executor.BaseExecutorTest): expected:<1> but was:<0>
-shouldSelectAllAuthorsAutoMappedlitBool66847litBool66922litNum67354_failAssert583(org.apache.ibatis.executor.BaseExecutorTest): expected:<null> but was:<-1>
-shouldFetchComplexBlogslitBool71392litBool72176litNum75787_failAssert889(org.apache.ibatis.executor.BaseExecutorTest): expected:<null> but was:<-2147483648>
-shouldInsertNewAuthorByProclitNum124975litNum125220(org.apache.ibatis.executor.BaseExecutorTest): Index: 0, Size: 0
-shouldInsertNewAuthorByProclitNum124974litNum125234(org.apache.ibatis.executor.BaseExecutorTest): Index: 0, Size: 0
-shouldInsertNewAuthorlitNum119907_failAssert1364litNum120640(org.apache.ibatis.executor.BaseExecutorTest): expected:<1> but was:<0>
-shouldFetchOneOrphanedPostWithNoBloglitNum67979litNum68174_failAssert611(org.apache.ibatis.executor.BaseExecutorTest): expected:<-2147483648> but was:<null>
-shouldSelectAllAuthorsAutoMappedlitBool66846litBool66917litNum67403_failAssert565(org.apache.ibatis.executor.BaseExecutorTest): expected:<null> but was:<-2147483648>
-shouldFetchComplexBlogslitBool71391litNum71904_failAssert750(org.apache.ibatis.executor.BaseExecutorTest): expected:<null> but was:<-1>
-shouldSelectAllAuthorsAutoMappedlitNum66845litNum66874litNum67367_failAssert560(org.apache.ibatis.executor.BaseExecutorTest): expected:<null> but was:<-2147483648>
-shouldInsertNewAuthorlitNum119906_failAssert1363litNum120423(org.apache.ibatis.executor.BaseExecutorTest): expected:<1> but was:<0>
-shouldFetchComplexBlogslitNum71371litNum72355_failAssert801(org.apache.ibatis.executor.BaseExecutorTest): expected:<null> but was:<-2147483648>
+0 amplified test fails on the new versions.

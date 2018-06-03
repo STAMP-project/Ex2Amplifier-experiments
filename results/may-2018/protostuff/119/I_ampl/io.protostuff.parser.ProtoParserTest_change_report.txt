@@ -1,4 +1,2 @@
 ======= REPORT =======
-2 amplified test fails on the new versions.
-testDescriptorProto(io.protostuff.parser.ProtoParserTest): expected:<127741460480> but was:<127742734336>
-testEnumWithTrailingSemicolon(io.protostuff.parser.ProtoParserTest): expected:<127741460480> but was:<127742734336>
+0 amplified test fails on the new versions.

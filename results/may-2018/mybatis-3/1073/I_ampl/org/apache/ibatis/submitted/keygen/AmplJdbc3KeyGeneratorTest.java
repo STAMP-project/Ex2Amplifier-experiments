@@ -422,5 +422,31 @@ public class AmplJdbc3KeyGeneratorTest {
             sqlSession.close();
         }
     }
+
+    @Test(timeout = 120000)
+    public void shouldErrorUndefinePropertylitString11() throws Exception {
+        SqlSession sqlSession = AmplJdbc3KeyGeneratorTest.sqlSessionFactory.openSession();
+        try {
+            CountryMapper mapper = sqlSession.getMapper(CountryMapper.class);
+            int o_shouldErrorUndefinePropertylitString11__7 = BDDCatchException.when(mapper).insertUndefineKeyProperty(new Country("Chkna", "CN"));
+            Assert.assertEquals(0, ((int) (o_shouldErrorUndefinePropertylitString11__7)));
+        } finally {
+            sqlSession.rollback();
+            sqlSession.close();
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void shouldErrorUndefinePropertylitString26() throws Exception {
+        SqlSession sqlSession = AmplJdbc3KeyGeneratorTest.sqlSessionFactory.openSession();
+        try {
+            CountryMapper mapper = sqlSession.getMapper(CountryMapper.class);
+            int o_shouldErrorUndefinePropertylitString26__7 = BDDCatchException.when(mapper).insertUndefineKeyProperty(new Country("China", "China"));
+            Assert.assertEquals(0, ((int) (o_shouldErrorUndefinePropertylitString26__7)));
+        } finally {
+            sqlSession.rollback();
+            sqlSession.close();
+        }
+    }
 }
 

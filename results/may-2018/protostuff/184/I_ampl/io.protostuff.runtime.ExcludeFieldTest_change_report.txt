@@ -1,5 +1,2 @@
 ======= REPORT =======
-3 amplified test fails on the new versions.
-testMuchExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<58044936> but was:<1127233454>
-testIt(io.protostuff.runtime.ExcludeFieldTest): expected:<1583713136> but was:<-488397598>
-testTaggedAndExcludedEntity(io.protostuff.runtime.ExcludeFieldTest): expected:<-1843806096> but was:<1004677820>
+0 amplified test fails on the new versions.

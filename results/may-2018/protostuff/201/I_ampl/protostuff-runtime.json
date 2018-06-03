@@ -2,8 +2,8 @@
   "classTimes": [
     {
       "fullQualifiedName": "io.protostuff.runtime.ObjectSchemaTest",
-      "timeInMs": 19254,
-      "numberOfAmplifiedTestMethods": 85,
+      "timeInMs": 15421,
+      "numberOfAmplifiedTestMethods": 29,
       "numberOfTestMethodToBeAmplified": 1
     }
   ],

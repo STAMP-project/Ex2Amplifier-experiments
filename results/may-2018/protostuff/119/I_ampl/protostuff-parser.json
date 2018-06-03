@@ -2,8 +2,8 @@
   "classTimes": [
     {
       "fullQualifiedName": "io.protostuff.parser.ProtoParserTest",
-      "timeInMs": 630348,
-      "numberOfAmplifiedTestMethods": 416,
+      "timeInMs": 73051306,
+      "numberOfAmplifiedTestMethods": 309,
       "numberOfTestMethodToBeAmplified": 4
     }
   ],

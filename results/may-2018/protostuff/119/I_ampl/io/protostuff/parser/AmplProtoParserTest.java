@@ -2,6 +2,7 @@ package io.protostuff.parser;
 
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URL;
@@ -1099,6 +1100,340 @@ public class AmplProtoParserTest {
         Assert.assertNull(getLast());
         Assert.assertEquals("src/test/resources", ((File) (((File) (((io.protostuff.parser.Proto) (proto)).getFile())).getParentFile())).getPath());
         Assert.assertTrue(o_testEnumWithTrailingSemicolon__3);
+    }
+
+    @Test(timeout = 120000)
+    public void testDescriptorProtolitString10_failAssert0litString399_failAssert3() throws Exception {
+        try {
+            try {
+                File f = AmplProtoParserTest.getFile("unittest.proto");
+                f.exists();
+                Proto proto = new Proto(f);
+                ProtoUtil.loadFrom(f, proto);
+                proto.getPackageName();
+                org.junit.Assert.fail("testDescriptorProtolitString10 should have thrown FileNotFoundException");
+            } catch (FileNotFoundException expected) {
+                expected.getMessage();
+            }
+            org.junit.Assert.fail("testDescriptorProtolitString10_failAssert0litString399 should have thrown RuntimeException");
+        } catch (RuntimeException expected_1) {
+            Assert.assertEquals("java.lang.IllegalStateException: Imported proto google/protobuf/unittest_import.proto not found. (src/test/resources/unittest.proto)", expected_1.getMessage());
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testDescriptorProtolitString91_failAssert1() throws Exception {
+        try {
+            File f = AmplProtoParserTest.getFile("unittest.proto");
+            f.exists();
+            Proto proto = new Proto(f);
+            ProtoUtil.loadFrom(f, proto);
+            proto.getPackageName();
+            org.junit.Assert.fail("testDescriptorProtolitString91 should have thrown RuntimeException");
+        } catch (RuntimeException expected) {
+            Assert.assertEquals("java.lang.IllegalStateException: Imported proto google/protobuf/unittest_import.proto not found. (src/test/resources/unittest.proto)", expected.getMessage());
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testDescriptorProtolitString91_failAssert1litString406() throws Exception {
+        try {
+            File f = AmplProtoParserTest.getFile("unittest.proto");
+            boolean o_testDescriptorProtolitString91_failAssert1litString406__5 = f.exists();
+            Assert.assertTrue(o_testDescriptorProtolitString91_failAssert1litString406__5);
+            Proto proto = new Proto(f);
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getServiceMap().isEmpty());
+            Assert.assertEquals(-1862609754, ((int) (((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).hashCode())));
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).mkdir());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getMessages().isEmpty());
+            Assert.assertEquals("", ((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).getHost());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsolutePath());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).isHidden());
+            Assert.assertEquals(1528201395000L, ((long) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).lastModified())));
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).mkdirs());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).getParent());
+            Assert.assertNull(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getMutablePackageName());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getAnnotationMap().isEmpty());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).getPath());
+            Assert.assertEquals(2036335005, ((int) (((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).hashCode())));
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).createNewFile());
+            Assert.assertEquals("unittest.proto", ((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getName());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).isHidden());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).isEmptyA());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).isHidden());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getServiceMap().isEmpty());
+            Assert.assertEquals(-150738243, ((int) (((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).hashCode())));
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getO().isEmpty());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getImportedProtos().isEmpty());
+            Assert.assertEquals(-1244353054, ((int) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).hashCode())));
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getOptions().isEmpty());
+            Assert.assertEquals("unittest.proto", ((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).getName());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getEnumGroupMap().isEmpty());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).canExecute());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).getPath());
+            Assert.assertNull(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).listFiles());
+            Assert.assertEquals("unittest.proto", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).getName());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).isAbsolute());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).isEmptyA());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).getCanonicalPath());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).isDirectory());
+            Assert.assertEquals("src/test/resources/unittest.proto", ((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getSourcePath());
+            Assert.assertEquals("src/test/resources/unittest.proto", ((io.protostuff.parser.Proto)proto).getSourcePath());
+            Assert.assertFalse(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).isOpaque());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).exists());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).mkdir());
+            Assert.assertEquals("file", ((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).getProtocol());
+            Assert.assertEquals("file:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).toString());
+            Assert.assertNull(((io.protostuff.parser.Proto)proto).getPackageName());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).getPath());
+            Assert.assertFalse(((io.protostuff.parser.Proto)proto).getError().isEmpty());
+            Assert.assertEquals(-150738243, ((int) (((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).hashCode())));
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).mkdirs());
+            Assert.assertEquals(282639695872L, ((long) (((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getTotalSpace())));
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getAnnotations().isEmpty());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).isAbsolute());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getSchemeSpecificPart());
+            Assert.assertNull(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).list());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).isHidden());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).getAbsolutePath());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getA().isEmpty());
+            Assert.assertEquals(282639695872L, ((long) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).getTotalSpace())));
+            Assert.assertEquals(1528199640000L, ((long) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).lastModified())));
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getRawSchemeSpecificPart());
+            Assert.assertEquals("src/test/resources/unittest.proto", ((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).toString());
+            Assert.assertNull(((io.protostuff.parser.Proto)proto).getOriginalPackageName());
+            Assert.assertNull(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getMutablePackageName());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).mkdirs());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).exists());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getExtensions().isEmpty());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).setReadOnly());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).canRead());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).getCanonicalPath());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).getCanonicalPath());
+            Assert.assertEquals(-1, ((int) (((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getPort())));
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getMessageMap().isEmpty());
+            Assert.assertEquals(4096L, ((long) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).length())));
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).getCanonicalPath());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).getParent());
+            Assert.assertEquals(23665L, ((long) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).length())));
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).canExecute());
+            Assert.assertEquals("unittest.proto", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).getName());
+            Assert.assertNull(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getUserInfo());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).canWrite());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).isAbsolute());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getRawPath());
+            Assert.assertNull(((io.protostuff.parser.Proto)proto).getMutableJavaPackageName());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).delete());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getExtraOptions().isEmpty());
+            Assert.assertEquals("src/test/resources", ((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParent());
+            Assert.assertNull(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).list());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).createNewFile());
+            Assert.assertNull(((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).getRef());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).canWrite());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).toString());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).isFile());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getExtensions().isEmpty());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getStandardOptions().isEmpty());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getServiceMap().isEmpty());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getMessageMap().isEmpty());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).mkdir());
+            Assert.assertEquals("", ((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).getAuthority());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getAnnotations().isEmpty());
+            Assert.assertNull(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getFragment());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getMessages().isEmpty());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).isFile());
+            Assert.assertEquals("src/test/resources", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).toString());
+            Assert.assertNull(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getOriginalJavaPackageName());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalPath());
+            Assert.assertEquals(4, ((int) (((java.nio.file.Path)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toPath()).getNameCount())));
+            Assert.assertTrue(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).exists());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).isDirectory());
+            Assert.assertTrue(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).exists());
+            Assert.assertEquals(-1, ((int) (((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).getPort())));
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).isDirectory());
+            Assert.assertEquals(-1, ((int) (((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).getDefaultPort())));
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getMessageMap().isEmpty());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).setReadOnly());
+            Assert.assertEquals("src/test/resources/unittest.proto", ((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getSourcePath());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getEnumGroups().isEmpty());
+            Assert.assertNull(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).list());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).canWrite());
+            Assert.assertNull(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getOriginalPackageName());
+            Assert.assertEquals(282639695872L, ((long) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).getTotalSpace())));
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).isHidden());
+            Assert.assertEquals("file:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).toExternalForm());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getImportedProtos().isEmpty());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).mkdir());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).canWrite());
+            Assert.assertTrue(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).isFile());
+            Assert.assertEquals(1528199640000L, ((long) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).lastModified())));
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).setReadOnly());
+            Assert.assertEquals(282639695872L, ((long) (((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).getTotalSpace())));
+            Assert.assertTrue(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).setReadOnly());
+            Assert.assertTrue(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).isFile());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getExtensions().isEmpty());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).mkdirs());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).isAbsolute());
+            Assert.assertTrue(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).isAbsolute());
+            Assert.assertNull(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).listFiles());
+            Assert.assertNull(((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).getUserInfo());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getEnumGroups().isEmpty());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).getAbsolutePath());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).createNewFile());
+            Assert.assertNull(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).listFiles());
+            Assert.assertEquals("file", ((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getScheme());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getEnumGroupMap().isEmpty());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getO().isEmpty());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).createNewFile());
+            Assert.assertNull(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getRawQuery());
+            Assert.assertEquals(2032327091, ((int) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).hashCode())));
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getStandardOptions().isEmpty());
+            Assert.assertEquals("{packageName:null,standardOptions:{},extraOptions:{},messages:[]}", ((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).toString());
+            Assert.assertEquals(-149864660, ((int) (((java.nio.file.Path)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toPath()).hashCode())));
+            Assert.assertEquals(23665L, ((long) (((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).length())));
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).getFile());
+            Assert.assertFalse(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getError().isEmpty());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getServices().isEmpty());
+            Assert.assertNull(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getOriginalJavaPackageName());
+            Assert.assertNull(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getRawUserInfo());
+            Assert.assertNull(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getAuthority());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).isDirectory());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).canExecute());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getPath());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).canRead());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).delete());
+            Assert.assertEquals("resources", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).getName());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).delete());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getAnnotationMap().isEmpty());
+            Assert.assertEquals(23665L, ((long) (((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).length())));
+            Assert.assertNull(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).listFiles());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getExtraOptions().isEmpty());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).canExecute());
+            Assert.assertNull(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getPackageName());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).canRead());
+            Assert.assertTrue(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).canRead());
+            Assert.assertNull(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getHost());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getStandardOptions().isEmpty());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getMessages().isEmpty());
+            Assert.assertEquals("src/test/resources/unittest.proto", ((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getPath());
+            Assert.assertNull(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).list());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).delete());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).exists());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getA().isEmpty());
+            Assert.assertNull(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getQuery());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).mkdirs());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getOptions().isEmpty());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getOptions().isEmpty());
+            Assert.assertNull(((io.protostuff.parser.Proto)proto).getOriginalJavaPackageName());
+            Assert.assertNull(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getMutableJavaPackageName());
+            Assert.assertNull(((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).getQuery());
+            Assert.assertFalse(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getError().isEmpty());
+            Assert.assertEquals(23665L, ((long) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).length())));
+            Assert.assertEquals(2032327091, ((int) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).hashCode())));
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getImportedProtos().isEmpty());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getEnumGroupMap().isEmpty());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).isEmptyA());
+            Assert.assertEquals("file:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.net.URL)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURL()).toString());
+            Assert.assertEquals("src/test", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).getParent());
+            Assert.assertTrue(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).setReadOnly());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).isAbsolute());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getServices().isEmpty());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).mkdir());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getO().isEmpty());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).getAbsolutePath());
+            Assert.assertEquals("src/test/resources/unittest.proto", ((java.nio.file.Path)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toPath()).toString());
+            Assert.assertTrue(((io.protostuff.parser.Proto)proto).getExtraOptions().isEmpty());
+            Assert.assertNull(((io.protostuff.parser.Proto)proto).getMutablePackageName());
+            Assert.assertEquals("src/test/resources/unittest.proto", ((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toString());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getEnumGroups().isEmpty());
+            Assert.assertEquals("{packageName:null,standardOptions:{},extraOptions:{},messages:[]}", ((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).toString());
+            Assert.assertNull(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getOriginalPackageName());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getA().isEmpty());
+            Assert.assertNull(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getMutableJavaPackageName());
+            Assert.assertFalse(((java.nio.file.Path)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toPath()).isAbsolute());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).isFile());
+            Assert.assertNull(((java.nio.file.Path)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toPath()).getRoot());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getProto()).getAnnotationMap().isEmpty());
+            Assert.assertEquals("{packageName:null,standardOptions:{},extraOptions:{},messages:[]}", ((io.protostuff.parser.Proto)proto).toString());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).delete());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).getAbsolutePath());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getServices().isEmpty());
+            Assert.assertEquals(1528199640000L, ((long) (((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).lastModified())));
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).createNewFile());
+            Assert.assertTrue(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).isDirectory());
+            Assert.assertFalse(((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).canExecute());
+            Assert.assertNull(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getPackageName());
+            Assert.assertTrue(((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).canRead());
+            Assert.assertEquals(1528199640000L, ((long) (((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).lastModified())));
+            Assert.assertEquals("file:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).toASCIIString());
+            Assert.assertEquals(282639695872L, ((long) (((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).getTotalSpace())));
+            Assert.assertNull(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getRawFragment());
+            Assert.assertEquals("src/test/resources/unittest.proto", ((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).getPath());
+            Assert.assertEquals("src/test/resources", ((java.io.File)((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getFile()).getParent());
+            Assert.assertNull(((java.net.URI)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).toURI()).getRawAuthority());
+            Assert.assertEquals("/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/test/resources/unittest.proto", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getAbsoluteFile()).toString());
+            Assert.assertFalse(((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getCanonicalFile()).canWrite());
+            Assert.assertTrue(((io.protostuff.parser.Proto)((io.protostuff.parser.Proto)proto).getProto()).getAnnotations().isEmpty());
+            Assert.assertEquals("src/test/resources", ((java.io.File)((java.io.File)((io.protostuff.parser.Proto)proto).getFile()).getParentFile()).getPath());
+            ProtoUtil.loadFrom(f, proto);
+            proto.getPackageName();
+            org.junit.Assert.fail("testDescriptorProtolitString91 should have thrown RuntimeException");
+        } catch (RuntimeException expected) {
+            String o_testDescriptorProtolitString91_failAssert1litString406__12 = expected.getMessage();
+            Assert.assertEquals("java.lang.IllegalStateException: Imported proto google/protobuf/unittest_import.proto not found. (src/test/resources/unittest.proto)", o_testDescriptorProtolitString91_failAssert1litString406__12);
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testEnumWithTrailingSemicolonlitString1781_failAssert4litString2125litString2993_failAssert8() throws Exception {
+        try {
+            try {
+                File f = AmplProtoParserTest.getFile("unittest.proto");
+                boolean o_testEnumWithTrailingSemicolonlitString1781_failAssert4litString2125__5 = f.exists();
+                Proto proto = new Proto(f);
+                ProtoUtil.loadFrom(f, proto);
+                proto.getPackageName();
+                org.junit.Assert.fail("testEnumWithTrailingSemicolonlitString1781 should have thrown FileNotFoundException");
+            } catch (FileNotFoundException expected) {
+                String o_testEnumWithTrailingSemicolonlitString1781_failAssert4litString2125__12 = expected.getMessage();
+            }
+            org.junit.Assert.fail("testEnumWithTrailingSemicolonlitString1781_failAssert4litString2125litString2993 should have thrown RuntimeException");
+        } catch (RuntimeException expected_1) {
+            Assert.assertEquals("java.lang.IllegalStateException: Imported proto google/protobuf/unittest_import.proto not found. (src/test/resources/unittest.proto)", expected_1.getMessage());
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testEnumWithTrailingSemicolonlitString1781_failAssert4litString2148_failAssert7() throws Exception {
+        try {
+            try {
+                File f = AmplProtoParserTest.getFile("unittest.proto");
+                f.exists();
+                Proto proto = new Proto(f);
+                ProtoUtil.loadFrom(f, proto);
+                proto.getPackageName();
+                org.junit.Assert.fail("testEnumWithTrailingSemicolonlitString1781 should have thrown FileNotFoundException");
+            } catch (FileNotFoundException expected) {
+                expected.getMessage();
+            }
+            org.junit.Assert.fail("testEnumWithTrailingSemicolonlitString1781_failAssert4litString2148 should have thrown RuntimeException");
+        } catch (RuntimeException expected_1) {
+            Assert.assertEquals("java.lang.IllegalStateException: Imported proto google/protobuf/unittest_import.proto not found. (src/test/resources/unittest.proto)", expected_1.getMessage());
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testEnumWithTrailingSemicolonlitString1867_failAssert5() throws Exception {
+        try {
+            File f = AmplProtoParserTest.getFile("unittest.proto");
+            f.exists();
+            Proto proto = new Proto(f);
+            ProtoUtil.loadFrom(f, proto);
+            proto.getPackageName();
+            org.junit.Assert.fail("testEnumWithTrailingSemicolonlitString1867 should have thrown RuntimeException");
+        } catch (RuntimeException expected) {
+            Assert.assertEquals("java.lang.IllegalStateException: Imported proto google/protobuf/unittest_import.proto not found. (src/test/resources/unittest.proto)", expected.getMessage());
+        }
     }
 }
 

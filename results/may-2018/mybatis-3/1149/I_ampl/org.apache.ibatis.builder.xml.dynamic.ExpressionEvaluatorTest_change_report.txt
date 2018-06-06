@@ -1,4 +1,4 @@
 ======= REPORT =======
 2 amplified test fails on the new versions.
-shouldReturnFalseIfZeroWithScalelitString50818(org.apache.ibatis.builder.xml.dynamic.ExpressionEvaluatorTest): null
-shouldReturnFalseIfZeroWithScalelitNum50830(org.apache.ibatis.builder.xml.dynamic.ExpressionEvaluatorTest): null
+shouldReturnFalseIfZeroWithScalelitString50218(org.apache.ibatis.builder.xml.dynamic.ExpressionEvaluatorTest): null
+shouldReturnFalseIfZeroWithScalelitNum50230(org.apache.ibatis.builder.xml.dynamic.ExpressionEvaluatorTest): null

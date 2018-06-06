@@ -2,7 +2,7 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest",
-      "timeInMs": 14254,
+      "timeInMs": 14394,
       "numberOfAmplifiedTestMethods": 2,
       "numberOfTestMethodToBeAmplified": 2
     }

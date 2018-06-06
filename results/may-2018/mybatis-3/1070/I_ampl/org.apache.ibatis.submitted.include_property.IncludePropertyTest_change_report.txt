@@ -1,7 +1,2 @@
 ======= REPORT =======
-5 amplified test fails on the new versions.
-testPropertyInRefidlitNum7780_failAssert24litNum8073(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-2147483648> but was:<null>
-testEmptyStringlitNum19474_failAssert40litString19674(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-1> but was:<null>
-testPropertyInRefidlitNum7780_failAssert24litNum8078(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-2> but was:<null>
-testEmptyStringlitNum19474_failAssert40litString19705(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-1> but was:<null>
-testEmptyStringlitNum19474_failAssert40litString19629(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-1> but was:<null>
+0 amplified test fails on the new versions.

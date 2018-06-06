@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest",
+      "timeInMs": 23730569,
+      "numberOfAmplifiedTestMethods": 65,
+      "numberOfTestMethodToBeAmplified": 2
+    }
+  ],
+  "projectName": "895"
+}

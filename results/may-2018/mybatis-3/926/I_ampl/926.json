@@ -2,8 +2,8 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.apache.ibatis.jdbc.SQLTest",
-      "timeInMs": 2157630,
-      "numberOfAmplifiedTestMethods": 9684,
+      "timeInMs": 1756804,
+      "numberOfAmplifiedTestMethods": 9686,
       "numberOfTestMethodToBeAmplified": 21
     }
   ],

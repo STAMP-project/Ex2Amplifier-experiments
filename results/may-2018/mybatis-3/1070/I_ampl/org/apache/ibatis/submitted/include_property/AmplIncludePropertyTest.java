@@ -183,11 +183,11 @@ public class AmplIncludePropertyTest {
             final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
             try {
                 List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectEmptyProperty");
-                results.get(-1);
+                results.get((-1));
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testEmptyStringlitNum19474 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testEmptyStringlitNum19474 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             String o_testEmptyStringlitNum19474_failAssert40litString19629__14 = expected.getMessage();
             Assert.assertEquals("-1", o_testEmptyStringlitNum19474_failAssert40litString19629__14);
@@ -200,11 +200,11 @@ public class AmplIncludePropertyTest {
             final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
             try {
                 List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectConfigVar");
-                results.get(-1);
+                results.get((-1));
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testEmptyStringlitNum19474 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testEmptyStringlitNum19474 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             String o_testEmptyStringlitNum19474_failAssert40litString19674__14 = expected.getMessage();
             Assert.assertEquals("-1", o_testEmptyStringlitNum19474_failAssert40litString19674__14);
@@ -217,11 +217,11 @@ public class AmplIncludePropertyTest {
             final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
             try {
                 List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectNestedDynamicValue");
-                results.get(-1);
+                results.get((-1));
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testEmptyStringlitNum19474 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testEmptyStringlitNum19474 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             String o_testEmptyStringlitNum19474_failAssert40litString19705__14 = expected.getMessage();
             Assert.assertEquals("-1", o_testEmptyStringlitNum19474_failAssert40litString19705__14);
@@ -238,7 +238,7 @@ public class AmplIncludePropertyTest {
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testPropertyInRefidlitNum7780 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testPropertyInRefidlitNum7780 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             String o_testPropertyInRefidlitNum7780_failAssert24litNum8073__14 = expected.getMessage();
             Assert.assertEquals("-2147483648", o_testPropertyInRefidlitNum7780_failAssert24litNum8073__14);
@@ -251,11 +251,11 @@ public class AmplIncludePropertyTest {
             final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
             try {
                 List<String> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectPropertyInRefid");
-                results.get(-2);
+                results.get((-2));
             } finally {
                 sqlSession.close();
             }
-            org.junit.Assert.fail("testPropertyInRefidlitNum7780 should have thrown ArrayIndexOutOfBoundsException");
+            Assert.fail("testPropertyInRefidlitNum7780 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             String o_testPropertyInRefidlitNum7780_failAssert24litNum8078__14 = expected.getMessage();
             Assert.assertEquals("-2", o_testPropertyInRefidlitNum7780_failAssert24litNum8078__14);

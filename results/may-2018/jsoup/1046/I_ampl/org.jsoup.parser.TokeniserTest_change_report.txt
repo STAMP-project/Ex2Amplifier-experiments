@@ -1,0 +1,5 @@
+======= REPORT =======
+3 amplified test fails on the new versions.
+handleSuperLargeAttributeNamelitNum288762_failAssert54litString289171(org.jsoup.parser.TokeniserTest): expected:<-1> but was:<null>
+handleSuperLargeAttributeNamelitNum288762_failAssert54litString289086(org.jsoup.parser.TokeniserTest): expected:<-1> but was:<null>
+handleSuperLargeAttributeNamelitNum288762_failAssert54litString289265(org.jsoup.parser.TokeniserTest): expected:<-1> but was:<null>

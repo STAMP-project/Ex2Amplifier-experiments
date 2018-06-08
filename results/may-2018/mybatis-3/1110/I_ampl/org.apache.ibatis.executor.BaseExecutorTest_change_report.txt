@@ -1,2 +1,3 @@
 ======= REPORT =======
-0 amplified test fails on the new versions.
+1 amplified test fails on the new versions.
+shouldInsertNewAuthorWithAutoKeylitNum24007_failAssert25litNum24139litString24669(org.apache.ibatis.executor.BaseExecutorTest): expected:<-1> but was:<null>

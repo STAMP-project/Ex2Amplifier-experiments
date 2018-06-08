@@ -4,6 +4,7 @@ package org.apache.ibatis.submitted.include_property;
 import java.io.Reader;
 import java.sql.Connection;
 import java.util.List;
+import java.util.Map;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.jdbc.ScriptRunner;
 import org.apache.ibatis.session.SqlSession;
@@ -259,6 +260,86 @@ public class AmplIncludePropertyTest {
         } catch (ArrayIndexOutOfBoundsException expected) {
             String o_testPropertyInRefidlitNum7780_failAssert24litNum8078__14 = expected.getMessage();
             Assert.assertEquals("-2", o_testPropertyInRefidlitNum7780_failAssert24litNum8078__14);
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testPropertyContextlitNum4261_failAssert45litString4414litString4976() throws Exception {
+        try {
+            final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
+            try {
+                List<Map<String, String>> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectPropertyContext");
+                Map<String, String> map = results.get(-1);
+                map.size();
+                map.get("COLV_A");
+                map.get("QmQuh");
+            } finally {
+                sqlSession.close();
+            }
+            org.junit.Assert.fail("testPropertyContextlitNum4261 should have thrown ArrayIndexOutOfBoundsException");
+        } catch (ArrayIndexOutOfBoundsException expected) {
+            String o_testPropertyContextlitNum4261_failAssert45litString4414__22 = expected.getMessage();
+            Assert.assertEquals("-1", o_testPropertyContextlitNum4261_failAssert45litString4414__22);
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testPropertyContextlitNum4261_failAssert45litString4418() throws Exception {
+        try {
+            final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
+            try {
+                List<Map<String, String>> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectPropertyContext");
+                Map<String, String> map = results.get(-1);
+                map.size();
+                map.get("|o{4*");
+                map.get("COL_B");
+            } finally {
+                sqlSession.close();
+            }
+            org.junit.Assert.fail("testPropertyContextlitNum4261 should have thrown ArrayIndexOutOfBoundsException");
+        } catch (ArrayIndexOutOfBoundsException expected) {
+            String o_testPropertyContextlitNum4261_failAssert45litString4418__22 = expected.getMessage();
+            Assert.assertEquals("-1", o_testPropertyContextlitNum4261_failAssert45litString4418__22);
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testPropertyContextlitNum4261_failAssert45litString4421() throws Exception {
+        try {
+            final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
+            try {
+                List<Map<String, String>> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectPropertyContext");
+                Map<String, String> map = results.get(-1);
+                map.size();
+                map.get("org/apache/ibatis/submitted/include_property/CreateDB.sql");
+                map.get("COL_B");
+            } finally {
+                sqlSession.close();
+            }
+            org.junit.Assert.fail("testPropertyContextlitNum4261 should have thrown ArrayIndexOutOfBoundsException");
+        } catch (ArrayIndexOutOfBoundsException expected) {
+            String o_testPropertyContextlitNum4261_failAssert45litString4421__22 = expected.getMessage();
+            Assert.assertEquals("-1", o_testPropertyContextlitNum4261_failAssert45litString4421__22);
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void testPropertyContextlitNum4261_failAssert45litString4425() throws Exception {
+        try {
+            final SqlSession sqlSession = AmplIncludePropertyTest.sqlSessionFactory.openSession();
+            try {
+                List<Map<String, String>> results = sqlSession.selectList("org.apache.ibatis.submitted.include_property.Mapper.selectPropertyContext");
+                Map<String, String> map = results.get(-1);
+                map.size();
+                map.get("COL_A");
+                map.get("CO_B");
+            } finally {
+                sqlSession.close();
+            }
+            org.junit.Assert.fail("testPropertyContextlitNum4261 should have thrown ArrayIndexOutOfBoundsException");
+        } catch (ArrayIndexOutOfBoundsException expected) {
+            String o_testPropertyContextlitNum4261_failAssert45litString4425__22 = expected.getMessage();
+            Assert.assertEquals("-1", o_testPropertyContextlitNum4261_failAssert45litString4425__22);
         }
     }
 }

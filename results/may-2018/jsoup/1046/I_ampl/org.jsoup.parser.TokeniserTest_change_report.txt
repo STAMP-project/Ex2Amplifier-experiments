@@ -1,5 +1,5 @@
 ======= REPORT =======
 3 amplified test fails on the new versions.
-handleSuperLargeAttributeNamelitNum288762_failAssert54litString289171(org.jsoup.parser.TokeniserTest): expected:<-1> but was:<null>
-handleSuperLargeAttributeNamelitNum288762_failAssert54litString289086(org.jsoup.parser.TokeniserTest): expected:<-1> but was:<null>
-handleSuperLargeAttributeNamelitNum288762_failAssert54litString289265(org.jsoup.parser.TokeniserTest): expected:<-1> but was:<null>
+handleLargeCdatalitString11012_failAssert21litString11126litNum11552_failAssert33(org.jsoup.parser.TokeniserTest): expected:<-1> but was:<null>
+handleLargeCdatalitNum11023_failAssert24litString11095litString11438(org.jsoup.parser.TokeniserTest): expected:<-1> but was:<null>
+handleLargeCdatalitNum11023_failAssert24litString11107litString11325(org.jsoup.parser.TokeniserTest): expected:<-1> but was:<null>

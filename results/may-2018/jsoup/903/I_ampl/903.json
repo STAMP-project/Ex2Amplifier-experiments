@@ -2,14 +2,14 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.jsoup.select.ElementsTest",
-      "timeInMs": 293159,
-      "numberOfAmplifiedTestMethods": 635,
+      "timeInMs": 349473,
+      "numberOfAmplifiedTestMethods": 436,
       "numberOfTestMethodToBeAmplified": 2
     },
     {
       "fullQualifiedName": "org.jsoup.select.SelectorTest",
-      "timeInMs": 91920,
-      "numberOfAmplifiedTestMethods": 385,
+      "timeInMs": 31451,
+      "numberOfAmplifiedTestMethods": 248,
       "numberOfTestMethodToBeAmplified": 1
     }
   ],

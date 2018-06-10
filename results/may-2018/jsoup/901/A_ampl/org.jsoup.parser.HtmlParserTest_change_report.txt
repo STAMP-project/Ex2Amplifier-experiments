@@ -1,2 +1,128 @@
 ======= REPORT =======
-0 amplified test fails on the new versions.
+90 amplified test fails on the new versions.
+handlesInputInTable(org.jsoup.parser.HtmlParserTest): null
+emptyTdTag(org.jsoup.parser.HtmlParserTest): null
+ignoresContentAfterFrameset(org.jsoup.parser.HtmlParserTest): null
+discardsNakedTds(org.jsoup.parser.HtmlParserTest): null
+testFontFlowContents(org.jsoup.parser.HtmlParserTest): null
+handlesCdata(org.jsoup.parser.HtmlParserTest): expected:<[]> but was:<[<html>
+ <head></head>
+ <body>
+  <div id="1">
+   &lt;html&gt; &lt;foo&gt;&lt;&amp;amp;
+  </div>
+ </body>
+</html>]>
+testNormalisesIsIndex(org.jsoup.parser.HtmlParserTest): null
+handlesNewlinesAndWhitespaceInTag(org.jsoup.parser.HtmlParserTest): null
+handlesUnclosedDefinitionLists(org.jsoup.parser.HtmlParserTest): null
+findsCharsetInMalformedMeta(org.jsoup.parser.HtmlParserTest): null
+handlesQuotesInCommentsInScripts(org.jsoup.parser.HtmlParserTest): null
+parsesComments(org.jsoup.parser.HtmlParserTest): expected:<0> but was:<3>
+normalisedBodyAfterContent(org.jsoup.parser.HtmlParserTest): null
+normalisesEmptyDocument(org.jsoup.parser.HtmlParserTest): null
+handlesTextAfterData(org.jsoup.parser.HtmlParserTest): null
+testSpanContents(org.jsoup.parser.HtmlParserTest): null
+caseSensitiveParseTree(org.jsoup.parser.HtmlParserTest): null
+parsesQuiteRoughAttributes(org.jsoup.parser.HtmlParserTest): null
+testReinsertionModeForThCelss(org.jsoup.parser.HtmlParserTest): null
+testSpaceAfterTag(org.jsoup.parser.HtmlParserTest): null
+associatedFormControlsWithDisjointForms(org.jsoup.parser.HtmlParserTest): null
+parsesUnterminatedTextarea(org.jsoup.parser.HtmlParserTest): null
+handlesUnclosedAnchors(org.jsoup.parser.HtmlParserTest): null
+noImplicitFormForTextAreas(org.jsoup.parser.HtmlParserTest): null
+commentBeforeHtml(org.jsoup.parser.HtmlParserTest): null
+createsFormElements(org.jsoup.parser.HtmlParserTest): expected null, but was:<<head></head>>
+handlesEscapedData(org.jsoup.parser.HtmlParserTest): expected:<[]> but was:<[<html>
+ <head></head>
+ <body>
+  <div title="Surf &amp; Turf">
+   Reef &amp; Beef
+  </div>
+ </body>
+</html>]>
+testHgroup(org.jsoup.parser.HtmlParserTest): null
+testFragment(org.jsoup.parser.HtmlParserTest): null
+handlesJavadocFont(org.jsoup.parser.HtmlParserTest): null
+relaxedBaseEntityMatchAndStrictExtendedMatch(org.jsoup.parser.HtmlParserTest): null
+dropsUnterminatedAttribute(org.jsoup.parser.HtmlParserTest): null
+handlesXmlDeclarationAsBogusComment(org.jsoup.parser.HtmlParserTest): null
+handlesBaseTags(org.jsoup.parser.HtmlParserTest): null
+handlesKnownEmptyBlocks(org.jsoup.parser.HtmlParserTest): null
+testHeaderContents(org.jsoup.parser.HtmlParserTest): null
+reconstructFormattingElements(org.jsoup.parser.HtmlParserTest): null
+preservesSpaceInScript(org.jsoup.parser.HtmlParserTest): expected null, but was:<<html>
+ <head>
+  <script></script>
+ </head>
+ <body></body>
+</html>>
+convertsImageToImg(org.jsoup.parser.HtmlParserTest): null
+normalisesHeadlessBody(org.jsoup.parser.HtmlParserTest): null
+noTableDirectInTable(org.jsoup.parser.HtmlParserTest): null
+preservesSpaceInTextArea(org.jsoup.parser.HtmlParserTest): expected:<[]> but was:<[<html>
+ <head></head>
+ <body>
+  <textarea>
+	One
+	Two
+	Three
+</textarea>
+ </body>
+</html>]>
+handlesSpanInTbody(org.jsoup.parser.HtmlParserTest): null
+doesNotCreateImplicitLists(org.jsoup.parser.HtmlParserTest): expected:<0> but was:<1>
+handlesManyChildren(org.jsoup.parser.HtmlParserTest): null
+handlesProtocolRelativeUrl(org.jsoup.parser.HtmlParserTest): expected:<[]> but was:<[<html>
+ <head></head>
+ <body>
+  <img src="//example.net/img.jpg">
+ </body>
+</html>]>
+handlesNullInData(org.jsoup.parser.HtmlParserTest): null
+handlesNullInComments(org.jsoup.parser.HtmlParserTest): null
+dropsUnterminatedTag(org.jsoup.parser.HtmlParserTest): null
+handlesTagsInTextarea(org.jsoup.parser.HtmlParserTest): null
+handlesCommentsInTable(org.jsoup.parser.HtmlParserTest): null
+testRelaxedTags(org.jsoup.parser.HtmlParserTest): null
+parsesRoughAttributes(org.jsoup.parser.HtmlParserTest): expected:<[]> but was:<[First!]>
+handlesUnclosedFormattingElements(org.jsoup.parser.HtmlParserTest): null
+ignoresDupeEndTrTag(org.jsoup.parser.HtmlParserTest): null
+handlesFrames(org.jsoup.parser.HtmlParserTest): null
+handlesBlocksInDefinitions(org.jsoup.parser.HtmlParserTest): null
+handlesEscapedScript(org.jsoup.parser.HtmlParserTest): null
+createsStructureFromBodySnippet(org.jsoup.parser.HtmlParserTest): null
+parsesBodyFragment(org.jsoup.parser.HtmlParserTest): null
+canPreserveAttributeCase(org.jsoup.parser.HtmlParserTest): null
+handlesUnknownNamespaceTags(org.jsoup.parser.HtmlParserTest): null
+handlesNestedImplicitTable(org.jsoup.parser.HtmlParserTest): null
+handlesWhitespaceInoDocType(org.jsoup.parser.HtmlParserTest): null
+handlesBaseWithoutHref(org.jsoup.parser.HtmlParserTest): null
+handlesSolidusInA(org.jsoup.parser.HtmlParserTest): null
+testAFlowContents(org.jsoup.parser.HtmlParserTest): null
+handlesWhatWgExpensesTableExample(org.jsoup.parser.HtmlParserTest): null
+reconstructFormattingElementsInTable(org.jsoup.parser.HtmlParserTest): null
+parsesSimpleDocument(org.jsoup.parser.HtmlParserTest): expected:<[]> but was:<[First!]>
+handlesMultiClosingBody(org.jsoup.parser.HtmlParserTest): null
+handlesInvalidStartTags(org.jsoup.parser.HtmlParserTest): null
+handlesTbodyTable(org.jsoup.parser.HtmlParserTest): null
+handlesDataOnlyTags(org.jsoup.parser.HtmlParserTest): null
+createsDocumentStructure(org.jsoup.parser.HtmlParserTest): null
+canPreserveBothCase(org.jsoup.parser.HtmlParserTest): null
+handlesImplicitCaptionClose(org.jsoup.parser.HtmlParserTest): null
+handlesUnexpectedMarkupInTables(org.jsoup.parser.HtmlParserTest): null
+handlesControlCodeInAttributeName(org.jsoup.parser.HtmlParserTest): null
+handlesSolidusAtAttributeEnd(org.jsoup.parser.HtmlParserTest): null
+parsesUnterminatedComments(org.jsoup.parser.HtmlParserTest): expected:<[]> but was:<[<html>
+ <head></head>
+ <body></body>
+</html>]>
+handles0CharacterAsText(org.jsoup.parser.HtmlParserTest): null
+normalisesDocument(org.jsoup.parser.HtmlParserTest): null
+handlesMisnestedTagsBP(org.jsoup.parser.HtmlParserTest): null
+testHtmlLowerCase(org.jsoup.parser.HtmlParserTest): null
+canPreserveTagCase(org.jsoup.parser.HtmlParserTest): null
+testNoImagesInNoScriptInHead(org.jsoup.parser.HtmlParserTest): null
+handlesMisnestedTagsBI(org.jsoup.parser.HtmlParserTest): null
+handlesUnclosedTitle(org.jsoup.parser.HtmlParserTest): null
+handlesUnclosedCdataAtEOF(org.jsoup.parser.HtmlParserTest): null

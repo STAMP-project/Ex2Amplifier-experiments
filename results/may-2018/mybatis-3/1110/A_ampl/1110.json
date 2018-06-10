@@ -2,8 +2,8 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.apache.ibatis.executor.BaseExecutorTest",
-      "timeInMs": 28418,
-      "numberOfAmplifiedTestMethods": 16,
+      "timeInMs": 40623,
+      "numberOfAmplifiedTestMethods": 15,
       "numberOfTestMethodToBeAmplified": 18
     }
   ],

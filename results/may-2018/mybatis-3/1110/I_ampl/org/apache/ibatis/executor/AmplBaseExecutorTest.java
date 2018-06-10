@@ -14,6 +14,7 @@ import org.apache.ibatis.domain.blog.Post;
 import org.apache.ibatis.domain.blog.Section;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.session.Configuration;
+import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.transaction.Transaction;
 import org.apache.ibatis.transaction.jdbc.JdbcTransaction;
 import org.junit.Assert;
@@ -663,6 +664,51 @@ public class AmplBaseExecutorTest extends BaseDataTest {
             Assert.fail("shouldFetchComplexBlogslitNum71371litNum72355 should have thrown ArrayIndexOutOfBoundsException");
         } catch (ArrayIndexOutOfBoundsException expected) {
             Assert.assertEquals(null, expected.getMessage());
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void shouldInsertNewAuthorWithAutoKeylitNum24007_failAssert25litNum24139litString24669() throws Exception {
+        try {
+            Executor executor = createExecutor(new JdbcTransaction(AmplBaseExecutorTest.ds, null, false));
+            Assert.assertFalse(((java.sql.Connection)((org.apache.ibatis.transaction.Transaction)((org.apache.ibatis.executor.SimpleExecutor)executor).getTransaction()).getConnection()).isClosed());
+            Assert.assertTrue(((java.sql.Connection)((org.apache.ibatis.transaction.Transaction)((org.apache.ibatis.executor.SimpleExecutor)executor).getTransaction()).getConnection()).getClientInfo().isEmpty());
+            Assert.assertTrue(((java.sql.Connection)((org.apache.ibatis.transaction.Transaction)((org.apache.ibatis.executor.SimpleExecutor)executor).getTransaction()).getConnection()).getTypeMap().isEmpty());
+            Assert.assertNull(((org.apache.ibatis.transaction.Transaction)((org.apache.ibatis.executor.SimpleExecutor)executor).getTransaction()).getTimeout());
+            Assert.assertFalse(((org.apache.ibatis.executor.SimpleExecutor)executor).isClosed());
+            Assert.assertTrue(((org.apache.ibatis.executor.SimpleExecutor)executor).flushStatements().isEmpty());
+            Assert.assertFalse(((java.sql.Connection)((org.apache.ibatis.transaction.Transaction)((org.apache.ibatis.executor.SimpleExecutor)executor).getTransaction()).getConnection()).isReadOnly());
+            Assert.assertEquals(2, ((int) (((java.sql.Connection)((org.apache.ibatis.transaction.Transaction)((org.apache.ibatis.executor.SimpleExecutor)executor).getTransaction()).getConnection()).getTransactionIsolation())));
+            Assert.assertFalse(((java.sql.Connection)((org.apache.ibatis.transaction.Transaction)((org.apache.ibatis.executor.SimpleExecutor)executor).getTransaction()).getConnection()).getAutoCommit());
+            Assert.assertEquals(1, ((int) (((java.sql.Connection)((org.apache.ibatis.transaction.Transaction)((org.apache.ibatis.executor.SimpleExecutor)executor).getTransaction()).getConnection()).getHoldability())));
+            Assert.assertEquals("APP", ((java.sql.Connection)((org.apache.ibatis.transaction.Transaction)((org.apache.ibatis.executor.SimpleExecutor)executor).getTransaction()).getConnection()).getSchema());
+            Assert.assertNull(((java.sql.Connection)((org.apache.ibatis.transaction.Transaction)((org.apache.ibatis.executor.SimpleExecutor)executor).getTransaction()).getConnection()).getCatalog());
+            try {
+                Author author = new Author((-1), "subject", "******", "someone@apache.org", null, Section.NEWS);
+                MappedStatement insertStatement = ExecutorTestHelper.prepareInsertAuthorMappedStatementWithAutoKey(this.config);
+                MappedStatement selectStatement = ExecutorTestHelper.prepareSelectOneAuthorMappedStatement(this.config);
+                int rows = executor.update(insertStatement, author);
+                boolean boolean_224 = (rows > 0) || (rows == (BatchExecutor.BATCH_UPDATE_RETURN_VALUE));
+                if (rows == (BatchExecutor.BATCH_UPDATE_RETURN_VALUE)) {
+                    executor.flushStatements();
+                }
+                boolean boolean_225 = (-1) != (author.getId());
+                if ((author.getId()) != (BatchExecutor.BATCH_UPDATE_RETURN_VALUE)) {
+                    List<Author> authors = executor.query(selectStatement, author.getId(), RowBounds.DEFAULT, Executor.NO_RESULT_HANDLER);
+                    executor.rollback(true);
+                    int o_shouldInsertNewAuthorWithAutoKeylitNum24007_failAssert25litNum24139__36 = authors.size();
+                    author.toString();
+                    authors.get(-1).toString();
+                    boolean boolean_226 = (author.getId()) >= 10001;
+                }
+            } finally {
+                executor.rollback(true);
+                executor.close(false);
+            }
+            org.junit.Assert.fail("shouldInsertNewAuthorWithAutoKeylitNum24007 should have thrown ArrayIndexOutOfBoundsException");
+        } catch (ArrayIndexOutOfBoundsException expected) {
+            String o_shouldInsertNewAuthorWithAutoKeylitNum24007_failAssert25litNum24139litString24669__51 = expected.getMessage();
+            Assert.assertEquals("-1", o_shouldInsertNewAuthorWithAutoKeylitNum24007_failAssert25litNum24139litString24669__51);
         }
     }
 }

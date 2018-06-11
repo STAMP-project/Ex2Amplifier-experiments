@@ -1,5 +1,2 @@
 ======= REPORT =======
-3 amplified test fails on the new versions.
-discardsSpuriousByteOrderMarkWhenNoCharsetSet(org.jsoup.helper.DataUtilTest): null
-discardsSpuriousByteOrderMark(org.jsoup.helper.DataUtilTest): null
-wrongMetaCharsetFallback(org.jsoup.helper.DataUtilTest): null
+0 amplified test fails on the new versions.

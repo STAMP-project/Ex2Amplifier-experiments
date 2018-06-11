@@ -1,4 +1,0 @@
-======= REPORT =======
-2 amplified test fails on the new versions.
-cp1252EntitiesProduceError(org.jsoup.parser.TokeniserTest): expected:<[?]> but was:<[?]>
-cp1252Entities(org.jsoup.parser.TokeniserTest): expected:<[?]> but was:<[?]>

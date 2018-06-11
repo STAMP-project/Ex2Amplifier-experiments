@@ -1,0 +1,15 @@
+======= REPORT =======
+13 amplified test fails on the new versions.
+shouldErrorUndefinePropertylitString7(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString8(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString5(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString6(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString3(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString4(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString1(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString2(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString12(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString13(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString10(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString11(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>
+shouldErrorUndefinePropertylitString9(org.apache.ibatis.submitted.keygen.Jdbc3KeyGeneratorTest): expected:<0> but was:<1>

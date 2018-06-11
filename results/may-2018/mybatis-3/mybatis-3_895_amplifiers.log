@@ -1,0 +1,442 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[18] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building mybatis 3.4.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ mybatis ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ mybatis ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ mybatis ---
+[INFO] argLine set to -javaagent:/home/spirals/danglot/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/jacoco.exec,excludes=org.apache.ibatis.ognl.*:org.apache.ibatis.javassist.*
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ mybatis ---
+[INFO] Compiling 362 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/src/main/java/org/apache/ibatis/reflection/MetaObject.java: Some input files use unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/src/main/java/org/apache/ibatis/reflection/MetaObject.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ mybatis ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (check-java-1.6-compat) @ mybatis ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ mybatis >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ mybatis ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ mybatis ---
+[INFO] argLine set to -javaagent:/home/spirals/danglot/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/jacoco.exec,excludes=org.apache.ibatis.ognl.*:org.apache.ibatis.javassist.*
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ mybatis ---
+[INFO] Compiling 53 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/classes
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ mybatis ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (check-java-1.6-compat) @ mybatis ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ mybatis <<<
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ mybatis ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 454 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ mybatis ---
+[INFO] Compiling 702 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/test-classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/src/test/java/org/apache/ibatis/jdbc/SelectBuilderTest.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/src/test/java/org/apache/ibatis/jdbc/SelectBuilderTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/src/test/java/org/apache/ibatis/executor/ResultExtractorTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/src/test/java/org/apache/ibatis/executor/ResultExtractorTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ mybatis ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:build-classpath (default-cli) @ mybatis ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 25.498 s
+[INFO] Finished at: 2018-06-12T00:08:41+02:00
+[INFO] Final Memory: 54M/2370M
+[INFO] ------------------------------------------------------------------------
+[37720] ERROR JDTCommentBuilder - // target for test (ordinal number -> Enum constant) is not added into the AST
+spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:46)
+	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:152)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:108)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:417)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:362)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:724)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:103)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
+	at eu.stamp_project.dspot.DSpot.<init>(DSpot.java:108)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:141)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp_project.Main.run(Main.java:124)
+	at eu.stamp_project.Main.main(Main.java:95)
+[37725] ERROR JDTCommentBuilder - // Switch using enum constant name(PERSON or EMPLOYEE) at cases attribute is not added into the AST
+spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:48)
+	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:152)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:108)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:417)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:362)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:724)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:103)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
+	at eu.stamp_project.dspot.DSpot.<init>(DSpot.java:108)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:141)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp_project.Main.run(Main.java:124)
+	at eu.stamp_project.Main.main(Main.java:95)
+[44343] ERROR JDTCommentBuilder - // Interface Mapper is not added into the AST
+spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/src/main/java/org/apache/ibatis/annotations/Mapper.java:39)
+	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:152)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:108)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:417)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:362)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:724)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:103)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
+	at eu.stamp_project.dspot.DSpot.<init>(DSpot.java:108)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:141)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp_project.Main.run(Main.java:124)
+	at eu.stamp_project.Main.main(Main.java:95)
+[44443] ERROR JDTCommentBuilder - /* because ResultHandler<?> is always ResultHandler<Object> */ is not added into the AST
+spoon.reflect.declaration.ParentNotInitializedException: parent not initialized for class spoon.support.reflect.code.CtCommentImpl (/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java:355)
+	at spoon.support.reflect.declaration.CtElementImpl.getParent(CtElementImpl.java:340)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.insertCommentInAST(JDTCommentBuilder.java:474)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.buildComment(JDTCommentBuilder.java:152)
+	at spoon.support.compiler.jdt.JDTCommentBuilder.build(JDTCommentBuilder.java:108)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:417)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:362)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:724)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.getSpoonModelOf(DSpotCompiler.java:103)
+	at eu.stamp_project.utils.compilation.DSpotCompiler.createDSpotCompiler(DSpotCompiler.java:31)
+	at eu.stamp_project.dspot.DSpot.<init>(DSpot.java:108)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:141)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp_project.Main.run(Main.java:124)
+	at eu.stamp_project.Main.main(Main.java:95)
+[44860] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[44860] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[44861] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building mybatis 3.4.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ mybatis ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ mybatis ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ mybatis ---
+[INFO] argLine set to -javaagent:/home/spirals/danglot/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/target/jacoco.exec,excludes=org.apache.ibatis.ognl.*:org.apache.ibatis.javassist.*
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ mybatis ---
+[INFO] Compiling 362 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/src/main/java/org/apache/ibatis/scripting/xmltags/DynamicContext.java: Some input files use unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/src/main/java/org/apache/ibatis/scripting/xmltags/DynamicContext.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ mybatis ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (check-java-1.6-compat) @ mybatis ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ mybatis >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java) @ mybatis ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ mybatis ---
+[INFO] argLine set to -javaagent:/home/spirals/danglot/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/target/jacoco.exec,excludes=org.apache.ibatis.ognl.*:org.apache.ibatis.javassist.*
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ mybatis ---
+[INFO] Compiling 53 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/target/classes
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ mybatis ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (check-java-1.6-compat) @ mybatis ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ mybatis <<<
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ mybatis ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 454 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ mybatis ---
+[INFO] Compiling 702 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/target/test-classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/src/test/java/org/apache/ibatis/jdbc/SelectBuilderTest.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/src/test/java/org/apache/ibatis/jdbc/SelectBuilderTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/src/test/java/org/apache/ibatis/submitted/custom_collection_handling/CustomObjectWrapper.java: Some input files use unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/src/test/java/org/apache/ibatis/submitted/custom_collection_handling/CustomObjectWrapper.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ mybatis ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:build-classpath (default-cli) @ mybatis ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895_modified/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26.245 s
+[INFO] Finished at: 2018-06-12T00:09:26+02:00
+[INFO] Final Memory: 54M/2372M
+[INFO] ------------------------------------------------------------------------
+[74644] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/mybatis-3/895/ and dataset/may-2018/mybatis-3/895_modified/ (8fc78a7451ea7a46e83927b1b8db194947d68b3a)
+[74671] INFO SelectorOnDiff - Modified files:
+a/src/test/java/org/apache/ibatis/submitted/automapping/Mapper.java
+a/src/test/java/org/apache/ibatis/submitted/automapping/AutomappingTest.java
+a/src/main/java/org/apache/ibatis/executor/resultset/DefaultResultSetHandler.java
+a/src/main/java/org/apache/ibatis/mapping/ResultMap.java
+a/src/test/java/org/apache/ibatis/submitted/automapping/User.java
+[94240] INFO Amplification - amplification of org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest (2 test(s))
+[94629] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/classes:/home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest shouldRetainColumnNameCase:shouldThrowExceptionWithColumnName
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/dspot/TestListener.ser
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[99451] INFO EntryPoint - Test has been run: shouldThrowExceptionWithColumnName,shouldRetainColumnNameCase
+[99452] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[99458] INFO Amplification - amp shouldRetainColumnNameCase (1/2)
+[99721] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/classes:/home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest shouldRetainColumnNameCase
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/dspot/TestListener.ser
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[103589] INFO EntryPoint - Test has been run: shouldRetainColumnNameCase
+[103589] INFO Amplification - iteration 0:
+[103589] INFO Amplification - 1 tests selected to be amplified over 1 available tests
+[106437] INFO AssertGenerator - Run tests. (49)
+[107443] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/classes:/home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest shouldRetainColumnNameCaselitString1:shouldRetainColumnNameCaselitString2:shouldRetainColumnNameCaselitString3:shouldRetainColumnNameCaselitString4:shouldRetainColumnNameCaselitString5:shouldRetainColumnNameCaselitString6:shouldRetainColumnNameCaselitString7:shouldRetainColumnNameCaselitString8:shouldRetainColumnNameCaselitString9:shouldRetainColumnNameCaselitString10:shouldRetainColumnNameCaselitString11:shouldRetainColumnNameCaselitString12:shouldRetainColumnNameCaselitString13:shouldRetainColumnNameCaselitString14:shouldRetainColumnNameCaselitString15:shouldRetainColumnNameCaselitString16:shouldRetainColumnNameCaselitString17:shouldRetainColumnNameCaselitString18:shouldRetainColumnNameCaselitString19:shouldRetainColumnNameCaselitString20:shouldRetainColumnNameCaselitString21:shouldRetainColumnNameCaselitString22:shouldRetainColumnNameCaselitString23:shouldRetainColumnNameCaselitString24:shouldRetainColumnNameCaselitNum25:shouldRetainColumnNameCaselitNum26:shouldRetainColumnNameCaselitNum27:shouldRetainColumnNameCaselitNum28:shouldRetainColumnNameCaselitNum29:shouldRetainColumnNameCaselitNum30:shouldRetainColumnNameCaselitNum31:shouldRetainColumnNameCaselitNum32:shouldRetainColumnNameCaselitNum33:shouldRetainColumnNameCaselitNum34:shouldRetainColumnNameCaselitNum35:shouldRetainColumnNameCaselitNum36:shouldRetainColumnNameCaselitNum37:shouldRetainColumnNameCaselitNum38:shouldRetainColumnNameCaselitNum39:shouldRetainColumnNameCaselitNum40:shouldRetainColumnNameCaselitNum41:shouldRetainColumnNameCaselitNum42:shouldRetainColumnNameCaselitNum43:shouldRetainColumnNameCaselitNum44:shouldRetainColumnNameCaselitNum45:shouldRetainColumnNameCaselitBool46:shouldRetainColumnNameCaselitBool47:shouldRetainColumnNameCaselitBool48:shouldRetainColumnNameCaselitBool49
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum25 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum25(DefaultResultSetHandlerTest.java:734)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:59)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum26 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum26(DefaultResultSetHandlerTest.java:759)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:59)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum27 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum27(DefaultResultSetHandlerTest.java:784)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:59)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum28 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum28(DefaultResultSetHandlerTest.java:809)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:59)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum33 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum33(DefaultResultSetHandlerTest.java:935)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:60)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum34 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum34(DefaultResultSetHandlerTest.java:960)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:60)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum35 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum35(DefaultResultSetHandlerTest.java:985)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:60)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum36 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum36(DefaultResultSetHandlerTest.java:1010)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:60)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum42 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum42(DefaultResultSetHandlerTest.java:1161)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:61)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum43 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum43(DefaultResultSetHandlerTest.java:1186)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:61)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum44 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum44(DefaultResultSetHandlerTest.java:1211)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:61)
+
+[MockitoHint] DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum45 (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused... -> at org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest.shouldRetainColumnNameCaselitNum45(DefaultResultSetHandlerTest.java:1236)
+[MockitoHint]  ...args ok? -> at org.apache.ibatis.executor.resultset.ResultSetWrapper.<init>(ResultSetWrapper.java:61)
+
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/dspot/TestListener.ser
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[444090] INFO EntryPoint - Test has been run: shouldRetainColumnNameCaselitString1,shouldRetainColumnNameCaselitString2,shouldRetainColumnNameCaselitString3,shouldRetainColumnNameCaselitString4,shouldRetainColumnNameCaselitString5,shouldRetainColumnNameCaselitString6,shouldRetainColumnNameCaselitString7,shouldRetainColumnNameCaselitString8,shouldRetainColumnNameCaselitString9,shouldRetainColumnNameCaselitBool46,shouldRetainColumnNameCaselitBool47,shouldRetainColumnNameCaselitBool48,shouldRetainColumnNameCaselitBool49,shouldRetainColumnNameCaselitString10,shouldRetainColumnNameCaselitString11,shouldRetainColumnNameCaselitString12,shouldRetainColumnNameCaselitString13,shouldRetainColumnNameCaselitString14,shouldRetainColumnNameCaselitString15,shouldRetainColumnNameCaselitString16,shouldRetainColumnNameCaselitString17,shouldRetainColumnNameCaselitString18,shouldRetainColumnNameCaselitString19,shouldRetainColumnNameCaselitString20,shouldRetainColumnNameCaselitString21,shouldRetainColumnNameCaselitString22,shouldRetainColumnNameCaselitString23,shouldRetainColumnNameCaselitString24,shouldRetainColumnNameCaselitNum29,shouldRetainColumnNameCaselitNum31,shouldRetainColumnNameCaselitNum33,shouldRetainColumnNameCaselitNum34,shouldRetainColumnNameCaselitNum35,shouldRetainColumnNameCaselitNum36,shouldRetainColumnNameCaselitNum37,shouldRetainColumnNameCaselitNum38,shouldRetainColumnNameCaselitNum39,shouldRetainColumnNameCaselitNum40,shouldRetainColumnNameCaselitNum41,shouldRetainColumnNameCaselitNum42,shouldRetainColumnNameCaselitNum43,shouldRetainColumnNameCaselitNum44,shouldRetainColumnNameCaselitNum45,shouldRetainColumnNameCaselitNum25(org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest): null,shouldRetainColumnNameCaselitNum26(org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest): null,shouldRetainColumnNameCaselitNum27(org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest): null,shouldRetainColumnNameCaselitNum28(org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest): null,shouldRetainColumnNameCaselitNum30(org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest): test timed out after 120000 milliseconds,shouldRetainColumnNameCaselitNum32(org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest): null
+[444090] INFO AssertGenerator - 43 test pass, generating assertion...
+[444141] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[444141] INFO MethodsAssertGenerator - Instrumentation...
+  2% |= ]/  4% |== ]-  6% |=== ]\  9% |==== ]| 11% |===== ]/ 13% |====== ]- 16% |======== ]\ 18% |========= ]| 20% |========== ]/ 23% |=========== ]- 25% |============ ]\ 27% |============= ]| 30% |=============== ]/ 32% |================ ]- 34% |================= ]\ 37% |================== ]| 39% |=================== ]/ 41% |==================== ]- 44% |====================== ]\ 46% |======================= ]| 48% |======================== ]/ 51% |========================= ]- 53% |========================== ]\ 55% |=========================== ]| 58% |============================= ]/ 60% |============================== ]- 62% |=============================== ]\ 65% |================================ ]| 67% |================================= ]/ 69% |================================== ]- 72% |==================================== ]\ 74% |===================================== ]| 76% |====================================== ]/ 79% |======================================= ]- 81% |======================================== ]\ 83% |========================================= ]| 86% |=========================================== ]/ 88% |============================================ ]- 90% |============================================= ]\ 93% |============================================== ]| 95% |=============================================== ]/ 97% |================================================ ]-100% |================================================== ]\
+[445304] INFO MethodsAssertGenerator - Run instrumented tests. (129)
+[447933] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/classes:/home/spirals/danglot/.m2/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar:/home/spirals/danglot/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/home/spirals/danglot/.m2/repository/org/mybatis/mybatis-typehandlers-jsr310/1.0.2/mybatis-typehandlers-jsr310-1.0.2.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar:/home/spirals/danglot/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-core/2.3/log4j-core-2.3.jar:/home/spirals/danglot/.m2/repository/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3.jar:/home/spirals/danglot/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/spirals/danglot/.m2/repository/cglib/cglib/3.2.4/cglib-3.2.4.jar:/home/spirals/danglot/.m2/repository/org/ow2/asm/asm/5.1/asm-5.1.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/home/spirals/danglot/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:/home/spirals/danglot/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar:/home/spirals/danglot/.m2/repository/org/mockito/mockito-core/2.4.2/mockito-core-2.4.2.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy/1.5.5/byte-buddy-1.5.5.jar:/home/spirals/danglot/.m2/repository/net/bytebuddy/byte-buddy-agent/1.5.5/byte-buddy-agent-1.5.5.jar:/home/spirals/danglot/.m2/repository/org/objenesis/objenesis/2.4/objenesis-2.4.jar:/home/spirals/danglot/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar:/home/spirals/danglot/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar:/home/spirals/danglot/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/spirals/danglot/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/spirals/danglot/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/spirals/danglot/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/spirals/danglot/.m2/repository/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.apache.ibatis.executor.resultset.DefaultResultSetHandlerTest shouldRetainColumnNameCaselitString1_withlog0:shouldRetainColumnNameCaselitString2_withlog0:shouldRetainColumnNameCaselitString3_withlog0:shouldRetainColumnNameCaselitString4_withlog0:shouldRetainColumnNameCaselitString5_withlog0:shouldRetainColumnNameCaselitString6_withlog0:shouldRetainColumnNameCaselitString7_withlog0:shouldRetainColumnNameCaselitString8_withlog0:shouldRetainColumnNameCaselitString9_withlog0:shouldRetainColumnNameCaselitString10_withlog0:shouldRetainColumnNameCaselitString11_withlog0:shouldRetainColumnNameCaselitString12_withlog0:shouldRetainColumnNameCaselitString13_withlog0:shouldRetainColumnNameCaselitString14_withlog0:shouldRetainColumnNameCaselitString15_withlog0:shouldRetainColumnNameCaselitString16_withlog0:shouldRetainColumnNameCaselitString17_withlog0:shouldRetainColumnNameCaselitString18_withlog0:shouldRetainColumnNameCaselitString19_withlog0:shouldRetainColumnNameCaselitString20_withlog0:shouldRetainColumnNameCaselitString21_withlog0:shouldRetainColumnNameCaselitString22_withlog0:shouldRetainColumnNameCaselitString23_withlog0:shouldRetainColumnNameCaselitString24_withlog0:shouldRetainColumnNameCaselitNum29_withlog0:shouldRetainColumnNameCaselitNum31_withlog0:shouldRetainColumnNameCaselitNum33_withlog0:shouldRetainColumnNameCaselitNum34_withlog0:shouldRetainColumnNameCaselitNum35_withlog0:shouldRetainColumnNameCaselitNum36_withlog0:shouldRetainColumnNameCaselitNum37_withlog0:shouldRetainColumnNameCaselitNum38_withlog0:shouldRetainColumnNameCaselitNum39_withlog0:shouldRetainColumnNameCaselitNum40_withlog0:shouldRetainColumnNameCaselitNum41_withlog0:shouldRetainColumnNameCaselitNum42_withlog0:shouldRetainColumnNameCaselitNum43_withlog0:shouldRetainColumnNameCaselitNum44_withlog0:shouldRetainColumnNameCaselitNum45_withlog0:shouldRetainColumnNameCaselitBool46_withlog0:shouldRetainColumnNameCaselitBool47_withlog0:shouldRetainColumnNameCaselitBool48_withlog0:shouldRetainColumnNameCaselitBool49_withlog0:shouldRetainColumnNameCaselitString1_withlog1:shouldRetainColumnNameCaselitString2_withlog1:shouldRetainColumnNameCaselitString3_withlog1:shouldRetainColumnNameCaselitString4_withlog1:shouldRetainColumnNameCaselitString5_withlog1:shouldRetainColumnNameCaselitString6_withlog1:shouldRetainColumnNameCaselitString7_withlog1:shouldRetainColumnNameCaselitString8_withlog1:shouldRetainColumnNameCaselitString9_withlog1:shouldRetainColumnNameCaselitString10_withlog1:shouldRetainColumnNameCaselitString11_withlog1:shouldRetainColumnNameCaselitString12_withlog1:shouldRetainColumnNameCaselitString13_withlog1:shouldRetainColumnNameCaselitString14_withlog1:shouldRetainColumnNameCaselitString15_withlog1:shouldRetainColumnNameCaselitString16_withlog1:shouldRetainColumnNameCaselitString17_withlog1:shouldRetainColumnNameCaselitString18_withlog1:shouldRetainColumnNameCaselitString19_withlog1:shouldRetainColumnNameCaselitString20_withlog1:shouldRetainColumnNameCaselitString21_withlog1:shouldRetainColumnNameCaselitString22_withlog1:shouldRetainColumnNameCaselitString23_withlog1:shouldRetainColumnNameCaselitString24_withlog1:shouldRetainColumnNameCaselitNum29_withlog1:shouldRetainColumnNameCaselitNum31_withlog1:shouldRetainColumnNameCaselitNum33_withlog1:shouldRetainColumnNameCaselitNum34_withlog1:shouldRetainColumnNameCaselitNum35_withlog1:shouldRetainColumnNameCaselitNum36_withlog1:shouldRetainColumnNameCaselitNum37_withlog1:shouldRetainColumnNameCaselitNum38_withlog1:shouldRetainColumnNameCaselitNum39_withlog1:shouldRetainColumnNameCaselitNum40_withlog1:shouldRetainColumnNameCaselitNum41_withlog1:shouldRetainColumnNameCaselitNum42_withlog1:shouldRetainColumnNameCaselitNum43_withlog1:shouldRetainColumnNameCaselitNum44_withlog1:shouldRetainColumnNameCaselitNum45_withlog1:shouldRetainColumnNameCaselitBool46_withlog1:shouldRetainColumnNameCaselitBool47_withlog1:shouldRetainColumnNameCaselitBool48_withlog1:shouldRetainColumnNameCaselitBool49_withlog1:shouldRetainColumnNameCaselitString1_withlog2:shouldRetainColumnNameCaselitString2_withlog2:shouldRetainColumnNameCaselitString3_withlog2:shouldRetainColumnNameCaselitString4_withlog2:shouldRetainColumnNameCaselitString5_withlog2:shouldRetainColumnNameCaselitString6_withlog2:shouldRetainColumnNameCaselitString7_withlog2:shouldRetainColumnNameCaselitString8_withlog2:shouldRetainColumnNameCaselitString9_withlog2:shouldRetainColumnNameCaselitString10_withlog2:shouldRetainColumnNameCaselitString11_withlog2:shouldRetainColumnNameCaselitString12_withlog2:shouldRetainColumnNameCaselitString13_withlog2:shouldRetainColumnNameCaselitString14_withlog2:shouldRetainColumnNameCaselitString15_withlog2:shouldRetainColumnNameCaselitString16_withlog2:shouldRetainColumnNameCaselitString17_withlog2:shouldRetainColumnNameCaselitString18_withlog2:shouldRetainColumnNameCaselitString19_withlog2:shouldRetainColumnNameCaselitString20_withlog2:shouldRetainColumnNameCaselitString21_withlog2:shouldRetainColumnNameCaselitString22_withlog2:shouldRetainColumnNameCaselitString23_withlog2:shouldRetainColumnNameCaselitString24_withlog2:shouldRetainColumnNameCaselitNum29_withlog2:shouldRetainColumnNameCaselitNum31_withlog2:shouldRetainColumnNameCaselitNum33_withlog2:shouldRetainColumnNameCaselitNum34_withlog2:shouldRetainColumnNameCaselitNum35_withlog2:shouldRetainColumnNameCaselitNum36_withlog2:shouldRetainColumnNameCaselitNum37_withlog2:shouldRetainColumnNameCaselitNum38_withlog2:shouldRetainColumnNameCaselitNum39_withlog2:shouldRetainColumnNameCaselitNum40_withlog2:shouldRetainColumnNameCaselitNum41_withlog2:shouldRetainColumnNameCaselitNum42_withlog2:shouldRetainColumnNameCaselitNum43_withlog2:shouldRetainColumnNameCaselitNum44_withlog2:shouldRetainColumnNameCaselitNum45_withlog2:shouldRetainColumnNameCaselitBool46_withlog2:shouldRetainColumnNameCaselitBool47_withlog2:shouldRetainColumnNameCaselitBool48_withlog2:shouldRetainColumnNameCaselitBool49_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/mybatis-3/895/target/dspot/TestListener.ser
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[453950] INFO EntryPoint - Test has been run: shouldRetainColumnNameCaselitString23_withlog0,shouldRetainColumnNameCaselitString23_withlog1,shouldRetainColumnNameCaselitString23_withlog2,shouldRetainColumnNameCaselitNum45_withlog0,shouldRetainColumnNameCaselitNum45_withlog1,shouldRetainColumnNameCaselitNum45_withlog2,shouldRetainColumnNameCaselitString22_withlog0,shouldRetainColumnNameCaselitString22_withlog1,shouldRetainColumnNameCaselitString22_withlog2,shouldRetainColumnNameCaselitNum44_withlog0,shouldRetainColumnNameCaselitNum44_withlog1,shouldRetainColumnNameCaselitNum44_withlog2,shouldRetainColumnNameCaselitString21_withlog0,shouldRetainColumnNameCaselitString21_withlog1,shouldRetainColumnNameCaselitString21_withlog2,shouldRetainColumnNameCaselitNum43_withlog0,shouldRetainColumnNameCaselitNum43_withlog1,shouldRetainColumnNameCaselitNum43_withlog2,shouldRetainColumnNameCaselitString20_withlog0,shouldRetainColumnNameCaselitString20_withlog1,shouldRetainColumnNameCaselitString20_withlog2,shouldRetainColumnNameCaselitString19_withlog0,shouldRetainColumnNameCaselitString19_withlog1,shouldRetainColumnNameCaselitString19_withlog2,shouldRetainColumnNameCaselitNum42_withlog0,shouldRetainColumnNameCaselitNum42_withlog1,shouldRetainColumnNameCaselitNum42_withlog2,shouldRetainColumnNameCaselitString18_withlog0,shouldRetainColumnNameCaselitString18_withlog1,shouldRetainColumnNameCaselitString18_withlog2,shouldRetainColumnNameCaselitNum41_withlog0,shouldRetainColumnNameCaselitNum41_withlog1,shouldRetainColumnNameCaselitNum41_withlog2,shouldRetainColumnNameCaselitString17_withlog0,shouldRetainColumnNameCaselitString17_withlog1,shouldRetainColumnNameCaselitString17_withlog2,shouldRetainColumnNameCaselitNum40_withlog0,shouldRetainColumnNameCaselitNum40_withlog1,shouldRetainColumnNameCaselitNum40_withlog2,shouldRetainColumnNameCaselitNum39_withlog0,shouldRetainColumnNameCaselitNum39_withlog1,shouldRetainColumnNameCaselitNum39_withlog2,shouldRetainColumnNameCaselitString16_withlog0,shouldRetainColumnNameCaselitString16_withlog1,shouldRetainColumnNameCaselitString16_withlog2,shouldRetainColumnNameCaselitNum38_withlog0,shouldRetainColumnNameCaselitNum38_withlog1,shouldRetainColumnNameCaselitNum38_withlog2,shouldRetainColumnNameCaselitString15_withlog0,shouldRetainColumnNameCaselitString15_withlog1,shouldRetainColumnNameCaselitString15_withlog2,shouldRetainColumnNameCaselitNum37_withlog0,shouldRetainColumnNameCaselitNum37_withlog1,shouldRetainColumnNameCaselitNum37_withlog2,shouldRetainColumnNameCaselitString14_withlog0,shouldRetainColumnNameCaselitString14_withlog1,shouldRetainColumnNameCaselitString14_withlog2,shouldRetainColumnNameCaselitNum36_withlog0,shouldRetainColumnNameCaselitNum36_withlog1,shouldRetainColumnNameCaselitNum36_withlog2,shouldRetainColumnNameCaselitString13_withlog0,shouldRetainColumnNameCaselitString13_withlog1,shouldRetainColumnNameCaselitString13_withlog2,shouldRetainColumnNameCaselitNum35_withlog0,shouldRetainColumnNameCaselitNum35_withlog1,shouldRetainColumnNameCaselitNum35_withlog2,shouldRetainColumnNameCaselitString12_withlog0,shouldRetainColumnNameCaselitString12_withlog1,shouldRetainColumnNameCaselitString12_withlog2,shouldRetainColumnNameCaselitNum34_withlog0,shouldRetainColumnNameCaselitNum34_withlog1,shouldRetainColumnNameCaselitNum34_withlog2,shouldRetainColumnNameCaselitString11_withlog0,shouldRetainColumnNameCaselitString11_withlog1,shouldRetainColumnNameCaselitString11_withlog2,shouldRetainColumnNameCaselitBool49_withlog0,shouldRetainColumnNameCaselitBool49_withlog1,shouldRetainColumnNameCaselitBool49_withlog2,shouldRetainColumnNameCaselitNum33_withlog0,shouldRetainColumnNameCaselitNum33_withlog1,shouldRetainColumnNameCaselitNum33_withlog2,shouldRetainColumnNameCaselitString9_withlog0,shouldRetainColumnNameCaselitString9_withlog1,shouldRetainColumnNameCaselitString9_withlog2,shouldRetainColumnNameCaselitString10_withlog0,shouldRetainColumnNameCaselitString10_withlog1,shouldRetainColumnNameCaselitString10_withlog2,shouldRetainColumnNameCaselitBool48_withlog0,shouldRetainColumnNameCaselitBool48_withlog1,shouldRetainColumnNameCaselitBool48_withlog2,shouldRetainColumnNameCaselitString8_withlog0,shouldRetainColumnNameCaselitString8_withlog1,shouldRetainColumnNameCaselitString8_withlog2,shouldRetainColumnNameCaselitBool47_withlog0,shouldRetainColumnNameCaselitBool47_withlog1,shouldRetainColumnNameCaselitBool47_withlog2,shouldRetainColumnNameCaselitNum31_withlog0,shouldRetainColumnNameCaselitNum31_withlog1,shouldRetainColumnNameCaselitNum31_withlog2,shouldRetainColumnNameCaselitString7_withlog0,shouldRetainColumnNameCaselitString7_withlog1,shouldRetainColumnNameCaselitString7_withlog2,shouldRetainColumnNameCaselitBool46_withlog0,shouldRetainColumnNameCaselitBool46_withlog1,shouldRetainColumnNameCaselitBool46_withlog2,shouldRetainColumnNameCaselitNum29_withlog0,shouldRetainColumnNameCaselitNum29_withlog1,shouldRetainColumnNameCaselitNum29_withlog2,shouldRetainColumnNameCaselitString6_withlog0,shouldRetainColumnNameCaselitString6_withlog1,shouldRetainColumnNameCaselitString6_withlog2,shouldRetainColumnNameCaselitString5_withlog0,shouldRetainColumnNameCaselitString5_withlog1,shouldRetainColumnNameCaselitString5_withlog2,shouldRetainColumnNameCaselitString4_withlog0,shouldRetainColumnNameCaselitString4_withlog1,shouldRetainColumnNameCaselitString4_withlog2,shouldRetainColumnNameCaselitString3_withlog0,shouldRetainColumnNameCaselitString3_withlog1,shouldRetainColumnNameCaselitString3_withlog2,shouldRetainColumnNameCaselitString2_withlog0,shouldRetainColumnNameCaselitString2_withlog1,shouldRetainColumnNameCaselitString2_withlog2,shouldRetainColumnNameCaselitString1_withlog0,shouldRetainColumnNameCaselitString1_withlog1,shouldRetainColumnNameCaselitString1_withlog2,shouldRetainColumnNameCaselitString24_withlog0,shouldRetainColumnNameCaselitString24_withlog1,shouldRetainColumnNameCaselitString24_withlog2
+[453970] INFO MethodsAssertGenerator - Generating assertions...
+Exception in thread "main" java.lang.RuntimeException: java.lang.RuntimeException: java.lang.NullPointerException
+	at eu.stamp_project.Main.main(Main.java:103)
+Caused by: java.lang.RuntimeException: java.lang.NullPointerException
+	at eu.stamp_project.Main.lambda$run$2(Main.java:160)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at eu.stamp_project.Main.run(Main.java:124)
+	at eu.stamp_project.Main.main(Main.java:95)
+Caused by: java.lang.NullPointerException
+	at eu.stamp_project.utils.TypeUtils.isPrimitive(TypeUtils.java:59)
+	at java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1351)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:449)
+	at eu.stamp_project.utils.TypeUtils.isPrimitiveCollection(TypeUtils.java:39)
+	at eu.stamp_project.dspot.assertGenerator.AssertBuilder.lambda$buildAssert$2(AssertBuilder.java:55)
+	at java.util.stream.ReduceOps$4ReducingSink.accept(ReduceOps.java:220)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:510)
+	at eu.stamp_project.dspot.assertGenerator.AssertBuilder.buildAssert(AssertBuilder.java:33)
+	at eu.stamp_project.dspot.assertGenerator.MethodsAssertGenerator.buildTestWithAssert(MethodsAssertGenerator.java:139)
+	at eu.stamp_project.dspot.assertGenerator.MethodsAssertGenerator.lambda$addAssertions$4(MethodsAssertGenerator.java:119)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at eu.stamp_project.dspot.assertGenerator.MethodsAssertGenerator.addAssertions(MethodsAssertGenerator.java:120)
+	at eu.stamp_project.dspot.assertGenerator.AssertGenerator.innerAssertionAmplification(AssertGenerator.java:120)
+	at eu.stamp_project.dspot.assertGenerator.AssertGenerator.assertionAmplification(AssertGenerator.java:74)
+	at eu.stamp_project.dspot.Amplification.amplification(Amplification.java:146)
+	at eu.stamp_project.dspot.Amplification.amplification(Amplification.java:109)
+	at eu.stamp_project.dspot.DSpot.amplifyTest(DSpot.java:191)
+	at eu.stamp_project.dspot.DSpot.amplifyTest(DSpot.java:178)
+	at eu.stamp_project.Main.lambda$null$1(Main.java:151)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1548)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at eu.stamp_project.Main.lambda$run$2(Main.java:152)
+	... 11 more

@@ -1,3 +1,2 @@
 ======= REPORT =======
-1 amplified test fails on the new versions.
-instantiateClassThrowsProperErrorMsg(org.apache.ibatis.reflection.factory.DefaultObjectFactoryTest): tried to access method org.apache.ibatis.reflection.factory.DefaultObjectFactory.instantiateClass(Ljava/lang/Class;Ljava/util/List;Ljava/util/List;)Ljava/lang/Object; from class org.apache.ibatis.reflection.factory.DefaultObjectFactoryTest
+0 amplified test fails on the new versions.

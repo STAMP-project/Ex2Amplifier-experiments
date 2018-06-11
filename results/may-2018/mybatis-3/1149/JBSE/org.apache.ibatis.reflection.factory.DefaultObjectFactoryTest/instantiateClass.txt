@@ -1,7 +1,0 @@
-@org.junit.Test(timeout = 120000)
-public void instantiateClass_Ex2_JBSE9() throws java.lang.Exception {
-    org.apache.ibatis.reflection.factory.DefaultObjectFactory defaultObjectFactory = new org.apache.ibatis.reflection.factory.DefaultObjectFactory();
-    org.apache.ibatis.reflection.factory.TestClass testClass = defaultObjectFactory.instantiateClass(org.apache.ibatis.reflection.factory.TestClass.class, java.util.Arrays.<java.lang.Class<?>>asList(java.lang.String.class, java.lang.Integer.class), java.util.Arrays.<java.lang.Object>asList(0, 0));
-    org.junit.Assert.assertEquals("myInteger didn't match expected", ((java.lang.Integer) (0)), testClass.myInteger);
-    org.junit.Assert.assertEquals("myString didn't match expected", "foo", testClass.myString);
-}

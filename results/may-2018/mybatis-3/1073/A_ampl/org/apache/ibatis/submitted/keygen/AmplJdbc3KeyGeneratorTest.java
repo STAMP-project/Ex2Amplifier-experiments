@@ -33,7 +33,7 @@ public class AmplJdbc3KeyGeneratorTest {
         session.close();
     }
 
-    @Test(timeout = 10000)
+    @Test(timeout = 120000)
     public void shouldErrorUndefineProperty() throws Exception {
         SqlSession sqlSession = AmplJdbc3KeyGeneratorTest.sqlSessionFactory.openSession();
         try {

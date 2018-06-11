@@ -21,13 +21,13 @@ public final class AmplMethodSpecTest {
     @Target(ElementType.PARAMETER)
     @interface Nullable {}
 
-    static abstract class Everything {
+    abstract static class Everything {
         @Deprecated
         protected abstract <T extends Runnable & Closeable> Runnable everything(@AmplMethodSpecTest.Nullable
         String thing, List<? extends T> things) throws IOException, SecurityException;
     }
 
-    static abstract class HasAnnotation {
+    abstract static class HasAnnotation {
         @Override
         public abstract String toString();
     }

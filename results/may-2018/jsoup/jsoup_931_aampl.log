@@ -4,8 +4,8 @@ SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[8] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -70,13 +70,13 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 8.725 s
-[INFO] Finished at: 2018-06-09T12:57:47+02:00
-[INFO] Final Memory: 34M/393M
+[INFO] Total time: 9.172 s
+[INFO] Finished at: 2018-06-11T11:55:29+02:00
+[INFO] Final Memory: 34M/413M
 [INFO] ------------------------------------------------------------------------
-[14636] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[14636] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[14636] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[15209] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[15209] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[15210] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -140,51 +140,242 @@ SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 8.343 s
-[INFO] Finished at: 2018-06-09T12:58:01+02:00
-[INFO] Final Memory: 35M/405M
+[INFO] Total time: 8.086 s
+[INFO] Finished at: 2018-06-11T11:55:43+02:00
+[INFO] Final Memory: 34M/408M
 [INFO] ------------------------------------------------------------------------
-[24744] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/931/ and dataset/may-2018/jsoup/931_modified/ (35e80a779b7908ddcd41a6a7df5f21b30bf999d2)
-[24750] INFO SelectorOnDiff - Modified files:
+[25120] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/931/ and dataset/may-2018/jsoup/931_modified/ (35e80a779b7908ddcd41a6a7df5f21b30bf999d2)
+[25127] INFO SelectorOnDiff - Modified files:
 a/src/main/java/org/jsoup/nodes/Attribute.java
-[77920] INFO Amplification - amplification of org.jsoup.nodes.AttributeTest (2 test(s))
-[78033] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
+[77756] INFO Amplification - amplification of org.jsoup.nodes.AttributeTest (2 test(s))
+[77872] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/TestListener.ser
-[78429] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
-[78429] INFO Amplification - Try to add assertions before amplification
-[78471] INFO AssertGenerator - Run tests. (2)
-[78536] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
+[78264] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
+[78265] INFO Amplification - Try to add assertions before amplification
+[78298] INFO AssertGenerator - Run tests. (2)
+[78353] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/TestListener.ser
-[78918] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
-[78918] INFO AssertGenerator - 2 test pass, generating assertion...
-[78920] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[78920] INFO MethodsAssertGenerator - Instrumentation...
+[78693] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
+[78693] INFO AssertGenerator - 2 test pass, generating assertion...
+[78695] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[78695] INFO MethodsAssertGenerator - Instrumentation...
  50% |========================= ]/100% |================================================== ]-
-[78955] INFO MethodsAssertGenerator - Run instrumented tests. (6)
-[79056] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue_withlog0:html_withlog0:testWithSupplementaryCharacterInAttributeKeyAndValue_withlog1:html_withlog1:testWithSupplementaryCharacterInAttributeKeyAndValue_withlog2:html_withlog2
+[78717] INFO MethodsAssertGenerator - Run instrumented tests. (6)
+[78784] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue_withlog0:html_withlog0:testWithSupplementaryCharacterInAttributeKeyAndValue_withlog1:html_withlog1:testWithSupplementaryCharacterInAttributeKeyAndValue_withlog2:html_withlog2
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/observations.ser
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/TestListener.ser
-[79546] INFO EntryPoint - Test has been run: html_withlog0,html_withlog1,html_withlog2,testWithSupplementaryCharacterInAttributeKeyAndValue_withlog0,testWithSupplementaryCharacterInAttributeKeyAndValue_withlog1,testWithSupplementaryCharacterInAttributeKeyAndValue_withlog2
-[79554] INFO MethodsAssertGenerator - Generating assertions...
-[79573] INFO AssertGenerator - 2 new tests with assertions generated
-[79663] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
+[79249] INFO EntryPoint - Test has been run: html_withlog0,html_withlog1,html_withlog2,testWithSupplementaryCharacterInAttributeKeyAndValue_withlog0,testWithSupplementaryCharacterInAttributeKeyAndValue_withlog1,testWithSupplementaryCharacterInAttributeKeyAndValue_withlog2
+[79255] INFO MethodsAssertGenerator - Generating assertions...
+[79270] INFO AssertGenerator - 2 new tests with assertions generated
+[79325] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/TestListener.ser
-[80133] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
-[80178] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
-[80179] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/931//target/classes:dataset/may-2018/jsoup/931//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
-[80224] DEBUG Launcher - built in 46 ms
-[80224] DEBUG Launcher - building templates: []
-[80224] DEBUG Launcher - built in 0 ms
-[80225] DEBUG Launcher - model built in 47
-[80225] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
-[80228] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/931//target/classes:dataset/may-2018/jsoup/931//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
-[80285] DEBUG Launcher - compiled in 60 ms
-[80287] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
+[79700] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
+[79739] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
+[79740] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/931//target/classes:dataset/may-2018/jsoup/931//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
+[79783] DEBUG Launcher - built in 44 ms
+[79783] DEBUG Launcher - building templates: []
+[79783] DEBUG Launcher - built in 0 ms
+[79783] DEBUG Launcher - model built in 44
+[79784] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
+[79785] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/931//target/classes:dataset/may-2018/jsoup/931//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
+[79837] DEBUG Launcher - compiled in 52 ms
+[79838] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/TestListener.ser
-[80668] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
-[80668] INFO Amplification - 0 amplified test(s) has been selected, global: 0
-[80668] INFO DSpot - elapsedTime 2759
+[80219] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
+[80220] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[80220] INFO DSpot - elapsedTime 2475
 ======= REPORT =======
 0 amplified test fails on the new versions.
 
-[80694] INFO DSpot - Print AmplAttributeTest with 0?amplified test cases in results/may-2018/jsoup/931/A_ampl
+[80240] INFO DSpot - Print AmplAttributeTest with 0?amplified test cases in results/may-2018/jsoup/931/A_ampl
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[8] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jsoup Java HTML Parser 1.11.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsoup ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 62 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/main/java/org/jsoup/nodes/Attributes.java: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/main/java/org/jsoup/nodes/Attributes.java uses or overrides a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ jsoup >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 62 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/main/java/org/jsoup/nodes/Attributes.java: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/main/java/org/jsoup/nodes/Attributes.java uses or overrides a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ jsoup <<<
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ jsoup ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 22 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 31 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/test/java/org/jsoup/parser/AttributeParseTest.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/test/java/org/jsoup/parser/AttributeParseTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/test/java/org/jsoup/nodes/BuildEntities.java: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/test/java/org/jsoup/nodes/BuildEntities.java uses unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/src/test/java/org/jsoup/nodes/BuildEntities.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jsoup ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ jsoup ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.731 s
+[INFO] Finished at: 2018-06-11T13:16:37+02:00
+[INFO] Final Memory: 34M/397M
+[INFO] ------------------------------------------------------------------------
+[14569] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[14569] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[14570] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building jsoup Java HTML Parser 1.11.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jsoup ---
+[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 62 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/main/java/org/jsoup/nodes/Attributes.java: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/main/java/org/jsoup/nodes/Attributes.java uses or overrides a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] >>> maven-bundle-plugin:2.5.4:manifest (bundle-manifest) > process-classes @ jsoup >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to META-INF/
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 62 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/main/java/org/jsoup/nodes/Attributes.java: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/main/java/org/jsoup/nodes/Attributes.java uses or overrides a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/main/java/org/jsoup/nodes/Attributes.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (animal-sniffer) @ jsoup ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] <<< maven-bundle-plugin:2.5.4:manifest (bundle-manifest) < process-classes @ jsoup <<<
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.4:manifest (bundle-manifest) @ jsoup ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ jsoup ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 22 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ jsoup ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 31 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/test-classes
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/test/java/org/jsoup/parser/AttributeParseTest.java: Some input files use or override a deprecated API.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/test/java/org/jsoup/parser/AttributeParseTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/test/java/org/jsoup/nodes/BuildEntities.java: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/test/java/org/jsoup/nodes/BuildEntities.java uses unchecked or unsafe operations.
+[INFO] /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/src/test/java/org/jsoup/nodes/BuildEntities.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jsoup ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ jsoup ---
+[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/dspot/classpath'.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.864 s
+[INFO] Finished at: 2018-06-11T13:16:51+02:00
+[INFO] Final Memory: 35M/401M
+[INFO] ------------------------------------------------------------------------
+[24269] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/jsoup/931/ and dataset/may-2018/jsoup/931_modified/ (35e80a779b7908ddcd41a6a7df5f21b30bf999d2)
+[24277] INFO SelectorOnDiff - Modified files:
+a/src/main/java/org/jsoup/nodes/Attribute.java
+[76812] INFO Amplification - amplification of org.jsoup.nodes.AttributeTest (2 test(s))
+[76934] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/TestListener.ser
+[77338] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
+[77339] INFO Amplification - Try to add assertions before amplification
+[77376] INFO AssertGenerator - Run tests. (2)
+[77430] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/TestListener.ser
+[77818] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
+[77818] INFO AssertGenerator - 2 test pass, generating assertion...
+[77819] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[77819] INFO MethodsAssertGenerator - Instrumentation...
+ 50% |========================= ]/100% |================================================== ]-
+[77840] INFO MethodsAssertGenerator - Run instrumented tests. (6)
+[77905] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue_withlog0:html_withlog0:testWithSupplementaryCharacterInAttributeKeyAndValue_withlog1:html_withlog1:testWithSupplementaryCharacterInAttributeKeyAndValue_withlog2:html_withlog2
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/observations.ser
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/TestListener.ser
+[78350] INFO EntryPoint - Test has been run: html_withlog0,html_withlog1,html_withlog2,testWithSupplementaryCharacterInAttributeKeyAndValue_withlog0,testWithSupplementaryCharacterInAttributeKeyAndValue_withlog1,testWithSupplementaryCharacterInAttributeKeyAndValue_withlog2
+[78360] INFO MethodsAssertGenerator - Generating assertions...
+[78375] INFO AssertGenerator - 2 new tests with assertions generated
+[78438] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/TestListener.ser
+[78842] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
+[78892] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
+[78892] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/931//target/classes:dataset/may-2018/jsoup/931//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
+[78938] DEBUG Launcher - built in 46 ms
+[78938] DEBUG Launcher - building templates: []
+[78938] DEBUG Launcher - built in 0 ms
+[78939] DEBUG Launcher - model built in 47
+[78940] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
+[78942] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:dataset/may-2018/jsoup/931//target/classes:dataset/may-2018/jsoup/931//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/org/jsoup/nodes/AttributeTest.java]
+[78996] DEBUG Launcher - compiled in 56 ms
+[78997] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931_modified/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner org.jsoup.nodes.AttributeTest testWithSupplementaryCharacterInAttributeKeyAndValue:html
+File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/jsoup/931/target/dspot/TestListener.ser
+[79372] INFO EntryPoint - Test has been run: testWithSupplementaryCharacterInAttributeKeyAndValue,html
+[79372] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[79372] INFO DSpot - elapsedTime 2571
+======= REPORT =======
+0 amplified test fails on the new versions.
+
+[79393] INFO DSpot - Print AmplAttributeTest with 0?amplified test cases in results/may-2018/jsoup/931/A_ampl

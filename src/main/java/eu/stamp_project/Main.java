@@ -35,6 +35,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -70,6 +71,7 @@ public class Main {
         AmplificationHelper.setTimeOutInMs(120000);
         EntryPoint.verbose = Main.verbose;
         Main.onlyAampl = jsapConfig.getBoolean("aampl");
+        AmplificationHelper.minimize = false;
         Amplification.preAmplify = Main.onlyAampl;
         Main.JBSE = jsapConfig.getBoolean("JBSE");
         Main.Ex2AmplifierMode = !jsapConfig.getBoolean("amplifiers");

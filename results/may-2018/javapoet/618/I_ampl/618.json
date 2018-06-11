@@ -2,50 +2,50 @@
   "classTimes": [
     {
       "fullQualifiedName": "com.squareup.javapoet.MethodSpecTest",
-      "timeInMs": 165908,
-      "numberOfAmplifiedTestMethods": 30,
+      "timeInMs": 16243,
+      "numberOfAmplifiedTestMethods": 3,
       "numberOfTestMethodToBeAmplified": 1
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.CodeBlockTest",
-      "timeInMs": 502376,
-      "numberOfAmplifiedTestMethods": 1392,
+      "timeInMs": 177512,
+      "numberOfAmplifiedTestMethods": 1203,
       "numberOfTestMethodToBeAmplified": 4
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.JavaFileTest",
-      "timeInMs": 3833241,
-      "numberOfAmplifiedTestMethods": 6844,
+      "timeInMs": 3509749,
+      "numberOfAmplifiedTestMethods": 6099,
       "numberOfTestMethodToBeAmplified": 18
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.TypeNameTest",
-      "timeInMs": 835030,
-      "numberOfAmplifiedTestMethods": 815,
+      "timeInMs": 252179,
+      "numberOfAmplifiedTestMethods": 217,
       "numberOfTestMethodToBeAmplified": 8
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.TypeSpecTest",
-      "timeInMs": 33377018,
-      "numberOfAmplifiedTestMethods": 8349,
+      "timeInMs": 37370532,
+      "numberOfAmplifiedTestMethods": 6422,
       "numberOfTestMethodToBeAmplified": 23
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.ClassNameTest",
-      "timeInMs": 11292094,
-      "numberOfAmplifiedTestMethods": 2319,
+      "timeInMs": 8151117,
+      "numberOfAmplifiedTestMethods": 2003,
       "numberOfTestMethodToBeAmplified": 10
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.AbstractTypesTest",
-      "timeInMs": 15498370,
-      "numberOfAmplifiedTestMethods": 829,
+      "timeInMs": 9227172,
+      "numberOfAmplifiedTestMethods": 643,
       "numberOfTestMethodToBeAmplified": 16
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.AnnotatedTypeNameTest",
-      "timeInMs": 6798893,
-      "numberOfAmplifiedTestMethods": 1920,
+      "timeInMs": 328876,
+      "numberOfAmplifiedTestMethods": 177,
       "numberOfTestMethodToBeAmplified": 7
     }
   ],

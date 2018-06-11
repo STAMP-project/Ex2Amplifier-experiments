@@ -21,7 +21,7 @@ def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
 
     if onClusty:
         print "export MAVEN_HOME=~/apache-maven-3.3.9/"
-        print "export MAVEN_OPTS=-XX:-OmitStackTraceInFastThrow"
+        print "export MAVEN_OPTS=\"-XX:-OmitStackTraceInFastThrow\""
 
     if mustClone:
         cmd_clone = base_cmd_jar + " --clone " + path_to_json_project_file + " --output " + prefix_dataset

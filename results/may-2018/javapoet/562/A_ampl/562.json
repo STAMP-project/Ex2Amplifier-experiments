@@ -2,51 +2,39 @@
   "classTimes": [
     {
       "fullQualifiedName": "com.squareup.javapoet.MethodSpecTest",
-      "timeInMs": 9144,
-      "numberOfAmplifiedTestMethods": 1,
-      "numberOfTestMethodToBeAmplified": 1
+      "timeInMs": 9072,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.CodeBlockTest",
-      "timeInMs": 3691,
-      "numberOfAmplifiedTestMethods": 1,
-      "numberOfTestMethodToBeAmplified": 1
+      "timeInMs": 3705,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.TypeSpecTest",
-      "timeInMs": 25809,
-      "numberOfAmplifiedTestMethods": 7,
-      "numberOfTestMethodToBeAmplified": 9
+      "timeInMs": 26423,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.JavaFileTest",
-      "timeInMs": 4475,
-      "numberOfAmplifiedTestMethods": 1,
-      "numberOfTestMethodToBeAmplified": 1
+      "timeInMs": 4218,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.TypeNameTest",
-      "timeInMs": 1665,
+      "timeInMs": 1618,
       "numberOfAmplifiedTestMethods": 0,
-      "numberOfTestMethodToBeAmplified": 2
+      "numberOfTestMethodToBeAmplified": 0
     },
     {
       "fullQualifiedName": "com.squareup.javapoet.ClassNameTest",
-      "timeInMs": 20225,
+      "timeInMs": 19678,
       "numberOfAmplifiedTestMethods": 0,
-      "numberOfTestMethodToBeAmplified": 5
-    },
-    {
-      "fullQualifiedName": "com.squareup.javapoet.AbstractTypesTest",
-      "timeInMs": 1425566,
-      "numberOfAmplifiedTestMethods": 1,
-      "numberOfTestMethodToBeAmplified": 6
-    },
-    {
-      "fullQualifiedName": "com.squareup.javapoet.AnnotatedTypeNameTest",
-      "timeInMs": 4460,
-      "numberOfAmplifiedTestMethods": 1,
-      "numberOfTestMethodToBeAmplified": 2
+      "numberOfTestMethodToBeAmplified": 0
     }
   ],
   "projectName": "562"

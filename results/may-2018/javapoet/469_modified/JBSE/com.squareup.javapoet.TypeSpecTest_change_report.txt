@@ -1,4 +1,0 @@
-======= REPORT =======
-2 amplified test fails on the new versions.
-annotationWithFields_Ex2_JBSE303(com.squareup.javapoet.TypeSpecTest): ANNOTATION Anno cannot have fields
-annotationWithFields(com.squareup.javapoet.TypeSpecTest): ANNOTATION Anno cannot have fields

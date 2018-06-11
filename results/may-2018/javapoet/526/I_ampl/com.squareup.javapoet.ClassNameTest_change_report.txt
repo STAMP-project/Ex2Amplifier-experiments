@@ -1,3 +1,0 @@
-======= REPORT =======
-1 amplified test fails on the new versions.
-peerClass_literalMutationString10241_literalMutationString11531(com.squareup.javapoet.ClassNameTest): expected:<&9&a/x[.]$HoI`k.Short> but was:<&9&a/x[]$HoI`k.Short>

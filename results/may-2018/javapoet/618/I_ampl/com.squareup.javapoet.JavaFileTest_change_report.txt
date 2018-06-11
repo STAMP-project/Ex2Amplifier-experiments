@@ -1,9 +1,0 @@
-======= REPORT =======
-1 amplified test fails on the new versions.
-annotatedTypeParamlitString13161litString13362(com.squareup.javapoet.JavaFileTest): expected:<...class Taco {
-  List<[@Spicy com.squareup.]tacos> chorizo;
-}
-> but was:<...class Taco {
-  List<[com.squareup. @Spicy ]tacos> chorizo;
-}
->

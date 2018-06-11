@@ -1,8 +1,2 @@
 ======= REPORT =======
-6 amplified test fails on the new versions.
-testDescriptorProtolitString91_failAssert1(io.protostuff.parser.ProtoParserTest): testDescriptorProtolitString91 should have thrown RuntimeException
-testDescriptorProtolitString10_failAssert0litString399_failAssert3(io.protostuff.parser.ProtoParserTest): testDescriptorProtolitString10 should have thrown FileNotFoundException
-testEnumWithTrailingSemicolonlitString1781_failAssert4litString2125litString2993_failAssert8(io.protostuff.parser.ProtoParserTest): testEnumWithTrailingSemicolonlitString1781 should have thrown FileNotFoundException
-testDescriptorProtolitString91_failAssert1litString406(io.protostuff.parser.ProtoParserTest): testDescriptorProtolitString91 should have thrown RuntimeException
-testEnumWithTrailingSemicolonlitString1867_failAssert5(io.protostuff.parser.ProtoParserTest): testEnumWithTrailingSemicolonlitString1867 should have thrown RuntimeException
-testEnumWithTrailingSemicolonlitString1781_failAssert4litString2148_failAssert7(io.protostuff.parser.ProtoParserTest): testEnumWithTrailingSemicolonlitString1781 should have thrown FileNotFoundException
+0 amplified test fails on the new versions.

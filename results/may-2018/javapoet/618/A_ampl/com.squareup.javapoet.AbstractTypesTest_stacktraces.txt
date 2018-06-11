@@ -196,6 +196,7 @@ java.lang.InstantiationException
 	at eu.stamp_project.testrunner.runner.test.TestRunner.run(TestRunner.java:87)
 	at eu.stamp_project.testrunner.runner.test.TestRunner.run(TestRunner.java:64)
 	at eu.stamp_project.testrunner.runner.test.TestRunner.main(TestRunner.java:32)
+<<<<<<< HEAD
 java.lang.InstantiationException
 	at sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(InstantiationExceptionConstructorAccessorImpl.java:48)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
@@ -286,3 +287,5 @@ java.lang.InstantiationException
 	at eu.stamp_project.testrunner.runner.test.TestRunner.run(TestRunner.java:87)
 	at eu.stamp_project.testrunner.runner.test.TestRunner.run(TestRunner.java:64)
 	at eu.stamp_project.testrunner.runner.test.TestRunner.main(TestRunner.java:32)
+=======
+>>>>>>> 8a6502c15ce80fa076da48633c46b1d00d102940

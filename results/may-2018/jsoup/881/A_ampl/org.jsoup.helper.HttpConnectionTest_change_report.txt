@@ -1,2 +1,7 @@
 ======= REPORT =======
-0 amplified test fails on the new versions.
+5 amplified test fails on the new versions.
+headers(org.jsoup.helper.HttpConnectionTest): expected:<1> but was:<0>
+connectWithUrl(org.jsoup.helper.HttpConnectionTest): expected:<1> but was:<0>
+data(org.jsoup.helper.HttpConnectionTest): expected:<http://example.com/[]> but was:<http://example.com/[?Name=Val&Foo=bar]>
+method(org.jsoup.helper.HttpConnectionTest): expected:<1> but was:<0>
+timeout(org.jsoup.helper.HttpConnectionTest): expected:<1> but was:<0>

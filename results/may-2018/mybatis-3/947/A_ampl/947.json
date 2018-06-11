@@ -2,7 +2,7 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.apache.ibatis.type.TypeHandlerRegistryTest",
-      "timeInMs": 4724,
+      "timeInMs": 4641,
       "numberOfAmplifiedTestMethods": 2,
       "numberOfTestMethodToBeAmplified": 6
     }

@@ -2,7 +2,7 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.apache.ibatis.cache.CacheKeyTest",
-      "timeInMs": 17729,
+      "timeInMs": 17588,
       "numberOfAmplifiedTestMethods": 5,
       "numberOfTestMethodToBeAmplified": 5
     }

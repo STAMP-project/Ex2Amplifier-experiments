@@ -1,2 +1,8 @@
 ======= REPORT =======
-0 amplified test fails on the new versions.
+6 amplified test fails on the new versions.
+shouldUpdateAuthor(org.apache.ibatis.executor.BaseExecutorTest): expected:<-331913539> but was:<335453320>
+shouldInsertNewAuthorWithBeforeAutoKey(org.apache.ibatis.executor.BaseExecutorTest): expected:<1042880355> but was:<1710247214>
+shouldMapConstructorResults(org.apache.ibatis.executor.BaseExecutorTest): expected:<-1492233944> but was:<1601263149>
+shouldInsertNewAuthorWithAutoKey(org.apache.ibatis.executor.BaseExecutorTest): expected:<1042880355> but was:<1710247214>
+shouldSelectAllAuthorsAutoMapped(org.apache.ibatis.executor.BaseExecutorTest): expected:<1132101265> but was:<1799468124>
+shouldInsertNewAuthor(org.apache.ibatis.executor.BaseExecutorTest): expected:<-389171841> but was:<278195018>

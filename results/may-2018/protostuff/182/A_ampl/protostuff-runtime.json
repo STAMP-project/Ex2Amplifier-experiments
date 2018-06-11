@@ -2,13 +2,13 @@
   "classTimes": [
     {
       "fullQualifiedName": "io.protostuff.runtime.ObjectSchemaTest",
-      "timeInMs": 2670,
+      "timeInMs": 4716,
       "numberOfAmplifiedTestMethods": 0,
       "numberOfTestMethodToBeAmplified": 1
     },
     {
       "fullQualifiedName": "io.protostuff.runtime.DefaultIdStrategyTest",
-      "timeInMs": 1968,
+      "timeInMs": 3567,
       "numberOfAmplifiedTestMethods": 0,
       "numberOfTestMethodToBeAmplified": 1
     }

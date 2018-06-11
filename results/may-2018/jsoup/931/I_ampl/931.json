@@ -2,8 +2,8 @@
   "classTimes": [
     {
       "fullQualifiedName": "org.jsoup.nodes.AttributeTest",
-      "timeInMs": 83355,
-      "numberOfAmplifiedTestMethods": 717,
+      "timeInMs": 40810,
+      "numberOfAmplifiedTestMethods": 313,
       "numberOfTestMethodToBeAmplified": 2
     }
   ],

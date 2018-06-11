@@ -1,2 +1,6 @@
 ======= REPORT =======
-0 amplified test fails on the new versions.
+4 amplified test fails on the new versions.
+testPropertyContextlitNum4261_failAssert45litString4418(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-1> but was:<null>
+testPropertyContextlitNum4261_failAssert45litString4425(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-1> but was:<null>
+testPropertyContextlitNum4261_failAssert45litString4414litString4976(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-1> but was:<null>
+testPropertyContextlitNum4261_failAssert45litString4421(org.apache.ibatis.submitted.include_property.IncludePropertyTest): expected:<-1> but was:<null>

@@ -1,4 +1,0 @@
-======= REPORT =======
-2 amplified test fails on the new versions.
-testDescriptorProto(io.protostuff.parser.ProtoParserTest): io.protostuff.parser.Proto.getDocs()Ljava/util/ArrayList;
-testEnumWithTrailingSemicolon(io.protostuff.parser.ProtoParserTest): expected:<127745261568> but was:<127744913408>

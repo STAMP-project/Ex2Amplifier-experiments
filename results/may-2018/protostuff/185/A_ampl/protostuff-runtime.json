@@ -2,7 +2,7 @@
   "classTimes": [
     {
       "fullQualifiedName": "io.protostuff.runtime.DefaultIdStrategyTest",
-      "timeInMs": 3574,
+      "timeInMs": 1810,
       "numberOfAmplifiedTestMethods": 0,
       "numberOfTestMethodToBeAmplified": 1
     }

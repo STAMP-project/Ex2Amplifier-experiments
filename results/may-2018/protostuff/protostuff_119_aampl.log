@@ -5,203 +5,7 @@ SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 [0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
 [0] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[18] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
-[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building protostuff :: parser 1.3.4-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ protostuff-parser ---
-[INFO] Deleting /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target
-[INFO] 
-[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ protostuff-parser ---
-[INFO] Skipping Rule Enforcement.
-[INFO] 
-[INFO] --- antlr3-maven-plugin:3.2:antlr (default) @ protostuff-parser ---
-[INFO] ANTLR: Processing source directory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/main/antlr3
-ANTLR Parser Generator  Version 3.2 Sep 23, 2009 14:05:07
-Grammar /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/main/antlr3/io/protostuff/parser/ProtoLexer.g is up to date - build skipped
-Grammar /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/main/antlr3/io/protostuff/parser/ProtoParser.g is up to date - build skipped
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ protostuff-parser ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ protostuff-parser ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 26 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes
-[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/main/java/io/protostuff/parser/ProtoParser.java: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/main/java/io/protostuff/parser/ProtoParser.java uses unchecked or unsafe operations.
-[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/src/main/java/io/protostuff/parser/ProtoParser.java: Recompile with -Xlint:unchecked for details.
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ protostuff-parser ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 20 resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ protostuff-parser ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 11 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes
-[INFO] 
-[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ protostuff-parser ---
-[INFO] Tests are skipped.
-[INFO] 
-[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ protostuff-parser ---
-[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/classpath'.
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 8.826 s
-[INFO] Finished at: 2018-06-08T16:07:35+02:00
-[INFO] Final Memory: 33M/1436M
-[INFO] ------------------------------------------------------------------------
-[18044] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[18045] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[18045] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
-[WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building protostuff :: parser 1.3.4-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ protostuff-parser ---
-[INFO] 
-[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-versions) @ protostuff-parser ---
-[INFO] Skipping Rule Enforcement.
-[INFO] 
-[INFO] --- antlr3-maven-plugin:3.2:antlr (default) @ protostuff-parser ---
-[INFO] ANTLR: Processing source directory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/src/main/antlr3
-ANTLR Parser Generator  Version 3.2 Sep 23, 2009 14:05:07
-Grammar /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/src/main/antlr3/io/protostuff/parser/ProtoLexer.g is up to date - build skipped
-Grammar /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/src/main/antlr3/io/protostuff/parser/ProtoParser.g is up to date - build skipped
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ protostuff-parser ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ protostuff-parser ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 26 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/classes
-[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/src/main/java/io/protostuff/parser/ProtoParser.java: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/src/main/java/io/protostuff/parser/ProtoParser.java uses unchecked or unsafe operations.
-[WARNING] /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/src/main/java/io/protostuff/parser/ProtoParser.java: Recompile with -Xlint:unchecked for details.
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ protostuff-parser ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] Copying 20 resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ protostuff-parser ---
-[INFO] Changes detected - recompiling the module!
-[INFO] Compiling 11 source files to /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/test-classes
-[INFO] 
-[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ protostuff-parser ---
-[INFO] Tests are skipped.
-[INFO] 
-[INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ protostuff-parser ---
-[INFO] Wrote classpath file '/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/dspot/classpath'.
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.213 s
-[INFO] Finished at: 2018-06-08T16:07:53+02:00
-[INFO] Final Memory: 33M/1482M
-[INFO] ------------------------------------------------------------------------
-[30301] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/119/protostuff-parser and dataset/may-2018/protostuff/119_modified/protostuff-parser (c0ac15ea8b19534ee4dc65c77f2204fdea9a2af4)
-[30356] INFO SelectorOnDiff - Modified files:
-a/protostuff-parser/src/main/java/io/protostuff/parser/AnnotationContainer.java
-a/protostuff-parser/src/main/java/io/protostuff/parser/Proto.java
-a/protostuff-parser/src/main/java/io/protostuff/parser/ProtoParser.java
-a/protostuff-parser/src/main/java/io/protostuff/parser/ProtoLexer.java
-a/protostuff-parser/src/test/java/io/protostuff/parser/AnnotationTest.java
-a/protostuff-parser/src/main/java/io/protostuff/parser/Message.java
-[33393] INFO Amplification - amplification of io.protostuff.parser.ProtoParserTest (4 test(s))
-[34294] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testSimple:testEnumWithTrailingSemicolon:testImport
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
-'group' not supported @ line 19 of enum_with_semicolon.proto
-'group' not supported @ line 85 of unittest.proto
-'group' not supported @ line 117 of unittest.proto
-'group' not supported @ line 196 of unittest.proto
-'group' not supported @ line 230 of unittest.proto
-'group' not supported @ line 390 of unittest.proto
-'group' not supported @ line 391 of unittest.proto
-[35330] INFO EntryPoint - Test has been run: testEnumWithTrailingSemicolon,testImport,testSimple,testDescriptorProto
-[35331] INFO Amplification - Try to add assertions before amplification
-[38016] INFO AssertGenerator - Run tests. (4)
-[38393] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testSimple:testEnumWithTrailingSemicolon:testImport
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
-'group' not supported @ line 19 of enum_with_semicolon.proto
-'group' not supported @ line 85 of unittest.proto
-'group' not supported @ line 117 of unittest.proto
-'group' not supported @ line 196 of unittest.proto
-'group' not supported @ line 230 of unittest.proto
-'group' not supported @ line 390 of unittest.proto
-'group' not supported @ line 391 of unittest.proto
-[39298] INFO EntryPoint - Test has been run: testEnumWithTrailingSemicolon,testImport,testSimple,testDescriptorProto
-[39299] INFO AssertGenerator - 4 test pass, generating assertion...
-[39311] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[39311] INFO MethodsAssertGenerator - Instrumentation...
- 25% |============ ]/ 50% |========================= ]- 75% |===================================== ]\100% |================================================== ]|
-[39727] INFO MethodsAssertGenerator - Run instrumented tests. (12)
-[41050] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto_withlog0:testSimple_withlog0:testEnumWithTrailingSemicolon_withlog0:testImport_withlog0:testDescriptorProto_withlog1:testSimple_withlog1:testEnumWithTrailingSemicolon_withlog1:testImport_withlog1:testDescriptorProto_withlog2:testSimple_withlog2:testEnumWithTrailingSemicolon_withlog2:testImport_withlog2
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/observations.ser
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
-'group' not supported @ line 19 of enum_with_semicolon.proto
-'group' not supported @ line 19 of enum_with_semicolon.proto
-'group' not supported @ line 19 of enum_with_semicolon.proto
-'group' not supported @ line 85 of unittest.proto
-'group' not supported @ line 117 of unittest.proto
-'group' not supported @ line 196 of unittest.proto
-'group' not supported @ line 230 of unittest.proto
-'group' not supported @ line 390 of unittest.proto
-'group' not supported @ line 391 of unittest.proto
-'group' not supported @ line 85 of unittest.proto
-'group' not supported @ line 117 of unittest.proto
-'group' not supported @ line 196 of unittest.proto
-'group' not supported @ line 230 of unittest.proto
-'group' not supported @ line 390 of unittest.proto
-'group' not supported @ line 391 of unittest.proto
-'group' not supported @ line 85 of unittest.proto
-'group' not supported @ line 117 of unittest.proto
-'group' not supported @ line 196 of unittest.proto
-'group' not supported @ line 230 of unittest.proto
-'group' not supported @ line 390 of unittest.proto
-'group' not supported @ line 391 of unittest.proto
-[179464] INFO EntryPoint - Test has been run: testDescriptorProto_withlog0,testDescriptorProto_withlog1,testDescriptorProto_withlog2,testEnumWithTrailingSemicolon_withlog0,testEnumWithTrailingSemicolon_withlog1,testEnumWithTrailingSemicolon_withlog2,testImport_withlog0,testSimple_withlog0(io.protostuff.parser.ProtoParserTest): src/test/resources/TestModel.proto (No such file or directory),testSimple_withlog1(io.protostuff.parser.ProtoParserTest): src/test/resources/TestModel.proto (No such file or directory),testSimple_withlog2(io.protostuff.parser.ProtoParserTest): src/test/resources/TestModel.proto (No such file or directory),testImport_withlog1(io.protostuff.parser.ProtoParserTest): null,testImport_withlog2(io.protostuff.parser.ProtoParserTest): null
-[179988] INFO MethodsAssertGenerator - Generating assertions...
-[199333] INFO AssertGenerator - 4 new tests with assertions generated
-[558060] WARN TestCompiler - 1 errors during compilation, discarding involved test methods
-[571978] ERROR TestCompiler - Pb(63) The code of method testImport() is exceeding the 65535 bytes limit
-[577471] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testSimple:testEnumWithTrailingSemicolon
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
-[578622] INFO EntryPoint - Test has been run: testDescriptorProto,testEnumWithTrailingSemicolon(io.protostuff.parser.ProtoParserTest): expected:<126172524544> but was:<126161920000>,testSimple(io.protostuff.parser.ProtoParserTest): src/test/resources/TestModel.proto (No such file or directory)
-[585623] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
-[585627] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/119/protostuff-parser//target/classes:dataset/may-2018/protostuff/119/protostuff-parser//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
-[586114] DEBUG Launcher - built in 491 ms
-[586114] DEBUG Launcher - building templates: []
-[586114] DEBUG Launcher - built in 0 ms
-[586189] DEBUG Launcher - model built in 566
-[586191] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
-[586285] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/119/protostuff-parser//target/classes:dataset/may-2018/protostuff/119/protostuff-parser//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
-[629458] DEBUG Launcher - compiled in 43267 ms
-[629460] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testSimple:testEnumWithTrailingSemicolon
-File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
-[630582] INFO EntryPoint - Test has been run: testDescriptorProto,testEnumWithTrailingSemicolon(io.protostuff.parser.ProtoParserTest): expected:<126172524544> but was:<126161838080>,testSimple(io.protostuff.parser.ProtoParserTest): src/test/resources/TestModel.proto (No such file or directory)
-[630586] INFO Amplification - 2 amplified test(s) has been selected, global: 2
-[630586] INFO DSpot - elapsedTime 597253
-======= REPORT =======
-2 amplified test fails on the new versions.
-testSimple(io.protostuff.parser.ProtoParserTest): src/test/resources/TestModel.proto (No such file or directory)
-testEnumWithTrailingSemicolon(io.protostuff.parser.ProtoParserTest): expected:<126172524544> but was:<126161838080>
-
-[630735] INFO DSpot - Print AmplProtoParserTest with 2?amplified test cases in results/may-2018/protostuff/119/A_ampl
-SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-SLF4J: Found binding in [jar:file:/home/spirals/danglot/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
-SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
-[0] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[1] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[21] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[10] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -247,13 +51,13 @@ Grammar /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.704 s
-[INFO] Finished at: 2018-06-08T18:31:58+02:00
-[INFO] Final Memory: 33M/1523M
+[INFO] Total time: 5.330 s
+[INFO] Finished at: 2018-06-11T21:28:22+02:00
+[INFO] Final Memory: 27M/316M
 [INFO] ------------------------------------------------------------------------
-[18850] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
-[18850] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
-[18850] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
+[10890] WARN AutomaticBuilderFactory - No automatic builder specified in configuration, going to default.
+[10891] INFO AutomaticBuilderFactory - Default: provided Maven automatic builder.
+[10891] INFO MavenAutomaticBuilder - run maven clean test -DskipTests dependency:build-classpath -Dmdep.outputFile=target/dspot/classpath
 [WARN] Maven will be executed in interactive mode, but no input stream has been configured for this MavenInvoker instance.
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -299,72 +103,74 @@ Grammar /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/p
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 9.216 s
-[INFO] Finished at: 2018-06-08T18:32:16+02:00
-[INFO] Final Memory: 36M/1580M
+[INFO] Total time: 5.032 s
+[INFO] Finished at: 2018-06-11T21:28:32+02:00
+[INFO] Final Memory: 27M/314M
 [INFO] ------------------------------------------------------------------------
-[31021] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/119/protostuff-parser and dataset/may-2018/protostuff/119_modified/protostuff-parser (c0ac15ea8b19534ee4dc65c77f2204fdea9a2af4)
-[31059] INFO SelectorOnDiff - Modified files:
+[17510] INFO SelectorOnDiff - Selecting according to a diff between dataset/may-2018/protostuff/119/protostuff-parser and dataset/may-2018/protostuff/119_modified/protostuff-parser (c0ac15ea8b19534ee4dc65c77f2204fdea9a2af4)
+[17538] INFO SelectorOnDiff - Modified files:
 a/protostuff-parser/src/main/java/io/protostuff/parser/AnnotationContainer.java
 a/protostuff-parser/src/main/java/io/protostuff/parser/Proto.java
 a/protostuff-parser/src/main/java/io/protostuff/parser/ProtoParser.java
 a/protostuff-parser/src/main/java/io/protostuff/parser/ProtoLexer.java
 a/protostuff-parser/src/test/java/io/protostuff/parser/AnnotationTest.java
 a/protostuff-parser/src/main/java/io/protostuff/parser/Message.java
-[34498] INFO Amplification - amplification of io.protostuff.parser.ProtoParserTest (4 test(s))
-[35054] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testSimple:testEnumWithTrailingSemicolon:testImport
+[20180] INFO Amplification - amplification of io.protostuff.parser.ProtoParserTest (4 test(s))
+[20608] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testSimple:testEnumWithTrailingSemicolon:testImport
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
 'group' not supported @ line 19 of enum_with_semicolon.proto
-[36019] INFO EntryPoint - Test has been run: testEnumWithTrailingSemicolon,testDescriptorProto,testImport(io.protostuff.parser.ProtoParserTest): java.lang.IllegalStateException: Imported proto google/protobuf/unittest_import.proto not found. (src/test/resources/unittest.proto),testSimple(io.protostuff.parser.ProtoParserTest): null
-[36019] WARN Amplification - 2 tests failed before the amplifications
-[36020] WARN Amplification - testImport(io.protostuff.parser.ProtoParserTest): java.lang.IllegalStateException: Imported proto google/protobuf/unittest_import.proto not found. (src/test/resources/unittest.proto)
+[21247] INFO EntryPoint - Test has been run: testEnumWithTrailingSemicolon,testDescriptorProto,testImport(io.protostuff.parser.ProtoParserTest): java.lang.IllegalStateException: Imported proto google/protobuf/unittest_import.proto not found. (src/test/resources/unittest.proto),testSimple(io.protostuff.parser.ProtoParserTest): null
+[21248] WARN Amplification - 2 tests failed before the amplifications
+[21249] WARN Amplification - testImport(io.protostuff.parser.ProtoParserTest): java.lang.IllegalStateException: Imported proto google/protobuf/unittest_import.proto not found. (src/test/resources/unittest.proto)
 testSimple(io.protostuff.parser.ProtoParserTest): null
-[36020] WARN Amplification - Discarding following test cases for the amplification
-[36024] WARN Amplification - testImport
-[36024] WARN Amplification - testSimple
-[36562] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testEnumWithTrailingSemicolon
+[21249] WARN Amplification - Discarding following test cases for the amplification
+[21251] WARN Amplification - testImport
+[21251] WARN Amplification - testSimple
+[21562] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testEnumWithTrailingSemicolon
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
 'group' not supported @ line 19 of enum_with_semicolon.proto
-[37426] INFO EntryPoint - Test has been run: testEnumWithTrailingSemicolon,testDescriptorProto
-[37426] INFO Amplification - Try to add assertions before amplification
-[37503] INFO AssertGenerator - Run tests. (2)
-[37963] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testEnumWithTrailingSemicolon
+[22058] INFO EntryPoint - Test has been run: testEnumWithTrailingSemicolon,testDescriptorProto
+[22058] INFO Amplification - Try to add assertions before amplification
+[22089] INFO AssertGenerator - Run tests. (2)
+[22309] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testEnumWithTrailingSemicolon
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
 'group' not supported @ line 19 of enum_with_semicolon.proto
-[38851] INFO EntryPoint - Test has been run: testEnumWithTrailingSemicolon,testDescriptorProto
-[38851] INFO AssertGenerator - 2 test pass, generating assertion...
-[38875] INFO MethodsAssertGenerator - Add observations points in passing tests.
-[38875] INFO MethodsAssertGenerator - Instrumentation...
+[22800] INFO EntryPoint - Test has been run: testEnumWithTrailingSemicolon,testDescriptorProto
+[22800] INFO AssertGenerator - 2 test pass, generating assertion...
+[22810] INFO MethodsAssertGenerator - Add observations points in passing tests.
+[22810] INFO MethodsAssertGenerator - Instrumentation...
  50% |========================= ]/100% |================================================== ]-
-[38932] INFO MethodsAssertGenerator - Run instrumented tests. (6)
-[39414] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto_withlog0:testEnumWithTrailingSemicolon_withlog0:testDescriptorProto_withlog1:testEnumWithTrailingSemicolon_withlog1:testDescriptorProto_withlog2:testEnumWithTrailingSemicolon_withlog2
+[22834] INFO MethodsAssertGenerator - Run instrumented tests. (6)
+[23044] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto_withlog0:testEnumWithTrailingSemicolon_withlog0:testDescriptorProto_withlog1:testEnumWithTrailingSemicolon_withlog1:testDescriptorProto_withlog2:testEnumWithTrailingSemicolon_withlog2
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/observations.ser
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
 'group' not supported @ line 19 of enum_with_semicolon.proto
 'group' not supported @ line 19 of enum_with_semicolon.proto
 'group' not supported @ line 19 of enum_with_semicolon.proto
-[105705] INFO EntryPoint - Test has been run: testDescriptorProto_withlog0,testDescriptorProto_withlog1,testDescriptorProto_withlog2,testEnumWithTrailingSemicolon_withlog0,testEnumWithTrailingSemicolon_withlog1,testEnumWithTrailingSemicolon_withlog2
-[105817] INFO MethodsAssertGenerator - Generating assertions...
-[106634] INFO AssertGenerator - 2 new tests with assertions generated
-[111483] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testEnumWithTrailingSemicolon
+[54014] INFO EntryPoint - Test has been run: testDescriptorProto_withlog0,testDescriptorProto_withlog1,testDescriptorProto_withlog2,testEnumWithTrailingSemicolon_withlog0,testEnumWithTrailingSemicolon_withlog1,testEnumWithTrailingSemicolon_withlog2
+[54074] INFO MethodsAssertGenerator - Generating assertions...
+[54421] INFO AssertGenerator - 2 new tests with assertions generated
+[57109] INFO EntryPoint - Run: java -cp /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/test-classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/classes:/home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/tmp/Ex2Amplifier-experiments/target/dspot/dependencies:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testEnumWithTrailingSemicolon
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
-[112609] INFO EntryPoint - Test has been run: testDescriptorProto,testEnumWithTrailingSemicolon(io.protostuff.parser.ProtoParserTest): expected:<126171217920> but was:<126170157056>
-[116068] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
-[116076] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/119/protostuff-parser//target/classes:dataset/may-2018/protostuff/119/protostuff-parser//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
-[116709] DEBUG Launcher - built in 641 ms
-[116709] DEBUG Launcher - building templates: []
-[116709] DEBUG Launcher - built in 0 ms
-[116770] DEBUG Launcher - model built in 702
-[116772] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
-[116859] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/119/protostuff-parser//target/classes:dataset/may-2018/protostuff/119/protostuff-parser//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
-[153969] DEBUG Launcher - compiled in 37197 ms
-[153972] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testEnumWithTrailingSemicolon
+'group' not supported @ line 19 of enum_with_semicolon.proto
+[57703] INFO EntryPoint - Test has been run: testEnumWithTrailingSemicolon,testDescriptorProto
+[60034] DEBUG Launcher - building sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
+[60038] DEBUG Launcher - build args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/119/protostuff-parser//target/classes:dataset/may-2018/protostuff/119/protostuff-parser//target/test-classes:, -1.8, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
+[60380] DEBUG Launcher - built in 346 ms
+[60380] DEBUG Launcher - building templates: []
+[60380] DEBUG Launcher - built in 0 ms
+[60412] DEBUG Launcher - model built in 378
+[60414] DEBUG Launcher - compiling sources: [/tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
+[60458] DEBUG Launcher - compile args: [-encoding, UTF-8, -cp, /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:target/dspot/dependencies/:dataset/may-2018/protostuff/119/protostuff-parser//target/classes:dataset/may-2018/protostuff/119/protostuff-parser//target/test-classes:, -d, /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/test-classes, -1.8, -proc:none, -preserveAllLocals, -noExit, -enableJavadoc, /tmp/Ex2Amplifier-experiments/target/dspot/tmp_test_sources/io/protostuff/parser/ProtoParserTest.java]
+[82852] DEBUG Launcher - compiled in 22438 ms
+[82854] INFO EntryPoint - Run: java -cp /home/spirals/danglot/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/spirals/danglot/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/spirals/danglot/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/home/spirals/danglot/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/spirals/danglot/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:target/dspot/dependencies/:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/classes:/tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119_modified/protostuff-parser/target/test-classes:/home/spirals/danglot/.m2/repository/eu/stamp-project/test-runner/1.0.8/test-runner-1.0.8-jar-with-dependencies.jar eu.stamp_project.testrunner.runner.test.TestRunner io.protostuff.parser.ProtoParserTest testDescriptorProto:testEnumWithTrailingSemicolon
 File saved to the following path: /tmp/Ex2Amplifier-experiments/dataset/may-2018/protostuff/119/protostuff-parser/target/dspot/TestListener.ser
-[155063] INFO EntryPoint - Test has been run: testDescriptorProto,testEnumWithTrailingSemicolon(io.protostuff.parser.ProtoParserTest): expected:<126171217920> but was:<126170124288>
-[155066] INFO Amplification - 1 amplified test(s) has been selected, global: 1
-[155066] INFO DSpot - elapsedTime 120629
+'group' not supported @ line 19 of enum_with_semicolon.proto
+[83394] INFO EntryPoint - Test has been run: testEnumWithTrailingSemicolon,testDescriptorProto
+[83394] INFO Amplification - 0 amplified test(s) has been selected, global: 0
+[83394] INFO DSpot - elapsedTime 63260
 ======= REPORT =======
-1 amplified test fails on the new versions.
-testEnumWithTrailingSemicolon(io.protostuff.parser.ProtoParserTest): expected:<126171217920> but was:<126170124288>
+0 amplified test fails on the new versions.
 
-[155275] INFO DSpot - Print AmplProtoParserTest with 1?amplified test cases in results/may-2018/protostuff/119/A_ampl
+[83489] INFO DSpot - Print AmplProtoParserTest with 0?amplified test cases in results/may-2018/protostuff/119/A_ampl
+[83490] DEBUG Launcher - printing io.protostuff.parser.AmplProtoParserTest to /tmp/Ex2Amplifier-experiments/results/may-2018/protostuff/119/A_ampl

@@ -16,6 +16,7 @@ import eu.stamp_project.minimization.Minimizer;
 import org.codehaus.plexus.util.FileUtils;
 import spoon.reflect.declaration.CtMethod;
 import spoon.reflect.declaration.CtType;
+import spoon.reflect.declaration.ModifierKind;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -111,16 +112,11 @@ public class ChangeDetectorSelector implements TestSelector {
 
         final TestListener results;
         try {
-            results = EntryPoint.runTests(classpath + AmplificationHelper.PATH_SEPARATOR +
-                            new File(this.pathToChangedVersionOfProgram + "/" + this.program.getClassesDir()).getAbsolutePath()
-                            + AmplificationHelper.PATH_SEPARATOR +
-                            new File(this.pathToChangedVersionOfProgram + "/" + this.program.getTestClassesDir()).getAbsolutePath(),
-                    clone.getQualifiedName(),
-                    amplifiedTestToBeKept.stream()
-                            .map(CtMethod::getSimpleName)
-                            .toArray(String[]::new)
-
-            );
+            final String finalClasspath = classpath + AmplificationHelper.PATH_SEPARATOR +
+                    new File(this.pathToChangedVersionOfProgram + "/" + this.program.getClassesDir()).getAbsolutePath()
+                    + AmplificationHelper.PATH_SEPARATOR +
+                    new File(this.pathToChangedVersionOfProgram + "/" + this.program.getTestClassesDir()).getAbsolutePath();
+            results = runConcretClass(clone, finalClasspath, amplifiedTestToBeKept);
         } catch (TimeoutException e) {
             throw new RuntimeException(e);
         }
@@ -149,6 +145,38 @@ public class ChangeDetectorSelector implements TestSelector {
             );
         }
         return amplifiedTestToBeKept;
+    }
+
+    private TestListener runConcretClass(CtType<?> testClass, String classPath, List<CtMethod<?>> testsToRun) throws TimeoutException {
+        if (testClass.getModifiers().contains(ModifierKind.ABSTRACT)) { // if the test class is abstract, we use one of its implementation
+            return testClass.getFactory().Type()
+                    .getAll()
+                    .stream()
+                    .filter(ctType -> ctType.getSuperclass() != null && testClass.getReference().equals(ctType.getSuperclass()))
+                    .map(CtType::getQualifiedName)
+                    .map(testClassName -> {
+                        try {
+                            return EntryPoint.runTests(
+                                    classPath + AmplificationHelper.PATH_SEPARATOR + new File( "target/dspot/dependencies/").getAbsolutePath(),
+                                    testClassName,
+                                    testsToRun.stream()
+                                            .map(CtMethod::getSimpleName)
+                                            .toArray(String[]::new));
+                        } catch (TimeoutException e) {
+                            throw new RuntimeException(e);
+                        }
+                    }).reduce(TestListener::aggregate)
+                    .orElse(null);
+
+        } else {
+            return EntryPoint.runTests(
+                    classPath + AmplificationHelper.PATH_SEPARATOR + new File("target/dspot/dependencies/").getAbsolutePath(),
+                    testClass.getQualifiedName(),
+                    testsToRun.stream()
+                            .map(CtMethod::getSimpleName)
+                            .toArray(String[]::new)
+            );
+        }
     }
 
     public int getNbOfAmplification(String fullQualifiedName) {

@@ -6,16 +6,11 @@ import com.martiansoftware.jsap.JSAPResult;
 import eu.stamp_project.dspot.Amplification;
 import eu.stamp_project.dspot.amplifier.TestMethodCallAdder;
 import eu.stamp_project.dspot.amplifier.TestMethodCallRemover;
-import eu.stamp_project.ex2amplifier.catg.CATGExecutor;
 import eu.stamp_project.testrunner.EntryPoint;
-import eu.stamp_project.ex2amplifier.amplifier.Ex2Amplifier;
-import eu.stamp_project.ex2amplifier.jbse.JBSERunner;
 import eu.stamp_project.dspot.DSpot;
 import eu.stamp_project.dspot.amplifier.AllLiteralAmplifiers;
 import eu.stamp_project.dspot.amplifier.Amplifier;
-import eu.stamp_project.dspot.amplifier.StatementAdd;
 import eu.stamp_project.dspot.selector.ChangeDetectorSelector;
-import eu.stamp_project.utils.AmplificationChecker;
 import eu.stamp_project.utils.AmplificationHelper;
 import eu.stamp_project.utils.DSpotUtils;
 import eu.stamp_project.utils.json.ClassTimeJSON;
@@ -27,7 +22,6 @@ import eu.stamp_project.git.ParserPullRequest;
 import eu.stamp_project.git.ProjectJSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import spoon.reflect.declaration.CtMethod;
 import spoon.reflect.declaration.CtType;
 
 import java.io.BufferedReader;
@@ -39,7 +33,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -55,11 +48,7 @@ public class Main {
 
     static boolean reverse = false;
 
-    static boolean Ex2AmplifierMode = true;
-
     static boolean onlyAampl = false;
-
-    static boolean JBSE = false;
 
     public static boolean verbose = false;
 
@@ -77,8 +66,6 @@ public class Main {
         Main.onlyAampl = jsapConfig.getBoolean("aampl");
         AmplificationHelper.minimize = false;
         Amplification.preAmplify = Main.onlyAampl;
-        Main.JBSE = jsapConfig.getBoolean("JBSE");
-        Main.Ex2AmplifierMode = !jsapConfig.getBoolean("amplifiers");
         Main.reverse = jsapConfig.getBoolean("reverse");
         Main.mavenHome = jsapConfig.getString("maven-home");
         if (jsapConfig.getBoolean("help")) {
@@ -126,31 +113,18 @@ public class Main {
                 .forEach(pullRequestJSON -> {
                     try {
                         final InputConfiguration inputConfiguration = InputConfigurationManager.setupConfiguration(id, projectJSON, finalPath, pullRequestJSON);
-
-
                         inputConfiguration.getProperties().setProperty("java_home", "/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/");
-
-                        final List<Amplifier> amplifiers;
-                        if (Ex2AmplifierMode) {
-                            final Ex2Amplifier ex2Amplifier = Ex2Amplifier.getEx2Amplifier(JBSE ?
-                                    Ex2Amplifier.Ex2Amplifier_Mode.JBSE : Ex2Amplifier.Ex2Amplifier_Mode.CATG
-                            );
-                            ex2Amplifier.init(inputConfiguration);
-                            amplifiers = Collections.singletonList(ex2Amplifier);
-                        } else {
-                            amplifiers = Arrays.asList(new AllLiteralAmplifiers(),
+                        final List<Amplifier> amplifiers = Arrays.asList(new AllLiteralAmplifiers(),
                                     new TestMethodCallRemover(),
                                     new TestMethodCallAdder()
-                            );
-                        }
+                        );
                         final ChangeDetectorSelector changeDetectorSelector = new ChangeDetectorSelector();
                         final DSpot dSpot = new DSpot(
                                 inputConfiguration,
-                                Ex2AmplifierMode ? 1 : 3,
+                                3,
                                 onlyAampl ? Collections.emptyList() : amplifiers,
                                 changeDetectorSelector
                         );
-                        CATGExecutor.setWorkingDirectory(new File(dSpot.getInputProgram().getProgramDir()));
                         final Map<String, List<String>> testMethodsAccordingToADiff =
                                 SelectorOnDiff.findTestMethodsAccordingToADiff(inputConfiguration);
                         ctTypes.addAll(

@@ -1,6 +1,5 @@
 package eu.stamp_project;
 
-import eu.stamp_project.ex2amplifier.amplifier.Ex2Amplifier;
 import eu.stamp_project.git.Cloner;
 import eu.stamp_project.git.ProjectJSON;
 import eu.stamp_project.git.PullRequestJSON;
@@ -120,14 +119,8 @@ public class InputConfigurationManager {
         String suffixExp = Main.reverse ? id + "_modified/" : id + "/";
         if (Main.onlyAampl) {
             return suffixExp + "A_ampl";
-        } else if (!Main.Ex2AmplifierMode) {
-            return suffixExp + "I_ampl";
         } else {
-            if (Main.JBSE) {
-                return suffixExp + Ex2Amplifier.Ex2Amplifier_Mode.JBSE.toString();
-            } else {
-                return suffixExp + Ex2Amplifier.Ex2Amplifier_Mode.CATG.toString();
-            }
+            return suffixExp + "I_ampl";
         }
     }
 }

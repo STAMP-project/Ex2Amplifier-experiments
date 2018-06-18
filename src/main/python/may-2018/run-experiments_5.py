@@ -12,7 +12,7 @@ def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
         "~/apache-maven-3.3.9/bin/" if onClusty else "") + "mvn dependency:build-classpath | grep /home`"
 
     base_cmd_jar = ("~/jdk1.8.0_121/bin/" if onClusty else "") + \
-                   "java "+ ("-Xms16G -Xmx32G" if onClusty else "") \
+                   "java "+ (" -XX:-UseGCOverheadLimit -Xms16G -Xmx32G" if onClusty else "") \
                    +" -cp target/Ex2Amplifier-experiments-0.0.1-SNAPSHOT.jar:${classpath} eu.stamp_project.Main "
     date = "may-2018"
     prefix_dataset = "dataset" + "/" + date + "/"
@@ -21,7 +21,7 @@ def run(project, flags, onClusty=False, mustClone=True, index=[-1]):
 
     if onClusty:
         print "export MAVEN_HOME=~/apache-maven-3.3.9/"
-        print "export JAVA_OPTS=\"-XX:-OmitStackTraceInFastThrow -XX:-UseGCOverheadLimit\""
+        print "#export JAVA_OPTS=\"-XX:-OmitStackTraceInFastThrow\""
 
     if mustClone:
         cmd_clone = base_cmd_jar + " --clone " + path_to_json_project_file + " --output " + prefix_dataset

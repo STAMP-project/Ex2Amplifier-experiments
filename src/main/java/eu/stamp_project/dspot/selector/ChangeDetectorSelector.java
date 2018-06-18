@@ -1,5 +1,6 @@
 package eu.stamp_project.dspot.selector;
 
+import eu.stamp_project.Main;
 import eu.stamp_project.testrunner.EntryPoint;
 import eu.stamp_project.testrunner.runner.test.Failure;
 import eu.stamp_project.testrunner.runner.test.TestListener;
@@ -14,6 +15,8 @@ import eu.stamp_project.utils.sosiefier.InputProgram;
 import eu.stamp_project.minimization.ChangeMinimizer;
 import eu.stamp_project.minimization.Minimizer;
 import org.codehaus.plexus.util.FileUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import spoon.reflect.declaration.CtMethod;
 import spoon.reflect.declaration.CtType;
 import spoon.reflect.declaration.ModifierKind;
@@ -31,6 +34,8 @@ import java.util.concurrent.TimeoutException;
  * Override version of eu.stamp_project.dspot.selector.ChangeDetectorSelector of DSpot
  */
 public class ChangeDetectorSelector implements TestSelector {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(ChangeDetectorSelector.class);
 
     private Map<String, Integer> nbOfAmplificationPerTestClass;
 
@@ -122,15 +127,18 @@ public class ChangeDetectorSelector implements TestSelector {
         }
         if (!results.getFailingTests().isEmpty()) {
             results.getFailingTests()
-                    .forEach(failure ->
-                            this.failurePerAmplifiedTest.put(
-                                    amplifiedTestToBeKept.stream()
-                                            .filter(ctMethod ->
-                                                    ctMethod.getSimpleName().equals(failure.testCaseName)
-                                            ).findFirst()
-                                            .get(), failure)
+                    .forEach(failure -> {
+                                this.failurePerAmplifiedTest.put(
+                                        amplifiedTestToBeKept.stream()
+                                                .filter(ctMethod ->
+                                                        ctMethod.getSimpleName().equals(failure.testCaseName)
+                                                ).findFirst()
+                                                .get(), failure);
+                                LOGGER.info("selected test: {}", failure.testCaseName);
+                            }
                     );
         }
+        LOGGER.info("{} test cases failing on the other version.", results.getFailingTests().size());
         if (!this.nbOfAmplificationPerTestClass.containsKey(
                 this.currentClassTestToBeAmplified.getQualifiedName())
                 ) {
@@ -157,7 +165,7 @@ public class ChangeDetectorSelector implements TestSelector {
                     .map(testClassName -> {
                         try {
                             return EntryPoint.runTests(
-                                    classPath + AmplificationHelper.PATH_SEPARATOR + new File( "target/dspot/dependencies/").getAbsolutePath(),
+                                    classPath + AmplificationHelper.PATH_SEPARATOR + new File("target/dspot/dependencies/").getAbsolutePath(),
                                     testClassName,
                                     testsToRun.stream()
                                             .map(CtMethod::getSimpleName)

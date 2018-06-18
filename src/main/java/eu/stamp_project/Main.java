@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.martiansoftware.jsap.JSAPResult;
 import eu.stamp_project.dspot.Amplification;
+import eu.stamp_project.dspot.amplifier.TestMethodCallAdder;
+import eu.stamp_project.dspot.amplifier.TestMethodCallRemover;
 import eu.stamp_project.ex2amplifier.catg.CATGExecutor;
 import eu.stamp_project.testrunner.EntryPoint;
 import eu.stamp_project.ex2amplifier.amplifier.Ex2Amplifier;
@@ -13,6 +15,7 @@ import eu.stamp_project.dspot.amplifier.AllLiteralAmplifiers;
 import eu.stamp_project.dspot.amplifier.Amplifier;
 import eu.stamp_project.dspot.amplifier.StatementAdd;
 import eu.stamp_project.dspot.selector.ChangeDetectorSelector;
+import eu.stamp_project.utils.AmplificationChecker;
 import eu.stamp_project.utils.AmplificationHelper;
 import eu.stamp_project.utils.DSpotUtils;
 import eu.stamp_project.utils.json.ClassTimeJSON;
@@ -24,6 +27,7 @@ import eu.stamp_project.git.ParserPullRequest;
 import eu.stamp_project.git.ProjectJSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import spoon.reflect.declaration.CtMethod;
 import spoon.reflect.declaration.CtType;
 
 import java.io.BufferedReader;
@@ -77,9 +81,6 @@ public class Main {
         Main.Ex2AmplifierMode = !jsapConfig.getBoolean("amplifiers");
         Main.reverse = jsapConfig.getBoolean("reverse");
         Main.mavenHome = jsapConfig.getString("maven-home");
-
-        JBSERunner.depthScope = jsapConfig.getInt("depth");
-        JBSERunner.countScope = jsapConfig.getInt("count");
         if (jsapConfig.getBoolean("help")) {
             JSAPOptions.showUsage();
         } else if (jsapConfig.getBoolean("get")) {
@@ -87,6 +88,7 @@ public class Main {
         } else if (jsapConfig.getString("clone") != null) {
             try {
                 Main.cloneFromFork(jsapConfig.getString("clone"), jsapConfig.getString("output"), jsapConfig.getInt("id"));
+//                Main.clone(jsapConfig.getString("clone"), jsapConfig.getString("output"));
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
@@ -124,6 +126,10 @@ public class Main {
                 .forEach(pullRequestJSON -> {
                     try {
                         final InputConfiguration inputConfiguration = InputConfigurationManager.setupConfiguration(id, projectJSON, finalPath, pullRequestJSON);
+
+
+                        inputConfiguration.getProperties().setProperty("java_home", "/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/");
+
                         final List<Amplifier> amplifiers;
                         if (Ex2AmplifierMode) {
                             final Ex2Amplifier ex2Amplifier = Ex2Amplifier.getEx2Amplifier(JBSE ?
@@ -132,7 +138,10 @@ public class Main {
                             ex2Amplifier.init(inputConfiguration);
                             amplifiers = Collections.singletonList(ex2Amplifier);
                         } else {
-                            amplifiers = Collections.singletonList(new AllLiteralAmplifiers());
+                            amplifiers = Arrays.asList(new AllLiteralAmplifiers(),
+                                    new TestMethodCallRemover(),
+                                    new TestMethodCallAdder()
+                            );
                         }
                         final ChangeDetectorSelector changeDetectorSelector = new ChangeDetectorSelector();
                         final DSpot dSpot = new DSpot(

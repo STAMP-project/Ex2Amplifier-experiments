@@ -45,9 +45,11 @@ public class InputConfigurationManager {
                     inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + "/");
         } else {
             inputConfiguration.getProperties().setProperty("project",
-                    inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + "/");
+                    inputConfiguration.getProperty("project") + "/" + pullRequestJSON.id + "/" +
+                            (projectJSON.name.equals("geoserver") ? "src/" : ""));
             inputConfiguration.getProperties().setProperty("folderPath",
-                    inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/");
+                    inputConfiguration.getProperty("folderPath") + "/" + pullRequestJSON.id + Cloner.SUFFIX_VERSION_2 + "/"+
+                            (projectJSON.name.equals("geoserver") ? "src/" : ""));
         }
 
         inputConfiguration.getProperties().setProperty("outputDirectory",
@@ -63,15 +65,14 @@ public class InputConfigurationManager {
             inputConfiguration.getProperties().put("maven.home", Main.mavenHome);
         }
 
-        final String module = getModule(pullRequestJSON.baseSha, inputConfiguration);
+        final String module = getModule(pullRequestJSON.baseSha, inputConfiguration, projectJSON.name);
         if (!module.isEmpty()) {
             inputConfiguration.getProperties().setProperty("targetModule", module);
         }
-
         return inputConfiguration;
     }
 
-    private static String getModule(String baseSha, InputConfiguration configuration) {
+    private static String getModule(String baseSha, InputConfiguration configuration, String name) {
         Process p;
         try {
             p = Runtime.getRuntime().exec(
@@ -91,7 +92,16 @@ public class InputConfigurationManager {
                             .filter(line -> !(line.contains(configuration.getRelativeTestSourceCodeDir())))
                             .collect(
                                     Collectors.groupingBy(
-                                            line -> line.split(" ")[2].substring(2).split("/")[0],
+                                            line -> {
+                                                System.out.println(line);
+                                                String head = line.split(" ")[2];
+                                                if (head.startsWith("a/src/")) {
+                                                    head = head.substring(6);
+                                                } else {
+                                                    head = head.substring(2);
+                                                }
+                                                return head.split("/")[0];
+                                            },
                                             Collectors.counting()
                                     )
                             );

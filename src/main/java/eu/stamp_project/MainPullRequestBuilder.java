@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import eu.stamp_project.git.ProjectJSON;
 import eu.stamp_project.git.PullRequestJSON;
+import org.kohsuke.github.GHCommit;
 import org.kohsuke.github.GHPullRequest;
 import org.kohsuke.github.GHRepository;
 import org.kohsuke.github.GitHub;
@@ -42,15 +43,27 @@ public class MainPullRequestBuilder {
         final GitHub gitHub = GitHub.connectAnonymously();
         final GHRepository repository = gitHub.getRepository(nameOfRepository);
         final GHPullRequest ghPullRequest = repository.getPullRequest(idOfPullRequest);
-        final String fileName = "dataset/may-2018" + "/" + repository.getName() + ".json";
+        final String fileName = "dataset/june-2018" + "/" + repository.getName() + ".json";
+        System.out.println(ghPullRequest.getBase().getCommit().getSHA1());
+        GHCommit commit;
+        try {
+            commit = ghPullRequest.getHead().getCommit();
+        } catch (Exception e) {
+            commit = null;
+        }
         final PullRequestJSON pullRequestJSON = new PullRequestJSON(
                 ghPullRequest.getNumber(),
                 ghPullRequest.getBase().getRepository().getGitTransportUrl(),
                 ghPullRequest.getBase().getRef(),
                 ghPullRequest.getBase().getCommit().getSHA1(),
-                ghPullRequest.getHead().getRepository().getGitTransportUrl(),
+                ghPullRequest.getHead().getRepository() != null ?
+                        ghPullRequest.getHead().getRepository().getGitTransportUrl() :
+                        ghPullRequest.getBase().getRepository().getGitTransportUrl()
+                ,
                 ghPullRequest.getHead().getRef(),
-                ghPullRequest.getHead().getCommit().getSHA1()
+                commit != null ?
+                        commit.getSHA1() :
+                        "TODO"
         );
         final ProjectJSON projectJSON;
         if (new File(fileName).exists()) {

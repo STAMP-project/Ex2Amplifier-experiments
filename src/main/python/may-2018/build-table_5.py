@@ -117,6 +117,14 @@ def buildSanityTable(path, isSuccess):
         # table += "\\cmark" + "&" + ("\\xmark" if isSuccess else "\\cmark") + "\n"
     table += "\\end{pmatrix}$\n"
 
+    if sanityAsArray[0][1] == "1":
+        if sanityAsArray[1][0] == "1":
+            return "$\\zeta$"
+        else:
+            return "$\\beta$"
+    else:
+        return "$\\alpha$"
+
     return "$\\alpha$" if sanityAsArray[0][1] == "0" else "$\\beta$"
 
     return table

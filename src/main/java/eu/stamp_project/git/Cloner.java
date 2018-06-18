@@ -57,10 +57,12 @@ public class Cloner {
             final String outputPath = out + "/" + pr.id;
             final File outputFile = new File(outputPath);
             final File outputFileModified = new File(outputPath + SUFFIX_VERSION_2);
-            if (outputFile.exists()) {
+            if (outputFile.exists() && outputFileModified.exists()) {
                 return;
             }
-            clone(pr.baseUrl, pr.baseRef, outputFile);
+            if (!outputFile.exists()) {
+                clone(pr.baseUrl, pr.baseRef, outputFile);
+            }
             // we add the pr remote and fetch it, in order to make the diff
             addRemoteAndFetchIt(pr.headUrl, outputFile);
             clone(pr.headUrl, pr.headRef, outputFileModified);

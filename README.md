@@ -20,17 +20,17 @@ docker run --env CASE_STUDY=${1} --rm bdanglot/scam18-case-study
 
 with `${1}` the index of the case study you want to reproduce, _i.e._ 1 2 or 3.
 
-### Protostuff#167
+### Protostuff#167
 ```
 docker run --env CASE_STUDY=1 --rm bdanglot/scam18-case-study
 ```
 
-### Javapoet#550
+### Javapoet#550
 ```
 docker run --env CASE_STUDY=2 --rm bdanglot/scam18-case-study
 ```
 
-### Javapoet#608
+### Javapoet#608
 ```
 docker run --env CASE_STUDY=3 --rm bdanglot/scam18-case-study
 ```

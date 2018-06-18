@@ -1,16 +1,39 @@
-# Ex2Amplifier-experiments [![Build Status](https://travis-ci.org/STAMP-project/Ex2Amplifier-experiments.svg?branch=master)](https://travis-ci.org/STAMP-project/Ex2Amplifier-experiments)
+# Ex2Amplifier-experiments [![Build Status](https://travis-ci.org/STAMP-project/Ex2Amplifier-experiments.svg?branch=scam-18-branch)](https://travis-ci.org/STAMP-project/Ex2Amplifier-experiments)
 
-## Experiment january-2018
+## Experiment june-2018
 
-Amplification on pull request on github projects. We compare two kinds of amplifications:
-*  [Ex2Amplification](https://github.com/STAMP-project/Ex2Amplifier.git) use symbolic execution to generate literals values to explore exhausitively the test data input space.
-*  Classical Search-based amplication with [**DSpot**](http://STAMP-project/dspot.git) with the following options:
-    * Input-amplifiers: StatementAdd, ReplacementAmplifier and AllLiteralAmplifiers.
-    * 3 iterations.
+## Case studies
 
-In both case, we use the `ChangeDetectorSelector`, _i.e._
-`--test-criterion ChangeDetectorSelector` and we select test classes to be
-amplified according to a diff: _i.e._ `--test diff` options for **DSpot**.
+Each case studies can be run on travis, using a docker container.
+
+The docker can be obtained with:
+
+```
+docker pull bdanglot/scam18-case-study
+```
+
+Then, you can execute each case study with:
+
+```
+docker run --env CASE_STUDY=${1} --rm bdanglot/scam18-case-study
+```
+
+with `${1}` the index of the case study you want to reproduce, _i.e._ 1 2 or 3.
+
+### Protostuff#167
+```
+docker run --env CASE_STUDY=1 --rm bdanglot/scam18-case-study
+```
+
+### Javapoet#550
+```
+docker run --env CASE_STUDY=2 --rm bdanglot/scam18-case-study
+```
+
+### Javapoet#608
+```
+docker run --env CASE_STUDY=3 --rm bdanglot/scam18-case-study
+```
 
 ## Install
 

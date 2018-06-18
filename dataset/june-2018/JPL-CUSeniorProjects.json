@@ -1,0 +1,33 @@
+{
+  "name": "JPL-CUSeniorProjects",
+  "url": "git://github.com/elbonian/JPL-CUSeniorProjects.git",
+  "pullRequests": [
+    {
+      "id": 6,
+      "baseUrl": "git://github.com/elbonian/JPL-CUSeniorProjects.git",
+      "baseRef": "dev",
+      "baseSha": "d9a57d94db03781eb3f248e839587c0f07efb0ba",
+      "headUrl": "git://github.com/elbonian/JPL-CUSeniorProjects.git",
+      "headRef": "feature/mars-67-68-new",
+      "headSha": "220cad1809ab11308edab21022eef460f658f2af"
+    },
+    {
+      "id": 36,
+      "baseUrl": "git://github.com/elbonian/JPL-CUSeniorProjects.git",
+      "baseRef": "dev",
+      "baseSha": "054b7d994b72f046cbac40d09efce3902c700734",
+      "headUrl": "git://github.com/elbonian/JPL-CUSeniorProjects.git",
+      "headRef": "mars-121-show-options-in-ui",
+      "headSha": "0e1e44f74cb4432b3ae67470e35c626f20717cef"
+    },
+    {
+      "id": 26,
+      "baseUrl": "git://github.com/elbonian/JPL-CUSeniorProjects.git",
+      "baseRef": "dev",
+      "baseSha": "0d006363b89ba57a129d11c19098d70554d13652",
+      "headUrl": "git://github.com/elbonian/JPL-CUSeniorProjects.git",
+      "headRef": "RossDijkstra",
+      "headSha": "ef9daaff4eca28da8684fe23a642ea75c969b54b"
+    }
+  ]
+}

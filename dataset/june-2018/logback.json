@@ -1,0 +1,15 @@
+{
+  "name": "logback",
+  "url": "git://github.com/qos-ch/logback.git",
+  "pullRequests": [
+    {
+      "id": 341,
+      "baseUrl": "git://github.com/qos-ch/logback.git",
+      "baseRef": "master",
+      "baseSha": "e0e1756fd0c216ea7ba2985d82db07fabdc2ef3c",
+      "headUrl": "git://github.com/wuwen5/logback.git",
+      "headRef": "fix-sizeandtimebasedfnatp-npe",
+      "headSha": "81543754ea840573e6578df0dc48678a1617b7d1"
+    }
+  ]
+}

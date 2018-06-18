@@ -1,0 +1,51 @@
+{
+  "name": "tavern",
+  "url": "git://github.com/danglotb/tavern.git",
+  "pullRequests": [
+    {
+      "id": 4,
+      "baseUrl": "git://github.com/danglotb/tavern.git",
+      "baseRef": "master",
+      "baseSha": "9a2366528acaeb0ed7ae109a02e2242c85bab142",
+      "headUrl": "git://github.com/danglotb/tavern.git",
+      "headRef": "pr-1",
+      "headSha": "69d2fc3b4dde8ca7d1a2a25cfe9960e0406c05c1"
+    },
+    {
+      "id": 8,
+      "baseUrl": "git://github.com/danglotb/tavern.git",
+      "baseRef": "behavioral-change",
+      "baseSha": "4164f9fb8839056ffcaab02dec073b8ce61c1a0f",
+      "headUrl": "git://github.com/danglotb/tavern.git",
+      "headRef": "behavioral-change-torus",
+      "headSha": "88e8244a83e66a5064c6ef4109caab818f97efe9"
+    },
+    {
+      "id": 9,
+      "baseUrl": "git://github.com/danglotb/tavern.git",
+      "baseRef": "behavioral-change-2",
+      "baseSha": "7ad1270bff6235f7a58de2aac77519d04b6f28f0",
+      "headUrl": "git://github.com/danglotb/tavern.git",
+      "headRef": "behavioral-change-torus-2",
+      "headSha": "6374c740f6f14ee2993a20939afceb981b9c691a"
+    },
+    {
+      "id": 10,
+      "baseUrl": "git://github.com/danglotb/tavern.git",
+      "baseRef": "behavioral-change-new-items",
+      "baseSha": "e288faf698c4cff3010db6b42269453c4c9468d4",
+      "headUrl": "git://github.com/danglotb/tavern.git",
+      "headRef": "behavioral-change-new-items-refactor",
+      "headSha": "cbd50f362077e483f868b5dc1f480249dadea22b"
+    },
+    {
+      "id": 11,
+      "baseUrl": "git://github.com/danglotb/tavern.git",
+      "baseRef": "behavioral-change-new-items",
+      "baseSha": "e288faf698c4cff3010db6b42269453c4c9468d4",
+      "headUrl": "git://github.com/danglotb/tavern.git",
+      "headRef": "behavioral-change-new-items-2",
+      "headSha": "617829361924ef6be95c205b8d48dcf70d20afc6"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "geoserver",
+  "url": "git://github.com/geoserver/geoserver.git",
+  "pullRequests": [
+    {
+      "id": 2909,
+      "baseUrl": "git://github.com/geoserver/geoserver.git",
+      "baseRef": "master",
+      "baseSha": "9f74cdf6ac8bacbdfaf94c3a5b2362c7ff2ce1a3",
+      "headUrl": "git://github.com/geoserver/geoserver.git",
+      "headRef": "gwc-truncate-on-transaction",
+      "headSha": "2c47c66fcb4b1e8031de895e9d6fa9f4f7e84bee"
+    },
+    {
+      "id": 2900,
+      "baseUrl": "git://github.com/geoserver/geoserver.git",
+      "baseRef": "2.13.x",
+      "baseSha": "a623c80f5d29b6836eccb75f0565bd4d598fc713",
+      "headUrl": "git://github.com/dromagnoli/geoserver.git",
+      "headRef": "GEOS-8767-2.13.x",
+      "headSha": "1edbe6de9f48396db9038f46f22e87bc3ee6f7c0"
+    },
+    {
+      "id": 2891,
+      "baseUrl": "git://github.com/geoserver/geoserver.git",
+      "baseRef": "master",
+      "baseSha": "5729bcf10adb285a317e22eb3ac1ea5fcfa7b665",
+      "headUrl": "git://github.com/geosolutions-it/geoserver.git",
+      "headRef": "GEOS-8756",
+      "headSha": "95237a4005a5fad5a2cee0315a372e2cd2752fa0"
+    },
+    {
+      "id": 2863,
+      "baseUrl": "git://github.com/geoserver/geoserver.git",
+      "baseRef": "master",
+      "baseSha": "da9ef80e85fab9f20b3e7f4ba6a26a9da717cb3b",
+      "headUrl": "git://github.com/nmco/geoserver.git",
+      "headRef": "fix-app-schema-tests",
+      "headSha": "8f497e25f0b5f0d842880e7c43968b0e0a1e127f"
+    },
+    {
+      "id": 2856,
+      "baseUrl": "git://github.com/geoserver/geoserver.git",
+      "baseRef": "master",
+      "baseSha": "91472495dd564dcd77d058cf917f5d9533598d24",
+      "headUrl": "git://github.com/geoserver/geoserver.git",
+      "headRef": "geofence-feedback-master",
+      "headSha": "ce0231b8298dd97291a76430fc29c7eb9aa035d3"
+    },
+    {
+      "id": 2835,
+      "baseUrl": "git://github.com/geoserver/geoserver.git",
+      "baseRef": "2.13.x",
+      "baseSha": "15faeb172151183b9efba6dcded7b751bfd6b08d",
+      "headUrl": "git://github.com/dromagnoli/geoserver.git",
+      "headRef": "WFS-2.0-backports",
+      "headSha": "49672fb30763d008c0008ab55d59b5b23e0e3b7f"
+    },
+    {
+      "id": 2832,
+      "baseUrl": "git://github.com/geoserver/geoserver.git",
+      "baseRef": "2.12.x",
+      "baseSha": "b77449e1a13313b9cf83bb7a5b72b202363a9efd",
+      "headUrl": "git://github.com/geoserver/geoserver.git",
+      "headRef": "GEOS-8666-2-2.12.x",
+      "headSha": "f7cb63eacb182cf79dce0d8f8b053f2b94bb369d"
+    },
+    {
+      "id": 2737,
+      "baseUrl": "git://github.com/geoserver/geoserver.git",
+      "baseRef": "master",
+      "baseSha": "d1a9378bc354313a2a480b546dc1c2575cec62af",
+      "headUrl": "git://github.com/emerkle826/geoserver.git",
+      "headRef": "geos-7233",
+      "headSha": "81caace0fec45ebc89969e451179f083adade5cf"
+    }
+  ]
+}

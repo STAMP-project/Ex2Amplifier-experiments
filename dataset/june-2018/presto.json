@@ -1,0 +1,24 @@
+{
+  "name": "presto",
+  "url": "git://github.com/prestodb/presto.git",
+  "pullRequests": [
+    {
+      "id": 10748,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "ba45308c702cd269c6515cf314886781f4ae5bdd",
+      "headUrl": "git://github.com/mbasmanova/presto.git",
+      "headRef": "generic-rule",
+      "headSha": "a0ac9d01f505a5a494a5d13e7fc20eb6205472ba"
+    },
+    {
+      "id": 10786,
+      "baseUrl": "git://github.com/prestodb/presto.git",
+      "baseRef": "master",
+      "baseSha": "6adc8fd6c0fa7f359e5378331f95373d40a1f33a",
+      "headUrl": "git://github.com/mbasmanova/presto.git",
+      "headRef": "generic-rule",
+      "headSha": "f5e4761c68ccf3a8236863856e07a54a6cb43751"
+    }
+  ]
+}

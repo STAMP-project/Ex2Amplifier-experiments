@@ -56,6 +56,15 @@
       "headUrl": "git://github.com/dyu/protostuff.git",
       "headRef": "issue-22",
       "headSha": "829edec21f805cdc8fea2993561ac4e77994f647"
+    },
+    {
+      "id": 199,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "d33c6992046c6787d0768a6c9f6bf5d4d29a7348",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "speedup-repeated",
+      "headSha": "760e5d67b737150048c05d462102caa787b34baf"
     }
   ]
 }

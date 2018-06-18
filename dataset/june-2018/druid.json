@@ -1,0 +1,24 @@
+{
+  "name": "druid",
+  "url": "git://github.com/druid-io/druid.git",
+  "pullRequests": [
+    {
+      "id": 5544,
+      "baseUrl": "git://github.com/druid-io/druid.git",
+      "baseRef": "master",
+      "baseSha": "50e0e7f97d6e39ded9cd7ec9d8c6da43320d0048",
+      "headUrl": "git://github.com/niketh/druid.git",
+      "headRef": "avoid-overflow",
+      "headSha": "04a860d58b8e7da8d92ad58ec30cfefd647959a6"
+    },
+    {
+      "id": 5201,
+      "baseUrl": "git://github.com/druid-io/druid.git",
+      "baseRef": "master",
+      "baseSha": "0ebfb3fbb05a39d59086471f63f053261eb1ebe5",
+      "headUrl": "git://github.com/nishantmonu51/druid.git",
+      "headRef": "kafka-emitter-fix",
+      "headSha": "d73db21d230fe89be9d283eab3fc96db9d8b15f5"
+    }
+  ]
+}

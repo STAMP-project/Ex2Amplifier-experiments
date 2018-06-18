@@ -1,0 +1,15 @@
+{
+  "name": "commons-math",
+  "url": "git://github.com/apache/commons-math.git",
+  "pullRequests": [
+    {
+      "id": 80,
+      "baseUrl": "git://github.com/apache/commons-math.git",
+      "baseRef": "master",
+      "baseSha": "a37dcb93bed20ee302526473a9653f6cb5ae51a1",
+      "headUrl": "git://github.com/darkma773r/commons-math.git",
+      "headRef": "bug-MATH-1449",
+      "headSha": "53a0a9ff85666348a38054e335f5b4c5355a6419"
+    }
+  ]
+}

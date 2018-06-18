@@ -1,0 +1,24 @@
+{
+  "name": "retrofit",
+  "url": "git://github.com/square/retrofit.git",
+  "pullRequests": [
+    {
+      "id": 2685,
+      "baseUrl": "git://github.com/square/retrofit.git",
+      "baseRef": "master",
+      "baseSha": "98ddee499c2758ad45a83f34035fd74260c44c48",
+      "headUrl": "git://github.com/square/retrofit.git",
+      "headRef": "jakew/small-tweaks/2018-03-06",
+      "headSha": "daa7b7c88a7b8f175193e07faef2c3ea5ac741dc"
+    },
+    {
+      "id": 2667,
+      "baseUrl": "git://github.com/square/retrofit.git",
+      "baseRef": "master",
+      "baseSha": "10105d2962e009cad831bf8a17f49aadaf464664",
+      "headUrl": "git://github.com/square/retrofit.git",
+      "headRef": "jakew/variable-name/2018-02-18",
+      "headSha": "09766c48c2c900578297d860c70667e8301dfbca"
+    }
+  ]
+}

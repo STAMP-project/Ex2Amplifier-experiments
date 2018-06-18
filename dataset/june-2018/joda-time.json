@@ -1,0 +1,24 @@
+{
+  "name": "joda-time",
+  "url": "git://github.com/JodaOrg/joda-time.git",
+  "pullRequests": [
+    {
+      "id": 182,
+      "baseUrl": "git://github.com/JodaOrg/joda-time.git",
+      "baseRef": "master",
+      "baseSha": "986d905f76176322356df6ef520dc33256827f0a",
+      "headUrl": "git://github.com/JodaOrg/joda-time.git",
+      "headRef": "fix_#173",
+      "headSha": "504acaef364e4626161b372744441bb44866abd4"
+    },
+    {
+      "id": 159,
+      "baseUrl": "git://github.com/JodaOrg/joda-time.git",
+      "baseRef": "master",
+      "baseSha": "8626507f5df4133fb0c341a85e22fc87f25250db",
+      "headUrl": "git://github.com/chungyeol/joda-time.git",
+      "headRef": "master",
+      "headSha": "fc231dc3ed22d75bdcb1f386136baa4c4d93131d"
+    }
+  ]
+}

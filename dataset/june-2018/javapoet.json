@@ -1,0 +1,16 @@
+{
+  "date": "02/04/18",
+  "name": "javapoet",
+  "url": "git://github.com/square/javapoet.git",
+  "pullRequests": [
+    {
+      "id": 550,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "0d6bdebf124a0c0e2a52ef520231b64e98c77a64",
+      "headUrl": "git://github.com/baz8080/javapoet.git",
+      "headRef": "baz8080/npe-messaging-in-methodspec",
+      "headSha": "9ef7448a5040626cdd9ddbc69cb82a0e53183b62"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mybatis-3",
+  "url": "git://github.com/mybatis/mybatis-3.git",
+  "pullRequests": [
+    {
+      "id": 1242,
+      "baseUrl": "git://github.com/mybatis/mybatis-3.git",
+      "baseRef": "master",
+      "baseSha": "d30f6478153169dc57aa9f308d0c6f021a5bf7a2",
+      "headUrl": "git://github.com/mybatis/mybatis-3.git",
+      "headRef": "nullablebasetypehandler",
+      "headSha": "7282f76e0455375088d3ee83bd3ac798768c0aa0"
+    }
+  ]
+}

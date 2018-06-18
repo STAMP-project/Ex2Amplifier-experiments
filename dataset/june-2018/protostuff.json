@@ -1,0 +1,42 @@
+{
+  "name": "protostuff",
+  "url": "git://github.com/protostuff/protostuff.git",
+  "pullRequests": [
+    {
+      "id": 199,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "d33c6992046c6787d0768a6c9f6bf5d4d29a7348",
+      "headUrl": "git://github.com/dyu/protostuff.git",
+      "headRef": "speedup-repeated",
+      "headSha": "760e5d67b737150048c05d462102caa787b34baf"
+    },
+    {
+      "id": 187,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "f0e06993a3e69eba8c48704f667e4d838c97aec8",
+      "headUrl": "git://github.com/protostuff/protostuff.git",
+      "headRef": "fix/json-unknown-array-fields",
+      "headSha": "f92b1367930b69a96632d9fafc4d9100615ef0c1"
+    },
+    {
+      "id": 169,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "6398d146cecf8456fc79d5382bfe71798c954482",
+      "headUrl": "git://github.com/kshchepanovskyi/protostuff.git",
+      "headRef": "fix/unsigned-numbers-serialization",
+      "headSha": "232187c2545ca148b07537a6608ba3fa3ec57841"
+    },
+    {
+      "id": 167,
+      "baseUrl": "git://github.com/protostuff/protostuff.git",
+      "baseRef": "master",
+      "baseSha": "277ad3890775006130b41d690e991b029964566c",
+      "headUrl": "git://github.com/kshchepanovskyi/protostuff.git",
+      "headRef": "fix/to-string-for-byte-string",
+      "headSha": "9d09f3ec1cdebeb14f9e0eeff3d8a57494fc7adf"
+    }
+  ]
+}

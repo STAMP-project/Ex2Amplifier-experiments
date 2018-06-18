@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.geoserver.wfs.v2_0.StoredQueryTest",
+      "timeInMs": 53190,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
+    }
+  ],
+  "projectName": "wfs"
+}

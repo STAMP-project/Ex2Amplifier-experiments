@@ -13,21 +13,23 @@ import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
+import org.junit.Test;
 
 
 public final class AmplMethodSpecTest {
     @Target(ElementType.PARAMETER)
     @interface Nullable {}
 
-    abstract static class Everything {
+    static abstract class Everything {
         @Deprecated
         protected abstract <T extends Runnable & Closeable> Runnable everything(@AmplMethodSpecTest.Nullable
         String thing, List<? extends T> things) throws IOException, SecurityException;
     }
 
-    abstract static class HasAnnotation {
+    static abstract class HasAnnotation {
         @Override
         public abstract String toString();
     }
@@ -60,6 +62,32 @@ public final class AmplMethodSpecTest {
             }
         }
         throw new IllegalArgumentException(((name + " not found in ") + elements));
+    }
+
+    @Test(timeout = 120000)
+    public void nullExceptionsAdditionlitString2_failAssert0() throws Exception {
+        try {
+            try {
+                MethodSpec.methodBuilder(null).addExceptions(null);
+            } catch (IllegalArgumentException expected) {
+            }
+            Assert.fail("nullExceptionsAdditionlitString2 should have thrown NullPointerException");
+        } catch (NullPointerException expected_1) {
+            Assert.assertEquals(null, expected_1.getMessage());
+        }
+    }
+
+    @Test(timeout = 120000)
+    public void nullExceptionsAdditionlitString4_failAssert0() throws Exception {
+        try {
+            try {
+                MethodSpec.methodBuilder(null).addExceptions(null);
+            } catch (IllegalArgumentException expected) {
+            }
+            org.junit.Assert.fail("nullExceptionsAdditionlitString4 should have thrown NullPointerException");
+        } catch (NullPointerException expected_1) {
+            Assert.assertEquals(null, expected_1.getMessage());
+        }
     }
 }
 

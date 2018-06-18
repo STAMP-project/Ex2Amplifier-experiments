@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "mars.AppTest",
+      "timeInMs": 5871,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 2
+    }
+  ],
+  "projectName": "6"
+}

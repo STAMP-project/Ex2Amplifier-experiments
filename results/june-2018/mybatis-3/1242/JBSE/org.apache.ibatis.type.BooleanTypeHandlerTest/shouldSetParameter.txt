@@ -1,0 +1,10 @@
+@org.junit.Test(timeout = 120000)
+public void shouldSetParameter_Ex2_JBSE6() throws java.lang.Exception {
+    org.apache.ibatis.type.BooleanTypeHandlerTest.TYPE_HANDLER.setParameter(this.ps, 0, true, null);
+    org.mockito.Mockito.verify(this.ps).setBoolean(0, false);
+}
+@org.junit.Test(timeout = 120000)
+public void shouldSetParameter_Ex2_JBSE7() throws java.lang.Exception {
+    org.apache.ibatis.type.BooleanTypeHandlerTest.TYPE_HANDLER.setParameter(this.ps, 0, false, null);
+    org.mockito.Mockito.verify(this.ps).setBoolean(0, false);
+}

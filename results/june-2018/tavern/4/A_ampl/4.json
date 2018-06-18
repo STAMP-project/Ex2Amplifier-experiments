@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "fr.inria.stamp.MainTest",
+      "timeInMs": 2399,
+      "numberOfAmplifiedTestMethods": 1,
+      "numberOfTestMethodToBeAmplified": 1
+    }
+  ],
+  "projectName": "4"
+}

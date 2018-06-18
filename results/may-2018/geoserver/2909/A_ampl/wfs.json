@@ -1,0 +1,17 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.geoserver.wfs.TransactionCallbackWFS20Test",
+      "timeInMs": 75159,
+      "numberOfAmplifiedTestMethods": 6,
+      "numberOfTestMethodToBeAmplified": 6
+    },
+    {
+      "fullQualifiedName": "org.geoserver.wfs.TransactionCallbackWFS11Test",
+      "timeInMs": 50290,
+      "numberOfAmplifiedTestMethods": 6,
+      "numberOfTestMethodToBeAmplified": 6
+    }
+  ],
+  "projectName": "wfs"
+}

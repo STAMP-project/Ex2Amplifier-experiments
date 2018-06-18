@@ -1,0 +1,18 @@
+======= REPORT =======
+10 amplified test fails on the new versions.
+wrapEmbeddedNewlines_ZeroWidth_add10_remove115_remove584(com.squareup.javapoet.LineWrapperTest): expected:<[
+    ]opqrstuvwxy> but was:<[]opqrstuvwxy>
+zeroWidthNoWrap_add14991_remove15069_remove15374(com.squareup.javapoet.LineWrapperTest): expected:<[]> but was:<[fghij]>
+nospaceWrapMax_add13361_add13425_remove13753(com.squareup.javapoet.LineWrapperTest): expected:<[
+    ]fghijkfghijk> but was:<[]fghijkfghijk>
+nospaceWrapMax_add13361_remove13437_remove13758(com.squareup.javapoet.LineWrapperTest): expected:<[]> but was:<[fghijk]>
+nospaceWrapMax_add13361_remove13437_add13752(com.squareup.javapoet.LineWrapperTest): expected:<[
+    ]fghijkfghijk> but was:<[]fghijkfghijk>
+wrapEmbeddedNewlines_ZeroWidth_add10_remove121_remove500(com.squareup.javapoet.LineWrapperTest): expected:<[
+    ]opqrstuvwxy> but was:<[]opqrstuvwxy>
+zeroWidthNoWrap_add14991_remove15062_remove15383(com.squareup.javapoet.LineWrapperTest): expected:<[]> but was:<[fghij]>
+nospaceWrapMax_add13361_remove13447_remove13726(com.squareup.javapoet.LineWrapperTest): expected:<[]> but was:<[fghijk]>
+noWrapEmbeddedNewlines_ZeroWidth_add14018_remove14123_remove14555(com.squareup.javapoet.LineWrapperTest): expected:<[
+    ]opqrstuvwxyz> but was:<[]opqrstuvwxyz>
+noWrapEmbeddedNewlines_ZeroWidth_add14018_remove14129_remove14517(com.squareup.javapoet.LineWrapperTest): expected:<[
+    ]opqrstuvwxyz> but was:<[]opqrstuvwxyz>

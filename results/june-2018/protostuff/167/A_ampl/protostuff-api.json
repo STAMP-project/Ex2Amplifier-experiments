@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "io.protostuff.MyTestClass",
+      "timeInMs": 29870,
+      "numberOfAmplifiedTestMethods": 1,
+      "numberOfTestMethodToBeAmplified": 1
+    }
+  ],
+  "projectName": "protostuff-api"
+}

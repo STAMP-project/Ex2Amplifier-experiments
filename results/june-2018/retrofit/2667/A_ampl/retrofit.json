@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "retrofit2.RetrofitTest",
+      "timeInMs": 194629,
+      "numberOfAmplifiedTestMethods": 14,
+      "numberOfTestMethodToBeAmplified": 68
+    }
+  ],
+  "projectName": "retrofit"
+}

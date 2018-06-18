@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "io.protostuff.LowCopyProtobufOutputTest",
+      "timeInMs": 2433,
+      "numberOfAmplifiedTestMethods": 1,
+      "numberOfTestMethodToBeAmplified": 1
+    }
+  ],
+  "projectName": "protostuff-core"
+}

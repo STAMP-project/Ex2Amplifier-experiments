@@ -1,0 +1,6 @@
+@org.junit.Test(timeout = 120000)
+public void testBox_Ex2_JBSE3() throws java.lang.Exception {
+    org.apache.commons.math4.geometry.euclidean.twod.PolygonsSet box = new org.apache.commons.math4.geometry.euclidean.twod.PolygonsSet(0, 2, (-1), 1, 1.0E-10);
+    org.junit.Assert.assertEquals(4.0, box.getSize(), 1.0E-10);
+    org.junit.Assert.assertEquals(8.0, box.getBoundarySize(), 1.0E-10);
+}

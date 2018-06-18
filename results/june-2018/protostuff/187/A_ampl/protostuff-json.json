@@ -1,0 +1,11 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "io.protostuff.JsonUnknownFieldTest",
+      "timeInMs": 1517,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 4
+    }
+  ],
+  "projectName": "protostuff-json"
+}

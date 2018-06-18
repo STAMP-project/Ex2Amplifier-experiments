@@ -1,0 +1,3 @@
+======= REPORT =======
+1 amplified test fails on the new versions.
+test(io.protostuff.MyTestClass): expected:<[toto]> but was:<[<ByteString@4f65add3 size=4>]>

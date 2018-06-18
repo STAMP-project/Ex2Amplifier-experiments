@@ -1,0 +1,23 @@
+{
+  "classTimes": [
+    {
+      "fullQualifiedName": "org.apache.ibatis.jdbc.ScriptRunnerTest",
+      "timeInMs": 73456,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
+    },
+    {
+      "fullQualifiedName": "org.apache.ibatis.type.ByteTypeHandlerTest",
+      "timeInMs": 104865,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
+    },
+    {
+      "fullQualifiedName": "org.apache.ibatis.type.BooleanTypeHandlerTest",
+      "timeInMs": 22663,
+      "numberOfAmplifiedTestMethods": 0,
+      "numberOfTestMethodToBeAmplified": 0
+    }
+  ],
+  "projectName": "1242"
+}

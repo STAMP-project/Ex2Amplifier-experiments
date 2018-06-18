@@ -4,6 +4,51 @@
   "url": "git://github.com/square/javapoet.git",
   "pullRequests": [
     {
+      "id": 618,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "adced314c48865463594bf58022f509090eef7af",
+      "headUrl": "git://github.com/rluble/javapoet.git",
+      "headRef": "tests/type_use_annotations",
+      "headSha": "f4bacb55dda403384c70dd1566cce585afa0e23c"
+    },
+    {
+      "id": 608,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "b68e867d44e3a24e2d954fec83ce8a5170a4a03b",
+      "headUrl": "git://github.com/ronshapiro/javapoet.git",
+      "headRef": "598_dns",
+      "headSha": "c2c770c9260819e14ea3154ca7e4000a24d15995"
+    },
+    {
+      "id": 605,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "da2859b67f9098ac5c1c12aa64218c7e2dc1e63f",
+      "headUrl": "git://github.com/square/javapoet.git",
+      "headRef": "jwilson.0126.use_Z_in_methods",
+      "headSha": "354dd648be77e261c858567054114b1fee9f1467"
+    },
+    {
+      "id": 567,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "08c7148ab302a364517f993c0fda33b1dca7bfe6",
+      "headUrl": "git://github.com/ronshapiro/javapoet.git",
+      "headRef": "MethodSpec_addStatement_CodeBlock",
+      "headSha": "2c674b7e48a03d464034b9b338c990531676903a"
+    },
+    {
+      "id": 562,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "5f3b345be9bd8364268d6460424ae8cf59d087f0",
+      "headUrl": "git://github.com/PhilGlass/javapoet.git",
+      "headRef": "bugfix/generated_classname",
+      "headSha": "a59930298d4dac30b7533e53afa75b9fbb696e69"
+    },
+    {
       "id": 550,
       "baseUrl": "git://github.com/square/javapoet.git",
       "baseRef": "master",
@@ -11,6 +56,42 @@
       "headUrl": "git://github.com/baz8080/javapoet.git",
       "headRef": "baz8080/npe-messaging-in-methodspec",
       "headSha": "9ef7448a5040626cdd9ddbc69cb82a0e53183b62"
+    },
+    {
+      "id": 529,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "8ec1afab2fbe54daf9ea0e5b3d2f327192484c14",
+      "headUrl": "git://github.com/cconroy/javapoet.git",
+      "headRef": "named-faster",
+      "headSha": "01f7076cabdeb4444bf0606b4c88daf93a436af4"
+    },
+    {
+      "id": 526,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "4eda8d4a3639f7645e7125a45d183db4d22a50c4",
+      "headUrl": "git://github.com/kroepke/javapoet.git",
+      "headRef": "anon-inner",
+      "headSha": "035e00d526fdb609ffa1947222e2b4296a07e295"
+    },
+    {
+      "id": 524,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "89179ea493f852ed6b6b36ccde978e9ddc176ce0",
+      "headUrl": "git://github.com/benjamin-bader/javapoet.git",
+      "headRef": "null-in-superinterface-list",
+      "headSha": "16cd72b20ba9f36a184b170f01c4a4a1db80bdbd"
+    },
+    {
+      "id": 469,
+      "baseUrl": "git://github.com/square/javapoet.git",
+      "baseRef": "master",
+      "baseSha": "d06b2fe79ea1f62bae6e12c3ecaef25b3cbd1bd4",
+      "headUrl": "git://github.com/benjamin-bader/javapoet.git",
+      "headRef": "bb/fields-in-annotations",
+      "headSha": "1efac98929856ec9e47748fd67bfce2fde704e37"
     }
   ]
 }
